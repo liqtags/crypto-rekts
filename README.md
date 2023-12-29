@@ -1,6 +1,6 @@
 # A Knowledgebase About Crypto Rekts
 
-Each rekt has it's own page, you can click the click to see more info. 
+Each rekt has it's own page, you can click the link for each to see more info. 
 
 # Total Funds Lost:
 - $77,789,516,447.00
