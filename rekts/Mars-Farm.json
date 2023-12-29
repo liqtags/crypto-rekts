@@ -1,0 +1,51 @@
+{
+    "id": 62,
+    "project_name": "Mars Farm",
+    "title": "Mars Farm",
+    "description": "<p>The contract deployer minted tokens onto his wallet at:<br>https://bscscan.com/tx/0x152671f89b7d42fe59b52bd602f757bc55c36d749bb22dec9bcb8503909b1c7b<br><br>The contract deployer added initial liquidity at:<br>https://bscscan.com/tx/0x52037a40a612d1fd259daa937d0f260ee7f37d21410aefdee48c889c71d4b475<br><br>Liquidity was removed by the contract deployer at:<br>https://bscscan.com/tx/0xb74338b1d2e30a40a80748c6a9e4249c13082b5ba8ae6aea4a439801844ad986</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "MARS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa9ba5a49ae258788b5da7985926ad6c71beaf879",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e5d3173315a.jpeg",
+    "date": "2021-3-4",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://marsfarm.org/",
+    "webarchive_link": "https://web.archive.org/web/20210227155132/https://marsfarm.org/",
+    "twitter_link": "https://twitter.com/farm_mars",
+    "telegram_link": "https://t.me/marsfarm",
+    "our_post_link": null,
+    "funds_lost": 37645,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 62,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
