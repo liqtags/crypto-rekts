@@ -1,0 +1,61 @@
+{
+    "id": 2552,
+    "project_name": "THORChain",
+    "title": "THORChain",
+    "description": "<p>THORChain Exploiter 1 Address: https://etherscan.io/address/0x4b713980d60b4994e0aa298a66805ec0d35ebc5a<br><br>THORChain Exploiter 2 Wallet: https://etherscan.io/address/0x3a196410a0f5facd08fd7880a4b8551cd085c031<br><br>Contract attacker address:<br>https://etherscan.io/address/0x4a33862042d004d3fc45e284e1aafa05b48e3c9c<br><br>According to ThorChain\u2019s preliminary incident report, the bug was located within the ETH Bifrost (bridge) code:<br>https://gitlab.com/thorchain/thornode/-/blob/develop/bifrost/pkg/chainclients/ethereum/ethereum_block_scanner.go#L794<br><br></p><p>The code contains an over-ride loop, designed only for use in <u>vaultTransferEvent</u> transactions, which the hacker was able to manipulate. The hacker was able to wrap the router with their own contract, allowing them to access this over-ride.<br><br>The attacker drained liquidity in various coins:</p><p>- 2,500 ETH</p><p>- 57,975.33 SUSHI</p><p>- 8.7365 YFI</p><p>- 171,912.96 DODO</p><p>- 514.519 ALCX</p><p>- 1,167,216.739 KYL</p><p>- 13.30 AAVE<br><br>Ether were sent to the external address:<br>https://etherscan.io/address/0xace2d948fc7ea3bc49eee5526786d66d19bc470e&nbsp;</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "RUNE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3155ba85d5f96b2d030a4966af206230e46849cb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61151d3d17186.jpeg",
+    "date": "2021-7-15",
+    "scam_updates": [],
+    "proof_link": "https://thearchitect.notion.site/THORChain-Incident-07-15-7d205f91924e44a5b6499b6df5f6c210, https://www.rekt.news/thorchain-rekt/",
+    "website_link": "https://thorchain.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/thorchain",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4364612,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2552,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/THORChain_Final_Report.pdf",
+            "date": "2020-04-06T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
