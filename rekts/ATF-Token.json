@@ -1,0 +1,60 @@
+{
+    "id": 3461,
+    "project_name": "ATF Token",
+    "title": "ATF Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>OpenAI ATF token project rugpulled by the deployer, who removed liquidity worth 340,061 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OpenAI ATF is a BEP20 token trading on PancakeSwap. The token can't be confused with other token with the same name or symbol. The project experienced a significant liquidity removal. The deployer removed LP funds worth 340,061 $USD over nine transactions and swapped them for $WBTC. Part of the stolen assets remains in the deployers original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xed0d08a82f40e0ac03cbc418e84a6adf3d9aaf4c</p><p><br></p><p>Liquidity removal transaction example:</p><p>https://bscscan.com/tx/0x27e63ec2a791c1f7d54cf351b3563ee36537d1583476208fa8590e9bc30d88e4</p>",
+    "name_categories": "Token",
+    "token_name": "ATF",
+    "proof_archive_link": "https://archive.ph/yn27c",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xf830423378d0bad39f8d032cf5df7187abe72c1c",
+    "token_addresses": [
+        {
+            "address": "0xf830423378d0bad39f8d032cf5df7187abe72c1c",
+            "url": "https://bscscan.com/address/0xf830423378d0bad39f8d032cf5df7187abe72c1c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6430942196e7e.png",
+    "date": "2023-4-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1644452185856524290?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 340061,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3461,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
