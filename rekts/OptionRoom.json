@@ -1,0 +1,51 @@
+{
+    "id": 2786,
+    "project_name": "OptionRoom",
+    "title": "OptionRoom",
+    "description": "<p>OptionRoom has been affected due to the ChainSwap hack.<br><br>\"As such, we had no other way to withdraw and secure the community liquidity other than by selling into the pool. This enabled us to mitigate the financial damages of the hack, reducing a potential $800,000 loss into a $38,000 loss. All the funds recovered from the emergency actions we took were added back as liquidity on PancakeSwap, and all liquidity providers were recompensed directly to their wallets.\"</p>",
+    "name_categories": "Other",
+    "token_name": "ROOM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3c45a24d36ab6fc1925533c1f57bc7e1b6fba8a4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e70d92e7149.png",
+    "date": "2021-7-11",
+    "scam_updates": [],
+    "proof_link": "https://optionroom.medium.com/optionrooms-response-to-the-chainswap-hack-explained-4b52c45fbafe",
+    "website_link": "https://www.optionroom.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/option_room",
+    "telegram_link": "https://t.me/OptionRoom",
+    "our_post_link": null,
+    "funds_lost": 800000,
+    "funds_returned": 762003,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/OptionRoom",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2786,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
