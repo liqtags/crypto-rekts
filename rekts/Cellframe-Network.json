@@ -1,0 +1,60 @@
+{
+    "id": 3548,
+    "project_name": "Cellframe Network",
+    "title": "Cellframe Network",
+    "description": "<p><strong>Quick Summary</strong></p><p>Cellframe Network ($CELL) experienced a flash loan exploit on the Binance Smart Chain, resulting in a loss of 76,112 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CELL is a community BEP20 token of the Cellframe Network, trading on PancakeSwap. On June 1st, 2023, Cellframe Network was exploited via a flash loan attack that caused the price to drop -45%. The attacker successfully obtained a profit of 245.52 $BNB and approximately $76,112 USD. The exploit occurred due to an unverified source code deployed by the attacker in a single transaction.</p><p>The exploiter took out a flashloan from the DPP project and drained funds from PancakeV3Pool. All stolen assets were transferred to another EOA address where they currently remain.</p><p>The source of the problem is a smart contract that migrated old liquidity to new without taking into account changing spread between them during migration.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x2525c811ecf22fc5fcde03c67112d34e97da6079</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x8882b31f90f17f94a10e6c2f85dc629a4aaf9e70</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x943c2a5f89bc0c17f3fe1520ec6215ed8c6b897ce7f22f1b207fea3f79ae09a6</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x1e2a251b29e84e1d6d762c78a9db5113f5ce7c48</p>",
+    "name_categories": "Other",
+    "token_name": "CELL",
+    "proof_archive_link": "https://archive.ph/ZDYU5, https://archive.ph/h1RDV",
+    "technical_issue": null,
+    "token_address": "0xd98438889ae7364c7e2a3540547fad042fb24642",
+    "token_addresses": [
+        {
+            "address": "0xa2c1e0237bf4b58bc9808a579715df57522f41b2",
+            "url": "https://bscscan.com/address/0xa2c1e0237bf4b58bc9808a579715df57522f41b2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/647a0f750c810.jpg",
+    "date": "2023-6-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cellframenet/status/1664175717863522305, https://twitter.com/artemDeDotFi/status/1664103838331092993?s=20",
+    "website_link": "https://cellframe.net/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/cellframenet",
+    "telegram_link": "https://t.me/cellframe",
+    "our_post_link": null,
+    "funds_lost": 76112,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3548,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
