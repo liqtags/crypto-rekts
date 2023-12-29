@@ -1,0 +1,51 @@
+{
+    "id": 2905,
+    "project_name": "Electrum",
+    "title": "Electrum",
+    "description": "<p>The hacker setup a whole bunch of malicious servers.<br><br>The hacker's wallet:<br>https://www.blockchain.com/btc/address/1MkM9Q6xo5AHZkLv2sTGLYb3zVreE6wBkj</p><p><br></p><p>If someone's Electrum Wallet connected to one of those servers and tried to send a BTC transaction, they would see an official-looking message telling them to update their Electrum Wallet, along with a scam URL:<br>https://user-images.githubusercontent.com/29142493/50359293-8780b500-055c-11e9-8cfd-83b342edeffb.png<br><br>\"There is an ongoing phishing attack against Electrum users. Our official website is https://electrum.org Do not download Electrum from any other source.\" - Electrum stated.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c3bd869263.jpeg",
+    "date": "2018-12-27",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/phishing-attack-on-electrum-wallet-nets-hacker-almost-1-million-in-hours-report, https://www.reddit.com/r/CryptoCurrency/comments/a9yji3/electrum_wallet_hacked_200_btc_stolen_so_far/",
+    "website_link": "https://electrum.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ElectrumWallet",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 949000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/spesmilo/electrum",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2905,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
