@@ -1,0 +1,61 @@
+{
+    "id": 2698,
+    "project_name": "EVODeFi",
+    "title": "EVODeFi",
+    "description": "<p><strong>Quick Summary</strong><br>EvoDefi was exploited by attackers using a flash loan. The attacker made away with 455 $GEN roughly worth $1.8 million.<br><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">EvoDefi, a cross-chain platform offering a large suite of products on the BSC chain, Polygon and the multi-chain bridge was attacked, and the price of its token GEN fell from $3.81 to $1.28. A total of 455,576.855 GEN was lost, which is about $1M. Due to design faults in the update logic of the function in the MasterChef contract, the part of the reward that must be subtracted is not updated, allowing the attacker to arbitrage.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p><br></p><p>Attacker address: https://bscscan.com/address/0x8a0a1eb0bae23e4e95608e3aad7fa25b0d907c6c</p><p>Attacker contract: https://bscscan.com/address/0x1cb6d29c52fd993103eadd0c01209ba000e92459</p><p>Attack transaction: https://bscscan.com/tx/0x7c3b7f082a5c92b03a878ff5d7c7e645ce3bcd37901808b936b318c4f3cc3880</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "GEN",
+    "proof_archive_link": "https://medium.com/@Knownsec_Blockchain_Lab/knownsec-blockchain-lab-evodefi-attack-event-analysis-e1cba8a789ce",
+    "technical_issue": null,
+    "token_address": "0x9aa18a4e73e1016918fa360eed950d9580c9551d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/619e446167ebf.jpeg",
+    "date": "2021-6-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://evodefi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/evolution_bsc",
+    "telegram_link": "https://t.me/evolution_bsc",
+    "our_post_link": null,
+    "funds_lost": 1735747,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/darwin-sudo",
+    "git_hub_contract_link": "https://github.com/darwin-sudo/evolution",
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2698,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/TechRateAudit.pdf",
+            "date": "2021-04-01T00:00:00.000Z",
+            "partner": {
+                "id": 85,
+                "name": "Tech Rate",
+                "logo_link": "safe/files/partner/logo/6140a0eded7cc.jpeg"
+            }
+        }
+    ]
+}
