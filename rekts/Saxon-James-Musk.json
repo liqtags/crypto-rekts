@@ -1,0 +1,51 @@
+{
+    "id": 3122,
+    "project_name": "Saxon James Musk",
+    "title": "Saxon James Musk",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $SJMUSK token was rugpulled by its team. The team created an SJMUSK/WBNB pair to make their token tradable and dumped the $SJMUSK token for a profit of $25.5k.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Scam Alert</strong></p><p style=\"margin:0cm;background:white;\">Projects $SJMUSK and $<span data-sheets-userformat='{\"2\":14849,\"3\":{\"1\":0},\"12\":0,\"14\":{\"1\":2,\"2\":0},\"15\":\"Arial\",\"16\":11}' data-sheets-value='{\"1\":2,\"2\":\"AI DAY: Part 2\"}' style=\"font-size:11pt;font-family:Arial;font-style:normal;\">AI DAY: Part 2</span> are related. The scammer addresses involved in this rugpulls:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0x53acdc0ac1206002d3e60facd7cf957359e1287f</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0xc37f9554d26c76cbeff796fb9595b8d469177f03</p><p style=\"margin:0cm;background:white;\">This team has many other projects on which they scam people. Stay safe out there!</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The creator of the token deployed the contract to the network, where 7B tokens were sent to the contract that created a pair of liquidity on PancakeSwap:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0xbc4d09bd7b097be1eea0ad6a79460bfb64bb02c4a00db6e4b2bd831b78bfe35e</p><p data-v-51e0c2ec=\"\">Then a BNB/SJMUSK pair was created through the contract, from 7B $SJMUSK and 100 $BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x36ecd286a85330c2194615c7e7afa1df5e21e4d34ca8e1a51b0d77585e212a08</p><p data-v-51e0c2ec=\"\">When investors invested enough funds in the token, they exchanged &lt;10M$SJMUSK for 179$BNB, taking a profit of 79$BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x7bd05f4bf44ea8ef2b5ee51b220b569609798691e17fbf94de4869ab4d8b2098</p><p data-v-51e0c2ec=\"\">then the funds were sent further to other addresses in order to continue scamming people.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">- Scammer address (A), token creator: https://bscscan.com/address/0x53aCDc0ac1206002d3E60FAcD7Cf957359E1287F</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Transactions:</p><p style=\"margin:0cm;background:white;\">- Creating lp: https://bscscan.com/tx/https://bscscan.com/tx/0x36ecd286a85330c2194615c7e7afa1df5e21e4d34ca8e1a51b0d77585e212a08</p><p style=\"margin:0cm;background:white;\">- Swapping $SJMUSK to $BNB taking profit, and destructing contracts: https://bscscan.com/tx/0x7bd05f4bf44ea8ef2b5ee51b220b569609798691e17fbf94de4869ab4d8b2098</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Contracts:</p><p style=\"margin:0cm;background:white;\">Liquidity creator: https://bscscan.com/address/0x18879682b46573c319d50b046f336c166e8c0b03</p><p style=\"margin:0cm;background:white;\">Token contract: https://bscscan.com/address/0xe0b9d4146aad6936cbfcbe4dae47e34aab96b093</p><p style=\"margin:0cm;background:white;\">Contract 3: https://bscscan.com/address/0x47e1903eda3f269eb5a87ecafa77af4aaedc8494</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Smart-Contract Abilities</strong></p><p style=\"margin:0cm;background:white;\">+ It is possible to send $BNB to the address of the token, which will be sent to the address of the token deployer.</p>",
+    "name_categories": "Token",
+    "token_name": "SJMUSK",
+    "proof_archive_link": "https://web.archive.org/web/20220811095804/https://twitter.com/CertiKAlert/status/1556151766076497921",
+    "technical_issue": null,
+    "token_address": "0xE0b9d4146AaD6936cBfcBE4dAE47e34aAb96b093",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62f4d35bef7a7.png",
+    "date": "2022-8-7",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x353e556d3c745f4193d18cb7dec7f084900fbc52",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 25500,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3122,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
