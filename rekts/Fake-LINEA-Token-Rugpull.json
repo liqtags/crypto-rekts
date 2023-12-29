@@ -1,0 +1,60 @@
+{
+    "id": 3746,
+    "project_name": "LINEA",
+    "title": "Fake LINEA Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>LINEA copycat token was rugpulled, the scammer removed liquidity worth 740,809 USD from UniSwap pool on Oct 25, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LINEA is a copycat ERC20 token trading on UniSwap and can't be confused with the legitimate project. The deployer manipulated the token price by creating fake transactions and removed liquidity from the UniSwap LP pool, which also served as the token contract. The stolen funds, amounting to 740,809 USD worth 403.89 WETH, were transferred through the Tornado Cash mixer, making the funds difficult to trace.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x5Ac6737bD66d870cf52e51d95976E59C9b6DAC99</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x4ab6ec871ee08d408f1e5af97450af37b052e8df633074f1687d78c9eb6e4ced</p><p><br></p><p>Tornado Cash Deposit Transactions:</p><p>https://etherscan.io/tx/0x7969c1a06b2e8094c11cb651b2bc3bb38400c552042e1475e63fbaec2eb8be03</p><p>https://etherscan.io/tx/0xe365eb799af17ee813fe75a159ebd7cd02f467f076ed2cfa0b134ecae29b1b00</p>",
+    "name_categories": "Token",
+    "token_name": "L",
+    "proof_archive_link": "https://archive.ph/g5xzq",
+    "technical_issue": null,
+    "token_address": "0x00000000fEB6A772307C6aA88AB9D57b209aCb18",
+    "token_addresses": [
+        {
+            "address": "0x00000000fEB6A772307C6aA88AB9D57b209aCb18",
+            "url": "https://etherscan.io/address/0x00000000fEB6A772307C6aA88AB9D57b209aCb18",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653a4a8bf2045.png",
+    "date": "2023-10-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1717223534206894169?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 740809,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3746,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
