@@ -1,0 +1,51 @@
+{
+    "id": 3469,
+    "project_name": "Umami finance",
+    "title": "Umami finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Umami Finance's native token, UMAMI, dropped nearly 50% in value after changes to the mechanism of the token, prompting dismay among community members. The CEO has dumped all of his tokens, leaving crypto hopefuls stranded.</p><p><br></p><p><strong>Details of the Exploit</strong>&nbsp;</p><p>Umami Finance, a decentralized finance (DeFi) protocol, made changes to how its value accrual token worked, causing a drop in the price of its native token, UMAMI. The move led to community members expressing their disappointment. An Umami developer stated that team members had resigned from Umami Labs LLC, but the move was to push Umami \"back towards decentralization and a decentralized autonomous organization (DAO) structure.\" The CEO of Umami Finance dumped all of his tokens via his address, swapping UMAMI holdings for hundreds of thousands of dollars. Blockchain data on Etherscan shows that the owner of the wallet address sold the tokens. Umami traded at $11 on Thursday, down from Wednesday's high of $22. The protocol offered yield products tailored to financial institutions, aiming to provide low-risk strategies that yield better rewards than those offered by highly-regulated centralized finance platforms. However, Umami temporarily stopped all payouts to token holders in early February, citing regulatory considerations, causing some discord among community members.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>CEO's wallet address on Etherscan: 0x21dF3E7371A58eB0e2248F1362eB5fa01fC9B34F</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64367dce07b65.jpg",
+    "date": "2023-2-9",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/web3/2023/02/09/umami-finance-ceo-dumps-all-tokens-after-week-long-drama-leaving-crypto-hopefuls-stranded/",
+    "website_link": "https://umami.finance/",
+    "webarchive_link": "https://archive.ph/6kwzc",
+    "twitter_link": "https://twitter.com/UmamiDao",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3469,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
