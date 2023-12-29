@@ -1,0 +1,51 @@
+{
+    "id": 2679,
+    "project_name": "Indexed Finance",
+    "title": "Indexed Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>The DEFI5 and CC10 index tokens were exploited using flash loans, resulting in a loss of approximately $156 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker targeted the DEFI5 and CC10 index tokens using flash loans of other assets in the pool to buy out UNI, which decreased the extrapolated value due to the delay in updating UNI\u2019s weight decrease. The pool was valued at 29,851 SUSHI ($300k) after executing the updateMinimumBalance function with the gamed pool value. The attacker then deposited small amounts of SUSHI into the pool, resulting in a massively inflated amount of DEFI5 tokens. Approximately $156m worth of flash swaps in UNI, AAVE, COMP, CRV, MKR, SNX were used for dumping tokens in the pool, minting new DEFI5 tokens, and then burning the DEFI5 for all of the underlying assets. The same scenario was used for the CC10 index pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xba5ed1488be60ba2facc6b66c6d6f0befba22ebe</p><p><br></p><p>The exploiter contract:</p><p>https://etherscan.io/address/0xfbc2e6b188013fc5eacd9944e6b8ced2c467464a</p><p><br></p><p>The attack targeted the DEFI5 index token at:</p><p>https://etherscan.io/tx/0x44aad3b853866468161735496a5d9cc961ce5aa872924c5d78673076b1cd95aa</p><p><br></p><p>and CC10 index token at:</p><p>https://etherscan.io/tx/0xbde4521c5ac08d0033019993b0e7e1d29b1457e80e7743d318a3c27649ca4417</p>",
+    "name_categories": "Other",
+    "token_name": "NDX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x86772b1409b61c639eaac9ba0acfbb6e238e5f83",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/616ebd3539e6d.jpeg",
+    "date": "2021-10-14",
+    "scam_updates": [],
+    "proof_link": "https://ndxfi.medium.com/indexed-attack-post-mortem-b006094f0bdc, https://rekt.news/indexed-finance-rekt/",
+    "website_link": "https://indexed.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ndxfi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 16000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2679,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
