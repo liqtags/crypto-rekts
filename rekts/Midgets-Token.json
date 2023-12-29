@@ -1,0 +1,60 @@
+{
+    "id": 3572,
+    "project_name": "Midgets Token",
+    "title": "Midgets Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Midgets ($MIDGETS) project was rugpulled by its deployer, losing 40,842 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The $MIDGETS token, trading on the Ethereum blockchain, experienced a liquidity removal from its token contract by its deployer. The deployer exploited a privileged function to remove 24.52 $ETH, which was valued at approximately 40,842 $USD at the time. The stolen funds were then transferred to another EOA before eventually being sent to Binance Exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x82954D4CdF73333ad35FAbFf845daB5Bd84DA54b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x099925648f199793a7328382ba3ec1bf2158150bdffe494c74aec5e872683cbb</p><p><br></p><p>Funds Moving Transactions:</p><p>https://etherscan.io/tx/0x276d1df995403fe2f3d4705f3c6ff3471789de54164abd984fb2db0679438739</p><p>https://etherscan.io/tx/0x44c5389ffd1162c00f55cc7e5a08620b816f95ce02a51e7a676270196795f91f</p>",
+    "name_categories": "Token",
+    "token_name": "MIDGETS",
+    "proof_archive_link": "https://archive.ph/gvGWr",
+    "technical_issue": null,
+    "token_address": "0x917216459430b99034767416c21f54f82abb5db6",
+    "token_addresses": [
+        {
+            "address": "0x917216459430b99034767416c21f54f82abb5db6",
+            "url": "https://etherscan.io/address/0x917216459430b99034767416c21f54f82abb5db6",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64957985d0cc3.png",
+    "date": "2023-6-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1669226471741612033?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40842,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3572,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
