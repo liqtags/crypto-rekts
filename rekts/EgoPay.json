@@ -1,0 +1,51 @@
+{
+    "id": 2942,
+    "project_name": "EgoPay",
+    "title": "EgoPay",
+    "description": "<p>Third-party payment processor EgoPay suffered a hack, which was confirmed in a company's blog post:<br>https://web.archive.org/web/20150126160707/https://blog.egopay.com/further-egopay-updates/<br><br>EgoPay explained: \"False values were made available in the merchants platform, when no actual value was transmitted in EgoPay. This hacker then proceeded to convert this fake value into irreversible currencies all within a one-hour window. These merchants believed that this value was in their EgoPay account, but unfortunately it was not.\"<br><br>A number of staff members were then suspended as it was concluded that someone from within the company had perpetrated the hack.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f00b811552.png",
+    "date": "2015-1-23",
+    "scam_updates": [],
+    "proof_link": "https://web.archive.org/web/20150126160707/https://blog.egopay.com/further-egopay-updates/, https://www.coindesk.com/markets/2015/01/23/payment-processor-egopay-confirms-hack-insider-suspected/",
+    "website_link": "http://egopay.com/",
+    "webarchive_link": "https://web.archive.org/web/20140317183211/https://www.egopay.com/",
+    "twitter_link": "https://twitter.com/EgoPay",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2942,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
