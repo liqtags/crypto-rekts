@@ -1,0 +1,60 @@
+{
+    "id": 3744,
+    "project_name": "QuillDex",
+    "title": "QuilDex Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Quill ERC20 Layer 2 token project rugpulled, with 30,000 USD worth of 17 WETH liquidity removed from the pool on Oct 24, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Quill, an ERC20 Layer 2 token for Ethereum, was exit scammed by its deployer. The scammer received tokens by interacting with the contract and, in the same transaction, withdrew the liquidity pool. The attacker removed 17 WETH, which is equivalent to approximately 30,000 USD, causing significant losses to the project's participants.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://blockscout.scroll.io/address/0xd217Cff34bBDa5C7D88e179bAADeBF96D9D9E150</p><p><br></p><p>Scammer Address:</p><p>https://blockscout.scroll.io/address/0x8C4bC23f4dc943bdEC7E0358D7554390f5f895d7</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://blockscout.scroll.io/tx/0xadaf85a169f16e56f1da5ed7c41ceeaeecd7d6b718cc573b2b93b9d877a7266a</p><p><br></p><p>Interacted Contract:</p><p>https://blockscout.scroll.io/address/0x7E2F79b816F584D1268D470c94989F180253B825</p><p><br></p><p>Funds Holder as of Oct 25, 2023:</p><p>https://blockscout.scroll.io/address/0x80C67432656d59144cEFf962E8fAF8926599bCF8</p>",
+    "name_categories": "Token",
+    "token_name": "Quill",
+    "proof_archive_link": "https://archive.ph/Bp4lg",
+    "technical_issue": null,
+    "token_address": "0x786214Ee3EB0fE1d96AbBbaaADb06E869036f862",
+    "token_addresses": [
+        {
+            "address": "0x786214ee3eb0fe1d96abbbaaadb06e869036f862",
+            "url": "https://scrollscan.com/address/0x786214ee3eb0fe1d96abbbaaadb06e869036f862",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653983f35780c.jpg",
+    "date": "2023-10-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1716767148671127740",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 30000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3744,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
