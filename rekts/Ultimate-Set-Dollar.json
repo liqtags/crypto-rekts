@@ -1,0 +1,51 @@
+{
+    "id": 110,
+    "project_name": "Ultimate Set Dollar",
+    "title": "Ultimate Set Dollar",
+    "description": "<p>The minter of the token contract is an upgradable proxy contract. Upgradable proxy was used as MasterChef contract: https://etherscan.io/address/0x61ee8806891e9411722ad20c1e30be7da8ad933d<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x76950cb779dc80951a64538edadc3f9bd7bd27aa1e3c2fb5137a6e88f4635e81<br><br>The unverified contract addressed the proxy contract by calling <u>rebase</u>() function 12 times:<br>https://etherscan.io/address/0x4d01e88831280fd9d5b8d8c3e4f9e33d02cd7d76#tokentxns<br><br>This led to the token mint directly onto the unverified contract, which finally sold minted tokens at:<br>https://etherscan.io/tx/0xd13883590ceaedb3ac6249d898e1823e16971c04b4fa9fef0e900a7bb5cb4b63<br><br>The proxy contract was able to mint tokens by calling <u>advance</u>() function:<br>https://etherscan.io/tx/0xa02b66f1e5a339aa88793561f47968cc662434b7c8a09b870ca73c465ca3dd87</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "ULD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0473033c26ba5e5055b1e2d9fe6916d95922de3b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ad0d5058f.png",
+    "date": "2021-1-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1344933208832368647",
+    "website_link": "https://ultimateset.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ULDfinance",
+    "telegram_link": "https://t.me/UltimateSetDollar",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 110,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
