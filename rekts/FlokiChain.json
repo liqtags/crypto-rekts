@@ -1,0 +1,68 @@
+{
+    "id": 3222,
+    "project_name": "FlokiChain",
+    "title": "FlokiChain",
+    "description": "<p><strong>Quick Summary</strong></p><p>FlokiChain token was rugpulled by the initial token holder. The scammer profited 111,162 $USD in total.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FlokiChain is a BEP20 token trading on PancakeSwap. The initial token holder removed liquidity from the pool and gained funds for the total amount of 111,162 $USD. Consequently, the scammer swapped gained funds for 407 $BNB and sent to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x19c943b6557a17176b4ed8c2d6081c7e71a5fd35</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x9df83e402552a70a6ce1ebba67bcd6defdf17b27ed7c0d31bab7a4e74263044a</p>",
+    "name_categories": "Token",
+    "token_name": "FC",
+    "proof_archive_link": "https://archive.ph/6NP9Z",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xa48d94e1cca09c4867d710cd24f002cb6aa196d3",
+    "token_addresses": [
+        {
+            "address": "0xa48d94e1cca09c4867d710cd24f002cb6aa196d3",
+            "url": "https://bscscan.com/address/0xa48d94e1cca09c4867d710cd24f002cb6aa196d3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x4D02F05d52E003281A5036D05364dD596a523F9d",
+            "url": "https://bscscan.com/address/0x4D02F05d52E003281A5036D05364dD596a523F9d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63493f38415b2.png",
+    "date": "2022-10-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1579801696712085504",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 111162,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3222,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
