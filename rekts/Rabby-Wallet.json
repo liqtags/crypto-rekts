@@ -1,0 +1,84 @@
+{
+    "id": 3216,
+    "project_name": "Rabby Wallet",
+    "title": "Rabby Wallet",
+    "description": "<p><strong>Quick Summary</strong></p><p>Rabby Wallet was hacked on multiple chains. The hacker already was able to withdraw 114 $ETH and 179 $BNB through Tornado Cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Rabby Wallet is a multichain wallet. The project was hacked within a month after its release. The attacker exploited the user's token approvals and transferred their funds using deployed smart contract. The total profit of the hacker reached 194,500 $USD at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xb687550842a24d7fbc6aad238fd7e0687ed59d55</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x485249870631164184b128d94abc2db4289f059b</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x3d04d6621efbeecadc5f0405cd4fea05e95a6d71ec2c6539e12f44c8e47ac71c</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.is/ztVlL",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x6eb211caf6d304a76efe37d9abdfaddc2d4363d1",
+            "url": "https://etherscan.io/address/0x6eb211caf6d304a76efe37d9abdfaddc2d4363d1",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xf756a77e74954c89351c12da24c84d3c206e5355",
+            "url": "https://bscscan.com/address/0xf756a77e74954c89351c12da24c84d3c206e5355",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xf23b0f5cc2e533283ea97f7b9245242b8d65b26b",
+            "url": "https://polygonscan.com/address/0xf23b0f5cc2e533283ea97f7b9245242b8d65b26b",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        },
+        {
+            "address": "0x509f49ad29d52bfaacac73245ee72c59171346a8",
+            "url": "https://snowtrace.io/address/0x509f49ad29d52bfaacac73245ee72c59171346a8",
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6346d8b14b6c4.jpg",
+    "date": "2022-10-11",
+    "scam_updates": [],
+    "proof_link": "https://web3isgoinggreat.com/?id=rabby-swap-exploited-a-month-after-launch",
+    "website_link": "https://rabby.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Rabby_io",
+    "telegram_link": "https://t.me/rabby_io",
+    "our_post_link": null,
+    "funds_lost": 194500,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/seFBCWmUre",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3216,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
