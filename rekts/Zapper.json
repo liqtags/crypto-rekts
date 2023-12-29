@@ -1,0 +1,51 @@
+{
+    "id": 2742,
+    "project_name": "Zapper",
+    "title": "Zapper",
+    "description": "<p>The team of whitehat hackers (AndreiKei and VV) identified a loophole in the old Polygon bridge smart contract, which could lead to the possible exploit and lost of the users funds.<br><br>The vulnerability allows possible attacker to transfer tokens from users\u2019 accounts, for which they had previously granted unlimited approval, via the Zap. This was possible due to a function, which executes external swaps and Zaps (via 0x, Paraswap, etc), accepting non-validated <u>calldata</u>:<br>(bool success, ) = swapTarget.call.value(valueToSend)(swapCallData)<br><br>The Zap lacked an appropriate pause function which meant that the Zapper team was unable to prevent the vulnerability from being exploited.<br><br>Zapper team together with the team of whitehat hackers (AndreiKei and VV) executed whitehat hack to withdraw funds from the old contract to the safe distribution contract, where users could successfully reclaim their funds.<br><br>Deprecated Polygon bridge:<br>https://etherscan.io/address/0x1f0d1927498fbd4f9e8558704ce5b658929527ec<br><br>Smart contract used for the exploit:<br>https://etherscan.io/address/0x7284e5cd49f47da42d355bcb5ab64fbb45d7eff6<br><br>Received funds were transferred to the safe smart contract for further distribution to the affected users:<br>https://etherscan.io/address/0x63cd1f35063e1bdd01355fb2bee4ecee05d94b84</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61c0886bdcdb0.jpeg",
+    "date": "2021-6-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/zapper_fi/status/1404429179794362369?s=21, https://medium.com/zapper-protocol/post-mortem-polygon-bridge-vulnerability-cb8029275622",
+    "website_link": "https://zapper.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/zapper_fi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2500000,
+    "funds_returned": 2500000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/TuTdVkh",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2742,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
