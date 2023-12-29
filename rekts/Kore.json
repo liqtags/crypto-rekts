@@ -1,0 +1,51 @@
+{
+    "id": 495,
+    "project_name": "Kore",
+    "title": "Kore",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "KORE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa866f0198208eb07c83081d5136be7f775c2399e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60ec0f6a7e5ef.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://cryptoslate.com/two-multi-million-dollar-ethereum-defi-project-forks-just-rug-pulled-their-investors/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 495,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
