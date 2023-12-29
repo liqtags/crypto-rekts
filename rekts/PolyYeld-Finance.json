@@ -1,0 +1,51 @@
+{
+    "id": 2589,
+    "project_name": "PolyYeld Finance",
+    "title": "PolyYeld Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>PolyYeld finance introduced a transfer fee, which was inconsistent with its masterchef contract. The resulting vulnerability was exploited by an attacker for $250k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>PolyYeld Finance is a yield aggregator protocol on the Polygon network. PolyYield introduced the $xYELD token, a deflationary token in order to support its yield aggregator services. A fee was applied on the transfers of the $xYELD token. The PolyYeld Masterchef contract was not designed to support this token type, which created an exploit opportunity. After a series of deposits and withdraws, the $xYELD balance of the Masterchef became 1 WEI. The calculation of the $YELD rewards were based on the xYELD balance of the pool. <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>This referral mechanism generated &nbsp;$YELD 49B tokens to the attackers address. The attacker dumped a part of his balance in order to receive $ETH 123. The funds were then bridged and transferred through Tornado.cash.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:<br>https://polygonscan.com/address/0xa4bc39ff54e1b682b366b57d1f6b114a829f5c01</p><p><br></p><p>The transaction behind the hack:<br>https://polygonscan.com/tx/0x3c143d2a211f7448c4de6236e666792e90b2edc8f5035c3aa992fd7d7daca974<br><br><br></p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "YELD",
+    "proof_archive_link": "https://archive.is/Hmxfb, https://archive.is/wDb3T",
+    "technical_issue": null,
+    "token_address": "https://polygonscan.com/token/0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61278f424008d.jpeg",
+    "date": "2021-7-28",
+    "scam_updates": [],
+    "proof_link": "https://polyyeldfinance.medium.com/moving-forward-yeld-compensation-plan-17be27fab944, https://twitter.com/peckshield/status/1420272942030594048, https://twitter.com/0xPaladinSec/status/1420223729901076489",
+    "website_link": "https://app.polyyeld.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PolyYeldFinance",
+    "telegram_link": "https://t.me/polyyeld",
+    "our_post_link": null,
+    "funds_lost": 250000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2589,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
