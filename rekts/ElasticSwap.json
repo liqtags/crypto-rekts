@@ -1,0 +1,77 @@
+{
+    "id": 3297,
+    "project_name": "ElasticSwap",
+    "title": "ElasticSwap",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 13th of December, 2022, Elastic Swap was hacked on the Avalanche and Ethereum Chain using a calculation issue. The malicious actor stole worth around 850k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack was possible in the reason of using two different logic of calculation in the exploited smart contracts. Functions addLiquidity and removeLiquidity have different logic of accounting. While the first one uses constant variables the second one is using dynamic pool balance calculation. This led to the possibility of price manipulation after the pool unbalancing.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><strong>Avalanche:</strong></p><p>Attacker address:</p><p>https://snowtrace.io/address/0x3bdf01ed32f07e8e843163b5d478d4502f5743cd</p><p>https://snowtrace.io/address/0x25fde76a52d01c83e31d2d3d5e1d2011ff103c56</p><p>https://snowtrace.io/address/0xdd8429b85a92b35712659bd945462a41bfd60cbd</p><p><br></p><p>Exploit tx:</p><p>https://snowtrace.io/tx/0x782b2410fcc9449ead554a81f78184b6f9cca89f07ea346bc50cf11887cd9b18</p><p><br></p><p><strong>Ethereum:</strong></p><p>Exploit tx:</p><p>https://etherscan.io/tx/0xc2d86035f20389088b4277de6f13ca3f8bb819381b95e58359a22d0ad6f5cbda</p><p>Front-run tx:</p><p>https://t.co/YGMaRQj6Lk</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "TIC",
+    "proof_archive_link": "https://archive.ph/wip/raRih, https://archive.ph/wip/mHua9",
+    "technical_issue": null,
+    "token_address": "0x75739a693459f33b1fbcc02099eea3ebcf150cbe",
+    "token_addresses": [
+        {
+            "address": "0xa0c5aA50cE3cc69b1c478d8235597bC0c51DfDAb",
+            "url": "https://etherscan.io/address/0xa0c5aa50ce3cc69b1c478d8235597bc0c51dfdab",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x4ae1da57f2d6b2e9a23d07e264aa2b3bbcaed19a",
+            "url": "https://snowtrace.deth.net/address/0x4ae1da57f2d6b2e9a23d07e264aa2b3bbcaed19a#code",
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63aaead66aeda.png",
+    "date": "2022-12-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1602848642066366466, https://blog.solidityscan.com/elasticswap-hack-analysis-erroneous-calculations-bug-8dac10fb1b98https://quillaudits.medium.com/decoding-elastic-swaps-850k-exploit-quillaudits-9ceb7fcd8d1a",
+    "website_link": "https://elasticswap.org/",
+    "webarchive_link": "https://archive.vn/wip/cSkcV",
+    "twitter_link": "https://twitter.com/ElasticSwap",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 850000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/elasticswap",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/elasticswap",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3297,
+            "networks": {
+                "id": 1,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        },
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3297,
+            "networks": {
+                "id": 43114,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
