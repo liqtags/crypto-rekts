@@ -1,5 +1,5 @@
 {
-    "id": 805,
+    "id": 787,
     "project_name": "Elon Payment Ecosystem",
     "title": "Elon Payment Ecosystem",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "ELONPAY",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x4f46d438a1e88af4543742a6399c74c5e36a05bb",
+    "token_address": "0x12510e575bd040c66bbc1d173ee289b9cb6dc392",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60edfb8a2cfb1.png",
+    "logo_link": "safe/files/scamDatabase/logo/60edf354de360.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 805,
+            "scam_database_id": 787,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
