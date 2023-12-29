@@ -1,0 +1,60 @@
+{
+    "id": 3603,
+    "project_name": "Serial Scammer",
+    "title": "Serial Scammer",
+    "description": "<p><strong>Quick Summary</strong></p><p>A single wallet executed numerous rugpulls across 31 tokens, amassing approximately 547,066 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Ethereum-based Serial Scammer operated a MEME coin factory, creating a total of 31 tokens. Each token created contained a privileged minting function. The scammer would add liquidity to facilitate purchases and then drain all the $WETH from the pool just a few days later. The funds lost were calculated as the current holdings of the scammer, totaling 255.16 $ETH and 33 $WETH.</p><p>The scammer utilized a token factory they themselves deployed, allowing them to generate these fraudulent tokens. A closer examination reveals a similar pattern in all the tokens created by the scammer. One such instance involved the removal of liquidity using a specific token, resulting in a substantial withdrawal of approximately 68k USD worth of ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.com/address/0x6007d8d700004635340a40b990a4057a16531c2a</p><p><br></p><p>Example of Token Creation:</p><p>https://etherscan.com/tx/0x68f142ef1ce477e9daaaca6f63835ecf40ea5a0c21a42172c31f60f9d6f4f2cc</p><p><br></p><p>Example of Draining Transaction:</p><p>https://etherscan.com/tx/0xc9c2140764ce57f4b319fd367c2cdc266bf5eb9131334237bfc89c480806758a</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/FnCLk",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x5cfa8d8454ba3a981e524f58851b0090f9ada3e0",
+            "url": "https://etherscan.com/address/0x5cfa8d8454ba3a981e524f58851b0090f9ada3e0",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64b712ffbb652.jpg",
+    "date": "2023-7-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1679605620922634241",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 547066,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3603,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
