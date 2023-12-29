@@ -1,0 +1,60 @@
+{
+    "id": 3808,
+    "project_name": "Abattoir of Zir",
+    "title": "DIABLO Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DIABLO token rugpull occurred as the deployer removed liquidity worth 234,639 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DIABLO is an ERC20 token trading on UniSwap. On Dec 06, 2023, the deployer removed liquidity from the LP pool, stealing 104.73 WETH equivalent to 234,639 USD. The stolen funds were then transferred to another EOA address and subsequently distributed among multiple addresses using Disperse.app.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x1bA6969b6236bFA500aB18cb6810b2A8C1Fbf2Df</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x4649F62750775220f33E0376a3CceB82f69f9527</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x5dcf195b09c0352efbc9f411cf5533940e2658d62255c000fb7af8bb75a0ec00</p>",
+    "name_categories": "Token",
+    "token_name": "DIABLO",
+    "proof_archive_link": "https://archive.ph/S8TZ4",
+    "technical_issue": null,
+    "token_address": "0x1a59BE240aA89685145967322dfAb3EBA7e574dB",
+    "token_addresses": [
+        {
+            "address": "0x1a59be240aa89685145967322dfab3eba7e574db",
+            "url": "https://etherscan.io/address/0x1a59be240aa89685145967322dfab3eba7e574db",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6571700a46185.png",
+    "date": "2023-12-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1732591823531741189",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 225553,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3808,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
