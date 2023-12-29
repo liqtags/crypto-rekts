@@ -1,0 +1,61 @@
+{
+    "id": 3016,
+    "project_name": "QAN Platform",
+    "title": "QAN Platform",
+    "description": "<p><strong>Quick Summary</strong></p><p>QANplatform Bridge was exploited on the Ethereum chain. The attacker stole 704,000 $USD using a smart contract vulnerability.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On May 18 QANplatform Bridge was affected. The attacker took advantage of the vulnerability of the bridgeWithdraw function, then exchanged tokens using Uniswap. Approximately 368 ETH was laundered via TornadoCache.</p><p><br></p><p>Attacker transferred from (0x1c8465662cAA8005ed41430e433E399c699cbcE2) to (0xc6d3F752A65Df7fb937B25C55Bea6Ae7E70f07Ce, 0x189e078EF2c61c2b11F6B0F6C6d6Fe645d1ad995,</p><p>0x76b64Ff33dcdFaf4DCf10ec8E7261BedD5E912f2) in total 368 ETH, here is the transaction:</p><p><br></p><p>Transaction 1 (325 ETH): https://etherscan.io/tx/0xbe9159b129cc4ed7926fb70bbef1615587a4e220a7fd73d1ee32ca534283215e</p><p><br></p><p>Transaction 2 (18 ETH): https://etherscan.io/tx/0xe1c342cd4f9e35e94a6e604316aa91ee278fdf9d521281b128d8f6867c94db99</p><p><br></p><p>Transaction 3 (25 ETH): https://etherscan.io/tx/0x97a7d4f165d74e60c06317f2bcd8fb20d34ab0eaab0cecaf5f044a79966363b9</p><p><br></p><p><strong>Block Data Reference</strong><br>Addresses involved in this exploit:<br>https://etherscan.io/address/0xc6d3f752a65df7fb937b25c55bea6ae7e70f07ce<br>https://etherscan.io/address/0x189e078ef2c61c2b11f6b0f6c6d6fe645d1ad995</p><p><br></p><p>Victim address: https://bscscan.com/address/0xAAA4940aA878D932D3482Bf1DE332E1D50c15AaA</p>",
+    "name_categories": "Token",
+    "token_name": "QANX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6347e4e45012b.jpg",
+    "date": "2022-5-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/QANplatform/status/1527071064454578183, https://twitter.com/QANplatform/status/1527071064454578183",
+    "website_link": "https://qanplatform.com/en",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/QANplatform",
+    "telegram_link": "https://t.me/QANplatform",
+    "our_post_link": null,
+    "funds_lost": 704590,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/QANplatform",
+    "git_hub_contract_link": "https://github.com/QANplatform/qanx-bridge",
+    "discord": "https://discord.com/invite/PYBxQsudTE",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3016,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_QANX_Bridge.pdf",
+            "date": "2021-10-27T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
