@@ -1,0 +1,51 @@
+{
+    "id": 177,
+    "project_name": "Harvester Network",
+    "title": "Harvester Network",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x9b7ab0b3e62df7562c5df105831040b602cd459624d9dee52decd41101aab29b<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0x8648805c6babd8359971e359273a3c8019cd95dc76cc0f4999697293ba85a039</p>",
+    "name_categories": "Token",
+    "token_name": "HARVESTER",
+    "proof_archive_link": "https://archive.ph/itxLK",
+    "technical_issue": null,
+    "token_address": "0x97880c1dd3b7f12f9117d234fa1cebe48fcdbd04",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5c0f61b91d.png",
+    "date": "2020-12-23",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "http://harvester.network/",
+    "webarchive_link": "https://web.archive.org/web/20201217221647/http://harvester.network/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6152,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 177,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
