@@ -1,0 +1,51 @@
+{
+    "id": 215,
+    "project_name": "Beer Garden",
+    "title": "Beer Garden",
+    "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+    "name_categories": "Token",
+    "token_name": "Beer",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xbb8db5e17bbe9c90da8e3445e335b82d7cc53575",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6129fe68106ce.jpeg",
+    "date": "2020-10-21",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://beergarden.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/beer_finance",
+    "telegram_link": "https://t.me/beer_garden_finance",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 5,
+        "type": "Abandoned"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 215,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
