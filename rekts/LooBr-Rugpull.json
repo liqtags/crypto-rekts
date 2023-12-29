@@ -1,0 +1,68 @@
+{
+    "id": 3634,
+    "project_name": "LooBr",
+    "title": "LooBr Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>LooBr project experienced a rugpull by the deployer, resulting in a loss of 147,439 $USD.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>LooBr, a cross-chain social-media NFT-Marketplace, was exploited by its deployer who removed liquidity from the LP pool in two separate transactions over a three-day period. Interestingly, the deployer utilized two different tokens carrying the same name during this operation. After the liquidity removal, the funds were transferred through a couple of EOA addresses before being deposited into the Binance Exchange. It is worth noting that a Meta Ruffy Deployer address was also involved in this incident. The total financial loss from this rugpull is calculated to be 147,439 $USD worth of 614 BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x79003a1052658f3b664cc080a001875d501be4b1</p><p><br></p><p>Scammers' Addresses:</p><p>https://bscscan.com/address/0xfa777ea4f6486c650648e99f7037272ada739aca</p><p>https://bscscan.com/address/0x49273b37ad4bbb7b85c292a540f39e4cac9e6277</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xbc8f34ccde9de3ec5db94c9e1293431ac90b06be5675acee5f97616c6695c04d</p><p>https://bscscan.com/tx/0x9d25b4eb1f047ed00b783f39f0d0d8832821b4282d23ad81ddb160df227df079</p>",
+    "name_categories": "Token",
+    "token_name": "LooBr",
+    "proof_archive_link": "https://archive.ph/jVtw6",
+    "technical_issue": null,
+    "token_address": "0xa4dcaa2f100c7ed0ee1c5ebf0781334a9f21f05f",
+    "token_addresses": [
+        {
+            "address": "0xa4dcaa2f100c7ed0ee1c5ebf0781334a9f21f05f",
+            "url": "https://bscscan.com/token/0xa4dcaa2f100c7ed0ee1c5ebf0781334a9f21f05f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x2d537cc7a9aa092ca3dd1ee542c0b73560cb14f0",
+            "url": "https://bscscan.com/token/0x2d537cc7a9aa092ca3dd1ee542c0b73560cb14f0",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c197e1c858f.jpg",
+    "date": "2023-7-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1682327201189093376?s=20",
+    "website_link": "https://loobr.com/",
+    "webarchive_link": "https://archive.ph/JHhJ5",
+    "twitter_link": "https://twitter.com/loobr_com",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 147439,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3634,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
