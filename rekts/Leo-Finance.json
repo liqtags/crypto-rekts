@@ -1,0 +1,51 @@
+{
+    "id": 2717,
+    "project_name": "Leo Finance",
+    "title": "Leo Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>A hacker successfully gained access to the token issuing contract and minted a significant amount of $WLEO token which were subsequently dumped in the Uniswap $WLEO/$ETH liquidity pool, netting the attacker $ 42,000 in ill-gotten funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LeoFinance is a &nbsp;Web3 social platform that leverages blockchain database technology to store content and transactions. LeoFinance enables remuneration possibilities for users that create content or interact with the finance content on the platform. For undisclosed reasons the token issuing contract of LeoFinance was exposed. This means that attackers could mint theirselves token, hereby completely changing the supply side of the tokenomics and dump the price of the $WLEO token.</p><p>Eventually an attacker used the access to the <u>mint</u>() function, which was successfully invoked at the following example transactions:<br>https://etherscan.io/tx/0x0e8621db8bd6c42d559e24274c02c837964041890dcc357031b495160d5c05c8<br>https://etherscan.io/tx/0x9c0abb76e5924623def3f000c3df6da9b100c90be279f63b24b22c842444f66e</p><p>The attack could have yielded more returns for the hacker if the community had not taken notice and withdrawn liquidity from the pool almost instantly as the hack was taking place. The prices of the $WLEO token took an initial hit of 60% but the price recovered later on.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:<br>https://etherscan.io/address/0x8c9a02c89c96940e377052a9be0c7326f89a2495</p><p>Minted tokens were sold on Uniswap in a bunch of transactions:<br>https://bloxy.info/txs/references_address/0x8c9a02c89c96940e377052a9be0c7326f89a2495?argument=to&amp;signature_id=1102188</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "WLEO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/address/0x352c0f76cfd34ab3a2724ef67f46cf4d3f61192b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61af85f5cd243.jpeg",
+    "date": "2020-2-11",
+    "scam_updates": [],
+    "proof_link": "https://leofinance.io/@leofinance/wleo-was-hacked-on-ethereum-or-thank-you-everyone-for-the-amazing-support, https://decrypt.co/44645/ethereum-project-wleo-hacked-for-42000-on-uniswap",
+    "website_link": "https://leofinance.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/financeleo",
+    "telegram_link": "https://t.me/leofinanceio",
+    "our_post_link": null,
+    "funds_lost": 42000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/E4jePHe",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2717,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
