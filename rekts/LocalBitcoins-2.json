@@ -1,0 +1,51 @@
+{
+    "id": 2904,
+    "project_name": "LocalBitcoins",
+    "title": "LocalBitcoins (2)",
+    "description": "<p>A security vulnerability occurred at the prominent over-the-counter Bitcoin exchange LocalBitcoins. Attackers were able to replace the official URL to the exchange's forum with a false link that took visitors to a phony website that looked like the discussion board but gathered information from users who tried to join in.<br><br>The attackers utilized the information they gathered to steal 7.9 Bitcoin (about $27,000 at the time) from at least six user accounts.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c362c5a390.jpeg",
+    "date": "2019-1-26",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/most-significant-hacks-of-2019-new-record-of-twelve-in-one-year",
+    "website_link": "https://localbitcoins.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LocalBitcoins",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 27000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2904,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
