@@ -1,0 +1,51 @@
+{
+    "id": 3349,
+    "project_name": "Azuki",
+    "title": "Azuki",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Azuki Twitter @AzukiOfficial was compromised and brought a loss of up to 750,000 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Azuki Twitter account was abruptly taken over, and a scam drained over $750,000 worth of USDC, 11 NFTs, and over 3.9 ETH in less than 30 minutes. The scam used malicious links posing as a \"land mint\" for the Azuki NFT project to trick users into signing transactions that drained assets from their wallets. The Azuki Twitter account was deleted, and the official account removed from Twitter search results within an hour. The Azuki team confirmed that the account had been compromised and is working to regain control. The NFT collection has been targeted by scammers before.</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63f8f9376c800.jpg",
+    "date": "2023-1-27",
+    "scam_updates": [],
+    "proof_link": "https://decrypt.co/120144/azuki-twitter-account-hacked, https://twitter.com/_joinfire/status/1619047483426111489, https://www.cryptometer.io/news/azuki-nft-twitter-account-hacked-750000-stolen-in-scam/",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/wip/wv7Qy, https://archive.ph/wip/mPrFX",
+    "twitter_link": "https://twitter.com/Azuki",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 750000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3349,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
