@@ -1,0 +1,76 @@
+{
+    "id": 3579,
+    "project_name": "TWEETY-MEGA-FUMO",
+    "title": "TWEETY-MEGA-FUMO",
+    "description": "<p><strong>Quick Summary</strong></p><p>The projects TWEETY, MEGA, and FUMO on the Ethereum network were hit by a series of rugpulls by the same address, resulting in a total loss of 484,320 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer performed multiple rugpulls involving TWEETY, MEGA, and FUMO tokens. The total funds accrued from these projects amount to 484,320 $USD and currently remain in the scammer's original address as $WETH</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x6007d8d700004635340a40b990a4057a16531c2a</p><p><br></p><p>Liquidity Drain Transactions:</p><p>https://etherscan.io/tx/0x4f32ff599aa77d219bb1750ea04c09eeed3852a2b82519629a515ad48c41f093</p><p>https://etherscan.io/tx/0xe6103b10b690691124a4575bdc77b416073a68e6032f5468479597ff05546693</p><p>https://etherscan.io/tx/0xb068edbaf31ef98d80de1633fe64e819865b9e99c05b6b55692804639490d6f3</p>",
+    "name_categories": "Token",
+    "token_name": "TWEETY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6f5bafffc6bf7e17e9fdb2ddae79aee976ca0dd1",
+    "token_addresses": [
+        {
+            "address": "0x6f5bafffc6bf7e17e9fdb2ddae79aee976ca0dd1",
+            "url": "https://etherscan.io/address/0x6f5bafffc6bf7e17e9fdb2ddae79aee976ca0dd1",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x11506feafb04314cb1bf6c43eeb45ed347fc6165",
+            "url": "https://etherscan.io/address/0x11506feafb04314cb1bf6c43eeb45ed347fc6165",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x9d06acb3216e22dab3d91d1329351ff61722593a",
+            "url": "https://etherscan.io/address/0x9d06acb3216e22dab3d91d1329351ff61722593a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649d4424f3e8a.png",
+    "date": "2023-6-26",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 484320,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3579,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
