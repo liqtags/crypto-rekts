@@ -1,0 +1,51 @@
+{
+    "id": 166,
+    "project_name": "Dark Matter",
+    "title": "Dark Matter",
+    "description": "<p>The project was hilding a presale event. The final fund's recipient was the contract deployer:<br>https://etherscan.io/address/0x71323ce9372381e33524ccd5b9ede10e7414725d#internaltx<br><br>In addition, the contract deployer added initial liquidity after the presale at:<br>https://etherscan.io/tx/0x011a710b5ce3291dd789bf5a540f2ff54856e0ad69fb216e6a03b4089bf4dc5f<br>https://etherscan.io/tx/0x1398de3c387b21a7cc6c3f6f8bd335010cf8370044e4374d8f58231a2cb242ba<br>https://etherscan.io/tx/0x217d3c932294cdb04cbf5527a8cf454effd70c97002d9aadab6abb092d66ae9b<br>https://etherscan.io/tx/0xbc4c4af64ea4493836d4096865fd8ee22dd3eb88c5310e2fb1be150e1b098c55<br>https://etherscan.io/tx/0x06f69eb3630b54862b36006409ccfc9156ee4d82afbcc86b9e289905372818a4<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xe1d72eddee01b9b650961ba1f588b69352d2843c4d8fe96e1e8313eff3370ab3<br><br>The stolen funds from the presale were deposited into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0x71323ce9372381e33524ccd5b9ede10e7414725d?signature_id=994162&amp;smart_contract_address_bin=0x905b63fff465b9ffbf41dea908ceb12478ec7601</p>",
+    "name_categories": "Token",
+    "token_name": "DARKM",
+    "proof_archive_link": "https://archive.ph/m3YLg",
+    "technical_issue": null,
+    "token_address": "0x9861D28B874c346D284De67158B879B5468abb6B",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5beb665574.png",
+    "date": "2020-12-30",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/m3YLg",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 111637,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 166,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
