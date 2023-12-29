@@ -1,0 +1,70 @@
+{
+    "id": 2994,
+    "project_name": "Fortress Loans",
+    "title": "Fortress Loans",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fortress Loans was attacked due to oracle vulnerability. An attacker was able to manipulate the project's oracle which allowed them to borrow differrent number of tokens for the amount of ~$3m (~1k ETH and 400k DAI).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Fortress Protocol is a <span lang=\"en\">decentralized marketplace for Lenders and Borrowers with Borderless Stablecoins. Fortress Loans became a victim of attacker that manipulate with the price oracle, which made possible to get about $3m and launder them through the TornadoCache.</span></p><p><br></p><p><span lang=\"en\">Attack flow:</span></p><p>Attacker created unverified smart-contract<span lang=\"en\">&nbsp;(https://bscscan.com/tx/0x4800928c95db2fc877f8ba3e5a41e208231dc97812b0174e75e26cca38af5039) which was later used to send a series of transactions (https://bscscan.com/tx/0x13d19809b19ac512da6d110764caee75e2157ea62cb70937c8d9471afcb061bf).<br></span></p><p>A series of transactions allowed them to propose Fortress Governor Alfa contract with a malicious proposal, for which they themselves voted to set the FTS extremely valuable. The attacker then borrowed a huge amount of tokens that exchanged for ETH and DAI. Then all stollen funds were transferred across the bridge to the Ethereum network and laundered via TornadoCache.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">Attacker address on BSC: https://bscscan.com/address/0xA6AF2872176320015f8ddB2ba013B38Cb35d22Ad&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">Attacker address on ETH. Here all the stolen funds were laundered through TornadoCache: https://etherscan.io/address/0xA6AF2872176320015f8ddB2ba013B38Cb35d22Ad</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><br></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">Bridging transaction from BSC to ETH:</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">BSC: https://bscscan.com/tx/0x36fd458defec69875a1908a464c09f59899abaf09350059ce7f75b9c1a7e9eea</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">ETH: https://etherscan.io/tx/0xcf852b0231e2c5a2361cbd71cb0288bc6a0e460925e1efe9054f7d4f5b543af5</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><br></p><p>Attacker's smart-contract (BSC): https://bscscan.com/address/0xcd337b920678cf35143322ab31ab8977c3463a45</p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\">Attack transaction: https://bscscan.com/tx/0x13d19809b19ac512da6d110764caee75e2157ea62cb70937c8d9471afcb061bf</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "FTS",
+    "proof_archive_link": "https://web.archive.org/web/20220701102230/https://twitter.com/Fortressloans/status/1523495205915222017?cxt=HHwWgoCz2ay0xaQqAAAA, https://web.archive.org/web/20220509050633/https://twitter.com/CertiKAlert/status/1523529765969444864, https://web.archive.org/web/20220701085916/https://twitter.com/CertiKAlert/status/1542312049149186048, https://therecord.media/defi-protocol-fortress-announces-3-million-hack/, https://www.vauld.com/insights/defi-hack-fortress-protocol-loses-nearly-3-million/, https:",
+    "technical_issue": null,
+    "token_address": "0x4437743ac02957068995c48E08465E0EE1769fBE",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62836d815be1e.png",
+    "date": "2022-5-8",
+    "scam_updates": [],
+    "proof_link": "https://www.certik.com/resources/blog/k6eZOpnK5Kdde7RfHBZgw-fortress-loans-exploit",
+    "website_link": "https://bsc.fortress.loans/dashboard",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Fortressloans",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2976004,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2994,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/audit_hash0x.pdf",
+            "date": "2021-04-12T00:00:00.000Z",
+            "partner": {
+                "id": 30,
+                "name": "HashEx",
+                "logo_link": "safe/files/partner/logo/60cb45c52429a.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/audit_etherautherity.pdf",
+            "date": "2021-03-19T00:00:00.000Z",
+            "partner": {
+                "id": 77,
+                "name": "Ether Authority",
+                "logo_link": "safe/files/partner/logo/6120ba3de51ee.jpeg"
+            }
+        }
+    ]
+}
