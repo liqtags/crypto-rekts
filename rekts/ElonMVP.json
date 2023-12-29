@@ -1,0 +1,51 @@
+{
+    "id": 3103,
+    "project_name": "ElonMVP",
+    "title": "ElonMVP",
+    "description": "<p><strong>Quick Summary</strong><br>The $ElonMVP token was rugpulled by its project deployer. The scammer received a profit of 170 $BNB. The scammers decided to launder the ill-gotten funds through tornado.cash's mixing service.&nbsp;</p><p><em>Tornado.cash mixes various ERC-20 Token and ETH into a lockbox. Through \"zero knowledge proof\" a user that deposits funds into a lockbox is provided with a unique key. Once the user decides to withdraw the funds, a proof of possession of the key in a hashed form is required. This process enables the transfer of funds without the disclosure of the users identity.</em><br><strong><br>Details of the Exploit</strong></p><p><em>The $ElonMVP project deployers wallet should have raised alert amongst the community from its inception. Reason was that the project deployer's address was funded from an address which was initially funded through tornado.cash, which can be seen in this transaction: https://bscscan.com/address/0xbf66c21fb8e3fb0796ba519d88daf8a5bd44ee37#internaltx.</em></p><p><em>EOA wallet <strong>0xbf66c</strong> funded a number of wallets and amongst it <strong>0xbf66c</strong> funded the wallet of $ELONMVP's project deployer with $BNB 12 as can be seen &nbsp;in the example transaction: https://bscscan.com/tx/0xad1d3a7869374200408d104999aade47c1b8637eae8cec527d398bf635fbc2f6.</em></p><p>The creator of the token created a liquidity pool between ElonMVP/BNB tokens, where $300 BNB was invested in these transactions:</p><p>1) https://bscscan.com/tx/0x403ee1817a0a8f8852fd53a7faede27b1271c414e7de72d2daead1091cd8b928</p><p>2) https://bscscan.com/tx/0x1973aa35cbe0c5230c479b4aabdf34872bef3576860c066ad7d12cc31b4c7272.</p><p>Again the funds used to bootstrap the liquidity stemmed from Tornado.Cash;</p><p>https://bscscan.com/address/0xdd65cb765accd9c818c5a7ebd508702fd793bdf6#internaltx.</p><p>Once the project gained traction, the project deployer removed the liquidity by taking a profit of ~$170 BNB: https://bscscan.com/tx/0x67f92de2e07c5c94a84c3fb3175f2415ce8cdf9d6ca42ab60a59a9a09a53b128</p><p>All the tokens were transferred to the scammer address (C) in this transaction: https://bscscan.com/tx/0xe1513999f6e37ca14de794574371c9bba59727d22d045100f002aa56916b82bf</p><p>Subsequently, all the funds were laundered via Tornado.Cash.</p><p><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Token creator, scammer address(A): https://bscscan.com/address/0xdd65cb765accd9c818c5a7ebd508702fd793bdf6</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://bscscan.com/address/0xbf66c21fb8e3fb0796ba519d88daf8a5bd44ee37</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0x88795b97c7ca6ad715e5b746557159af8ad3ef38</p>",
+    "name_categories": "Token",
+    "token_name": "ElonMVP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x3e597ea168a85aa2ae5e2c4333665bcd875ed10f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62de9150ac153.png",
+    "date": "2022-7-13",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0xb9911cc70c0a323b4a95ff1743712a3ff7171c8e, https://www.defidaonews.com/article/6757238",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 44371,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3103,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
