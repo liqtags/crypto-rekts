@@ -1,0 +1,61 @@
+{
+    "id": 3405,
+    "project_name": "Safe Moon",
+    "title": "Safe Moon",
+    "description": "<p><strong>Quick Summary</strong></p><p>The liquidity pool (LP) for the DeFi project SafeMoon has been compromised, according to a statement from the project on Twitter on March 28.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SafeMoon's LP was compromised due to a contract upgrade that introduced a public burn bug, allowing anyone to destroy tokens. The upgrade was initiated by the deployer contract, and there is a possibility of an admin key leak. After that, the complex attack tx was executed and gain a profit of about <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">28,364</span> WBNB. Stolen funds were transferred to the 0x237d wallet. The cause of the issue has not been confirmed by SafeMoon, and it is unclear if any cryptocurrency has been stolen or recovered.</p><p><br></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Upgrade proxy tx:</p><p>https://bscscan.com/tx/0x71273e731752457892f73d2ad8b89060bd4f0bf131ed403d5dfc149319c1c01d</p><p>Exploit tx:&nbsp;</p><p>https://bscscan.com/tx/0x48e52a12cb297354a2a1c54cbc897cf3772328e7e71f51c9889bb8c5e533a934</p><p>Funds were transferred to the wallet:</p><p>https://bscscan.com/address/0x237d58596f72c752a6565858589348d0fce622ed</p>",
+    "name_categories": "Token",
+    "token_name": "SFM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x42981d0bfbaf196529376ee702f2a9eb9092fcb5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6425dd3663fbf.jpg",
+    "date": "2023-3-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1640855857910149122?s=20, https://cryptoslate.com/safemoon-ceo-offers-official-statement-after-8m-exploit/, https://www.bitcoininsider.org/article/210501/safemoon-working-rectify-situation-after-9m-exploit-says-ceo",
+    "website_link": "https://safemoon.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/safemoon",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8900000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/safemoon",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3405,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Safemoon_report.pdf",
+            "date": "2021-05-01T00:00:00.000Z",
+            "partner": {
+                "id": 30,
+                "name": "HashEx",
+                "logo_link": "safe/files/partner/logo/60cb45c52429a.jpeg"
+            }
+        }
+    ]
+}
