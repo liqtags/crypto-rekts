@@ -1,0 +1,68 @@
+{
+    "id": 3706,
+    "project_name": "EspressoBot",
+    "title": "EspressoBot Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>EspressoBot deployer performed a rugpull, draining liquidity worth 53,110 USD from UniSwap, resulting in a total loss of 33.04 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EspressoBot is an ERC20 token trading on UniSwap. On August 8, 2023, the deployer-related address executed an exit scam by draining the liquidity pool in 12 transactions. The stolen funds, amounting to 53,110 USD (equivalent to 33.04 WETH), were transferred through several EOA addresses. Part of the funds currently remains in another EOA address. It was discovered that the deployer was funded on Binance.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x5737083f474469283Ecc451840E0363C2Da8CdcE</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xee34Cc550D130A1Ac6292d396266b344cf3C0f18</p><p><br></p><p>Funds Holder Address as of Sep 10, 2023:</p><p>https://etherscan.io/address/0x13ce24107c2aae8c47895d6df516944f40ef5579</p><p><br></p><p>Liquidity Drain Transactions:</p><p>https://etherscan.io/tx/0xe49905a4693e938b827320cc006e0fdd190fd65e6d41f97167b3238c084482f0</p><p>https://etherscan.io/tx/0xb20a97e291558e8585222640a3b8afe74516832239b8eef1ead545bfaec83659</p>",
+    "name_categories": "Token",
+    "token_name": "ESPS",
+    "proof_archive_link": "https://archive.ph/IfmNn",
+    "technical_issue": null,
+    "token_address": "0x6eddbc51b3f998881fb162f15723c2cf69d59df6",
+    "token_addresses": [
+        {
+            "address": "0x6eddbc51b3f998881fb162f15723c2cf69d59df6",
+            "url": "https://etherscan.io/token/0x6eddbc51b3f998881fb162f15723c2cf69d59df6",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x078d4fdb8f1687805dcc610da1e3268c13a7bbbf",
+            "url": "https://etherscan.io/address/0x078d4fdb8f1687805dcc610da1e3268c13a7bbbf",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65004fc14c947.png",
+    "date": "2023-8-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1697142817431101706?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/EspressoBot_ETH",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 53110,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3706,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
