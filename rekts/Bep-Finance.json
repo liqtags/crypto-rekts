@@ -1,0 +1,51 @@
+{
+    "id": 71,
+    "project_name": "Bep Finance",
+    "title": "Bep Finance",
+    "description": "<p>The project was holding a fundraising event, this was stated as their Telegram announcement:<br>https://archive.ph/QUjcL#selection-141.0-141.42<br><br>The external address was the recipient of the investors' funds. In total, 821.79 BNB was gathered during the fundraising event:<br>https://explorer.bitquery.io/bsc/address/0x701aacd6bb09a0e10d39d67259e58e493faefe76<br><br>All the funds were distributed between some external wallets at the following transactions:<br>https://bscscan.com/tx/0x4926be51f53d478dac8d2c0061d537d5ec7ace046344cdc3a4a265389d9a96ad<br>https://bscscan.com/tx/0xcd1eb46d4997fe0bc1c972140d005a20e1941c8729c2113740ff0a2c52f13b97<br>https://bscscan.com/tx/0x3fac275d614c0ec57f4814a4a3886bc608318faa2d5366961dc6fa54e29e644a<br>https://bscscan.com/tx/0xd64ffcaccf2d3cc4e6cd843ae7242c9e4af7fcbd3770954d8b34ae9fdd83780d<br>https://bscscan.com/tx/0x443aa36cdf94141bc073d061dfcf90dfd606ab6fd7392ebc060dc0f83defffee<br><br>The wallets, engaged in this case are marked as \"Fake Phishing\" by the BscScan.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BEPF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x70782488371eccb71db14069117885238a702cab",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4ffc684c78.jpeg",
+    "date": "2021-3-16",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/QUjcL#selection-141.0-141.42",
+    "website_link": "https://bep.finance/",
+    "webarchive_link": "https://web.archive.org/web/20210315154429/https://bep.finance/",
+    "twitter_link": "https://twitter.com/bepfinance",
+    "telegram_link": "https://t.me/bep_finance",
+    "our_post_link": null,
+    "funds_lost": 212432,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 71,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
