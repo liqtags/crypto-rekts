@@ -1,0 +1,70 @@
+{
+    "id": 3539,
+    "project_name": "BabyDogeCoin",
+    "title": "BabyDogeCoin",
+    "description": "<p><strong>Quick Summary</strong></p><p>BabyDogeCoin suffered from flashloan attack, which led to a loss of 135,013 $USD worth of $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BabyDogeCoin is a BEP20 token trading on the project's own DEX BabyDogeSwap. The BabyDogePair pool was affected by a flash loan attack. The attack started after the exploiter deployed a malicious contract and took 80,000 $BNB as a flash loan. Consequently, the price of $BabyDoge was manipulated by the attacker, and then 80,509 $BNB was drained from the pool. The flashloan was repaid and the attacker's profit reached 437 $BNB which is worth 135,013 $USD at the moment. The stolen assets were transferred to a couple of EOA addresses which were then transferred to the FixedFloat crypto exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xcbc0d0c1049eb011d7c7cfc4ff556d281f0afebb</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x098e7394a1733320e0887f0de22b18f5c71ee18d48a0f6d30c76890fb5c85375<br><br>Funds transfer transaction:</p><p>https://bscscan.com/tx/0x2ca8b77b4497498e274869639dbc10bd30e66719bf788d01a180841daa9a0c6f</p><p><br></p><p>FixedFloat transfer:</p><p>https://bscscan.com/tx/0x66e2373dfb5265e8cb724e3295e47fd93d3b6b7c2aed07801d399b49a3344925<br><br>Malicious contract:</p><p>https://bscscan.com/address/0x51873a0b615a51115f2cfbc2e24d9db4bfa2e6e2</p>",
+    "name_categories": "Token",
+    "token_name": "BabyDoge",
+    "proof_archive_link": "https://archive.ph/CTCOH",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc748673057861a797275cd8a068abb95a902e8de",
+    "token_addresses": [
+        {
+            "address": "0x0536c8b0c3685b6e3c62a7b5c4e8b83f938f12d1",
+            "url": "https://bscscan.com/address/0x0536c8b0c3685b6e3c62a7b5c4e8b83f938f12d1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6474ce8ac45bc.jpg",
+    "date": "2023-5-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1662650590546264064?s=20",
+    "website_link": "https://babydoge.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BabyDogeCoin",
+    "telegram_link": "https://t.me/babydogecoin",
+    "our_post_link": null,
+    "funds_lost": 135013,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/babydogecoin1",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3539,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Baby_Doge_ETH_2021_11_12.pdf",
+            "date": "2021-11-12T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
