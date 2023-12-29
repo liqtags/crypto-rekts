@@ -1,0 +1,51 @@
+{
+    "id": 2949,
+    "project_name": "Poloniex Exchange",
+    "title": "Poloniex Exchange",
+    "description": "<p>Digital currency exchange Poloniex has lost 12.3% of its total bitcoin supply in an attack.<br><br>The exchange took to Bitcoin Forum on 4th March to report it had been compromised by a previously unknown vulnerability in its coding:<br>https://bitcointalk.org/index.php?topic=499580<br><br>Poloniex owner Tristan D'Agosta:<br>\"The hacker discovered that if you place several withdrawals all in practically the same instant, they will get processed at more or less the same time. This will result in a negative balance, but valid insertions into the database, which then get picked up by the withdrawal daemon.\"<br><br>D'Agosta also stated that Poloniex compensated users:<br>\"97 BTC were taken and 97 BTC were paid back. Although the value of bitcoin fluctuated, it is not very different now from what it was in the beginning of March.\"</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f18ad1234b.png",
+    "date": "2014-3-4",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2014/03/05/poloniex-loses-123-of-its-bitcoins-in-latest-bitcoin-exchange-hack/, https://www.coindesk.com/markets/2014/07/02/poloniex-claims-all-customers-repaid-following-march-bitcoin-hack/",
+    "website_link": "https://poloniex.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Poloniex",
+    "telegram_link": "https://t.me/poloniexenglish",
+    "our_post_link": null,
+    "funds_lost": 65600,
+    "funds_returned": 65600,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2949,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
