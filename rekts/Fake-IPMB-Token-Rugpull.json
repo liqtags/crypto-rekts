@@ -1,0 +1,60 @@
+{
+    "id": 3795,
+    "project_name": "IPMB",
+    "title": "Fake IPMB Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>IPMB token was rugpulled by <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>deployer&nbsp;</span>removing liquidity worth 172,483 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>IPMB is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer removed liquidity from the LP pool in an exit scam. The stolen funds, amounting to 729.67 WBNB (worth approximately 172,483 USD), were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x9920e8440f768fF1C0cb81D5Cc385FA681448F50</p><p><br></p><p>Liquidity Adding Transaction:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/tx/0x3787438ff61a1c5e19b1f4853aa4bac7c4291d83e6e10191b7b2d788e69498e5</span></p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x1d39fa9e1663f07744b17da577f6101515552c6db337dd9ae77d0a94a2ff8444</p>",
+    "name_categories": "Token",
+    "token_name": "IPMB",
+    "proof_archive_link": "https://archive.ph/plPoF",
+    "technical_issue": null,
+    "token_address": "0xB11D8dd1D5A13bbDd80C8c3e9C28f7AbD6714Fab",
+    "token_addresses": [
+        {
+            "address": "0xb11d8dd1d5a13bbdd80c8c3e9c28f7abd6714fab",
+            "url": "https://bscscan.com/address/0xb11d8dd1d5a13bbdd80c8c3e9c28f7abd6714fab",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6566fd535693d.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727906967841325364",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 172483,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3795,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
