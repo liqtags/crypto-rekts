@@ -1,0 +1,60 @@
+{
+    "id": 3454,
+    "project_name": "Swerve Finance",
+    "title": "Swerve Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Swerve Finance's pool</span> was targeted via governance attack which might cause a loss of 1,337,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Swerve Finance, a defunct clone of Curve Finance, was targeted in a governance exploit attempt. The attacker created a proposal to transfer 1,337,000 $USD from the DAI-USDC-USDT pool to their address. Initially, the attacker had 348,000 $SWRV tokens and later gained another 102,000 $SWRV tokens to control enough power for their proposal to pass. However, it is still ongoing as they lack sufficient combined power.</p><p>The party behind the attack claims that it was a white hat effort to claim admin fees worth 120,000 $USD and that exploiting the protocol's vulnerability was accidental.</p><p>This incident highlights how decentralized governance mechanisms can protect large sums but also demonstrates potential vulnerabilities when projects are abandoned or handed over without proper consideration for security measures such as transferring ownership of the project's null address which could provide better protection against malicious takeover attacks.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xcdedb901181b4b90181424ff581b627805186ca7</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x4c612aeaddb9f534bcb500e8c4ef8d6171efda9841bce716349cc1fb4275a2fa</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SWRV",
+    "proof_archive_link": "https://archive.ph/BwfF0, https://archive.ph/rwQq3",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xb8baa0e4287890a5f79863ab62b7f175cecbd433",
+    "token_addresses": [
+        {
+            "address": "0x329239599afB305DA0A2eC69c58F8a6697F9F88d",
+            "url": "https://etherscan.io/address/0x329239599afB305DA0A2eC69c58F8a6697F9F88d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d944798222.jpg",
+    "date": "2023-3-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/spreekaway/status/1636414977945878561, https://twitter.com/FrankResearcher/status/1639371308004700160",
+    "website_link": "https://swerve.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SwerveFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3454,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
