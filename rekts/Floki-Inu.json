@@ -1,0 +1,60 @@
+{
+    "id": 3521,
+    "project_name": "Floki Inu",
+    "title": "Floki Inu",
+    "description": "<p><strong>Quick Summary</strong></p><p>Floki Inu project was exploited via a flashloan attack, resulting in a loss of over 58,591 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FLOKI is an ERC-20 token trading on Uniswap. The attacker used flashloaned 6,694 $ETH from the Balancer and exploited the UniSwap pool, taking a profit of 31.7 $ETH.</p><p>The exploiter's profit reached 58,591 $USD at the moment of writing. Roughly 16.6 $WETH was transferred to the initial attacker's address and then to several EOA addresses. The rest 15.1 $WETH was transferred to another EOA.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x662d2dc484d65a3ba4da80e36eaa9a400af0726b</p><p><br></p><p>Funds holder address:</p><p>https://etherscan.io/address/0x7ef60c3c2f0c8c6e0489bea897c44e44111c4e84</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x118b7b7c11f9e9bd630ea84ef267b183b34021b667f4a3061f048207d266437a</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0xecdb4d75af7e89a101703e0af465a191a2ae01b9</p>",
+    "name_categories": "Token",
+    "token_name": "FLOKI",
+    "proof_archive_link": "https://archive.ph/E6SDV",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e",
+    "token_addresses": [
+        {
+            "address": "0x30ac70e2dc5092f64031685bb23d50f782c27566",
+            "url": "https://etherscan.io/address/0x30ac70e2dc5092f64031685bb23d50f782c27566",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/645ab507a2b31.jpg",
+    "date": "2023-5-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AnciliaInc/status/1655971355790286849?s=20",
+    "website_link": "https://floki.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RealFlokiInu",
+    "telegram_link": "https://t.me/FlokiInuToken",
+    "our_post_link": null,
+    "funds_lost": 58591,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/floki",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3521,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
