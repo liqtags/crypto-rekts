@@ -1,0 +1,61 @@
+{
+    "id": 2547,
+    "project_name": "BT.Finance",
+    "title": "BT.Finance",
+    "description": "<p>The transaction behind the attack:<br>https://etherscan.io/tx/0x82f95242963ac274d63e78234cb71c156f3135c32037e7e5b4424a6043da2a9a<br><br>The attacker's address:<br>https://etherscan.io/address/0x358abccb4f5bb715482271890929fdabb3015878<br><br>The exploiter made a total profit of 31.87renBTC and 211 ETH, and used REN and Tornado.Cash to transfer assets anonymously. Deposits into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0x358abccb4f5bb715482271890929fdabb3015878?signature_id=994162&amp;smart_contract_address_bin=0x905b63fff465b9ffbf41dea908ceb12478ec7601<br><br>Ren BTC Gateway:<br>https://etherscan.io/tx/0xa1821af44f6dc6ea4b1ea64a3b49640b9cb791d5e4bccf57cdcfdb3d173323c3<br><br>The address of the stolen BTC fund:<br>https://btc.com/btc/transaction/7c849b024e7f3a56287b52bc7f55db5425a4204efcd2c117f5621ef821fbe0cd</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x76c5449f4950f6338a393f53cda8b53b0cd3ca3a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6113e11d648fa.jpeg",
+    "date": "2021-2-8",
+    "scam_updates": [],
+    "proof_link": "https://btfinance.medium.com/bt-finance-exploit-analysis-report-a0843cb03b28, https://www.rekt.news/the-big-combo/",
+    "website_link": "https://bt.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/btdotfinance",
+    "telegram_link": "https://t.me/btdotfinance",
+    "our_post_link": null,
+    "funds_lost": 1867271,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2547,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/peckshield_audit_report_btdotfinance_v1_0.pdf",
+            "date": "2021-01-07T00:00:00.000Z",
+            "partner": {
+                "id": 12,
+                "name": "PeckShield Inc.",
+                "logo_link": "safe/files/partner/logo/6095235554623.jpeg"
+            }
+        }
+    ]
+}
