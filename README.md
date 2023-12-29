@@ -4,4 +4,29 @@
 - [Africrypt](/rekts/Africrypt.md) - Lost: $3,600,000,000.00 Recovered: $0.00 
 - [Silk Road](/rekts/Silk-Road.md) - Lost: $3,360,000,000.00 Recovered: $3,360,000,000.00 
 - [PlusToken](/rekts/PlusToken.md) - Lost: $2,900,000,000.00 Recovered: $0.00 
+- [Genesis](/rekts/Genesis.md) - Lost: $2,800,000,000.00 Recovered: $0.00 
+- [Thodex](/rekts/Thodex.md) - Lost: $2,000,000,000.00 Recovered: $0.00 
+- [BitConnect](/rekts/BitConnect.md) - Lost: $2,000,000,000.00 Recovered: $56,000,000.00 
+- [Finiko](/rekts/Finiko.md) - Lost: $1,500,000,000.00 Recovered: $0.00 
+- [Celsius Network](/rekts/Celsius-Network.md) - Lost: $1,190,000,000.00 Recovered: $0.00 
+- [Voyager](/rekts/Voyager.md) - Lost: $1,000,000,000.00 Recovered: $0.00 
+- [BlockFi](/rekts/BlockFi.md) - Lost: $1,000,000,000.00 Recovered: $0.00 
+- [FTX Group](/rekts/FTX-Group.md) - Lost: $1,000,000,000.00 Recovered: $0.00 
+- [WoToken](/rekts/WoToken.md) - Lost: $1,000,000,000.00 Recovered: $0.00 
+- [Bitcoin Sheikh](/rekts/Bitcoin-Sheikh.md) - Lost: $766,000,000.00 Recovered: $0.00 
+- [Ronin](/rekts/Ronin.md) - Lost: $625,000,000.00 Recovered: $155,800,000.00 
+- [Poly Network](/rekts/Poly-Network.md) - Lost: $602,189,570.00 Recovered: $602,189,570.00 
+- [BSC Token Hub](/rekts/BSC-Token-Hub.md) - Lost: $586,000,000.00 Recovered: $459,000,000.00 
+- [Coincheck](/rekts/Coincheck.md) - Lost: $534,000,000.00 Recovered: $534,000,000.00 
+- [Vires Finance](/rekts/Vires-Finance.md) - Lost: $500,000,000.00 Recovered: $0.00 
+- [Mt. Gox](/rekts/Mt.-Gox.md) - Lost: $473,000,000.00 Recovered: $0.00 
+- [MyCoin](/rekts/MyCoin.md) - Lost: $387,000,000.00 Recovered: $0.00 
+- [Wormhole](/rekts/Wormhole.md) - Lost: $326,000,000.00 Recovered: $326,000,000.00 
+- [Trade Coin Club](/rekts/Trade-Coin-Club.md) - Lost: $295,000,000.00 Recovered: $0.00 
+- [KuCoin](/rekts/KuCoin.md) - Lost: $280,000,000.00 Recovered: $280,000,000.00 
+- [Multichain](/rekts/Multichain.md) - Lost: $231,129,033.00 Recovered: $0.00 
+- [Gate.io](/rekts/Gate.io.md) - Lost: $230,000,000.00 Recovered: $0.00 
+- [Neutrino USD](/rekts/Neutrino-USD.md) - Lost: $200,000,000.00 Recovered: $0.00 
+- [Euler Finance](/rekts/Euler-Finance.md) - Lost: $196,000,000.00 Recovered: $177,000,000.00 
+- [BitMart Exchange](/rekts/BitMart-Exchange.md) - Lost: $196,000,000.00 Recovered: $0.00 
 
