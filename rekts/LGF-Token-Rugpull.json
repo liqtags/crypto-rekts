@@ -1,0 +1,68 @@
+{
+    "id": 3760,
+    "project_name": "Lets Go Farming Token",
+    "title": "LGF Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Lets Go Farming (LGF) project was rugpulled by deployer, removing liquidity worth 37,265 USD from UniSwap pool in an exit scam.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LGF is an ERC20 token trading on UniSwap. On Oct 4, 2022, the token deployer executed an exit scam by removing liquidity from the UniSwap pool in three separate transactions. The attacker removed a total of 29.32 ETH, equivalent to approximately 37,265 USD at the time of the incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x676E71016a8470b1683a0e4E4D88Dc81aF1943cD</p><p><br></p><p>Liquidity Removal Transactions:</p><p>1. https://etherscan.io/tx/0xd2531214048b2e7ae6c37251976fc0e6eeec6633ad0def9446fa65f7e9a2285f</p><p>2. https://etherscan.io/tx/0xafe7831d76530ac8ddd1972b292d3bd7fa5bd28cb7b527577e29b95aae15268b</p><p>3. https://etherscan.io/tx/0x02416cd48d9fba9d54cc80581a452a78e76329ea52ae59cf49d2670df1390cd3</p>",
+    "name_categories": "Token",
+    "token_name": "LGF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x4EadbFE053DCeCdF13e51Dc5E429305be6a802d3",
+    "token_addresses": [
+        {
+            "address": "0x4EadbFE053DCeCdF13e51Dc5E429305be6a802d3",
+            "url": "https://etherscan.io/address/0x4EadbFE053DCeCdF13e51Dc5E429305be6a802d3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xe334a647d9deeb5e8acb563d1085319f21ab4938",
+            "url": "https://etherscan.io/address/0xe334a647d9deeb5e8acb563d1085319f21ab4938",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65427ecfea600.png",
+    "date": "2022-10-4",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 37265,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3760,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
