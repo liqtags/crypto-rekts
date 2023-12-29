@@ -1,0 +1,51 @@
+{
+    "id": 2776,
+    "project_name": "JulSwap",
+    "title": "JulSwap",
+    "description": "<p>The JulSwap on the BSC chain was attacked by flash loans, and $JULB fell more than 95% in a short time.<br><br>The transactions behind the attack:<br>https://bscscan.com/tx/0x9af2d732eae43e06c8559ed58bf082c56ad2c3a0688e30987a49a44fa2e16979<br>https://bscscan.com/tx/0xc7ae52ae2728948a05a64e1a7cddec878c3256c413696cb7ada43084ccf70af9<br>https://bscscan.com/tx/0xb0b74d6a2319d4e5917f7d4aa680af86bff3b1d7c2e948496649854b65ad3273</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "JULb",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x32dffc3fe8e3ef3571bf8a72c0d0015c5373f41d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e593d891200.jpeg",
+    "date": "2021-5-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/tg_cryptos/status/1398090345368408064, https://www.bsc.news/post/julswap-and-burgerswap-face-exploits-what-are-flash-loan-attacks, https://hacked.slowmist.io/",
+    "website_link": "https://justliquidity.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/JustLiquidity",
+    "telegram_link": "https://t.me/justliquidity",
+    "our_post_link": null,
+    "funds_lost": 1500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/justliquidity",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2776,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
