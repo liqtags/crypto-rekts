@@ -1,5 +1,5 @@
 {
-    "id": 1627,
+    "id": 1404,
     "project_name": "SAFESATURN",
     "title": "SAFESATURN",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,17 +7,17 @@
     "token_name": "STN",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x0c363ae99c241fcb5353cdb742d2e2b2a01ebeee",
+    "token_address": "0xc8d2c6f731015c2d76c7c367d2261857f3168c96",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f1720009e82.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f057a0ecd34.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1373698524961906691",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
-    "telegram_link": "https://t.me/safesaturnbsc",
-    "our_post_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/safesaturnbsc",
     "funds_lost": 0,
     "funds_returned": 0,
     "funds_by_chains": [],
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1627,
+            "scam_database_id": 1404,
             "networks": {
                 "id": 56,
                 "name": "Binance",
