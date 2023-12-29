@@ -1,0 +1,1741 @@
+{
+    "items": [
+        {
+            "id": 3058,
+            "project_name": "Terra Classic",
+            "title": "Terra Classic",
+            "description": "<p><strong>Quick Summary</strong></p><p>A complex mixture of events and market dynamics cost the implosion of the $40b Terra (Classic) Network.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Terra Luna Network was focused on its two native coins $LUNC and $USTC. $USTC was the algorithmic Stablecoin that was supposed to hold the peg to 1$ and $LUNC functioned as the satellite asset that absorbed $USTC’s volatility. This was achieved through a mint and burn functionality as well as by arbitrage which the former function inherently enabled.</p><p><br></p><p>$USTC rose to prominence in rapid fashion even surpassing $DAI in market cap. The Luna Foundation Group decided to start a new Curve4pool with $FRAX, $USTC, $USDC and $USDT as assets, excluding $DAI in an attempt to starve the most used StableCoin pool used by institutions the Curve3pool on the Ethereum network.</p><p><br></p><p>The migration of $USTC from the Curve3pool is the event that started the bankrun. In early May, the Luna Foundation Guard withdrew 250 million $USTC from the Curve3pool in preparation for the Curve4pool. Simultaneously, a handful of whales withdrew sizeable amounts from the anchor protocol, a crypto savings bank. The biggest wallet withdrew 347 million $USTC in total and bridged funds to the Curve3pool in order to swap for other assets. This movement of funds created an imbalance between $USTC and other Stablecoins in the pool, resulting in devaluation of $USTC on exchanges.</p><p><br></p><p>As a result of the tokenomics of $USTC and $LUNC the firesale of $USTC resulted in uncontrollable minting of the $LUNC token and a rapid fall in valuation. Additionally, the Terra network went down due to overload in transaction as market participants were panicking and trying to answer margin calls within the Anchor protocol. Eventually massive liquidations of collateral in the Anchor protocol would be incurred by investors.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Whale Addresses:</p><p>https://etherscan.io/address/0x8d47f08ebc5554504742f547eb721a43d4947d0a</p><p>https://etherscan.io/address/0x4b5e60cb1cd6c5e67af5e6cf63229d1614bb781c</p><p>https://etherscan.io/address/0x1df8ea15bb725e110118f031e8e71b91abaa2a06</p><p>https://etherscan.io/address/0xeb5425e650b04e49e5e8b62fbf1c3f60df01f232</p><p>https://etherscan.io/address/0x41339d9825963515e5705df8d3b0ea98105ebb1c</p><p>https://etherscan.io/address/0x68963dc7c28a36fcacb0b39ac2d807b0329b9c69</p><p>https://etherscan.io/address/0x9f705ff1da72ed334f0e80f90aae5644f5cd7784</p>",
+            "name_categories": "Stablecoin",
+            "token_name": "LUNC, USTC",
+            "proof_archive_link": "https://twitter.com/OnChainWizard/status/1524123935570382851, https://rekt.news/ru/luna-rekt/, https://mobile.twitter.com/hasufl/status/1523817151471230976",
+            "technical_issue": null,
+            "token_address": "0x7e43d25EaD96B1058f671F6690ea705BA2C7e5B9, 0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+            "token_addresses": [
+                {
+                    "address": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+                    "url": "https://etherscan.io/address/0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0x7e43d25EaD96B1058f671F6690ea705BA2C7e5B9",
+                    "url": "https://etherscan.io/address/0x7e43d25EaD96B1058f671F6690ea705BA2C7e5B9",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/62b31ccc0d07e.jpeg",
+            "date": "2022-5-8",
+            "scam_updates": [],
+            "proof_link": "https://www.nansen.ai/research/on-chain-forensics-demystifying-terrausd-de-peg?utm_source=twitter&utm_medium=organic&utm_campaign=Research_USTdepeg_27May22, https://www.cnet.com/personal-finance/crypto/luna-crypto-crash-how-ust-broke-and-whats-next-for-terra/, https://www.fool.com/the-ascent/cryptocurrency/articles/binance-ceo-says-luna-collapse-left-him-poor-again/#:~:text=Key%20points,and%20make%20a%20new%20plan., https://medium.com/coinmonks/whats-happening-with-the-terra-luna-seed-money-exit",
+            "website_link": "https://www.terra.money/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/terra_money",
+            "telegram_link": "https://t.me/TerraNetworkLobby",
+            "our_post_link": null,
+            "funds_lost": 40000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/terra-money/",
+            "git_hub_contract_link": null,
+            "discord": "https://twitter.com/terra_money",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1003,
+                    "scam_database_id": 3058,
+                    "networks": {
+                        "id": 1003,
+                        "name": "Terra Classic",
+                        "icon_link": "safe/files/network/terra-classic.png"
+                    }
+                }
+            ],
+            "auditedBy": [
+                {
+                    "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Terra_v18.pdf",
+                    "date": "2020-09-03T00:00:00.000Z",
+                    "partner": {
+                        "id": 8,
+                        "name": "Certik",
+                        "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2762,
+            "project_name": "Africrypt",
+            "title": "Africrypt",
+            "description": "<p><strong>Quick Summary</strong></p><p>Ameer and Raees Cajee, the exchange's founders, were reported missing in June 2021 after alleging that almost $3.6 billion invested in the protocol was stolen in a \"hack\".</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Africrypt claimed to connect banks, payment providers and digital asset providers for seamless global money transfers.</p><p><br></p><p>In April 2021, the Africrypt case gained traction. At the time, one of the protocol's founders contacted investors to notify them that the protocol had been compromised. The creator asked that investors refrain from contacting attorneys or law authorities since doing so would \"slow the recovery process.\"</p><p><br></p><p>However, Africrypt staff lost access to the exchange's back-end systems seven days before the claimed attack, making this report suspect. After receiving notice of the \"hack\" and its odd request not to contact attorneys or law enforcement, several investors hired a law firm Hanekom Attorneys. The investigation discovered that most of the bitcoin invested with the exchange had been withdrawn and moved through tumblers and mixers to make it harder to track.&nbsp;</p><p><br></p><p><br></p><p>The founders of Africrypt are still at large and have not been found as the time of this writing.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/61e049352a11a.png",
+            "date": "2021-6-23",
+            "scam_updates": [],
+            "proof_link": "https://finance.yahoo.com/news/africrypt-bitcoin-disappearance-174636634.html, https://www.bloomberg.com/news/articles/2021-06-23/s-african-brothers-vanish-and-so-does-3-6-billion-in-bitcoin",
+            "website_link": "https://africrypt.io/",
+            "webarchive_link": "https://web.archive.org/web/20200921145240/https://africrypt.io/",
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 3600000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2762,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3264,
+            "project_name": "Silk Road",
+            "title": "Silk Road",
+            "description": "<p><strong>Quick Summary</strong></p><p>Silk Road dark web market was exploited on 19 September 2012. 50,676 $BTC was seized from James Zhong by the U.S. Government after pleading a fraud.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Silk Road was an anonymous market running on the darknet since 2011 until the FBI shut down the website in 2013 and arrested Ross Ulbricht. The website was exploited by James Zhong for approximately 53,500 $BTC. Then the funds were distributed between multiple addresses and part of them were swapped to $BCH.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://www.blockchain.com/btc/address/1DwCny29uDhpmd8Mz4hKudwmrSGBdUvrtL</p><p>https://www.blockchain.com/btc/address/12hkgmdqps76Bp3e466c2DTGDfg8tKRGLM</p><p>https://www.blockchain.com/btc/address/1P1ik9HkCNSs7Zmgc3LzEN72X1Egwm9Chb</p>",
+            "name_categories": "Other",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/FhvAa, https://archive.ph/vzE20, https://archive.ph/dSNAp, https://archive.ph/5eMqv",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/636e4d3241822.jpg",
+            "date": "2012-9-19",
+            "scam_updates": [
+                {
+                    "date": "2021-11-09T00:00:00.000Z",
+                    "description": "<p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>On 9 November 2021, the U.S. Government seized 50,676 $BTC from the hacker, which was then valued at 3,360,000,000 $USD</span></p>"
+                }
+            ],
+            "proof_link": "https://www.justice.gov/usao-sdny/pr/us-attorney-announces-historic-336-billion-cryptocurrency-seizure-and-conviction?utm_source=substack&utm_medium=email, https://www.justice.gov/usao-sdny/pr/us-attorney-announces-historic-336-billion-cryptocurrency-seizure-and-conviction, https://www.malwarebytes.com/blog/news/2022/11/silk-road-mega-thief-james-zhong-pleads-guilty, https://twitter.com/FractalEncrypt/status/1590004511015571456?=s",
+            "website_link": null,
+            "webarchive_link": null,
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 3360000000,
+            "funds_returned": 3360000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3264,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2878,
+            "project_name": "PlusToken",
+            "title": "PlusToken",
+            "description": "<p><strong>Quick Summary</strong></p><p>The perpetrators of one of the largest digital currency frauds have been sentenced to up to 11 years in prison. In addition, the PlusToken operators were penalized up to $900,000 by a Chinese court for their participation in the $2.25 billion Ponzi scam.<br><strong><br>Details of the Exploit</strong><br>Chen Bo established PlusToken in early 2018, posing as a South Korean wallet and exchange. It enticed investors by promising speedy and guaranteed returns. In the two years afterwards, Bo has recruited numerous others and spread the fraud to other Southeast Asian nations such as China, Cambodia, Malaysia, Vanuatu, and Vietnam.<br><br>PlusToken operators had devised a pyramid scheme that managed to lure over 2.6 million investors, authorities said. The scam was organized into at least 3,200 investor levels, with more referrals and bigger investments bumping an investor up the chain. The operators also lied to investors that they were making money through digital currency investing, according to investors.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/62432b9d39213.png",
+            "date": "2019-12-16",
+            "scam_updates": [],
+            "proof_link": "https://cointelegraph.com/news/vanuatu-extradicts-six-chinese-citizens-allegedly-involved-in-crypto-scheme, https://www.nasdaq.com/articles/ringleaders-of-plustoken-scam-jailed-for-up-to-11-years-2020-12-01, https://coingeek.com/plustoken-scam-top-operators-jailed-for-up-to-11-years/",
+            "website_link": "https://thecryptonizer.team-plt.com/",
+            "webarchive_link": "https://web.archive.org/web/20220125033211/https://www.coindesk.com/policy/2020/12/01/ringleaders-of-plustoken-scam-jailed-for-up-to-11-years/",
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 2900000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2878,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3280,
+            "project_name": "Genesis",
+            "title": "Genesis",
+            "description": "<p><strong>Quick Summary</strong></p><p>Genesis crypto trading platform has 2,800,000,000 $USD in outstanding loans on a balance sheet. The firm revealed it had about 175,000,000 $USD in its FTX account, and withdrawals were halted on the platform due to the situation on the market.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Genesis is a platform for trading, derivatives, and lending. Genesis is a counterparty to many in the digital asset space and is closely watched as a gauge of the industry's strength. It's among the lenders that suffered from the prolonged crypto fall. The company has 2,800,000,000 $USD in outstanding loans. On 10 November the company revealed it had roughly 175,000,000 $USD worth of funds stuck in an FTX trading account. On 16 November withdrawals were halted on the platform, due to \"unprecedented market turmoil\" after the FTX collapse. On 22 November the spokesman for Genesis said they are aiming to resolve the situation without filing for bankruptcy.</p>",
+            "name_categories": "Borrowing and Lending,CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/PyGbf, https://archive.ph/NSxem, https://archive.ph/4xCgK",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/637de4cb8793f.jpg",
+            "date": "2022-11-21",
+            "scam_updates": [],
+            "proof_link": "https://www.bloomberg.com/news/articles/2022-11-22/genesis-balance-sheet-reveals-web-of-loans-across-silbert-empire-dcg?leadSource=uverify%20wall, https://cointelegraph.com/news/genesis-denies-imminent-plans-to-file-for-bankruptcy, https://www.nytimes.com/2022/11/22/business/dealbook/genesis-crypto-restructuring-adviser.html",
+            "website_link": "https://genesistrading.com",
+            "webarchive_link": null,
+            "twitter_link": "https://mobile.twitter.com/GenesisTrading",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 2800000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3280,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2861,
+            "project_name": "Thodex",
+            "title": "Thodex",
+            "description": "<p><strong>Quick Summary</strong></p><p>Thodex a turkish crypto exchange went down with other $2 billion of user funds entangled in massive fraud and mismanagement.<strong><br></strong></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>According to a translated statement on the website, Thodex, a crypto exchange that is located in Turkey, stated its platform has been \"temporarily stopped\" to handle an \"abnormal fluctuation in the company accounts.\"<br><br>According to local media, Thodex's founder, Faruk Fatih Özer, has gone to Albania with $2 billion of investors' funds. The Demiroren News Agency published a photo of Ozer departing Istanbul Airport:<br>https://www.dha.com.tr/gundem/thodexin-kurucusu-faruk-fatih-ozerin-havalimanindan-ayrilirken-fotografi-1822744</p><p>The CEO has since declared that he has been close to committing suicide but decided against it. According to his own words, Faruk Fatih Özer, plans to repay all investors before handing himself in to authorities.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/TxFaD",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/6241c6cb5dadc.jpeg",
+            "date": "2021-4-22",
+            "scam_updates": [
+                {
+                    "date": "2022-08-01T00:00:00.000Z",
+                    "description": "<p>The founder of Thodex Fatih Ozer was arrested in Albania and is about to be extradited to Turkey.</p>"
+                }
+            ],
+            "proof_link": "https://www.cnbc.com/2021/04/23/bitcoin-btc-ceo-of-turkish-cryptocurrency-exchange-thodex-missing.html, https://www.dw.com/en/turkish-cryptocurrency-platform-founder-vanishes-fraud-suspected/a-57302955",
+            "website_link": "https://www.thodex.com/",
+            "webarchive_link": "https://web.archive.org/web/20220405133149/, https://coingeek.com/missing-thodex-ceo-may-face-40000-years-behind-bars-in-new-indictment/, https://www.coindesk.com/policy/2022/08/30/founder-of-turkish-crypto-exchange-thodex-arrested-in-albania/",
+            "twitter_link": "https://twitter.com/thodexofficial",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 2000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2861,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2735,
+            "project_name": "BitConnect",
+            "title": "BitConnect",
+            "description": "<p><strong>Quick Summary</strong></p><p>BitConnect was a Ponzi Scheme that managed to raise approx. $2 billion dollars from investors before it collapsed.</p><p><strong><br>Details of the Exploit</strong></p><p>BitConnect is a crypto lending platform, which claimed it used a trading bot for earning interest.<br><br>In fact, BitConnect was suspected of being a Ponzi scheme because of its multilevel marketing structure and impossibly high payouts (1% daily compounded interest). BitConnect interest fluctuated greatly with the volatility of Bitcoin, which its value was tied to.<br><br>The BitConnect Coin was among the world's top 20 most successful cryptocurrency tokens until its price collapsed after traders began losing confidence. BCC rose from a post ICO price of $0.17 to an all-time high of US$463 in December 2017; it declined to US$0.40 as of March 11, 2019. BitConnect released outstanding loans at a rate of US$363.62 to the BitConnect Wallet in form of BCC. However, soon after that news the internal exchange price and liquidity collapsed resulting in a nearly complete loss of value. Prosecutors managed to seize crypto assets worth $57 million from Arcaro, BitConnect's biggest partner in North America.</p>",
+            "name_categories": "Borrowing and Lending,CeFi",
+            "token_name": "BCC",
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/61bb58e866760.jpeg",
+            "date": "2018-1-15",
+            "scam_updates": [],
+            "proof_link": null,
+            "website_link": "https://www.bitconnect.co/",
+            "webarchive_link": "https://web.archive.org/web/20220426131429/https://economictimes.indiatimes.com/tech/technology/bitconnects-satish-kumbhani-charged-by-us-in-2-4-billion-ponzi-scam/articleshow/89844151.cms, https://web.archive.org/web/20220709021515/https://www.theverge.com/2021/11/18/22789507/crypto-scam-government-bitconnect-56-million-victim-reimbursement, https://web.archive.org/web/20220604204802/https://edition.cnn.com/2022/02/27/business/bitconnect-ponzi-scheme-satish-kumbhani/index.html",
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 2000000000,
+            "funds_returned": 56000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2735,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2792,
+            "project_name": "Finiko",
+            "title": "Finiko",
+            "description": "<p><strong>Quick Summary</strong></p><p>Finiko company which offers Bitcoin investment opportunities and huge return fees turns out to be a Ponzi scheme. The founders of the company were arrested. Finiko accumulated funds close to 1,500,000,000 $USD due to an investigation from Chainalysis.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The company, named Finiko, offered lucrative investment options using a network of promoters who pulled in new users for referral fees. Investors were supposed to put in bitcoin and get the native token of Finiko in return.</p><p>About 100 people reported Finiko to the police, officials said, and the amount of claims totaled around 70 million Russian rubles, or slightly less than $1 million. The project<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;accumulated 59,645 $BTC which is valued at more than 1,500,000,000 $USD due to an investigation from Chainalysis.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://www.blockchain.com/btc/address/328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk</p><p>https://www.blockchain.com/btc/address/1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5</p><p><br></p><p>Full list of the involved addresses:</p><p>https://archive.ph/8m2yG</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/8m2yG, https://archive.ph/4Wksf",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk",
+                    "url": "https://www.blockchain.com/btc/address/328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                },
+                {
+                    "address": "1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5",
+                    "url": "https://www.blockchain.com/btc/address/1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/61e84eb609242.jpeg",
+            "date": "2021-7-5",
+            "scam_updates": [],
+            "proof_link": "https://blog.chainalysis.com/reports/eastern-europe-cryptocurrency-geography-report-2021-preview/",
+            "website_link": null,
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/finiko_ru",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 1500000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2792,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3052,
+            "project_name": "Celsius Network",
+            "title": "Celsius Network",
+            "description": "<p><strong>Quick Summary</strong></p><p>Celcius Network filed Chapter 11 bankruptcy after a month of halting the services. The approximate budget hole reached 1,190,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Celsius is a centralized exchange and borrowing and earning protocol. Celsius Network filed for Chapter 11 bankruptcy on 13 July. The day after, it listed a 1,190,000,000 $USD deficit on its balance sheet. The liabilities of the Celcius reached 5,500,000,000 $USD when their assets were valued at 4,300,000,000 $USD. The project halted operations on the platform a month before an announcement, citing \"extreme market conditions\".</p>",
+            "name_categories": "Borrowing and Lending,CeFi",
+            "token_name": "CEL",
+            "proof_archive_link": "https://archive.ph/EF6CY, https://archive.ph/9uYCH, https://archive.ph/eIhGa",
+            "technical_issue": null,
+            "token_address": "https://etherscan.io/token/0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/62aa00749e36d.jpeg",
+            "date": "2022-6-13",
+            "scam_updates": [],
+            "proof_link": "https://phemex.com/blogs/celsius-bankruptcy-breakdown, https://rekt.news/en/celsius-rekt/, https://mobile.twitter.com/CelsiusNetwork/status/1536169010877739009?cxt=HHwWgsClhfLkyNEqAAAA",
+            "website_link": "https://celsius.network/",
+            "webarchive_link": null,
+            "twitter_link": "https://mobile.twitter.com/CelsiusNetwork",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 1190000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/CelsiusNetwork",
+            "git_hub_contract_link": "https://github.com/CelsiusNetwork/celsius-token",
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3052,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3283,
+            "project_name": "Voyager",
+            "title": "Voyager",
+            "description": "<p><strong>Quick Summary</strong></p><p>Voyager crypto platform filed for bankruptcy, revealing it had more than 1,000,000,000 $USD in liabilities. The Voyager stock price dropped over 12% as filing for Chapter 11.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Voyager crypto platform filed for bankruptcy for Chapter 11. The platform had between 1,000,000,000 and 10,000,000,000 $USD in liabilities according to the filing. All operations on the platform were halted, after revealing it had 661,000,000 $USD exposure to Three Arrows Capital, a crypto hedge fund that failed to meet margin calls and eventually filed for bankruptcy as well. The Voyager stock plunged roughly 12%.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/miM4r",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/63868d3314c11.jpg",
+            "date": "2022-5-7",
+            "scam_updates": [],
+            "proof_link": "https://decrypt.co/104490/voyager-stock-plummets-crypto-firm-files-bankruptcy, https://cases.stretto.com/public/x193/11753/PLEADINGS/1175307062280000000016.pdf",
+            "website_link": "https://www.investvoyager.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://mobile.twitter.com/investvoyager",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 1000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3283,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3282,
+            "project_name": "BlockFi",
+            "title": "BlockFi",
+            "description": "<p><strong>Quick Summary</strong></p><p>BlockFi filed for bankruptcy as FTX collapse grips crypto markets. The company filed a lawsuit against Emergent Fidelity Technologies which Sam Bankman Fried owns. The lending platform has 1,000,000,000 $USD in liabilities as a minimum.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BlockFi is a crypto lending platform, that provides lending opportunities using crypto assets as collateral. The platform halted withdrawals on November 11, the day when FTX filed for bankruptcy, citing \"significant exposure\" to the FTX exchange and Alameda Research hedge fund as well. The company filed for Chapter 11 and a lawsuit against Bankman Fried's Emergent Fidelity Technologies, demanding they turn over collateral that BlockFi claims is owed. BlockFi estimates it has between 1,000,000,000 $USD and 10,000,000,000 $USD in liabilities, according to the filing. The company owed money to more than 100,000 creditors, and the largest one is Ankura Trust which is owed roughly 729,000,000 $USD.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/UyIIs, https://archive.ph/k9pJd",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/638682e517d68.png",
+            "date": "2022-11-28",
+            "scam_updates": [],
+            "proof_link": "https://decrypt.co/115744/crypto-lender-blockfi-files-bankruptcy-ftx-contagion-claims-another, https://edition.cnn.com/2022/11/28/business/blockfi-bankruptcy-ftx-fallout/index.html",
+            "website_link": "https://blockfi.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/BlockFi",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 1000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3282,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3265,
+            "project_name": "FTX Group",
+            "title": "FTX Group",
+            "description": "<p><strong>Quick Summary</strong></p><p>FTX crypto exchange, Alameda Research trading company, and 130 other affiliated companies declared bankruptcy. Lost funds are valued at an estimated 1,000,000,000 to 2,000,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sam Bankman-Fried announced the bankruptcy of his two companies: FTX and Alameda Research. The accident begins with the research revealing Alameda Research's collateral was dominated by FTX's native token $FTT. For being concrete about the collateral, Alameda had 14,600,000,000 $USD worth of assets in total, where 3,660,000,000 $USD was free $FTT tokens, and 2,160,000,000 $USD in \"FTT collateral\". There were also major amounts of $SOL and $SRM tokens. Mr. Bankman-Fried was an early investor in the Solana chain and the co-founder of the Serum exchange.</p><p>It sparked a run on FTX, with panicked customers withdrawing billions of dollars from the exchange. $FTT token crashed by more than 95% in 24 hours. $SOL was also affected by the accident and by the recent on-chain activity that 49,000,000 $SOL tokens were withdrawn from the staking which caused the token price to drop by approximately 60%. FTX halted withdrawals on the exchange and declared bankruptcy. Because FTX was a major player in the crypto industry, other crypto projects that relied on the exchange were reporting fund losses one by one at the time.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p><p>https://bscscan.com/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p>",
+            "name_categories": "CeFi,Other",
+            "token_name": "FTT",
+            "proof_archive_link": "https://archive.ph/vfRY7, https://archive.ph/sxiB6, https://archive.ph/yFg7B, https://archive.ph/mVXo0, https://archive.ph/1vVLZ, https://archive.ph/KrIsL",
+            "technical_issue": null,
+            "token_address": "https://etherscan.io/token/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "token_addresses": [
+                {
+                    "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                    "url": "https://etherscan.io/address/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+                    "url": "https://solscan.io/token/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+                    "network": {
+                        "id": 1002,
+                        "icon_link": "safe/files/network/involved/solana.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/6372442f63873.png",
+            "date": "2022-11-11",
+            "scam_updates": [
+                {
+                    "date": "2022-11-16T00:00:00.000Z",
+                    "description": "<p>We are seeing activity on FTX Drainer addresses on both BSC and Ethereum chains. The total funds transferred to the drainer address reached 319,916,924 $USD. Assets worth 21,696,310 $USD remain on the BSC address, and 298,220,614 $USD is on the Ethereum address. A huge part of tokens on the Ethereum address was swapped for $ETH, and the current Ether balance of the address is 235,392.</p>"
+                },
+                {
+                    "date": "2022-11-12T00:00:00.000Z",
+                    "description": "<p>263,119,661 $USD worth of assets from the FTX's wallets were siphoned and transferred to an EOA address. 158,513 $ETH and 62,606,803 $USD worth of tokens remain at the address at the moment. This could be possible exploit by private keys compromise.</p>"
+                }
+            ],
+            "proof_link": "https://twitter.com/FTX_Official/status/1591071832823959552, https://twitter.com/SBF_FTX/status/1591089317300293636, https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/, https://www.bbc.com/news/technology-63612489, https://twitter.com/PeckShieldAlert/status/1591268801248911361, https://twitter.com/CertiKAlert/status/1592814539279454208",
+            "website_link": "https://ftx.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/FTX_Official",
+            "telegram_link": "https://t.me/FTX_Official",
+            "our_post_link": null,
+            "funds_lost": 1000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 1,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3265,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2871,
+            "project_name": "WoToken",
+            "title": "WoToken",
+            "description": "<p><strong>Quick Summary</strong></p><p>WoToken scam took in roughly $1 billion worth of crypto at current prices from over 715,000 victims.</p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif !important;'><br style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-family: &quot;Avenir Next&quot;, sans-serif !important;\"></strong><strong>Details of the Exploit</strong></p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(5, 15, 25); font-family: \"Avenir Next\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>WoToken purported to create profits for users by deploying algorithmic trading bots and paying affiliates referral commissions. The stated proprietary trading program, however, did not exist, as with other MLM frauds.</span></p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>One of the scam's key operators is allegedly tied to PlusToken, a multibillion-dollar Ponzi scheme that is thought to have influenced the price trajectory of Bitcoin (BTC) many times during 2019.<br><br>WoToken amassed 46,000 BTC, over 2 million Ethereum (ETH), 292,000 Litecoin (LTC), 56,000 Bitcoin Cash (BCH), and 684,00 Eos (EOS) – totaling approximately $1 billion at the time of the arrest.<br><br>WoToken was operational from July 2018 until October 2019.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://web.archive.org/web/20210418234212/https://coingeek.com/operators-of-1b-ponzi-scheme-wotoken-sentenced-to-9-years-in-prison/",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/62430ce2179b7.png",
+            "date": "2020-5-14",
+            "scam_updates": [],
+            "proof_link": "https://cointelegraph.com/news/plustoken-scammer-implicated-in-chinas-second-ten-figure-crypto-ponzi, https://www.theblockcrypto.com/linked/82783/china-crypto-ponzi-prison-wotoken-billions, https://news.bitcoin.com/billion-crypto-ponzi-wotoken-prison-china/",
+            "website_link": "http://wotoken.pro/",
+            "webarchive_link": "https://web.archive.org/web/20181029073006/http://wotoken.pro/",
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 1000000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2871,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3220,
+            "project_name": "Bitcoin Sheikh",
+            "title": "Bitcoin Sheikh",
+            "description": "<p><strong>Quick Summary</strong></p><p>The Bitcoin Sheikh was arrested for running a Ponzi scheme. 766,000,000 $USD worth of assets were seized by the authorities.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Brazil's Federal Police reported revealing another Ponzi scheme run by Francisco Valdevino da Silva also known as \"Bitcoin Sheikh\". The authorities claimed that the team De Silva frauded thousands of people in the last few years for the total amount of 766,000,000 $USD, by offering 20% returns. Da Silva and his criminal gang also created their own token, which according to the authorities, lacked liquidity or backing. Interestingly, some celebrities as the model Sasha Meneghel who lost 230,000 $USD and Brazil Soccer players were on the list of investors.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/sybdx, https://archive.ph/kYgJo, https://archive.ph/5LyqY",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/6349270c31c22.png",
+            "date": "2022-10-7",
+            "scam_updates": [],
+            "proof_link": "https://decrypt.co/111454/brazillian-police-raid-bitcoin-sheikh-defrauding-victims-766m, https://gettotext.com/bitcoin-sheik-arrested-end-to-766-million-scam/, https://www.coindesk.com/business/2022/10/07/brazilian-police-issue-warrants-against-alleged-leader-of-767m-crypto-pyramid-scheme/",
+            "website_link": null,
+            "webarchive_link": null,
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 766000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3220,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2879,
+            "project_name": "Ronin",
+            "title": "Ronin",
+            "description": "<p><strong>Quick Summary</strong></p><p>The Ronin bridge has been exploited for 173,600 Ethereum and 25.5M USDC.</p><p><br></p><p><strong>Details of the Exploit &nbsp;</strong></p><p>The Ronin Network, an Ethereum-based sidechain hosts the prominent play-to-earn game Axie Infinity.</p><p>The project team discovered that on March 23rd that Sky Mavis’s Ronin validator nodes and Axie DAO validator nodes were compromised resulting in 173,600 Ethereum and 25.5M USDC drained from the Ronin bridge in two transactions:<br>https://etherscan.io/tx/0xc28fad5e8d5e0ce6a2eaf67b6687be5d58113e16be590824d6cfa1a94467d0b7<br>https://etherscan.io/tx/0xed2c72ef1a552ddaec6dd1f5cddf0b59a8f37f82bdda5257d9c7c37db7bb9b08<br><br>The attacker used hacked private keys in order to forge fake withdrawals. The validator key scheme is set up to be decentralized so that it limits an attack vector, but the attacker found a backdoor through a gas-free RPC node, which they abused to get the signature for the Axie DAO validator. Binance managed to identify and recover $5,8 million in funds spread across 86 accounts that had been moved to their exchange. In the aftermath of the Ronin bridge hack a Binance led funding round raised $150 million in order to partially repay users and ensure that operations will be sustained</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The hacker's address on Ethereum:<br>https://etherscan.io/address/0x098b716b8aaf21512996dc57eb0615e2383e2f96</p>",
+            "name_categories": "Bridge",
+            "token_name": "RON",
+            "proof_archive_link": "https://web.archive.org/web/20220603160152/https://cointelegraph.com/news/binance-recovers-5-8m-in-funds-connected-to-ronin-bridge-exploit, https://web.archive.org/web/20220803005138/https://cointelegraph.com/news/the-aftermath-of-axie-infinity-s-650m-ronin-bridge-hack",
+            "technical_issue": null,
+            "token_address": "https://etherscan.io/token/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
+            "token_addresses": [
+                {
+                    "address": "0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2",
+                    "url": "https://etherscan.io/address/0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/624332aec87d2.jpeg",
+            "date": "2022-3-29",
+            "scam_updates": [],
+            "proof_link": "https://twitter.com/Ronin_Network/status/1508828719711879168, https://roninblockchain.substack.com/p/community-alert-ronin-validators?s=w",
+            "website_link": "https://bridge.roninchain.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/Ronin_Network",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 625000000,
+            "funds_returned": 155800000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 1,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 9,
+                "type": "Access Control"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600009,
+                    "scam_database_id": 2879,
+                    "networks": {
+                        "id": 1666600009,
+                        "name": "Ronin",
+                        "icon_link": "safe/files/network/ronin.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2543,
+            "project_name": "Poly Network",
+            "title": "Poly Network Exploit",
+            "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Polynetwork was hacked for $602M. The attacker used Proxy smart contracts on 3 chains.</span></p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Polynetwork is a DeFi platform. The project was hacked for 602,189,570 $USD in various assets. The attacker used unverified Proxy smart contracts on 3 chains. After the hack, the attacker who is called \"Mr. White Hat\", connected to the PolyNetwork team, and returned all stolen funds.&nbsp;</span></p><p data-v-51e0c2ec=\"\">Security experts said it was likely the attacker realized it would be difficult for them to launder the money and cash out since all transactions are recorded on the blockchain.</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p>&nbsp;Malicious smart contracts:</p><p>1. https://bscscan.com/address/0x7cea671dabfba880af6723bddd6b9f4caa15c87b#code&nbsp;</p><p>2. https://polygonscan.com/address/0xabd7f7b89c5fd5d0aef06165f8173b1b83d7d5c9#code&nbsp;</p><p>3. https://etherscan.io/address/0x838bf9e95cb12dd76a54c9f9d2e3082eaf928270#code<br><br>The owner of the Proxy contract on ETH (which was used in the attack) is another bytecoded contract (https://etherscan.io/address/0x5a51E2ebF8D136926b9cA7b59B60464E7C44d2Eb) with the EOA ownership.<br><br>EOA was previously funded by OKEX exchange's Hot Wallet:<br>https://etherscan.io/tx/0xe864536abe5440b56c9d0e600472519ed2eb84801507e24f8a6661f2c371be02<br><br>Attacker’s addresses:<br><br>Polygon:<br>https://polygonscan.com/address/0x5dc3603c9d42ff184153a8a9094a73d461663214<br><br>Binance Smart Chain:<br>https://bscscan.com/address/0x0d6e286a7cfd25e0c01fee9756765d8033b32c71<br><br>Ethereum:<br>https://etherscan.io/address/0xc8a65fadf0e0ddaf421f28feab69bf6e2e589963<br><br>The attacker started to approve USDC and BUSD tokens in order to deposit them into Ellipsis stablecoin pool:<br>https://bscscan.com/tx/0x5fe51028a73821777c2dcaa575d73add58cac79b9f68504b85c4281bf691fce8<br>https://bscscan.com/tx/0x4c6eaf4b0c5e080f3547160c39dca23fdd0533e1db849b1c096bf6df2cab1ba4<br><br>Deposited into Ellipsis stablecoin pool ($32,107,136.29 BUSD and $87,602,010.73 USDC):<br>https://bscscan.com/tx/0x6768b4848b6713347195330a1a31326d3c060a9a828d5b5ec51bc6653bcc9b4e<br><br>The attacker started to approve USDC and DAI tokens in order to deposit them into Curve stablecoin pool:<br>https://etherscan.io/tx/0x6c0b80ddb2d706a1e4bfcdb1815e6d5999443f863a7e96b37460bde75b99683d<br>https://etherscan.io/tx/0xa51979f54f6c9a2883712f5e694d9c23cf11394982cce4119b70c254624b52ea<br><br>Deposited into Curve stablecoin pool ($671,156.42 DAI and $96,299,898.44 USDC):<br>https://etherscan.io/tx/0xbc54deb446c8daa623611c062e2e49f374ef3a04ddb2a8f4b788c9e54eb14485<br><br><u>remove_liquidity_one_coin</u>() - $96,643,770.34 DAI was removed backed to the exploiter’s address:<br>https://etherscan.io/tx/0x2465d4cf19d3bf557ea5eec8d57b1ad75c8378e68ba242139e7e186bf463c1a1<br><br>Stolen funds:<br><br>ETH chain:<br>616,082.58 Fei USD ($614,628)<br>26,109.06 WETH ($82,374,869)<br>33,431,197.73 USDT ($33,239,073)<br>14.47 renBTC ($656,638)<br>259,737,345,149.51 SHIB ($1,999,977)<br>43,023.75 UNI ($1,247,688)<br>673,227.94 DAI &nbsp;($673,201)<br>1,032.12 WBTC ($46,946,198)<br>96,389,444.22 USDC ($96,375,567)<br><br>BSC chain:<br>32,107,854.11 BUSD ($32,105,564)<br>1,023.88 BTCB ($46,574,710)<br>26,629.15 ETH ($83,821,409)<br>87,603,373.77 USDC ($87,600,346)<br><br>Polygon chain:<br>85,089,610.911 USDC ($85,057,567)</p>",
+            "name_categories": "Other",
+            "token_name": null,
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/611296a35c3be.jpeg",
+            "date": "2021-8-10",
+            "scam_updates": [],
+            "proof_link": null,
+            "website_link": "https://www.poly.network/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/PolyNetwork2",
+            "telegram_link": "https://t.me/polynetworkgroup",
+            "our_post_link": null,
+            "funds_lost": 602189570,
+            "funds_returned": 602189570,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/",
+            "git_hub_contract_link": "https://github.com/",
+            "discord": "https://github.com/",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 1,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1,
+                    "scam_database_id": 2543,
+                    "networks": {
+                        "id": 1,
+                        "name": "Ethereum",
+                        "icon_link": "safe/files/network/ethereum.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3208,
+            "project_name": "BSC Token Hub",
+            "title": "BSC Token Hub",
+            "description": "<p><strong>Quick Summary</strong></p><p>BNB Smart Chain's native cross-chain bridge between BNB Beacon Chain and BNB Smart Chain was exploited, which resulted in minting 2,000,000 $BNB to the hacker's address.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The native cross-chain bridge between BNB Beacon Chain (BEP2) and BNB Smart Chain (BEP20), also known as BNB Token Hub was exploited. The hacker used a low-level proof vulnerability and minted 2,000,000 $BNB to their address. Consequently, the hacker began bridging the funds to Fantom and Ethereum chains. The security experts in collaboration with validators were able to save the majority of the funds. The hacker managed to bridge 127,000,000 $USD using AnySwap and Stargate bridges, with 53% of the stolen funds going to Ethereum, 33% to Fantom, and the rest to other chains. Tether blacklisted the attacker's address. The remaining 459,000,000 $USD worth of assets were left frozen in the attacker's address.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x05356fd06ce56a9ec5b4eaf9c075abd740cae4c21eab1676440ab5cd2fe5c57a</p><p>https://bscscan.com/tx/0xebf83628ba893d35b496121fb8201666b8e09f3cbadf0e269162baa72efe3b8b</p><p><br></p><p>Affected contracts:</p><p>https://bscscan.com/address/0x0000000000000000000000000000000000002000</p><p>https://bscscan.com/address/0x0000000000000000000000000000000000001004</p>",
+            "name_categories": "Bridge",
+            "token_name": null,
+            "proof_archive_link": "https://archive.is/T2Bel, https://archive.ph/4QS5D, https://web.archive.org/web/20221007133336/https://twitter.com/peckshield/status/1578184126338723841",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+                    "url": "https://bscscan.com/address/0x489a8756c18c0b8b24ec2a2b9ff3d4d447f79bec",
+                    "network": {
+                        "id": 56,
+                        "icon_link": "safe/files/network/involved/bsc.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/633ff586c5755.png",
+            "date": "2022-10-6",
+            "scam_updates": [],
+            "proof_link": "https://www.bnbchain.org/en/blog/bnb-chain-ecosystem-update, https://rekt.news/bnb-bridge-rekt/, https://twitter.com/peckshield/status/1578184126338723841",
+            "website_link": "https://www.bnbchain.org/en",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/BNBCHAIN",
+            "telegram_link": "https://t.me/binanceexchange",
+            "our_post_link": null,
+            "funds_lost": 586000000,
+            "funds_returned": 459000000,
+            "funds_by_chains": [],
+            "funds_recovered": 6500000,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": "https://discord.com/invite/binanceofficial",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 1,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 56,
+                    "scam_database_id": 3208,
+                    "networks": {
+                        "id": 56,
+                        "name": "Binance",
+                        "icon_link": "safe/files/network/bsc.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2643,
+            "project_name": "Coincheck",
+            "title": "Coincheck",
+            "description": "<p><strong>Quick Summary</strong></p><p>On Jan. 26, about 523 million NEM (XEM) tokens, valued at over $530 million at the time, were illicitly transferred from its hot wallet address, resulting in an anomalous drop in the Japanese exchange's balance.</p><p><strong><br>Details of the Exploit</strong><br>The attack was made possible by the company's technological issues and staff scarcity, which resulted in inadequate security measures. The stolen NEM were held on an internet-connected hot wallet rather than an offline cold wallet.<br><br>Coincheck utilized its own funds to compensate all 260,000 impacted clients:<br>https://www.ft.com/content/6a761a60-2694-11e8-b27e-cc62a39d57a0</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://explorer.nemtool.com/#/s_account?account=NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG</p><p><br></p><p>Malicious transaction example:</p><p>https://explorer.nemtool.com/#/s_tx?hash=c2921d538a6192bf35e0bb49cefcf6aa8e19acb3fef08f70f5b6b977d9d50aee</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://web.archive.org/web/20220316123814/https://fortune.com/2018/01/31/coincheck-hack-how/",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG",
+                    "url": "https://explorer.nemtool.com/#/s_account?account=NC4C6PSUW5CLTDT5SXAGJDQJGZNESKFK5MCN77OG",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/614c95414a1f8.png",
+            "date": "2018-1-26",
+            "scam_updates": [],
+            "proof_link": "https://www.reuters.com/article/us-japan-cryptocurrency-q-a/the-coincheck-hack-and-the-issue-with-crypto-assets-on-centralized-exchanges-idUSKBN1FI0K4, https://fortune.com/2018/01/31/coincheck-hack-how/, https://www.coindesk.com/markets/2018/01/26/coincheck-confirms-crypto-hack-loss-larger-than-mt-gox/",
+            "website_link": "https://coincheck.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/coincheckjp",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 534000000,
+            "funds_returned": 534000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2643,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3344,
+            "project_name": "Vires Finance",
+            "title": "Vires Finance",
+            "description": "<p><strong>Quick Summary</strong></p><p>Vires Finance has experienced a liquidity crunch due to overextended loans, resulting in a bad debt of over 500,000,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Vires Finance is a decentralized money market protocol built on top of the Waves blockchain, which provides lending and borrowing opportunities. $USDN is an algorithmic stablecoin of the project, that had over 1,260,000,000 $USD in TVL at that moment.&nbsp;</p><p>On 3rd April 2022, the platform experienced a liquidity crunch, which prompted Waves founder Sasha Ivanov to step in and take on the bad debt of about 500,000,000 $USD. Ivanov has since pledged to slowly liquidate the debt without causing the coin to depeg. To manage the debt, Vires has limited withdrawals to $1,000 $USD per user per day. The company sporadically adds liquidity to Vires, which is quickly withdrawn. $USDN has managed to restore its $1 peg for a brief period and then lost a peg multiple times. In the end, the token lost its peg permanently and was rebranded, and now it is not stablecoin anymore. The new token was named Neutrino Index and has a $XTN symbol, and it has only 112,000,000 $USD as a TVL</p><p><br></p><p><strong>Block Data Reference</strong></p><p>XTN address:</p><p>https://new.wavesexplorer.com/assets/DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p</p>",
+            "name_categories": "Borrowing and Lending,Stablecoin",
+            "token_name": "XTN",
+            "proof_archive_link": "https://archive.ph/w10bK, https://archive.ph/DhYfU, https://archive.ph/BWAaR",
+            "technical_issue": null,
+            "token_address": "https://new.wavesexplorer.com/assets/DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p",
+            "token_addresses": [
+                {
+                    "address": "DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p",
+                    "url": "https://new.wavesexplorer.com/assets/DG2xFkPdDwKUoBkzGAhQtLpSGzfXLiCYPEzeKH2Ad24p",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/63f75cd66d0ed.png",
+            "date": "2022-4-3",
+            "scam_updates": [],
+            "proof_link": "https://cryptobriefing.com/waves-community-passes-reset-proposal-for-vires-finance/, https://twitter.com/WazzCrypto/status/1625216798718042114, https://blockworks.co/news/waves-founder-holding-500m-debt-to-avoid-usdn-depeg",
+            "website_link": "https://vires.finance/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/viresfinance?lang=en",
+            "telegram_link": "https://t.me/vf_announcements",
+            "our_post_link": null,
+            "funds_lost": 500000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 1,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600016,
+                    "scam_database_id": 3344,
+                    "networks": {
+                        "id": 1666600016,
+                        "name": "Other",
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2808,
+            "project_name": "Mt. Gox",
+            "title": "Mt. Gox (3)",
+            "description": "<p><strong>Quick Summary</strong></p><p>One of the world's largest exchanges, Mt. Gox, declared bankruptcy in 2014 after being hacked, while losing most of its assets. At the time of bankruptcy, the exchange held 200k $BTC.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mt. Gox was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in 2010, it processed more than 70% of all Bitcoin (BTC) transactions worldwide by the beginning of 2014.</p><p>At the beginning of 2014, Mt Gox, a bitcoin exchange based in Japan, was the largest bitcoin exchange in the world, handling over 70% of all bitcoin transactions worldwide. By the end of February of that year, it was bankrupt.<br>Anyone who was using Mt. Gox lost access to their assets, and it has been a cautionary tale for crypto investors. While the assets weren’t all lost, anything that was left has been frozen for years.<br>The victim of a massive hack, Mt. Gox lost about 740,000 bitcoins (6% of all bitcoin in existence at the time), valued at the equivalent of €473 million at the time and over $3 billion at October 2017 prices. An additional $27 million was missing from the company’s bank accounts.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://www.blockchain.com/btc/address/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF",
+                    "url": "https://www.blockchain.com/btc/address/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/61f921be9f134.jpeg",
+            "date": "2014-2-24",
+            "scam_updates": [],
+            "proof_link": "https://www.coindesk.com/markets/2014/02/25/mt-gox-allegedly-loses-350-million-in-bitcoin-744400-btc-rumoured-to-be-insolvent/, https://www.reuters.com/investigates/special-report/bitcoin-gox/",
+            "website_link": "https://www.mtgox.com/",
+            "webarchive_link": null,
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 473000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2808,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2939,
+            "project_name": "MyCoin",
+            "title": "MyCoin",
+            "description": "<p><strong>Quick Summary</strong></p><p>Hong Kong bitcoin exchange MyCoin was shot down, taking with it as much as HK$3bn ($386.9m) in investor funds.&nbsp;</p><p><strong><br>Details of the Exploit</strong></p><p>MyCoin promised its investors a return of 150% for a few months of locking up 90 Bitcoin at a price of HK$400,000 at the time.</p><p><br></p><p>30 people were claiming to be victims of the company's actions petitioned a local member of the Legislative Council, Leung Yiu-Chung.<br><br>Some reports stated the company never operated as a genuine bitcoin business at all. Testimonies from customers describe an operation more like a Ponzi scheme that used the veneer of bitcoin trading as its lure.<br><br>Customers were never presented with receipts and were led to deposit their newly-acquired coins at a separate site to earn interest.<br><br>MyCoin had promised that it would soon be listed on the Hong Kong stock exchange, and according to photos posted online, also operated a bitcoin ATM:<br>http://news.yibite.com/application/2015/0208/27667.shtml</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://web.archive.org/web/20150214074932/https://finance.yahoo.com/news/mycoin-ponzi-scheme-another-setback-190807414.html",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/624efc0f5205a.png",
+            "date": "2015-2-9",
+            "scam_updates": [],
+            "proof_link": "https://www.coindesk.com/markets/2015/02/09/hong-kongs-mycoin-disappears-with-up-to-387-million-reports-claim/",
+            "website_link": "https://www.mycoin.hk/",
+            "webarchive_link": "https://web.archive.org/web/20140318234716/https://www.mycoin.hk/",
+            "twitter_link": "https://twitter.com/MyCoinHK",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 387000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 10,
+                "type": "Rugpull"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2939,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2814,
+            "project_name": "Wormhole",
+            "title": "Wormhole",
+            "description": "<p><strong>Quick Summary</strong></p><p>The Wormhole bridge was compromised by an attacker that bypassed the verification process and made away with 120,000 $WETH.</p><p><strong><br>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p>1. The attacker minted 120,000 wETH on Solana:<br>https://solscan.io/tx/2zCz2GgSoSS68eNJENWrYB48dMM1zmH8SZkgYneVDv2G4gRsVfwu5rNXtK5BKFxn7fSqX9BvrBc1rdPAeBEcD6Es<br><br>2. The attacker redeemed 93,750 wETH for ETH worth $254 million onto the Ethereum:<br>https://etherscan.io/tx/0x24c7d855a0a931561e412d809e2596c3fd861cc7385566fd1cb528f9e93e5f14<br>3. The hacker used some funds to buy SportX ($SX), Meta Capital ($MCAP), Finally Usable Crypto Karma ($FUCK), and Bored Ape Yacht Club Token ($APE), the example transactions:<br>https://etherscan.io/tx/0x8ab3c4adab6d1a21ec1fcd7dc96523e7dada92d1373ee6919aa6b10b51ebe8d1<br>https://etherscan.io/tx/0x697869218add15e019f7a1904b7c3b435f9048ec3bcb9c84cf23e64916a41add<br>https://etherscan.io/tx/0x6f17f122dca10e9c894af3766d93e97c08f8925eb3a20b894b810edb3d029ed0<br>https://etherscan.io/tx/0x57a48345888cbfb2d442f272c6fd9d38f57f6f5608c00c4978860eea7dc927c<br><br>4. The remaining wETH was swapped for SOL and USDC on Solana. The hacker’s Solana wallet currently holds 432,662 SOL ($44 million):<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka#splTransfers<br><br>Probably the issue was in the signature verification process. So it lead to an unverified call by the attacker.</p><p>Investors were made whole by Jump Trading the mother company behind the wormhole bridge that replenished the stolen ETH.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p>The attacker's addresses:<br>https://etherscan.io/address/0x629e7da20197a5429d30da36e77d06cdf796b71a<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka</p>",
+            "name_categories": "Bridge",
+            "token_name": null,
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "2SDN4vEJdCdW3pGyhx2km9gB3LeHzMGLrG2j4uVNZfrx",
+                    "url": "https://solscan.io/account/2SDN4vEJdCdW3pGyhx2km9gB3LeHzMGLrG2j4uVNZfrx#splTransfer",
+                    "network": {
+                        "id": 1002,
+                        "icon_link": "safe/files/network/involved/solana.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/61fbf1c66bbcf.jpeg",
+            "date": "2022-2-2",
+            "scam_updates": [],
+            "proof_link": "https://twitter.com/wormholecrypto/status/1489001949881978883, https://twitter.com/peckshield/status/1489053988716568577, https://cointelegraph.com/news/wormhole-token-bridge-loses-321m-in-largest-hack-so-far-in-2022",
+            "website_link": "https://wormholenetwork.com/",
+            "webarchive_link": "https://web.archive.org/web/20220217184708/https://www.foxbusiness.com/markets/jump-trading-replaces-stolen-wormhole-funds-after-320m-crypto-hack",
+            "twitter_link": "https://twitter.com/wormholecrypto",
+            "telegram_link": "https://t.me/wormholecrypto",
+            "our_post_link": null,
+            "funds_lost": 326000000,
+            "funds_returned": 326000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": "https://discord.com/invite/TsjcDtTPVp",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1002,
+                    "scam_database_id": 2814,
+                    "networks": {
+                        "id": 1002,
+                        "name": "Solana",
+                        "icon_link": "safe/files/network/solana.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3260,
+            "project_name": "Trade Coin Club",
+            "title": "Trade Coin Club",
+            "description": "<p><strong>Quick Summary</strong></p><p>Trade Coin Club founders were running a Ponzi Scheme by conning investors for a fraudulent crypto trading bot. Roughly 295,000,000 $USD worth of $BTC was scammed.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Trade Coin Club is an investment company, which promises \"minimum returns of 0,35% daily\" by \"performing millions of microtransactions per second\". The company ran a Ponzi Scheme and actually had no trading bot. The funds from 100,000 worldwide investor's deposits were withdrawn directly by the four people to enrich themselves.&nbsp;</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/iH2mz, https://archive.ph/Mv0OH",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/636b76f530675.jpg",
+            "date": "2016-8-2",
+            "scam_updates": [
+                {
+                    "date": "2022-11-04T00:00:00.000Z",
+                    "description": "<p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>SEC charged Douver Torres Braga, Joff Paradise, Keleionalani Akana Taylor, and Jonathan Tetreault for raising over 80,000 $BTC from investors between 2016 and 2018.</span></p>"
+                }
+            ],
+            "proof_link": "https://www.sec.gov/news/press-release/2022-201, https://www.coindesk.com/policy/2022/11/04/sec-charges-trade-coin-club-founding-members-with-operating-a-295-million-ponzi-scheme/",
+            "website_link": null,
+            "webarchive_link": null,
+            "twitter_link": null,
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 295000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 18,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3260,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2644,
+            "project_name": "KuCoin",
+            "title": "KuCoin",
+            "description": "<p><strong>Quick Summary&nbsp;</strong></p><p>Hackers managed to obtain the private keys to KuCoin's hot wallets and drain the exchange for various crypto assets in the amount of $280 million.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>This case lacks information with regard to the methodology hackers utilized in order to gain access to KuCoin's hot wallets. The hot wallet affected were designated for Bitcoin, Ethereum, and ERC-20 tokens.<br><br>Stolen funds included:<br>- 1,008 BTC ($10,758,404.86)<br>- 11,543 ETH ($4,030,957.90)<br>- 19,834,042 USDT-ETH ($19,834,042.14)<br>- 18,495,798 XRP ($4,254,547.54)<br>- 26,733 LTC ($1,238,539.89)<br>- 999,160 USDT ($999,160)<br>- $147M worth of ERC-20 tokens<br>- $87M of Stellar tokens<br><br>In an attempt to launder the ill-gotten funds, the attackers proceeded to use a mixture of DeFi protocols such as Kyber and Uniswap.<br>The CEO of KuCoin claims that through a mixture of on-chain analyses, judicial recovery, as well as contract upgrades, 84% of the stolen funds, had been recovered. The remaining losses were covered by KuCoin's own capital and insurance fund.</p>",
+            "name_categories": "CeFi",
+            "token_name": null,
+            "proof_archive_link": "https://web.archive.org/web/20220526165208/https://twitter.com/lyu_johnny/status/1326465021346373632, https://web.archive.org/web/20220803201811/https://blog.chainalysis.com/reports/kucoin-hack-2020-defi-uniswap/",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [],
+            "logo_link": "safe/files/scamDatabase/logo/614cab54101a5.png",
+            "date": "2020-9-25",
+            "scam_updates": [],
+            "proof_link": "https://news.bitcoin.com/kucoin-boss-on-strategy-after-hack-we-chose-to-act/, https://twitter.com/lyu_johnny/status/1326465021346373632",
+            "website_link": "https://www.kucoin.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/kucoincom",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 280000000,
+            "funds_returned": 280000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 9,
+                "type": "Access Control"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2644,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3593,
+            "project_name": "Multichain",
+            "title": "Multichain",
+            "description": "<p><strong>Quick Summary</strong></p><p>Multichain, a crosschain bridge, was exploited leading to an estimated loss of 231,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Cross-chain Bridge Multichain faced an exploit resulting in nearly $130 million being siphoned out of various token bridges. The assets locked up in the Multichain MPC address were moved abnormally to an EOA address. The unexpected outflows led to Multichain’s Fantom Bridge losing its entire holdings in wBTC, USDC, USDT, and a handful of altcoins, worth over $130 million in total. Similar outflows were observed from Multichain’s Moonriver and Dogecoin bridge contracts. The assets transferred out of the Multichain Fantom bridge include DAI, LINK, USDT, wBTC, wETH, and USDC. Multichain team announced the team is not sure what happened. The most possible cause of the exploit is wallet compromise, but there is also the possibility of an insider hack.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Suspicious Addresses:</p><p>https://etherscan.io/address/0x418ed2554c010a0c63024d1da3a93b4dc26e5bb7</p><p>https://etherscan.io/address/0x027f1571aca57354223276722dc7b572a5b05cd8</p><p><br></p><p>Funds Moving Transactions:</p><p>https://etherscan.io/tx/0xda80a8c8d5a8fdf0208a6fd01c39af018e400763b1d08f3543f52353345fe62e</p><p>https://etherscan.io/tx/0xbd29fe07555c28527fb0207aa0ac2b67d4afef0426793c35b76d005613477fc4</p>",
+            "name_categories": "Bridge",
+            "token_name": null,
+            "proof_archive_link": "https://archive.ph/1gDBO, https://archive.ph/xipSX, https://archive.ph/GW3hX",
+            "technical_issue": null,
+            "token_address": null,
+            "token_addresses": [
+                {
+                    "address": "0xc564ee9f21ed8a2d8e7e76c085740d5e4c5fafbe",
+                    "url": "https://etherscan.io/address/0xc564ee9f21ed8a2d8e7e76c085740d5e4c5fafbe",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/64a86d9f39b3b.jpg",
+            "date": "2023-7-6",
+            "scam_updates": [
+                {
+                    "date": "2023-07-10T00:00:00.000Z",
+                    "description": "<p>On July 10, 2023, the Multichain project, experienced another significant exploit incident. Indicating that unauthorized access to the system was gained, leading to a substantial loss of funds across various chains.</p><p><br></p><p>The funds were transferred to the single EOA in nine chains. The transfer behavior suggested that the attacker had control over all the assets and was not in a hurry to move them, leading to speculation that the incident could have resulted from an internal operation.</p><p><br></p><p>Here is the breakdown of the funds lost by chain:</p><p><br></p><p>- Arbitrum: $14,371,766 USD worth of USDC, WETH, and WBTC</p><p>- Fantom: $48,560,731 USD worth of USDC, WETH, DAI, WBTC, and over 60,000,000 non-liquid fUSDT tokens</p><p>- Optimism: $11,080,749 USD worth of USDC, DAI, and WBTC</p><p>- Cronos: $10,911,004 USD worth of USDC, WETH, and DAI</p><p>- Polygon: $10,990,882 USD worth of USDC, WETH, and WBTC</p><p>- Avalanche: $3,190,649 USD worth of DAI and WBTC</p><p>- Binance Smart Chain: $1,770,304 USD worth of USDC and BTCB</p><p>- Moonbeam: $237,657 in USDC</p><p>- Ethereum: $15,291 USD worth of DAI</p><p><br></p><p>The total amount stolen in liquid assets is approximately $101,129,033 USD.</p>"
+                }
+            ],
+            "proof_link": "https://twitter.com/multichainorg/status/1677096839731097600, https://www.coindesk.com/business/2023/07/06/multichain-bridges-experience-unannounced-outflows-of-over-130m-in-crypto/, https://twitter.com/BeosinAlert/status/1678617665735385089",
+            "website_link": "https://multichain.org/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/MultichainOrg",
+            "telegram_link": "https://t.me/anyswap",
+            "our_post_link": null,
+            "funds_lost": 231129033,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 9,
+                "type": "Access Control"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1,
+                    "scam_database_id": 3593,
+                    "networks": {
+                        "id": 1,
+                        "name": "Ethereum",
+                        "icon_link": "safe/files/network/ethereum.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3267,
+            "project_name": "Gate.io",
+            "title": "Gate.io (2)",
+            "description": "<p><strong>Quick Summary</strong></p><p>Gate.io crypto exchange's cold wallets were exploited via access control. The previous hacker address on the 2015 exploit was involved in this one too. The stolen amount reached roughly 230,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Gate.io is a centralized crypto exchange. The exchange's cold wallet's private keys were compromised. There is an address involved in the previous 14 February 2015 hack. The total stolen funds were valued at 234,337,668 $USD at the moment of the accident, which contains 10,777 $BTC, 218,790 $ETH, 175,866 $ETC, 3,043,268 $XRP, 11,000 $LTC, 3,783 $ZEC, and 99,999,000 $DOGE.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Compromised address:</p><p>https://www.blockchain.com/btc/address/1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e</p><p><br></p><p>Major transactions:</p><p>https://www.blockchain.com/btc/tx/086f9d27f574c7a1b9179fc7524c2a5227a095ca7c3b096d93ed6fbf8e92af16</p><p>https://www.blockchain.com/btc/tx/d08acac36311373f81f45179de3aa72174cb665122eb2aadefc74738fc6cbcd5</p>",
+            "name_categories": "CeFi",
+            "token_name": "GT",
+            "proof_archive_link": "https://archive.ph/mUbfV, https://archive.ph/09sUH",
+            "technical_issue": null,
+            "token_address": "https://etherscan.io/token/0xe66747a101bff2dba3697199dcce5b743b454759",
+            "token_addresses": [
+                {
+                    "address": "1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e",
+                    "url": "https://www.blockchain.com/btc/address/1M2bv6sypZSp6uAEC9U4Gzvgp6jd29F87e",
+                    "network": {
+                        "id": 1666600016,
+                        "icon_link": "safe/files/network/other.png"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/637395525e7d1.jpg",
+            "date": "2018-4-21",
+            "scam_updates": [],
+            "proof_link": "https://mobile.twitter.com/lookonchain/status/1592438389953159168, https://twitter.com/1A1zP1/status/1591911832809349120, https://www.justice.gov/opa/press-release/file/1253491/download",
+            "website_link": "https://www.gate.io/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/gate_io",
+            "telegram_link": "https://t.me/gateio",
+            "our_post_link": null,
+            "funds_lost": 230000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/gateio",
+            "git_hub_contract_link": null,
+            "discord": "https://discord.gg/QZWFkuQvzP",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 9,
+                "type": "Access Control"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 3267,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 3330,
+            "project_name": "Neutrino USD",
+            "title": "Neutrino USD (Neutrino Index Token)",
+            "description": "<p>The algorithmic stablecoin USDN, which is designed to maintain a 1:1 ratio with the US dollar, lost its peg as its token backing, WAVES, saw a double-digit price slide. This caused USDN to fall by more than 15% to $0.83, wiping out $200 million in the process. Users need to lock in WAVES in Neutrino's smart contracts to mint USDN, and USDN redemptions have the opposite effect of destroying the stablecoin to unlock WAVES supply.</p><p><br></p><p>The fall in WAVES price comes after several Twitter handles accused the Waves team of manipulating the price of its native token through its decentralized finance (DeFi) lending platform Vires.finance. Waves CEO Sasha Ivanov dismissed the allegations and accused Alameda Research of manipulating the prices of WAVES. On Sunday, Ivanov submitted a new governance proposal, supposedly to keep speculative activities at bay. However, Crypto Twitter is up in arms against the proposal, calling it an attempt to subvert the system in favor of insiders and a \"rug pull\" on everyone who used the platform in good faith. Vires.finance is losing liquidity amid the controversy, with the total value locked in the DeFi platform dropping to $945 million from a record $1.26 billion in three days.</p>",
+            "name_categories": "Stablecoin",
+            "token_name": "USDN",
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+            "token_addresses": [
+                {
+                    "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+                    "url": "https://etherscan.io/address/0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/63ecb188619e9.png",
+            "date": "2022-4-4",
+            "scam_updates": [],
+            "proof_link": "https://www.coindesk.com/markets/2022/04/04/waves-usdn-stablecoin-loses-peg-drops-15-amid-manipulation-scare/, https://forkast.news/waves-usdn-loses-peg-price-manipulation-allegations/, https://cointelegraph.com/news/waves-backed-stablecoin-usdn-drops-further-after-regulator-warning-and-exchange-delisting",
+            "website_link": "https://neutrino.at/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/neutrino_proto?lang=en",
+            "telegram_link": null,
+            "our_post_link": null,
+            "funds_lost": 200000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/waves-exchange/neutrino-contract/",
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 0,
+            "is_public_team": 1,
+            "scam_type": {
+                "id": 19,
+                "type": "Other"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1,
+                    "scam_database_id": 3330,
+                    "networks": {
+                        "id": 1,
+                        "name": "Ethereum",
+                        "icon_link": "safe/files/network/ethereum.png"
+                    }
+                }
+            ],
+            "auditedBy": [
+                {
+                    "audit_link": "safe/files/audit/pdf/USDN_Baosin.pdf",
+                    "date": "2020-04-07T00:00:00.000Z",
+                    "partner": {
+                        "id": 54,
+                        "name": "Beosin",
+                        "logo_link": "safe/files/partner/logo/60df3c1fcb7f3.jpeg"
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3373,
+            "project_name": "Euler Finance",
+            "title": "Euler Finance",
+            "description": "<p><strong>Quick Summary</strong></p><p>Euler Finance Suffers Hack Resulting in Loss of $196 Million USD in different assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On March 13th, Euler Finance, an Ethereum-based noncustodial lending protocol, was attacked through a flash loan attack which resulted in the theft of millions in various cryptocurrencies, including Dai, USD Coin, staked Ether (StETH), and Wrapped Bitcoin (WBTC). According to on-chain data, the attacker carried out multiple transactions and was able to steal nearly $196 million (<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$8.7 million in Dai, $18.5 million in Wrapped Bitcoin, $135.8 million in Staked Ethereum, and $33.8 million in Circle's USD stablecoin, USDC</span>). Meta Seluth, a crypto analytic firm, reported that the attack is similar to a deflation attack that took place one month prior. The attacker leveraged a multichain bridge to transfer funds from the BNB Smart Chain to Ethereum and then launched the attack. The funds were later deposited into Tornado Cash, a crypto mixer.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit txs:</p><p>https://etherscan.io/tx/0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d</p><p>https://etherscan.io/tx/0x47ac3527d02e6b9631c77fad1cdee7bfa77a8a7bfd4880dccbda5146ace4088f</p><p>https://etherscan.io/tx/0x3097830e9921e4063d334acb82f6a79374f76f0b1a8f857e89b89bc58df1f311</p><p>https://etherscan.io/tx/0x465a6780145f1efe3ab52f94c006065575712d2003d83d85481f3d110ed131d9</p><p>https://etherscan.io/tx/0x62bd3d31a7b75c098ccf28bc4d4af8c4a191b4b9e451fab4232258079e8b18c4</p><p>https://etherscan.io/tx/0x71a908be0bef6174bccc3d493becdfd28395d78898e355d451cb52f7bac38617</p><p><br></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0x5f259d0b76665c337c6104145894f4d1d2758b8c</p><p>https://etherscan.io/address/0xb2698c2d99ad2c302a95a8db26b08d17a77cedd4</p><p><br></p><p>Attacker contracts:&nbsp;</p><p>https://etherscan.io/address/0xebc29199c817dc47ba12e3f86102564d640cbf99</p><p>https://etherscan.io/address/0x036cec1a199234fc02f72d29e596a09440825f1c</p>",
+            "name_categories": "Borrowing and Lending",
+            "token_name": "EUL",
+            "proof_archive_link": "https://twitter.com/CertiKAlert/status/1640620822288105472?s=20",
+            "technical_issue": "<p>https://etherscan.io/tx/0xe3f67f8e50042f09a3d9b6873bd15c14fa8b8176cfa1069bc1d3ab71e4b3fd0d</p><p>https://etherscan.io/tx/0x19f802affe24572bac3af47983f42bbec6055117c6a32c3fddc58bd7545e5240&nbsp;</p><p>https://etherscan.io/tx/0x9f3edbd1eb404dec2e4d9aae93c739136f79c87f6382af25413ce705cc431f59</p>",
+            "token_address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+            "token_addresses": [
+                {
+                    "address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+                    "url": "https://etherscan.io/address/0xebc29199c817dc47ba12e3f86102564d640cbf99",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+                    "url": "https://etherscan.io/token/0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0x036cec1a199234fc02f72d29e596a09440825f1c",
+                    "url": "https://etherscan.io/address/0x036cec1a199234fc02f72d29e596a09440825f1c",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0x0275b156cd77c5ed82d44bcc5f9e93eecff20138",
+                    "url": "https://etherscan.io/address/0x0275b156cd77c5ed82d44bcc5f9e93eecff20138",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0xbd1bd5c956684f7eb79da40f582cbe1373a1d593",
+                    "url": "https://etherscan.io/address/0xbd1bd5c956684f7eb79da40f582cbe1373a1d593",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716",
+                    "url": "https://etherscan.io/address/0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                },
+                {
+                    "address": "0x1b808f49add4b8c6b5117d9681cf7312fcf0dc1d",
+                    "url": "https://etherscan.io/address/0x1b808f49add4b8c6b5117d9681cf7312fcf0dc1d",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/640f1aa56ed41.jpg",
+            "date": "2023-3-13",
+            "scam_updates": [],
+            "proof_link": "https://twitter.com/officer_cia/status/1635206447901577218?s=20, https://forkast.news/headlines/euler-finance-loses-nearly-us200-mln-in-exploit/, https://twitter.com/eulerfinance/status/1635218198042918918, https://twitter.com/peckshield/status/1635229594596036608?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1635231791509549057%7Ctwgr%5Edd8cd0ea95b3dd97ac68e15f18eab76f9b262824%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fdecrypt.co%2F123293%2Fdefi-lender-euler-finance-hit-flash-loan-attack",
+            "website_link": "https://app.euler.finance/",
+            "webarchive_link": "https://archive.ph/wip/RnSCw",
+            "twitter_link": "https://twitter.com/eulerfinance",
+            "telegram_link": "https://t.me/eulerfinance_official",
+            "our_post_link": null,
+            "funds_lost": 196000000,
+            "funds_returned": 177000000,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": "https://github.com/euler-xyz",
+            "git_hub_contract_link": null,
+            "discord": "https://discord.gg/CdG97VSYGk",
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": 0,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 15,
+                "type": "Flash Loan Attack"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1,
+                    "scam_database_id": 3373,
+                    "networks": {
+                        "id": 1,
+                        "name": "Ethereum",
+                        "icon_link": "safe/files/network/ethereum.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        },
+        {
+            "id": 2713,
+            "project_name": "BitMart Exchange",
+            "title": "BitMart Exchange",
+            "description": "<p><br></p><p><strong>Quick Summary</strong></p><p>The BitMart Exchange became a victim of a hack attended of $196 million in losses. The hack was first confirmed by a third-party security firm PeckShield.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BitMart is a global cryptocurrency exchange that allows users in 180+ countries to buy and sell over 1,000 digital currencies and tokens.</p><p>BitMart faced a serious problem with the security of its assets, which led to extraordinary losses for the company. PeckSield noticed a suspicious transaction of $10 million to a hot wallet that was refferred to as a 'BitMart Hacker'. The attack was carried out in two networks BSC - $96 million, Ethereum - $100 million.&nbsp;</p><p>Unfortunately the scammers could not be identified as the investigation is still ongoing</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's addresses:<br>- Ethereum:<br>&nbsp; 1) https://etherscan.io/address/0x39fb0dcd13945b835d47410ae0de7181d3edf270<br>&nbsp; 2) https://etherscan.io/address/0x4bb7d80282f5e0616705d7f832acfc59f89f7091<br>- BSC:&nbsp;</p><p>&nbsp; 1) https://bscscan.com/address/0x25fb126b6c6b5c8ef732b86822fa0f0024e16c61<br><br>Transactions:<br>Withdrawing $SHIB tokens from BitMart:</p><p>- ETH: https://etherscan.io/tx/0x6afb730976b2cf39e5ea7ce8a56c3597728e4e5923f7abae7086fb53019e81e8<br>- BSC: https://bscscan.com/tx/0x834321195283c5eafbc8a31b6a6926c9af416ee23bd4d71ab15eb9089a90d86d</p>",
+            "name_categories": "CeFi",
+            "token_name": "BMC",
+            "proof_archive_link": null,
+            "technical_issue": null,
+            "token_address": "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8",
+            "token_addresses": [
+                {
+                    "address": "0x8c128dba2cb66399341aa877315be1054be75da8",
+                    "url": "https://bscscan.com/address/0x8c128dba2cb66399341aa877315be1054be75da8",
+                    "network": {
+                        "id": 56,
+                        "icon_link": "safe/files/network/involved/bsc.svg"
+                    }
+                },
+                {
+                    "address": "0x68b22215ff74e3606bd5e6c1de8c2d68180c85f7",
+                    "url": "https://etherscan.io/address/0x68b22215ff74e3606bd5e6c1de8c2d68180c85f7",
+                    "network": {
+                        "id": 1,
+                        "icon_link": "safe/files/network/involved/ethereum.svg"
+                    }
+                }
+            ],
+            "logo_link": "safe/files/scamDatabase/logo/61ae0e8ff1a8d.jpeg",
+            "date": "2021-12-4",
+            "scam_updates": [],
+            "proof_link": "https://twitter.com/sheldonbitmart/status/1467316252855226368, https://twitter.com/peckshield/status/1467289808045494276, https://rekt.news/bitmart-rekt/",
+            "website_link": "https://www.bitmart.com/",
+            "webarchive_link": null,
+            "twitter_link": "https://twitter.com/BitMartExchange",
+            "telegram_link": "https://t.me/BitMartExchange",
+            "our_post_link": null,
+            "funds_lost": 196000000,
+            "funds_returned": 0,
+            "funds_by_chains": [],
+            "funds_recovered": null,
+            "active": 1,
+            "git_hub": null,
+            "git_hub_contract_link": null,
+            "discord": null,
+            "bug_bounty_program_link": null,
+            "bug_bounty_program_company": null,
+            "audit_code_conf": null,
+            "is_verified_source_code": 0,
+            "is_public_team": 0,
+            "scam_type": {
+                "id": 9,
+                "type": "Access Control"
+            },
+            "network": {},
+            "scamNetworks": [
+                {
+                    "networks_id": 1666600003,
+                    "scam_database_id": 2713,
+                    "networks": {
+                        "id": 1666600003,
+                        "name": "Centralized",
+                        "icon_link": "safe/files/network/cex.png"
+                    }
+                }
+            ],
+            "auditedBy": []
+        }
+    ],
+    "currentPage": 1,
+    "lastPage": 37,
+    "count": 3645
+}
