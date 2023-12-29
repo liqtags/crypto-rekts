@@ -1,0 +1,51 @@
+{
+    "id": 95,
+    "project_name": "Overbase Finance",
+    "title": "Overbase Finance",
+    "description": "<p>The initial liquidity was added by the contract deployer at:<br>https://etherscan.io/tx/0xb3a52c455c5ad2448eec6ae013d7e0717a46825115b469a19bfdcb84d8704847<br><br>The hidden minting functionality was used under the <u>addTransaction</u>() function by the contract deployer at:<br>https://etherscan.io/tx/0x37c4b1c5437413fb09a29afa6a0bcbf74dd7ccb87820982fcd229f9b736a9433<br>https://etherscan.io/tx/0x1d4f1376f091aed4706167cfe4b62715c766b00038bb9a29d826d46d37489a66<br><br>The contract deployer sold minted tokens at:<br>https://etherscan.io/tx/0x6baa10d2d11e36af7c6a42b8c4f20a177095d37960cab3f95e869df3eb48c953<br>https://etherscan.io/tx/0xa312f50054e4acfa299bdd3e411b94040d3aa09b3dc59bcc7afbcd06b48a2567</p>",
+    "name_categories": "Token",
+    "token_name": "OBASE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe202529bc704d6297a53d60933616803678e2644",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d59e0cdec55.png",
+    "date": "2020-12-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1339966405140070400",
+    "website_link": "https://overbase.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4275,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 95,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
