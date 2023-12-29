@@ -1,0 +1,70 @@
+{
+    "id": 2354,
+    "project_name": "Value DeFi",
+    "title": "Value DeFi (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited a vulnerability in the pool of vBSWAP/BUSD LP, re-initialized the pool, took control, and drained the original stake token, resulting in a loss of 10,839.16 vBSWAP/BUSD LP.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker re-initialized the pool and set the operator role to himself and _stakeToken to HACKEDMONEY. He then took control of the pool and called the method governanceRecoverUnsupported() to drain the original stake token (vBWAP/BUSD LP). The attacker removed 10,839.16 vBWAP/BUSD LP, then removed liquidity and received 7342.75 vBSWAP and 205,659.22 BUSD. He sold all 7342.75 vBSWAP for 8790.77 BNB at 1inch. The attacker used both BNB and BUSD to buy renBTC and used renBridge to move the funds back to BTC, which was laundered to a specific address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://bscscan.com/address/0xef63ad578e75d498d0723e5420fa1962b1d28764</p><p>The transaction behind the attack:</p><p>https://bscscan.com/tx/0xd3382252bc204fdc32a6b3add8c639850882b70a798399d6e00a542cdf769040</p><p>The transaction of removing vBWAP/BUSD LP:</p><p>https://bscscan.com/tx/0x9ba0454c2301ad5780795ae7477e9fa7e38226be16cc282158624479e66389b6</p><p>The laundered BTC address:</p><p>https://www.blockchain.com/btc/address/1Cm6WGvXQ9EgvvWX5dRsBxE2NvxFjfbcVF</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "VALUE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x49e833337ece7afe375e44f4e3e8481029218e5c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6100098961716.jpeg",
+    "date": "2021-5-5",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714, https://rekt.news/value-rekt2/",
+    "website_link": "https://valuedefi.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/value_defi",
+    "telegram_link": "https://t.me/ValueDeFi_Announcements",
+    "our_post_link": null,
+    "funds_lost": 10000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2354,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Value_Defi_Process_Quality_Review_PQ_Reviews.pdf",
+            "date": "2021-02-26T00:00:00.000Z",
+            "partner": {
+                "id": 23,
+                "name": "DeFi Safety",
+                "logo_link": "safe/files/partner/logo/6154df0c5cbef.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Security_Analysis_by_Pessimistic.pdf",
+            "date": "2020-09-11T00:00:00.000Z",
+            "partner": {
+                "id": 38,
+                "name": "Pessimistic",
+                "logo_link": "safe/files/partner/logo/60de0ba6e3b36.png"
+            }
+        }
+    ]
+}
