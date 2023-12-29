@@ -1,0 +1,51 @@
+{
+    "id": 155,
+    "project_name": "Dswap",
+    "title": "Dswap",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x7d31eaea94ba9944409158bbea32910c4eab0e5a7a796690dce59900c46f769d<br><br>Project tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0x0a151e34411c5d00f641d292f420429fbe731b5b1f09e0dc885e6aad145bc690<br>https://etherscan.io/tx/0x1ae854ebbfe9009a2f8970d566dd2ccd7922bb8958cf915e45175ffcf65d98db<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x775274b8965238cf25b11896873d3fd3cfbc471e1b506d1d51a8f8503933cd65</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DSWAP",
+    "proof_archive_link": "https://archive.ph/RaGhK",
+    "technical_issue": null,
+    "token_address": "0xb88b7451cfc14913a3b3b7b40322d587dd425373",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ba84ef23c.png",
+    "date": "2020-11-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 330,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 155,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
