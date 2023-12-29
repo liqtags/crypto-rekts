@@ -1,0 +1,51 @@
+{
+    "id": 251,
+    "project_name": "CoinSWOP",
+    "title": "CoinSWOP",
+    "description": "<p>The contract owner invoked <u>setMigrator</u>() function at:<br>https://etherscan.io/tx/0xf73a10ee956a010b5b1f3174f60ca02a5dce171808ad76f1ae9bc131259007f1<br><br>CoinSWOPMaster smart contract was set as migrator. The smart contract owner called <u>migrate</u>() functions 11 times to withdraw the user's LP tokens with the help of infinite approval. LP tokens were migrated to an unverified smart contract that received real LP tokens and returned fake ones. Then real LP tokens went to the contract deployer as the final recipient. Migrate transaction example:<br>https://etherscan.io/tx/0x5b19f1e334697646c855a17d909f141f2a64ded4f2db4944a0aa8fcae848c592<br><br>The final recipient is getting LP tokens:<br>https://etherscan.io/tx/0xe6543f5b2725354ead24844f941e53cc8324903caf418450b4cb6765e03c5aea<br><br>LP tokens were exchanged for ETH and deposited to the Tornado Cash mixer at these transactions:<br>https://etherscan.io/tx/0xd6584b95f0192ab01717a092dc80fbe1afaef38bc46b9bc96626736a15f8578c<br>https://etherscan.io/tx/0x90bd78b453ed65f02f5299211808947d864e9669c0ea9d00828ed5c83005b47c<br>https://etherscan.io/tx/0x5d530f23b669fb363fd8035b76d723373282c0accb2cc560447636183208667d<br><br>6.8 ETH were transferred to some external wallet:<br>https://etherscan.io/tx/0xf875951759eb516db585b08191d5eb6b973b5892d86bd6a85e1c1063e3b48867</p>",
+    "name_categories": "CeFi",
+    "token_name": "cSWOP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x191bafe4e3888ec289753c7d592634e3abe1ee14",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d6135691221.jpeg",
+    "date": "2020-12-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1333759436792315905",
+    "website_link": "https://coinswop.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Coin_Swop",
+    "telegram_link": "https://t.me/CoinSwopofficial",
+    "our_post_link": null,
+    "funds_lost": 21049,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 251,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
