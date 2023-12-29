@@ -1,0 +1,51 @@
+{
+    "id": 212,
+    "project_name": "Monster Chain",
+    "title": "Monster Chain",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x7ecc57f57b7fa56179a7461a415b8b3945a75db18c4f8a21fcf0eb0db364d508<br><br>The contract deployer sold tokens at:<br>https://etherscan.io/tx/0xb130a570450d55b49e21fe12b72c3faf7a5b944a204fd298cd824c1f67b1019d<br>https://etherscan.io/tx/0x960f8b8d4118407c309e2bcb1ee43ed6350aa2505f5f25c065a1ee493cd9833c<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x402e4c0cccd533d193ae455bb53e3faa4e118e5a3f08ba00975cb4f461307abd<br><br>The stolen ETH was transferred to the external wallet at:<br>https://etherscan.io/tx/0xbca7f22adeb65eca028e1c20c37b1a66436f5827258808a6daeb4209413e7dd2</p>",
+    "name_categories": "Token",
+    "token_name": "MONSC",
+    "proof_archive_link": "https://archive.ph/EJG0R",
+    "technical_issue": null,
+    "token_address": "0x8AAd244F0B3837D8bF9cC66a7682d26292F26ed6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5e105f10c3.png",
+    "date": "2020-10-22",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4012,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 212,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
