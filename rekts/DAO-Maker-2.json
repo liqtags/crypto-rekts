@@ -1,0 +1,70 @@
+{
+    "id": 2623,
+    "project_name": "DAO Maker",
+    "title": "DAO Maker (2)",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x2708cace7b42302af26f1ab896111d87faeff92f<br><br>DAO Maker vesting smart contracts had vulnerability that allowed a hacker to take ownership of the contract and withdraw the tokens from it. Tokens of DeRace, Showcase, Ternoa, Coinspaid were affected. The attacker initialized the key parameters of init() and changed the owner at the same time.<br><br>The attacker invoked <u>emergencyExit</u>() function to withdraw tokens at:<br>https://etherscan.io/tx/0xcb5be97496995d58da6f97491845040547b878e53a7b71f907a13408f3a54e5f<br>https://etherscan.io/tx/0x4c273c2403aafd97e4b553f0e381cf1c63e5f2efebbe2ded7642a06f2b68c879<br>https://etherscan.io/tx/0x1692a57f19b5e8e4bc6a372ac3c83c77cd4a1ea78414377ea66d3d59f4a7d2b7<br>https://etherscan.io/tx/0xdd0176475165b83c702d49a876d4dc888b73477ad8833582c72aa6ca5e0bacc3<br><br>The attacker sold tokens at:<br>https://etherscan.io/tx/0xbf38346aacf261f5e169a87ed874c33c21efb060c4a393e2b1443a3ac5d6e3fd<br>https://etherscan.io/tx/0x3436af2c84d67254a4b81adc350c91d1b98ae52b2ff84645d14d4245c2d08c27<br>https://etherscan.io/tx/0xc586a6b94e09556abf46ae3aa8cffa8e46dfcb0c22bce0b024d5e01743ceba9e<br>https://etherscan.io/tx/0x76163daf6cf0c815c02fb1a98f5c6283ee7a922cbad41218eb7a6452c91824c8</p>",
+    "name_categories": "Other",
+    "token_name": "DAO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6137829cdfd16.jpeg",
+    "date": "2021-9-4",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/daomaker/removing-all-smart-contract-risk-tech-team-tokens-52c55961e986, https://slowmist.medium.com/intelligence-of-slowmist-zone-dao-makers-vesting-system-was-hacked-5825e4828969, https://rekt.news/daomaker-rekt/",
+    "website_link": "https://daomaker.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TheDaoMaker",
+    "telegram_link": "https://t.me/daomaker",
+    "our_post_link": null,
+    "funds_lost": 4000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2623,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_DAO_Maker_Vesting_Bridge_12_04_2021.pdf",
+            "date": "2021-04-12T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/DAO_Maker_Vesting_Smart_Contract_Security_Audit_Report.pdf",
+            "date": "2021-05-31T00:00:00.000Z",
+            "partner": {
+                "id": 68,
+                "name": "RD Auditors",
+                "logo_link": "safe/files/partner/logo/61085d0ece3f8.jpeg"
+            }
+        }
+    ]
+}
