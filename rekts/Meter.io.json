@@ -1,0 +1,51 @@
+{
+    "id": 2818,
+    "project_name": "Meter.io",
+    "title": "Meter.io",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x8d3d13cac607B7297Ff61A5E1E71072758AF4D01<br><br>The attacker minted a substantial amount of BNB and WETH tokens, draining the bridge reserve of its BNB and wETH before all bridge transactions could be halted by Meter. This case also impacted the Hundred Finance on Moonriver.<br><br>Meter_io Passport is a fork of ChainSafe's ChainBridge, but with one change introduced to the deposit method of the ERC20 Handler.<br><br>The extended code had a wrong trust assumption which allowed the hacker to call the underlying ERC20 deposit function to fake a BNB or ETH transfer.<br><br></p><p>Exploit scenario:</p><p>- the Meter Bridge Contract provided by ChainSafe Systems has a vulnerability in <u>deposit</u>() function</p><p>- <u>deposit</u>() function doesn't check <u>calldata</u> \"data\" parameter to be matched with the message value in the function call</p><p>- this vulnerability allows anybody to call this function with fake deposit data and not be reverted</p><p>the attacker exploited this vulnerability and make a few deposits from the Ethereum network:</p><p>https://etherscan.io/tx/0xdfea6413c7eb3068093dcbbe65bcc9ba635e227c35e57fe482bb5923c89e31f7</p><p>https://etherscan.io/tx/0x2d3987963b77159cfe4f820532d729b0364c7f05511f23547765c75b110b629c</p><p>- the attacker exploited this vulnerability and made a few deposits from the BSC network:</p><p>https://bscscan.com/tx/0xc4d7e160c7652f2db22681aa2777c5b37937bf30375c5b2c6b2bd172ae984950</p><p>https://bscscan.com/tx/0x63f37aff7e40b85b0a6b3fd414389f6011cc09b276dc8e13b6afa19061f7ed8e</p><p>https://bscscan.com/tx/0xc7eb98e00d21ec2025fd97b8a84af141325531c0b54aacc37633514f2fd8ffdc</p><p>- the attacker called <u>swapOut()</u> to withdraw a fake deposited amount from another chain:</p><p>https://moonriver.moonscan.io/tx/0xb3298f62504423a97db6a6fc4132e6bf1f4225b1e7deb33260495254280d7050</p><p>- the attacker used AnySwap and cBridge to collect all funds in the Ethereum address<br><br>Stolen funds were deposited into Tornado Cash mixer on Ethereum:<br>https://bloxy.info/txs/transfers_from/0x8d3d13cac607b7297ff61a5e1e71072758af4d01?currency_id=1</p>",
+    "name_categories": "Other",
+    "token_name": "MTRG",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xbd2949f67dcdc549c6ebe98696449fa79d988a9f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620293121efe1.jpeg",
+    "date": "2022-2-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Meter_IO/status/1490103308421255168, https://twitter.com/ishwinder/status/1490227406824685569, https://rekt.news/meter-rekt/, https://twitter.com/peckshield/status/1490121762847092736",
+    "website_link": "https://meter.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Meter_IO",
+    "telegram_link": "https://t.me/Meter_IO",
+    "our_post_link": null,
+    "funds_lost": 4400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/WPjTpMG",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2818,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
