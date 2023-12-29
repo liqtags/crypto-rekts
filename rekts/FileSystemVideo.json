@@ -1,0 +1,51 @@
+{
+    "id": 2819,
+    "project_name": "FileSystemVideo",
+    "title": "FileSystemVideo",
+    "description": "<p>The contract deployer of FSV token invoked addMinter() to grant the external address with the privileged function to mint new tokens:<br>https://bscscan.com/tx/0x974c0eb764b7764d1e808a90ec8aab2ce61f1375d2e2ff6c590c980daa79cdc6<br><br>0x6a6296c4853fF09c591AC2FE7568246630cf2E43 minted tokens to the 0x746cE48320e14b366D9Ca4b02611Af728A7C12b3 address.<br><br>The stolen funds' recipient was the following address:<br>https://bscscan.com/address/0x4c64068fefe2660c83fc0e1ecca99c024fe4b15f#tokentxns<br><br>Funds were deposited into Tornado Cash mixer:<br>https://bscscan.com/tx/0x3fdc3cfc05ac52ec09f56454bf6ccc2ccbaf87c3cbf7566f7d1cc25e3f8c4c9d<br>https://bscscan.com/tx/0xf5af061f39d95f8be111c5fdd4014c2d593802980fc0ce04d30f79f279efb7eb<br>https://bscscan.com/tx/0x815b2fef900de3ee2a89dbfdb01e0901304639b189b801804050422096081e40<br>https://bscscan.com/tx/0x7534b2385895a4bb7d5d008d7adbb950251c4092e31ee25103f5c6552479677b<br>https://bscscan.com/tx/0x6b84ff0b2478368f4a5d143e8f51f58436f7117eb89a92790f6558974cfa15dd<br>https://bscscan.com/tx/0x14302cf6d8c6ae69606c436a04db69369b85a901c907f1e8e6e5e11f20c787b8<br>https://bscscan.com/tx/0x41156139a1a8b038b410520ae29211147c29cd29f1508c703bb81abd579fb17e</p>",
+    "name_categories": "Other",
+    "token_name": "0xe9c7a827a4ba133b338b844c19241c864e95d75f",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "FSV",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62029c8952e2e.png",
+    "date": "2022-2-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1490553315356459009, https://twitter.com/ishwinder/status/1490700088116662277",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 303625,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2819,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
