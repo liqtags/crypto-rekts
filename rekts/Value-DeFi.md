@@ -1,20 +1,20 @@
 # Value DeFi
 ![Value DeFi](/rektimages/Value-DeFi.png)
-- Amount Lost: $11,000,000.00
+- Amount Lost: $10,000,000.00
 - Funds Returned: $0.00
 - Category: Exchange (DEX)
-- Date: 2021-5-7
+- Date: 2021-5-5
 
 **Quick Summary**
 
-Exploit in Bancor formula allows an attacker to drain multiple tokens from pair contracts.
+An attacker exploited a vulnerability in the pool of vBSWAP/BUSD LP, re-initialized the pool, took control, and drained the original stake token, resulting in a loss of 10,839.16 vBSWAP/BUSD LP.
 
   
 
 
  **Details of the Exploit**
 
-The attacker initiated the exploit by sending a small amount of a second token to pair addresses. They then made a swap, intending to withdraw a small amount of the first token and a large amount of the second token. Due to an incorrect implementation of the Bancor formula, the pair contracts deemed the swap successful. The attacker then swapped the first tokens for the second in the same pool and repeated this operation until the exploit was exhausted. The stolen funds included 15k BNB, 2.7k FARM, 1.7k BASv2, 8.5M BDO, 68.3k BUSD, 41.4k MDG, 945k VBOND, 1.2M BAC, and 11k FIRO.
+The attacker re-initialized the pool and set the operator role to himself and _stakeToken to HACKEDMONEY. He then took control of the pool and called the method governanceRecoverUnsupported() to drain the original stake token (vBWAP/BUSD LP). The attacker removed 10,839.16 vBWAP/BUSD LP, then removed liquidity and received 7342.75 vBSWAP and 205,659.22 BUSD. He sold all 7342.75 vBSWAP for 8790.77 BNB at 1inch. The attacker used both BNB and BUSD to buy renBTC and used renBridge to move the funds back to BTC, which was laundered to a specific address.
 
   
 
@@ -23,17 +23,23 @@ The attacker initiated the exploit by sending a small amount of a second token t
 
 The attacker's address:
 
-https://bscscan.com/address/0x2b528a28451e9853f51616f3b0f6d82af8bea6ae#tokentxns
+https://bscscan.com/address/0xef63ad578e75d498d0723e5420fa1962b1d28764
 
 The transaction behind the attack:
 
-https://bscscan.com/tx/0x2fd0aaf0bad8e81d28d0ee6e4f4b5cbba693d7d0d063d1662653cdd2a135c2de
+https://bscscan.com/tx/0xd3382252bc204fdc32a6b3add8c639850882b70a798399d6e00a542cdf769040
+
+The transaction of removing vBWAP/BUSD LP:
+
+https://bscscan.com/tx/0x9ba0454c2301ad5780795ae7477e9fa7e38226be16cc282158624479e66389b6
+
+The laundered BTC address:
+
+https://www.blockchain.com/btc/address/1Cm6WGvXQ9EgvvWX5dRsBxE2NvxFjfbcVF
 
 
 Proof Links:
-- [https://twitter.com/FrankResearcher/status/1390905494844313602?s=20](https://twitter.com/FrankResearcher/status/1390905494844313602?s=20)
-- [ https://twitter.com/CryptoBethany/status/1390880003261288448?s=19]( https://twitter.com/CryptoBethany/status/1390880003261288448?s=19)
-- [ https://rekt.news/value-rekt3/]( https://rekt.news/value-rekt3/)
-- [ https://peckshield.medium.com/valuedefi-incident-incorrect-weighted-constant-product-invariant-calculation-1bbaa220a02b]( https://peckshield.medium.com/valuedefi-incident-incorrect-weighted-constant-product-invariant-calculation-1bbaa220a02b)
+- [https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714](https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714)
+- [ https://rekt.news/value-rekt2/]( https://rekt.news/value-rekt2/)
 
 
