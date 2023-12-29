@@ -1,0 +1,51 @@
+{
+    "id": 2869,
+    "project_name": "Twitter",
+    "title": "Twitter",
+    "description": "<p>The Twitter accounts of major companies and individuals were compromised in one of the most widespread and confounding breaches the platform has ever seen, all in service of promoting a bitcoin scam that earned its creators nearly $120,000.<br><br>On Wednesday evening, the company revealed that its own internal employee tools were compromised and used in the hack, which may explain why even accounts that claimed to have two-factor authentication were still attempting to fool followers with the bitcoin scam.<br><br>The scammer's address:<br>https://www.blockchain.com/btc/address/bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241e9b74fd09.png",
+    "date": "2020-7-15",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/business/2020/07/16/twitter-hack-2020-was-probably-done-by-a-bitcoiner-but-not-a-savvy-one/, https://twitter.com/lawmaster/status/1283695199336771584, https://twitter.com/cameron/status/1283493640287989760, https://www.theverge.com/2020/7/15/21326200/elon-musk-bill-gates-twitter-hack-bitcoin-scam-compromised",
+    "website_link": "https://twitter.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 120000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2869,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
