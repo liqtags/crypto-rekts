@@ -1,0 +1,51 @@
+{
+    "id": 434,
+    "project_name": "IYF.finance",
+    "title": "IYF.finance",
+    "description": null,
+    "name_categories": "Yield Aggregator",
+    "token_name": "IYF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5d762f76b9e91f71cc4f94391bdfe6333db8519c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e82efdc4978.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/MacroCRG/status/1368611286116884485",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 434,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
