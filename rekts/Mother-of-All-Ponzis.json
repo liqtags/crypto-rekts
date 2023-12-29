@@ -1,0 +1,51 @@
+{
+    "id": 234,
+    "project_name": "Mother of All Ponzis",
+    "title": "Mother of All Ponzis",
+    "description": "<p>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0x1eacfa0f78a04e9e7f9b302def998f589e447f8b6c0ac71d76796d0a7ed2a246<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xbb5e794211e5e4201c1a805403bb476d39fb443b77c5eff32cfdf2d620f60e09</p>",
+    "name_categories": "Token",
+    "token_name": "MOAP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe5fb5febbef64588dcba54aeb643d05a8ed02b91",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ef52879af.png",
+    "date": "2020-12-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DetectivesRug/status/1344308720356962304",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1336,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 234,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
