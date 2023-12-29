@@ -1,0 +1,68 @@
+{
+    "id": 3249,
+    "project_name": "A6 Token",
+    "title": "A6 Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>A6 Token was rugpulled by the token deployer. The total scammed amount reached 60,852 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A6 is a BEP20 token trading on PancakeSwap. The token deployer started selling $A6 tokens aggressively and drained liquidity for 60,852 $USD. The token price dropped by more than 90%.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x4ecb196c6bf588f20330eb6fbe1d8e15e5f383ad</p>",
+    "name_categories": "Token",
+    "token_name": "A6",
+    "proof_archive_link": "https://archive.ph/tbqmL",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xE77D77309027c71F006DfF5d2F1b76060F4F5F13",
+    "token_addresses": [
+        {
+            "address": "0xE77D77309027c71F006DfF5d2F1b76060F4F5F13",
+            "url": "https://bscscan.com/address/0xE77D77309027c71F006DfF5d2F1b76060F4F5F13",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x74ba77645d6b37f1734303cce31f09c90431dfc3",
+            "url": "https://bscscan.com/address/0x74ba77645d6b37f1734303cce31f09c90431dfc3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635bf2e10dc1a.png",
+    "date": "2022-10-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1584238590229635072",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 60852,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3249,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
