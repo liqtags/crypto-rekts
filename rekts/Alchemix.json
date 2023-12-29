@@ -1,0 +1,51 @@
+{
+    "id": 2986,
+    "project_name": "Alchemix",
+    "title": "Alchemix",
+    "description": "<p><strong>Quick Summary</strong></p><p>Alchemix's alETH contracts experienced a bug that allowed users to withdraw their ETH collateral with their alETH loans still outstanding, leading to a community rugpull of $6.5 million.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An issue with the deployment script of the alETH vault accidentally created additional vaults, which were used to incorrectly calculate outstanding debts. This led to protocol funds being used to pay off user debts. As a result, users were able to withdraw their ETH collateral with their alETH loans still outstanding. The exploit was discovered and the mint contract for alETH was paused two and a half hours later. No users lost funds as a result of the exploit and Yearn.Finance, whose yield vaults automatically repay Alchemix\u2019s synthetic loans, suffered no loss as well.</p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "ALCX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62509755c8a82.jpeg",
+    "date": "2021-6-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/intocryptoast/status/1405252688791498753, https://twitter.com/AlchemixFi/status/1405187348678148101, https://cointelegraph.com/news/alchemix-patches-reverse-rug-exploit-address-6-5-million-shortfall",
+    "website_link": "https://alchemix.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/AlchemixFi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/alchemix-finance",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/alchemix",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2986,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
