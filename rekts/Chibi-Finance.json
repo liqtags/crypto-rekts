@@ -1,0 +1,76 @@
+{
+    "id": 3577,
+    "project_name": "Chibi Finance",
+    "title": "Chibi Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Chibi Finance project on the Arbitrum network was hit by a rugpull, resulting in a loss of 1,052,646 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Chibi Finance is an Arbitrum-based yield farming protocol. On June 27, 2023, a malicious transaction with draining assets from three contracts took place. A scammer used a privileged function setSettings() to set a malicious contract as a Governance contract. They then withdrew funds from three smart contracts: StrategyAave, StrategySushiSwap, and StrategyGHA in a single transaction. Several assets were stolen, including 4.2 $WBTC, 256,012 $USDC, 94.6 $WETH, 115,049 $USDT, and SLP tokens as LP tokens for ARB/WETH pool. The stolen funds were valued at 1,052,646 $USD. All the funds were swapped for $WETH and then bridged using Multichain and Stargate. The project's website shut down and the Twitter account was deleted shortly after an incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://arbiscan.io/address/0x80c1ca8f002744a3b22ac5ba6ffc4dc0deda58e3</p><p><br></p><p>Deployer Address:</p><p>https://arbiscan.io/address/0xf0b6dcb0ddf0ae0648022bd9feb4a881d32acd25</p><p><br></p><p>Malicious Transaction:</p><p>https://arbiscan.io/tx/0x3cb65210b01a643cc34945f70e9109084c68a5ba595346ee48aef7607b85db95</p><p><br></p><p>Funds Bridging Transactions:</p><p>https://arbiscan.io/tx/0x5fad3397f1dd707b38478aabfe7af9abc390f16e12d7d4c0babb813993782707</p><p>https://arbiscan.io/tx/0xe7a9c8254a04d67677be50306df51b0cb851603c716f236d748cb3c93cd4f73c</p><p><br></p><p>Malicious Contract:</p><p>https://arbiscan.io/address/0xb61222189b240be3da072898eda7db58b00fd6ee</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/OgYLs",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xda7966977eda1d5479afc13e2b1b8dcade2ff7d2",
+            "url": "https://arbiscan.io/address/0xda7966977eda1d5479afc13e2b1b8dcade2ff7d2",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x16f0af32cab82fa2f5a0ef1fbec70169dffdb135",
+            "url": "https://arbiscan.io/address/0x16f0af32cab82fa2f5a0ef1fbec70169dffdb135",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x913ab5e765a1c252b659be6733640ef620df657e",
+            "url": "https://arbiscan.io/address/0x913ab5e765a1c252b659be6733640ef620df657e",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649b554805d1e.jpg",
+    "date": "2023-6-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshieldalert/status/1673615238758006786",
+    "website_link": "https://chibi.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Chibi_Fi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1052646,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3577,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
