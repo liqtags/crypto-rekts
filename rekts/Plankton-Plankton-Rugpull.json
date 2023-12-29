@@ -1,0 +1,60 @@
+{
+    "id": 3659,
+    "project_name": "Plankton Plankton",
+    "title": "Plankton Plankton Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Plankton Plankton token project was rugpulled by the deployer, removing liquidity worth 288,021 $USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Plankton Plankton (PLANK) is an ERC20 token trading on UniSwap. On August 6, the deployer executed a rugpull by removing liquidity from the LP pool in a single transaction, totaling 155.27 $ETH. The stolen funds were transferred to another EOA address and then distributed between multiple addresses via CoinTool. Part of the stolen funds were also laundered through TornadoCash, an anonymity-focused service on the Ethereum network. The total funds lost in this exit scam is 288,021 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x7bAc42Fdea8B41a37460E1B9aF20f23593c2d70e</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x85e6e67e7cc0fb9d88001cb42192479bf0c1f8c0</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x0fa4f9d141e9de470a75ef5760db78335072c993ab70303b3ff805ac8ae9e09e</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0xcb3cdeaefcd47a460ec455ef91de594083605454fda67aab8202ab15aa300534</p><p><br></p><p>CoinTool Transfer Transaction:</p><p>https://etherscan.io/tx/0x1c287c722a2bd76885e9c16823de81d3057ea262438817f68c3a0d0926079705</p>",
+    "name_categories": "Token",
+    "token_name": "PLANK",
+    "proof_archive_link": "https://archive.ph/zEcni",
+    "technical_issue": null,
+    "token_address": "0x7a1abb5b9baab8d971a318800dd43c8fb91b37ba",
+    "token_addresses": [
+        {
+            "address": "0x7a1abb5b9baab8d971a318800dd43c8fb91b37ba",
+            "url": "https://etherscan.io/token/0x7a1abb5b9baab8d971a318800dd43c8fb91b37ba",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64d4425b396e5.png",
+    "date": "2023-8-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cyversalerts/status/1688858309997002753?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 288021,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3659,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
