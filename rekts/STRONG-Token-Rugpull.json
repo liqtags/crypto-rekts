@@ -1,0 +1,60 @@
+{
+    "id": 3814,
+    "project_name": "Strong Finance",
+    "title": "STRONG Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>STRONG token rugpulled by scammer, removing liquidity worth 61,081 USD from UniSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>STRONG is an ERC20 token trading on UniSwap. On Dec 6, 2023, the deployer executed a rugpull by removing liquidity from the LP pool. The scammer removed 26.74 WETH, equivalent to 61,081 USD. The stolen funds were transferred to another EOA address and then withdrawn through a chain of several addresses, ultimately reaching the Binance exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xb112034aBAf66fe2eb83d157Bc77B1c823eE4178</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x82a4f9c07d9eA46e8BE19f714e4A5083fdCAFfeF</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x8f06eb0b992974915cb7088b8cd8aeff5ac25a31bc83a8d85a460e013c5af2cb</p><p><br></p><p>Binance Withdrawn Transactions:</p><p>https://etherscan.io/tx/0x8f387cda65b4379a297560bb3c642cded58ab929b87f1ec9547705cc2acb1e2e</p><p>https://etherscan.io/tx/0x95fec9352dbd27264ae86b34318fe4a540c515029d65a9e4474aaed93efa7156</p>",
+    "name_categories": "Token",
+    "token_name": "STRONG",
+    "proof_archive_link": "https://archive.ph/W43L6",
+    "technical_issue": null,
+    "token_address": "0x82902C20c5826984588dcd2dfCC322e05DCc435c",
+    "token_addresses": [
+        {
+            "address": "0x82902c20c5826984588dcd2dfcc322e05dcc435c",
+            "url": "https://etherscan.io/address/0x82902c20c5826984588dcd2dfcc322e05dcc435c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6578ae589c198.png",
+    "date": "2023-12-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1732252704205156573?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 61081,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3814,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
