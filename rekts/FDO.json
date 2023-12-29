@@ -1,0 +1,60 @@
+{
+    "id": 3205,
+    "project_name": "FDO",
+    "title": "FDO",
+    "description": "<p><strong>Quick Summary</strong></p><p>FDO token slippage happened on PancakeSwap. The attacker took 96,000 $FDO tokens from the project's vault contract and sold them for 160,441 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FDO is a BEP20 token and can't be confused with other tokens with the same symbol. The EOA address claimed 96,000 $FDO from the project's vault smart contract with unverified source code. Consequently, the attacker sold them on PancakeSwap for 160,441 $BUSD and transferred them to another EOA address.&nbsp; The relationship between the attacker and the project's team is not approved.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x04718c58954f7454B85c976923Ef2337086112F6</p><p><br></p><p>Funds transferred to:</p><p>https://bscscan.com/address/0xf5c543923cb74ac2f2705acde998dcb34dc61c1c</p><p><br></p><p>Malicious transaction:<br>https://bscscan.com/tx/0xa31bdcfa957c3e320bc51b3ab191a63dc45604a293421393282ffaba5e9b2620</p>",
+    "name_categories": "Token",
+    "token_name": "FDO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xB4dAB11C24eDa8e1565f6aBd0CFDF1fde5767A67k",
+    "token_addresses": [
+        {
+            "address": "0xac65e6fdbeb7124253c811a314db660fecde8ca1",
+            "url": "https://bscscan.com/address/0xac65e6fdbeb7124253c811a314db660fecde8ca1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633d722fc9b04.png",
+    "date": "2022-10-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1577224648038686720",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 160441,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3205,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
