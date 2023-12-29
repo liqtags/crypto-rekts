@@ -1,0 +1,60 @@
+{
+    "id": 3459,
+    "project_name": "ASKACR Token",
+    "title": "ASKACR Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>ASKACR token experienced a flash loan attack resulting in a 98% drop in its value and the exploiter profited 28,661 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ASKACR is an ERC-20 token trading on Binance Smart Chain. The project was exploited via a flash loan attack which caused significant slippage on ASKACR's price, leading to a massive 98% drop.&nbsp;</p><p>The attacker then bought up ASKACR tokens at low prices using borrowed funds from Balancer and sold them back at inflated prices, profiting 28,661 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xb1899430b21f646b1b298a3f0c0707ea4047c53e</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xc20fa4953ff394bb806a57cafe71d1163973c0e5a47bb8dad1703a518b15ea3b</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x559a352d205d5df7cd8021891ab9c680f7f278e2</p>",
+    "name_categories": "Token",
+    "token_name": "ASKACR",
+    "proof_archive_link": "https://archive.ph/mp9OF",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x5aE4b2F92F03717F3bdFE3B440D14d2f212D3745",
+    "token_addresses": [
+        {
+            "address": "0x5aE4b2F92F03717F3bdFE3B440D14d2f212D3745",
+            "url": "https://bscscan.com/address/0x5aE4b2F92F03717F3bdFE3B440D14d2f212D3745",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642f30b4727b5.png",
+    "date": "2023-3-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1638181846805811200?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 28661,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3459,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
