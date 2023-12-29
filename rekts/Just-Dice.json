@@ -1,0 +1,51 @@
+{
+    "id": 2956,
+    "project_name": "Just-Dice",
+    "title": "Just-Dice",
+    "description": "<p>The owner of the bitcoin betting site Just-Dice, a rival to SatoshiDice, had a severe moment of panic when a user taking advantage of a human error caused him to lose 1,300 bitcoins (around $116,090 at the time of writing).<br><br>Known only as \u2018dooglus\u2019, the owner revealed on the Bitcoin Talk forum that he had made something of a colossal mistake. What happened was this: a player won a load of bitcoins on the site and asked to withdraw them, dooglus paid out, but forgot to remove the balance from the user\u2019s Just-Dice account. The user then gambled \u2014 and lost \u2014 the bitcoins that were left in his account and dooglus covered the loss out of his own pocket.<br><br>When he realized his mistake, dooglus contacted the user, who claimed he had left his laptop in a caf\u00e9 and that someone else logged onto his Just-Dice account and gambled the money.</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f28e2480d7.png",
+    "date": "2013-7-15",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/@wayne_huang/rsa-2015-panel-bitcoin-s-future-threats-expert-s-roundtable-based-on-150-case-studies-92cc35e68e30, https://www.coindesk.com/business/2013/07/19/bitcoin-gambler-cheats-satoshidice-competitor-just-dice-out-of-1300-btc/",
+    "website_link": "https://just-dice.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 123000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2956,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
