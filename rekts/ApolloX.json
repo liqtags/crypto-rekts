@@ -1,0 +1,61 @@
+{
+    "id": 3041,
+    "project_name": "ApolloX",
+    "title": "ApolloX",
+    "description": "<p>ApolloX has been exploited for ~$2.1M. The attacker took advantage of the vulnerability of the <em>claim()</em> function. When attacker received about 53 Million $APX tokens from the contract, then swapped them via PancakeSwap for $BUSD.</p><p><br></p><p>Exploiter address: https://bscscan.com/address/0xd2419bccace1c6100b5aa47f0a31c64b20ba9a49</p><p><br></p><p>Victim address: https://bscscan.com/address/0xe2e912f0b1b5961be7cb0d6dbb4a920ace06cd99</p><p><br></p><p>Exploiter contracts:</p><p>1) https://bscscan.com/address/0x44e3b1a3fd190c4d95466004ab80820b5cba7e69</p><p>2) https://bscscan.com/address/0x9f933f42ff19a1e009355b84e9a7d63744fce7a9</p><p>3) https://bscscan.com/address/0x62a497f6b84e6fffbdbc7e5cb9dd9d315f393723</p><p>4) https://bscscan.com/address/0x39e0332f14a4c748068afaafa491d4f652274ab0</p><p>5) https://bscscan.com/address/0x85ad483dbbdd2eedddfb81c81b7a8a03c7ed0872</p><p>6) https://bscscan.com/address/0xcc6eedeb5266aae42a33b629380b78c570e29956</p><p><br></p><p>Exploit transactions:</p><p>1) https://bscscan.com/tx/0x21e5e6ee42906a840c07eb39fb788553a3fbb5794562825c2a1d37bfc910e5f7</p><p>2) https://bscscan.com/tx/0x67a90c1af85c626460b928ccfde66432dd828b838038ef15400c577ee5386926</p><p>3) https://bscscan.com/tx/0xccc9e8ebf0472272b83e328a11e5aa5eb712c831dcd5bae32622dc238005aee0</p><p>4)&nbsp;https://bscscan.com/tx/0x34b29a393b68ae0f2e417485fb57ea7510a253c1b01431d04a66ca61e4fbbc8c</p><p><br></p><p><br></p><p>1) https://bscscan.com/tx/0xc2607de512e31737659b78e8b6f6cc4a82b10f3da953e901e95a0c7beea440de</p><p>2)&nbsp;https://bscscan.com/tx/0xe944b576b46402c830bf79062ba22728c55c87c73062f944f01d71d7fb707f53</p><p>3) https://bscscan.com/tx/0x55c45952611cdd1b1d1c168c1b0bd6198ff64c71abb67aecda8ffa4057758cc6</p><p>4)&nbsp;https://bscscan.com/tx/0x57030b6e64f81b854601abc5953837d4d7b3f2534593a1f48485fffd37630b94</p><p>5)&nbsp;https://bscscan.com/tx/0xf25688d3651bbade2cb67835050678ad4ab6f15f140a162fc2c3eed1821f8ec0</p><p>6)&nbsp;https://bscscan.com/tx/0xdf7e67aa67b8e56265cb05866d026015d0d6cafcefff5ba957b849df66a34284</p><p>7)&nbsp;https://bscscan.com/tx/0x72c7c6b8c73d4e70905c48f7fcc6a5c4a0ba27323067e7bbf2fae8f2cf80be02</p><p>8) https://bscscan.com/tx/0x902ebbe7418c719032b524be101c2f3d88f8e061f85e19c5b6ab62a4b65b83c0</p><p><br></p><p>Tokens swapped to ZAP bridge:</p><p>1) https://bscscan.com/tx/0x3d141a94a914947b3cc611f3e44d81be9f3147a9afaf168c57c4b5c638b16f71</p><p>2) https://bscscan.com/tx/ 0x07e4438429c55cfc1d1b2fcb8eb10cadc579d0b16c7b78af78a26448bc8b1d28</p><p>3) https://bscscan.com/tx/ 0x25ee8fc7d26ef11bce3d546517134b125d306f00bba253a2c13e6dcdc35b64f2<a href=\"https://bscscan.com/tx/0x25ee8fc7d26ef11bce3d546517134b125d306f00bba253a2c13e6dcdc35b64f2\"></a></p><p><br></p><p>Then tokens were transferred to https://etherscan.io/address/0x9e532b19abd155ae5ced76ca2a206a732c68f261#tokentxns</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "APX",
+    "proof_archive_link": "https://beincrypto.com/hacker-apollox-exchange-loss-53-million-apx-tokens/, https://twitter.com/ApolloX_com/status/1534570239177789440, https://twitter.com/CertiKAlert/status/1534592402253660161, https://www.certik.com/resources/blog/4CazSSBMmYT1qdZFpYPsnq-apollo-x-exploit-analysis, https://coinquora.com/a-hacker-exploited-apollox-to-withdraw-53-million-apx-tokens/",
+    "technical_issue": null,
+    "token_address": "0x78f5d389f5cdccfc41594abab4b0ed02f31398b3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a30571681fe.png",
+    "date": "2022-6-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/ApolloX_com/status/1534570239177789440",
+    "website_link": "https://www.apollox.com/en",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ApolloX_com",
+    "telegram_link": "https://t.me/apolloxchange",
+    "our_post_link": null,
+    "funds_lost": 2150414,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/apollox-finance",
+    "git_hub_contract_link": "https://github.com/apollox-finance/apollox-contracts/tree/master/contracts",
+    "discord": "https://www.apollox.com/en",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3041,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_ApolloX_Finance.pdf",
+            "date": "2022-01-27T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
