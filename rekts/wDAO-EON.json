@@ -1,0 +1,60 @@
+{
+    "id": 3549,
+    "project_name": "wDAO EON",
+    "title": "wDAO EON",
+    "description": "<p><strong>Quick Summary</strong></p><p>wDAO EON, a DEX project on the Polygon network, was exploited via a flash loan attack resulting in the loss of 29,195 $USD. The initial attacker was front-run by another bot during the exploit.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The wDAO EON project on Polygon suffered an exploit through a flash loan attack that tried to drain their pool. However, this attempt was frontrun by another bot who took out a flash loan from Balancer and used it to manipulate prices on wDAO EON's pool before returning the borrowed funds. As a result, 29,195 $USD was lost in this incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://polygonscan.com/address/0xcb3585f3e09f0238a3f61838502590a23f15bb5b</p><p><br></p><p>Initial Attacker address:</p><p>https://polygonscan.com/address/0xb3d204ee119547faa7be6796a31ca773c24b1fdc</p><p><br></p><p>Malicious transaction:</p><p>https://polygonscan.com/tx/0xa1f2377fc6c24d7cd9ca084cafec29e5d5c8442a10aae4e7e304a4fbf548be6d</p><p><br></p><p>Failed transaction (initial attacker):</p><p>https://polygonscan.com/tx/0x0ef500ef64e6921eb80d69dddbcd662eb9c52a2e0e147943a33e2df989fd294d</p><p><br></p><p>Malicious contract:</p><p>https://polygonscan.com/address/0x3bb7a0f2fe88aba35408c64f588345481490fe93</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "NST",
+    "proof_archive_link": "https://archive.ph/1ZUZS",
+    "technical_issue": null,
+    "token_address": "0x83ee54ccf462255ea3ec56fa8de6797d679276e7",
+    "token_addresses": [
+        {
+            "address": "0x9d101e71064971165cd801e39c6b07234b65aa88",
+            "url": "https://polygonscan.com/address/0x9d101e71064971165cd801e39c6b07234b65aa88",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/647a1648aa791.jpg",
+    "date": "2023-6-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1664475150887325697?s=20",
+    "website_link": "https://eonnet.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/net_eon",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 29195,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/VyJWdW5y",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3549,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
