@@ -1,0 +1,51 @@
+{
+    "id": 3042,
+    "project_name": "BabyElon",
+    "title": "BabyElon",
+    "description": "<p>BabyElon token has been rugged by contract creator for 183.35BNB(~$52,852). Then all tokens were laundered via Tornado Cash.</p><p><br></p><p>Token address: https://bscscan.com/address/0x292e89d5d5bdab3af2f5838c194c1983f0140b43</p><p>Contract creator: https://bscscan.com/address/0x999fae849a580f1675aee294ab099542b532a7c1</p><p><br></p><p>Attacker created LP pair between 100M BabyElon and 10BNB: https://bscscan.com/tx/0x1d07387aa63322c58d571f0ffcf7a88379e927b40bfba283070d2118eb6acc80.</p><p>Then he/she increased the LP pool by adding 290BNB and 2.9B BabyElon thereby artificially provoke a sharp rise in prices: https://bscscan.com/tx/0xfac7fa93839eca8cc3b87fe2e7d899c332d0b499dc1f869bb5fdd481732bc03e</p><p>After part of BabyElon was bought, attacker removed LP having received 484.35BNB of which the profit was 183.35BNB: https://bscscan.com/tx/0xa39747091c546826a68d5a05f0c6817d7be979cf221db6396e237c2f6bd4feff</p><p>Then tokens were transferred to https://bscscan.com/tx/0xd25a56eae2df3a4b2990a0e88c50648f6b96dbe5ffef25b8cd9ca2d6769fb821</p><p><br></p><p>All tokens were laundered via TornadoCache.</p>",
+    "name_categories": "Token",
+    "token_name": "BabyElon",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1534460699967205378, https://tokeninsight.com/en/news/babyelon-on-bnb-chain-appeared-rug-pull, https://aliens.com/livenews/latest/rug-pull-at-babyelon-scammers-transfer-623-bnb-to-tornado-cash",
+    "technical_issue": null,
+    "token_address": "0x292E89d5D5BDab3aF2f5838C194c1983f0140b43",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a315f63d59b.png",
+    "date": "2022-6-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 52852,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3042,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
