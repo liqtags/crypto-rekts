@@ -1,0 +1,60 @@
+{
+    "id": 3458,
+    "project_name": "Jaypeggerz",
+    "title": "Jaypeggerz",
+    "description": "<p><strong>Quick Summary</strong></p><p>Jaypeggerz project was exploited via a flash loan attack, resulting in the loss of 18384 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Jaypeggerz ($JAY) is an ERC-20 token trading on Uniswap. Jaypeggerz experienced a flash loan exploit. The attacker borrowed $ETH from Balancer using their smart contract and used it&nbsp;</p><p>to manipulate the price of $JAY tokens on Uniswap by buying them up at low prices and selling them back at inflated prices. The attacker then returned the borrowed funds after completing these transactions.</p><p>The exploiter appears to have gained 15.32 $ETH, which were sent to TornadoCash and Aztec Network for anonymity purposes.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x0348d20b74ddc0ac9bfc3626e06d30bb6fac213b</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xd4fafa1261f6e4f9c8543228a67caf9d02811e4ad3058a2714323964a8db61f6</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0xed42cb11b9d03c807ed1ba9c2ed1d3ba5bf37340</p>",
+    "name_categories": "Token",
+    "token_name": "JAY",
+    "proof_archive_link": "https://archive.ph/GugHR",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xf2919D1D80Aff2940274014bef534f7791906FF2",
+    "token_addresses": [
+        {
+            "address": "0xf2919D1D80Aff2940274014bef534f7791906FF2",
+            "url": "https://etherscan.io/token/0xf2919D1D80Aff2940274014bef534f7791906FF2",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642f2bcbee7db.jpg",
+    "date": "2022-12-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1608338952896876551?s=20",
+    "website_link": "https://jaypeggers.com",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/jaypeggerz",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 18384,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/DtAzjE4PaJ",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3458,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
