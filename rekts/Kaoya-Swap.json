@@ -1,0 +1,68 @@
+{
+    "id": 3403,
+    "project_name": "Kaoya Swap",
+    "title": "Kaoya Swap",
+    "description": "<p><strong>Quick Summary</strong></p><p>On August 24th, 2022, KaoyaSwap, a decentralized transaction protocol built on the Binance Smart Chain, was attacked due to a bug in the swapExactTokensForETHSupportingFeeOnTransferTokens function. The vulnerability allowed the attacker to steal approximately $118,000 worth of 37,294 BUSD and 271.2 wBNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The bug was found in the swapExactTokensForETHSupportingFeeOnTransferTokens function, which was used to swap Fee-On-Transfer-Tokens. These tokens charge a fee for every transfer() or transferFrom(), causing the receiver to get less than the sent amount. The function miscalculated the amount to be transferred to the user when the last pair appeared multiple times in the swap path, allowing the attacker to steal funds.</p><p><br></p><p>The Attack Process:</p><p>The attacker designed a swap path that included two self-constructed tokens, resulting in the tokenA and wBNB pair being included twice in the swap path. The attacker borrowed a flash loan of 1800 wBNB and added liquidity to newly constructed token pairs. After the swap and removing liquidity, the attacker profited around 271 wBNB and 37,295 BUSD.</p><p><br></p><p>After the Exploit:</p><p>KaoyaSwap has yet to release an official statement. BlockSec identified several addresses that profited from the attack.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0xc8db3b620656408a5004844703aa92d895eb3527da057153f0b09f0b58208d74</p><p><br></p><p>Involved addresses:</p><p>https://etherscan.io/address/0x8df3dd42bd51dd637580be6f15f651608b749ca1</p><p>https://etherscan.io/address/0x236b6150d7cc095d923fc0463977b71e84c891e5</p><p>https://etherscan.io/address/0xb77e7ee8e131d7425112df0f0f3c10e1c2208589</p><p>https://etherscan.io/address/0xe946bc154baa243b48fcf156977910bbb236df09</p><p>https://etherscan.io/address/0x50fc7d751cdde692682a04f59c2c9be2530b4d28</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "KALP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x81fd072c5c507db2e985c035dcdc7833833b9fea",
+    "token_addresses": [
+        {
+            "address": "0x81fd072c5c507db2e985c035dcdc7833833b9fea",
+            "url": "https://bscscan.com/token/0x81fd072c5c507db2e985c035dcdc7833833b9fea",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x879ead67c92ec2bfa70fa9d157f500b7b31b64ab",
+            "url": "https://bscscan.com/address/0x879ead67c92ec2bfa70fa9d157f500b7b31b64ab",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642548c525573.png",
+    "date": "2022-8-24",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/quillhash/kaoyaswap-logic-exploit-analysis-quillaudits-7c6c1575926a",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Kaoyaswap",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 118000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3403,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
