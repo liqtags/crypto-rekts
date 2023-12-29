@@ -1,0 +1,68 @@
+{
+    "id": 3551,
+    "project_name": "NFDAO",
+    "title": "NFDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>NFDAO project experienced a rugpull exit scam in which the token deployer-related address withdrew liquidity from PancakePool, resulting in a loss of 88,420 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NFDAO is a BEP20 token trading on PancakeSwap. The token's contract was exploited by its deployer-related address to remove all funds available in the liquidity pool. All stolen funds were transferred to another EOA address leaving investors holding worthless tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x91b6854eda8a9b4839e49e42f313afc3e962c6cb</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xA90ab5bEEF079758D02e612df7F54B41A99b6970</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x7E0E658aF47B2EA1E2be9B0b7A476b43C4922eEc</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xb6d28af3473b9473fd38c49724925e0e7cbbd29c59d9bc2eb07e5f0aaa857d5f</p><p><br></p><p>Stolen Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x45317e4cc6d84e1ac687c805bfbd7bc11389fb8a26de5e949b319688f284471a</p>",
+    "name_categories": "Token",
+    "token_name": "NFD",
+    "proof_archive_link": "https://archive.ph/g3UBY",
+    "technical_issue": null,
+    "token_address": "0xe1afc0a3c9aa2537deea233ef7dc0952ceedfda3",
+    "token_addresses": [
+        {
+            "address": "0xeff7491b70a70b675e19b1ae1e5c6cbe4b0ce6ef",
+            "url": "https://bscscan.com/address/0xeff7491b70a70b675e19b1ae1e5c6cbe4b0ce6ef",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xe1afc0a3c9aa2537deea233ef7dc0952ceedfda3",
+            "url": "https://bscscan.com/address/0xe1afc0a3c9aa2537deea233ef7dc0952ceedfda3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/647ef9bab2ad3.png",
+    "date": "2023-6-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1665837580955406338?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 88420,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3551,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
