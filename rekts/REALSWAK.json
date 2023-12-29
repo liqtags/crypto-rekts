@@ -1,0 +1,51 @@
+{
+    "id": 2855,
+    "project_name": "REALSWAK",
+    "title": "REALSWAK",
+    "description": "<p>The NFT project REALSWAK rug pulled.<br><br>The contract deployer removed all liquidity at:<br>https://bscscan.com/tx/0xc079f43a29ad6e616a9dfdcd10304102d5e78416a478878aaddd20a28b552410<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bscscan.com/txs?a=0x6b51df1a9b82cb1219229a4ac78baaac3035776c</p>",
+    "name_categories": "NFT",
+    "token_name": "SWAK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6609F543d38816116fa5b9a98C918cA947f5455D",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/623a576d34ed3.png",
+    "date": "2022-3-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1506187501609775107",
+    "website_link": "https://swaknft.com/",
+    "webarchive_link": "https://web.archive.org/web/20220118101132/https://swaknft.com/",
+    "twitter_link": "https://twitter.com/REALSWAK",
+    "telegram_link": "https://t.me/SWAKCLUB",
+    "our_post_link": null,
+    "funds_lost": 526968,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2855,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
