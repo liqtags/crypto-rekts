@@ -1,0 +1,68 @@
+{
+    "id": 3679,
+    "project_name": "Fake zkSync",
+    "title": "Fake zkSync Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake zkSync BEP20 token experienced a rugpull on Aug 12, 2023, with liquidity removal; total funds lost: 106,527 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>zkSync is a fake BEP20 token trading on PancakeSwap, not to be confused with the original project. On Aug 12, 2023, the deployer removed liquidity from the LP pool, resulting in a rugpull. The stolen funds, amounting to 106,527 $USD, were subsequently transferred to another EOA.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://bscscan.com/address/0xB6f7Df81Ac7EDdF94f9310Cd8C25e439216d9272</p><p><br></p><p>- Funds Holder as of August 17, 2023:</p><p>&nbsp; https://bscscan.com/address/0x50208769407817dc48e3231ba5c0f0771e1bea45</p><p><br></p><p>- Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x8b9ab4f86d40392796ef091574d8e4d0a129bedceb8636f0ff83272e66964d96</p>",
+    "name_categories": "Token",
+    "token_name": "zkSync",
+    "proof_archive_link": "https://archive.ph/4Ijoz",
+    "technical_issue": null,
+    "token_address": "0x95dd3bd912c4c7bac01f9e8829dc7ab360bbffb4",
+    "token_addresses": [
+        {
+            "address": "0x95dd3bd912c4c7bac01f9e8829dc7ab360bbffb4",
+            "url": "https://bscscan.com/token/0x95dd3bd912c4c7bac01f9e8829dc7ab360bbffb4",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x7eed990cebda7e7e8615276b152d598322fffc6f",
+            "url": "https://bscscan.com/address/0x7eed990cebda7e7e8615276b152d598322fffc6f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64de2f450d90e.png",
+    "date": "2023-8-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1690400707701096448?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 106527,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3679,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
