@@ -1,5 +1,5 @@
 {
-    "id": 1644,
+    "id": 1588,
     "project_name": "SAFEPAY",
     "title": "SAFEPAY",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "SAFEPAY",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x02f8b98e11136a8a37e509a6bef14d9c956a0673",
+    "token_address": "0xd79ebf795e5737800e26227e2f128f6f33331f4a",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f18e5f93787.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f169713efd0.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1386163504470659074",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1644,
+            "scam_database_id": 1588,
             "networks": {
                 "id": 56,
                 "name": "Binance",
