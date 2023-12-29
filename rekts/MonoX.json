@@ -1,0 +1,85 @@
+{
+    "id": 2710,
+    "project_name": "MonoX",
+    "title": "MonoX",
+    "description": "<p><strong>Quick Summary</strong></p><p>Monoswap contracts on Polygon and Ethereum were exploited due to a flaw in the swapTokenForExactToken() function, allowing the attackers to inflate the value of the MONO token and drain other tokens from the pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attackers exploited a weakness in the swapTokenForExactToken() function in the Monoswap contract, using the same token as tokenIn and tokenOut. This resulted in the price of the MONO token being artificially inflated. The attackers then used this inflated token to swap out almost all of the other tokens in the pool.</p><p><br></p><p>Stolen funds:</p><p>- 5.7M MATIC ($10.5M)</p><p>- 3.9k WETH ($18.2M)</p><p>- 36.1 WBTC ($2M)</p><p>- 1.2k LINK ($31k)</p><p>- 3.1k GHST ($9.1k)</p><p>- 5.1M DUCK ($257k)</p><p>- 4.1k MIM ($4.1k)</p><p>- 274 IMX ($2k)</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's addresses:</p><p>Polygon: https://polygonscan.com/address/0xecbe385f78041895c311070f344b55bfaa953258</p><p>Ethereum: https://etherscan.io/address/0xecbe385f78041895c311070f344b55bfaa953258</p><p><br></p><p>Transactions behind the attack:</p><p>Polygon: https://polygonscan.com/tx/0x5a03b9c03eedcb9ec6e70c6841eaa4976a732d050a6218969e39483bb3004d5d</p><p>Ethereum: https://etherscan.io/tx/0x9f14d093a2349de08f02fc0fb018dadb449351d0cdb7d0738ff69cc6fef5f299</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "MONO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2920f7d6134f4669343e70122cA9b8f19Ef8fa5D",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a78af32a2ee.jpeg",
+    "date": "2021-12-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/MonoXFinance/status/1465692925791137799, https://rekt.news/monox-rekt/, https://twitter.com/FrankResearcher/status/1465679352448917504",
+    "website_link": "https://monox.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/",
+    "telegram_link": "https://t.me/MonoXOfficial",
+    "our_post_link": null,
+    "funds_lost": 31400000,
+    "funds_returned": 0,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "1",
+                "name": "Ethereum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "16400000",
+                    "date": "2021-12-01"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "137",
+                "name": "Polygon"
+            },
+            "funds": {
+                "lost": {
+                    "value": "15000000",
+                    "date": "2021-12-01"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2710,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 137,
+            "scam_database_id": 2710,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
