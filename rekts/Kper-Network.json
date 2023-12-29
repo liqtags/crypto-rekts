@@ -1,0 +1,51 @@
+{
+    "id": 197,
+    "project_name": "Kper Network",
+    "title": "Kper Network",
+    "description": "<p>The contract deployer invoked <u>setGovernance</u>() function at:<br>https://etherscan.io/tx/0xecaf79cfe196e1567f21ed00e86c6917580c152d36aa77a132de0eaf3b5ede79<br><br>The value in the transaction was the external address, which was privileged to use such functions as <u>mint</u>():<br>https://etherscan.io/tx/0x138d8e6a870788a3680279d401371cee73acefec9ddf7cc2579bb4c7f494b3e1<br>https://etherscan.io/tx/0x47f53a6aa3461a788ffd9168aeac8eb3135f92f8fa3572264589b9d96348b29c<br><br>The minted tokens were sold by the external wallet at:<br>https://etherscan.io/tx/0xb4a01b32a11c11438f4110ca93e5f18cba7962d50ea73ea1bf2a6b0245a042d6<br>https://etherscan.io/tx/0xa4bd2c5b8f58b99b0a7a966d8fea78848893431830952d10617342c97dce57e1</p>",
+    "name_categories": "Other",
+    "token_name": "KPER",
+    "proof_archive_link": "https://archive.ph/CVkAJ",
+    "technical_issue": null,
+    "token_address": "0xc89B4a8a121Dd3E726fE7515e703936cF83e3350",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d84d80e55.png",
+    "date": "2020-10-31",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "http://kper.network/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 541755,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 197,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
