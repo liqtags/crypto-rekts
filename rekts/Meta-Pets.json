@@ -1,0 +1,51 @@
+{
+    "id": 2694,
+    "project_name": "Meta Pets",
+    "title": "Meta Pets",
+    "description": "<p>The contract deployer at:<br>https://etherscan.io/tx/0x77d8cbefb94a7933cd3cd9b8f431f4dd81a3cce41e243df0bcc07b36a482f0ff<br><br>Tokens were unfairly distributed in huge amounts between different EOA addresses:<br>1. Recipient: 0x80f<br>https://etherscan.io/tx/0xf9822c733275563fc1b4935e6480ece841c1d5eafce5089db055888ffbc72dd0<br><br>2. Recipient: 0x57c<br>https://etherscan.io/tx/0x0b2a54b3677ad367cc94d2622957c8ff44a3a3e627360e2fb660b9d089d70c3a<br><br>3. Recipient: 0x6b2<br>https://etherscan.io/tx/0xc453b1e114df807ff6f71faef4cbd4272d0ec174211b38c8744924df826104ae<br><br>4. Recipient: 0x3a3<br>https://etherscan.io/tx/0xc71960c20588a8e774d7b7bb34f3bf8460869f161722ea355cac5240c377d9d2<br><br>Between contracts:<br><br>1. Recipient: token sale contract<br>https://etherscan.io/tx/0xc71960c20588a8e774d7b7bb34f3bf8460869f161722ea355cac5240c377d9d2<br><br>2. Recipient: vesting contract<br>https://etherscan.io/tx/0x56bede5d9b81556dfa1cb3599ef7e9fe6b3dad718b708a504b82431292ae7292<br><br>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0xf6b2f700c36e1cef0990b5cfad2d0bc94450bed6ef5eeffeaddb3870f8f93b46<br><br>Token sale contract was used to distribute gathered ETH from the fundraising at:<br>https://etherscan.io/address/0xc6695f1087ac6b83b83c56f393601a190933d6a6#internaltx<br><br>ETH was transferred into 0xeaf EOA and the contract deployer's address.<br><br>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0xf6b2f700c36e1cef0990b5cfad2d0bc94450bed6ef5eeffeaddb3870f8f93b46<br><br>0x80f sold tokens at:<br>https://etherscan.io/tx/0x7dad2876fb8b2deaecb165b5c28e0898f4e016951acc035997ae3c2e79245db4<br><br>0x57c sold tokens at:<br>https://etherscan.io/tx/0x719737193866f9817437ded65973a6045c084b9fba425453bc5176edce5f2b96<br><br>0x6b2 transferred tokens to the other EOA address, which sold them at:<br>https://etherscan.io/tx/0x7240a1eabcf93363770e09bdbdb075b8739d316520286128c571888c57a005ae<br><br>0x3a3 holds tokens on the address.<br><br>The final recipient of the stolen funds was the following address:<br>https://etherscan.io/address/0x839973ac9ab94f3512b5da825488552ff67056d7<br><br>Funds were deposited into Binance exchange wallet at:<br>https://etherscan.io/tx/0xcd09f05c37f5e761299a0da0fd75444ff74e2ea70998fa8da22a2bc3945a8ae8</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "MP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x17cd80aa8f4aed7c403e4c6b9c2cd3fabef09d99",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/619b8b1be9de1.png",
+    "date": "2021-11-18",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 708623,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2694,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
