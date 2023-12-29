@@ -1,0 +1,60 @@
+{
+    "id": 3479,
+    "project_name": "Real Web Project",
+    "title": "Real Web Project",
+    "description": "<p><strong>Quick Summary</strong></p><p>RealWebProject token rugpulled by the deployer, who removed liquidity worth 190,332 $USD. The project is suspected to be a honeypot.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RealWebProject is a BEP20 token trading on PancakeSwap. Investigation reveals that its source code was not verified and possible contained the malicious function to prevents the token sells from users. The token deployer drained 571.5 $BNB worth 190,332 $USD and then transferred the funds to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x96be7b56be7434990980d768cbfa9b5940636e07</p><p><br></p><p>Draining transaction:</p><p>https://bscscan.com/tx/0x0d6e09a5a1df51c353ee8b60f2d8f4a1a0f5dc4f41fcc07fcfcc44988609a0a4</p><p><br></p><p>Funds transferred to:</p><p>https://bscscan.com/address/0x2008b6c3d07b061a84f790c035c2f6dc11a0be70</p>",
+    "name_categories": "Token",
+    "token_name": "RWP",
+    "proof_archive_link": "https://archive.ph/YDXB1",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x79eb19ba58963b11394fd14041c15027eabc1537",
+    "token_addresses": [
+        {
+            "address": "0x79eb19ba58963b11394fd14041c15027eabc1537",
+            "url": "https://bscscan.com/address/0x79eb19ba58963b11394fd14041c15027eabc1537",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643a97e387191.png",
+    "date": "2023-4-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1645818891283705856?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 190332,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3479,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
