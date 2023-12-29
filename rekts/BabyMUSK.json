@@ -1,0 +1,51 @@
+{
+    "id": 2824,
+    "project_name": "BabyMUSK",
+    "title": "BabyMUSK",
+    "description": "<p>The contract deployer dumped tokens on PancakeSwap:<br>https://bscscan.com/address/0xf316e82c0eda97d740fa79152c99260a9733034d#internaltx<br><br>Stolen funds were transferred to the external wallet:<br>https://bscscan.com/tx/0xb06625759acf1f27b4085c3f9535b4af29a47ffca6f4fec3552d1805215d58fd<br><br>The funds' recipient deposited them into Tornado Cash mixer:<br>https://bscscan.com/address/0x1c1ccdaa684b56ce1b47c93d6a5a95f6fc754835</p>",
+    "name_categories": "Token",
+    "token_name": "BabyMUSK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xaf507f297b5eff8339315c4226977972734438b0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620528d778996.png",
+    "date": "2022-2-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1491483428222816256",
+    "website_link": "https://www.babymuskcoin.com/",
+    "webarchive_link": "https://web.archive.org/web/20220102082035/https://www.babymuskcoin.com/",
+    "twitter_link": "https://twitter.com/BabyMuskCoin",
+    "telegram_link": "https://t.me/babymuskcoinofficial",
+    "our_post_link": null,
+    "funds_lost": 664910,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2824,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
