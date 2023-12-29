@@ -1,0 +1,51 @@
+{
+    "id": 63,
+    "project_name": "Turtledex",
+    "title": "Turtledex",
+    "description": "<p>The project announced a fundraising event on their website. This fact can be verified by the link:<br>https://web.archive.org/web/20210314092242/https://turtledex.io/private-sale<br><br>Funds receiver was the official crowd-sale smart contract which gathered 8,999.99 BNB in total, but raised funds were automatically transferred to the bytecoded contract and then transferred to the last recipient finally - EOA wallet:<br>https://www.bscscan.com/tx/0xba8c0e937aa6fa49cfff96b51235f7ca1725327a43bcc94b36a17138ec0f927b<br><br>Stolen funds were distributed between some external addresses:<br>https://explorer.bitquery.io/bsc/txs/transfers?sender=0x78aff3b8b1de9242cc2dc8f19930c83454f1ff82&amp;currency=BNB</p>",
+    "name_categories": "Other",
+    "token_name": "TTDX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xff8888d4f46ed54bbbabf554d81b65ef3596b12c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4f7a6cdb3a.jpeg",
+    "date": "2021-3-16",
+    "scam_updates": [],
+    "proof_link": "https://decrypt.co/62204/binance-smart-chain-hit-by-2-4-million-turtledex-exit-scam?utm_source=twitter&utm_medium=social&utm_campaign=auto\\",
+    "website_link": "https://turtledex.io/",
+    "webarchive_link": "https://web.archive.org/web/20210312174713/https://turtledex.io/index.html",
+    "twitter_link": "https://twitter.com/turtle_dex",
+    "telegram_link": "https://t.me/turtledex",
+    "our_post_link": null,
+    "funds_lost": 2324610,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 63,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
