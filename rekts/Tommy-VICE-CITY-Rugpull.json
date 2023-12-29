@@ -1,0 +1,60 @@
+{
+    "id": 3657,
+    "project_name": "Tommy VICE CITY",
+    "title": "Tommy VICE CITY Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Tommy VICE CITY token was rugpulled by the deployer, removing liquidity worth 308,248 $USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Tommy VICE CITY (TOM) is an ERC20 token trading on UniSwap. On August 4, the deployer executed a rugpull by removing liquidity worth 168.32 $ETH from the LP pool. The stolen funds were subsequently transferred to another EOA and then distributed between multiple addresses using CoinTool. The total loss in this exit scam amounts to 308,248 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x9E6Ba3Bc86589Be54f4f4b8E35745411bb7e4e7c</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x5144c647fdd54effd11a861f59199e00660b9fa4</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x5c7aa807816718f5befdaa132a2874ac494c3acb9cb89be4562fbf56400f83e6</p><p><br></p><p>Funds Distribution Transactions:</p><p>https://etherscan.io/tx/0x81e41d882cf70a195b5c9cfd860d461725068a4a68f3037c1627f6c455014f96</p><p>https://etherscan.io/tx/0x1e587397a96d432bef3c310042e4910cefa39aaa4a0ce7fc9afde1927f3ae12e</p><p>https://etherscan.io/tx/0xd56e30c7bd793dc76c8278775eec918ad77c7d44c3d2c75de9c94de49c74a3bf</p>",
+    "name_categories": "Token",
+    "token_name": "TOM",
+    "proof_archive_link": "https://archive.ph/IGTiT",
+    "technical_issue": null,
+    "token_address": "0x19273d7f057a0ed9ae63d3fa025a852c5a430829",
+    "token_addresses": [
+        {
+            "address": "0x19273d7f057a0ed9ae63d3fa025a852c5a430829",
+            "url": "https://etherscan.io/token/0x19273d7f057a0ed9ae63d3fa025a852c5a430829",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64d286930d4df.png",
+    "date": "2023-8-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/dedotfisecurity/status/1688663677820428289?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 308248,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3657,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
