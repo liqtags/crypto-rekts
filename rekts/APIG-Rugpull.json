@@ -1,0 +1,76 @@
+{
+    "id": 3703,
+    "project_name": "APIG",
+    "title": "APIG Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>APIG token exit scam occurred on Sep 06, 2023, with the scammer draining 169,164 USD from custom pools using privileged functions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>APIG, a BEP20 token, experienced a rugpull exit scam when the deployer implemented a privileged function in the token contract. This allowed the scammer to receive over 100 billion APEG tokens out of thin air. The scammer then used these tokens to drain two custom pools (APEG/USDT and APEG/ETH) in a single transaction. Following the incident, the attacker transferred the stolen assets (59.5 ETH and 72,127 USDT) to another EOA address, which still holds the funds as of September 8, 2023.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x38BFF01ba3D4fd8b9D36F3A7fC1B5f591CEe8BB7</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x73d80500B30A6ca840bfAb0234409D98cF588089</p><p><br></p><p>Funds Holder Address (as of September 8, 2023):</p><p>https://bscscan.com/address/0x7c366ac96a8C3228a13a145D1be44Ff599668f80</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x66dee84591aeeba6e5f31e12fe728f2ddc79a06426036793487a980c3b952947</p>",
+    "name_categories": "Token",
+    "token_name": "APIG",
+    "proof_archive_link": "https://archive.ph/GXTek",
+    "technical_issue": null,
+    "token_address": "0xDc630Fb4F95FaAeE087E0CE45d5b9c4fc9888888",
+    "token_addresses": [
+        {
+            "address": "0xefbf31b0ca397d29e9ba3fb37fe3c013ee32871d",
+            "url": "https://bscscan.com/address/0xefbf31b0ca397d29e9ba3fb37fe3c013ee32871d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xb920456aec6e88c68c16c8294688b2b63c81b2ce",
+            "url": "https://bscscan.com/address/0xb920456aec6e88c68c16c8294688b2b63c81b2ce",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xdc630fb4f95faaee087e0ce45d5b9c4fc9888888",
+            "url": "https://bscscan.com/address/0xdc630fb4f95faaee087e0ce45d5b9c4fc9888888",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64fb4e680a48d.png",
+    "date": "2023-9-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1700128182043836761?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 169164,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3703,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
