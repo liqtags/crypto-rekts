@@ -1,0 +1,60 @@
+{
+    "id": 3453,
+    "project_name": "DESTINY Protocol",
+    "title": "DESTINY Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>On March 24, 2023, the team behind the DESTINY token executed a rug pull, resulting in a loss of funds worth $120.8K USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the DESTINY<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;</span>involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0xa580dd854e89ce6bf16d23c7858ddf0e7f4669c6</p><p>Example TX of removing liquidity:</p><p>https://bscscan.com/tx/0x244e9f71efc62c7508425ccb2e959699d697a96caf9b2187106a253345467bcc</p>",
+    "name_categories": "Token",
+    "token_name": "DESTINY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x673246c704b6ba3982549230e9b05acf07c255b6",
+    "token_addresses": [
+        {
+            "address": "0x673246c704b6ba3982549230e9b05acf07c255b6",
+            "url": "https://bscscan.com/address/0x673246c704b6ba3982549230e9b05acf07c255b6",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d7b53d0b9c.png",
+    "date": "2023-3-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1639297387117293568?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 120800,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3453,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
