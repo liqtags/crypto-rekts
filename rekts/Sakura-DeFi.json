@@ -1,0 +1,51 @@
+{
+    "id": 150,
+    "project_name": "Sakura DeFi",
+    "title": "Sakura DeFi",
+    "description": "<p>The contract deployer created a presale and transferred tokens to the presale smart contract at:<br>https://etherscan.io/tx/0x0998d9c8fec27d29df3e0a12a25f4594d6612cded1c4eb90ecc90b4b757070f5<br><br>103.11 ETH were added to the initial liquidity while 44.19 ETH were transferred to the contract deployer's address:<br>https://etherscan.io/tx/0x7ce4b606cd53a8a5d269a4d296f6bd6a337baa1355a9d7b21eaaa3be320ed3a1<br><br>The stolen funds were transferred through different external wallets and finally deposited to Binance exchange:<br>https://bloxy.info/ru/graphs/0xbc971cea7b82b9c09a9c78a9084a2eada5e7a5d6<br><br>39.96 ETH still remains on the liquidity pair at the moment:<br>https://etherscan.io/address/0xbc365f6c554a8f412acb75aa71265ba9278977fb<br><br>450 SKRG tokens are locked till 13.01.2022 and belong to the contract deployer:<br>https://etherscan.io/tx/0x002bd17c38bb0d58f28a7f8041a199a9bd9bb1e6a0430f6f11eb7ae0abaef7b0</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "SKRG",
+    "proof_archive_link": "https://archive.ph/tlmKF",
+    "technical_issue": null,
+    "token_address": "0xf05731df070ad8e6058d07e620e2f50bfa78e4c2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b9fb6d02e.png",
+    "date": "2021-2-14",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://sakuradefi.com/",
+    "webarchive_link": "https://web.archive.org/web/20210202213057/https://sakuradefi.com/",
+    "twitter_link": "https://twitter.com/SakuraDefi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 76480,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 150,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
