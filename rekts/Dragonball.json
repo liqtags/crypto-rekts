@@ -1,0 +1,60 @@
+{
+    "id": 3362,
+    "project_name": "Dragonball",
+    "title": "Dragonball",
+    "description": "<p><strong>Quick Summary</strong></p><p>The dragonball token was exploited via flashloan attack on the 8th of Feb. The profit is about 16k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Dragonball token was hacked using a flashloan. The attacker took a flashloan of 1300 BNB and exploited the reflection rate mechanism, gaining the ability to withdraw a profit of 54.92 BNB, equivalent to $15,912.69.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker tx:</p><p>0x3c736c08cdfe30c8271e8866a3b6e7fce636480e71935a23a03fc4b74bc500b1</p><p><br></p><p>Attacker address:</p><p>0x286e09932b8d096cba3423d12965042736b8f850</p>",
+    "name_categories": "Token",
+    "token_name": "DBALL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x4b0b131c91cd5c1617a8853fea7bcda5640495b8",
+    "token_addresses": [
+        {
+            "address": "0x4b0b131c91cd5c1617a8853fea7bcda5640495b8",
+            "url": "https://bscscan.com/token/0x4b0b131c91cd5c1617a8853fea7bcda5640495b8",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6402122e3bbf8.png",
+    "date": "2023-2-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1623319154144018432",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/wip/C1G96",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 16000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3362,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
