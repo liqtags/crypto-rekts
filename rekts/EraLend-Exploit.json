@@ -1,0 +1,51 @@
+{
+    "id": 3633,
+    "project_name": "EraLend",
+    "title": "EraLend Exploit",
+    "description": "<p><strong>Quick Summary</strong></p><p>EraLend, a zkSync Era lending protocol, was exploited via a read-only reentrancy attack, leading to a loss of approximately 3,400,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EraLend, a lending protocol on zkSync Era, fell victim to an exploit. The root cause has been identified as a read-only reentrancy attack, which resulted in a substantial loss of around 3,400,000 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address: https://explorer.zksync.io/accounts/0xf1D076c9Be4533086f967e14EE6aFf204D5ECE7a</p><p><br></p><p>Malicious Transactions:</p><p>https://explorer.zksync.io/transactions/0x99efebacb3edaa3ac34f7ef462fd8eed85b46be281bd1329abfb215a494ab0ef</p><p>https://explorer.zksync.io/transactions/0x7ac4da1ea1b0903dfabda56f713ea5e4a960a3fc34467a844d037f86ee8bfe98</p><p><br></p><p>Malicious Contracts:<br>https://explorer.zksync.io/address/0x7d8772DCe73cDA0332bc47451aB868Ac98F335F0<br>https://explorer.zksync.io/address/0xC5c668DcD437b901DFE877DC99329Ac2ba338035</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/KCaIQ, https://archive.ph/QR8M0",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64bfff97222a0.jpg",
+    "date": "2023-7-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1683824959452504065, https://twitter.com/SaulCapital/status/1683817699262992386",
+    "website_link": "https://www.eralend.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Era_Lend",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/eralend",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/eralend-previously-nexon-finance-936926364391604245",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 324,
+            "scam_database_id": 3633,
+            "networks": {
+                "id": 324,
+                "name": "zkSync Era",
+                "icon_link": "safe/files/network/zkSyncEra.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
