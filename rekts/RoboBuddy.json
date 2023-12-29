@@ -1,0 +1,51 @@
+{
+    "id": 2390,
+    "project_name": "RoboBuddy",
+    "title": "RoboBuddy",
+    "description": null,
+    "name_categories": "Other",
+    "token_name": "ROBO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x7F40073d704f567Cd675c578c801600Fc10eA3C6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612dfa8a833cb.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x378Bb176c1A79bB271358E6E34F91541E3F42237",
+    "website_link": "https://robobuddy.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2390,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
