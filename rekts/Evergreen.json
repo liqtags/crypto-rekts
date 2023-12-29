@@ -1,15 +1,15 @@
 {
-    "id": 1624,
+    "id": 1394,
     "project_name": "Evergreen",
     "title": "Evergreen",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "EVEG",
+    "token_name": "EVGN",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x7c7aeeb6d7f8ffe6ad47055351088cc908483edc",
+    "token_address": "0x834d0e4816408883bcee54963ffdcf2fc2c34034",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f17160c8c07.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f055b482f8f.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1382886019419103233",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1624,
+            "scam_database_id": 1394,
             "networks": {
                 "id": 56,
                 "name": "Binance",
