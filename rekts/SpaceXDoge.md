@@ -5,9 +5,7 @@
 - Category: Token
 - Date: None
 
-The contract owner could disable the transfer function, which restricted users in selling their tokens.  
-  
-
+The contract owner could disable the transfer function, which restricted users in selling their tokens.
 
 
 Proof Links:

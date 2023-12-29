@@ -1,15 +1,15 @@
 {
-    "id": 1554,
+    "id": 895,
     "project_name": "SpaceXDoge",
     "title": "SpaceXDoge",
-    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "SPX",
+    "token_name": "Spacex Doge",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x68aaf0a23b20d90727bf18ea2764a1ea3954515a",
+    "token_address": "0x61ed9294d2842d24a94a01c68381f0bcd8bf920e",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f1634cc3e4e.png",
+    "logo_link": "safe/files/scamDatabase/logo/60eec9b1283ce.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1554,
+            "scam_database_id": 895,
             "networks": {
                 "id": 56,
                 "name": "Binance",
