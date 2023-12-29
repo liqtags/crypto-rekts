@@ -1,15 +1,15 @@
 {
-    "id": 1940,
+    "id": 1603,
     "project_name": "Zillow",
     "title": "Zillow",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "ZLW",
+    "token_name": "ZLOW",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x0ed442dd6030f60050f053d9ca99dd8409f8b77a",
+    "token_address": "0xabf32ff242fd5a2d2a3b5631a8d1d759ec87192c",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f597d008436.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f16c5766996.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1382886019419103233",
@@ -38,12 +38,12 @@
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 1,
-            "scam_database_id": 1940,
+            "networks_id": 56,
+            "scam_database_id": 1603,
             "networks": {
-                "id": 1,
-                "name": "Ethereum",
-                "icon_link": "safe/files/network/ethereum.png"
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
             }
         }
     ],
