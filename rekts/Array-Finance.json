@@ -1,0 +1,51 @@
+{
+    "id": 2747,
+    "project_name": "Array Finance",
+    "title": "Array Finance",
+    "description": "<p>The attacker:<br>https://etherscan.io/address/0x13370353f69665f36eb0a708f828c50dc23604af<br><br>The transaction behind the attack:<br>https://etherscan.io/tx/0xa17bbc7c9ab17aa88fdb5de83b41de982845e9c9c072efff6709dd29febf0daa<br><br>The attacker:<br>- flash loaned DAI, USDC, WETH, WBTC on Aave<br><br>- invoked the <u>buy()</u> function of Array Finance. The attacker gained 430 ARRAY tokens minted by Array Finance using 45.91 WETH<br><br>- invoked the <u>joinPool()</u> function of a closed source contract (Array Collater - 0xa800cda5f3416a6fb64ef93d84d6298a685d190d) five times<br><br>- deposited 676,410.58 DAI + 679,080.46 USDC + 901.82 WETH + 20 WBTC + 20 renBTC and gained 726.38 aBPT tokens minted by Array Collater<br><br>- invoked the <u>sell()</u> function to burn 430 ARRAY tokens and got 77.17 aBPT tokens<br><br>- invoked the <u>exitPool()</u> function of the Array Collater<br><br>- burned 804.55 aBPT tokens obtained in previous steps and obtained 748,271.55 DAI + 751,225.08 USDC + 997.62 WETH + 22.63 WBTC + 22.74 renBTC<br><br>- repaid the flash loan.<br><br>The attacker exploited the vulnerability: the price mechanism of the Array Finance depends on the <u>totalSupply</u> of the aBPT token, which is manipulatable.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61c352fe911ca.jpeg",
+    "date": "2021-7-19",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://array.finance/",
+    "webarchive_link": "http://web.archive.org/web/20210710180245/https://array.finance/",
+    "twitter_link": "https://twitter.com/arrayfinance",
+    "telegram_link": "https://t.me/arrayfinance",
+    "our_post_link": null,
+    "funds_lost": 516391,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/uNuD4H2rMB",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2747,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
