@@ -1,0 +1,51 @@
+{
+    "id": 3292,
+    "project_name": "Vauld",
+    "title": "Vauld",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On the 4th of July 4 2022, the trading and lending platform Vauld freezed user withdrawals.&nbsp;</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Case</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Vauld faced financial challenges due to market conditions, such as the Terra Luna crash and paused withdrawals by <span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Celsius</span>, and financial difficulties of the platform\u2019s key business partners.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:16.5pt;font-family:'Times New Roman';color:#343434;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Following withdrawals from Vauld of about $200 million that happened in 25 days after Terra's case, the platform\u2019s management decided to stop all deposits and further withdrawals.</span></p>",
+    "name_categories": "CeFi",
+    "token_name": "-",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "-",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/639c9ae6a23e7.png",
+    "date": "2022-7-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/VauldOfficial/status/1543859037149843456",
+    "website_link": "https://www.vauld.com/home",
+    "webarchive_link": "https://archive.ph/12Ey2",
+    "twitter_link": "https://mobile.twitter.com/vauldofficial",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3292,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
