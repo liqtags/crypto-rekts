@@ -1,0 +1,73 @@
+{
+    "id": 3214,
+    "project_name": "TempleDAO",
+    "title": "TempleDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>TempleDAO's staking contract was exploited due to a vulnerable migration functionality. The hacker took away FraxLP tokens and swapped them for 1830 $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TempleDAO is a DeFi yield aggregator. The exploit happens due to stake migration functionality on the StaxLPStaking contract. The attacker was able to transfer xFraxTempleLP liquidity tokens to his address and took $TEMPLE and $FRAX tokens from the pool. Consequently, the hacker swapped them for 1830 $ETH and transferred the stolen funds to another EOA address. The total profit of the attacker reached 2,376,872 $USD. An interesting detail is that the attacker's address was linked to Binance's address. TempleDAO is investigating the accident with Binance and Stax said that a white hat bounty will be initialized for the exploiter.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x9c9Fb3100A2a521985F0c47DE3B4598dafD25B01</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x8c3f442fc6d640a6ff3ea0b12be64f1d4609ea94edd2966f42c01cd9bdcf04b5</p><p><br></p><p>Liquidity removal transaction:</p><p>https://etherscan.io/tx/0x4b119a4f4ba1ad483e9851973719f310527b43f3fcc827b6d52db9f4c1ddb6a2</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "TEMPLE",
+    "proof_archive_link": "https://archive.is/mQaLH",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7",
+    "token_addresses": [
+        {
+            "address": "0xd2869042e12a3506100af1d192b5b04d65137941",
+            "url": "https://etherscan.io/address/0xd2869042e12a3506100af1d192b5b04d65137941",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x6021444f1706f15465bee85463bcc7d7cc17fc03",
+            "url": "https://etherscan.io/address/0x6021444f1706f15465bee85463bcc7d7cc17fc03",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634695803dc41.gif",
+    "date": "2022-10-11",
+    "scam_updates": [
+        {
+            "date": "2022-10-17T10:14:25.000Z",
+            "description": "<p>On 16 October 2022, the stolen amount of 1831 $ETH was moved into TornadoCash from the EOA address https://etherscan.io/address/0x2b63d4a3b2db8acbb2671ea7b16993077f1db5a0</p>"
+        }
+    ],
+    "proof_link": "https://cointelegraph.com/news/templedao-exploit-results-in-2m-loss",
+    "website_link": "https://templedao.link/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/templedao",
+    "telegram_link": "https://t.me/TempleDAOcommunity",
+    "our_post_link": null,
+    "funds_lost": 2376872,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/templedao",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3214,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
