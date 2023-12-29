@@ -1,0 +1,51 @@
+{
+    "id": 2427,
+    "project_name": "NekoCat",
+    "title": "NekoCat",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "NCT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x77F7518e4dA5240EcCC7e5a673e5FF3759eaD795",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612ccc190e1ca.jpeg",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://etherscan.io/token/0x45e09e5cb215f5e9b80972cb341628b513c3a2d2?a=0xfd45704cff65eed932b66cfdea4b3154f868c78a",
+    "website_link": "https://nekocat.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2427,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
