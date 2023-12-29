@@ -1,0 +1,51 @@
+{
+    "id": 2593,
+    "project_name": "Iron Finance",
+    "title": "Iron Finance",
+    "description": "<p>Two vFarms were exploited:</p><p>50% IRON \u2014 50% SIL</p><p>50% IRON \u2014 50% BUSD<br><br>A user who farmed in these two pools claimed all SIL rewards allocated for farming over the next 12 months and made a profit of around $170K by selling SIL for BUSD on vSwap.<br><br>Value DeFi team has upgraded FaaS, in which the reward rate is in normal integer instead of Ggwei as before. Iron.Finance team was unaware of the change and updated Iron vFarm pools with reward rate in Gwei. This caused the pools' rewards to inflated by 10^18 times.<br><br>The following address took advantage of the mistake and drained all SIL rewards and sold them to the market:<br>https://bscscan.com/address/0x69655181a55755adc854cd35c15995393f63e9e5#tokentxns</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "SIL",
+    "proof_archive_link": "https://archive.is/ufwfP",
+    "technical_issue": null,
+    "token_address": "0xc66e4de0d9b4f3cb3f271c37991fe62f154471eb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6127b90f8c1bb.jpeg",
+    "date": "2020-3-16",
+    "scam_updates": [],
+    "proof_link": "https://ironfinance.medium.com/iron-finance-vfarms-incident-post-mortem-16-march-2021-114e58d1eaac, https://beincrypto.com/iron-finance-defi-exploit-explained-post-mortem/",
+    "website_link": "https://legacy-bsc.iron.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ironfinance",
+    "telegram_link": "https://t.me/ironfinance",
+    "our_post_link": null,
+    "funds_lost": 170000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2593,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
