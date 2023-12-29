@@ -1,0 +1,68 @@
+{
+    "id": 3244,
+    "project_name": "Universe Token",
+    "title": "Universe Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>UniverseToken <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>was&nbsp;</span>exploited via access control vulnerability. 1,447,175 $USD worth of assets were stolen and transferred through TornadoCash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>UniverseToken is a DEX on the Binance chain. The project's contract was <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>exploited via access control vulnerability.</span>&nbsp; The $UVT token price dropped by 99% after an incident. The attacker was able to exploit the controller contract with unverified source code and withdraw roughly 100,000,000 $UVT tokens. Consequently, the tokens were swapped for 5011 $BNB and transferred to the EOA address. All the stolen amount was transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://bscscan.com/address/0xf3e3ae9a40ac4ae7b17b3465f15ecf228ef4f760</p><p>https://bscscan.com/address/0xbc1ac845e889a8795e7f22569aa073aeb3071ef6</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x99d4311f0d613c4d0cd0011709fbd7ec1bf87be9</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/address/0xbc1ac845e889a8795e7f22569aa073aeb3071ef6</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "UVT",
+    "proof_archive_link": "https://archive.ph/LYuP5, https://archive.ph/9dL9H",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x196eb1d21c05cc265ea0a1479e924e7983467838",
+    "token_addresses": [
+        {
+            "address": "0x36f277165c8b1b80cc3418719badb1864e2687bc",
+            "url": "https://bscscan.com/address/0x36f277165c8b1b80cc3418719badb1864e2687bc",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x196eb1d21c05cc265ea0a1479e924e7983467838",
+            "url": "https://bscscan.com/address/0x196eb1d21c05cc265ea0a1479e924e7983467838",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635a70d9e897c.jpg",
+    "date": "2022-10-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1585535908236754944, https://mobile.twitter.com/AnciliaInc/status/1585499893585485825",
+    "website_link": "https://www.uvtoken.com/#/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/UvTokenOfficial",
+    "telegram_link": "https://t.me/uvtokenglobal",
+    "our_post_link": null,
+    "funds_lost": 1447175,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3244,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
