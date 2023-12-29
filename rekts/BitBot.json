@@ -1,0 +1,51 @@
+{
+    "id": 139,
+    "project_name": "BitBot",
+    "title": "BitBot",
+    "description": "<p>The project was holding a fundraising event using Token Sale contract:<br>https://etherscan.io/address/0x11ab1c266776228b7f620dcf666dbea205aff2c7#code<br><br>The final funds' recipient was the contract deployer:<br>https://etherscan.io/address/0x11ab1c266776228b7f620dcf666dbea205aff2c7#internaltx<br><br>615 ETH were transferred to the contract deployer:<br>https://etherscan.io/tx/0x1f2ef3fc70309007fb1319dd6401d151dc3e5eb028bb88541540abe0cbf0ffb1<br><br>The contract deployer use added initial liquidity using 300 ETH:<br>https://etherscan.io/tx/0x899d79c7087c0f1fee974dc8f35b2c7db8cc363475bf2a959d88f978b069bb84<br><br>The contract deployer removed 89 ETH and 1,075 BBP from the liquidity pair:<br>https://etherscan.io/tx/0x3cfea957ff82e43a6d2322a0b5607d78d0f10caee9c8a31f8680912cfc4931fb<br><br>The contract deployer sold 1,017 BBP For 15.69 ETH:<br>https://etherscan.io/tx/0x0fe2adf8ca2dbd3469c87612ef7e78b90799c09b46aebae053cc7d2244375d64</p>",
+    "name_categories": "Other",
+    "token_name": "BBP",
+    "proof_archive_link": "https://archive.ph/U31bp",
+    "technical_issue": null,
+    "token_address": "0xbb0a009ba1eb20c5062c790432f080f6597662af",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61290b13c4c51.jpeg",
+    "date": "2021-2-20",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://bitbotprotocol.tech/",
+    "webarchive_link": "https://web.archive.org/web/20210130165116/https://bitbotprotocol.tech/",
+    "twitter_link": "https://twitter.com/BitbotProtocol",
+    "telegram_link": "https://t.me/bitbotprotocol",
+    "our_post_link": null,
+    "funds_lost": 805001,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 139,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
