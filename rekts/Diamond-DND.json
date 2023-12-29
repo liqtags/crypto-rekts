@@ -1,0 +1,60 @@
+{
+    "id": 3356,
+    "project_name": "Diamond DND",
+    "title": "Diamond DND",
+    "description": "<p><strong>Quick Summary</strong></p><p>Diamond DND token was exploited for 223,335 $USD worth of $DND tokens. The exploiter used user approvals to drain funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Diamond DND is a BEP20 token trading on BiSwap. The exploiter user a smart contract with unverified source code, to transfer approved tokens of the users. 223,335 $USD worth of $DND and $BUSD tokens were swapped for $wBNB and then transferred to the malicious contract. Consequently, all the stolen amount was sent to the attacker's address and the contract self-destructed. DND Exploiter performed another exploit just after this one, LaunchZone DeFi protocol was hacked by the same attacker for a much bigger amount...</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x7d192fa3a48c307100c3e663050291fff786aa1f</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xc4bea60f5644b20ebb4576e34d84854f9588a7e2</p><p><br></p><p>Token claim transaction:</p><p>https://bscscan.com/tx/0x876944e5537cfec8bca38ae7002d5f3c3f05fe83eff4b691d94d2aeea9f39045</p>",
+    "name_categories": "Token",
+    "token_name": "DND",
+    "proof_archive_link": "https://archive.ph/wip/7evq0",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x34ea3f7162e6f6ed16bd171267ec180fd5c848da",
+    "token_addresses": [
+        {
+            "address": "0x34ea3f7162e6f6ed16bd171267ec180fd5c848da",
+            "url": "https://bscscan.com/address/0x34ea3f7162e6f6ed16bd171267ec180fd5c848da",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fcf52c1cdf9.png",
+    "date": "2023-2-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/HypernativeLabs/status/1630100828760465411",
+    "website_link": "https://diamonddnd.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dnd_diamond",
+    "telegram_link": "https://t.co/GJVDpZAqQZ",
+    "our_post_link": null,
+    "funds_lost": 223335,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/DiamondDND",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3356,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
