@@ -1,0 +1,78 @@
+{
+    "id": 3516,
+    "project_name": "Level Finance",
+    "title": "Level Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Level Finance was exploited, resulting in the loss of 214,000 $LVL tokens worth approximately 2,780,320 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Level Finance is a decentralized perpetual exchange running on the Binance Smart Chain. The project suffered an exploit that had targeted their Referral Controller Contract. The attacker could claim referral amounts as $LVL tokens multiple times by executing multiple transactions to drain the contract. As a result, 214k LVL tokens were drained from the contract and swapped for 3,345 $BNB which is equivalent to 1,097,160 $USD at current prices. All stolen funds remain controlled by the hacker who initiated this attack using the address: `0x61bb...412e` and holds them on another address: `0x7031...a9d5`. Fortunately, LPs and DAO treasury remained unaffected by this exploit since it was isolated from other contracts.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x61bbd8c1bc09c4f4549f3f77be5ad61a9929412e</p><p><br></p><p>Funds Holder Address: <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/</span>address/0x70319d1c09e1373fc7b10403c852909e5b20a9d5</p><p><br></p><p>Malicious Contract Address: <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/</span>address/0xf08a01d2cace301ae69f07af5fdfb2336da2f629</p><p><br></p><p>Affected Proxy Contract Address: <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/</span>address/0x977087422c008233615b572fbc3f209ed300063a</p><p><br></p><p>Affected Implementation Contract Address (LevelReferralControllerV2): <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/</span>address/0x9f00fbd6c095d2c542687ed5afb68d9c3fb2f464</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "LVL",
+    "proof_archive_link": "https://archive.ph/QLtZV, https://archive.ph/SQN1j",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xb64e280e9d1b5dbec4accedb2257a87b400db149",
+    "token_addresses": [
+        {
+            "address": "0x9f00fbd6c095d2c542687ed5afb68d9c3fb2f464",
+            "url": "https://bscscan.com/address/0x9f00fbd6c095d2c542687ed5afb68d9c3fb2f464",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x977087422c008233615b572fbc3f209ed300063a",
+            "url": "https://bscscan.com/address/0x977087422c008233615b572fbc3f209ed300063a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6450297f3ceeb.jpg",
+    "date": "2023-5-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Level__Finance/status/1653140756540825638, https://twitter.com/definalist/status/1653110385552289792",
+    "website_link": "https://level.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Level__Finance",
+    "telegram_link": "https://t.me/LevelFinance",
+    "our_post_link": null,
+    "funds_lost": 1097160,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/levelfinance",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3516,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Level_Finance_Report.pdf",
+            "date": "2023-03-29T00:00:00.000Z",
+            "partner": {
+                "id": 13,
+                "name": "Quantstamp",
+                "logo_link": "safe/files/partner/logo/609523dccfbce.jpeg"
+            }
+        }
+    ]
+}
