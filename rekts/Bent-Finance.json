@@ -1,0 +1,51 @@
+{
+    "id": 2744,
+    "project_name": "Bent Finance",
+    "title": "Bent Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bent Finance became a victim to an insider's exploit. The exploiter extracted approx. $USD 1.75M in value from the project.<br><br><strong>Details of the Exploit</strong><br>Bent Finance is a staking and farming platform that optimizes returns from the curve protocol.</p><p>The Bent Finance team was in the process of migrating its contracts to a multisig wallet hereby effectively addressing internal security issues. Only days before the migration a developer on the team hardcoded the maximum fees on the crv and mim pool contracts to 17%. The developer also introduced a malicious smart contract that enabled the deployer to hardcode users balances. &nbsp;The exploiter proceeded to assign an enormous balance to his account, far exceeding the TVL of Bent Finance. <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Subsequently, the developer launched a new smart contract in order to cover his tracks. Through these mechanisms the dishonest deployer was pledged rewards in the billions by the smart contracts.&nbsp;</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>All of the above mentioned proxy updates completely changed the functionality of the smart contracts and would not have been possible a couple of days later after the multisig migration would have concluded. The crooked deployer proceeded to withdraw 513k cvxcrv token and redirected them to a second address. With a third address, the deployer removed liquidity and transferred received theETH to the exploiter #2 address:<br>https://etherscan.io/tx/0x0a91dfc9f752a921a4602961ed5bf7555205b21919f1f4aba37184320b1e2a25<br>https://etherscan.io/tx/0x2bda5f873adb07ef4e98f0dcd736ed047a8b272178c5a4673489e03357963120</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The second exploiter address washed the funds through Tornado.cash.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The addresses, marked as the exploiters:<br>#1: https://etherscan.io/address/0xd23cfffa066f81c7640e3f0dc8bb2958f7686d1f<br>#2: https://etherscan.io/address/0x9e966a54082427d7ac56aeaee4baae7d11a6e468<br>#3: https://etherscan.io/address/0x71b1ee098dbe801ce7d42a4bdb472ed164f1c21a</p><p>Bent Finance Crv Fi contract:</p><p>https://etherscan.io/address/0x270b6aff561284ef380cdd6d8b036f4981049a86</p><p>Transaction of 263k cvxcrv from exploiter address 1 to exploiter address 2:</p><p>https://etherscan.io/tx/0x11961c4df0b27bd7188d451dd18005dc8aff7ad4a80c7f7441b56495cae219c5</p><p>Transaction of 250k cvxcrv from exploiter address 1 to exploiter address 2:</p><p>https://etherscan.io/tx/0x52d4d5a9a83ff8ca6a7fd102954c4c5d2658043d9049abfc47cd8c37692b95be</p><p>Tornado.cash transactions:</p><p>https://etherscan.io/address/0x9e966a54082427d7ac56aeaee4baae7d11a6e468</p><p>Call <u>updateVersion()</u> of Bent cvxCRV token through ProxyAdmin at:<br>https://etherscan.io/tx/0xf711641ea9814d78780c8a51ad734ad44d58baf3f97256a3f5ec3200a29eadc7</p><p>Call <u>updateVersion</u>() of Bent MIM token, executing the backdoored line at:<br>https://etherscan.io/tx/0xd5e0d4ab279f6a0f8635307869471d7934cffa4086ec93d26e9e9c6a98ae9fef</p><p>Bent Finance deployer upgrades the implementation of Bent cvxCRV token through ProxyAdmin at:<br>https://etherscan.io/tx/0xb37ffd779c26d1bf3105719662136af34090050abd962ab59e24d81cc7f63a07</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BENT",
+    "proof_archive_link": "https://web.archive.org/web/20211221161002/https://bentfi.medium.com/bent-update-12ae69a41dc6",
+    "technical_issue": null,
+    "token_address": "0x01597e397605bf280674bf292623460b4204c375",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61c208a728737.jpeg",
+    "date": "2021-12-21",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/bent-finance/, https://twitter.com/BlockSecTeam/status/1473188863136780288",
+    "website_link": "https://app.bentfinance.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BENT_Finance",
+    "telegram_link": "https://t.me/BentFi",
+    "our_post_link": null,
+    "funds_lost": 1786520,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2744,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
