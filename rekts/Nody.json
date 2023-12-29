@@ -1,0 +1,51 @@
+{
+    "id": 3074,
+    "project_name": "Nody",
+    "title": "Nody",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $NODY token has been rugpulled by the token creator. The token creator transferred 950M $NODY tokens to a second &nbsp;address (B) under his control. When the price of the token increased, the attacker started selling them, which is why the token began to depreciate. At the moment of writing ~$104k are on scammer's address (B) of which ~55k are identified as stolen.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer created $NODY token at this transaction: https://bscscan.com/tx/0xde9f9d0842b5c21a52455594d8e1361ca2e5835f529c48d9ab0b5021d0b17998.</p><p>After 14 days, 950M $NODY token were sent to intermediary addresses in order to create a fake distribution between token holders and 100M $NODY tokens to the scammer address (C) which created a liquidity pool on PancakeSwap with 50k $BUSD and 50M $NODY. (https://bscscan.com/tx/0xe7e6d52318fcbf08ef93bd9e6aafb87facc6752f96a3293c1e8c43aee2345b81).&nbsp;</p><p>When the people invested their money and the price of the token became acceptable for the scammer, all the intermediary addresses sent tokens to the address of the scammer (B) where, in turn, he began to dump the price by selling assets. Here are the transactions of transferring from intermediary addresses to scammer address (B):</p><p>1) https://bscscan.com/tx/0xc4e3335823bccd1e846a2419c83652603e8686260c941d3abcc367c68d1947b8</p><p>2) https://bscscan.com/tx/0x898e0dade51cc9a5432dff59de95f9959533ae86f5ade0bc166d806705281125</p><p>3) https://bscscan.com/tx/0xcafab31af828888ffc459e063a537b0eb7db98eaec7435b86852c837be848cc5</p><p>4) https://bscscan.com/tx/0x1945b09cc38c029a608b40867a55da1ed5c177d099c965f74d50fd2c31034693</p><p>Then scammer address (B) swapped $NODY tokens for $BUSD through the 1inch.</p><p>Here are example transactions of swap:</p><p>1) https://bscscan.com/tx/0x61473eef0a78736c1a3c06b04eaf70fcac6865c43b832fdb91cd8cd958f37e49</p><p>2) https://bscscan.com/tx/0x11dae52a29282aa139b37e60243d449110b940fa6d7b25e32a9da1808e1d49c0</p><p>3) https://bscscan.com/tx/0xce754bb12b4872aff50b3898c5eedfaf992b7afba3b0db7ea92fa77877cf49f5</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>1) https://bscscan.com/address/0xba3e8569d406a6e549fa2607632a5205111aff40</p><p>2) https://bscscan.com/address/0xde512ea6cb8329ed5c49d769ea2d4ab2363735d2</p><p>3) https://bscscan.com/address/0xc45c80c984d3694a994213bdb652e9f5f809c22f</p><p><br></p><p>Intermediary addresses:</p><p>1) https://bscscan.com/address/0x1bd55d3c10779106b9afbd49cbc52d7a0de95dab</p><p>2) https://bscscan.com/address/0xe001a4708d06ca74f160d020f33e93792845185e</p><p>3) https://bscscan.com/address/0x5414414832b3055510a98b7edc216ed49728987b</p><p>4) https://bscscan.com/address/0x893a49263bae3dfee4aef69243804b9617ba3105</p>",
+    "name_categories": "Other",
+    "token_name": "NODY",
+    "proof_archive_link": "https://web.archive.org/web/20220704012305/https://twitter.com/PeckShieldAlert/status/1543766969886785536",
+    "technical_issue": null,
+    "token_address": "0xfe01c159ecdee4377abfc4cd1827089c47b806ea",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62c5a592b5079.jpeg",
+    "date": "2022-7-2",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0xdf6740ac39e16d44154ce4def1cfdd757b78b2d0",
+    "website_link": "https://nody.ai/",
+    "webarchive_link": "https://web.archive.org/web/20220625093944/https://nody.ai/",
+    "twitter_link": "https://twitter.com/Nody_ai",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 54559,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/nodyai",
+    "git_hub_contract_link": "https://github.com/nodyai/bsc-genesis-contract/tree/master/contracts",
+    "discord": "https://discord.com/invite/Xds4gFHqjZ",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3074,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
