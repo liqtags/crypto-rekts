@@ -1,0 +1,51 @@
+{
+    "id": 3106,
+    "project_name": "TEDDY DOGE",
+    "title": "TEDDY DOGE",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The TEDDY DOGE project has been rugpulled by the admin wallet. The sell-off amounts to roughly $4,5m USD (2m $BUSD and 10k $BNB).</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">According to its own words the Teddy Doge project is one-stop full-featured decentralized exchange including a swap, aggregate transactions, liquidity and farms.</p><p style=\"margin:0cm;background:white;\">The token deployer minted 30m $Teddy token to the admin wallet on Jan 30, 2022 https://bscscan.com/tx/0x47bb88509aa68dd3cede68ec490bf80edfaf9c9724fe8c871cc0050bc2e75464</p><p style=\"margin:0cm;background:white;\">The admin wallet proceeded to transfer what would be worth 4,5m USD worth of $TEDDY token to hundreds of addresses.</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/token/0x10f6f2b97f3ab29583d9d38babf2994df7220c21?a=0xdbe8ef79a1a7b57fbb73048192edf6427e8a5552</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Example of a wallet receiving funds (1) by the admin wallet and subsequently dumping (2) the $TEDDY on PancakeSwap in even smaller transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x965c43645f6443e11dcfb71a77a9acf75707b8c0f2a7eeca83e8546ec0ca8656</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x4534f25a171fe4a27868d938722d702304a552364bb40d1b2086e3e9e4ba182f</p><p style=\"margin:0cm;background:white;\">At the end of the process, the funds, namely $BNB and $BUSD were aggregated in this wallet and slowly sold off on Binance.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token Deployers wallet address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0xabcd756f71564a1c24e4c8f429580c4a6dcfbccc</p><p style=\"margin:0cm;background:white;\">$TEDDY admin wallet address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/token/0x10f6f2b97f3ab29583d9d38babf2994df7220c21?a=0xdbe8ef79a1a7b57fbb73048192edf6427e8a5552</p><p style=\"margin:0cm;background:white;\">Accumulative Wallet</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0x902f83751295d6924c63fc121f770cfc3cfc1347</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "TEDDY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x10f6f2b97F3aB29583D9D38BaBF2994dF7220C21",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62dffd856cc45.jpeg",
+    "date": "2022-7-25",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/tech/2022/07/25/memecoin-teddy-doge-soft-rug-pulls-45m-worth-of-tokens-peckshield-says/, https://cryptoslate.com/teddy-doge-developers-pull-out-4-5-million-in-alleged-soft-rug-pull/",
+    "website_link": "https://teddydoge.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TeddyDogeCoin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3106,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
