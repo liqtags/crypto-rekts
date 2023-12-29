@@ -1,85 +1,70 @@
 {
-    "id": 2709,
+    "id": 3506,
     "project_name": "Unlock Protocol",
     "title": "Unlock Protocol",
-    "description": "<p>The attackers' addresses:<br>https://polygonscan.com/address/0xcc06dd348169d95b1693b9185ca561b28f5b2165<br>https://polygonscan.com/address/0x8c769a59f93dac14b7a416294124c01d3ec4daac<br><br>The private key of Unlock Founder &amp; CEO was compromised. This key had been used to deploy the Unlock contract on xDAI and Polygon previously and was able to upgrade them.<br><br>Ownership was transferred at:<br>xDAI:<br>https://blockscout.com/xdai/mainnet/tx/0x12f0a54b0d5eb595c217377ff0432069f9bee8c3a1a60f8e55459047d008bda8<br><br>Polygon:<br>https://polygonscan.com/tx/0xe3b852c9570588f475cff7c1d5f9d57ecfb9faaa65676da9e3ac87abf314a1a3<br><br>xDAI:<br>1. 20,000 Tokens were stolen from Unlock contract:<br>https://blockscout.com/xdai/mainnet/tx/0x6e9cbe9508f6d21e921aff0b6765a7bfecee5dd6eca43460a24d84a87fa13904<br><br>2. Out of the 20,000 tokens that were stolen, 19,980 UDT were transferred by the attacker to the xDAI bridge:<br>https://blockscout.com/xdai/mainnet/tx/0x9241dcbf6cc7e700ebe8bc44762b27dea862c1a48fb8cd062b4b83da19724448<br><br>3. Tokens were burnt on xDAI, transferred on Ethereum, and sold on Uniswap:<br>https://etherscan.io/tx/0x966c9cda072a0a2d609aa143ced55f1759730a33388a6979e0b5424f5a9efd54<br><br>Polygon:<br>1. 30,000 tokens were stolen from the Unlock contract:<br>https://polygonscan.com/tx/0x91a74c7b550c4e538e84b94697ee442a03ff35738b278bb5dda69684c1bbd5a4<br><br>2. 10,000 UDT were transferred to the Polygon Bridge:<br>https://polygonscan.com/tx/0xc5527097f93c2964c97a7c6e1f3b404d900210f8388f181e367a659caf5cb6b6<br><br>3. The attacker transferred another 20,000 tokens, the token recipient then transferred them to the Polygon Bridge:<br>https://polygonscan.com/tx/0x687e7742a338b65a7d907965f92ea95788edf5b517ff1d908e57ff6429f91fe1</p>",
-    "name_categories": "Other",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 21th of April we has detected a security breach aimed at UnlockProtocol that resulted in a significant loss of more than 20 ETH.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The root cause of this breach is related to the \"postLockUpgrade()\" function in the implementation contract 0xdcb2f7d1fb126a166e7168e1d84e415b3ffd6b93, which failed to verify the caller.</p><p><br></p><p>During the preparation phase of the attack, the attacker called the \"postLockUpgrade()\" function in transaction 0x4ac413c3c6edd445d1f09cd770d6aafab19b0b58fde7d0cefc74e17265033ef6. The purpose of this function call was to set the \"locks[&lt;0xac08&gt;].deployed\" parameter to True, allowing the attacker to pass the \"onlyFromDeployedLock()\" check on the \"recordKeyPurchase()\" function in the subsequent transaction.</p><p><br></p><p>It should be noted that an accomplice address, 0x3a6833329fc1bd0b867413045c5f6da3cb0e3c0e, was used to deposit 16 ETH into Tornado. The attacker used this address to obfuscate their tracks and make it more difficult to track the flow of funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter contract:</p><p>https://etherscan.io/address/0xac08f1af4131480cc41ae89c80a63e578a152e84</p><p>Exploiter:</p><p>https://etherscan.io/address/0x43ee4169d9ff5e5b10ca42923b1e5d07a157bb71</p>",
+    "name_categories": "NFT",
     "token_name": "UDT",
     "proof_archive_link": null,
     "technical_issue": null,
     "token_address": "0x90de74265a416e1393a450752175aed98fe11517",
-    "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/61a64f1bc0461.png",
-    "date": "2021-11-21",
+    "token_addresses": [
+        {
+            "address": "0xe79b93f8e22676774f2a8dad469175ebd00029fa",
+            "url": "https://etherscan.io/address/0xe79b93f8e22676774f2a8dad469175ebd00029fa",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/644290209d06e.jpg",
+    "date": "2023-4-21",
     "scam_updates": [],
-    "proof_link": "https://unlockprotocol.notion.site/unlockprotocol/Sunday-November-21st-2021-Incident-Update-a8e05ba111284d5ba43872fa5f00bccb, https://twitter.com/UnlockProtocol/status/1462568384910999555",
+    "proof_link": "https://twitter.com/AnciliaInc/status/1649270348716867586",
     "website_link": "https://unlock-protocol.com/",
     "webarchive_link": null,
     "twitter_link": "https://twitter.com/UnlockProtocol",
     "telegram_link": null,
     "our_post_link": null,
-    "funds_lost": 416125,
+    "funds_lost": 38300,
     "funds_returned": 0,
-    "funds_by_chains": [
-        {
-            "network": {
-                "id": "100",
-                "name": "Gnosis"
-            },
-            "funds": {
-                "lost": {
-                    "value": "166450",
-                    "date": "2021-11-21"
-                }
-            }
-        },
-        {
-            "network": {
-                "id": "137",
-                "name": "Polygon"
-            },
-            "funds": {
-                "lost": {
-                    "value": "249675",
-                    "date": "2021-11-21"
-                }
-            }
-        }
-    ],
+    "funds_by_chains": [],
     "funds_recovered": null,
     "active": 1,
-    "git_hub": null,
+    "git_hub": "https://github.com/unlock-protocol",
     "git_hub_contract_link": null,
-    "discord": "https://discord.com/invite/Ah6ZEJyTDp",
+    "discord": null,
     "bug_bounty_program_link": null,
     "bug_bounty_program_company": null,
     "audit_code_conf": 0,
     "is_verified_source_code": 0,
     "is_public_team": 0,
     "scam_type": {
-        "id": 9,
-        "type": "Access Control"
+        "id": 19,
+        "type": "Other"
     },
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 100,
-            "scam_database_id": 2709,
+            "networks_id": 1,
+            "scam_database_id": 3506,
             "networks": {
-                "id": 100,
-                "name": "Gnosis",
-                "icon_link": "safe/files/network/gnosis.png"
-            }
-        },
-        {
-            "networks_id": 137,
-            "scam_database_id": 2709,
-            "networks": {
-                "id": 137,
-                "name": "Polygon",
-                "icon_link": "safe/files/network/polygon.png"
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
             }
         }
     ],
-    "auditedBy": []
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/code4rena.pdf",
+            "date": "2022-04-20T00:00:00.000Z",
+            "partner": {
+                "id": 62,
+                "name": "Code4rena",
+                "logo_link": "safe/files/partner/logo/60e9d99727809.jpeg"
+            }
+        }
+    ]
 }
