@@ -1,0 +1,51 @@
+{
+    "id": 3083,
+    "project_name": "MAD",
+    "title": "MAD",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The $MAD token was stolen by a hacker who noticed a vulnerability in the contract that held most of the assets. The hacker withdrew the profit through Tornado.cash.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">Token $MAD had been stolen from the token storage due to the lack of specific verification, as a result, anyone could pick up tokens, knowing how to interact with the function. The contract is unverified, so the function looks like \"0x9763a894\". The hacker stole the tokens, and called <em>selfdestruct</em> in this transaction: https://bscscan.com/tx/0xbaf42be5ad9a6b259fa7bf6219f3672e5afda267219dddabd82d31b82808ab59</p><p style=\"margin:0cm;background:white;\">Then, using another contract, he took the tokens from all the addresses where the tokens from the previous transaction were sent and swapped them to $BSC-USD via PancakeSwap: https://bscscan.com/tx/0xbaf42be5ad9a6b259fa7bf6219f3672e5afda267219dddabd82d31b82808ab59.</p><p style=\"margin:0cm;background:white;\">Which were subsequently sent to the main address from which the money was withdrawn via Tornado.cash:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x39ddbe914af0abd9f4f1429f5aa47561e1da8223ada43100755c3ea6d6114def</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token creator address: https://bscscan.com/address/0x963fc5af34b5dfac05491620122ed12f3634a2ec</p><p style=\"margin:0cm;background:white;\">Token contract: https://bscscan.com/address/0x525c8e9c8240a55014bc55cbe8908eadadb02094</p><p style=\"margin:0cm;background:white;\">Vulnerable storage contract: https://bscscan.com/address/0x19b9c6984a6B545407d83C8Ec421D7D00695BaD8</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Attacker addresses: https://bscscan.com/address/0x957e949afa38011947a76d871c66f13af11eae93</p><p style=\"margin:0cm;background:white;\">Attacker contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xe6016d18c0cf515f4cda8b38907617bd370e6819</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x2002c47eca93e3873ea1fa4f797bb6ca9c0d7f28</p>",
+    "name_categories": "Token",
+    "token_name": "MAD",
+    "proof_archive_link": "https://web.archive.org/web/20220712141122/https://twitter.com/BeosinAlert/status/1542517440252624896",
+    "technical_issue": null,
+    "token_address": "0x525c8e9c8240a55014bc55cbe8908eadadb02094",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62cd8157cdd6a.png",
+    "date": "2022-6-29",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x1515937e02c7a84b11dfdc22219c754ae415c297",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 122354,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3083,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
