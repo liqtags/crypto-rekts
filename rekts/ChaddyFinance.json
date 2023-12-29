@@ -1,0 +1,51 @@
+{
+    "id": 99,
+    "project_name": "ChaddyFinance",
+    "title": "ChaddyFinance",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://bscscan.com/tx/0xebea55705b50553a58a8d4b9888821571c1129b3a9466cfb11c9ba917fdde537<br><br>The contract deployer removed liquidity at:<br>https://bscscan.com/tx/0x5bc3700295df312c491cd3e3368e9fb63e0a752c4e6d67d0ad18b199f0c1eb0d<br><br>In addition, the project was holding a fundraising event using a Proxy smart contract:<br>https://bscscan.com/address/0x91889f13844b819251a88bb493fcffd640def1a9#internaltx<br><br>The final token recipient was EOA, which then transferred raised presale funds into the contract deployer's address:<br>https://bscscan.com/tx/0x3fee8442247685b3aa49ab5a97d9658e6d2362cfdb2fa64294424d16c29e816f<br>https://bscscan.com/tx/0x015617cb876f5cdf394a8d39bd1510c11ed4792f2982361bf6523704f02bc3a7<br>https://bscscan.com/tx/0x9eb3ba01eca0735e616010b241df2f0f530f06842121833a75db04d4d62e4500<br>https://bscscan.com/tx/0xdd3b416cc52cd44bc31d6e93d4444ff72d22327c81868491a5bc538fa360336b<br><br>Finally, stolen BNB tokens were bridged to the Binance Chain:<br>https://bscscan.com/tx/0xf3d7f902c5832a1034e842fa3366530491afb7fa97009e6d8651dc12c6ffe595<br>https://bscscan.com/tx/0xd932e3b02eb3d0bde85f0bb41c99efc24612873514d2503d4766854a29636ca7<br>https://bscscan.com/tx/0x4bba48ca7b363133acec8f7e8d85a8f71a468aad5e9d9fb2d7c37189f12402c1<br>https://bscscan.com/tx/0x9ab59e08c4d1536fa93295fe83ea800ae191a10b726cf72317c69ccece777b67</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "Chaddy",
+    "proof_archive_link": "https://archive.ph/ujWqz",
+    "technical_issue": null,
+    "token_address": "0xc3fd2fe55917a0dfe0a4c2a63b572c264890cda2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d59f754a241.png",
+    "date": "2021-3-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/RugSteemer/status/1369415028378644496",
+    "website_link": "https://chaddy.finance/",
+    "webarchive_link": "https://web.archive.org/web/20210308130718/https://chaddy.finance/",
+    "twitter_link": "https://twitter.com/ChaddyFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12524,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 99,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
