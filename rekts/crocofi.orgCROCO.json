@@ -1,0 +1,51 @@
+{
+    "id": 2510,
+    "project_name": "crocofi.org(CROCO)",
+    "title": "crocofi.org(CROCO)",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "CROCO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x152ce3dddfabc381ad14c3d1fde07a93eb03f169",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610cf6603d16a.png",
+    "date": "2021-8-26",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x152ce3dddfabc381ad14c3d1fde07a93eb03f169?a=0x62920e05c010656aa129544bac5403b499f61ab2",
+    "website_link": "https://crocofi.org/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2510,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
