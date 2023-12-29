@@ -1,0 +1,68 @@
+{
+    "id": 3270,
+    "project_name": "DeFi WZ Token",
+    "title": "DeFi WZ Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>DeFi WZ Token was rugpulled for 207,620 $USD. The deployer-related EOA address removed liquidity and transferred the funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DeFi WZ is a BEP20 token trading on PancakeSwap. The token deployer-related EOA address removed liquidity for 44,822 $USD. Consequently, the swapped 2648 $DEFIWZ tokens for 162,797 $USD in one transaction. All the stolen amount was transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x8a8072bae4e1954eef33b36421cf73167ef86629</p><p>https://bscscan.com/address/0x5c469dc53ff2e51d84f162431b2f95c9194f9dcd</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x547d0921364e91402adf971b845cb590805cdc039751368380b0f49fa62ac139</p><p><br></p><p>Token swap transaction:</p><p>https://bscscan.com/tx/0x4f8df80306f2b31d6e07b70717a3d15bb16fa6cb6e5eef0a56138674bf4d49fc</p><p><br></p><p>Funds transfer transaction:</p><p>https://bscscan.com/tx/0xbd6d0ba6d39638687daf8566e5131ea73a42ae7a134c87fe67a84ca753c3b666</p>",
+    "name_categories": "Token",
+    "token_name": "DEFIWZ",
+    "proof_archive_link": "https://archive.ph/viw6x",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x418Db510B4f1CF33565C459cfB6D838bbbbFf8F9",
+    "token_addresses": [
+        {
+            "address": "0x418Db510B4f1CF33565C459cfB6D838bbbbFf8F9",
+            "url": "https://bscscan.com/address/0x418Db510B4f1CF33565C459cfB6D838bbbbFf8F9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x851E41C8632CDFf3af8eB2b7fefA8e2ed70d34Ff",
+            "url": "https://bscscan.com/address/0x851E41C8632CDFf3af8eB2b7fefA8e2ed70d34Ff",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6375412061b4e.png",
+    "date": "2022-11-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1589722752277045248",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 207620,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3270,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
