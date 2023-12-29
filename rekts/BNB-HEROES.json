@@ -1,0 +1,51 @@
+{
+    "id": 2800,
+    "project_name": "BNB HEROES",
+    "title": "BNB HEROES",
+    "description": "<p>The contract owner removed liquidity from the main token pair at:<br>https://bscscan.com/tx/0xe7d7f444aeeecf20b4b6fbb06652fff1573921232118360e91655c97ae923576<br><br>The rest of the tokens were dumped at:<br>https://bscscan.com/tx/0xae461edfb539b822bf750b27843a857bf900af742ef4325b0474213c2ee8fb5a<br>https://bscscan.com/tx/0x1dd4b70f388ebefe3499bf9a668ef7a2351e509cda26f7ec4c7ba9c3b6cb9e59<br>https://bscscan.com/tx/0x2aaef863c2c6d18b751da391588a4a1160a3aff4ebc12c7c28d1969263adabe6<br>https://bscscan.com/tx/0x91f03917a2875cc2b6c689dc0ad26a8d73608d657126067c72437b545be828f4<br>https://bscscan.com/tx/0x2545685fe84d331d486e040b770241bd970ebe2db2ea8aa1a73d5cba395e8993<br>https://bscscan.com/tx/0x552166f9348f37254fdd3cd0e08800d72c412a5a204121c7fc7e17acf65a123e</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "BNBH",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd25631648e3ad4863332319e8e0d6f2a8ec6f267",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f18675d5330.jpeg",
+    "date": "2022-1-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikorg/status/1483460734818340870, https://twitter.com/peckshield/status/1483394909071626242",
+    "website_link": "https://bnbheroes.io/",
+    "webarchive_link": "https://web.archive.org/web/20211114095223/https://bnbheroes.io/",
+    "twitter_link": "https://twitter.com/BnbHeroes",
+    "telegram_link": "https://t.me/BNB_Heroes",
+    "our_post_link": null,
+    "funds_lost": 561284,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2800,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
