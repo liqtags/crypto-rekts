@@ -1,0 +1,51 @@
+{
+    "id": 3187,
+    "project_name": "DarkPool",
+    "title": "DarkPool",
+    "description": "<p><strong>Quick Summary</strong></p><p>Dark Pool token was hacked and 103,859 $USD was stolen from the liquidity pool. The hacker used the vulnerability of the token's smart contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Dark Pool is the BEP20 standard token trading on PancakeSwap. The smart contract of the $DPC token has a vulnerability, which allows users to accumulate a huge amount of rewards after staking LP tokens. The claimStakeLP() function was called multiple times by the attacker's malicious contracts and granted the attacker the opportunity to withdraw more than 20,000 $DPC tokens. Consequently, the attacker swapped $DPC tokens for $USDT and made a profit of 103,859 $USD. All stolen funds remain in the attacker's address at the moment of writing.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf211Fa86CBc60d693D687075B03dFF3c225b25C9</p><p>Attacker contract:</p><p>https://bscscan.com/address/0x2109bbecb0a563e204985524dd3db2f6254ab419</p><p>Draining transaction:</p><p>https://bscscan.com/tx/0x92cab23d536d2e13ecb7c473350121165de0ae6c6c81be94ba502ac7db72e86f</p><p>Liquidity Pool:</p><p>https://bscscan.com/address/0x79cd24ed4524373af6e047556018b1440cf04be3</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "DPC",
+    "proof_archive_link": "https://archive.is/7YLyg",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xb75ca3c3e99747d0e2f6e75a9fbd17f5ac03cebe",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/632893b36a302.png",
+    "date": "2022-9-10",
+    "scam_updates": [],
+    "proof_link": "https://en.0xzx.com/beosin-analysis-of-dpc-token-contracts-on-bnbchain-hacked-by-hackers/, https://twitter.com/BeosinAlert/status/1568429367306616832",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 103859,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3187,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
