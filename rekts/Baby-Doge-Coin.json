@@ -1,33 +1,24 @@
 {
-    "id": 3569,
+    "id": 2056,
     "project_name": "Baby Doge Coin",
     "title": "Baby Doge Coin",
-    "description": "<p><strong>Quick Summary</strong></p><p>On <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">Jun-21-2023</span> Baby Doge token was attacked using flashloan from UniV3 protocol with gains worth of&nbsp;</p><p>lost 442 BNB or $100K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Baby Doge Coin, a meme token, fell victim to a flashloan attack, resulting in the exploitation of the token. The attacker managed to acquire a loan of 18.5 million USDT and 11.9 million BUSD from UNI V2. The malicious contract employed in the attack yielded a profit of 442 BNB, equivalent to $100K USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0xee6764ac7aa45ed52482e4320906fd75615ba1d1</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0x9a6b926281b0c7bc4f775e81f42b13eda9c1c98e</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0xbaf3e4841614eca5480c63662b41cd058ee5c85dc69198b29e7ab63b84bc866c</p>",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
     "name_categories": "Token",
     "token_name": "BabyDoge",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xc748673057861a797275CD8A068AbB95A902e8de",
-    "token_addresses": [
-        {
-            "address": "0xc748673057861a797275cd8a068abb95a902e8de",
-            "url": "https://bscscan.com/address/0xc748673057861a797275cd8a068abb95a902e8de",
-            "network": {
-                "id": 56,
-                "icon_link": "safe/files/network/involved/bsc.svg"
-            }
-        }
-    ],
-    "logo_link": "safe/files/scamDatabase/logo/649557c9c1e4b.jpg",
-    "date": "2023-6-21",
+    "token_address": "0x63793123299cb3f1725aa1e8a2feb7b26c79934b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f695ef0d7ab.png",
+    "date": "2021-6-24",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/CyversAlerts/status/1671504053740658688?s=20",
-    "website_link": "https://babydoge.com/",
-    "webarchive_link": "https://archive.ph/25To5",
-    "twitter_link": "https://twitter.com/BabyDogeCoin",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
     "telegram_link": null,
     "our_post_link": null,
-    "funds_lost": 100000,
+    "funds_lost": 0,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -37,22 +28,22 @@
     "discord": null,
     "bug_bounty_program_link": null,
     "bug_bounty_program_company": null,
-    "audit_code_conf": 0,
-    "is_verified_source_code": 0,
-    "is_public_team": 0,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
     "scam_type": {
-        "id": 15,
-        "type": "Flash Loan Attack"
+        "id": 7,
+        "type": "Honeypot"
     },
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 56,
-            "scam_database_id": 3569,
+            "networks_id": 1,
+            "scam_database_id": 2056,
             "networks": {
-                "id": 56,
-                "name": "Binance",
-                "icon_link": "safe/files/network/bsc.png"
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
             }
         }
     ],
