@@ -1,0 +1,60 @@
+{
+    "id": 3394,
+    "project_name": "OlympusDAO",
+    "title": "OlympusDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>OlympusDAO exploited by WhiteHat for 315,328 $USD via logic issue of the Bond Protocol contracts</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OlympusDAO is a DAO backed by $OHM tokens and running on the Ethereum chain. The Bond Protocol contract, which hold 315,328 $USD worth of $OHM tokens were siphoned out by the WhiteHat hacker. BondFixedExpiryTeller contract had no additional security check, which allowed the attacker to drain the assets. All the stolen amount were returned by the hacker to OlympusDAO Funds&nbsp;</p><p>contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x443cf223e209e5a2c08114a2501d8f0f9ec7d9be</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x3ed75df83d907412af874b7998d911fdf990704da87c2b1a8cf95ca5d21504cf</p><p><br></p><p>Returning transaction:</p><p>https://etherscan.io/tx/0xdca75841cd3df92abf0da4ad8bb2218e3d44138923466640e28608baaaf6205f</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0xa29e4fe451ccfa5e7def35188919ad7077a4de8f</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "OHM",
+    "proof_archive_link": "https://archive.ph/4KQuQ, https://archive.ph/dP4wJ",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5",
+    "token_addresses": [
+        {
+            "address": "0x007fe7c498a2cf30971ad8f2cbc36bd14ac51156",
+            "url": "https://etherscan.io/address/0x007fe7c498a2cf30971ad8f2cbc36bd14ac51156",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64248618cd56f.jpg",
+    "date": "2022-10-21",
+    "scam_updates": [],
+    "proof_link": "https://www.theblock.co/post/178927/hacker-drains-olympus-dao, https://twitter.com/peckshield/status/1583416829237526528",
+    "website_link": "https://www.olympusdao.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/OlympusDAO",
+    "telegram_link": "https://t.me/OlympusTG",
+    "our_post_link": null,
+    "funds_lost": 315328,
+    "funds_returned": 315328,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/OlympusDAO",
+    "git_hub_contract_link": null,
+    "discord": "https://discord-invite.olympusdao.finance/?_gl=1*89ibdh*_ga*NjMxOTY2MjMyLjE2ODAxMTUyOTI.*_ga_QV7HNEEHV9*MTY4MDExNTI5Mi4xLjEuMTY4MDExNTMyOS4wLjAuMA..",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3394,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
