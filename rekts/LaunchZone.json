@@ -1,0 +1,65 @@
+{
+    "id": 3357,
+    "project_name": "LaunchZone",
+    "title": "LaunchZone",
+    "description": "<p><strong>Quick Summary</strong></p><p>LaunchZone platform was exploited for roughly 700,000 $USD. The platform paused operations with the $LZ token.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LaunchZone is a decentralized platform on the Binance Smart Chain. The platform paused trading and transfer operations after an exploit. $LZ token dropped by more than 80% after an incident. The attacker exploited other projects as well and labeled DND Exploiter. According to the official LaunchZone website, the platform lost nearly 700,000 $USD worth of assets. It's interesting that the exploiter hacked several projects at the same time and almost the same way. The attacker was able to transfer tokens using user approvals and the malicious contract with an unverified source code. Then the contract self-destructed, transferring the tokens to the exploiter address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x7d192fa3a48c307100c3e663050291fff786aa1f</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x1c2b102f22c08694eee5b1f45e7973b6eaca3e92</p><p><br></p><p>Malicious transaction example:</p><p>https://bscscan.com/tx/0xaee8ef10ac816834cd7026ec34f35bdde568191fe2fa67724fcf2739e48c3cae</p><p><br></p><p>Self-destruct transaction:</p><p>https://bscscan.com/tx/0x5e57dd9cacd00266a9e1376ce0c9d2f2db23ec2efd986b25607a121e3d1939da</p>",
+    "name_categories": "Exchange (DEX),Token",
+    "token_name": "LZ",
+    "proof_archive_link": "https://archive.ph/Qc5aB, https://archive.ph/ncWSG, https://archive.ph/5Dr8o",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x3b78458981eb7260d1f781cb8be2caac7027dbe2",
+    "token_addresses": [
+        {
+            "address": "0x3b78458981eb7260d1f781cb8be2caac7027dbe2",
+            "url": "https://bscscan.com/token/0x3b78458981eb7260d1f781cb8be2caac7027dbe2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fd011f14243.jpg",
+    "date": "2023-2-27",
+    "scam_updates": [
+        {
+            "date": "2023-03-07T00:00:00.000Z",
+            "description": "<p>The LaunchZone Team announced their compensation program to users. The program is implemented via vesting, and affected users will be paid in $iRD tokens that have 15 month vesting period. The token can be exchanged for $RD for transactions and the $iRD itself can be staked to get rewards in $USDC, said in official Twitter</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/launchzoneann/status/1630161294836768771, https://cointelegraph.com/news/700-000-drained-from-bnb-chain-based-defi-protocol-launchzone, https://twitter.com/launchzoneann/status/1633031348075020293",
+    "website_link": "https://lz.finance",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/launchzoneann",
+    "telegram_link": "https://t.me/lzofficial",
+    "our_post_link": null,
+    "funds_lost": 700000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3357,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
