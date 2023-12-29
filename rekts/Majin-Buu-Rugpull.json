@@ -1,0 +1,51 @@
+{
+    "id": 3650,
+    "project_name": "Majin Buu",
+    "title": "Majin Buu Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Majin Buu project was rugpulled by the deployer, removing liquidity worth 168,213 $USD from UniSwap pool.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>Majin Buu (BUU) is an ERC20 token trading on UniSwap. The deployer added 38 $ETH as liquidity on July 31 and then removed 129.87 $ETH on August 1. This significant liquidity removal led to a rugpull, with the deployer stealing funds equating to 168,213 $USD at the time of the scam. The stolen funds were initially transferred to another EOA address and subsequently distributed between several other addresses. The website of the project was shutdown at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x690F2Be8eb139A0ca239dAe1fdc57bc54491132D</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x6d99a6ac0bd665492d76d1ac81ef58f7c367666f</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xba3946847a648d88dc4cc13d21f39c8ed3fbbbeca7a13b8363ad940460becf52</p>",
+    "name_categories": "Token",
+    "token_name": "BUU",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xF746d527336E299ce53E2Ed337c2668d6CfB7C5e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64cca6974676c.png",
+    "date": "2023-8-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1687005729239060480",
+    "website_link": "https://majinbuu.xyz/",
+    "webarchive_link": "https://archive.ph/5Nly9",
+    "twitter_link": "https://twitter.com/MajinBuuuDB",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 168213,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3650,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
