@@ -1,0 +1,51 @@
+{
+    "id": 2967,
+    "project_name": "Trojan Wallet",
+    "title": "Trojan Wallet",
+    "description": "<p>Using a trojan horse, a cyber-terrorist stole thousands of bitcoin between September and November 2012. The biggest individual loss was about 2,600 BTC.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62503d3d389d4.png",
+    "date": "2012-11-16",
+    "scam_updates": [],
+    "proof_link": "https://crystalblockchain.com/security-breaches-and-fraud-involving-crypto/medium.com/@wayne_huang/rsa-2015-panel-bitcoin-s-future-threats-expert-s-roundtable-based-on-150-case-studies-92cc35e68e30",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 39200,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2967,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
