@@ -1,0 +1,51 @@
+{
+    "id": 2781,
+    "project_name": "RAI Finance",
+    "title": "RAI Finance",
+    "description": "<p>To connect the liquidity between ERC20 and BSC, RAI Finance has been using Chainswap to ensure the liquidity between both blockchains.<br><br>RAI Finance reserved 2.9M RAIs to an address 0x9D4D377cFd6466Fe03e3cCbB266DC0ac235CcDe3, and this address automatically approves the spent access to the Chainswap\u2019s bridge contract.<br><br>The Chainswap smart contract for RAI spend access has been exploited on Jul-03\u20132021 12:39:18 AM +UTC, from the contract address 0x0e128fb9f266f0cfedeb3b789f6fd4af50d51b84 which has access up to 2.9M RAIs in total at the account.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RAI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e703c172e68.jpeg",
+    "date": "2021-7-4",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/rai-finance/rai-finance-team-updates-of-recent-attack-on-chainswap-a7da6b2843d",
+    "website_link": "https://rai.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RaiFinance",
+    "telegram_link": "https://t.me/RaiFinance",
+    "our_post_link": null,
+    "funds_lost": 414013,
+    "funds_returned": 414013,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/RaiFinance",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2781,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
