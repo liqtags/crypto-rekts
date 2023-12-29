@@ -1,0 +1,51 @@
+{
+    "id": 198,
+    "project_name": "Liquid Core",
+    "title": "Liquid Core",
+    "description": "<p>The project was holding a fundraising event using LcoreSale smart contract:<br>https://etherscan.io/address/0x6da39a2b145aea0c66fecb15f19b14930fba1a0c<br><br>Funds, gathered from the event were transferred to the contract deployer's address:<br>https://etherscan.io/tx/0xf5e6477b385f234c124bcabf9cfc3b1e1a93ae2f0e223265627c2af4c7460847<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x83a09929acaebcd0614598d563e34ba5efbc6e35d3ff9d1524d0401310de095c<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0x0261b0e10dd6f25ede287e8ca89c4cdf105dc55687273e640887f1e79dcbfc08</p>",
+    "name_categories": "Token",
+    "token_name": "LCORE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9085738D9a4d9aC5DADFD630AC9090A49d98B72F",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d8930e1ba.png",
+    "date": "2020-10-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/UniswapD/status/1321890624279400451",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 42099,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 198,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
