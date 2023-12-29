@@ -1,0 +1,68 @@
+{
+    "id": 3275,
+    "project_name": "King Tribe",
+    "title": "King Tribe",
+    "description": "<p><strong>Quick Summary</strong></p><p>King Tribe was rugpulled by the token deployer-related EOA addresses. The total drained amount reached 997,086 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>KingTribe is NFT and a BEP20 token on the Binance chain. The $KTB token price dropped by more than 95% after several EOA addresses drained the liquidity from the PancakeSwap pool. The scammers received $KTB tokens from the token deployer. All the stolen amount was collected to a certain EOA address which sent the funds to an address labeled \"mexc.com\". The total stolen amount reached 997,086 $USD and the last transfer happened on November 18.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x2015ca29bd0ab4adead28e08a9fa0aa3dffd202d</p><p>https://bscscan.com/address/0xca13add78bd66f9e5e52612d81fb1d78f3a4cbce</p><p>https://bscscan.com/address/0x87b89a7ed1cf3ca8a491788ccf98fa68ff2ba72d</p><p>https://bscscan.com/address/0x9b629e1a662be030fafb3cb18e0e4a0b51b798ff</p><p><br></p><p>Address collected the funds:</p><p>https://bscscan.com/address/0x36e39ce87d1a60507143acf6c04d798bf9a2814b</p><p><br></p><p>Final destination address:</p><p>https://bscscan.com/address/0x4982085c9e2f89f2ecb8131eca71afad896e89cb</p><p><br></p><p>Token distribution transactions:</p><p>https://bscscan.com/tx/0x9f45aa5e1e2f025de6d69bc06125f575acd2826052c1cc81f863f8b103242863</p><p>https://bscscan.com/tx/0x0999d3b1019afc4f9cbded399dd576f4cda8e09b6194bc4a1885f680a9619fe2</p><p>https://bscscan.com/tx/0x87762d7bc077e84490eea8e5a5e219ec7f7a78578183e961c1d6e6896070b342</p>",
+    "name_categories": "NFT,Token",
+    "token_name": "KTB",
+    "proof_archive_link": "https://archive.ph/geXhE",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x7696c8BCF00D42C2A93a3750D13B80D6A61B45F5",
+    "token_addresses": [
+        {
+            "address": "0x7696c8BCF00D42C2A93a3750D13B80D6A61B45F5",
+            "url": "https://bscscan.com/address/0x7696c8BCF00D42C2A93a3750D13B80D6A61B45F5",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x3225B653545318bFd0A347dfe2B5CECF8DFD05DB",
+            "url": "https://bscscan.com/address/0x3225B653545318bFd0A347dfe2B5CECF8DFD05DB",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/637776309776d.jpg",
+    "date": "2022-11-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1590681540501024768",
+    "website_link": "https://adia.ac/entry?code=PRYE6H",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/KingTribe_Defi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 997086,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3275,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
