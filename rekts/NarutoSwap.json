@@ -1,0 +1,51 @@
+{
+    "id": 64,
+    "project_name": "NarutoSwap",
+    "title": "NarutoSwap",
+    "description": "<p>The contract deployer minted tokens onto his wallet at:<br>https://www.bscscan.com/tx/0x8309aa5d5a36dc0e95d7a2675c0bbb186feffa61a9d6905c3ddb3d3601ec664d<br><br>The contract deployer transferred tokens to some external wallet at:<br>https://www.bscscan.com/tx/0x25897a59a0a35dcbaa4733fa21ddf632386757689623c1ac152c8049a04c46f7<br><br>The recipient added initial liquidity at:<br>https://www.bscscan.com/tx/0x86a373f78d7c0de2b04309d206d33b64807779cebd05038626779049c38b172a<br><br>The liquidity was removed by the external wallet at:<br>https://www.bscscan.com/tx/0x8bb87537a6f0c55aa2a6d88277401803418faeacdbe10cce91c87de605fc73b8</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "Naruto",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe326dffdd0005e49bd88138ccd3fce165b315010",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60ef520e93401.png",
+    "date": "2021-3-19",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://narutoswap.com/#home",
+    "webarchive_link": "https://web.archive.org/web/20210311133353/https://narutoswap.com/",
+    "twitter_link": "https://twitter.com/NarutoSwap",
+    "telegram_link": "https://t.me/NarutoSwap",
+    "our_post_link": null,
+    "funds_lost": 24424,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 64,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
