@@ -1,0 +1,68 @@
+{
+    "id": 3374,
+    "project_name": "Block Chain Games",
+    "title": "Block Chain Games",
+    "description": "<p><strong>Quick Summary</strong></p><p>Block Chain Games was rugpulled for 39,686 $USD. The scammer used a privileged function to mint a huge amount of BCGA tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Block Chain Games is a BEP20 token trading on PancakeSwap with the token symbol BCGA. The scammer, which is the deployer of the token, used a privileged function to mint <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">10,000,000,000,000,000,000 $BCGA tokens and drained the token pool on Pancake. The total profit of the scammer reached 128,45 $BNB which is worth 39,686 $USD at the moment. The total stolen amount was transferred to another EOA address, which then distributed the funds to several addresses.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x44f2526bca61fb789fef81c3a36bee2fdecf8acb</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x59367a104ed5737fc61691dd7a09c4a34e590aa5a7f340d06c3592e66004355c</p><p><br></p><p>Draining transaction:</p><p>https://bscscan.com/tx/0x13e1bc8b9e082ab8f3ba3b77b33d59bb79032220fdc4f5d264325f3db5ad3647</p>",
+    "name_categories": "Token",
+    "token_name": "BCGA",
+    "proof_archive_link": "https://archive.ph/akRSy",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x6185521d06f17ab5fbe187dc9a699c3c021090d5",
+    "token_addresses": [
+        {
+            "address": "0x6185521d06f17ab5fbe187dc9a699c3c021090d5",
+            "url": "https://bscscan.com/address/0x6185521d06f17ab5fbe187dc9a699c3c021090d5",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xC53B6092cAD4561e93da37dd1174bb464F4a32C8",
+            "url": "https://bscscan.com/address/0xC53B6092cAD4561e93da37dd1174bb464F4a32C8",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/640fc2a987f71.png",
+    "date": "2023-3-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1635173671240364032?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 39686,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3374,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
