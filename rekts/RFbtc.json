@@ -1,0 +1,51 @@
+{
+    "id": 114,
+    "project_name": "RFbtc",
+    "title": "RFbtc",
+    "description": "<p>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0xe8924d297663b6f83a49e3fffa94c8ae99ece407ce252efee69f53c5662f026d<br><br>The liquidity was removed by the contract deployer multiple times at:<br>https://bloxy.info/txs/transfers_to/0xecf3d312af872b36e4bae9d0fc4f90bbf29002b9?currency_id=1</p>",
+    "name_categories": "Token",
+    "token_name": "RFbtc",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x181c514ef87e069d138a197dbd9f4e2a3d2fece9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5af2550f4e.jpeg",
+    "date": "2021-4-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1347768208757981189",
+    "website_link": "https://rfbtc.tech/",
+    "webarchive_link": "https://web.archive.org/web/20210127235758/https://rfbtc.tech/",
+    "twitter_link": "https://twitter.com/rfbtctech",
+    "telegram_link": "https://t.me/rfbtctech",
+    "our_post_link": null,
+    "funds_lost": 11874,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 114,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
