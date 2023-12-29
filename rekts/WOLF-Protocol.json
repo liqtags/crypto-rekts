@@ -1,0 +1,51 @@
+{
+    "id": 121,
+    "project_name": "WOLF Protocol",
+    "title": "WOLF Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>The deployer of the WOLF Protocol exploited users by trapping liquidity providers through locking funds and minting $WFLP token to an EOA that was not blacklisted. This exploit netted the deployer approx. $30k in ill-gotten funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Wolf protocol promised to be a DeFi revolution offering staking and yield solutions on three different blockchains. The website boasted a fake team and a fake roadmap. The smart contract contained malicious rights that could only be invoked by the token deployer and enabled a centralized token balance modification. In simple terms, the token deployer could change the balance of any holder.</p><p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x28d4d2d427c2c18295bcdc92f95af81f1e5ba9de78072d0d08cf647625800bb1</p><p>This made the token tradable. Within 11 days, the community noticed that the $WLFP could not be sold or withdrawn. The root of this can be found in this transaction, where the contract deployer locked liquidity:<br>https://etherscan.io/tx/0x4b4c05789728e2f0a1652e992c81af6b2b1a03685731b1b9f5cea41845872912<br>After users were trapped the contract deployer proceeded to invoke the <u>approveAndCall</u>() function, which included an external wallet and <u>addedValue&nbsp;</u>amount as the input data:<br>https://etherscan.io/tx/0xa0dcdb89aefaf04ab17bf00ba028d5dc0ef763c61143eea137cd69eaff964401<br>After the external wallet received the enhancement in its token balance, the external wallet dumped $WLFP for $ETH34t:<br>https://etherscan.io/tx/0x54e39afc20e9884205e77a9bf81296f41ec3ad21815e449693834045f6b88593</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Project deployer</p><p>https://etherscan.io/address/0x871f91e2d25edcec66a5c03fe82178d55c1bbd34</p><p><br></p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "WLFP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/address/0x3ccf0306d214b6ad4e8315c5c31a2b7f32b649d8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b4493afb2.jpeg",
+    "date": "2021-1-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1352985427259473920",
+    "website_link": "https://web.archive.org/web/20210118082115/https://wolfprotocol.website/",
+    "webarchive_link": "https://archive.ph/kLlH5",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/wolfprotocol",
+    "our_post_link": null,
+    "funds_lost": 30022,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 121,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
