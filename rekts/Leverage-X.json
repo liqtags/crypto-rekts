@@ -1,0 +1,51 @@
+{
+    "id": 137,
+    "project_name": "Leverage X",
+    "title": "Leverage X",
+    "description": "<p>The project was holding a fundraising event using TokenSale smart contracts:<br>https://etherscan.io/address/0x0e98f782ea6e0e80a919801e35ed35013d3f26ad#code<br>https://etherscan.io/address/0xefb433255a52c3080bd9b106245723cd37c24e97#code<br><br>The final funds' recipient from the presale was the contract deployer:<br>https://etherscan.io/address/0x0e98f782ea6e0e80a919801e35ed35013d3f26ad#internaltx<br>https://etherscan.io/address/0xefb433255a52c3080bd9b106245723cd37c24e97#internaltx<br><br>(469.83 ETH raised in total)<br><br>The contract deployer added initial liquidity using 200 ETH at:<br>https://etherscan.io/tx/0x4b1fac41d1f3167ac2743fa6daa23b12f9ce07ed452e86c5713ec07fb0907e4f<br><br>The contract deployer locked LP tokens until 27.11.2021 at:<br>https://etherscan.io/tx/0xda44dc8e2647dd35df922d6aaafa675c6bb5007d48405738291d237dee804dbf<br><br>The rest 269.83 ETH was distributed between other external wallets.&nbsp;</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "LVGX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa4d82f81221f4c9c0f9010a25e4e508bcb6adff1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b78020ae3.png",
+    "date": "2021-2-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/WARONRUGS/status/1365810771838517251",
+    "website_link": "https://leveragex.digital/",
+    "webarchive_link": "https://web.archive.org/web/20210219131159/https://leveragex.digital/",
+    "twitter_link": "https://twitter.com/LXprotocol",
+    "telegram_link": "http://t.me/leveragexprotocol",
+    "our_post_link": null,
+    "funds_lost": 399855,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 137,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
