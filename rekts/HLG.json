@@ -1,0 +1,68 @@
+{
+    "id": 3256,
+    "project_name": "HLG",
+    "title": "HLG",
+    "description": "<p><strong>Quick Summary</strong></p><p>HLG token was rugpulled. The initial token holder removed liquidity and made a profit of 60,785 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>HLD is a BEP20 token trading on PancakeSwap. The initial token holder removed liquidity for 60,785 $USD. The funds were transferred to several EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x5f48c32c3b8e8e9a9ed3435a37622861df6c9e3f</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0xa8cf30a19bd7b112a9420eeed3cd9587f59d2d04ce784ee9a3001805d1e16534</p>",
+    "name_categories": "Token",
+    "token_name": "HLG",
+    "proof_archive_link": "https://archive.ph/tqE0s",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x10f9Ccb9CfCa4ad48BC9256c22ade8303cf5E95E",
+    "token_addresses": [
+        {
+            "address": "0x10f9Ccb9CfCa4ad48BC9256c22ade8303cf5E95E",
+            "url": "https://bscscan.com/address/0x10f9Ccb9CfCa4ad48BC9256c22ade8303cf5E95E",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x5312694b11ce15409fee2b05af3ad6ed8428bd85",
+            "url": "https://bscscan.com/address/0x5312694b11ce15409fee2b05af3ad6ed8428bd85",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63650a16ba8bd.png",
+    "date": "2022-10-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1585892967767851008",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 60785,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3256,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
