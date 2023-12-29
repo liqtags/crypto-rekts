@@ -1,0 +1,60 @@
+{
+    "id": 3732,
+    "project_name": "Big Time",
+    "title": "Big Time Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BIGTIME token was rugpulled on Oct 13, 2023 worth 168,699 USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BIGTIME is a BEP20 token trading on PancakeSwap. The scammer received 0.055 BNB from Binance before the incident and then swapped BIGTIME tokens to WBNB. The stolen funds (819.9 BNB, equivalent to 168,699 USD) were transferred to another EOA and then distributed among multiple addresses. The scammer is not directly related to the deployer, but most likely the contract was intentionally written with a backdoor function, allowing the scammer to increase their balance by sending tokens to themselves.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x2776B1Fa501F9617f0bddAfb413659BAFBC7F15D</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x2f154868760eFEd95f7D551F77454a78340bfF8C</p><p>https://bscscan.com/address/0x3f04768Eaf45f1F5961857c0216E36A49Cc704ED</p><p>https://bscscan.com/address/0x336dd91Ce7f72d7Ae07a70100247e49f769ABb11</p><p><br></p><p>Token Swap Transaction:</p><p>https://bscscan.com/tx/0xafd0219599344fd1c20cc01a4906fa4f9fa9440669cceedf020ec5190ca82c1b</p>",
+    "name_categories": "Token",
+    "token_name": "BIGTIME",
+    "proof_archive_link": "https://archive.ph/nTrkD",
+    "technical_issue": null,
+    "token_address": "0xb3A194ad6604B6E9D8c0a4cB286d4E7D137bFe56",
+    "token_addresses": [
+        {
+            "address": "0xb3a194ad6604b6e9d8c0a4cb286d4e7d137bfe56",
+            "url": "https://bscscan.com/address/0xb3a194ad6604b6e9d8c0a4cb286d4e7d137bfe56",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6529a6d13118c.png",
+    "date": "2023-10-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1712644832148287903",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 168699,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3732,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
