@@ -1,0 +1,51 @@
+{
+    "id": 3119,
+    "project_name": "GenomesDAO",
+    "title": "GenomesDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>GenomesDao was attacked. Three smart contracts were attacked and the amount that was stolen by the hacker is approximately $43k.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">GenomesDAO is a DAO focused on secure, private and verifiable monetization of genomic data using DeFi.&nbsp;</p><p>There was a vulnerability in the contract due to which an hacker can repeatedly invoke \"victim\" contracts. The hacker first created fake LP tokens and using the initialization function, he was able to install a real LP contract token on a fake one.<br>The hacker then supplied a fake token using the shake function to get the LP tokens of the contract. Then the hacker uses the initialization function to return to the original LP-token and revokes the real LP of the contract using the output function.<br>Thus, the hacker was able to take a profit of about $43k.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Victim addresses:</p><p style=\"margin:0cm;background:white;\">1) https://polygonscan.com/address/0x3606cFa43f53098BC00b3FCFF3A333F6947F3c92</p><p style=\"margin:0cm;background:white;\">2) https://polygonscan.com/address/0x28fc73E9D9f158E7DC57A4E81aa0175d6847f714</p><p style=\"margin:0cm;background:white;\">3) https://polygonscan.com/address/0x48D1CcB09f771788F59c8aAAB613936eDfA267b7</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Attacker address: https://polygonscan.com/address/0x43ec1d163cc4c15b574f86d8203c3b0f3ebed7a3</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Attacker smart contract addresses:</p><p style=\"margin:0cm;background:white;\">1) https://polygonscan.com/address/0x8e10c9493501a828304d77630b6f862bbf50c052</p><p style=\"margin:0cm;background:white;\">2) (Token) https://polygonscan.com/address/0x9aa63491bb927f024d37b0e6017137f7f03da3c6</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Transactions:</p><p style=\"margin:0cm;background:white;\">Swap $AnyMATIC to blockchain $MATIC: https://polygonscan.com/tx/0x074f3076ea2c16ef34b15114e751dcdc044ee2e9a26d762a2e96bf97a4509311</p>",
+    "name_categories": "NFT",
+    "token_name": "GENE",
+    "proof_archive_link": "https://web.archive.org/web/20220806205638/https://twitter.com/BeosinAlert/status/1555925814557806593",
+    "technical_issue": null,
+    "token_address": "0x34667ED7C36cBBbF2d5d5c5c8d6Eb76a094EDb9F",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62f2617476429.png",
+    "date": "2022-8-6",
+    "scam_updates": [],
+    "proof_link": "https://en.0xzx.com/security-agency-brief-analysis-of-genomesdao-hack/, https://www.aliens.com/livenews/latest/brief-analysis-of-genomesdao-hack-by-security-agency",
+    "website_link": "https://genomes.io/",
+    "webarchive_link": "https://web.archive.org/web/20220625163256/https://genomes.io/",
+    "twitter_link": "https://twitter.com/GenomesDAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 43269,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/genomes",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3119,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
