@@ -1,0 +1,60 @@
+{
+    "id": 3321,
+    "project_name": "OMNI Real Estate",
+    "title": "OMNI Real Estate",
+    "description": "<p><strong>Quick Summary</strong></p><p>The OMNI Real Estate Token (ORT) protocol was exploited using smart contract vulnerability approximately for $70k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The key to the attack was insufficient argument validation and imperfection of calculations in the StakingPool contract. &nbsp;In this case function _check_Reward returns the wrong output amount and led to the unfair ORT rewards distribution. Then ORT tokens were swapper to BNB. &nbsp;The attacker's profit is approximately 236BNB.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0x9bbd94506398a1459f0cd3b2638512627390255e</p><p>https://bscscan.com/address/0xda5919bf3a49ad47b7c7103a9ed3902cee78d528</p><p><br></p><p>Attacker contract:&nbsp;</p><p>https://bscscan.com/address/0xdD87D807774c8aA9D70FC6aF5912C97FaDBF531B</p><p><br></p><p><br></p><p>1st exploiting tx:</p><p>https://bscscan.com/tx/0x49bed801b9a9432728b1939951acaa8f2e874453d39c7d881a62c2c157aa7613</p><p><br></p><p>2nd exploiting tx:</p><p>https://bscscan.com/tx/0xa916674fb8203fac6d78f5f9afc604be468a514aa61ea36c6d6ef26ecfbd0e97</p>",
+    "name_categories": "NFT",
+    "token_name": "ORT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x1d64327c74d6519afef54e58730ad6fc797f05ba",
+    "token_addresses": [
+        {
+            "address": "0x0eFfECA3dBCBcda4d5e4515829b0d42181700606",
+            "url": "https://bscscan.com/address/0x0eFfECA3dBCBcda4d5e4515829b0d42181700606",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ce8b2f48484.jpg",
+    "date": "2023-1-17",
+    "scam_updates": [],
+    "proof_link": "https://hacked.slowmist.io/#:~:text=Hacked%20target%3A-,OMNI%20Real%20Estate%20Token,-Description%20of%20the, https://twitter.com/QuillAudits/status/1615268920809906176,",
+    "website_link": "https://www.omni-psi.com/intro-page",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/omniestategroup",
+    "telegram_link": "https://t.me/omnipsi",
+    "our_post_link": null,
+    "funds_lost": 70000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3321,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
