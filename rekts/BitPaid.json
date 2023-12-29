@@ -1,0 +1,68 @@
+{
+    "id": 3523,
+    "project_name": "BitPaid",
+    "title": "BitPaid",
+    "description": "<p><strong>Quick Summary</strong></p><p>BitPaid project was rugpulled by the deployer-related EOA, who removed liquidity worth of 31,140 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BitPaid is a BEP20 token trading on PancakeSwap. The project experienced a significant liquidity removal. An EOA address received $BTP tokens from the BTP deployer and added liquidity to PancakePool using claimed tokens multiple times. Liquidity was removed in three transactions, and the total drained amount reached 37,140 $USD. All the stolen funds remain at the scammers original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x7c2545bd996cdcd3e03d4d9ca82c5994025459fc</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x2d904e85a0099569d13aac8b379ca3e89582456d</p><p><br></p><p>Liquidity Removal Transactions:&nbsp;</p><p>https://bscscan.com/tx/0x8dc983bd32bb8a043d9a6817400564abd607ac1da5c42dac34d1672150ad6dcd</p><p>https://bscscan.com/tx/0x962a5d3511d4b725a9feeabab78c8c2b0a7cef6897dc4f83c05779dd9db7f3aa</p><p>https://bscsan.com//tx/d5e059f919daf7d0ac3d101dc3902f3985637c633c724be0c8521ae61f5b77d2</p><p><br></p><p>Relation Proof Transaction:</p><p>https://bscscan.com/tx/0x247a48a802deeb51f08a879a8c75ceabc9365b28e1749f3802ad62937b4cbb56</p>",
+    "name_categories": "Token",
+    "token_name": "BTP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x40f75ed09c7bc89bf596ce0ff6fb2ff8d02ac019",
+    "token_addresses": [
+        {
+            "address": "0x40f75ed09c7bc89bf596ce0ff6fb2ff8d02ac019",
+            "url": "https://bscscan.com/address/0x40f75ed09c7bc89bf596ce0ff6fb2ff8d02ac019",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x858DE6F832c9b92E2EA5C18582551ccd6add0295",
+            "url": "https://bscscan.com/address/0x858DE6F832c9b92E2EA5C18582551ccd6add0295",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6461e77cb89a6.png",
+    "date": "2023-5-13",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/bitpaidio",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 37140,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3523,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
