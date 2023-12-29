@@ -3,7 +3,8 @@
 Credit to De.fi, Defilarma, Onchain Data and the [Web3 News Bot](https://github.com/0xlino/web3-news-daily)
 
 # Total Funds Lost:
-$77,789,516,447.00
+- $77,789,516,447.00
+- 77 billion, 789 million, 516 thousand!!!
 
 # Table of Contents
 
