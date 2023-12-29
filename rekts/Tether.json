@@ -1,0 +1,51 @@
+{
+    "id": 2920,
+    "project_name": "Tether",
+    "title": "Tether",
+    "description": "<p><strong>Quick Summary</strong></p><p>Tether's systems were exploited by an external hacker, resulting in a loss of $30,950,010 USDT tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Tether, a dollar-pegged cryptocurrency, was targeted by an external hacker who managed to steal $30,950,010 USDT from the Tether Treasury wallet. The stolen tokens were sent to an unauthorized Bitcoin address. Tether has stated that it will not redeem any of the stolen tokens and is in the process of attempting token recovery to prevent them from entering the broader cryptocurrency ecosystem</p>",
+    "name_categories": "Stablecoin",
+    "token_name": null,
+    "proof_archive_link": "https://archive.is/ZFDBf#selection-953.0-977.216",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624cb044a815c.png",
+    "date": "2017-11-19",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2017/11/21/tether-claims-30-million-in-us-dollar-token-stolen/",
+    "website_link": "https://tether.to/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Tether_to",
+    "telegram_link": "https://t.me/OfficialTether",
+    "our_post_link": null,
+    "funds_lost": 30950010,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2920,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
