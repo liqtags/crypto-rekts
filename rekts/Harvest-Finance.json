@@ -1,0 +1,51 @@
+{
+    "id": 749,
+    "project_name": "Harvest Finance",
+    "title": "Harvest Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited a vulnerability in the FARM_USDT and FARM_USDC pools, stealing $33.8 million through a series of flash loans and price manipulation.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by swapping 11.4 million USDC for USDT, causing the price of USDT to rise. They then deposited 60.6 million USDT into the Vault. Following this, they exchanged 11.4 million USDT back to USDC, causing the USDT price to drop. The attacker then withdrew 61.1 million USDT from the Vault, making a profit of 0.5 million. This process was repeated 32 times. The stolen funds were then converted to renBTC and exited to BTC / ETH via Tornado Cash.</p><p><br></p><p>Stolen funds:</p><p>- $33.8M USDT</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://app.zerion.io/0x3811765a53c3188c24d412daec3f60faad5f119b/history</p><p>The transaction behind the attack:</p><p>https://etherscan.io/tx/0x9d093325272701d63fdafb0af2d89c7e23eaf18be1a51c580d9bce89987a2dc1/advanced</p><p>Detailed transaction analysis:</p><p>https://ethtx.info/mainnet/0x9d093325272701d63fdafb0af2d89c7e23eaf18be1a51c580d9bce89987a2dc1</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "FARM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa0246c9032bC3A600820415aE600c6388619A14D",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60edb88127a5b.jpeg",
+    "date": "2020-10-26",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/harvest-finance-rekt/, https://medium.com/harvest-finance/harvest-flashloan-economic-attack-post-mortem-3cf900d65217?source=collection_archive---------0-----------------------",
+    "website_link": "https://harvest.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/harvest_finance",
+    "telegram_link": "https://t.me/Breadforthepeople",
+    "our_post_link": null,
+    "funds_lost": 33800000,
+    "funds_returned": 2500000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 749,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
