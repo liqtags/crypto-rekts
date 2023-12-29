@@ -1,0 +1,70 @@
+{
+    "id": 3336,
+    "project_name": "Smashcash",
+    "title": "Smashcash",
+    "description": "<p><strong>Quick Summary</strong></p><p>Smashcash was scammed and dumped the token price after unlocking team allocation.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>After the project was released the team allocation tokens were locked to the vesting contract. On the 13th of Feb 2023, tokens were unlocked and sold by a few different addresses. The price of tokens was dumped significantly.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Initial mint:</p><p>https://bscscan.com/tx/0x938ea5a7f45f60374a0afad249193717dd06f38fc5e82ba0c2aed33315c069d6</p><p><br></p><p>Sales:</p><p>https://bscscan.com/token/0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3?a=0x5a4942cb93689374aaa96f86c70a36fd16fb2252</p><p>https://bscscan.com/token/0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3?a=0xc1ca0f0fa2f42040ce954872f5b93f79e9e2c2a8</p><p>https://bscscan.com/token/0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3?a=0xc2880c4f8fa5637dfc7d689b7856c5f2042c849c</p>",
+    "name_categories": "Token",
+    "token_name": "SMASH",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3",
+    "token_addresses": [
+        {
+            "address": "0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3",
+            "url": "https://bscscan.com/address/0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ee096b6bd27.png",
+    "date": "2023-2-13",
+    "scam_updates": [],
+    "proof_link": "https://t.me/peckshield/29080, https://poocoin.app/tokens/0x3d0e93bfcb8fb46331ea8c98b6ab8c575ab424c3",
+    "website_link": "https://smashcash.io/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/smashcashio",
+    "our_post_link": null,
+    "funds_lost": 20000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3336,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": null,
+            "date": "2021-12-30T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
