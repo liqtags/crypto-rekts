@@ -1,0 +1,60 @@
+{
+    "id": 3575,
+    "project_name": "Shido Global",
+    "title": "Shido Global",
+    "description": "<p><strong>Quick Summary</strong></p><p>Shido Global was exploited due to a smart contract configuration error, resulting in a loss of 235,458 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Shido Global, a Cosmos-based blockchain with EVM compatibility, was exploited due to a configuration error in the lock and claim mechanism, as well as the price difference between their old and new token pools in PancakeSwap. The attacker initially took a flash loan of 40 $BNB and swapped it to obtain a large amount of Shido tokens. Then, the attacker exploited a flaw in the ShidoLock contract that allowed them to convert v1 tokens to v2 tokens at a large scale. Finally, the exploiter swapped these tokens for 1,016 WBNB, repaid the flash loan, and made away with a profit of roughly 977 $BNB which is worth $235,458 USD. The stolen funds were transferred through Celer Bridge.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0x69810917928b80636178b1bb011c746efe61770d</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0xcdb3d057ca0cfdf630baf3f90e9045ddeb9ea4cc</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x72f8dd2bcfe2c9fbf0d933678170417802ac8a0d8995ff9a56bfbabe3aa712d6</p><p><br></p><p>Bridging Transactions:</p><p>https://bscscan.com/tx/0x2de117d308f7f001bf3dad70cce6347c8cf26f254d7ee68cbf14370bc8c8c99f</p><p>https://bscscan.com/tx/0x2a1b7601f4a5960cca232e3d1abdca89a34b02948b79b59ac07f18edaacc69bb</p>",
+    "name_categories": "Other",
+    "token_name": "SHIDO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x733af324146dcfe743515d8d77dc25140a07f9e0",
+    "token_addresses": [
+        {
+            "address": "0xaf0ca21363219c8f3d8050e7b61bb5f04e02f8d4",
+            "url": "https://bscscan.com/address/0xaf0ca21363219c8f3d8050e7b61bb5f04e02f8d4",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64999acb6ce81.png",
+    "date": "2023-6-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/ShidoGlobal/status/1672436377735004162, https://neptunemutual.com/blog/taking-a-closer-look-at-shido-exploit/, https://twitter.com/AnciliaInc/status/1672382613473083393",
+    "website_link": "https://shido.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ShidoGlobal",
+    "telegram_link": "https://t.me/shidoglobal",
+    "our_post_link": null,
+    "funds_lost": 235462,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/ShidoGlobal",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/9zvD93q5dW",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3575,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
