@@ -1,0 +1,61 @@
+{
+    "id": 3018,
+    "project_name": "Feminist Metaverse",
+    "title": "Feminist Metaverse",
+    "description": "<p>On May 18th, Feminist Metaverse\u2019s FmToken contract was exploited for about 1838 BNB.</p><p><br></p><p>Attacker transaction: https://bscscan.com/tx/0xfdc90e060004dd902204673831dce466dcf7e8519a79ccf76b90cd6c1c8b320d&nbsp;</p><p>Attacker address: https://bscscan.com/address/0xaaA1634D669dd8aa275BAD6FdF19c7E3B2f1eF50</p><p>Attacker contract: https://bscscan.com/address/0x0B8d752252694623766DfB161e1944F233Bca10F</p><p>Victim contract: https://bscscan.com/address/0x843528746F073638C9e18253ee6078613C0df0f1</p><p><br></p><p>Exploit step by step:</p><p>1) Attacker directly receives FmToken that is not credited to the liquidity pool using skim function of the SakeSwapPair contract.</p><p>2) Attacker transfers 10 FmTokens tokens into an attacking contract to prepare for a subsequent attack.</p><p>3) Attacker calls the attack contract, where it cyclically transfer FmToken to the attacker's address, thereby triggering the operation of transferring tokens from the FmToken contract to SakeSwapPair and, finally, transferring them to the attacker's address through the skim function.</p><p>4) Multiple transfers of small amounts of FM token to their own address using the created attacker contract 0x0B8d\u2026a10F.</p><p>5) Since the FmToken contract balance has reached the standard 150,000 token for transferring to SakeSwapPair, each transfer triggers line 920 to increase the balance of FmToken &nbsp;to SakeSwapPair. SakeSwapPair thus has a difference between token balance and reserve SakeSwapPair thus has a difference between token balance and reserve.</p><p>6) Then attacker calls the skim() function in SakeSwapPair to extract the difference in token balance to his own address.</p><p>7) Using PancakeSwap attacker swapped FmToken for BNB</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "FmToken",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x843528746F073638C9e18253ee6078613C0df0f1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6287929d92ea1.jpeg",
+    "date": "2022-5-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/FM_Token/status/1526945914061049856?cxt=HHwWgMC-7f_N5rAqAAAA",
+    "website_link": "https://feministmetaverse.org/",
+    "webarchive_link": "https://medium.com/coinmonks/analysis-of-attack-on-feminist-metaverse-77e3e25d5963",
+    "twitter_link": "https://twitter.com/FM_Token",
+    "telegram_link": "https://t.me/feministmetaverse",
+    "our_post_link": null,
+    "funds_lost": 540000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3018,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Feminist_Metaverse_Addendum_v9.pdf",
+            "date": "2022-07-03T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
