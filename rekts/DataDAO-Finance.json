@@ -1,0 +1,51 @@
+{
+    "id": 2806,
+    "project_name": "DataDAO Finance",
+    "title": "DataDAO Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>A backdoor is created in the supportsInterfaceCall() function that allowed to do calls to token contracts and transfer Part tokens of those who did approvals to the malicious &nbsp;Part contract.</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>By 13.09.2022, supportsInterfaceCall() is being continuously called. For now, the last function execution was done on the 10th of Aug 2022. The tokens draining started on the 31th of Jan 2022.</p><p>As a result, the following losses take place:&nbsp;</p><p>558348 USDC</p><p>214749 &nbsp;DAI</p><p>8540 MIM</p><p><br></p><p>Still, any approved tokens left are endangered and can be drained anytime. This again demonstrates the importance of monitoring approved contracts and checking them for vulnerabilities and backdoors.&nbsp;</p><p><br></p><p><strong>F</strong><strong>unds lost</strong>: 781 637</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Backdoor function (supportinterfaceCall())</p><p>https://ftmscan.com/address/0x689e0205d21337cfebbe0beabf33e1bae2a1ae06#code#L1007</p><p>Example transactions&nbsp;</p><p>https://ftmscan.com/tx/0x754b5ab0d6aaec00e4a7f173caccce3fc3e999d2a1a58192ae7a11527b9189d5</p><p>https://ftmscan.com/tx/0x5d1242f7e07f5f803005039f490d5d0c84d73679bb1a239df6cac342f54d088b</p><p>Recipient of tokens</p><p>https://ftmscan.com/address/0xfc2fb8fd8c98b6a16a0da7638e1c0b8085f8ed69</p>",
+    "name_categories": "NFT",
+    "token_name": "Part",
+    "proof_archive_link": "https://web.archive.org/web/20220131021525/https://twitter.com/rugdocio/status/1487972154696155136, https://web.archive.org/web/20220215145419/https://finance.yahoo.com/news/users-datadao-finance-risk-losing-103641748.html",
+    "technical_issue": null,
+    "token_address": "https://ftmscan.com/token/0x689e0205d21337cfebbe0beabf33e1bae2a1ae06",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f810d3e7d8e.png",
+    "date": "2022-1-30",
+    "scam_updates": [],
+    "proof_link": "https://finance.yahoo.com/news/users-datadao-finance-risk-losing-103641748.html",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DataDAOFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 781637,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2806,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
