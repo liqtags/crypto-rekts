@@ -1,0 +1,60 @@
+{
+    "id": 3670,
+    "project_name": "Gladiator",
+    "title": "Gladiator Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Gladiator, an ERC20 token trading on UniSwap, was exploited by the deployer in an exit scam. The total loss amounts to 246,180 $USD or 132.91 ETH.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attack on the Gladiator project was carried out by the deployer, who removed liquidity from the LP pool. Following the removal, the stolen funds were transferred through various EOA addresses, possibly to obfuscate the trail of the stolen assets. The lack of further details on fund distribution may suggest the ongoing concealment of stolen funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xfD98A5612aF6Da999BB4E0F028cB3Ecf42B2F5fE</p><p><br></p><p>Funds Holder as of Aug 14, 2023:</p><p>https://etherscan.io/address/0xa88a470fd105b70d07535b2b9673ce8e684a5032</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x8cee548d05f5d2e791d9d9dd525a2f07dc61f8ff9704aba180a1be1ebe9eda87</p>",
+    "name_categories": "Token",
+    "token_name": "GLA",
+    "proof_archive_link": "https://archive.ph/ci7rj",
+    "technical_issue": null,
+    "token_address": "0xe9c28e4f233d3c64e2274e75701952ef35696d47",
+    "token_addresses": [
+        {
+            "address": "0xe9c28e4f233d3c64e2274e75701952ef35696d47",
+            "url": "https://etherscan.io/token/0xe9c28e4f233d3c64e2274e75701952ef35696d47",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64da62676b668.png",
+    "date": "2023-8-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/artemDeDotFi/status/1691124223819894796?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 246180,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3670,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
