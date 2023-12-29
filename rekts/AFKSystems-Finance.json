@@ -1,0 +1,51 @@
+{
+    "id": 2627,
+    "project_name": "AFKSystems Finance",
+    "title": "AFKSystems Finance",
+    "description": "<p>The EOA address deployed unverified smart contract at:<br>https://polygonscan.com/tx/0x371b8da1ef6fae5613025d6d3ac85b4eb989cabf91909ace8a7aaa81ec341eb5<br><br>This smart contract interacted with different MasterChef contracts:<br>https://polygonscan.com/tx/0xa4dafd21de907f594344876dd43977e2f03ab541085495ea5010a0c5d53fe470<br>https://polygonscan.com/tx/0x5a27947b4af14f897d35bc4457c4a00a1a3b3002db1b7552d680b7bb0e028de9<br>https://polygonscan.com/tx/0x758ca2462da1fba081c50e5e82abcf26225321ad409d9f2b0ae8623d61541e8b<br>https://polygonscan.com/tx/0xcb729d6c84ba291799a3bb9da4bef704a62f0608c178aa1230cbcd44d9d5038f<br>https://polygonscan.com/tx/0x80fc64a240a67f6eea8bd57367bc088b80ccfd5236c4cebcd46e7c24a147860f<br><br>The bytecoded contract had approval for spending LP tokens, as a result, funds were transferred to the external address:<br>https://polygonscan.com/address/0x0a301bdf8c02d19d8204712d9ef10fa38c6109e7<br><br>Withdrawn LP tokens were used to remove liquidity at:<br>https://polygonscan.com/tx/0xf68759da53b71917b87ef8ee0bfb4db1cb612ce993378b7c51e86c4840099dc8<br>https://polygonscan.com/tx/0x9f4d43f13df89109b10d181e24f2f28ddf88c9b8ea3c761b9f4600cf3b91a155</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "SILVER",
+    "proof_archive_link": "https://archive.is/wip/Tjrbo",
+    "technical_issue": null,
+    "token_address": "0xbc7cb585346f4f59d07121bb9ed7358076243539",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/613f7260a8bd7.png",
+    "date": "2021-9-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://afksystem.finance/",
+    "webarchive_link": "https://web.archive.org/web/20210817074609/https://afksystem.finance/",
+    "twitter_link": "https://twitter.com/AFKSystemFi",
+    "telegram_link": "https://t.me/AFKSystemFi",
+    "our_post_link": null,
+    "funds_lost": 2017053,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2627,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
