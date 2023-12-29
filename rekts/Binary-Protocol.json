@@ -1,0 +1,51 @@
+{
+    "id": 123,
+    "project_name": "Binary Protocol",
+    "title": "Binary Protocol",
+    "description": "<p>The contract deployer used a hidden minting functionality under the function <u>initialSupply</u>(), which was invoked by the contract deployer 3 times:<br>https://etherscan.io/tx/0x7467abb573c49a7f9afa29a0d086db87b05470132e5a3e4f1c32cee80293a521<br>https://etherscan.io/tx/0xf4b6c14069f1d9761c40c11f4132be2cc0361d86b2b069c551e51deadbc2293c<br>https://etherscan.io/tx/0x672689de6495180d7301f9282dac828d6aad609d9a1fb7bb7f36b7a6623dc887<br><br>In the function input data, the recipient address of the minted tokens was this address:<br>0xD97A750139bC69A8e206b67B54288463C634050C<br><br>This external wallet added initial liquidity at:<br>https://etherscan.io/tx/0x1cdad510f30826e2d54b15a61942d9a33fdb0271a6d1b11c935a1f99ea825da5<br><br>The transaction, where the external wallet sold tokens:<br>https://etherscan.io/tx/0x0c02a010cf511dc7ef859e8f64daaa38ce4f1d0021523bfc5cc29a9feb41b083</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x561568fbb12631bee08e2186d23eda8641d8dc0b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b48bcee75.png",
+    "date": "2021-1-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1355054630770626560",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3924,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 123,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
