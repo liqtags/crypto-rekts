@@ -1,18 +1,18 @@
 {
-    "id": 1973,
+    "id": 1687,
     "project_name": "MoonDeFi",
     "title": "MoonDeFi",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "MDI",
+    "token_name": "MOONDEFI",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xdc85fd68b2019e9ba9346ff21697e65f1153a36e",
+    "token_address": "0xb126ec9563bb6c1c4b6aebd7cd05e74fa22e2736",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5cbc69d0da.png",
-    "date": "2021-3-26",
+    "logo_link": "safe/files/scamDatabase/logo/60f1980c54c01.png",
+    "date": null,
     "scam_updates": [],
-    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, \thttps://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1373698524961906691",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1973,
+            "scam_database_id": 1687,
             "networks": {
                 "id": 56,
                 "name": "Binance",
