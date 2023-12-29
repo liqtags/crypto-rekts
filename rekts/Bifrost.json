@@ -1,0 +1,51 @@
+{
+    "id": 3084,
+    "project_name": "Bifrost",
+    "title": "Bifrost",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Bitcoin wallet Bifrost was attacked by hackers.<br>During the attack, the key of the server issuing the address was revealed, and the attacker was able to self-sign his own deposit address. Since the attacker could generate a valid signature on the deposit address, the BiFi platform recognized the attacker's $BTC transfer as a $BTC deposit in Bifrost. As a result, the attacker was able to borrow 1,852 $ETH with fake deposit.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">Bifrost is a web3 derivatives protocol that provides decentralized cross-chain liquidity for staked assets. During the attack, the server key of the address issuing server was revealed, which is why the attacker was able to independently sign his own deposit address. In this transaction, the attacker signs the address: https://etherscan.io/tx/0x1a507140573d10fed06a9052a58b46621a1fbfad2d4a54fd0f5db40e1788a29d</p><p style=\"margin:0cm;background:white;\">Since the attacker managed to generate a valid signature on the deposit address, BiFi recognized the attacker's $BTC transfer as a deposit, so attacker sends 321.7 $BTC as a \"deposit\": https://www.blockchain.com/btc/tx/dd0bf6ab976f2090dd48cf6223a50e3c6c8a616e5c28dfc9448f81f1b7e99346</p><p style=\"margin:0cm;background:white;\">The relayer detected the deposit and transmitted the verified deposit history to BiFi. Then the relayer minted $BiBTC as a $BTC collateral for the attacker.<br>Transaction of deposit detection: https://etherscan.io/tx/0x5c0460f529a003d11911f21f8a8decb15aeaf07e9682a0d6e15aeb1cd5c39e69<br>Transaction of deposit confirmation with minting $BiBTC: https://etherscan.io/tx/0x2e4422dd80350bd57cca6707a69473da20282c6b318c48a642e690e691a0c15f</p><p style=\"margin:0cm;background:white;\">The attacker then called the <em>borrow()</em> function to take 1.8k $ETH:<br>https://etherscan.io/tx/0x4b5d66871af64da0fd5ac448474235079ae0cb93db70366eed2808ca56dfcf76</p><p style=\"margin:0cm;background:white;\">which were subsequently withdrawn via Tornado.cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attacker address on ETH: https://etherscan.io/address/0x282971deD7D0B8C5b0358EbEbe3B2bC6A24a6b10</p><p style=\"margin:0cm;background:white;\">Attacker address on Bitcoin: https://www.blockchain.com/btc/address/bc1qmgh7w47myz7kt7x34zqlr5azck7u8j8ewg3u2j</p><p style=\"margin:0cm;background:white;\">Attacker public keyhash: 0xDa2fe757Db20Bd65F8D1a881F1D3a2C5BdC3c8F9</p>",
+    "name_categories": "Other",
+    "token_name": "BFC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0c7D5ae016f806603CB1782bEa29AC69471CAb9c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62cf0b1acd013.png",
+    "date": "2022-7-8",
+    "scam_updates": [],
+    "proof_link": "https://bifrost.medium.com/post-mortem-bifi-btc-illegal-address-registration-c21ce3ba9fc8",
+    "website_link": "https://thebifrost.io/",
+    "webarchive_link": "https://web.archive.org/web/20220309031002/https://thebifrost.io/",
+    "twitter_link": "https://twitter.com/bifrostio",
+    "telegram_link": "https://t.me/Bifrostnotice",
+    "our_post_link": null,
+    "funds_lost": 2248328,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/kwM6DacaCw",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3084,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
