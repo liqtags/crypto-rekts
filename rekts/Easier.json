@@ -1,0 +1,60 @@
+{
+    "id": 3207,
+    "project_name": "Easier",
+    "title": "Easier",
+    "description": "<p><strong>Quick Summary</strong></p><p>Easier token price dropped by more than 60% due to a rugpull. The deployer of the token is the same one involved in an exit scam on the macroeconomics &nbsp;($MOC) token.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Easier is the BEP20 token, and can't be confused with many other tokens with the same $EAI symbol. $MOC tokens were minted to an EOA address, which swapped them for $BUSD and then for $EAI tokens in multiple transactions. The collected $EAI tokens were transferred to another EOA address, which sold all the amount for 165,549 $BUSD and distributed the amount between multiple addresses. The total profit of the scammer reached 115549 $BUSD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xaeece9bc2f321e968cc9328fad5bf8f8a8e56fe7</p><p><br></p><p>Swap transactions:</p><p>https://bscscan.com/token/0x82b558c60fc4d1e12862b0d8fad693ae81aba48c?a=0xaeece9bc2f321e968cc9328fad5bf8f8a8e56fe7</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "EAI",
+    "proof_archive_link": "https://archive.is/dDYm1",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x82b558c60fc4d1e12862b0d8fad693ae81aba48c",
+    "token_addresses": [
+        {
+            "address": "0xd3095e37ce61ffef076fdafbd56b16f95a225ae5",
+            "url": "https://bscscan.com/address/0xd3095e37ce61ffef076fdafbd56b16f95a225ae5",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633ef73608d6f.png",
+    "date": "2022-10-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1577754609388486656",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 115549,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3207,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
