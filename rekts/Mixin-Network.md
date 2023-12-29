@@ -1,0 +1,47 @@
+# Mixin Network
+![Mixin Network](/rektimages/Mixin-Network.png)
+- Amount Lost: $142,041,764.00
+- Funds Returned: $0.00
+- Category: Other
+- Date: 2023-9-23
+
+**Quick Summary**
+
+Mixin Network was exploited due to a cloud service vulnerability, resulting in a loss of $142,041,764 in digital assets across Ethereum and Bitcoin chains.
+
+  
+
+
+ **Details of the Exploit**
+
+Mixin Network is a decentralized network for transferring digital assets. On September 23, 2023, the network was exploited due to a cloud service vulnerability. The attacker managed to steal funds from multiple addresses on both the Ethereum and Bitcoin chains. The stolen funds were then swapped to DAI and Ethereum on the attacker's wallets on the Ethereum network, totaling approximately $118.66M as of September 26th. In the Bitcoin chain, the attacker accumulated 891 BTC, worth around $23,381,764. The total loss across both chains was approximately $142,041,764.
+
+  
+
+
+ **Block Data Reference**
+
+Funds Holders as of Sep 26, 2023:
+
+\- https://etherscan.io/address/0x3B5fb9d9da3546e9CE6E5AA3CCEca14C8D20041e
+
+\- https://etherscan.io/address/0x52E86988bd07447C596e9B0C7765F8500113104c
+
+\- https://etherscan.io/address/0xB5d631A74AD9c9efcF96d6e9e2fAbcB75C67Eafa
+
+\- https://www.blockchain.com/explorer/addresses/btc/bc1qq7uefmz6nng5c4dzs9mwrxxyh9sxg5cjg85hesf
+
+  
+
+
+Funds Transfer Transaction Examples:
+
+\- https://blockstream.info/tx/4354e56e2164fb4c67f64c551cfafc5b23a80d60d6a3045186c73dd77b2f8615
+
+\- https://etherscan.io/tx/0xb702128a7d7ebd9b74c0b86d4d6a60ad1c1789f512e7fc37221e9d6093efa530
+
+
+Proof Links:
+- [https://twitter.com/DeDotFiSecurity/status/1706177139677057297?s=20](https://twitter.com/DeDotFiSecurity/status/1706177139677057297?s=20)
+
+

@@ -1,0 +1,77 @@
+{
+    "id": 3715,
+    "project_name": "Mixin Network",
+    "title": "Mixin Network Exploit",
+    "description": "<p><strong>Quick Summary</strong></p><p>Mixin Network was exploited due to a cloud service vulnerability, resulting in a loss of $142,041,764 in digital assets across Ethereum and Bitcoin chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mixin Network is a decentralized network for transferring digital assets. On September 23, 2023, the network was exploited due to a cloud service vulnerability. The attacker managed to steal funds from multiple addresses on both the Ethereum and Bitcoin chains. The stolen funds were then swapped to DAI and Ethereum on the attacker's wallets on the Ethereum network, totaling approximately $118.66M as of September 26th. In the Bitcoin chain, the attacker accumulated 891 BTC, worth around $23,381,764. The total loss across both chains was approximately $142,041,764.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Funds Holders as of Sep 26, 2023:</p><p>- https://etherscan.io/address/0x3B5fb9d9da3546e9CE6E5AA3CCEca14C8D20041e</p><p>- https://etherscan.io/address/0x52E86988bd07447C596e9B0C7765F8500113104c</p><p>- https://etherscan.io/address/0xB5d631A74AD9c9efcF96d6e9e2fAbcB75C67Eafa</p><p>- https://www.blockchain.com/explorer/addresses/btc/bc1qq7uefmz6nng5c4dzs9mwrxxyh9sxg5cjg85hesf</p><p><br></p><p>Funds Transfer Transaction Examples:</p><p>- https://blockstream.info/tx/4354e56e2164fb4c67f64c551cfafc5b23a80d60d6a3045186c73dd77b2f8615</p><p>- https://etherscan.io/tx/0xb702128a7d7ebd9b74c0b86d4d6a60ad1c1789f512e7fc37221e9d6093efa530</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/UrkWl",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xF18C15c9A1551c6AfA5346020E9ddf9aDbAa0bad",
+            "url": "https://etherscan.io/address/0xF18C15c9A1551c6AfA5346020E9ddf9aDbAa0bad",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xDDa2014AF485b1A1Bb0d7f777c1a2eE3bb493BD9",
+            "url": "https://etherscan.io/address/0xDDa2014AF485b1A1Bb0d7f777c1a2eE3bb493BD9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65131f24d791f.jpg",
+    "date": "2023-9-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1706177139677057297?s=20",
+    "website_link": "https://mixin.network/",
+    "webarchive_link": "https://archive.ph/pqscN",
+    "twitter_link": "https://twitter.com/MixinKernel",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 142041764,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3715,
+            "networks": {
+                "id": 1,
+                "name": "Bitcoin",
+                "icon_link": "safe/files/network/bitcoin.png"
+            }
+        },
+        {
+            "networks_id": 1666611019,
+            "scam_database_id": 3715,
+            "networks": {
+                "id": 1666611019,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
