@@ -1,0 +1,51 @@
+{
+    "id": 2398,
+    "project_name": "Hammy Finance",
+    "title": "Hammy Finance",
+    "description": null,
+    "name_categories": "Yield Aggregator",
+    "token_name": "HAMMY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x07E903A1AcB9F1D186f284fD4E769C6426791443",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612df3b4aa5b6.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x3da288a6bbdd8f1fd155887eecf222d9aa8b8f3d",
+    "website_link": "https://hammy.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2398,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
