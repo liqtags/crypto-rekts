@@ -1,0 +1,51 @@
+{
+    "id": 2680,
+    "project_name": "UNIYSWAP",
+    "title": "UNIYSWAP",
+    "description": "<p>The project uses forged PeckShield audit:<br>https://uniyswap.com/assets/Audit-Report-UNIY-ERC20-v1.0.pdf<br><br>The whitepaper is also forged, everything is copypasted from Uniswap whitepaper with the replaced names:<br>https://uniyswap.com/assets/uniy_whitepaper.pdf<br><br>The project is holding a pre-sale event using EOA address:<br>https://etherscan.io/address/0x370efe0dff0c30772f75158c9be7455e9d427a2a</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "UNIY",
+    "proof_archive_link": "https://archive.vn/i1F1q",
+    "technical_issue": null,
+    "token_address": "0xAC3cCdb8CE63F07d2a52cDa3749B628015f9893c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/616ec85934d0b.jpeg",
+    "date": "2021-10-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1450248774786318340",
+    "website_link": "https://uniyswap.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/uniyswap",
+    "telegram_link": "https://t.me/uniyswapoffice",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2680,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
