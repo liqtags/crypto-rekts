@@ -1,0 +1,60 @@
+{
+    "id": 3489,
+    "project_name": "Iwr token",
+    "title": "Iwr token",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 12th of April IWR on the BSC chain was rugged for approx 34k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the IWR protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0x1e3ab5c4d6360804abf8e72659394ce2fe08e244</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0x3f1b412dbd04bd87e4ef1d52b9e65ed83c4cff81069d94cbed27f378f9e599b9</p><p>https://bscscan.com/tx/0x17d54b1e96d2ee19eac5459dee638c1bc7c53889fcd03b95337b5e037c8838c6</p>",
+    "name_categories": "Token",
+    "token_name": "IWR",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xB9934562D37E5a6C883dE7ce54d6fEBB36DcbFda",
+    "token_addresses": [
+        {
+            "address": "0xB9934562D37E5a6C883dE7ce54d6fEBB36DcbFda",
+            "url": "https://bscscan.com/address/0xB9934562D37E5a6C883dE7ce54d6fEBB36DcbFda",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e93bfdc830.png",
+    "date": "2023-4-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1646134417998630912?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 34000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3489,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
