@@ -1,0 +1,51 @@
+{
+    "id": 2993,
+    "project_name": "DEUS Finance",
+    "title": "DEUS Finance (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>DEUS Finance was exploited through flash loan and oracle manipulation, resulting in a significant loss.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by flash loaning 143.2m USDC, which was then swapped to 9.5m DEI via sAMM-USDC/DEI_USDC-DEI, causing an increase in DEI price. 71k DEI was used as collateral to borrow 17.2k DEI from DeiLenderSolidex, and the flash loan was repaid. The attacker was initially funded via Multichain, with the origin of funds coming from an Ethereum address. After the attack, the profit was deposited back to the same Ethereum address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://ftmscan.com/address/0x701428525cbac59dae7af833f19d9c3aaa2a37cb</p><p>The transaction behind the attack:</p><p>https://ftmscan.com/tx/0x39825ff84b44d9c9983b4cff464d4746d1ae5432977b9a65a92ab47edac9c9b5</p><p>The Ethereum address where the funds originated and were returned:</p><p>https://etherscan.io/address/0x701428525cbac59dae7af833f19d9c3aaa2a37cb</p><p>The Tornado Cash mixer where the stolen funds were deposited:</p><p>https://bloxy.info/txs/transfers_from/0x701428525cbac59dae7af833f19d9c3aaa2a37cb?currency_id=1</p>",
+    "name_categories": "Other",
+    "token_name": "DEI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xDE12c7959E1a72bbe8a5f7A1dc8f8EeF9Ab011B3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/626a9cfeb901e.jpeg",
+    "date": "2022-4-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeusDao/status/1519574219419496449, https://twitter.com/lafachief/status/1519624600719663106, https://twitter.com/peckshield/status/1519530463337250817",
+    "website_link": "https://deus.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DeusDao",
+    "telegram_link": "https://t.me/deusfinance_news",
+    "our_post_link": null,
+    "funds_lost": 17900000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2993,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
