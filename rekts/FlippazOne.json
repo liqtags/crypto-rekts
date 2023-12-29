@@ -1,0 +1,51 @@
+{
+    "id": 3076,
+    "project_name": "FlippazOne",
+    "title": "FlippazOne",
+    "description": "<p><strong>Quick Summary</strong></p><p>The creators of the FlippazOne project created a NFT smart contract, which is also an auction contract. The contract included a serious vulnerability in the <em>ownerWithdrawAllTo()&nbsp;</em>function, in which there is no verification of the owner, which allows anyone to take all the funds of the contract through calling this public function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract creator of FlippazOne created a contract with a vulnerability that enables anyone to withdraw all $ETH<strong>&nbsp;</strong>from the contract to any address. The vulnerability lies in the fact that this function does not have a check on the owner, which means anyone can pick up $ETH tokens to their address at any time. This account with address (https://etherscan.io/address/0x194a39f48f1d5e310d0e0cc25e727c7d2bff0b14) made a bid sending 1.5 $ETH to the FlippazOne contract that were successfully withdrawn by unverified contract (https://etherscan.io/address/0xb314fd4ac6e10a7e27929cbc8db96743739c82b6) in this transaction: https://etherscan.io/tx/0x670da209fb1168941c4565a9a86f87d1011b24b857ea64f658b126a43f031fa0.</p><p>Then another 4 $ETH were withdrawn by EOA address in this transaction: https://etherscan.io/tx/0xf2cc19d4c8bfb04e35789e9b716c5f1ba8b893df3a821b104ed5f845230a3762</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Vulnerable contract address: https://etherscan.io/address/0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944</p><p>Contract owner and creator: https://etherscan.io/address/0x7f377ee93b2c7856838c9fb7effe0ba34399d9d3</p>",
+    "name_categories": "NFT",
+    "token_name": "FlippazOne",
+    "proof_archive_link": "https://web.archive.org/web/20220707142858/https://twitter.com/bertcmiller/status/1544496577338826752",
+    "technical_issue": null,
+    "token_address": "0xE85A08Cf316F695eBE7c13736C8Cc38a7Cc3e944",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62c6eecb6df09.png",
+    "date": "2022-7-5",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6828,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3076,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
