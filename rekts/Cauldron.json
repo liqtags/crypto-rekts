@@ -1,0 +1,51 @@
+{
+    "id": 3179,
+    "project_name": "Cauldron",
+    "title": "Cauldron",
+    "description": "<p><strong>Quick Summary</strong></p><p>The biggest flash loan attack on Avalanche in 2022 was detected. The attacker took 370,000 $USD after interacting with several assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker interacted with Cauldron, Aave, JoeSwap, and Curve for various purposes. The attacker used a malicious smart contract with an unverified source code to withdraw 998,000 $nxUSD using LP tokens worth 500,000 $USDC. The full attack flow of the exploit transaction succeeded as follows:</p><p>&nbsp; &nbsp;1. The attackers malicious contract flashloaned 51,000,000 $USDC from Aave</p><p>&nbsp; &nbsp;2. 280,000 $USDC were swapped to $WAVAX with JoeSwap</p><p>&nbsp; &nbsp;3. liquidity was added using claimed $WAVAX and 260,000 $USDC so 0.0045 JoeLPToken was received</p><p>&nbsp; &nbsp;4. The remaining 50,460,000 $USDC were swapped for $WAVAX on JoeSwap and it changed the reserve of the pool</p><p>&nbsp; &nbsp;5. The attackers contract called the updateExchangeRate function on the CauldronV2 smart contract, which changed the ExchangeRate variable according to the previous JoeSwap pool's reserve amount</p><p>&nbsp; &nbsp;6. The attackers contract deposited 0.0045 JoeLPToken to the CauldronV2 and 998,000 $nxUSD were withdrawn from DegenBox. Because of the manipulated ExchangeRate variable, the attacker was able to take that amount for 500,000 $USD worth JoeLPTokens</p><p>&nbsp; &nbsp;7. The remaining $WAVAX were swapped back for 50,426,896 $USDC on the previous JoeSwap pool</p><p>&nbsp; &nbsp;8. Consequently, Curve.fi and other pools were used to swap 998,000 $nxUSD for 970,010 $USDC</p><p>&nbsp; &nbsp;9. The 51,025,500 $USDC for the flash loan were paid back to Aave</p><p>&nbsp; &nbsp;10. The profit amounted to 371,406 $USDC and were transferred to an EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>CauldronV2 vulnerable contract:</p><p>https://snowtrace.io/address/0xe767c6c3bf42f550a5a258a379713322b6c4c060</p><p>Exploit transaction:</p><p>https://snowtrace.io/tx/0x0ab12913f9232b27b0664cd2d50e482ad6aa896aeb811b53081712f42d54c026</p><p>Attacker address:</p><p>https://snowtrace.io/address/0x69992a2e5d6ec031ab16733975110f0b43a0b1af</p><p>Attacker smart contract:</p><p>https://snowtrace.io/address/0x16b94c6358fe622241d055811d829281836e49d6</p><p>DegenBox contract:</p><p>https://snowtrace.io/address/0x0b1f9c2211f77ec3fa2719671c5646cf6e59b775</p><p>Stolen funds sent to:</p><p>https://snowtrace.io/address/0x8ec74e6f9627d445f546cdc606a35a3334378381</p><p><br></p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6319ac71b37ff.png",
+    "date": "2022-9-6",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/TiUzv, https://archive.is/Rt3Up",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 370000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3179,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
