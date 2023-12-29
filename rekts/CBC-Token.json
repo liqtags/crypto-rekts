@@ -1,0 +1,60 @@
+{
+    "id": 3465,
+    "project_name": "CBC Token",
+    "title": "CBC Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>CBC token rugpulled by the deployer-related EOA address, which removed liquidity worth 113,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CBC is a BEP20 token trading on PancakeSwap. The Certik team detected that an EOA address with no known association to CBC had removed liquidity from its pool for a total of 113,000 $USD in value. Further investigation revealed that the scammer received CBC tokens from the project's deployer twenty days before an incident. The stolen funds were transferred to another EOA address.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x5d2cb0f4a61bb1ef021cd186f3bef19b56ea7e7e</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x03f9d3b8bf9344d97b1bffed77246b9a5207f3e99fe32546809fd96813f87ed4</p>",
+    "name_categories": "Token",
+    "token_name": "CBC",
+    "proof_archive_link": "https://archive.ph/aBOo1",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x9E10Cf57c90C937c6aB51F4B98ec1d5BfcAF4804",
+    "token_addresses": [
+        {
+            "address": "0x9E10Cf57c90C937c6aB51F4B98ec1d5BfcAF4804",
+            "url": "https://bscscan.com/address/0x9E10Cf57c90C937c6aB51F4B98ec1d5BfcAF4804",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64344422e8d06.png",
+    "date": "2023-4-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1643936315484917761?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 113002,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3465,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
