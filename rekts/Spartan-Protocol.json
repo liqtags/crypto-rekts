@@ -1,0 +1,51 @@
+{
+    "id": 2351,
+    "project_name": "Spartan Protocol",
+    "title": "Spartan Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Spartan Protocol was exploited due to a flawed liquidity share calculation in the protocol, allowing the attacker to drain funds from the pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by taking a flash loan of 10K WBNB. They then repeatedly swapped WBNB for SPARTA, inflated the asset balance in the pool, and burned pool tokens to withdraw liquidity. This process was repeated multiple times, draining substantial funds from the pool. The attacker then returned the flash loan with a fee of 260 WBNB. The stolen funds were swapped to BTCB or BETH using 1inch and Spartan, and then to Anyswap versions using Nerve. The attacker was able to withdraw part of the profit through Anyswap.</p><p><br></p><p>Stolen funds:</p><p>- 2,643,882.074112804607308497 SPARTA</p><p>- 21,555.69728926154636986 WBNB</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://bscscan.com/address/0x3b6e77722e2bbe97c1cfa337b42c0939aeb83671</p><p>The transaction behind the attack:</p><p>https://bscscan.com/tx/0xb64ae25b0d836c25d115a9368319902c972a0215bd108ae17b1b9617dfb93af8</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SPARTA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3910db0600ea925f63c36ddb1351ab6e2c6eb102",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60fadbcb1b896.jpeg",
+    "date": "2021-5-2",
+    "scam_updates": [],
+    "proof_link": "https://spartanprotocol.medium.com/today-spartan-protocol-was-subject-to-an-exploit-targeting-the-liquidity-pools-8589b2069cef, https://rekt.news/spartan-rekt/, https://peckshield-94632.medium.com/the-spartan-incident-root-cause-analysis-b14135d3415f, https://twitter.com/FrankResearcher/status/1388848787632754690?s=20",
+    "website_link": "https://spartanprotocol.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SpartanProtocol",
+    "telegram_link": "https://t.me/SpartanProtocolAnn",
+    "our_post_link": null,
+    "funds_lost": 30500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2351,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
