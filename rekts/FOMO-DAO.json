@@ -1,0 +1,51 @@
+{
+    "id": 3037,
+    "project_name": "FOMO DAO",
+    "title": "FOMO DAO",
+    "description": "<p>FOMO DAO has been rugpulled for <span data-original-title=\"Current Price : $1.00 / BSC-USD\" data-toggle=\"tooltip\">$114,360.57</span>.</p><p><br></p><p>Token address: https://bscscan.com/address/0x5dd4ec212bd8e9fa42d278e09b6d6857e4abaeca</p><p><br></p><p>The ownership was transferred: https://bscscan.com/tx/0x8caa55098e125858df0d29485d99d6735a237ae6afd521dbf3b12674d2ae6604</p><p>Tokens were transferred multiple times: https://bscscan.com/tx/0xbbccd687a00bef0c305b8ebb1db4c40460894f75cdaebd306a2f62e0c86b7ba5</p>",
+    "name_categories": "Other",
+    "token_name": "FOMO",
+    "proof_archive_link": "https://twitter.com/PeckShieldAlert/status/1532933406883184640, https://twitter.com/peckshield/status/1532916129789710336",
+    "technical_issue": null,
+    "token_address": "0x5dd4ec212bd8e9fa42d278e09b6d6857e4abaeca",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/629ef0450ba86.png",
+    "date": "2022-6-4",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://fomo-dao.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/thecryptofomo",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 114360,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3037,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
