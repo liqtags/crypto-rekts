@@ -1,0 +1,51 @@
+{
+    "id": 2658,
+    "project_name": "ApeRocket",
+    "title": "ApeRocket (2)",
+    "description": "<p>The attacker's address:<br>https://polygonscan.com/address/0xfabd1c2f4f16f2f6e2007abbed5549c84d82c19d<br><br>The transaction behind the attack:<br>https://polygonscan.com/tx/0x377fb92f6e04db4bf5a0917a79d171ce27b28deaa23594b7fc498dd080cf9d35<br><br>The attacker:<br>- borrowed 24M DAI and 54M MATIC of flash loans from Aave<br><br>- created 25M DAIMATIC LP<br><br>- deposited 10M LP to the DAI-MATIC LP vault. Got the majority share (99%) of the vault<br><br>- deposited 15M LP from the MiniApeV2 contract of ApeSwap to the DAI-MATIC LP vault of ApeRocket<br><br>- called <u>withdrawAll</u>() on the vault<br><br>- with the rather large amount of LP token added (deposited from ApeSwap\u2019s MasterChef) by the attacker at step 3, it returned a large amount of profit. As a result, the system minted 2.5M pSAPCE as a reward to the attacker<br><br>- swapped the rewarded pSPACE token to ETH, repaid the flash loan<br><br>- taken out 521 ETH.<br><br>The <u>deposit</u>() function of ApeSwap Polygon's MiniApeV2 (a fork of SushiSwap's MiniChefV2) allows deposits to any address, which is not possible for a regular MasterChef v1, allowing the profit amount for everyone in the vault to be increased.</p><p><br></p><p>Even if the attacker owns the bulk of the vault, virtually all of the profit will be returned to the attacker.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "pSPACE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd016caae879c42cb0d74bb1a265021bf980a7e96",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61548d183b126.jpeg",
+    "date": "2021-7-14",
+    "scam_updates": [],
+    "proof_link": "https://aperocket.medium.com/moving-forward-24b9ae22c428, https://watchpug.medium.com/aperocket-polygon-performance-fee-minting-incident-root-cause-analysis-ed216f422f56",
+    "website_link": "https://polygon-v1.aperocket.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ApeRocketFi",
+    "telegram_link": "https://t.me/ApeRocketNews",
+    "our_post_link": null,
+    "funds_lost": 1000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2658,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
