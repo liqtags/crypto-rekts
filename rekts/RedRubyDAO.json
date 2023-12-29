@@ -1,0 +1,60 @@
+{
+    "id": 3206,
+    "project_name": "RedRubyDAO",
+    "title": "RedRubyDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>RedRubyDAO project was exploited, the attacker used a smart contract deployment to receive 85,000,000 tokens and sold them in the same transaction.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RRD is a BEP20 token of the RedRubyDAO project. The liquidity pool of the token is located on the W3Swap. The hacker deployed a malicious smart contract and transferred 85,000,000 $RRD tokens to the contract balance. Consequently, the hacker swapped 83,300,000 $RRD on W3swap and received 91,000 $BUSD in the same transaction. The remaining $RRD tokens were transferred to two EOA addresses. The stolen funds stay in the hacker's address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x9a52daeb40b898b1af30c5c428243d4c827b18ad</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x771f25e77d78be8f1a4f01efa43bae9ca559d9a8</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x0bb6b1e49ed057f087dd31873c86b2d04316c91f51124f5bb17139d929bea209</p><p><br></p><p>Liquidity pool:<br>https://bscscan.com/address/0xd577a5c16b08695230512d178855d0a9982c8864</p>",
+    "name_categories": "Other,Token",
+    "token_name": "RRD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x4161557153cf56b10836b3f76f9b82561f23cb0c",
+    "token_addresses": [
+        {
+            "address": "0x06d4a0dec3fa502d01ea7919f95ff3a7c3904c9d",
+            "url": "https://bscscan.com/address/0x06d4a0dec3fa502d01ea7919f95ff3a7c3904c9d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633d9b0f03baf.jpg",
+    "date": "2022-10-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1577319421726556161",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 91000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3206,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
