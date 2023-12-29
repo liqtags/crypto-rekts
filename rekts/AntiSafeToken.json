@@ -1,5 +1,5 @@
 {
-    "id": 1913,
+    "id": 1661,
     "project_name": "AntiSafeToken",
     "title": "AntiSafeToken",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "ANTISAFE",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xd6b5a8a5ab702ed1a8481999558f028817b8b4eb",
+    "token_address": "0xd47d925ee38d257494a3135f003153f77d127251",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5930a1ad0d.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f1935e5d4ea.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1913,
+            "scam_database_id": 1661,
             "networks": {
                 "id": 56,
                 "name": "Binance",
