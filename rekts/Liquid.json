@@ -1,0 +1,51 @@
+{
+    "id": 2793,
+    "project_name": "Liquid",
+    "title": "Liquid",
+    "description": "<p><strong>Quick Summary</strong></p><p>Liquid exchange platform announced it suffered a hack and lost over 90,000,000 $USD worth funds in $BTC, $TRX, $XRP, $ETH, and some ERC-20 tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Liquid is a Japanese crypto-fiat exchange platform. According to the announcement on platform's Twitter, the exchange\u2019s hot wallets were compromised and the Liquid team proceeded to move funds to cold storage:<br>https://twitter.com/Liquid_Global/status/1428176357515612165<br><br>The first batch of addresses initially reported by Liquid included the following 4 crypto addresses:<br><br>BTC: 1Fx1bhbCwp5LU2gHxfRNiSHi1QSHwZLf7q (received 107 BTC);<br>ETH: 0x5578840aae68682a9779623fa9e8714802b59946 (received around $60 million in ETH and ERC-20);<br>XRP: rfapBqj7rUkGju7oHTwBwhEyXgwkEM4yby (received more than 11 million XRP)<br>TRX: TSpcue3bDfZNTP1CutrRrDxRPeEvWhuXbp<br><br>The hacker deposited the stolen XRP to centralized exchanges such as Huobi or Poloniex and then changed it to BTC sent on 2 identified addresses:<br><br>12PKkwoFkXp6JtN7roWRA2gSitE6nVDds4 (92 BTC)<br>1JW1tcBXp1vZ6KGEirFNSXb5RgZSaL63Av (100 BTC)<br><br>The hacker is also using a mixing service and sent more than 9,000 ETH from the address 0x5578840aae68682a9779623fa9e8714802b59946 to Tornado Cash mixer.</p><p><br></p><p>Besides, the other address reported by Liquid (0xff0f573bdf4c23e41ea3ecd82efa66828706b711), the hacker is using decentralized exchanges (DEXs) such as Uniswap to swap tokens to ETH as shown below.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e8517bb37e7.jpeg",
+    "date": "2021-8-19",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/ncYbK",
+    "website_link": "https://www.liquid.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Liquid_Global",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 97000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2793,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
