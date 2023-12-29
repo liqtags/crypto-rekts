@@ -1,0 +1,60 @@
+{
+    "id": 3719,
+    "project_name": "XSD Token",
+    "title": "XSD Token Flashloan Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>XSD Token suffered a flash loan attack, resulting in a loss of $12,000 USD worth of 56.9 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>XSD Token, a project running on Binance Smart Chain, experienced a flash loan attack. The attacker exploited the project and managed to steal funds equivalent to $12,000 USD, which was approximately 56.9 BNB at the time. As of the date of the attack, the stolen funds remain in the attacker's wallet as DAI.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x506eEBd8d6061202A8e8FC600bb3d5D41f475eE1</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xbdf76f22c41fe212f07e24ca7266d436ef4517dc1395077fabf8125ebe304442</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x202E059a16D29a2F6aE0307AE3D574746b2B6305</p>",
+    "name_categories": "Token",
+    "token_name": "XSD",
+    "proof_archive_link": "https://archive.ph/9Z0AQ",
+    "technical_issue": null,
+    "token_address": "0x39400E67820c88A9D67F4F9c1fbf86f3D688e9F6",
+    "token_addresses": [
+        {
+            "address": "0xbfbcb8bde20cc6886877dd551b337833f3e0d96d",
+            "url": "https://bscscan.com/address/0xbfbcb8bde20cc6886877dd551b337833f3e0d96d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/651b407d3fa91.png",
+    "date": "2023-9-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1706765042916450781",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3719,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
