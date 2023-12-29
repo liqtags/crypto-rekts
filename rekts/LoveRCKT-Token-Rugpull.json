@@ -1,0 +1,60 @@
+{
+    "id": 3764,
+    "project_name": "loveloverocket",
+    "title": "LoveRCKT Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>LoveRCKT token was experienced a rugpull exit scam with 193.45 WETH worth of liquidity removed from UniSwap pool by the deployer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LoveRCKT is an ERC20 token trading on UniSwap. The deployer of the token conducted a rugpull exit scam by removing liquidity from the LP pool in two transactions between Aug 15, 2023, and Oct 31, 2023. The deployer initially added liquidity worth 400 WETH to the UniSwap pool when the token contract was created.</p><p>Total loss were approximately 23,439 USD.The stolen funds were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x96c0876F573e27636612CF306C9db072d2B13DE8</p><p><br></p><p>Scammers Addresses</p><p>https://etherscan.io/address/0x8183c8ac89dd31f6853d859e08f182f8e44d1353</p><p>https://etherscan.io/address/0x1f4cd0dacf5363deeec7ff96394d35984a4cf733</p><p><br></p><p>Funds Holders as Nov of 3, 2023</p><p>https://etherscan.io/address/0x26cb90cba4ae30a25854ef78bac1c3a46ceb3b8e</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/</span>0xACCf72F6b216F90fB52ED49bDdA6315761c57A74</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/</span>0xA66e0ed87CCeF7FaA1677A4FCBfC6dE5e1b7d868</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x497c91edeb64576e755288e645019a250bfc4d88f4a527fbc4c0e4692c7194b3</p>",
+    "name_categories": "Token",
+    "token_name": "LoveRCKT",
+    "proof_archive_link": "https://archive.li/kH3EF",
+    "technical_issue": null,
+    "token_address": "0xbDACBd348293F7839Cc6eA64335d839Db4841a39",
+    "token_addresses": [
+        {
+            "address": "0xbDACBd348293F7839Cc6eA64335d839Db4841a39",
+            "url": "https://etherscan.io/address/0xbdacbd348293f7839cc6ea64335d839db4841a39",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6544162e7ec94.jpg",
+    "date": "2023-10-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1719374572921970950",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/loveloverocket",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 23439,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3764,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
