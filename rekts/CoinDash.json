@@ -1,0 +1,51 @@
+{
+    "id": 2928,
+    "project_name": "CoinDash",
+    "title": "CoinDash",
+    "description": "<p><strong>Quick Summary</strong></p><p>CoinDash's ICO was compromised, leading to the theft of $7 million in Ethereum.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CoinDash, a cryptocurrency portfolio management platform based in Israel, was set to launch its Initial Coin Offering (ICO). However, during the event, an attacker changed the CoinDash wallet address posted on the CoinDash website to one they owned. This led to the theft of millions in Ethereum, estimated at the time to be around $7 million. Investors were promised their funds, not in their original cryptocurrency, but in the CoinDash event token. In a surprising turn of events, the attacker returned 10,000 ETH in September and a further 20,000 ETH later. These transactions can be viewed through the CoinDash public wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Compromised Address:</p><p>https://etherscan.io/address/0x6a164122d5cf7c840d26e829b46dcc4ed6c0ae48</p><p><br></p><p>Transaction of Returned ETH:</p><p>https://etherscan.io/tx/0x39ae8444634d679c6618fd28439c80a4a1913e6752008fb88a46bb27d6520aea</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624dbb7e3cbf1.jpeg",
+    "date": "2017-7-1",
+    "scam_updates": [],
+    "proof_link": "https://www.zdnet.com/article/hacker-returns-20000-eth-stolen-during-coindash-ico/, https://blog.coindash.io/20-000-eth-were-sent-from-the-hacker-address-back-to-coindash-product-launch-stay-on-schedule-12d2c75c42d5",
+    "website_link": "https://coindash.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/coindashio",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2928,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
