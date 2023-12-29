@@ -1,0 +1,60 @@
+{
+    "id": 3748,
+    "project_name": "Memecoin",
+    "title": "Fake MEME Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake MEME token rugpull by deployer, removing liquidity worth 188,095 USD from UniSwap pool, resulting in a total loss of 105.27 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MEME is an ERC20 token trading on UniSwap. On Oct 26, 2023, the deployer performed a rugpull by dumping 564,231,958,802,870 MEME tokens and completely depleting the liquidity pool. In the same transaction, the stolen funds were sent to the scammer's address. The scammer then transferred the funds to another EOA and used Dispers.app to distribute 98 ETH to 50 addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x8697f6BfC933ddbCd225900A93B2f7DD6d8F9bf5</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x4649F62750775220f33E0376a3CceB82f69f9527</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xd7e09b71e7945a4cc1f2592bc94eb58343672ce08cc3d35b524090f09fb44e1d</p><p><br></p><p>Stolen Funds Distribution Transaction:</p><p>https://etherscan.io/tx/0x2f8fda5dd5ce832747aa16124516ece0805a604fc89604ed3a02639d8171d4cb</p>",
+    "name_categories": "Token",
+    "token_name": "MEME",
+    "proof_archive_link": "https://archive.ph/UyNkK",
+    "technical_issue": null,
+    "token_address": "0xFac762a5608d75a0cD2248FDD88Bfb6A9711a690",
+    "token_addresses": [
+        {
+            "address": "0xfac762a5608d75a0cd2248fdd88bfb6a9711a690",
+            "url": "https://etherscan.io/address/0xfac762a5608d75a0cd2248fdd88bfb6a9711a690",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653be6583abf4.png",
+    "date": "2023-10-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AegisWeb3/status/1717364171137007648",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 188095,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3748,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
