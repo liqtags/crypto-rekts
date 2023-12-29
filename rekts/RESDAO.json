@@ -1,0 +1,68 @@
+{
+    "id": 3502,
+    "project_name": "RESDAO",
+    "title": "RESDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>RESDAO token experienced a rugpull, with the scammer removing liquidity worth 750,000 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RESDAO is a BEP20 token trading on PancakeSwap. On 18th April, the project was subjected to a significant rug pull. The deployer removed liquidity worth 343,000 and 108,000 $USD from two transactions respectively. Also, an unknown address swapped $RESDAO tokens for $WBNB in another transaction worth approximately 67,000 $USD.</p><p>Furthermore, team members dumped their tokens in another sale transaction that netted them around 232,000 $USD.</p><p>The attacker then transferred all proceeds to Tornado Cash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x0af22d4a7b97d437a01f7b6e29251ebb402fccad</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x6875b4f5f9520f4dee50532161f90b367628acdc35d4ed14e874f3ca388556c1&nbsp;</p><p>https://bscscan.com/tx/0x34a6215f8a7dc797f252adb663aa1bcedc50328f2f729659c7eb29979017a7bc&nbsp;</p><p><br></p><p>Swap Transaction:</p><p>https://bscscan.com/tx/0x69d4ba810ea2c8d93d3ec8cc63fd4e977670313ad0c4dca681435cb4dae55a60</p><p><br></p><p>Dumping Transaction:</p><p>https://bscscan.com/tx/0x30a05c236b1fcff39c317bf4f955f15d13f9d63777a776fbea2c812525a2dcb1</p>",
+    "name_categories": "Token",
+    "token_name": "RESDAO",
+    "proof_archive_link": "https://archive.ph/ypKeg",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc5a25e92e691635bdd6df2e904633dc3152360cd",
+    "token_addresses": [
+        {
+            "address": "0xc5a25e92e691635bdd6df2e904633dc3152360cd",
+            "url": "https://bscscan.com/address/0xc5a25e92e691635bdd6df2e904633dc3152360cd",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xd65aceb376d616a88127f69fd73cd484c9f7aa98",
+            "url": "https://bscscan.com/address/0xd65aceb376d616a88127f69fd73cd484c9f7aa98",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/644175249fd4e.jpg",
+    "date": "2023-4-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1648683528203259904?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RES_DAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 750000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3502,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
