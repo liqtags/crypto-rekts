@@ -1,0 +1,68 @@
+{
+    "id": 3799,
+    "project_name": "Florence Finance",
+    "title": "Florence Finance Phishing Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>FlorenceFinance exit scammed via phishing attack and address poisoning, resulting in a loss of 1,456,162 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Florence Finance, a lending protocol on the Ethereum chain, suffered a phishing attack through address poisoning on Nov 28, 2023. The attacker created a wallet address that closely mimicked a legitimate address, exploiting human error to steal approximately 1,450,000 USDC. After the incident, the hackers converted the funds to Ethereum (ETH) and transferred them to THORChain. Florence Finance has not made an official statement regarding the incident on their Twitter account.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Victim Address:</p><p>https://etherscan.io/address/0xb087cfa70498175a1579104a1e1240bd947f5870</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0xb087269de7ba93d0db2e12ff164d60f0b3675870</p><p>https://etherscan.io/address/0x88E22f0FeeDecEAd439786C76474EC518EDbC1E8</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x67a7a5f258378f953e1561a25f0e264d88ac229d4c6ec871b67a2b399137fed8</p><p><br></p><p>Fake Token Transfers:</p><p>https://etherscan.io/tx/0x02bc1f12fcc13d7408e2643dae3d0c5e91f5b2bf6226e3cc0fd03dc1876c6d60</p><p><br></p><p>THORChain Deposit Transaction:</p><p>https://etherscan.io/tx/0x2cb15e1437d20c1ae1c3a176618950806150bbd01318f62a317969ccaa5ebd82</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xb087269de7ba93d0db2e12ff164d60f0b3675870",
+            "url": "https://etherscan.io/address/0xb087269de7ba93d0db2e12ff164d60f0b3675870",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x88E22f0FeeDecEAd439786C76474EC518EDbC1E8",
+            "url": "https://etherscan.io/address/0x88E22f0FeeDecEAd439786C76474EC518EDbC1E8",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656973ba8da25.jpg",
+    "date": "2023-11-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1730062017434726539",
+    "website_link": "https://florence.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FinanceFlorence",
+    "telegram_link": "https://t.me/florencefinance",
+    "our_post_link": null,
+    "funds_lost": 1456162,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/florence-finance",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3799,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
