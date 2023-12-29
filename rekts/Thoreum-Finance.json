@@ -1,0 +1,68 @@
+{
+    "id": 3320,
+    "project_name": "Thoreum Finance",
+    "title": "Thoreum Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Thoreum Finance protocol was exploited due to the private key leaking. &nbsp;Estimated losses are about $580,000 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Thoreum Finance protocol was exploited, most likely it was an access control issue. Thus, the explorer had the ability to redeploy the proxy contract implementation with malicious logic inside. Approximately 500,000 THOREUM tokens were minted and swapped to WBNB. After that funds were transferred through tornado cash mixer.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0x1ae2dc57399b2f4597366c5bf4fe39859c006f99</p><p><br></p><p>Attack tx:&nbsp;</p><p>https://bscscan.com/tx/0x5058c820fa0bb0daff2bd1b30151cf84c618dffe123546223b7089c8c2e18331</p><p><br></p><p>Tornado cash transfers:&nbsp;</p><p>https://bscscan.com/txs?a=0x1285fe345523f00ab1a66acd18d9e23d18d2e35c</p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "THOREUM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x580dE58c1BD593A43DaDcF0A739d504621817c05",
+    "token_addresses": [
+        {
+            "address": "0x79fe086a4c03c5e38ff8074dea9ee0a18dc1af4f",
+            "url": "https://bscscan.com/address/0x79fe086a4c03c5e38ff8074dea9ee0a18dc1af4f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x7d1e1901226e0ba389bfb1281ede859e6e48cc3d",
+            "url": "https://bscscan.com/address/0x7d1e1901226e0ba389bfb1281ede859e6e48cc3d#code",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ce7e9916427.jpg",
+    "date": "2023-1-19",
+    "scam_updates": [],
+    "proof_link": "https://hacked.slowmist.io/#:~:text=Hacked%20target%3A-,Thoreum%20Finance,-Description%20of%20the, https://www.panewslab.com/zh/sqarticledetails/chr92pfw.html, https://neptunemutual.com/blog/weekly-report-jan-23/",
+    "website_link": "https://thoreum.capital/",
+    "webarchive_link": "https://archive.ph/wip/O3VXj",
+    "twitter_link": "https://twitter.com/ThoreumFinance",
+    "telegram_link": "https://t.me/Thoreum",
+    "our_post_link": null,
+    "funds_lost": 580000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3320,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
