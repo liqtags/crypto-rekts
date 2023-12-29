@@ -1,0 +1,68 @@
+{
+    "id": 3274,
+    "project_name": "Lottery Swap",
+    "title": "Lottery Swap",
+    "description": "<p><strong>Quick Summary</strong></p><p>Lottery Swap was rugpulled by the initial token holder. The scammer drained 82,646 $USD from the liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Lottery Swap is a BEP20 token trading on PancakeSwap. The token deployer sent $LOTTO token to the multiple EOA addresses in the single transaction. Then one of the receivers drained the liquidity from PancakePool and gained 82,646 $USD. 40,000 $USD from the stolen funds were transferred to another EOA address, and the rest was used to add liquidity to the pool again.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x0812f45267784e74e87d5006e192f0942fd248a4</p><p><br></p><p>Token distribution transaction:</p><p>https://bscscan.com/tx/0x94432e289ecb202d942e9578f3d547eb42d4b7de8299b7a418e736ce1fccb4fc</p><p><br></p><p>Token transfer transaction:</p><p>https://bscscan.com/tx/0xc31da3121ea5172fbf8c28e15ee6736acc678906d42f9448a2a7d5044d3a794a</p>",
+    "name_categories": "Token",
+    "token_name": "LOTTO",
+    "proof_archive_link": "https://archive.ph/mDKHi",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x605cFB514a2845902e17ed3c9416bD461e3f2E1B",
+    "token_addresses": [
+        {
+            "address": "0x605cFB514a2845902e17ed3c9416bD461e3f2E1B",
+            "url": "https://bscscan.com/address/0x605cFB514a2845902e17ed3c9416bD461e3f2E1B",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xb3693a38C364FdD572d2DED163eAB569eB30a4E7",
+            "url": "https://bscscan.com/address/0xb3693a38C364FdD572d2DED163eAB569eB30a4E7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6377694257cb8.png",
+    "date": "2022-11-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1589692538168004610",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3274,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
