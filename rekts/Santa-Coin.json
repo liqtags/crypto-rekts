@@ -1,0 +1,68 @@
+{
+    "id": 3240,
+    "project_name": "Santa Coin",
+    "title": "Santa Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>Santa Coin was rug pulled by the token deployer. 764 $BNB was stolen by the scammer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Santa Coin is a BEP20 token trading on PancakeSwap. The token deployer transferred $SANTA tokens to an EOA address which drained liquidity in the pool. The token deployer also removed liquidity and sent 664 $BNB to another EOA address. &nbsp;The remaining 100 $BNB was deposited to the WBNB contract.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x1a97098b09b8be6b457fab6f14f9cbe42c19a2f5</p><p>https://bscscan.com/address/0xc80d7eb1526364e6734c9a35ea56471ea91fae60</p><p>https://bscscan.com/address/0xc40265bc128be43ba04abd22f931fbc8dbf400b2</p>",
+    "name_categories": "Token",
+    "token_name": "SANTA",
+    "proof_archive_link": "https://archive.ph/ID6IF",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x4F1A6FC6A7B65Dc7ebC4EB692Dc3641bE997c2F2",
+    "token_addresses": [
+        {
+            "address": "0x4F1A6FC6A7B65Dc7ebC4EB692Dc3641bE997c2F2",
+            "url": "https://bscscan.com/address/0x4F1A6FC6A7B65Dc7ebC4EB692Dc3641bE997c2F2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xFdF3B6A027839A30A5De3E355708FD45c323F7eC",
+            "url": "https://bscscan.com/address/0xFdF3B6A027839A30A5De3E355708FD45c323F7eC",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6357f0c17a441.png",
+    "date": "2022-10-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1584648833107079169",
+    "website_link": "https://santacoin.io/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 210893,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3240,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
