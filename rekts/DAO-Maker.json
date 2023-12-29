@@ -1,24 +1,24 @@
 {
-    "id": 2556,
+    "id": 2623,
     "project_name": "DAO Maker",
-    "title": "DAO Maker",
-    "description": "<p><strong>Quick Summary</strong></p><p>Hackers exploit smart contract vulnerability in crowdfunding platform DAO Maker, stealing approximately $7 million in USD Coin (USDC) from over 5,000 user accounts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The hackers exploited a smart contract vulnerability in DAO Maker, a platform aimed at raising funds for crypto projects. They initially stole 10,000 USDC and then made 15 more transactions to acquire additional funds, totaling approximately $7 million. The attack affected 5,251 user accounts. According to DAO Maker CEO Christoph Zaknun, the Strong Holder Offering (SHO) contract was targeted because the number of deposits exceeded their expectations. Users with up to $900 in their accounts were reportedly unaffected as the platform moved their funds into different wallets. DAO Maker has suspended all deposits pending a full Root Cause Analysis. Blockchain intelligence firm CipherBlade is conducting an investigation into the hack and has identified a Binance account associated with the attacker. DAO Maker is exploring compensation options for all affected users.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://etherscan.io/address/0xd8428836ed2a36bd67cd5b157b50813b30208f50</p><p><br></p><p>The contract used to perform the attack:</p><p>https://etherscan.io/address/0x1c93290202424902a5e708b95f4ba23a3f2f3cee#code</p><p><br></p><p>The transaction of the attack execution:</p><p>https://etherscan.io/tx/0xeefc22f2dbd8e1b886a7e59f66511e2735f4d04484f6258a9db6e661ed490f7b</p><p><br></p><p>The victim's contract:</p><p>https://etherscan.io/address/0x41B856701BB8c24CEcE2Af10651BfAfEbb57cf49#code</p><p><br></p><p>The transaction of the stolen funds transfer:</p><p>https://etherscan.io/tx/0xa8a61f779f514e59efa05a98152cf56c1942eff6cc56f506dab7c662ac1e775e</p>",
-    "name_categories": "Other,Stablecoin",
+    "title": "DAO Maker (2)",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x2708cace7b42302af26f1ab896111d87faeff92f<br><br>DAO Maker vesting smart contracts had vulnerability that allowed a hacker to take ownership of the contract and withdraw the tokens from it. Tokens of DeRace, Showcase, Ternoa, Coinspaid were affected. The attacker initialized the key parameters of init() and changed the owner at the same time.<br><br>The attacker invoked <u>emergencyExit</u>() function to withdraw tokens at:<br>https://etherscan.io/tx/0xcb5be97496995d58da6f97491845040547b878e53a7b71f907a13408f3a54e5f<br>https://etherscan.io/tx/0x4c273c2403aafd97e4b553f0e381cf1c63e5f2efebbe2ded7642a06f2b68c879<br>https://etherscan.io/tx/0x1692a57f19b5e8e4bc6a372ac3c83c77cd4a1ea78414377ea66d3d59f4a7d2b7<br>https://etherscan.io/tx/0xdd0176475165b83c702d49a876d4dc888b73477ad8833582c72aa6ca5e0bacc3<br><br>The attacker sold tokens at:<br>https://etherscan.io/tx/0xbf38346aacf261f5e169a87ed874c33c21efb060c4a393e2b1443a3ac5d6e3fd<br>https://etherscan.io/tx/0x3436af2c84d67254a4b81adc350c91d1b98ae52b2ff84645d14d4245c2d08c27<br>https://etherscan.io/tx/0xc586a6b94e09556abf46ae3aa8cffa8e46dfcb0c22bce0b024d5e01743ceba9e<br>https://etherscan.io/tx/0x76163daf6cf0c815c02fb1a98f5c6283ee7a922cbad41218eb7a6452c91824c8</p>",
+    "name_categories": "Other",
     "token_name": "DAO",
-    "proof_archive_link": "https://archive.ph/r376i",
+    "proof_archive_link": null,
     "technical_issue": null,
     "token_address": "0x0f51bb10119727a7e5ea3538074fb341f56b09ad",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/61153f633e2cc.jpeg",
-    "date": "2021-8-12",
+    "logo_link": "safe/files/scamDatabase/logo/6137829cdfd16.jpeg",
+    "date": "2021-9-4",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/peckshield/status/1425778230968135684",
-    "website_link": "https://www.daomaker.com/",
+    "proof_link": "https://medium.com/daomaker/removing-all-smart-contract-risk-tech-team-tokens-52c55961e986, https://slowmist.medium.com/intelligence-of-slowmist-zone-dao-makers-vesting-system-was-hacked-5825e4828969, https://rekt.news/daomaker-rekt/",
+    "website_link": "https://daomaker.com/",
     "webarchive_link": null,
     "twitter_link": "https://twitter.com/TheDaoMaker",
     "telegram_link": "https://t.me/daomaker",
     "our_post_link": null,
-    "funds_lost": 6884420,
+    "funds_lost": 4000000,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 2556,
+            "scam_database_id": 2623,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
@@ -49,12 +49,21 @@
     ],
     "auditedBy": [
         {
-            "audit_link": "safe/files/audit/pdf/REP_DaoMaker_Staking_09_06_2021.pdf",
-            "date": "2021-06-09T00:00:00.000Z",
+            "audit_link": "safe/files/audit/pdf/REP_DAO_Maker_Vesting_Bridge_12_04_2021.pdf",
+            "date": "2021-04-12T00:00:00.000Z",
             "partner": {
                 "id": 8,
                 "name": "Certik",
                 "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/DAO_Maker_Vesting_Smart_Contract_Security_Audit_Report.pdf",
+            "date": "2021-05-31T00:00:00.000Z",
+            "partner": {
+                "id": 68,
+                "name": "RD Auditors",
+                "logo_link": "safe/files/partner/logo/61085d0ece3f8.jpeg"
             }
         }
     ]
