@@ -1,0 +1,68 @@
+{
+    "id": 3758,
+    "project_name": "Cool Cats",
+    "title": "COOL20 Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Cool Cats (COOL20) project was rugpulled by deployer, removing liquidity worth 20,961 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>COOL20 is an ERC20 token trading on UniSwap. On Sep 14, 2021, the deployer performed an exit scam by removing the entire liquidity from the UniSwap pool in a single transaction. The deployer removed 6.13 WETH, equivalent to approximately 20,961 USD, from the pool, leaving token holders with no liquidity to trade.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xF51D05c6477F23647c0D4C9832E6A800e77621Ed</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x4cc63498864776cad6464c54099c2d3bd90fc92e9926df813b858cf4f0bf074d</p>",
+    "name_categories": "Token",
+    "token_name": "COOL20",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2dab4ce3490bb50b2ea4c07ab1b6a9cfe29d89b3",
+    "token_addresses": [
+        {
+            "address": "0x2dab4ce3490bb50b2ea4c07ab1b6a9cfe29d89b3",
+            "url": "https://etherscan.io/address/0x2dab4ce3490bb50b2ea4c07ab1b6a9cfe29d89b3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x97ae32f530a68a097c5587101854fd8c4789f09c",
+            "url": "https://etherscan.io/address/0x97ae32f530a68a097c5587101854fd8c4789f09c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65427baa57aeb.png",
+    "date": "2021-9-14",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 20961,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3758,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
