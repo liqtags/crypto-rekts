@@ -1,0 +1,51 @@
+{
+    "id": 454,
+    "project_name": "MoonDate",
+    "title": "MoonDate",
+    "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "MoonDate",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9b79b97d2498d1edc32d4f1c6dd81fd35ca53e4b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60ebf277821c4.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1401245620908609536",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 454,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
