@@ -1,0 +1,76 @@
+{
+    "id": 3570,
+    "project_name": "IPO",
+    "title": "IPO Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>IPO project was rugpulled through custom pools by scammers who drained assets worth 585,153 $USD in two transactions</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>IPO is a BEP20 token trading on custom liquidity pools on Binance Smart Chain. The deployer created these pools with unverified source code, which allowed certain addresses to use privileged functions and drain the pool. On June 20, 2023, the pool was drained for 102,164 $USDT, part of a total loss amounting to 585,153 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x32e4152e2467a076151cb7150e77d1877318d079</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x7861f82209f8f6f82fb8b6ffbb0b3059c1227682</p><p>https://bscscan.com/address/0x35fef3c5642797a4383a07afe3ce7113cc7bfc7b</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xc18fbb466b6bd76ac8111028693792e1e60fef27</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x4b50a547b73739e9aa936ea90d2f15eaa967a20c</p><p><br></p><p>Draining Transactions:</p><p>https://bscscan.com/tx/0x6f678313d97bb7884f546f3a82fd80108eb76073fecad35ef1d76b6b47c65264</p><p>https://bscscan.com/tx/0xadfb6755e8966a8e7073a9b2bb2fb95e84b5605bca79746932c55554487fd161</p>",
+    "name_categories": "Token",
+    "token_name": "IPO",
+    "proof_archive_link": "https://archive.ph/yzATg",
+    "technical_issue": null,
+    "token_address": "0xb524a9a21702813f8ea7a79c16afcb5fb4660544",
+    "token_addresses": [
+        {
+            "address": "0xb524a9a21702813f8ea7a79c16afcb5fb4660544",
+            "url": "https://bscscan.com/token/0xb524a9a21702813f8ea7a79c16afcb5fb4660544#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x89b0a11cf540f9cea55165748097d8104c88e4ae",
+            "url": "https://bscscan.com/address/0x89b0a11cf540f9cea55165748097d8104c88e4ae",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x11c9279da13a3224e8821757434e25554a2f07d7",
+            "url": "https://bscscan.com/address/0x11c9279da13a3224e8821757434e25554a2f07d7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64957739a98fd.png",
+    "date": "2023-6-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1670999046503145472, https://twitter.com/DeDotFiSecurity/status/1681691843266850818",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 585153,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3570,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
