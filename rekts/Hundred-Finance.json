@@ -1,0 +1,108 @@
+{
+    "id": 3480,
+    "project_name": "Hundred Finance",
+    "title": "Hundred Finance (3)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Hundred Finance was hacked due to a price manipulation attack, resulting in 6,701,157 $USD worth of cryptocurrency being drained from various pools.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Hundred Finance is a multichain lending protocol. The protocol experienced a hack due to a price manipulation attack on the Optimism layer-two chain. The attacker deployed malicious smart contract with unverified source code, and then donated 200 $WBTC to inflate hWBTC's exchange rate so that even a tiny amount (2 wei) of $hWBTC could drain current lending pools. The attacker then borrows 500 $WBTC from Aave and deposited into the pool and borrowed funds from all pools because of the inflated price of $hWBTC. Consequently, 500 $WTBC was redeemed back for nothing, which caused the attacker contract being liquidated. This resulted in 6,701,157 $USD worth of cryptocurrency being drained from their lending pools. The hacker bridged over 1,034 $ETH valued at 2,180,000 $USD on the day of transfer along with other cryptocurrencies such as USDC and USDT via Multichain and swapped them for various tokens including DAI, FRAX, PAXG among others. 919,224 $USD worth of $sUSD and $SNX remains at the attackers original address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://optimistic.etherscan.io/address/0x155da45d374a286d383839b1ef27567a15e67528</p><p><br></p><p>Malicious transactions:</p><p>https://optimistic.etherscan.io/tx/0x6e9ebcdebbabda04fa9f2e3bc21ea8b2e4fb4bf4f4670cb8483e2f0b2604f451</p><p>https://optimistic.etherscan.io//tx/0x15096dc6a59cff26e0bd22eaf7e3a60125dcec687580383488b7b5dd2aceea93</p><p><br></p><p>Malicious contracts:</p><p>https://optimistic.etherscan.io/address/0x978d0ce23869ec666bfde9868a8514f3d2754982</p><p>https://optimistic.etherscan.io/address/0x284abd14f54125064b7bcc3b9be84931fa5c9aac</p><p>https://optimistic.etherscan.io/address/0xd340f2208edbbbeca4fe4893d76eaaa5711e702b</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/JpcP8, https://archive.ph/kFmx8, https://archive.ph/GRYQ3",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x35594e4992dfefcb0c20ec487d7af22a30bdec60",
+            "url": "https://optimistic.etherscan.io/address/0x35594e4992dfefcb0c20ec487d7af22a30bdec60#code",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x10e08556d6fdd62a9ce5b3a5b07b0d8b0d093164",
+            "url": "https://optimistic.etherscan.io/address/0x10e08556d6fdd62a9ce5b3a5b07b0d8b0d093164#code",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x371cb7683bA0639A21f31E0B20F705e45bC18896",
+            "url": "https://optimistic.etherscan.io/address/0x371cb7683bA0639A21f31E0B20F705e45bC18896",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0xd97a2591930E2Da927b1903BAA6763618BD7425b",
+            "url": "https://optimistic.etherscan.io/address/0xd97a2591930E2Da927b1903BAA6763618BD7425b",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x0145BE461a112c60c12c34d5Bc538d10670E99Ab",
+            "url": "https://optimistic.etherscan.io/address/0x0145BE461a112c60c12c34d5Bc538d10670E99Ab",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x76E47710AEe13581Ba5B19323325cA31c48d4cC3",
+            "url": "https://optimistic.etherscan.io/address/0x76E47710AEe13581Ba5B19323325cA31c48d4cC3",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0xb994B84bD13f7c8dD3af5BEe9dfAc68436DCF5BD",
+            "url": "https://optimistic.etherscan.io/address/0xb994B84bD13f7c8dD3af5BEe9dfAc68436DCF5BD",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643d0e1b7997d.jpg",
+    "date": "2023-4-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/HundredFinance/status/1647290085476384768, https://twitter.com/PeckShieldAlert/status/1647802990160662531, https://twitter.com/HypernativeLabs/status/1647250459818598401",
+    "website_link": "https://hundred.finance",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/HundredFinance",
+    "telegram_link": "https://t.me/joinchat/z0gRXOqZAEQ1ZDRk",
+    "our_post_link": null,
+    "funds_lost": 6701157,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/hundred-finance",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/V2w9UdSy7u",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3480,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
