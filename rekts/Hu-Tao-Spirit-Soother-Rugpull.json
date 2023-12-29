@@ -1,0 +1,60 @@
+{
+    "id": 3645,
+    "project_name": "Hu Tao Spirit Soother",
+    "title": "Hu Tao Spirit Soother Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Hu Tao Spirit Soother (HUTAO) rugpulled with 163.42 $ETH removed, a total loss of 299,831 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Hu Tao Spirit Soother is an ERC20 token trading on UniSwap. On July 29, 2023, the deployer conducted a rugpull by removing liquidity from the LP pool. The stolen funds were transferred to another EOA address and then distributed between multiple addresses. Specifically, 30 $ETH from the stolen funds were moved through TornadoCash, while the rest were distributed via CoinTool. The total loss in this exit scam is 299,831 $USD, equivalent to 163.42 $ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Ethereum:</p><p>Deployer Address:</p><p>https://etherscan.io/address/0x3B90E63E23B9d720C641595E196C1148f640Cf98</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0xdd53bbcfea5adafd28b08a54f1ac0fc67f74c862</p><p>https://etherscan.io/address/0x13ef205da4294c1742a1e480d947fa198b8c0c5b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x4c839977001b05b4867b563a43324ed7b640f7a6474209ac38fa1cc3fa5e41e5</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0xcce99b88b59cd63e7b65e0d7f45c1c75abb5320726574e6cea14ef04c8424ba2</p><p><br></p><p>CoinTool Distribution Transactions:</p><p>https://etherscan.io/tx/0x3f0745e94367e41a812c569622908aadd1555de53301ec08aa455647cd1cbabe</p><p>https://etherscan.io/tx/0xa9ba1de50fbae18fb2bd823d48ec2555ff43fe4770254638751de467ee806821</p>",
+    "name_categories": "Token",
+    "token_name": "HUTAO",
+    "proof_archive_link": "https://archive.ph/qxtMX",
+    "technical_issue": null,
+    "token_address": "0xc29284ef3551767b37a2ccbd54cfcbd30384b58c",
+    "token_addresses": [
+        {
+            "address": "0xc29284ef3551767b37a2ccbd54cfcbd30384b58c",
+            "url": "https://etherscan.io/address/0xc29284ef3551767b37a2ccbd54cfcbd30384b58c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c942dfa2a9f.png",
+    "date": "2023-7-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1686289542897168384",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 299828,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3645,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
