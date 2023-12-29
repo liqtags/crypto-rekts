@@ -1,0 +1,60 @@
+{
+    "id": 3368,
+    "project_name": "Monkey Drainer",
+    "title": "Monkey Drainer",
+    "description": "<p><strong>Quick Summary</strong></p><p>Monkey Drainer phishing group announced on their Telegram about shutting down the service. The total stolen amount reached 16,506,602 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Monkey Drainer is a crypto scam service, that provides phishing smart contracts. &nbsp;The Monkey hacker announced they shut down the service, deleting all files immediately. The total stolen amount reached 16,506,602 $USD according to SlowMist. The service provided malicious smart contracts with unverified source code to drain the wallets of affected users, including native coins, ERC20 tokens, and NFTs on various chains like Ethereum, Binance, Avalanche and etc. Monkey Drainer<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;took 30% of the stolen funds from the scammers as payment.&nbsp;</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious contract example:</p><p>https://etherscan.io/address/0x5e0102e6448b602fcd955fcfc7ceea9a36e7e5f0</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/L2Qe3, https://archive.ph/cRjsJ, https://archive.ph/B3qZ6, https://archive.ph/t33nf",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x5e0102e6448b602fcd955fcfc7ceea9a36e7e5f0",
+            "url": "https://etherscan.io/address/0x5e0102e6448b602fcd955fcfc7ceea9a36e7e5f0",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64066299e77ba.png",
+    "date": "2023-3-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/leomschwartz/status/1631323340332752899?s=20, https://aml.slowmist.com/events/monkey_drainer_statistics/, https://cointelegraph.com/news/notorious-monkey-drainer-crypto-scammer-says-they-re-shutting-down, https://twitter.com/CertiKAlert/status/1630630006589145104",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 16506602,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3368,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
