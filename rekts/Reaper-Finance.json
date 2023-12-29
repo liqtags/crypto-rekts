@@ -1,0 +1,51 @@
+{
+    "id": 263,
+    "project_name": "Reaper Finance",
+    "title": "Reaper Finance",
+    "description": "<p>The contract deployer minted tokens onto his wallet:<br>https://etherscan.io/tx/0x0a159a37c2e72014209033496cca2ed7ac43e486bdded4ba98ae8c5e3f1e81f1<br><br>Project tokens were distributed between different external wallets in the following transactions:<br>https://etherscan.io/tx/0x62257b4152a800543c26eebd7be4cd8bc4b509d887915ec0f9bae448c5111efe<br>https://etherscan.io/tx/0x0b169173716247129ab7f25e1859957f51c36c75d4191087df01ed2259199b98<br>https://etherscan.io/tx/0x7a0a0a61b54ca8fff839588a51a19f819e3eac61e6e419c49068aad6d614987c<br>https://etherscan.io/tx/0x6a8e9df1d3b193719fc5bf757fc7778ff006029f4a1dd12bc5fb7e24c2b06910<br>https://etherscan.io/tx/0xd068f9dcf5bca56d72017bd168648d41f4d6d774b520466ea604600a261967c9<br>https://etherscan.io/tx/0x6312dc7420d05f07a0c46377982fc5306e10dd0eeca14f23f71047fe9be8cfde<br><br>Second minting invoked by the contract deployer:<br>https://etherscan.io/tx/0xbb0973ad03bffb5432b32861ebc5470f2c6fa30b2d499c0579019b5aa337b5e2<br><br>Addresses, which received tokens, started to sell them after the initial liquidity was added:<br>https://etherscan.io/address/0x7b8c48a2bc40ce9818366c9387e52809abd16575#tokentxns<br>https://etherscan.io/address/0x34e11efcda6e1b700cbb262a1b26df6dc69c92f7#tokentxns<br>https://etherscan.io/address/0xf466c2b2d9a06a618ddcb3b628fb4caf360c0447#tokentxns</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "R3P",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x21130f34829b4C343142047a28ce96EC07814b15",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61988c733c.png",
+    "date": "2020-12-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1336096356465692672",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 31237,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 263,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
