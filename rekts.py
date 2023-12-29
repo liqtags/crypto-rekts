@@ -7,6 +7,7 @@ import time
 import os
 import urllib.request
 import consts
+import subprocess
 
 def rekt_loop(items, start):
     for index, item in enumerate(items[start:], start=start):
@@ -58,7 +59,8 @@ def rekt_loop(items, start):
             rekt.write(markdownFullWithDescription + '\n')
         
         commandToRun = f"git add * && git commit -m 'add {project_name} to rekts'"
-        os.system(commandToRun)
+        returned_value = subprocess.call(commandToRun, shell=True)
+        # os.system(commandToRun)
 
 def convert_html_to_markdown(html):
     print(f"starting converting html to markdown")
@@ -107,7 +109,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items, 3110)
+        rekt_loop(items, 3183)
 
 download_project_images()
 
