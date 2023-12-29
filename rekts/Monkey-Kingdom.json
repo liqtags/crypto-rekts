@@ -1,0 +1,51 @@
+{
+    "id": 2749,
+    "project_name": "Monkey Kingdom",
+    "title": "Monkey Kingdom",
+    "description": "<p>The attacker's address:<br>https://solscan.io/account/HuiYfmAceFkmhu3yP8t3a6VMYfw3VSX2Ymqqj9M2k9ib<br><br>Monkey Kingdom's Discord was flooded with thousands of bots impersonating the Monkey Kingdom or Baepes announcements. They DM-ed users directing them to suspicious websites that require them to connect their wallets.<br><br>When the NFT presale began, the project's announcement channel on Discord was hijacked by the bot named \"Monkey Kingdom\". A Discord webhook got compromised and posted a phishing link to the Announcement channel.<br><br>The attacker was able to steal 316.8 WETH. Stolen funds were bridged through the Wormhole:<br>https://solscan.io/tx/oUbXHMm158RtzoGD3k5ys3y9SiBovQ1smKWANo1QmX144ovmz9bDsUWyhr3Yp9uEnUVZnnLMgXSxDjFvAVJtBs1<br>https://solscan.io/tx/47YYx62nvoeuVenY5iT4GA4LYiiNHd9nYmix69rVxw4DZU3FycQWbPy6ePWirMBEDEFfH3a5jW9wjzsuHFtzxz3D<br>https://solscan.io/tx/2pM5asqypGSjJSZjNf6m6MjoQWsc9vFg91UosukpSbZbxwN3BwmaFRnSa3vFERyZBzGDjTTxKD1h1dKkiaPfsjBt<br>https://solscan.io/tx/4MrJuXHeJLH2cBTzYT9Gjbe8pcXvHsRnF5E5ZnpGVkQ7v3gvDEchWVijMSWjwkF1FyxJXV1yjABs4HWh9tcDqaoM</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61c487c5e7bc4.jpeg",
+    "date": "2021-12-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/MonkeyKingdom_/status/1473312369556213769, https://cointelegraph.com/news/hong-kong-nft-project-monkey-kingdom-loses-1-3m-in-phishing-hack-launches-compensation-fund",
+    "website_link": "https://monkeykingdom.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MonkeyKingdom_",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1273618,
+    "funds_returned": 1273618,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/zBBaT3kbNN",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 2749,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
