@@ -1,0 +1,68 @@
+{
+    "id": 3413,
+    "project_name": "MOON Token",
+    "title": "MOON Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Moon Token project rugpulled by the deployer for 42,117 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MOON is a copycat BEP20 token trading on PancakeSwap, and can't be confused with other project's with the same token name and symbol. The token experienced a significant slippage and its price to plummet by over 99%. The token was rugpulled by its deployer, who removed liquidity worth 42,117 $USD in three transactions. The funds were transferred to multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x409974495299321269ecd320e31e96c858806f12</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x22eb5d7153756b35e8ffca21241006b1920c30ec3210f8dd9ee526ed86792b87</p><p>https://bscscan.com/tx/0xdb36ea76c2be379c5ac5d8aa9a6559749f351b7ffb6ae5c577d0c4295ea212da</p><p>https://bscscan.com/tx/0x4eb0e90803525e688575b785e24dbfff653b04cc096de36d26bc3273c299da5d</p>",
+    "name_categories": "Token",
+    "token_name": "MOON",
+    "proof_archive_link": "https://archive.ph/IgFMg",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x5a6B8Dad072bb9257DcD6B3125126C0637AA2f0a",
+    "token_addresses": [
+        {
+            "address": "0x5a6B8Dad072bb9257DcD6B3125126C0637AA2f0a",
+            "url": "https://bscscan.com/address/0x5a6B8Dad072bb9257DcD6B3125126C0637AA2f0a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xbfd97f8f417ea574c0f0a5780b0aa49c2aba80af",
+            "url": "https://bscscan.com/address/0xbfd97f8f417ea574c0f0a5780b0aa49c2aba80af",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64272523b25ea.png",
+    "date": "2023-2-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1624067943985254403",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 42117,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3413,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
