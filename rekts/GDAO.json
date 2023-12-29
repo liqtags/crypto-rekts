@@ -1,0 +1,68 @@
+{
+    "id": 3257,
+    "project_name": "GDAO",
+    "title": "GDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>GDAO token was rugpulled. The token deployer-related EOA address drained liquidity for 90,302 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GDAO is a copycat BEP20 token trading on PancakeSwap, and can't be confused with other tokens with the same symbol. The token deployer sent 1,000,000 $GDAO tokens to an EOA address, which drained the liquidity and transferred the stolen funds through TransitSwap. The scammer made a profit of 90,302 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x7f12728d771a916d5d0e3f860c7266b56c6d5d71</p><p>https://bscscan.com/address/0xb67b4aa8b785ed87569f0362490cbd54d2878c77</p><p><br></p><p>Token transfer transaction:</p><p>https://bscscan.com/tx/0xb0ed3561b698b363ea375f60cb395ef22fb1ce43017fa8e88281a7cb5185dbf3</p>",
+    "name_categories": "Token",
+    "token_name": "GDAO",
+    "proof_archive_link": "https://archive.ph/mEbE1",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xeB0dafA840Df31F5Ae18d54d96Bf9c7760fDb904",
+    "token_addresses": [
+        {
+            "address": "0xeB0dafA840Df31F5Ae18d54d96Bf9c7760fDb904",
+            "url": "https://bscscan.com/address/0xeB0dafA840Df31F5Ae18d54d96Bf9c7760fDb904",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x297d9533140D06404f139f608a9DD52d8C13c035",
+            "url": "https://bscscan.com/address/0x297d9533140D06404f139f608a9DD52d8C13c035",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63650e2b822f9.png",
+    "date": "2022-10-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1586107119010549761",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 90302,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3257,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
