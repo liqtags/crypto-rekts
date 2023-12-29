@@ -1,0 +1,51 @@
+{
+    "id": 2624,
+    "project_name": "Gold Finance",
+    "title": "Gold Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "GOLD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x967e7ef78afbb658f1894f4d48fbe82899d5c4e8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/613b40de7bf01.jpeg",
+    "date": "2021-9-10",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x967e7ef78afbb658f1894f4d48fbe82899d5c4e8?a=0x6c87c52190128D5C8da6CDc4D1E01C715A167136",
+    "website_link": "https://www.goldfinance.farm",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2624,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
