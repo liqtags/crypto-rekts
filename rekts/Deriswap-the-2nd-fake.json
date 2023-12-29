@@ -1,0 +1,51 @@
+{
+    "id": 52,
+    "project_name": "Deriswap",
+    "title": "Deriswap (the 2nd fake)",
+    "description": "<p>The team merely had a Github profile and a Telegram group, without a full-fledged website and documentation. They posted a bogus Quantstamp audit on Github to confuse the community. The project team pointed to an official report by Andre Cronje about a December conversation between Yearn and Sushi to show even more legit intentions. It's a second time, where anon dev teams use bogus Deriswap contracts to replicate Andre Cronje's work.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x794fae3493861f3ae584a0b73d12f09d397f7a927fc0c948b9372b8fbd6893ee<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x794fae3493861f3ae584a0b73d12f09d397f7a927fc0c948b9372b8fbd6893ee</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "DERI",
+    "proof_archive_link": "https://archive.ph/V5AKS",
+    "technical_issue": null,
+    "token_address": "0x3e0493b7e29a2079B7BA630ccb278005C8A068Eb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4e2bf6ec88.png",
+    "date": "2020-12-17",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/DeriswapOfficial",
+    "our_post_link": "https://t.me/defiyield_ann/297",
+    "funds_lost": 3262,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 52,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
