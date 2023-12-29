@@ -1,0 +1,60 @@
+{
+    "id": 3561,
+    "project_name": "Securedverse Copycat",
+    "title": "Securedverse Copycat",
+    "description": "<p><strong>Quick Summary</strong></p><p>Securedverse copycat project was rugpulled, resulting in a loss of 131,133 $USD due to liquidity removal by a deployer-related EOA.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Securedverse (SVC), a BEP20 token, became a victim of a rugpull executed by a related scammer. Initially, the deployer transferred 500,000,000 $SVC tokens to a distinct address that subsequently added the tokens to the PancakeSwap pool. After a day, this liquidity was removed and the pool was drained entirely by the scammer, allowing them to gain a profit of 131,133 $USD in $BNB. The stolen funds currently reside in the scammer's address. Please note, Securedverse is a clone project and should not be confused with the original.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x525f1fbfe84cd30330ac912bade98743f1b22ae2</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x82e7B460744d66C29B46b184ddf091FA64a9CC1f</p><p><br></p><p>Token Transfer Transaction:</p><p>https://bscscan.com/tx/0xbe9cf5fdf27e6e251c0a8c61609561e432e96a5fd3f8220fadf3e321d5d2f508</p><p><br></p><p>Liquidity Removal Transaction Example:</p><p>https://bscscan.com/tx/0xae5a2ad124a2e132b98b7211742deacc401b1e067abf4ec00547f4834126b3bb</p>",
+    "name_categories": "Token",
+    "token_name": "SVC",
+    "proof_archive_link": "https://archive.ph/n3btZ",
+    "technical_issue": null,
+    "token_address": "0xCFB36F50B4a78091283af660f22Ba499bB233847",
+    "token_addresses": [
+        {
+            "address": "0xcfb36f50b4a78091283af660f22ba499bb233847",
+            "url": "https://bscscan.com/token/0xcfb36f50b4a78091283af660f22ba499bb233847",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6489e6b8ed385.png",
+    "date": "2023-6-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1667540499983474690",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 131133,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3561,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
