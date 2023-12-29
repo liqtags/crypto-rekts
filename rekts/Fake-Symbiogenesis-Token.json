@@ -1,0 +1,60 @@
+{
+    "id": 3811,
+    "project_name": "Symbiogenesis",
+    "title": "Fake Symbiogenesis Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>SYSIS token experienced a rugpull exit scam with 53,639 USD worth of liquidity removed from the UniSwap pool on Nov 28, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SYSIS is an ERC20 token trading on UniSwap. The scammer removed 26.67 ETH, equivalent to 53,639 USD, from the liquidity pool. The stolen funds were then transferred to another EOA address using a smart contract.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xf5e228B8A6Dd3143d568e298207E009a52EfC483</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x95a6FcB5cd21535f22dE07682927E0B83779C180</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x62d292c08a971c8484a1c3ed97b20d36028a0778e631fcfcfae23dd7970ec58c</p><p><br></p><p>Malicious Contract:</p><p>https://etherscan.io/address/0x8B544F47aFccD6BDE7b7087143E2040fDFeF8cca</p>",
+    "name_categories": "Token",
+    "token_name": "SYSIS",
+    "proof_archive_link": "https://archive.ph/k7Dxj",
+    "technical_issue": null,
+    "token_address": "0x0be05Db2b664e0F373d8c39bd2c2E0F93a3799e6",
+    "token_addresses": [
+        {
+            "address": "0x0be05db2b664e0f373d8c39bd2c2e0f93a3799e6",
+            "url": "https://etherscan.io/address/0x0be05db2b664e0f373d8c39bd2c2e0f93a3799e6",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65779bae3efa7.png",
+    "date": "2023-11-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1729412437420777617?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 53639,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3811,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
