@@ -1,37 +1,28 @@
 # Mt. Gox
 ![Mt. Gox](/rektimages/Mt.-Gox.png)
-- Amount Lost: $473,000,000.00
+- Amount Lost: $8,750,000.00
 - Funds Returned: $0.00
 - Category: CeFi
-- Date: 2014-2-24
+- Date: 2011-6-13
 
 **Quick Summary**
 
-One of the world's largest exchanges, Mt. Gox, declared bankruptcy in 2014 after being hacked, while losing most of its assets. At the time of bankruptcy, the exchange held 200k $BTC.
+Mt. Gox Bitcoin exchange suffered a massive breach resulting in the theft of 25,000 BTC (US$400,000 at the time) from 478 accounts, affecting accounts with the equivalent of more than $8,750,000.
 
   
 
 
  **Details of the Exploit**
 
-Mt. Gox was a bitcoin exchange based in Shibuya, Tokyo, Japan. Launched in 2010, it processed more than 70% of all Bitcoin (BTC) transactions worldwide by the beginning of 2014.
-
-At the beginning of 2014, Mt Gox, a bitcoin exchange based in Japan, was the largest bitcoin exchange in the world, handling over 70% of all bitcoin transactions worldwide. By the end of February of that year, it was bankrupt.  
-Anyone who was using Mt. Gox lost access to their assets, and it has been a cautionary tale for crypto investors. While the assets weren’t all lost, anything that was left has been frozen for years.  
-The victim of a massive hack, Mt. Gox lost about 740,000 bitcoins (6% of all bitcoin in existence at the time), valued at the equivalent of €473 million at the time and over $3 billion at October 2017 prices. An additional $27 million was missing from the company’s bank accounts.
+The incident began on 13 June 2011, when Mt. Gox reported the theft of 25,000 BTC from 478 accounts. On 17 June, Mt. Gox's user database was leaked for sale to pastebin, signed by ~cRazIeStinGeR~ and tied to auto36299386@hushmail.com. The theft continued throughout that day. On 19 June, a hacker allegedly used credentials from a Mt. Gox auditor's compromised computer to transfer a large number of bitcoins illegally to himself, causing the nominal price of a bitcoin to fraudulently drop to one cent on the Mt. Gox exchange. The hacker used the exchange's software to sell all the bitcoins nominally, creating a massive "ask" order at any price. The price corrected to its correct user-traded value within minutes.
 
   
 
 
- **Block Data Reference**
-
-Attacker address:
-
-https://www.blockchain.com/btc/address/1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF
-
 
 Proof Links:
-- [https://www.coindesk.com/markets/2014/02/25/mt-gox-allegedly-loses-350-million-in-bitcoin-744400-btc-rumoured-to-be-insolvent/](https://www.coindesk.com/markets/2014/02/25/mt-gox-allegedly-loses-350-million-in-bitcoin-744400-btc-rumoured-to-be-insolvent/)
-- [ https://www.reuters.com/investigates/special-report/bitcoin-gox/]( https://www.reuters.com/investigates/special-report/bitcoin-gox/)
+- [https://www.reuters.com/investigates/special-report/bitcoin-gox/](https://www.reuters.com/investigates/special-report/bitcoin-gox/)
+- [ https://www.investopedia.com/terms/m/mt-gox.asp]( https://www.investopedia.com/terms/m/mt-gox.asp)
+- [ https://www.coindesk.com/markets/2014/02/25/mt-gox-allegedly-loses-350-million-in-bitcoin-744400-btc-rumoured-to-be-insolvent/]( https://www.coindesk.com/markets/2014/02/25/mt-gox-allegedly-loses-350-million-in-bitcoin-744400-btc-rumoured-to-be-insolvent/)
 
 
