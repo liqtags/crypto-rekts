@@ -1,0 +1,51 @@
+{
+    "id": 3068,
+    "project_name": "Dark Light",
+    "title": "Dark Light",
+    "description": "<p><strong>Quick Summary</strong></p><p>Dark Light token has been rugpulled by the contract creator. The contract creator exchanged a sizeable amount of $DK tokens to $BNB via PancakeSwap. The funds were then laundered via Tornado.cash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract creator exchanged 980T $DK tokens for $BNB. Then the received $BNBs were sent to the Scammer's address (B), where all funds were collected and subsequently sent to the scammer's address (C), where they were laundered via Tornado.cash. The exit scam occurred within two hours of the project going live.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract creator, scammer address (A): https://bscscan.com/address/0xe074488ff2394807c936172efaa45d802feb9454</p><p>Scammer address (B):&nbsp;</p><p>https://bscscan.com/address/0x7c734ef5517030ff9bbf4878fca8f1cf0437c6f8</p><p>Scammer address (C): https://bscscan.com/address/0x7bf286752dba3094c209693bdf9a73efa811a0e5</p><p><br></p><p>Contract creator exchanging DK tokens to BNB via PancakeSwap: https://bscscan.com/tx/0x9dffda273e52abc9cf633999306227c2434471af74148c7ef8ad25dff25be060</p><p><br></p><p>Contract creator transferring BNB to scammer address (B): https://bscscan.com/tx/0x9dffda273e52abc9cf633999306227c2434471af74148c7ef8ad25dff25be060</p><p>Scammer address (B) &nbsp;transferring BNB to scammer address (C): https://bscscan.com/tx/0xd09fbd4493e1c8274545228b822578ecf7dcf728d8747183e0e4f18e98b6a01d</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DK",
+    "proof_archive_link": "https://web.archive.org/web/20220701130354/https://twitter.com/PeckShieldAlert/status/1542356181762871296",
+    "technical_issue": null,
+    "token_address": "0x2d1bec79f2789a454134efaab9c4caa28f3c5828",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62bef2f94ffcc.png",
+    "date": "2022-6-30",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x34c48ead1ed3ded4bc6d49a2cb828fae92d79eb6,",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 134120,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3068,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
