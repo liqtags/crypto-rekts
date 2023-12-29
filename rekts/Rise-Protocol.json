@@ -1,0 +1,51 @@
+{
+    "id": 75,
+    "project_name": "Rise Protocol",
+    "title": "Rise Protocol",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xab9d2e399558ca7000f520586427cf15f8d93355540a6926c9b516460f2d293a<br>https://etherscan.io/tx/0x2d49344f24fbba0609c55f5d426a9ac1c5a5ae6d9d1f463165d287ad7b82cd35<br><br>The liquidity was locked till February 12. When the liquidity was unlocked, the contract deployer removed it at:<br>https://etherscan.io/tx/0x3697937bf8b399e98c219f3279b028c864197ed65529f6a28d8d77cdf5d60602<br><br>The part of tokens was sold by the contract deployer at:<br>https://etherscan.io/tx/0x7bb3e71f16bca5ac3de805d3d97eab0b83ec743524b5358e318a508a2827246f</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RISE",
+    "proof_archive_link": "https://archive.ph/B9895",
+    "technical_issue": null,
+    "token_address": "0x3fa807b6f8d4c407e6e605368f4372d14658b38c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d507a1d4816.jpeg",
+    "date": "2021-3-11",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://riseprotocol.io/",
+    "webarchive_link": "https://web.archive.org/web/20210302073443/https://riseprotocol.io/",
+    "twitter_link": "https://twitter.com/RiseProtocol",
+    "telegram_link": "https://t.me/RiseProtocolOfficial",
+    "our_post_link": null,
+    "funds_lost": 59164,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 75,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
