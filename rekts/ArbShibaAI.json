@@ -1,0 +1,60 @@
+{
+    "id": 3496,
+    "project_name": "ArbShibaAI",
+    "title": "ArbShibaAI",
+    "description": "<p><strong>Quick Summary</strong></p><p>ArbShibAI project was rugpulled by its deployer, who removed liquidity worth 68,350 $USD in $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ArbShibAI is a copycat token trading on the Arbitrum layer-two chain. The project experienced a significant liquidity removal during its launch day. Investigation revealed that the token's deployer removed LP funds worth 32.7 $ETH or roughly 68,350 $USD at the current $ETH price from the pool and transferred them to their own address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://arbiscan.io/address/0x3cb228f3f3a0db42e0d774aecb983121acb44ba9</p><p><br></p><p>Liquidity removal transaction:</p><p>https://arbiscan.io/tx/0xf3aff3aaf395acecf6ee9a021973e1f26ea9287fb6f3b7d0870498a37786eb55</p>",
+    "name_categories": "Token",
+    "token_name": "AISHIB",
+    "proof_archive_link": "https://archive.ph/yJnU3",
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xc97522deaae1d3d94cc491cc4f81e0b33f33a13a",
+    "token_addresses": [
+        {
+            "address": "0xc97522deaae1d3d94cc491cc4f81e0b33f33a13a",
+            "url": "https://arbiscan.io/address/0xc97522deaae1d3d94cc491cc4f81e0b33f33a13a",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643ece0fec403.jpg",
+    "date": "2023-4-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1648245567087316992?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ArbShiba_AI",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 68350,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3496,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
