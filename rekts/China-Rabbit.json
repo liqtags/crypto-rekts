@@ -1,0 +1,60 @@
+{
+    "id": 3428,
+    "project_name": "China Rabbit",
+    "title": "China Rabbit",
+    "description": "<p><strong>Quick Summary</strong></p><p>On Jan 15, 2023, the team behind the China Rabbit Token token executed a rug pull, resulting in a loss of funds worth $88k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the China Rabbit <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Token</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0x914b9044ae7325201e6042693fde329900061d88</p><p>Example TX of sale:</p><p>https://bscscan.com/tx/0x407409410f2bfbdadb26aae2252f7280ea9674fbae5ba05d0e7ea0215a283e4a</p>",
+    "name_categories": "Token",
+    "token_name": "ChinaRabbit",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5116737A7275c70E9A338D33184c5cd1A5B20630",
+    "token_addresses": [
+        {
+            "address": "0x5116737A7275c70E9A338D33184c5cd1A5B20630",
+            "url": "https://bscscan.com/address/0x5116737A7275c70E9A338D33184c5cd1A5B20630",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642bf92f621db.png",
+    "date": "2023-1-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1614697666553810946?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 88000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3428,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
