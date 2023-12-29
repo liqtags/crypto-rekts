@@ -1,0 +1,60 @@
+{
+    "id": 3440,
+    "project_name": "YPT",
+    "title": "YPT",
+    "description": "<p><strong>Quick Summary</strong></p><p>On March 31, 2023, the team behind the YPT Token token executed a rug pull, resulting in a loss of funds worth $60k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the YPT <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Token</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0x74ed6319a1ca738c088ab7b61e5287eb776257af</p><p>Example TX of removing liquidity:</p><p>https://bscscan.com/tx/0x299d3210042f056f9efa338c5e8f81e7da8b98dba8f2b53464366869ec381e1e</p><p>https://bscscan.com/tx/0xac2124305fb9d6df194e3c59abd98aa891ff0819fe9e5544dfa15af97155b0d4</p><p>https://bscscan.com/tx/0xeaabea92959f4cd147c71c8449f5c053f7525e62be2b1d7e86565602fb86fb9e</p><p>https://bscscan.com/tx/0xbdd13dfdcd1f14eba1e7035c5c04287924c720404d0e4083fe2a33ba01cb9c69</p>",
+    "name_categories": "Token",
+    "token_name": "YPT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd80c121703efe9873b36f72343bd868665613d91",
+    "token_addresses": [
+        {
+            "address": "0xd80c121703efe9873b36f72343bd868665613d91",
+            "url": "https://bscscan.com/address/0xd80c121703efe9873b36f72343bd868665613d91",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d72a2cd864.png",
+    "date": "2023-3-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1641643970546786305?s=46&t=DefKAWsE5N91p9nzDiwo6A",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 60000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3440,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
