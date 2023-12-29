@@ -1,0 +1,60 @@
+{
+    "id": 3794,
+    "project_name": "Creso",
+    "title": "Fake CRE Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>CRE token was rugpulled by deployer, removing liquidity worth 153,603 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CRE is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer removed liquidity from the LP pool in an exit scam. The stolen funds, equivalent to 640.73 WBNB or 153,603 USD, were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.io/address/0xF0F261953b11FC786B1B8918e901f4A9A9bCC606</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.io/tx/0x775977be67a3eb458691cd03d27bbd183c2fa6fcfe87ed584c6f46a4da8b2255</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.io/tx/0x0ee1cb2c8dd00b636509a8218c6f3ca7fd5f63796aec78d3d0cf498e64da4c02</p>",
+    "name_categories": "Token",
+    "token_name": "CRE",
+    "proof_archive_link": "https://archive.ph/kE1Ct",
+    "technical_issue": null,
+    "token_address": "0x1300E8702240429A4f3f66cB6aB2dEF51C0a2ee7",
+    "token_addresses": [
+        {
+            "address": "0x1300e8702240429a4f3f66cb6ab2def51c0a2ee7",
+            "url": "https://bscscan.com/address/0x1300e8702240429a4f3f66cb6ab2def51c0a2ee7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6566f8f0bd8e2.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727903566919315555",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 153603,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3794,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
