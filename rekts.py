@@ -61,9 +61,11 @@ def make_toc(items, filename):
     tocsWithTitle = "# Table of Contents\n\n"
     for item in items:
         project_name = item['project_name']
+        formatted_funds_lost = "${:,.2f}".format(item['funds_lost'])
         slugged_name = project_name.replace(" ", "-")
         linkToMarkdownFile = f'/rekts/{slugged_name}.md'
-        tocsWithTitle += f"- [{project_name}]({linkToMarkdownFile})\n"
+        tocsWithTitle += f"- [{project_name}]({linkToMarkdownFile}) - {formatted_funds_lost} \n"
+        # tocsWithTitleAndSumLost
     with open(filename, 'w') as readme:
         readme.write(tocsWithTitle + '\n')
 
@@ -75,7 +77,7 @@ def make_title(filename):
                 
 def download_project_images():
     # with open('1-small.json', 'r') as f:
-    with open('rektdb.json', 'r') as f:
+    with open('1-small.json', 'r') as f:
         data = json.load(f)
         items = data['items']
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
