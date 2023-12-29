@@ -1,0 +1,51 @@
+{
+    "id": 205,
+    "project_name": "Mocha Set Dollar",
+    "title": "Mocha Set Dollar",
+    "description": "<p>The contract deployer increased liquidity by utilizing funds from his Binance wallet. When the liquidity of the protocol grew after two days, the owner removed liquidity and transferred funds to his regular wallet. The website is unavailable, and the contract deployer took away 8.9 ETH.<br><br>https://etherscan.io/tx/0x70514480e3ac84d07a0f8b0868fe35aff13fe7ee0f96f80fe13abdfc8f9e8049</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "MSD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf457ea19f2bbfb5f7c7c647c04edb05bdfe7177e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5dd482861b.png",
+    "date": "2021-1-3",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/AA8Vc",
+    "website_link": "http://mocha.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/380",
+    "funds_lost": 8780,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 205,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
