@@ -1,0 +1,51 @@
+{
+    "id": 133,
+    "project_name": "Vadia Finance",
+    "title": "Vadia Finance",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xdbc4f7a5d62f32243055a26d9ee43c2cb2f3d25951340a31f0f74d58ab53f03c<br><br>The external wallet used hidden minting functionality under the <u>approve</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xac95d899152692f7444ac79515dddd9f77d2dd4724eb021181084f3b1ec65a07<br><br>The minted tokens were sold by the external wallet at:<br>https://etherscan.io/tx/0x96dc3c17a809513d43699b5f709009f2da99c6d807916051e6ebcbcb0c6df1ac<br><br>Stolen funds were transferred to the wallet, marked as Phishing4814 by the Etherscan:<br>https://etherscan.io/tx/0xaf4b3b5bb1b6593e060a347d524be7d41ff37c65d7e14a4ee2c6390b5e5e25be</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX)",
+    "token_name": "VAD",
+    "proof_archive_link": "https://archive.ph/3dw7H, https://archive.ph/g4Rk4",
+    "technical_issue": null,
+    "token_address": "0xff0a3c3394765700611bc4cac016821aeca7d1a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f6d907bb4c0.jpeg",
+    "date": "2020-12-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://vadia.world/",
+    "webarchive_link": "https://web.archive.org/web/20201128002805/https://vadia.world/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8992,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 133,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
