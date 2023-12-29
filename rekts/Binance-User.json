@@ -1,0 +1,60 @@
+{
+    "id": 3774,
+    "project_name": "Binance User",
+    "title": "Binance User Access Control Exploit",
+    "description": "<p><strong>Quick Summary</strong></p><p>27,071,365 USDT and 11 ETH were stolen from a Binance user, private key leakage suspected.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On Nov 11, 2023, an attacker exploited an Ethereum address and drained 27,071,365 USDT and 11 ETH. The victim had received these USDT 9 days prior from Binance. The attacker quickly swapped the stolen USDT for ETH and transferred the funds to another EOA, distributing them between multiple addresses. The stolen funds were then sent to various services, including WhiteBIT, FixedFloat, and SideShift, and bridged to Bitcoin via THORChain.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x03C401124DC8f1d04722EB00d4D925bd7d9F37E3</p><p><br></p><p>Involved Addresses:</p><p>https://etherscan.io/address/0xe6Deb829c8c91D4fa34D4D06a5C653899054Ba98</p><p>https://etherscan.io/address/0x036163Ec67b9FE977963a4A64daD2bc7B644d1c0</p><p>https://etherscan.io/address/0x0887946Ce8df0EF08B96397422aC8E87552D879A</p><p>https://etherscan.io/address/0xBB389d6aAbE75885e191CcC0177F13Ad80a2F129</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x0f2183c8e415e61b4ad7774bf1097019eb2d5b85798a2a229070495131d60321</p><p><br></p><p>FixedFloat Transaction:</p><p>https://etherscan.io/tx/0x59e18a4371ba73b459013c6f450803155d41d1edf36ee450d6cfde57f2fa753f</p><p><br></p><p>White BIT Transaction:</p><p>https://etherscan.io/tx/0xe38f12a061748adddf2049536af370a2924cfa045160be887f744f850926e021</p><p><br></p><p>THORChain Router Transaction:</p><p>https://etherscan.io/tx/0xba8ed2746c953b1373d12cb00907ed5822fafbfb562f83a232febe15d16ecbfa</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/iQdzA",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xa8D8A06aBc05ac7049f0E6941ce82f078e5F5bcE",
+            "url": "https://etherscan.io/address/0xa8d8a06abc05ac7049f0e6941ce82f078e5f5bce",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6554711d68d40.jpg",
+    "date": "2023-11-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/zachxbt/status/1723757797316133240?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 27093953,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3774,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
