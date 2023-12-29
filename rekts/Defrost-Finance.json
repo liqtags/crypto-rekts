@@ -1,0 +1,92 @@
+{
+    "id": 3296,
+    "project_name": "Defrost Finance",
+    "title": "Defrost Finance",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Defrost has been hacked with losses reaching $12M. The protocol\u2019s V1 and V2 have been affected.</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">There are suspects the attack was an insider job.</span></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On December 23th 2022, Defrost reported they had been exploited due to missing reentarncy lock in flashloan() and deposit() functions. As a result, the share price of LSWUSDC was manipilated and approximately $173K were gained by the attacker.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Later on, it was revealed that the protocol\u2019s vaults have been exploited as well: a fake collateral token was added, and though calling the setOracleAddress() function, the price oracle was replaced with a malicious one leading to liquidations of user collaterals in Defrost\u2019s vaults. The loss estimation is $12M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The risk of user funds liquidations in case of replacing oracle to a malicious one was reported by Defiyield in its audit:&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://defiyield.app/audit-database/defiyield/defrost_finance &nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/address/0x7373dca267bdc623dfba228696c9d4e8234469f6\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/address/0x7373dca267bdc623dfba228696c9d4e8234469f6</span></a></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exploit transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/tx/0xc6fb8217e45870a93c25e2098f54f6e3b24674a3083c30664867de474bf0212d\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/tx/0xc6fb8217e45870a93c25e2098f54f6e3b24674a3083c30664867de474bf0212d</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">An example transaction of the oracle replacement:&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://snowtrace.io/tx/0x34eb46f498c418285323e6e146ae84ea836e49822fa254c865f59d650261c3dd\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://snowtrace.io/tx/0x34eb46f498c418285323e6e146ae84ea836e49822fa254c865f59d650261c3dd</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:13.5pt;font-family:Roboto,sans-serif;color:#373f47;background-color:#ffffff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>UPD</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">On December 26th, the Defrost team reported the stolen funds had been returned, and they are going to check onchain what users have been affected in order to send them their funds back.&nbsp;</span></p>",
+    "name_categories": "Stablecoin",
+    "token_name": "MELT",
+    "proof_archive_link": "https://twitter.com/Defrost_Finance/status/1607382811148800001?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1607382811148800001%7Ctwgr%5E4575898ef4f70ea1616a69679701b17c45a2f36f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcryptoslate.com%2Fdefrost-finance-says-it-has-recovered-lost-funds-worth-12-million-from-hacker%2F, https://archive.ph/HRpJy",
+    "technical_issue": null,
+    "token_address": "0x47EB6F7525C1aA999FBC9ee92715F5231eB1241D",
+    "token_addresses": [
+        {
+            "address": "0xfF152e21C5A511c478ED23D1b89Bb9391bE6de96",
+            "url": null,
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0x792E8f3727cad6e00c58d478798F0907c4cEC340",
+            "url": null,
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0x29BC14D1720f8ba74B7e62E223FBd79AF90B3Ae0",
+            "url": null,
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0x69526dE7CcA6886C5Dd0D8513811B0C1431B79aC",
+            "url": null,
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0xd8AFaa43f68D1f4D763FBCFacc8bB2aF38bE05BC",
+            "url": null,
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63aacb5096a17.png",
+    "date": "2022-12-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1606276020276891650?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1606276020276891650%7Ctwgr%5E4575898ef4f70ea1616a69679701b17c45a2f36f%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fcryptoslate.com%2Fdefrost-finance-says-it-has-recovered-lost-funds-worth-12-million-from-hacker%2F, https://twitter.com/peckshield/status/1606767457099993088",
+    "website_link": "https://www.defrost.finance/home",
+    "webarchive_link": "https://archive.ph/8OmKR#selection-655.39-655.44, https://archive.ph/1ZShV",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12000000,
+    "funds_returned": 12000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3296,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
