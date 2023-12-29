@@ -1,0 +1,60 @@
+{
+    "id": 3725,
+    "project_name": "CommEX",
+    "title": "CommEX Fake Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>CMX (fake token) rugpulled with liquidity removal, stealing 134,077 $USD worth 635.86 WBNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CMX, a BEP20 token trading on PancakeSwap, faced a significant exitscam on Oct 6, 2023. The deployer removed liquidity from the LP pool and transferred the stolen funds to another EOA address. These funds were further distributed among multiple addresses, part still remained deployer wallet as BSC-USD, and a portion was sent to a Bybit deposit through the scammer's address. The fraudulent CMX token was promoted in Russian-language Telegram groups. Before the final withdrawal, the token creator withdrew liquidity five times, utilizing these funds to buy back CMX tokens. This strategy artificially inflated the token's price, deceiving investors into thinking the project was thriving.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x67F09504bdB0B1C582f6F4318495e5319B57b888</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x041b8ED193eD1357886d360f5F0348Ff6C9F1bA4</p><p>https://bscscan.com/address/0xc6ae76C457FA4169c1c8a72045F3d9F36FEE98d5</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x56a8cc9186bdfef4fd709cf7786bcd20daba1ecee92cdeeedeeecea2834dcbe2</p><p><br></p><p>Bybit Deposit Transaction:</p><p>https://bscscan.com/tx/0x51c7f193349052dbe8609241aa16e9afeba182f4f91e6b996598985141f265fe</p>",
+    "name_categories": "Token",
+    "token_name": "CMX",
+    "proof_archive_link": "https://archive.ph/KRh4g",
+    "technical_issue": null,
+    "token_address": "0xD1C3ee0f845bCc38a8cB9Dc5337dFd5a372Bb8Ed",
+    "token_addresses": [
+        {
+            "address": "0xD1C3ee0f845bCc38a8cB9Dc5337dFd5a372Bb8Ed",
+            "url": "https://bscscan.com/address/0xD1C3ee0f845bCc38a8cB9Dc5337dFd5a372Bb8Ed",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/652026dc2b6a2.png",
+    "date": "2023-10-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1710218626358222914",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 134077,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3725,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
