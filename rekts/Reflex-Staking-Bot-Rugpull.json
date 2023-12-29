@@ -1,0 +1,68 @@
+{
+    "id": 3699,
+    "project_name": "Reflex Staking Bot",
+    "title": "Reflex Staking Bot Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Reflex Staking Bot rugpulled by deployer, removing liquidity worth 236,801 USD from UniSwap pool in four transactions.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>Reflex Staking Bot (REFLEX) is an ERC20 token trading on UniSwap. On Aug 24, 2023, the token's deployer conducted an exit scam by removing liquidity from the pool in four different transactions. The stolen funds, amounting to 145.01 ETH or approximately 236,801 USD, are currently held in the creator's wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xc765faECA19B33483f2A105e7B02e309393A45B0</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://etherscan.io/tx/0xda120158b31622ffcfab6f3e79b2a61a92d0ad7906f391a9fc25f1c8c25a629a</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://etherscan.io/tx/0x09ac2c83f41b2dc9f1c2d002f0710ffd61d9a832a0d488cc148305c9a25946c6</p><p>https://etherscan.io/tx/0x31b21fa153d9445866d016425d77a9286f26f3747ebd8febf384f7211e7e4daf</p><p>https://etherscan.io/tx/0x43c1d98e8285aed98ef241082d2aeb88459e9d839faf202bbf3ffd9b46b6b778</p><p>https://etherscan.io/tx/0x5fa46f1558753384c4c7a5df07247d9e4e7ad26240feeccaef92880460f78d6a</p>",
+    "name_categories": "Token",
+    "token_name": "REFLEX",
+    "proof_archive_link": "https://archive.ph/XexnI",
+    "technical_issue": null,
+    "token_address": "0x02c7644d98637cbb962a85e5bc1ef2c73def4c4f",
+    "token_addresses": [
+        {
+            "address": "0x02c7644d98637cbb962a85e5bc1ef2c73def4c4f",
+            "url": "https://etherscan.io/token/0x02c7644d98637cbb962a85e5bc1ef2c73def4c4f",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xb57b8a70c51a03a99dfea8a49c8e47692acfdd29",
+            "url": "https://etherscan.io/address/0xb57b8a70c51a03a99dfea8a49c8e47692acfdd29",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64f7214f3fe1f.png",
+    "date": "2023-8-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1694282366812848494",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 236801,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3699,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
