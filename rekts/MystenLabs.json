@@ -1,0 +1,60 @@
+{
+    "id": 3442,
+    "project_name": "MystenLabs",
+    "title": "MystenLabs",
+    "description": "<p><strong>Quick Summary</strong></p><p>On March 28, 2023, the team behind the MYSL Token token executed a rug pull, resulting in a loss of funds worth $38.3K USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the MYSL <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Token</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0x76f3935ad8b32ab7bbfa0067460275eb870b0d8a</p><p>Example TX of removing liquidity:</p><p>https://bscscan.com/tx/0x509d851317e657cafec4ab838633603eaa55ceeb24d72f77ce5ef83c7361ec00</p><p>https://bscscan.com/tx/0x05fcbb2ab613d77af522359a9dd98afbf0f885f835f761f2f593c11d6f919ff1</p><p>Example TX of swaps:&nbsp;</p><p>https://bscscan.com/tx/0x6667d56d473dd0b627a0b13262779956b202b3ac5a44ccc2e4f7561d2e9df036</p><p>https://bscscan.com/tx/0xa3ba2f54c0b58a1a9823903244992a4f6ab38ff27abf3b1248f1e7f5603e69b3</p><p>https://bscscan.com/tx/0xc35e82981d230e322b8e45ce348e47f0d4c29ddce5a6ce190b300d2b0718a281</p>",
+    "name_categories": "Token",
+    "token_name": "MYSL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3Ec8e938C7EFb109B60D27e7542DB283e297378f",
+    "token_addresses": [
+        {
+            "address": "0x3Ec8e938C7EFb109B60D27e7542DB283e297378f",
+            "url": "https://bscscan.com/address/0x3Ec8e938C7EFb109B60D27e7542DB283e297378f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d742625b9d.png",
+    "date": "2023-3-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1640776416709976070?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 38300,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3442,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
