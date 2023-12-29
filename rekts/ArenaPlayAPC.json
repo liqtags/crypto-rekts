@@ -1,0 +1,51 @@
+{
+    "id": 3100,
+    "project_name": "ArenaPlayAPC",
+    "title": "ArenaPlayAPC",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">A soft rugpull was noticed in the $APC token. The team took away approximately 1200 $BNB in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The creator of the token deployed the contract to the BSC network, where 100M tokens were minted on the address (B):</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x0fb8c25a81d96ae3cdc6271d674cdc483e7f50dc19405c7aa5cd5c9db284f2b8&nbsp;</p><p style=\"margin:0cm;background:white;\">Address (B) sent 150k $APC to the address (C) in this transaction:&nbsp;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x96510bd23322bf0b51dcb62b1fe17b9238f1aee6fadf91a37152593426397322</p><p style=\"margin:0cm;background:white;\">Then address (C) interacted with address (D) that later transferred 1200 $BNB through Tornado.cash:</p><p style=\"margin:0cm;background:white;\">Interactions transaction: https://bscscan.com/tx/0x10978099e2f17e61cffef19b4353323bdadbf005063cd6557e156c35c1503762</p><p style=\"margin:0cm;background:white;\">Address (E) received 1M $USDT from Binance Hot Wallet and 14 $BNB from Tornado.cash which then distributed funds to the bot addresses:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x94609a43eb6c2967862788fb84014a37faf28ed55f5cad504a98ae994511723a</p><p style=\"margin:0cm;background:white;\">Bots started creating fake trade volume in order to attract investor's attention in this project. When investors deposited funds into the token, part of the money ~1.2M $USDT was sent to address (D) in multiple transactions.</p><p style=\"margin:0cm;background:white;\">Example transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x542f6f8c43eb79bd46aa1f09dbc1502f65c60c4f7dae33ffdd018b0230d2edf3</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x0246a3220120bb7922ce7318799cbbbb1697c78c8c29090f6d56a6a14348f018</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0xb7a52cc614205b1d5795d6e8a1bdcb5d69216c8c77a1a457637f77774c0557e0</p><p style=\"margin:0cm;background:white;\">Then 1200 $BNB was withdrawn via Tornado.cash.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Token creator (A): https://bscscan.com/address/0x4e6b2534e1c030e2a849c1bd6409de609bdcf81f</p><p style=\"margin:0cm;background:white;\">Address (B): https://bscscan.com/address/0x34242a391f8e2d9c8a4f11bbcadc385cee6b3e32</p><p style=\"margin:0cm;background:white;\">Address (C): https://bscscan.com/address/0xd73fc94a4dfc5f2a31b73d668de816c39cf8d9de</p><p style=\"margin:0cm;background:white;\">Address (D): https://bscscan.com/address/0x0fc7ce891d8403c751555368f3b2e096aee5dcbe</p><p style=\"margin:0cm;background:white;\">Address (E): https://bscscan.com/address/0x17034afd3492E4141270478b59584e4e1D1E08AC</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Example bot addresses:</p><p style=\"margin:0cm;background:white;\">Address (F): https://bscscan.com/address/0xea2d5cacd55051d30b3ad0bdce73047993495777</p><p style=\"margin:0cm;background:white;\">Address (G): https://bscscan.com/address/0x03a018efa37867eb0a00b7e8d308d3cc37bd8a0f</p><p style=\"margin:0cm;background:white;\">Address (H): https://bscscan.com/address/0xcdb2a8d067dcb115c26c4b9f2024ef10bdccd73f</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Token creation: https://bscscan.com/tx/0x0fb8c25a81d96ae3cdc6271d674cdc483e7f50dc19405c7aa5cd5c9db284f2b8</p>",
+    "name_categories": "Gaming / Metaverse,Token",
+    "token_name": "APC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2aa504586d6cab3c59fa629f74c586d78b93a025",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62da87f1e7008.png",
+    "date": "2022-7-15",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x3de032d5d11c94d2d79dba0c34d7851ffaa05dd8",
+    "website_link": "https://www.apcweb.top",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ArenaPlayAPC",
+    "telegram_link": "https://t.me/ArenaPlayOnly",
+    "our_post_link": null,
+    "funds_lost": 204259,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/Jc4cXtwaay",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3100,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
