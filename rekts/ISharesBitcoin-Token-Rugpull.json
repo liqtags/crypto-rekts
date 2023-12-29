@@ -1,0 +1,60 @@
+{
+    "id": 3749,
+    "project_name": "iSharesBitcoin",
+    "title": "ISharesBitcoin Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>IBTC token project was rugpulled by the deployer after removing liquidity worth 87,947 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>IBTC is a BEP20 token trading on PancakeSwap. On Oct 26, 2023, the deployer and scammer sent funds from Binance to their addresses. It is assumed that the deployer created the contract in a way that allowed it to be hacked later. The scammer (0xf4956850dd33Ae01018Cc0075E60dC21499c5B37) minted a significantly larger number of tokens and then rug pulled by selling 1,000,000,000,000,000 IBTC, completely depleting the liquidity pool. The stolen funds were transferred to another EOA and then distributed between multiple addresses, resulting in a total loss of 87,947 USD worth 394.76 WBNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xc329504902ad087445822fBa1ae1Ac19d7918Ed9</p><p><br></p><p>Scammers Addresses:</p><p>https://bscscan.com/address/0xf4956850dd33Ae01018Cc0075E60dC21499c5B37</p><p>https://bscscan.com/address/0x3f04768Eaf45f1F5961857c0216E36A49Cc704ED</p><p>https://bscscan.com/address/0x336dd91Ce7f72d7Ae07a70100247e49f769ABb11</p><p><br></p><p>Token Swap Transaction:</p><p>https://bscscan.com/tx/0x8a92789d6702ca158c2187281f57dfe9a97dd2bb476aad542c7753b224da0341</p><p><br></p><p>Funds sending from the Binance exchange Transaction:</p><p>https://bscscan.com/tx/0xd70007a6a9fb119e0b391952801cf96b80ff0af6189d4f0fa6e933ce76195e94</p>",
+    "name_categories": "Token",
+    "token_name": "IBTC",
+    "proof_archive_link": "https://archive.ph/LKI4S",
+    "technical_issue": null,
+    "token_address": "0xDc68EED00bce879fb920076Eaf227a99d7927929",
+    "token_addresses": [
+        {
+            "address": "0xdc68eed00bce879fb920076eaf227a99d7927929",
+            "url": "https://bscscan.com/address/0xdc68eed00bce879fb920076eaf227a99d7927929",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653d0af6e4e14.png",
+    "date": "2023-10-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1717451477092905449",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 87947,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3749,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
