@@ -1,0 +1,60 @@
+{
+    "id": 3588,
+    "project_name": "Beamsplittr",
+    "title": "Beamsplittr",
+    "description": "<p><strong>Quick Summary</strong></p><p>Beamsplittr project was rugpulled with 60,824 $USD lost by the deployer using a privileged function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Beamsplittr, an Ethereum-based token, fell victim to a rugpull by its deployer. Using a privileged function 'collectTaxDistribution', the deployer minted and sold 9,990,000,000,000 $BSPLT tokens for 31.98 $ETH, draining the UniSwap pool, and causing a loss of 60,824 $USD. The stolen funds were transferred to another EOA address and then deposited into the Incognito protocol.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x1BA8ff408D1Ff0AA37d096a29d68f36246EC3533</p><p><br></p><p>Liquidity Draining Transaction:</p><p>https://etherscan.io/tx/0xe637b5954e6e3e7cd9637b2b853f56548f946f583e73267ab84b78fe5317e633</p><p><br></p><p>Deposit Transaction:</p><p>https://etherscan.io/tx/0xfb1405c25b2975ec2f8e29990216b4da1e5b6428cd9d8d6643e1929884f17494</p>",
+    "name_categories": "Token",
+    "token_name": "BSPLT",
+    "proof_archive_link": "https://archive.ph/3Krd8",
+    "technical_issue": null,
+    "token_address": "0x05c9b6764a153faf4262d3885a845af694775953",
+    "token_addresses": [
+        {
+            "address": "0x05c9b6764a153faf4262d3885a845af694775953",
+            "url": "https://etherscan.io/token/0x05c9b6764a153faf4262d3885a845af694775953",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64a5947bb4955.png",
+    "date": "2023-6-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1673543606496550913?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 60824,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3588,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
