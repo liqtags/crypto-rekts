@@ -1,5 +1,5 @@
 {
-    "id": 2244,
+    "id": 497,
     "project_name": "Centra",
     "title": "Centra",
     "description": null,
@@ -9,8 +9,8 @@
     "technical_issue": null,
     "token_address": "0x96a65609a7b84e8842732deb08f56c3e21ac6f8a",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/613b460695086.png",
-    "date": "2021-9-10",
+    "logo_link": "safe/files/scamDatabase/logo/60ec0fe3ca2a9.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 2244,
+            "scam_database_id": 497,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
