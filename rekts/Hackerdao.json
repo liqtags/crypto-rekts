@@ -1,0 +1,51 @@
+{
+    "id": 3020,
+    "project_name": "Hackerdao",
+    "title": "Hackerdao",
+    "description": "<p>On May 24th, Hackerdao token contract was attacked for 200BNB. The WBNB-Hackerdao pair has been drained in this transaction 0x04673c950....</p><p><br></p><p>Attacker transaction: https://bscscan.com/tx/0x04673c95054247588bb8380dbc7d361f08f8f0baa319366f48ad46e51d08422d</p><p>Blocksec transaction: https://versatile.blocksecteam.com/tx/bsc/0x04673c95054247588bb8380dbc7d361f08f8f0baa319366f48ad46e51d08422d</p><p>Attacker address: https://bscscan.com/address/0xcFc591dB031B760961Fe8943a183741ED7Cd1f82</p><p>Attacker contract: https://bscscan.com/address/0x24cb6980995aeb7d5a9204e04b17dcd1e99a4694</p><p>Victim contract: https://bscscan.com/address/0x94e06c77b02Ade8341489Ab9A23451F68c13eC1C</p><p><br></p><p>Attack step by step:</p><p>1) The attacker used the logic of the Hackerdao contract vulnerability, in which the _transfer function incorrectly processes the uniswapV2 pair.</p><p>2) Then, if the recipient's address is the specified Uniswap pair (BSCUSD-Hackerdao pair, 0xbdb426a2fc2584c2d43dba5a7ab11763dfae0225), the additional commission amount will be further reduced from the sender. This leads to a typical pattern of token attacks: if the balance of a Uniswap pair can be reduced without any swap (i.e. the difference between the recorded reserves and the actual token balances), there is a possibility of price manipulation.</p><p>3) The attack is carried out by switching from a pair of WBNB-Hackerdao to a pair of BSCUSD-Hackerdao, which leads to an unbalanced price.</p>",
+    "name_categories": "Other",
+    "token_name": "Hackerdao",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x94e06c77b02Ade8341489Ab9A23451F68c13eC1C",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/628e26e7b2177.png",
+    "date": "2022-5-24",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": "https://twitter.com/BlockSecTeam/status/1529084919976034304",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 65155,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3020,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
