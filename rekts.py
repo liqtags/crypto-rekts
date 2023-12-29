@@ -50,7 +50,9 @@ def rekt_loop(items, start):
             markdownFullWithDescription += f"Proof Links:\n{links}\n"
 
         # download image
+        print(f"downloading image: {markdownLogo}")
         urllib.request.urlretrieve(markdownLogo, f"rektimages/{slugged_name}.png")
+        print(f"finished downloading image: {markdownLogo}")
 
         with open(f'./rekts/{slugged_name}.md', 'w') as rekt:
             rekt.write(markdownFullWithDescription + '\n')
@@ -59,6 +61,7 @@ def rekt_loop(items, start):
         os.system(commandToRun)
 
 def convert_html_to_markdown(html):
+    print(f"starting converting html to markdown")
     # if html is none: contine
     if html is None:
         return ""
@@ -66,6 +69,7 @@ def convert_html_to_markdown(html):
     text_maker = html2text.HTML2Text()
     text_maker.body_width = 0  # This sets the body width to unlimited which helps in not wrapping the text automatically.
     markdown_content = text_maker.handle(html)
+    print(f"finished converting html to markdown")
 
     return markdown_content
 
@@ -103,7 +107,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items, 2980)
+        rekt_loop(items, 3110)
 
 download_project_images()
 
