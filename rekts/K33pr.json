@@ -1,0 +1,51 @@
+{
+    "id": 195,
+    "project_name": "K33pr",
+    "title": "K33pr",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xabe77352ab9774516e265bd17fef498573af942188b33bdf22d57a20b8ede72e<br><br>The LP tokens were deposited to the Master Chef contract by the contract deployer:<br>https://etherscan.io/tx/0x0a2d508277649140f0e180742e36d0ecba8441641b7a290842e112c6426a8090<br><br>The contract deployer added more liquidity at:<br>https://etherscan.io/tx/0x2997bcfd9af3da235c1b55f88a84b46869387b4bfc88ff870f40d77d92961de2<br><br>The LP tokens were deposited to the Master Chef contract by the contract deployer:<br>https://etherscan.io/tx/0x5be48f4a60025599f294661ffd308e725baf789a356f04fd6fb4399cf2e0f568<br><br>The LP tokens were withdrawn from the Master Chef contract by the contract deployer:<br>https://etherscan.io/tx/0x4cc27d7e31720ee3aca51053e451122702c25f4a3e2251f796a5b7cc23b21858<br>https://etherscan.io/tx/0x2f09d76162e212b628b8f1b7a4916db5d9e612faa43bd0e13a9bf017f07bdd5e<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xf55fab0a602a2c58cb07c656fabae4bc7da179de8c75928bf6b84bcec68a95b0<br>https://etherscan.io/tx/0x02b796b665cd919d74b5de70db7e1a45126c942cfd79eda3e92b0cff9352c0df</p>",
+    "name_categories": "Token",
+    "token_name": "K33PR",
+    "proof_archive_link": "https://archive.ph/2yEZ5",
+    "technical_issue": null,
+    "token_address": "0x97F77F2f307A53E6120D38Eb44B9D2F75405a707",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d7d75375b.png",
+    "date": "2020-11-30",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://k33pr.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 60858,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 195,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
