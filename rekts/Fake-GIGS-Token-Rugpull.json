@@ -1,0 +1,60 @@
+{
+    "id": 3792,
+    "project_name": "GigaDAO",
+    "title": "Fake GIGS Token Rugpull",
+    "description": "<p><br></p><p><strong>Quick Summary</strong></p><p>GIGS token was rugpulled by deployer, removing liquidity worth 240,270 USD from PancakeSwap pool, causing a total loss of 107,819 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GIGS is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer removed liquidity from the LP pool in an exit scam. The attacker added 456.12 WBNB as liquidity to the pool and then removed it, equating to a loss of 107,819 USD. The stolen funds were transferred to another EOA address and subsequently distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x1C1208b490eeFaa64C620214Ff6Aac50a6BfAFF6</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0xc50665cb0110064e844c975922495b110fe99d90995d1f28f1fab78da5a7a992</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x87398f1e22d1dd931b37863d76ac2494552b6e7efcc6e182bb4dd854be9d7223</p>",
+    "name_categories": "Token",
+    "token_name": "GIGS",
+    "proof_archive_link": "https://archive.ph/1SRLA",
+    "technical_issue": null,
+    "token_address": "0x2530Ab5B6508b3167494d57612613f68E11D8080",
+    "token_addresses": [
+        {
+            "address": "0x2530ab5b6508b3167494d57612613f68e11d8080",
+            "url": "https://bscscan.com/address/0x2530ab5b6508b3167494d57612613f68e11d8080",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65659be6cf45e.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727901233762177025",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 107819,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3792,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
