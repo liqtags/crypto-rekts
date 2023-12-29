@@ -1,0 +1,51 @@
+{
+    "id": 2831,
+    "project_name": "TopGoal",
+    "title": "TopGoal",
+    "description": "<p>The TopGoal team stated, that the TopGoal operational wallet has been attacked and compromised.<br><br>When the attacker gained control over the operational wallet, he transferred TMT tokens on the external wallet at:<br>https://bscscan.com/tx/0x3e6d325f96d8ed92f2d0b550d98acf271af9bc26bce2b0d3a9a6f426039378ed<br>https://bscscan.com/tx/0x603a5d14c19227379674c8c25c4df7725e37939c82328feaae0b110b9d46e4b8<br>https://bscscan.com/tx/0x044b5dd0125340d419ace171478c9c4a2c7e9cd967256f2221f5bdedd5181a61<br>https://bscscan.com/tx/0x65a00d30e9d18f04ed67e47f8b7c57105945736f3d398ae5068fffc2a9c3f655<br>https://bscscan.com/tx/0x710c51ddba9adabb2e699cccccc953394049a1ff12418dff7b068092dafd5289<br>https://bscscan.com/tx/0xa32dfa258a8ca376d18316ff9f4dc279f9e9a53a7c3f6f066096b9f2cde77dd3<br><br>The token recipient then sold the token on PancakeSwap and deposited stolen funds into Tornado Cash mixer at:<br>https://explorer.bitquery.io/bsc/txs/transfers?sender=0x7f0d082d08874a57110c73a8853967e7c19d1a6e&amp;currency=BNB</p>",
+    "name_categories": "NFT",
+    "token_name": "TMT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x4803ac6b79f9582f69c4fa23c72cb76dd1e46d8d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620d33c690fe3.jpeg",
+    "date": "2022-2-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/TopGoal_NFT/status/1493889237753610241",
+    "website_link": "https://topgoal.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TopGoal_NFT",
+    "telegram_link": "https://t.me/topgoalnft",
+    "our_post_link": null,
+    "funds_lost": 1135097,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/W7SbKEmXJ9",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2831,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
