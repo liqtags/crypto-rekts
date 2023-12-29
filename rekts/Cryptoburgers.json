@@ -1,0 +1,60 @@
+{
+    "id": 3308,
+    "project_name": "Cryptoburgers",
+    "title": "Cryptoburgers",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">CryptoBurgers suffered a flashloan attack that was possible due to a bug in the token contract. The estimated loss is $770K.</span></h2><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">T</span><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">he token contract had a bug in the external burn() function that allowed hackers to burn tokens of any address. Using this vulnerability, the hacker performed multiple flash loan attacks. The burn of $BURG was pumping its price in the pair. So the hacker first bought $BURG, burned tokens in a PancakeSwap pair, and sold their overpriced $BURG.</span></h2>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "BURG",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xF40d33DE6737367A1cCB0cE6a056698D993A17E1",
+    "token_addresses": [
+        {
+            "address": "0xF40d33DE6737367A1cCB0cE6a056698D993A17E1",
+            "url": null,
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63b4bf1de6398.png",
+    "date": "2022-1-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKCommunity/status/1482930661547782148",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/rF4nj",
+    "twitter_link": "https://twitter.com/CryptoBurgerNFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 770000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3308,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
