@@ -1,0 +1,51 @@
+{
+    "id": 147,
+    "project_name": "YZY DAO",
+    "title": "YZY DAO",
+    "description": "<p>The contract deployer transferred ownership of the vault smart contract to the external address:<br>https://etherscan.io/tx/0x5742ab0e29917b1078e64aa6ab1def4ae061e9f9dbd42a49b0afa83133a089cb<br><br>The new owner was set as <u>_daoTreasury</u> in the vault smart contract:<br>https://etherscan.io/address/0x0a5a0a14419f9db1da68cf2f550720e5df49d4fe#readContract<br><br>The external wallet received tokens in the form of fees. In addition, he sold them in multiple transactions:<br>https://etherscan.io/txsInternal?a=0xf01a907407413f5168BFf558119606054C585302&amp;p=1<br><br>This address removed liquidity multiple times:<br>https://etherscan.io/tx/0x6d64293c7966da2fba71ffe12949953b72f3d185cd2cadcba31fa43519e7f9c9<br>https://etherscan.io/tx/0x59f3ae38c301c29b3dc5be466f7a2097964e2839fff6482ec2912e86f10c319d<br>https://etherscan.io/tx/0xe481e83b262764d0e19931bcda83d666ca9804e7d17f78d0dc6c0aa2394951c0</p>",
+    "name_categories": "Other",
+    "token_name": "YZY",
+    "proof_archive_link": "https://archive.ph/5NmmH",
+    "technical_issue": null,
+    "token_address": "0x6ca2cc52bb2cb67dd952e73b8786eb3a368b484c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b99807eb3.jpeg",
+    "date": "2021-4-23",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://yzy.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/yzyDAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 106315,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 147,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
