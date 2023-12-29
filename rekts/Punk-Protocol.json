@@ -1,0 +1,51 @@
+{
+    "id": 2558,
+    "project_name": "Punk Protocol",
+    "title": "Punk Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Punk Protocol suffered a loss due to a missing Modifier in the initialize() function of the CompoundModel code, allowing an attacker to manipulate the function and withdraw assets directly to their wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited a vulnerability in the initialize() function of the CompoundModel code, which lacked an \"initializer\" Modifier. This allowed the attacker to manipulate the function, despite it being connected to an unknown contract. The attacker then updated the contract address and called withdrawToForge(), sending the assets controlled by the CompoundModel directly to their malicious contract and into their wallet. The stolen funds were then swapped on ETH and deposited into the Tornado Cash mixer. A white-hat hacker managed to front run the attack and returned $5 million to the Punk Protocol deployer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x1d5a56402425c1099497c1ad715a6b56aaccb72b</p><p><br></p><p>The attacker's smart contract:</p><p>https://etherscan.io/address/0x1695ce70da4521cb94dea036e6ebcf1e8a073ee6</p><p><br></p><p>The white-hat hacker address:</p><p>https://etherscan.io/address/0x3aa27ab297a3a753f79c5497569ba2dacc2bc35a</p><p><br></p><p>white-hat hacker smart contract:</p><p>https://etherscan.io/address/0x00000000b2ff98680adaf8a3e382176bbfc34c8f</p><p><br></p><p>Transaction of the attack:</p><p>https://etherscan.io/txs?a=0x1d5a56402425c1099497c1ad715a6b56aaccb72b</p><p><br></p><p>Transaction of the returned funds:</p><p>https://etherscan.io/tx/0x008dd92f8bcfcee400aed26d13495fbfc8351f9b21289792fc2bb9e771668147</p><p>https://etherscan.io/tx/0xace7c07695ec1bbf917486c3c81ee7de79c04e0309d4f6a149688463e6f83247</p>",
+    "name_categories": "NFT",
+    "token_name": "PUNK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61169402a218c.png",
+    "date": "2021-8-10",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/punkprotocol/punk-finance-fair-launch-incident-report-984d9e340eb?source=social.tw&_branch_match_id=948322436900511955, https://rekt.news/punkprotocol-rekt/",
+    "website_link": "https://punk.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PunkProtocol",
+    "telegram_link": "https://t.me/punkprotocol",
+    "our_post_link": null,
+    "funds_lost": 8900000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2558,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
