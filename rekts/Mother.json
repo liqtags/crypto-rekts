@@ -1,0 +1,68 @@
+{
+    "id": 3527,
+    "project_name": "Mother",
+    "title": "Mother",
+    "description": "<p><strong>Quick Summary</strong></p><p>Mother token project was rugpulled by the deployer, who profited for 733,883 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mother is a BEP20 token trading on PancakeSwap. The project experienced an exit scam where the deployer was able to mint 2,000,000,000,000 $MOTHER tokens and drain the pool in multiple transactions. Drained funds were transferred to another EOA address. The total profit from this scam reached 733,883 $USD.</p><p>The token was deployed using a smart contract that allowed the creation of scam tokens easily.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x6f0fc555797a94b64348b4af8addd4185a4f74bd</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xf5a19d8d8333c1cfff2f9153a7a09f5d6fb7b2ae</p><p><br></p><p>Mint Transaction:</p><p>https://bscscan.com/tx/0x23ad2c2581C39e2A123DD64C5Cab6D4578884da6386f2bb94aa4b95bf6888e49</p><p><br></p><p>Draining Transaction Example:</p><p>https://bscscan.com/tx/0xeeCfF02280CDa3482197eb907926Dc89f8CcF78A11daC4d63E4B4191a819d841</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x85aff0544fd4b64b5f4917b10c050a1b194634f4dfe5236429c2c0aa1a9b8ff4</p>",
+    "name_categories": "Token",
+    "token_name": "MOTHER",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc3602d8d7301a69b8e36ac438b911fbe4f8a37b3",
+    "token_addresses": [
+        {
+            "address": "0xc3602d8d7301a69b8e36ac438b911fbe4f8a37b3",
+            "url": "https://bscscan.com/address/0xc3602d8d7301a69b8e36ac438b911fbe4f8a37b3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x43254e3377F7FB105F2C6203ffb844D83EBE5aaa",
+            "url": "https://bscscan.com/address/0x43254e3377F7FB105F2C6203ffb844D83EBE5aaa",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6463a13c61db6.png",
+    "date": "2023-5-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1658504523143340032?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 733883,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3527,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
