@@ -1,0 +1,51 @@
+{
+    "id": 2739,
+    "project_name": "Dot Finance",
+    "title": "Dot Finance",
+    "description": "<p>Team announcement:<br>\"Someone took advantage of an opening that was set in our contracts in preparation for a future PINK farm on PancakeSwap.<br><br>The user deposited CAKE tokens and made the system believe the farm existed. The deposited tokens was mistaken by the vault as yield which was rewarded back to him as PINK tokens when he withdraw his funds.<br><br>By the time we disabled all of our contracts, this person had managed to withdraw tokens, which he later on sold on the market.<br><br>Dot Finance Team identified the configuration exploit and enabled our contracts for complete operational form.<br><br>There was no need to upload new contracts as there was no breach in contracts.<br>There was no need to examine the protocol as there was no exploit in our protocol.<br>We suffered from an exploit in configuration, which is now closed.<br><br>These days, our contract is going through a new audit, and we are working on shifting to the Kusma network (an update on that will be published soon).<br><br>Dot Finance team knows and understands that these kinds of events can cause stress and uncertainty. We want to emphasize our responsibility for every token deposited on our system and doing our 100% to keep our community funding safe, which we did and will keep doing in the future.<br>Thank you for the support and understanding and for going back with full force towards our future destination.\"</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "PINK",
+    "proof_archive_link": "https://archive.vn/W9kTJ",
+    "technical_issue": null,
+    "token_address": "0x9133049Fb1FdDC110c92BF5b7Df635abB70C89DC",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61bc98a8254e3.jpeg",
+    "date": "2021-8-25",
+    "scam_updates": [],
+    "proof_link": "https://t.me/Dot_Finance_ano/126",
+    "website_link": "https://dot.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dot_finance",
+    "telegram_link": "https://t.me/Dot_Finance",
+    "our_post_link": null,
+    "funds_lost": 429724,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Dot-Finance",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2739,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
