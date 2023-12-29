@@ -1,0 +1,51 @@
+{
+    "id": 2481,
+    "project_name": "Polyvee Finance",
+    "title": "Polyvee Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "POLYVEE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x55642E8Df0153010Df8415f0D2e6e4679A1D5d88",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6128e41826e91.jpeg",
+    "date": "2021-8-27",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0xe2a869fa2f1bebef9de782770d567081d64595a3?a=0x9fdf24d4d1ff2073963216cf18ef91641370162d",
+    "website_link": "http://ww25.polyveefinance.com/?subid1=20210805-2017-2631-bc5d-3e4978b32b57",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2481,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
