@@ -1,0 +1,51 @@
+{
+    "id": 138,
+    "project_name": "Rbase Finance",
+    "title": "Rbase Finance",
+    "description": "<p>The project was holding the presale event. Funds were gathered directly on the EOA wallets:<br>https://etherscan.io/txs?a=0x516b5abd608ef7bb1491dd1578ab110d51080907&amp;p=3<br>https://etherscan.io/txs?a=0xe849c544cf389bc6846db54f38a6e5070be33474&amp;p=2<br><br>The raised funds were transferred to the contract deployer at (550 ETH in total):<br>https://etherscan.io/tx/0x5bb82b766b8b5c23f64a74bf058d3ad63c7115935cee0ee7bc065482cf189c88<br>https://etherscan.io/tx/0xfd73d9147b92373aa308579e1abf2cbe59a5c038be831de87f1728c479e3acc5<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xe6cd42472ed3d4cd5f67db73c0f8dd9f06a865171d7cd360ac3597d61b28b85e<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x37253c1ad1ed055eef9bfedb042a926be8cceccbd91c23b6a7830a8350a8aabd</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RBASE",
+    "proof_archive_link": "https://archive.ph/MX9OA",
+    "technical_issue": null,
+    "token_address": "0xe8b251822d003a2b2466ee0e38391c2db2048739",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/611be6b4ec996.png",
+    "date": "2021-1-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/WARONRUGS/status/1337304768591650816",
+    "website_link": "https://www.rbase.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201210040926/https://www.rbase.finance/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/rbasebydefiprophets",
+    "our_post_link": null,
+    "funds_lost": 307098,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 138,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
