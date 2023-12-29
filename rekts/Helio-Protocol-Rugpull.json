@@ -1,0 +1,68 @@
+{
+    "id": 3704,
+    "project_name": "Helio Protocol",
+    "title": "Helio Protocol Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Helio Protocol rugpull occurred on Sep 7, 2023, with the deployer removing liquidity worth 178,277 USD from PancakeSwap, resulting in a loss of 829.41 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Helio Protocol, a BEP20 token trading on PancakeSwap, is a copycat token not to be confused with the original project or tokens with a similar name. On Sep 7, 2023, the deployer removed liquidity from the LP pool, causing a rugpull. Part of the stolen funds, held in USDT, are still in the token creator's wallet, while the other part was deposited into the ByBit exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x7335482E4Ff555c5252c7670F7E8a0bd94bF414d</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xc6ae76C457FA4169c1c8a72045F3d9F36FEE98d5</p><p><br></p><p>ByBit Deposit Transaction:</p><p>https://bscscan.com/tx/0xb302194f26303bf475d4169f29278ac59754a06f4e164f85de1fe63e0e3557b3</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x196ece96cc96c9007720a91d47e1245fe3bfbe4ed43dabbcaea6e81d2222a9d7</p>",
+    "name_categories": "Token",
+    "token_name": "HELIO",
+    "proof_archive_link": "https://archive.ph/ePzRY",
+    "technical_issue": null,
+    "token_address": "0x4C75a1f37a820376C74535f57e05C75052A3B077",
+    "token_addresses": [
+        {
+            "address": "0x4C75a1f37a820376C74535f57e05C75052A3B077",
+            "url": "https://bscscan.com/address/0x4c75a1f37a820376c74535f57e05c75052a3b077",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xb01c4d08141599862180206ade36547cc9240f98",
+            "url": "https://bscscan.com/address/0xb01c4d08141599862180206ade36547cc9240f98",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64fdaf290eee1.png",
+    "date": "2023-9-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1699829620315423018",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 178277,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3704,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
