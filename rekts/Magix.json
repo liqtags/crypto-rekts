@@ -1,0 +1,51 @@
+{
+    "id": 163,
+    "project_name": "Magix",
+    "title": "Magix",
+    "description": "<p>The project was holding a fundraising event using MagixPresale smart contract, which received 332.9 ETH. List of received transactions:<br>https://bloxy.info/txs/transfers_to/0x0f60125c8fe21a9c0bda69f2944a51eb71336278?currency_id=1<br><br>106.5 ETH was added to the initial liquidity by the proxy contract:<br>https://etherscan.io/tx/0xfedb5f9013a1d243e1fc37b2b6da2690d48698f34d4b89853f8b972691b4ac47<br><br>264.5 ETH was deposited to the Tornado Cash mixer at:<br>https://etherscan.io/address/0xd01674a8920c71913578540a33e0321689c8a25e<br>https://etherscan.io/address/0x0a77eb9bc5d0c5af256b8fce9760eb3cf583b88e<br><br>The contract deployer received LP tokens from the proxy contract, which added the initial liquidity earlier:<br>https://etherscan.io/tx/0x21ff6db50be31f017f864bcf24990d05f1388634b93b8e939573ca2aa95f1b98<br><br>The liquidity was removed by the contract deployer few times:<br>https://etherscan.io/tx/0x337515729018432f2d91b399d5cb2b3f179350301c1b75191450dc626311048b<br>https://etherscan.io/tx/0xba6e28ac0ee51db755bcfa5218b2276ac119f7c695ed07e701642fbd394701f0<br>https://etherscan.io/tx/0xd038ac5b4e52ac31fd10aa165344848955c8bfb9bd77953436a11bcec4d0f784<br>https://etherscan.io/tx/0x8a1c9f13a4931197bfcef5ad0293f147360f3e626d65c4d4a413937156df2e37</p>",
+    "name_categories": "Other",
+    "token_name": "MAGX",
+    "proof_archive_link": "https://archive.ph/Jzj8x",
+    "technical_issue": null,
+    "token_address": "0xb0bc45972f1cbab76d6e433c28d53c012bcd568e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5be2173b51.png",
+    "date": "2020-12-25",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://magix.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201224203459/https://magix.finance/",
+    "twitter_link": "https://twitter.com/magixprotocol",
+    "telegram_link": "http://t.me/magixprotocol",
+    "our_post_link": null,
+    "funds_lost": 188252,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 163,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
