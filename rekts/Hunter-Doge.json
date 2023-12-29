@@ -1,0 +1,51 @@
+{
+    "id": 3189,
+    "project_name": "Hunter Doge",
+    "title": "Hunter Doge",
+    "description": "<p><strong>Quick Summary</strong></p><p>HunterDoge copycat token was rug pulled by EOA address related to the token deployer. The scammer profited by <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$&nbsp;</span>45,978.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>HunterDoge is a copycat BEP20 token trading on PancakeSwap, it should not be confused with other tokens with the same name. The attacker dropped the token price by 100% and removed 172 $WBNB from liquidity in two transactions. Stolen funds remain in the attacker's address at the moment. The relation between the attacker and the token deployer is proven below.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x566a786977ac51eaf5f15605b5e08f3fbe051532</p><p>Deployer address:</p><p>https://bscscan.com/address/0x14e7e0c8dae4697df28fe58c513dca5f366784d4</p><p>Relation transaction:</p><p>https://bscscan.com/tx/0x429cb5284fe0b602d72b7ca8142dff26f13b796a01563c5ab1af76b2c5ee78e0</p><p>Draining transactions:</p><p>https://bscscan.com/tx/0x6f9e8689806e9a054dd46f6ce6eade5da8378dc0c6a66cf6f4819f3c74587379</p><p>https://bscscan.com/tx/0x83485ad10b29f49052f295cb15eec3fdd15a348d7115a0ed6059da5715ac2b7a</p><p>Liquidity Pool:</p><p>https://bscscan.com/address/0xf81cf10d08b79ba13ee8108d4870ebafd606feb5</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "HDOGE",
+    "proof_archive_link": "https://archive.is/eKcf8",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x1D7F3Bcd965bfd03Eec6942f283516708bB448a9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6328a29428614.png",
+    "date": "2022-9-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1571089678492913665",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45978,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3189,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
