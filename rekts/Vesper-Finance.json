@@ -1,0 +1,51 @@
+{
+    "id": 2690,
+    "project_name": "Vesper Finance",
+    "title": "Vesper Finance",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0xa3f447feb0b2bddc50a44ccd6f412a5f98619264<br><br>The attacker:<br>- received ~100 ETH from Tornado Cash to ensure his privacy:<br>https://etherscan.io/tx/0x1423391a93b283e9a001d5faee292cb82c55d04f021c53f7eda0f600665f8cba<br><br>- swapped 56.81 ETH to 254,783 USDC<br><br>-swapped 232,509 USDC to 222,403 VUSD on the Uniswap v3<br><br>- added liquidity into \"infinity\" price range using 0 VUSD and 0.1 USDC:<br>https://etherscan.io/tx/0x89d0ae4dc1743598a540c4e33917efdce24338723b0fabf34813b79cb0ecf4c5<br><br>- deposited VUSD as collateral into the Vesper Rari Fuse pool #23 and was able to borrow all available assets:<br>https://ethtx.info/mainnet/0x8527fea51233974a431c92c4d3c58dee118b05a3140a04e0f95147df9faf8092/<br><br>- The Rari lending market received the VUSD price using Rari's price oracle:<br>https://etherscan.io/address/0xb3c8ee7309be658c186f986388c2377da436d8fb<br>, and valued VUSD collateral at a price of \u201cinfinity\u201d<br><br>- swapped stolen assets on ETH:<br>https://etherscan.io/tx/0x70d6ff9fcccb190fe49c9b364b7aeb69873a68fcf7aa81626a47f7c68019bc7d<br><br>- deposited ETH into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0xa3f447feb0b2bddc50a44ccd6f412a5f98619264?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "VUSD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x677ddbd918637e5f2c79e164d402454de7da8619",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6182ac588c6a2.jpeg",
+    "date": "2021-11-2",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/vesperfinance/on-the-vesper-lend-beta-rari-fuse-pool-23-exploit-9043ccd40ac9, https://twitter.com/mudit__gupta/status/1455627465678749696?s=21, https://twitter.com/RariCapital/status/1455569653820973057",
+    "website_link": "https://vesper.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/VesperFi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3003942,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2690,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
