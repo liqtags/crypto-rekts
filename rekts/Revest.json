@@ -1,0 +1,51 @@
+{
+    "id": 2988,
+    "project_name": "Revest",
+    "title": "Revest",
+    "description": "<p>An example of the transaction:<br>https://etherscan.io/tx/0x613b2de3bb9043884a219296eeb1ada8c47b5a0262b9c68ca06ffd2de3a5d9f5<br><br>The exploiter's address:<br>https://etherscan.io/address/0xef967ece5322c0d7d26dab41778acb55ce5bd58b<br><br>The attacker minted a massive amount of FNFT with no cost and used the minted FNFT to drain assets in the vault.<br><br>The attacker:<br>- flashloaned 2 ECO tokens from Uniswap</p><p><br>- called \"<u>mintAddressLock</u>\" in the Revest contract twice to get 2 FNFT[ID 1036] tokens and 7,700,00 FNFT[ID 1037] tokens<br><br>- during the second FNFT minting process, the attacker exploited the reentrancy issue and called the function \u201c<u>depositAdditionalToFNFT</u>\u201d to cause the minted FNFT can be used to drain assets in the vault<br><br>- called \"<u>withdrawFNFT</u>\" to drain assets from the vault by burning 7,700,001 FNFT[ID 1037] tokens and repaying the flashloan.<br><br>Stolen funds were deposited into the Tornado Cash mixer:<br>https://bloxy.info/txs/transfers_from/0xef967ece5322c0d7d26dab41778acb55ce5bd58b?currency_id=1</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6255f90aebcfa.jpeg",
+    "date": "2022-3-27",
+    "scam_updates": [],
+    "proof_link": "https://revestfinance.medium.com/revest-protocol-exploit-recovery-plan-b06ca33fbdf5, https://twitter.com/peckshield/status/1508395139542106113, https://twitter.com/CertiKAlert/status/1508072272468320257",
+    "website_link": "https://revest.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RevestFinance",
+    "telegram_link": "https://t.me/revestfinance",
+    "our_post_link": null,
+    "funds_lost": 2000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/TdJSzW9H4G",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2988,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
