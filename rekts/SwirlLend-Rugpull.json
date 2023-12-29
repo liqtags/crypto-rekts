@@ -1,0 +1,60 @@
+{
+    "id": 3678,
+    "project_name": "SwilrLend",
+    "title": "SwirlLend Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SwirlLend protocol was exploited in a rugpull; 460,317 $USD worth of 253.2 $ETH were stolen across Linea and Base chains on Aug 16, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SwirlLend, a decentralized lending and borrowing protocol running on Base and Linea chains, fell victim to a rugpull attack. The scammer bridged 253.2 $ETH (worth 460,317 $USD) from Linea and Base chains to the Ethereum chain via Orbiter Finance's Bridge. The stolen funds were then deposited into TornadoCash. Specifically, the losses were 163,620 $USD worth 90 $ETH on Linea Chain and 296,697 $USD worth 163.2 $ETH on Base chain. The official Twitter, Telegram, Discord, and Website were shutdown shortly after the incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Scammer Address:</p><p>&nbsp; https://basescan.org/address/0x26f6d954c4132fae4efe389b947c8cc4b4ce5ce7</p><p>- Bridging Transaction:</p><p>https://basescan.org/tx/0x34256b33bfd017dd0c7b60be05db7da2de23daac3d0b137cba988f2abfe81fcf</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://explorer.linea.build/address/0x26f6d954c4132fae4efe389b947c8cc4b4ce5ce7</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://etherscan.io/address/0x26f6d954c4132fae4efe389b947c8cc4b4ce5ce7</p><p>- Bridged Transactions:</p><p>https://etherscan.io/tx/0x827fec907b2ca424e0bd684f219c27718668bd11e779dad78b0aba5cbe27161b</p><p>- TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0x9bcfe25ee8d4c29236de24798eafca3af668cc2138f4df77efd90fb3705ca938</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/tZLK2",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64dcf965c3a70.jpg",
+    "date": "2023-8-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1691722297433039140",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SwirlLend",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 460317,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3678,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3678,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
