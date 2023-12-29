@@ -1,0 +1,51 @@
+{
+    "id": 130,
+    "project_name": "Union Capital",
+    "title": "Union Capital",
+    "description": "<p>The project was holding a fundraising event using TokenSale smart contract:<br>https://etherscan.io/address/0x87b5ef63fa5579b40875b66c68cd485656b86259#code<br><br>1000 ETH were raised on the token sale:<br>shorturl.at/svwF4<br><br>The Initial liquidity, using 500 ETH from the token sale was added:<br>https://etherscan.io/tx/0xfd1e40f95a2105187909b35f343fd53089d67d7dc772019e41b4db947ada58a6<br><br>Tokens were bought for (10 + 10 + 20 + 100 + 50) ETH:<br>https://bloxy.info/tx/0x2e97605ce1887d4085e2a429cc6fe19f462089783992c9847c24b53781a7a895<br>https://bloxy.info/tx/0xc2a3c840ae5b880590b5be8625b5128e78a779d910ee947751ae6beb111865f6<br>https://bloxy.info/tx/0xd5fa35af7bac271bec9e9a35f63ff49557d70e05866cbf108baf1bd77574f42d<br>https://bloxy.info/tx/0x2d3f3bb0df21a6393b27f036710b8e9fae98b59e909248ca1eb96be30c551165<br>https://bloxy.info/tx/0x12354f0daa941c487efc7de745f4010b4519d970cd0ba1b3e624ceae866aa818<br><br>83.6 ETH were drained by removing the liquidity:<br>https://bloxy.info/txs/calls_from/0xca8b324d02f1718041d0024136280e7e45e48b88?signature_id=1137786&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d<br>https://bloxy.info/txs/calls_from/0xca8b324d02f1718041d0024136280e7e45e48b88?signature_id=1102188&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d</p>",
+    "name_categories": "Other",
+    "token_name": "UnicV2",
+    "proof_archive_link": "https://archive.ph/U31bp",
+    "technical_issue": null,
+    "token_address": "0x8d587a2386b9ea792a4c6e1744199349db3bc269",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b6683cc81.jpeg",
+    "date": "2021-2-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://unioncapital.io/",
+    "webarchive_link": "https://web.archive.org/web/20201214064622/https://unioncapital.io/",
+    "twitter_link": "https://twitter.com/unioncapital_io",
+    "telegram_link": "http://t.me/UnionCapitalOfficial",
+    "our_post_link": null,
+    "funds_lost": 500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 130,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
