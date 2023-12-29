@@ -1,0 +1,60 @@
+{
+    "id": 3763,
+    "project_name": "Dracula",
+    "title": "Fake DRAC Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DRAC token was rugpulled by deployer, removing liquidity worth 38,349 USD from PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DRAC is a BEP20 token trading on PancakeSwap. On Oct 31, 2023, the deployer performed a rugpull by swapping a significantly larger number of tokens, completely depleting the liquidity pool. As of Nov 2, 2023, the stolen funds remain in one of the scammer's addresses as BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x63313Ba82bAAa24043911aeF8127eF32937f65bd</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x057a2482B105017418cC749cd613260218aFa79f</p><p>https://bscscan.com/address/0xE6EDaFAcc09cf0A4721E820a82BC0c16831C4E86</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x266640934dff47d0668d017104ab576e438fd02737eb22643b33e5c5ba05d946</p><p><br></p><p>Funds Holder as of Nov 2, 2023:</p><p>https://bscscan.com/address/0xE6EDaFAcc09cf0A4721E820a82BC0c16831C4E86</p>",
+    "name_categories": "Token",
+    "token_name": "DRAC",
+    "proof_archive_link": "https://archive.ph/1ytwo",
+    "technical_issue": null,
+    "token_address": "0x20d4e91e7c25f294e781464970a322B9782f7Aa7",
+    "token_addresses": [
+        {
+            "address": "0x20d4e91e7c25f294e781464970a322B9782f7Aa7",
+            "url": "https://bscscan.com/address/0x20d4e91e7c25f294e781464970a322b9782f7aa7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65440ed805e43.png",
+    "date": "2023-10-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1719369617947480544",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 38349,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3763,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
