@@ -1,0 +1,51 @@
+{
+    "id": 3059,
+    "project_name": "DHE",
+    "title": "DHE",
+    "description": "<p data-pm-slice=\"1 1 []\"><strong>Quick summary</strong></p><p>At the inception of the project 3,999,000 $DHE token were minted to the address of the scammer. The scammer dumped the $DHE token against $USDT on pancake swap, resulting in a 92% drop in the token value and 142k $USDT in ill-gotten gains.</p><p><strong>&nbsp;</strong></p><p>&nbsp;</p><p><strong>Details of the exploit&nbsp;</strong></p><p>The project promised its investors to revolutionize content ownership through NFTs and thus making content tradable on its own platform, denominated in $DHE.</p><p>&nbsp;The owners of the project never intended to make due on this promise as a large amount of $DHE token were minted to a specific wallet at inception resulting in a massive centralization issue from the start. Within 5min in the evening of the 20<sup>th</sup> June the scammer decided to dump his $DHE token through pancake swap.&nbsp;</p><p><br></p><p>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p>&nbsp;</p><p>&nbsp;</p><p style=\"background:white;\"><strong>Block Data Reference</strong></p><p style=\"background:white;\">Token Holder Structure</p><p data-renderer-start-pos=\"2730\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances\">https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af#balances</a></p><p data-renderer-start-pos=\"2811\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Scammer Wallet Address (A), which received 3,999,000 $DHE.</p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a\">https://bscscan.com/tx/0xa2779bbd8a70ab4dcfe11ad58b24e61c73ea406ad6bf232bd4ec9920a833f77a</a></p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Transaction over 100,000 DHE Token from&nbsp;scammer Wallet Address (A) to (B)</p><p data-renderer-start-pos=\"2872\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">https://bscscan.com/tx/0x08d1a07ab7e438c082f1a7a9af51a8e9bf75e83a19b5987faccb05c704771e29</p><p data-renderer-start-pos=\"2966\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\">Scammer Wallet Address (B), which dumped the $DHE.</p><p data-renderer-start-pos=\"3018\" style=\"background:white;box-sizing: border-box;margin:0.75rem 0px 0px;  font-variant-ligatures: normal;font-variant-caps: normal;orphans: 2;widows: 2;  -webkit-text-stroke-width: 0px;text-decoration-thickness: initial;text-decoration-style: initial;  text-decoration-color: initial;text-align:start;white-space:pre-wrap;  word-spacing:0px;\"><a data-renderer-mark=\"true\" href=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e\" style=\"box-sizing: border-box;text-decoration-skip-ink: auto;  user-select: auto;color:var(--ds-link, #0052CC);\" title=\"https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e\">https://bscscan.com/token/0x11cbc781dadaad13fc3a361772c80b1c027820af?a=0x3ff95c56807a2eea5c2a360d4ef145536c3edb9e</a></p><p><br></p><p>&nbsp;</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "DHE",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1539031511114063873",
+    "technical_issue": null,
+    "token_address": "0x11CBC781DadAAD13fc3a361772C80B1C027820AF",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62bc1b2c4d89b.jpeg",
+    "date": "2022-6-20",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x3195a6935e3834f2f1d9fa28e32f92eb27d32d6",
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220101025122/https://www.denhive.com/#tokenomics, https://web.archive.org/web/20220620234529/https://twitter.com/CertiKAlert/status/1539031511114063873",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 142000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3059,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
