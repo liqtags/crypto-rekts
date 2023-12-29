@@ -1,16 +1,16 @@
 {
-    "id": 1804,
+    "id": 1800,
     "project_name": "SaintElon",
     "title": "SaintElon",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
     "name_categories": "Token",
-    "token_name": "ELON",
+    "token_name": "SAINT",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x5ca65a51c1ae3dd5b5ed43fd2f8c607a098bcc15",
+    "token_address": "0xb84e190475ce35b8f2e423e6d64d4d603138ef67",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f539e40a9fd.png",
-    "date": "2021-5-25",
+    "logo_link": "safe/files/scamDatabase/logo/60f537eda24ee.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1804,
+            "scam_database_id": 1800,
             "networks": {
                 "id": 56,
                 "name": "Binance",
