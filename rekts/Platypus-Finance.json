@@ -1,0 +1,86 @@
+{
+    "id": 3338,
+    "project_name": "Platypus Finance",
+    "title": "Platypus Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Platypus Finance protocol was exploited via flash loan attack for 8,500,887 $USD. The attacker managed to bridge the part of the stolen amount.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Platypus Finance is an AMM that provides stableswap opportunities. The attacker exploited multiple asset contracts of the protocol, using a malicious smart contract with unverified source code. 8,500,887 $USD worth of assets in stablecoins such as nearly 4,400,000 $USDC, 2,700,000 $USDT, 687,000 $BUSD, and 691,000 $DAI were stolen. The attacker used the USP solvency check mechanism's weakness and took 44,000,000 $USDC as a flash loan and performed malicious actions. This amount was used to swap for 44,000,000 Platypus LP-USD, and then to mint 41,700,000 $USP tokens for free. The $USP tokens then were swapped for various stablecoins. It's said on the project's official Twitter that they are working with third parties such as Binance, Tether, and Circle to freeze the funds, and at the moment, $USDT was frozen. The malicious actor managed to bridge 2,403,165 $USDC through Gnosis Proxy.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious transaction:</p><p>https://snowtrace.io/tx/0x1266a937c2ccd970e5d7929021eed3ec593a95c68a99b4920c2efa226679b430</p><p><br></p><p>Attacker's address:</p><p>https://snowtrace.io/address/0xeff003d64046a6f521ba31f39405cb720e953958</p><p><br></p><p>Malicious contract:</p><p>https://snowtrace.io/address/0x67afdd6489d40a01dae65f709367e1b1d18a5322</p><p><br></p><p>Transfer transactions:</p><p>https://snowtrace.io/tx/0x5e3eb070c772631d599367521b886793e13cf0bc150bd588357c589395d2d5c3</p><p>https://snowtrace.io/tx/0x76ceab91aef320d0556029861dc1dde423d100e2a85f7ca4891a924efce4ed5a</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "PTP",
+    "proof_archive_link": "https://web.archive.org/web/20230220144243/https://twitter.com/Platypusdefi/status/1626396538611310592, https://archive.ph/cvaT0",
+    "technical_issue": null,
+    "token_address": "https://snowtrace.io/token/0x22d4002028f537599be9f666d1c4fa138522f9c8",
+    "token_addresses": [
+        {
+            "address": "0xa16bbab03b61810ba8633343d9ffc04b086506b5",
+            "url": "https://snowtrace.io/address/0xa16bbab03b61810ba8633343d9ffc04b086506b5",
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0x776628a5c37335608dd2a9538807b9bba3869e14",
+            "url": "https://snowtrace.io/address/0x776628a5c37335608dd2a9538807b9bba3869e14",
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        },
+        {
+            "address": "0xe23f8ccdeb4e8ce5d9fe76782718cd85d12689c8",
+            "url": "https://snowtrace.io/address/0xe23f8ccdeb4e8ce5d9fe76782718cd85d12689c8",
+            "network": {
+                "id": 43114,
+                "icon_link": "safe/files/network/involved/avax.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f3869d76d42.jpg",
+    "date": "2023-2-16",
+    "scam_updates": [],
+    "proof_link": "https://cryptoslate.com/platypus-finance-hacked-for-9m-on-avalanche/, https://twitter.com/Platypusdefi/status/1626396538611310592",
+    "website_link": "https://platypus.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Platypusdefi",
+    "telegram_link": "https://bit.ly/3vebKmF",
+    "our_post_link": null,
+    "funds_lost": 8500887,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://bit.ly/3BVR19G",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3338,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": null,
+            "date": null,
+            "partner": {
+                "id": 117,
+                "name": "Omniscia",
+                "logo_link": "safe/files/partner/logo/63ef749397ea1.jpg"
+            }
+        }
+    ]
+}
