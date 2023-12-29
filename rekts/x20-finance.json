@@ -1,0 +1,51 @@
+{
+    "id": 213,
+    "project_name": "x20 finance",
+    "title": "x20 finance",
+    "description": "<p>The contract deployer invoked mint transaction and generated 50 thousand X20 tokens onto his wallet:<br>https://etherscan.io/tx/0xe622293195c11ee0c68f05c148a6b0e315f1698084ca5a7dc3cb794b64d1d855<br><br>Most of them were added into liquidity at:<br>https://etherscan.io/tx/0xff2d791a394e0f566b8a5baa815437b42954e50f88db2e798a8fd868c193a0a6<br><br>Part of them was sold in the following transactions:<br>https://etherscan.io/tx/0x7917b57c87b102efc7a7eea2f1bb52ab1add03097a81cb05cd794ab0110a6682<br>https://etherscan.io/tx/0x91ea88c9f52d03b18328bea9e04b4135c2a3d2a09d0d136aca24aa9ee1f02075<br>https://etherscan.io/tx/0xae127f553f5b2dcd0e67a182169b3442dff95ae859dd4fd786d155b1d919984a<br>https://etherscan.io/tx/0xc260eb01a766042a9071c6a07353b1701280f7fb1d037b1a5b0335f17563a18a<br><br>1 day after, the liquidity was deleted:<br>https://etherscan.io/tx/0xe558685b303030bbd21c22276ab0b67483d5ea093a67b272f9fefe66014c92b6</p>",
+    "name_categories": "Token",
+    "token_name": "X20",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd24c65a2307266de4f7eeda5c5124e18ed7b13ec",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5e11610e76.png",
+    "date": "2020-11-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1328302322011652098",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2501,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 213,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
