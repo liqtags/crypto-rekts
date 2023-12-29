@@ -1,0 +1,60 @@
+{
+    "id": 3345,
+    "project_name": "MetaMoonMars",
+    "title": "MetaMoonMars",
+    "description": "<p><strong>Quick Summary</strong></p><p>MetaMoonMars token was exit scammed via Withdrawal Fee issue. The token deployer used a privileged function to set a huge fee multiplier</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MetaMoonMars is a BEP20 token trading on PancakeSwap. The contract of the token contained privileged function aprove() which sets a fee multiplier. At first, the fee was 8 percent, and after some period the function was called again, setting a fee of 99 percent. Users were not able to buy a fair amount of tokens, and their funds were transferred into the pool. Cause of the huge fee, users couldn't sell the little amount of $M3 token they receive. The scammer profited for 866 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xda7e1666ab637609fc2d5833dae1056976a17c96</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x93a828726c00f117915ab10489c512b0c39e1ed2dd4c2282c13bddd2b26fdcc0</p><p>https://bscscan.com/tx/0xe4095741fdbe2452f5f2ce416fbf012a4ea2549d6b0155ac4871dcbebfdc78d7</p><p><br></p><p>Tokens transfer transaction:</p><p>https://bscscan.com/tx/0x77c2be9454da2b720939254736f941370532d34d8bff4322033c1888f13ce378</p>",
+    "name_categories": "Token",
+    "token_name": "M3",
+    "proof_archive_link": "https://archive.ph/s224L",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x8ed9c7e4d8dfe480584cc7ef45742ac302ba27d7",
+    "token_addresses": [
+        {
+            "address": "0x8ed9c7e4d8dfe480584cc7ef45742ac302ba27d7",
+            "url": "https://bscscan.com/address/0x8ed9c7e4d8dfe480584cc7ef45742ac302ba27d7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f7a2abf3faa.png",
+    "date": "2021-11-30",
+    "scam_updates": [],
+    "proof_link": "https://research.checkpoint.com/2022/scammers-are-creating-new-fraudulent-crypto-tokens-and-misconfiguring-smart-contracts-to-steal-funds/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 866,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3345,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
