@@ -1,0 +1,51 @@
+{
+    "id": 2594,
+    "project_name": "Yam DAO",
+    "title": "Yam DAO",
+    "description": "<p>The bug is in the rebase function of smart contract YAM.sol in the YAM project:<br>https://github.com/yam-finance/yam-protocol/blob/767e3a4a6918b6fb6100ad6bb356164408f5d82f/contracts/token/YAM.sol#L340<br><br>The rebase function was built to keep the token at a stable price. However, the line in the code mistakenly calculates the <u>totalSupply</u> wrong, which would reserve too many minted tokens. The correct code/calculation equation for the line of code should be:<br><br>totalSupply = initSupply.mul(yamsScalingFactor).div(BASE);<br><br>The rebase bug led to the minting of decillions of YAM to the governance vault. As a result, a larger supply diluted the intended price. YAM token has lost more than 90% of its market capitalization. The bug resulted in a loss of funds worth $750,000.</p>",
+    "name_categories": "Token",
+    "token_name": "YAM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0AaCfbeC6a24756c20D41914F2caba817C0d8521",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6128e97ce05e9.jpeg",
+    "date": "2020-8-13",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/yam-finance/yam-post-rescue-attempt-update-c9c90c05953f, https://www.theblockcrypto.com/post/74810/yam-token-market-cap-collapses-by-more-than-90-flaw, https://medium.com/certik/2020-08-13-yam-finance-smart-contract-bug-analysis-future-prevention-b4220976ebea",
+    "website_link": "https://yam.finance/#/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/YamFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 750000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2594,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
