@@ -1,0 +1,51 @@
+{
+    "id": 2941,
+    "project_name": "LocalBitcoins",
+    "title": "LocalBitcoins",
+    "description": "<p>Peer-to-peer bitcoin marketplace LocalBitcoins suffered a hack that resulted in the distribution of malware and a loss of customer funds.<br><br>Affected users will be granted refunds after taking steps to address security vulnerabilities, according to the company.<br><br>Vice president Nikolaus Kangas explained:<br>\u201cThe attacker used that LiveChat access to spread some kind of Windows executable, which probably was some new kind of keylogger software which is not yet detected by virus protection mechanisms. If the user got that executable installed, with some social engineering, the attacker managed to get access to different accounts of those victims.\u201d<br><br>LocalBitcoins estimated 17 BTC lost from customer wallets.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624eff28d5dc0.jpeg",
+    "date": "2015-1-27",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2015/01/29/localbitcoins-user-funds-stolen-after-chat-client-hack/",
+    "website_link": "https://localbitcoins.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LocalBitcoins",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4440,
+    "funds_returned": 4440,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2941,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
