@@ -1,0 +1,51 @@
+{
+    "id": 2887,
+    "project_name": "Soxex",
+    "title": "Soxex",
+    "description": "<p>According to PeckShield digital asset escort system (AML) data, the Soxex exchange was suspected of running away. The exchange website has been unable to open, swept away hundreds of millions of investors' funds, involving BTC, ETH, HT, OKB, and many other mainstream currencies.<br><br>According to some addresses submitted by victims (incomplete statistics), PeckShield security personnel locked the flow of target assets (USDT part) and found that the target addresses starting with 1G8cEC and 1GLsou aggregated over 1 million USDT. After one or two transfers, a total of 1 million USDT was transferred to the Huobi exchange starting with 1HckjU.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6245d1c779169.png",
+    "date": "2019-7-4",
+    "scam_updates": [],
+    "proof_link": "https://www.coinonpro.com/kuaixun/49935.html",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2887,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
