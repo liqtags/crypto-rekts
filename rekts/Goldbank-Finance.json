@@ -1,0 +1,76 @@
+{
+    "id": 3560,
+    "project_name": "Goldbank Finance",
+    "title": "Goldbank Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Goldbank Finance was exploited in an exit scam, with liquidity and token drain amounting to 75,239 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Goldbank Finance (GB) is a token trading on SushiSwap on the Arbitrum chain. The deployer removed liquidity from the pool, acquiring 27,414 $USD and 884,557 $GB. Another EOA address, suspected to be owned by the same deployer, altered the implementation of the UniTroller contract, sending 49,000,000 $GB tokens to the deployer. Consequently, the deployer drained a substantial amount of liquidity from the SushiSwap pool in a single transaction, receiving 47,825 $USD. The stolen amount was then moved through multiple addresses post-incident, resulting in a total loss of approximately 75,239 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://arbiscan.io/address/0xe5df114758a9beb76050754e35766191c0976a6a</p><p><br></p><p>Unitroller Admin Address:</p><p>https://arbiscan.io/address/0x946c72b432f1d0c35d9b2c9454905cb84cc0d188</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://arbiscan.io/tx/0xdaac092ff1d1d2c89ad97673c8ccab9c8bad16691c59b42df56a56d1369f8694</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://arbiscan.io/tx/0xfbd863d39f85d8a84326b14c00f4fc09302b6ad5e2a0e4cb39b34802dc56b492</p><p><br></p><p>Unitroller Malicious Implementation:</p><p>https://arbiscan.io/address/0xfa8221438b5dC055dA5F7EC9fC87132edd2835ae</p><p><br></p><p>Unitroller Address:</p><p>https://arbiscan.io/address/0x537A09Fd99Fc7eF737d297cDEeAB3b7f9602308c</p><p><br></p><p>Tokens Transfer Transaction:</p><p>https://arbiscan.io/tx/0xdd12c8ef4acb6233eb4a7625f473c0a41c15633712f497cd831952d6c3d623eb</p>",
+    "name_categories": "Token",
+    "token_name": "GB",
+    "proof_archive_link": "https://archive.ph/Y7AMy",
+    "technical_issue": null,
+    "token_address": "0xbcad8e85669a3fc9ea9b5d692bd8bdcc2464df31",
+    "token_addresses": [
+        {
+            "address": "0x537a09fd99fc7ef737d297cdeeab3b7f9602308c",
+            "url": "https://arbiscan.io/address/0x537a09fd99fc7ef737d297cdeeab3b7f9602308c",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xbcad8e85669a3fc9ea9b5d692bd8bdcc2464df31",
+            "url": "https://arbiscan.io/address/0xbcad8e85669a3fc9ea9b5d692bd8bdcc2464df31",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xfa8221438b5dc055da5f7ec9fc87132edd2835ae",
+            "url": "https://arbiscan.io/address/0xfa8221438b5dc055da5f7ec9fc87132edd2835ae",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6489a18fefc8d.jpg",
+    "date": "2023-6-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1668274500775936004?s=20",
+    "website_link": "https://www.goldbank.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GBdotFi",
+    "telegram_link": "https://t.me/gbdotfi",
+    "our_post_link": null,
+    "funds_lost": 75239,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/8qysw2eGM4",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3560,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
