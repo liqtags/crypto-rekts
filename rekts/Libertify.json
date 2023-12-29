@@ -1,0 +1,77 @@
+{
+    "id": 3602,
+    "project_name": "Libertify",
+    "title": "Libertify",
+    "description": "<p><strong>Quick Summary</strong></p><p>Libertify, a portfolio manager, was exploited due to a reentrancy flaw, resulting in a loss of 452,114 $USD across Ethereum and Polygon chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploit of the Libertify portfolio manager project was due to the absence of reentrancy protection. This allowed the attacker to exploit the deposit() routine, minting more shares and draining funds from both the Ethereum and Polygon chains.&nbsp;</p><p>Approximately $162,527 worth of USDT and WETH was drained from the Ethereum chain, and about $289,587 worth of USDT and WETH was drained from the Polygon chain. The funds stolen from the Polygon chain were then bridged to Ethereum using Celer Bridge. Notably, about 56,234 USDT from the stolen funds on the Polygon chain remains at the malicious contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://etherscan.io/address/0xfd2d3ffb05ad00e61e3c8d8701cb9036b7a16d02</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://polygonscan.com/address/0xfd2d3ffb05ad00e61e3c8d8701cb9036b7a16d02</span></p><p><br></p><p>Malicious Transactions: https://etherscan.io/tx/0xcb0ad9da33ecabf75df0a24aabf8a4517e4a7c5b1b2f11fee3b6a1ad9299a282</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://polygonscan.com/tx/0x7320accea0ef1d7abca8100c82223533b624c82d3e8d445954731495d4388483</span></p><p><br></p><p>Malicious Contract Address: https://etherscan.io/address/0xdfcdb5a86b167b3a418f3909d6f7a2f2873f2969</p><p><br></p><p>Bridging Transaction: https://etherscan.io/tx/0x23eb7c6b76b86a6ee7cd89c5c21b7335d6ece6a389522e6bde128b67c105e10e</p><p><br></p><p>Malicious Contract Address:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0xdfcdb5a86b167b3a418f3909d6f7a2f2873f2969</span> https://polygonscan.com/address/0xdfcdb5a86b167b3a418f3909d6f7a2f2873f2969</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/1otAY, https://archive.ph/5y7DK",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x9c80a455ecaca7025a45f5fa3b85fd6a462a447b",
+            "url": "https://polygonscan.com/address/0x9c80a455ecaca7025a45f5fa3b85fd6a462a447b",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        },
+        {
+            "address": "0x429032a407aed3d5ff84caf38eff217eb4d322a9",
+            "url": "https://etherscan.io/address/0x429032a407aed3d5ff84caf38eff217eb4d322a9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64b53abe34900.jpg",
+    "date": "2023-7-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1678688731908411393, https://twitter.com/Phalcon_xyz/status/1678694679767031809",
+    "website_link": "https://www.libertify.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Libertify_",
+    "telegram_link": "https://t.me/Libertify",
+    "our_post_link": null,
+    "funds_lost": 452114,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/gyNYjCuUZ5",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3602,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 137,
+            "scam_database_id": 3602,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
