@@ -1,0 +1,60 @@
+{
+    "id": 3284,
+    "project_name": "Bo Shen Wallet Hack",
+    "title": "Bo Shen Wallet Hack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bo Shen's hot wallet was exploited via access control. 41,053,572 $USD worth of assets in four chains was stolen from his Trust Wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bo Shen is the founder of Fenbushi Capital. His Trust Wallet's mnemonic keys were compromised, which led to the loss of 41,053,572 $USD in various assets. 38,233,180 $USDC, 1,606 $ETH, 719,760 $USDT, and 4.13 $BTC were transferred to various sources. Trust Wallet has no issues related to the hack because it was a mnemonic phrase compromise.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0x24b93eed37e6ffe948a9bdf365d750b52adcbc2e</p><p>https://www.blockchain.com/btc/address/39R7sdAUWfL6JE37BWorfHFb5sgjMLNZqz</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/7vYF3, https://archive.ph/DdgpK",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6387676c2fe3e.jpg",
+    "date": "2022-11-10",
+    "scam_updates": [],
+    "proof_link": "https://cryptonews.com/news/hackers-steal-42-million-worth-of-crypto-assets-from-fenbushi-capital-founder-bo-shen-what-happened.htm, https://twitter.com/SlowMist_Team/status/1595265365889941504",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/boshen1011",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 41053572,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3284,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 1001,
+            "scam_database_id": 3284,
+            "networks": {
+                "id": 1001,
+                "name": "TRON",
+                "icon_link": "safe/files/network/tron.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
