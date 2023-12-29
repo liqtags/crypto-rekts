@@ -1,0 +1,51 @@
+{
+    "id": 277,
+    "project_name": "Emerald Mine",
+    "title": "Emerald Mine",
+    "description": "<p>Large quantities of EMD funds were sent one after the other barely 13 hours after the official project launch. At that time, the SlowMist team, a Blockchain security company, issued a security warning, stating that EMD possibly ran away with the user's funds. EMD's EOS account, emeraldmine1, had already sent 787,000 USDT, 490,0000 EOS, and 56,000 DFS to the sji1111111 account at the time. According to the mainnet deployment record, the project has upgraded the contract after its release.</p>",
+    "name_categories": "Token",
+    "token_name": "EMD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "emerald11111",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60dc6fcc91b21.png",
+    "date": "2020-9-9",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/blockchain-security-firms-eos-defi-locked-crypto",
+    "website_link": "http://emd.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/69",
+    "funds_lost": 2500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 95,
+            "scam_database_id": 277,
+            "networks": {
+                "id": 95,
+                "name": "EOS",
+                "icon_link": "safe/files/network/eos.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
