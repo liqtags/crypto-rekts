@@ -1,0 +1,68 @@
+{
+    "id": 3571,
+    "project_name": "GUIDO The Mechanics",
+    "title": "GUIDO The Mechanics",
+    "description": "<p><strong>Quick Summary</strong></p><p>GUIDO The Mechanics ($GUIDO) suffered a rugpull by deployer-related EOA, losing 62,695 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$GUIDO, an ERC20 token, experienced a significant liquidity drain from the UniSwap pool by an EOA address related to the token's deployer. The scammer was able to steal approximately 36 $ETH, which at the time was worth around 62,695 $USD. The stolen funds were subsequently moved across multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x5A39b896e3e9007704c70c242c53d88052BB64fe</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xF6B87e61d9963F535c0Ac54E982d3FbF34Bff8BA</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://etherscan.io/tx/0x8c444527950700eb60bda7b803c777869c1875395beece14f0e9b3a3151946e5</p><p><br></p><p>Funds Moving Transaction:</p><p>https://etherscan.io/tx/0x08a9c31d186a1da5d9e13898c094b8b7ff2fec46b63db723a9a975d9472f8ee5</p>",
+    "name_categories": "Token",
+    "token_name": "GUIDO",
+    "proof_archive_link": "https://archive.ph/9zjR8",
+    "technical_issue": null,
+    "token_address": "0x7907c5172ed24eb569f0c45141ce4e27851b9146",
+    "token_addresses": [
+        {
+            "address": "0x7907c5172ed24eb569f0c45141ce4e27851b9146",
+            "url": "https://etherscan.io/address/0x7907c5172ed24eb569f0c45141ce4e27851b9146",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xcc38b01ebbdd8fd5a0edfb01d4aa4f2f73a4758d",
+            "url": "https://etherscan.io/address/0xcc38b01ebbdd8fd5a0edfb01d4aa4f2f73a4758d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6495771330438.png",
+    "date": "2023-6-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1670764846432899072?s=20",
+    "website_link": "https://guidothemechanics.xyz/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 62695,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3571,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
