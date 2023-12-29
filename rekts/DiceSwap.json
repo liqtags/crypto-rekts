@@ -1,0 +1,51 @@
+{
+    "id": 102,
+    "project_name": "DiceSwap",
+    "title": "DiceSwap",
+    "description": "<p>The Master Chef contract contains hidden functionality under the set() function, which was invoked multiple times by the contract deployer at:<br>https://explorer.bitquery.io/bsc/txs/calls?internal=false&amp;contract=0x08eee9c8d38804dcba77e66aab0deb5064c21370&amp;method=d9638422<br><br>Calling set() function led to the LP tokens and native tokens transfer onto the external wallet, example transaction:<br>https://bscscan.com/tx/0x6a16dd9fcc7c6ec3d563096269f9f70eac5edd7d4b1a5ec1509fac62de3ecbf6<br><br>The liquidity was removed by the external wallet multiple times at:<br>https://bscscan.com/tx/0xb523ea3c3e72b15ce8208a7b2c86fce054be0d86d73c5e562c7e3637183065a4<br>https://bscscan.com/tx/0x3f6d3d3e11c5a27e3dde01069de1091ada93f093dacaeaf8070899ec685cf0eb<br>https://bscscan.com/tx/0x751d3f478393b7f208b67f66c2e085b0815f7ebf84237943980ef3113a3d5a12<br>https://bscscan.com/tx/0x3197c878356b33f1175f770259afbcd2b7bb4909732ed60a68c856714a808af3<br>https://bscscan.com/tx/0x83d93a52fe12c627a4cfaed2bdab196f7a4f8f8a72b1a2b2585afb32c60c03a1<br>https://bscscan.com/tx/0x89b3c2fc6947f9cf5ea8832546772471e37121580102145e062d10afbe4fec5f<br>https://bscscan.com/tx/0x7880e9c318eee8bc900c30b11c94aeebca98d90927871265fd23381cf5603ff3<br>https://bscscan.com/tx/0xf25a25c7373755383437af5e03acbfc5698e746e1ebbb0b18fcc95de70d1a285<br>https://bscscan.com/tx/0x6a2ac8d46640e2f042c6a0a618991f43df651a0c3d67455f15711388d3f09385</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DICE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x730e05bfbf01bb578887e1f87df2b58fd908a6bf",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5a20e5aa55.png",
+    "date": "2021-3-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DiceSwap",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 29780,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 102,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
