@@ -1,0 +1,51 @@
+{
+    "id": 3557,
+    "project_name": "SellToken",
+    "title": "SellToken",
+    "description": "<p><strong>Quick Summary</strong></p><p>SellToken, a Binance Smart Chain DEX, was exploited, leading to a loss of 12,000,000 $SELLC worth approximately 105,270 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An exploiter took a flashloan of 620 $BNB and performed malicious actions involving the Miner contract and PancakeSwap pool. They exploited a logic issue in the sendMiner() function of the Miner contract, stealing over 12,000,000 $SELLC tokens. These were then swapped for 446 $BNB, worth around 105,270 $USD. All the stolen funds were transferred to another externally owned account (EOA) and subsequently swapped for $USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x0060129430df7ea188be3d8818404a2d40896089</p><p><br></p><p>Funds Holder Address: https://bscscan.com/address/0x4beb05bf9bd4585ae2f4feb74112f18b423abb84</p><p><br></p><p>Malicious Transaction: https://bscscan.com/tx/0xe968e648b2353cea06fc3da39714fb964b9354a1ee05750a3c5cc118da23444b</p><p><br></p><p>Funds Transfer Transaction: https://bscscan.com/tx/0x1abca50a789804024f1fa78f007e83701ae9ba0968691f8b353ea78d7f2f1a05</p>",
+    "name_categories": "Exchange (DEX),Token",
+    "token_name": "SELLC",
+    "proof_archive_link": "https://archive.ph/I2S7D",
+    "technical_issue": null,
+    "token_address": "0xa645995e9801f2ca6e2361edf4c2a138362bade4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/648727a07cc34.jpg",
+    "date": "2023-6-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1667906941744553985?s=20",
+    "website_link": "https://selltoken.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TrustTheTrident",
+    "telegram_link": "https://t.me/selltokenGroup",
+    "our_post_link": null,
+    "funds_lost": 105270,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3557,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
