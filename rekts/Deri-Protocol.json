@@ -1,0 +1,60 @@
+{
+    "id": 3466,
+    "project_name": "Deri Protocol",
+    "title": "Deri Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Deri Protocol's trading pool on Arbitrum was exploited resulting in a loss of 143,532 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On October 28th, 2022, an attack took place on Deri Protocol\u2019s trading pool on Arbitrum. The attacker used two associated accounts to execute the exploit. The attacker added margin to these two accounts and gradually established large opposite positions for option BTCUSD-40000-C for both accounts by trading relatively small volumes for each turn. Due to the low margin requirement for far OTM options on Deri Protocol, the attacker repeated this process hundreds of times until they opened a huge long position for account A (notional=100,192 BTC) and a huge short position for account B (notional=-96,940 BTC). With everlasting options\u2019 funding mechanism, Account A continuously paid funding fees to B which pushed up the positive net volume causing higher funding rates making it likely that Account A would get liquidated unless BTC price kept going up. At UTC time 10/28/2022 17:51 when BTC price went down and brought Account A under maintenance margin it got liquidated causing massive sell notional=100,192.4024 $BTC which dragged mark price below zero leading to a loss of around $144k USD but only lost original balance as opposed to full loss due bound by margin balance.</p><p>Immediately after liquidation of A; the attacker closed out short position in B resulting in large profits for 144,532 $USDC.</p><p>The pool ended up with a net loss since although theoretically B\u2019s profit came from A\u2019s loss but since losses were bound by margin balances and could not be fully realized thus resulted in negative PnL.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://arbiscan.io/address/</span>0x09ca80536f5aa6f04a8170D44aAf9fdfDD1e228d</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://arbiscan.io/address/</span>0x2443506117e03136727E394F85B5b0797A3E0477_</p><p><br></p><p>Malicious Transaction:</p><p>https://arbiscan.io/tx/0xc31ade492c134388fef8fdd7669c9bb195c1426697c418d27d45ce9a837bc93d</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/oCtWF, https://archive.ph/8LQWJ",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xde3447eb47ecdf9b5f90e7a6960a14663916cee8",
+            "url": "https://arbiscan.io/address/0xde3447eb47ecdf9b5f90e7a6960a14663916cee8",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643518c38c68c.png",
+    "date": "2022-10-28",
+    "scam_updates": [],
+    "proof_link": "https://deri-protocol.medium.com/the-detailed-process-of-the-2022-10-28-attack-on-deri-protocol-7eb5c2f3900e, https://twitter.com/DeriProtocol/status/1586678284477026304",
+    "website_link": "https://deri.io",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DeriProtocol",
+    "telegram_link": "https://t.me/DeriProtocol",
+    "our_post_link": null,
+    "funds_lost": 144532,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/FEM9GMehHQ",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3466,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
