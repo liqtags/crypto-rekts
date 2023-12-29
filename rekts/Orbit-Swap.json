@@ -1,0 +1,51 @@
+{
+    "id": 68,
+    "project_name": "Orbit Swap",
+    "title": "Orbit Swap",
+    "description": "<p>The contract deployer minted tokens onto his wallet:<br>https://bscscan.com/tx/0x26313743e6f49cb2b4b7e15b22770aec0d9886cd85ff0b7e27e86e670f59d30d<br><br>The initial liquidity was added by the contract deployer at:<br>https://bscscan.com/tx/0xe57802a363b94375d9f1f0baad663ac853bf695309ccbeae5742c43a8db4ba9c<br><br>The contract deployer has sold tokens in multiple transactions:<br>https://bscscan.com/tokentxns?a=0xdd313329d0238325b96cf1b2e06efcb1fb1c77bf<br><br>Liquidity was removed by the contract deployer at:<br>https://bscscan.com/tx/0x32b63293ea0a32895ade98e16a1bf12d8e313c8357464218b534c4130af1d229</p>",
+    "name_categories": "Token",
+    "token_name": "ORBIT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc993e816a84f7ff5f988ea660a043e877e297af6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e705dd96660.png",
+    "date": "2021-2-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/coinprof/status/1359443409602301953",
+    "website_link": "https://orbitswap.com",
+    "webarchive_link": "https://web.archive.org/web/20210207141929/https://orbitswap.com/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 36441,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 68,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
