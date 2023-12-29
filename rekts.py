@@ -59,7 +59,7 @@ def rekt_loop(items, start):
             rekt.write(markdownFullWithDescription + '\n')
         
         commandToRun = f"git add * && git commit -m 'add {project_name} to rekts'"
-        returned_value = subprocess.call(commandToRun, shell=True, )  # returns the exit code in unix
+        returned_value = subprocess.call(commandToRun, shell=True, capture_output=True)  # returns the exit code in unix
         # os.system(commandToRun)
 
 def convert_html_to_markdown(html):
