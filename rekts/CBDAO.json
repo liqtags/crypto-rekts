@@ -1,0 +1,51 @@
+{
+    "id": 59,
+    "project_name": "CBDAO",
+    "title": "CBDAO",
+    "description": "<p>The contract deployer took advantage of a hidden minting backdoor in the SBREE smart contract. SBREE tokens were minted in the amount of 50K tokens and converted to BREE tokens.<br><br>Mint transaction:<br>https://etherscan.io/tx/0x3bf7b06d6737e6d222234acc58dea634c7ff75e6cc447bece6cc264f2e1db9d2<br><br>Migration:<br>https://etherscan.io/tx/0xd592c3de3ee1542902ccbfb17c3d3922168568076f8afd7db1f48be3e4fa4677<br><br>The address which received new tokens started to dump them in multiple transactions:<br>https://etherscan.io/token/0x4639cd8cd52ec1cf2e496a606ce28d8afb1c792f?a=0x85c90f369676789d3234ecf07adb5262df1bcf15</p>",
+    "name_categories": "Other",
+    "token_name": "BREE",
+    "proof_archive_link": "https://archive.ph/QnTq5",
+    "technical_issue": null,
+    "token_address": "0x4639cd8cd52EC1CF2E496a606ce28D8AfB1C792F",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4f0041d791.jpeg",
+    "date": "2020-10-9",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://coinbreeder.com/",
+    "webarchive_link": "https://web.archive.org/web/20200717085534/https://coinbreeder.com/",
+    "twitter_link": "https://twitter.com/CoinBreeder",
+    "telegram_link": "https://t.me/coinbreederDAO",
+    "our_post_link": "https://t.me/coinbreederDAO",
+    "funds_lost": 83884,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 59,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
