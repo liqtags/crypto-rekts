@@ -1,0 +1,51 @@
+{
+    "id": 2934,
+    "project_name": "Purse",
+    "title": "Purse",
+    "description": "<p>Purse.io users were the target of hackers who may have gained access and compromised a third-party email service provider used by the company.<br><br>The first signs of the theft came to light after a user took to Reddit to report unauthorized withdrawals from the user\u2019s Purse.io wallet:<br>https://www.reddit.com/r/Bitcoin/comments/3o9ju8/my_purseio_account_was_compromised/<br><br>The attack flow:<br>- users received an email asking for their account passwords to be changed<br>- soon after, the targeted users also received a withdrawal request (after the compromise of the password)<br>- moments later, a withdrawal confirmation came along, confirming the theft.<br><br>The company stated that 11 users were affected and 10.235 bitcoins were withdrawn without users\u2019 consent. Purse.io confirmed that the compromised users have been reimbursed, and their accounts have since been secured.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://webcache.googleusercontent.com/search?q=cache:MJSXwCNQOisJ:https://www.ccn.com/purse-io-users-are-targeted-by-hackers-10-235-btc-stolen/+&cd=2&hl=ru&ct=clnk&gl=ua&client=opera",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624dd00d063a5.jpeg",
+    "date": "2015-10-11",
+    "scam_updates": [],
+    "proof_link": "https://webcache.googleusercontent.com/search?q=cache:MJSXwCNQOisJ:https://www.ccn.com/purse-io-users-are-targeted-by-hackers-10-235-btc-stolen/+&cd=2&hl=ru&ct=clnk&gl=ua&client=opera, https://www.reddit.com/r/Bitcoin/comments/3o9ju8/my_purseio_account_was_compromised/",
+    "website_link": "https://purse.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/purseIO/",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2510000,
+    "funds_returned": 2510000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2934,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
