@@ -1,0 +1,35 @@
+# Tetris Finance
+![Tetris Finance](/rektimages/Tetris-Finance.png)
+- Amount Lost: $217,507.00
+- Funds Returned: $0.00
+- Category: Yield Aggregator
+- Date: 2020-12-17
+
+The contract deployer added initial liquidity at:  
+https://www.bscscan.com/tx/0x932f162d0821bf6bf3345fee5336590156c14341b7597fc03ca912ca38bd8a39  
+  
+The contract deployer used hidden migration functionality under the _rewardUpdate_ () to transfer all LP tokens from the reward distribution contracts onto the own wallet at:  
+https://www.bscscan.com/tx/0x26a4c4163fc5c459da79a89d8d2e6eb85108b484211bfb1fe838fd1b6614d497  
+https://www.bscscan.com/tx/0x0f1c4a132cd00035ef510a235c9ef1afba0abe2bceb99fd9fae1cf30be896f21  
+https://www.bscscan.com/tx/0xd6dbb59f15b0a5b69e37668722cf50cae140d3c6024d7de3f2ea143fa4db71fd  
+https://www.bscscan.com/tx/0x026d36499eeade202777a81c557103960e9b8ef82d5c63853bb06decf1108d22  
+https://www.bscscan.com/tx/0x18c3914e1779f2a534ee6d2ba531fa573c917a479312e42c6be1cb43dc9ed52e  
+https://www.bscscan.com/tx/0x7d54686bc40d2df363fc0fea2cca429eeadff00f99d24bb9fb7efaf0a05e5590  
+https://www.bscscan.com/tx/0x45e47c922d4c6c0c10c02f4c662948f4274f16d9623b110be0b07b57bfb3084d  
+https://www.bscscan.com/tx/0x8d176f37962de80beaf160e930508071ea19430b00cb6f58595a2c76bb07d106  
+  
+The project's native tokens were sold as well, the example transaction:  
+https://www.bscscan.com/tx/0xd8dd42cb76ca3d69d5e4c93e71e4a9bbf154500dfc9a9c979212eefaa5f373f7  
+  
+The liquidity was removed by the contract deployer. The received tokens were exchanged on BNB and were distributed between different external wallets at:  
+https://www.bscscan.com/tx/0x965d4dd7c1cf670477dea9d681f077b091749b2922c2fadc2856c3bafebc81ef  
+https://www.bscscan.com/tx/0x5030fc706d05dfbceaebe4ed464940dd146862102919ae7867bd03935297a26f  
+https://www.bscscan.com/tx/0x84d0f4baadb846524be2a4eed8e02d343a9250a61e02d9ec5cc4a18666f29ae8  
+https://www.bscscan.com/tx/0x46b5fee4b7bdd5f75b914cbca65576d6c707a6e7a373392d2c1765f870db6943  
+https://www.bscscan.com/tx/0x671ce1007ae06f60da40a3477572023bfcd99032be4f0a7276cc4dc79fe12e91  
+https://www.bscscan.com/tx/0x6985c92ba8f3d9b1242abbea2e15db6bcc4b1201d43534ad1e683f923d1fda37  
+https://www.bscscan.com/tx/0x8dfbab27a511e173adf7e1be3aaadc901c737ec2fbdf94a78f962788f0c1a0bb  
+https://www.bscscan.com/tx/0xbacda7bf73e32cc9279731d8a8dcd63f3f2e0e8751a2a349e6811308b72f2d16
+
+
+
