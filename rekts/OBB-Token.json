@@ -1,0 +1,60 @@
+{
+    "id": 3414,
+    "project_name": "OBB Token",
+    "title": "OBB Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>OBB token was rugpulled by the deployer for 156,063 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OBB is a BEP20 token trading on PancakeSwap. The token price dropped by more than 98% after an incident.The token was rugpulled by the token-deployer. The scammer removed liquidity directly from the OBB/USDT pool which is worth 156,063 $USD. The funds were transferred to another EOA address, which swapped them for other tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xb54f89f56e0fed67cb528a73840d6836dae9a3fb</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x8375829b852b0f48d2387528f7fc3c93c9d57830ba1450c5b1230efbab70d5d0</p>",
+    "name_categories": "Token",
+    "token_name": "OBB",
+    "proof_archive_link": "https://archive.ph/oYY72",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd23b64dbd334d12c38f09cc9eb23350aa1034c30",
+    "token_addresses": [
+        {
+            "address": "0xd23b64dbd334d12c38f09cc9eb23350aa1034c30",
+            "url": "https://bscscan.com/address/0xd23b64dbd334d12c38f09cc9eb23350aa1034c30",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6427443452cb0.png",
+    "date": "2023-2-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1623667804401532929",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 156063,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3414,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
