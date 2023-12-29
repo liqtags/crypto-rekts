@@ -1,0 +1,60 @@
+{
+    "id": 3582,
+    "project_name": "HIGH RETURN (HRN)",
+    "title": "HIGH RETURN (HRN)",
+    "description": "<p><strong>Quick Summary</strong></p><p><br></p><p>The HIGH RETURN (HRN) token on Binance Smart Chain was hit by a rugpull, resulting in a loss of 31k $USD.</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p><br></p><p>The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price. 130 BNB were removed which is equal to $31,520 at the day of the event.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x7f680c028e015760f8700fb816714f40fd0862d8</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x6ba2ca91bcfc2ab4e9c882338ffab5a8f5597d220d9842801f7b9f600a2a6421</p>",
+    "name_categories": "Token",
+    "token_name": "HRN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd74c3adb949aedb9c8ec3f447cc97b9976c112c6",
+    "token_addresses": [
+        {
+            "address": "0xd74c3adb949aedb9c8ec3f447cc97b9976c112c6",
+            "url": "https://bscscan.com/address/0xd74c3adb949aedb9c8ec3f447cc97b9976c112c6",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649edb96156ed.png",
+    "date": "2023-6-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1672722058017673216?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 315000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3582,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
