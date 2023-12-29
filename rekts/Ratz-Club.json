@@ -1,0 +1,51 @@
+{
+    "id": 3395,
+    "project_name": "Ratz Club",
+    "title": "Ratz Club",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Ratz Club project had its SOL wallet emptied by Inexplicable.eth from Sky Labs, resulting in the loss of an undisclosed amount of money.</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On a date one and a half days prior to the incident, Inexplicable.eth transferred the entire contents of Ratz Club's SOL wallet to another wallet. The issue could be in malicious approve given previously.</p><p><br></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The link to the transaction made by Inexplicable.eth can be found at https://solscan.io/account/C9EUZK7JxuGp46DWqr5PSK6BPfeGbZQaEy8YVCKu9Z1u.</p>",
+    "name_categories": "NFT",
+    "token_name": "RATZ",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "GaWA2qKxoqQuv6gdzmNjVnuA2qY3nmo5TBJPSKAy51XK",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64251c68c4e7e.jpg",
+    "date": "2022-2-7",
+    "scam_updates": [],
+    "proof_link": "https://ratzclub.medium.com/6-2-a-new-beginning-c2d3e6ae55d2",
+    "website_link": "http://ratz-club.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ratz_club?lang=en",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 140000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 3395,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
