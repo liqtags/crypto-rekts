@@ -1,0 +1,51 @@
+{
+    "id": 1235,
+    "project_name": "ELON INU",
+    "title": "ELON INU",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "ELONINU",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xca33eb8ac68e1378ed0f9f9eaed96836b4f19d30",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60effaa7967ca.png",
+    "date": "2021-8-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 1235,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
