@@ -1,0 +1,51 @@
+{
+    "id": 276,
+    "project_name": "Prophet Project",
+    "title": "Prophet Project",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x107819b9e3060395e5bd4f45fd58e2491957c492370a8ad309bb6016bff87d8d<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xf634b34feddbc2deca1a2b8018b6bc30e6b62398f09d3cc1001511ee2a7e0750</p>",
+    "name_categories": "Token",
+    "token_name": "PRY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd7d84e9df527882149d9c5908a3937107724b325",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61db96c41e.png",
+    "date": "2020-12-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Prophecy_PRY/status/1339877967703490560, https://twitter.com/CaptainJackAPE/status/1339851764175052802",
+    "website_link": "http://prophetproject.io/",
+    "webarchive_link": "https://web.archive.org/web/20201121055315/https://prophetproject.io/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/prophetcommunity",
+    "our_post_link": null,
+    "funds_lost": 46356,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 276,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
