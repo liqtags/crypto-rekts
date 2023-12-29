@@ -1,0 +1,60 @@
+{
+    "id": 3796,
+    "project_name": "DigiFund",
+    "title": "Fake DFUND Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DFUND token exit scammed with deployer removing liquidity of 237,894 USD from PancakeSwap pool on November 23, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DFUND a BEP20 token trading on PancakeSwap, experienced a rugpull when its deployer removed liquidity from the LP pool. The stolen funds, worth 105,555 USD or 446.55 WBNB, were transferred to another EOA and then distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xCA3E349d9cE69ac34f1bEDED541338073Bc184bE</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0xb4f5e3c8b0f3346d03b5673d381a6c31e342bdf8c2d9b6578e5ecd95ac16413c</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xef14f29d19a327cd328698708657734f8ad6168a215f247bb59d18e496c4c8e1</p>",
+    "name_categories": "Token",
+    "token_name": "DFUND",
+    "proof_archive_link": "https://archive.ph/pA1wP",
+    "technical_issue": null,
+    "token_address": "0xD4Ace1e96Ac89a4612c12bb0BcaDBD29d1eAb19C",
+    "token_addresses": [
+        {
+            "address": "0xd4ace1e96ac89a4612c12bb0bcadbd29d1eab19c",
+            "url": "https://bscscan.com/address/0xd4ace1e96ac89a4612c12bb0bcadbd29d1eab19c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6567002ac8df9.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727923543504203826",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 105555,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3796,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
