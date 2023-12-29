@@ -1,0 +1,51 @@
+{
+    "id": 190,
+    "project_name": "Bloody Finance",
+    "title": "Bloody Finance",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xf0c3c266f9bd618226955c16c591e855bb10f366ab5db64adb4d097c24b39693<br><br>The contract deployer used hidden minting functionality under the <u>delegateFromAndCall</u>() function to generate new tokens onto his wallet:<br>https://etherscan.io/tx/0x71dd67aaf118e9511c346caa59543dfc6e9d03a36b8484c121514cf7c0ea3e5a<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0x87aa46dcf1304275365b4a70b5676c7b046948c8ac23d6fdccd0563da87f0540</p>",
+    "name_categories": "Token",
+    "token_name": "BLD",
+    "proof_archive_link": "https://archive.ph/F3jCO",
+    "technical_issue": null,
+    "token_address": "0x8C29e6AD61a0A5540862180059aa975C625950e4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d6675b81b.png",
+    "date": "2020-11-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/0xdeadf4ce/status/1324492128169451521",
+    "website_link": "https://bloody.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201105232033/https://bloody.finance/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1289,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 190,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
