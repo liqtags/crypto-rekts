@@ -1,0 +1,60 @@
+{
+    "id": 3583,
+    "project_name": "Greatest Of All Time (GOAT)",
+    "title": "Greatest Of All Time (GOAT)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Meme token GOAT conducted a rug pull on June 20th, resulting in the theft of approximately $43,168 (~23 ETH) from holders.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team behind $<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>GOAT&nbsp;</span> swapped 5,192,294,839,382,761 tokens for 23.214 Ether and proceeded to sell the ETH, leaving investors with no value. They then distributed the obtained funds to various wallets in an attempt to obfuscate their tracks and avoid accountability.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Swap tx:</p><p>https://etherscan.io/tx/0xa198cceda99cd6fd6ba6cf0997029568dfe57857a91a0c482766dfa97e4ea0f6</p><p><br></p><p>Address:</p><p>https://etherscan.io/address/0xc74d2fe1452a78c2c1312f87c9171c8b7bfc539c</p>",
+    "name_categories": "Token",
+    "token_name": "GOAT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xcc63f8f2def2202f928b594ff80d8ba30d447d7e",
+    "token_addresses": [
+        {
+            "address": "0xcc63f8f2def2202f928b594ff80d8ba30d447d7e",
+            "url": "https://etherscan.io/token/0xcc63f8f2def2202f928b594ff80d8ba30d447d7e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649edd45bc812.png",
+    "date": "2023-6-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1671745065847341056?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 43100,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3583,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
