@@ -1,0 +1,60 @@
+{
+    "id": 3591,
+    "project_name": "BiSwap",
+    "title": "BiSwap",
+    "description": "<p><strong>Quick Summary</strong></p><p>BiSwap, a DEX on Binance Smart Chain, was exploited, resulting in the loss of 865,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BiSwap is a DEX, running on BSC. The protocol was exploited via a parameter validation issue. In an intricate exploit, BiSwap's system failed to verify the validity of tokens and their pair parameters, which was taken advantage of by an attacker. By forging token0, token1, and a pair, the attacker was able to manipulate the migration function of the migration contract, leading to a loss of users' burned assets.</p><p>In the first step, using a valid pair and fake tokens, the attacker called the migration function and added the users' burned assets into the contract, subsequently adding two fake tokens to the LP pool. In the second step, using real tokens and a fake LP, they called the migration function again, adding the assets left in the contract to their own LP. As a result, users' assets were replaced with fake LP assets, while real LP assets were added to the attacker's LP.<br>The stolen funds of 865,000 $USD were transferred through TornadoCash.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker Addresses:</p><p>https://bscscan.com/address/0xe3aeede563bc6a72dc881755cc98dc57fadf30f6</p><p>https://bscscan.com/address/0xA1E31B29f94296FC85FAC8739511360f279B1976</p><p><br></p><p>Malicious Contracts:</p><p>https://bscscan.com/address/0x2a825a174c3125923881d33e922c7a5e56c9b833</p><p>https://bscscan.com/address/0x839b0afd0a0528ea184448e890cbaaffd99c1dbf</p><p><br></p><p>Malicious Transaction Example:</p><p>https://bscscan.com/tx/0xa6cc4b18dea57fae6e1d63d493d2bfb4fd07e86a1ab7f545f9c7980d897d7a6c</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BSW",
+    "proof_archive_link": "https://archive.ph/xLMbH, https://archive.ph/hwoSA",
+    "technical_issue": null,
+    "token_address": "0x965f527d9159dce6288a2219db51fc6eef120dd1",
+    "token_addresses": [
+        {
+            "address": "0x839b0afd0a0528ea184448e890cbaaffd99c1dbf",
+            "url": "https://bscscan.com/address/0x839b0afd0a0528ea184448e890cbaaffd99c1dbf",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64a6e526ea5de.jpg",
+    "date": "2023-6-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/FairyproofT/status/1675114227617652736, https://blog.biswap.org/article/migrator-contract-report",
+    "website_link": "https://biswap.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Biswap_Dex",
+    "telegram_link": "https://t.me/biswap",
+    "our_post_link": null,
+    "funds_lost": 865000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/biswap-org",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": "https://docs.biswap.org/biswap/general/biswap-platform/bug-bounty",
+    "bug_bounty_program_company": "BiSwap",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3591,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
