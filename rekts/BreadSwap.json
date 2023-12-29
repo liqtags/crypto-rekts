@@ -1,0 +1,51 @@
+{
+    "id": 2426,
+    "project_name": "BreadSwap",
+    "title": "BreadSwap",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BREAD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xB3Aec2a1737A94B8458A1b6940412Fb9Cc41F2B9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612ccc5c8ffef.png",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x66e38f6c0bf54d62aa1908868fb8f7d4ab1dc3a3",
+    "website_link": "https://breadfarm.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2426,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
