@@ -1,0 +1,60 @@
+{
+    "id": 3664,
+    "project_name": "DeriTrade",
+    "title": "DeriTrade Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DeriTrade, a fake trading platform on Binance Smart Chain, was exploited by the deployer on August 2, 2023. The exit scam involved the minting of large amounts of DUSD (the project's stablecoin), followed by the removal of liquidity from the LP pool using the newly minted tokens. The total loss was 13,411 $USD or 54.52 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The deployer initiated the attack by minting a large number of DUSD tokens. They then utilized these tokens to drain the liquidity from the LP pool. The stolen funds were transferred through several EOA addresses before being deposited into TornadoCash to further obfuscate the trail. This careful orchestration of transactions suggests a premeditated attack on the platform.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xd59d7149402456f81ebc71a633207496c41f8783</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xb4e9a4921c22af0b2b22dcae56ecaa37eb187ef6</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xda15c17b100d056626eab94f912a4691503965c79ece156c24c2d6d1f08f5b2c</p><p><br></p><p>Minting Transaction:</p><p>https://bscscan.com/tx/0x2459512127165deb0534c5d2a6761402c81eaa53930b8a73f3feb946f3f2a3be</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://bscscan.com/tx/0x09bd662ff8907c14367fbbb88295489221030181c6642896346f290449d488e2</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "DUSD",
+    "proof_archive_link": "https://archive.ph/4mR1h",
+    "technical_issue": null,
+    "token_address": "0x738ea75b01d8db931b4374c6ebd3de82d7d3a272",
+    "token_addresses": [
+        {
+            "address": "0x738ea75b01d8db931b4374c6ebd3de82d7d3a272",
+            "url": "https://bscscan.com/token/0x738ea75b01d8db931b4374c6ebd3de82d7d3a272",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64d52dba9db62.png",
+    "date": "2023-8-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AnciliaInc/status/1686912779138334728?s=20",
+    "website_link": "https://www.deritrade.com",
+    "webarchive_link": "https://archive.ph/mxj43",
+    "twitter_link": "https://twitter.com/deritrade",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 13411,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3664,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
