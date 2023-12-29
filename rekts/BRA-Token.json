@@ -1,0 +1,60 @@
+{
+    "id": 3339,
+    "project_name": "BRA Token",
+    "title": "BRA Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>On January 10, 2023, BRA token was attacked, and the hacker was able to steal funds worth $225,000 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On January 10, 2023, a hack occurred that targeted the BRA token resulting in the theft of funds worth 819 WBNB, which is equivalent to approximately $225,000. The hack was made possible by a logical vulnerability that allowed the attacker to exploit the transfer function, which gave them twice the rewards if the sender and recipient were a pair.</p><p>The attacker exploited the vulnerability by obtaining a 1,400 WBNB flash loan before exchanging 1,000 WBNB for 10.5K BRA tokens. They then transferred all the acquired BRA tokens to the Pancakeswap pair. Next, they used the \"skim()\" function and invoked the BRA contract's transfer function to receive rewards. The \"skim()\" function acts as a recovery mechanism if the number of tokens supplied to a pair exceeds the two uint112 storage spaces for reserves.</p><p><br></p><p>In this case, the attacker provided the pair as the recipient address, and BRA reverted to the pair, resulting in the doubling of the BRA amount after a single skim. The attacker repeated this method 100 times, which led to a significant increase in the contract pair's BRA balance.</p><p><br></p><p>The attacker then returned 1.675K WBNB tokens and repaid the 1.4K WBNB token flash loan, which generated a profit of 675 WBNB that was sent to their address. The attacker carried out the same attack again and took 144 WBNB in profit from the BRA contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX:</p><p>https://bscscan.com/tx/0x6759db55a4edec4f6bedb5691fc42cf024be3a1a534ddcc7edd471ef205d4047</p><p><br></p><p>Wallet with funds:&nbsp;</p><p>https://debank.com/profile/0x67a909f2953fb1138beA4B60894B51291D2d0795</p>",
+    "name_categories": "Token",
+    "token_name": "BRA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x449fea37d339a11efe1b181e5d5462464bba3752",
+    "token_addresses": [
+        {
+            "address": "0x449fea37d339a11efe1b181e5d5462464bba3752",
+            "url": "https://bscscan.com/token/0x449fea37d339a11efe1b181e5d5462464bba3752#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f4f275333d8.jpg",
+    "date": "2023-1-10",
+    "scam_updates": [],
+    "proof_link": "https://blog.solidityscan.com/bra-token-hack-analysis-double-the-reward-e82ca060405e",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TokenBra",
+    "telegram_link": "t.me/TheBraToken",
+    "our_post_link": null,
+    "funds_lost": 225000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3339,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
