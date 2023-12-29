@@ -1,0 +1,51 @@
+{
+    "id": 3396,
+    "project_name": "Pirate x Pirate",
+    "title": "Pirate x Pirate",
+    "description": "<p><strong>Quick Summary</strong></p><p>Pirate X staking contract was attacked resulting in the loss of 9,681,000 PXP tokens, which were later dumped into the market, netting the attacker a profit of about 212 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on Pirate X's staking contract is believed to have been due to the leakage of the private key, as the attacker used a valid signed message to launch the attack. Users who deposited their PXP tokens into the contract had their tokens transferred to an EOA account (0x3b74a9cb5f1399b4a5a02559e67da37d450067b7). The contract would then call transferFrom to transfer the tokens back to the user upon withdrawal. The attacker provided a valid sign from the external signer (0x7435e0e4c4d10988e8821dc4853d1db2eceb176d) and withdrew 9,681,000 PXP tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The staking contract: 0x6912B19401913F1bd5020b3f59EE986c5792DA54</p><p>Attacker: 0x3b74a9cb5f1399b4a5a02559e67da37d450067b7&nbsp;</p><p>External signer: 0x7435e0e4c4d10988e8821dc4853d1db2eceb176d.</p>",
+    "name_categories": "NFT",
+    "token_name": "PXP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x93c27727e72ec7510a06ea450366c1418c4ce547",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64251e5eb3760.jpg",
+    "date": "2022-3-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1501474711599198211?s=20",
+    "website_link": "https://piratexpirate.io/",
+    "webarchive_link": "https://archive.ph/nLkXf",
+    "twitter_link": "https://twitter.com/PXPNFTsGame",
+    "telegram_link": "https://t.me/piratexpiratecommu",
+    "our_post_link": null,
+    "funds_lost": 78000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/PYGnb5HWrt",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3396,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
