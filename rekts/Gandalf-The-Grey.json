@@ -1,0 +1,60 @@
+{
+    "id": 3609,
+    "project_name": "Gandalf The Grey",
+    "title": "Gandalf The Grey",
+    "description": "<p><strong>Quick Summary</strong></p><p>Gandalf the Grey project was rugpulled, with a loss of 141 $ETH, equating to 266,238 $USD, through liquidity removal.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GAN is an ERC20 token, trading on UniSwap. The project fell victim to an exit scam as the token deployer removed liquidity from the pool. This action resulted in a loss of 141 $ETH, which was worth around 266,238 $USD at the time of the incident. The stolen funds were transferred through a couple of EOA addresses. In addition, part of the stolen funds was distributed via CoinTool, adding another layer of complexity to the scam.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xb221582aa63166f96fc84c7720705b80e4fc7de8</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x9c5f9de4285eca59fa43bdfaeb9112390b96cbeb</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x19e96c9c3ff1d8ed5d8f4c369f7002629cc278c888303b2945fd4a78569aac0b</p><p><br></p><p>Funds Transfer Transactions:</p><p>https://etherscan.io/tx/0x4d5ea3ed6f9dc5654b8835a410a09f5bbc54a81424ded5e7f62d0569a7c94671</p><p>https://etherscan.io/tx/0xc2f7beb7cf2246bbf2e9a942df96f9d4dbc7d93d37d4738f9b6918d3f7b6656d</p>",
+    "name_categories": "Token",
+    "token_name": "GAN",
+    "proof_archive_link": "https://archive.ph/MLaFF",
+    "technical_issue": null,
+    "token_address": "0xf419707b7c8cc13fa2803e8aa57f248b20510319",
+    "token_addresses": [
+        {
+            "address": "0xf419707b7c8cc13fa2803e8aa57f248b20510319",
+            "url": "https://etherscan.io/token/0xf419707b7c8cc13fa2803e8aa57f248b20510319",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64bbe6321d68f.png",
+    "date": "2023-7-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1682618951988137984?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 266238,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3609,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
