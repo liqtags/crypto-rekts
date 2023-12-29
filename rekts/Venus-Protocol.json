@@ -1,0 +1,61 @@
+{
+    "id": 3009,
+    "project_name": "Venus Protocol",
+    "title": "Venus Protocol",
+    "description": "<p>Venus protocol has been drained for $13.5M.</p><p>The exploit occurred due to a drop in the price of the LUNA token. More detailed information can be found at this link: https://blog.venus.io/venus-protocol-official-statement-regarding-luna-6eb45c3cb058.</p><p><br></p><p>Victim contract: https://bscscan.com/address/0x151b1e2635a717bcdc836ecd6fbb62b674fe3e1d</p><p>Token address: https://bscscan.com/address/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "XVS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62851407ca609.png",
+    "date": "2022-5-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/VenusProtocol/status/1524970790961258500?cxt=HHwWiIC9gdq25KkqAAAAve",
+    "website_link": "https://venus.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/VenusProtocol",
+    "telegram_link": "https://t.me/VenusProtocol",
+    "our_post_link": null,
+    "funds_lost": 1350000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/VenusProtocol",
+    "git_hub_contract_link": "https://github.com/VenusProtocol/venus-protocol/tree/develop/contracts",
+    "discord": "https://discord.com/invite/yjhVkzPSXE",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3009,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Venus_XSV_v7.pdf",
+            "date": "2021-07-08T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
