@@ -1,0 +1,51 @@
+{
+    "id": 3053,
+    "project_name": "FSWAP",
+    "title": "FSWAP",
+    "description": "<p>FSWAP has been exploited. Approximately <span data-original-title=\"Current Price : $223.11 / WBNB\" data-toggle=\"tooltip\">1,751</span> $BNB was sent to: https://bscscan.com/token/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c?a=0x0007d40f29c7a1713b251c69f5d999f16ec09dfc.</p><p>652 $BNB was laundered via TornadoCash.</p><p><br></p><p>BlockSec Team made a white hat hacker attack on the return of funds stolen from FSWAP: https://bscscan.com/tx/0xeedacfdf51ad015cc6c5b20285d9b5cdf165cbe2986e03af252a7e9592adf63f</p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0x000c84c59385b64c3ea4d48cc3fca1f08f3abcfc</p><p>https://bscscan.com/address/0x0007d40f29c7a1713b251c69f5d999f16ec09dfc</p><p>Attacker successful transaction: https://bscscan.com/tx/0xe75e30dafd865331e6a002d50effe084c21e413c96d4550d5e09cf647686fcbe</p><p><span data-original-title=\"Current Price : $223.24 / WBNB\" data-toggle=\"tooltip\">1,751.62</span> $BNB were transferred to: https://bscscan.com/address/0x0007d40f29c7a1713b251c69f5d999f16ec09dfc, then funds were laundered via Tornado.Cash</p><p><br></p><p>Repelled attacks by BlockSec:</p><p>1) https://bscscan.com/tx/0x700404943edd4ed9f40c7b17b476c0b63693a1aa77184da2c66f740ad01425b2</p><p>2) https://bscscan.com/tx/0xbfb493f6eca38a2756f44fcc3c9bf5b0d3277eb9bb65b6fefc266ea5c5341e2a</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": "https://twitter.com/fswap2021/status/1536379736930263040, https://twitter.com/CertiKAlert/status/1536387391518388228, https://twitter.com/peckshield/status/1536365677447000064",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62aa34d3c129a.jpeg",
+    "date": "2022-6-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/fswap2021/status/1536379736930263040",
+    "website_link": "https://fswap.cc/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/fswap2021",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 432497,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3053,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
