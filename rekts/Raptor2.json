@@ -1,0 +1,51 @@
+{
+    "id": 2834,
+    "project_name": "Raptor2",
+    "title": "Raptor2",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://bscscan.com/tx/0x78e7b5eb4d40ede331f2393db773ab62bbde2d936785c3eec77f0453232af9d4<br><br>The liquidity was removed and tokens were sold by the contract deployer:<br>https://bscscan.com/tx/0xfbceeb8cb13a87e20ae0a1df2b8be0ff8f284f733ebacf4bd5c106f8b8c585f7<br><br>Stolen funds were transferred to the external address:<br>https://bscscan.com/tx/0xef06c291b5f527d76643d9eb815dadff55b9ebf5b5320dd8faebc2684386bd5d<br><br>The funds' recipient deposited stolen funds into Tornado Cash Mixer:<br>https://bscscan.com/address/0xdaa5e5692f24b0284cbd9fb6fbe2ddc78bf4d34a</p>",
+    "name_categories": "Token",
+    "token_name": "Raptor2",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xC51B24E6809B4E4578BE862c4Be19d8d767755Ba",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6213b23f69e6f.png",
+    "date": "2022-2-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1495638264253984768",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 83960,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2834,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
