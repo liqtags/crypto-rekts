@@ -1,0 +1,51 @@
+{
+    "id": 763,
+    "project_name": "BurgerSwap",
+    "title": "BurgerSwap",
+    "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited BurgerSwap using flash loans and a fake token, resulting in a loss of $7.2 million.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated a flash swap of 6k WBNB ($2M) from PancakeSwap, which was then swapped for 92k BURGER on BurgerSwap. The attacker then created a non-standard BEP-20 token and formed a new trading pair with BURGER. Using this pair, the attacker swapped 100 fake tokens for 4.4k WBNB, and then swapped 45k BURGER for another 4.4k WBNB. The attacker then swapped 493 WBNB for 108.7k BURGER on BurgerSwap, before finally repaying the flash swap.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>The attacker's transaction:</p><p>https://bscscan.com/tx/0xf598e092ab82ce08798f9dab7ea6ade64f152aa91db897f3449b23ab591baa1d</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BURGER",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xae9269f27437f0fcbc232d39ec814844a51d6b8f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60edc74cb55b0.jpeg",
+    "date": "2021-5-29",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/burgerswap-rekt/, https://twitter.com/burger_swap/status/1398161871778115586, https://www.coindesk.com/burgerswap-flash-loan-attack",
+    "website_link": "https://burgerswap.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/burger_swap",
+    "telegram_link": "https://t.me/burgerswap",
+    "our_post_link": null,
+    "funds_lost": 7200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 763,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
