@@ -1,0 +1,60 @@
+{
+    "id": 3786,
+    "project_name": "Dor",
+    "title": "DOR Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DOR token was experienced a rugpull by the deployer, resulting in a loss of 102,731 USD from PancakeSwap liquidity pool on Nov 21, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DOR is a BEP20 token trading on PancakeSwap. The deployer added liquidity to the LP pool and then removed it in a short time frame. The stolen funds, worth 102,731 USD (403.18 WBNB), were transferred to another EOA and subsequently distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xB62676f13771D2540543Fe4CA1f06D355B938a56</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x414a25bb722f79846be76b1b416a894a12e29261d6892f51f2b3ece62b71ee9b</p>",
+    "name_categories": "Token",
+    "token_name": "DOR",
+    "proof_archive_link": "https://archive.ph/935jt",
+    "technical_issue": null,
+    "token_address": "0x66CeFFdd63b2125f7A14a432a2eC1CD344E8a819",
+    "token_addresses": [
+        {
+            "address": "0x66ceffdd63b2125f7a14a432a2ec1cd344e8a819",
+            "url": "https://bscscan.com/address/0x66ceffdd63b2125f7a14a432a2ec1cd344e8a819",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6560a742d292b.png",
+    "date": "2023-11-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727147354829324328",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 102731,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3786,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
