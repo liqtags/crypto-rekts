@@ -1,0 +1,51 @@
+{
+    "id": 2641,
+    "project_name": "Bitcoinica",
+    "title": "Bitcoinica",
+    "description": "<p>According to a statement released on the Bitcoinica Web site, unknown hackers breached production servers and accessed information belonging to the Bitcoin exchange, Bitcoinica, stealing $87,000 in BTC.<br><br>The hack occurred on May 11 and resulted in the loss of 18,547 Bitcoins, which is worth more than $87,000 on the day of the attack. Attackers also obtained access to Bitcoinica users' user names, email addresses, and account histories.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/614b3d00b9f39.png",
+    "date": "2012-5-11",
+    "scam_updates": [],
+    "proof_link": "https://docs.google.com/document/d/1-QMiae2yQthRMZgSq8KisK5NcjYDxkyDjzLcDp3FoTQ/edit, https://bitcointalk.org/index.php?topic=81045.0, https://bitcointalk.org/index.php?topic=95738.0, https://bitcointalk.org/index.php?topic=95795.0, https://threatpost.com/breach-bitcoinica-exchange-nets-87000-online-currency-051412/76559/",
+    "website_link": "https://www.bitcoinica.com/",
+    "webarchive_link": "https://web.archive.org/web/20111007050316/https://www.bitcoinica.com/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 87000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2641,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
