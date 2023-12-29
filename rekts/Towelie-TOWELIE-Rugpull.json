@@ -1,0 +1,68 @@
+{
+    "id": 3698,
+    "project_name": "Towelie",
+    "title": "Towelie (TOWELIE) Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Towelie (TOWELIE) token project was rugpulled by the deployer, removing liquidity worth 88,861 USD from the UniSwap pool, causing a loss of 54.72 ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Towelie is an ERC20 token trading on UniSwap. On Aug 23, 2023, the deployer removed liquidity from the LP pool, resulting in an exit scam. The stolen funds were transferred to another EOA address and then distributed between multiple addresses. Half of the stolen funds were transferred to ChangeNow, a quarter to Binance, and a quarter were left on different EOA addresses. The total loss from this exit scam is 88,861 USD, equivalent to 54.72 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x9FAc5E13935FF5EeDe8063B87197A1Df48C45488</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x6b883c49C497C803C7173ECb90F6D9D5D4B445D3</p><p><br></p><p>Funds Holder Address as of September 4, 2023:</p><p>https://etherscan.io/address/0x55f03F6085e3316d7cc796D92c7e90c2EaAD9071</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x007aef7e3f9fce1374ed744ffbf9780f29fdfad0b4e2759e5fc4e1bd7b44537f</p>",
+    "name_categories": "Token",
+    "token_name": "TOWELIE",
+    "proof_archive_link": "https://archive.ph/eiU7S",
+    "technical_issue": null,
+    "token_address": "0x435940c749b012f53885a1f56dea68a1eb8e05d7",
+    "token_addresses": [
+        {
+            "address": "0x435940c749b012f53885a1f56dea68a1eb8e05d7",
+            "url": "https://etherscan.io/token/0x435940c749b012f53885a1f56dea68a1eb8e05d7",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xb36858942a9f92e99edf10791b4a3a4598c4f24a",
+            "url": "https://etherscan.io/address/0xb36858942a9f92e99edf10791b4a3a4598c4f24a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64f5fd40e7ae5.png",
+    "date": "2023-8-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1694294536762093950?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 88861,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3698,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
