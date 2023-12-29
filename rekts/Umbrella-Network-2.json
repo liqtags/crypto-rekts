@@ -1,0 +1,51 @@
+{
+    "id": 2856,
+    "project_name": "Umbrella Network",
+    "title": "Umbrella Network (2)",
+    "description": "<p>The hacker attacked Umbrella Network's reward pools, causing $700,000 to be siphoned from both BNB Chain and Ethereum.<br><br></p><p>On March 20, 2022, Umbrella Network revealed that the LP tokens staked in their Polar Stream staking contracts on Ethereum and BNB Chain had been drained from both contracts. According to reports, the hacker then used the stolen LP tokens to withdraw liquidity from both the UMB-ETH Uniswap and the UMB-BNB Pancakeswap pools.<br><br>The hack is possible because of an unchecked underflow in <u>withdraw</u>() so that anyone can withdraw any amount even without any balance.</p>",
+    "name_categories": "Other",
+    "token_name": "UMB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6fc13eace26590b80cccab1ba5d51890577d83b2, 0x846f52020749715f02aef25b5d1d65e48945649d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/623a5adf2d445.jpeg",
+    "date": "2022-3-20",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/umbrella-network/update-on-polar-stream-exploit-b2f4526327f2, https://twitter.com/UmbNetwork/status/1505529412695076868, https://twitter.com/peckshield/status/1505495324516782081",
+    "website_link": "https://umb.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/UmbNetwork",
+    "telegram_link": "https://t.me/umbrellanet",
+    "our_post_link": null,
+    "funds_lost": 700000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/umbrella-network",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2856,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
