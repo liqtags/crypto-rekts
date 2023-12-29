@@ -1,0 +1,139 @@
+{
+    "id": 3331,
+    "project_name": "dForce",
+    "title": "dForce",
+    "description": "<p><strong>Quick Summary</strong></p><p>On February 10th, the dForce protocol was exploited, and the attacker made a profit worth 3.65 million dollars.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 10th, the DeFi aggregator platform dForcenet was attacked and the attacker made a profit of approximately $3.65 million. The attacker used flashloans to borrow WETH and swapped it into ETH, then added liquidity to the wstETH/ETH pool on Curve, earning wstETHCRV tokens. They deposited some of the tokens in the Curve wstETHCRV-gauge, receiving wstETHCRV-gauge tokens, which were used to deposit in the dForce wstETH/ETH Vault and mint share tokens and USX tokens. The attacker then removed liquidity using the remove_liquidity function, which triggered the fallback function of the attack contract, ultimately decreasing the virtual price in the wstETH/ETH pool. The attacker then liquidated other users in the dForce wstETH/ETH Vault, profiting from the manipulated virtual price. The hacked funds are still in the attacker's address as of now. The root cause was the attacker's exploitation of the process of transferring native tokens before burning LP when removing liquidity in the wstETH/ETH Pool, triggering the callback for receiving native tokens to manipulate virtual prices and liquidate other users for profit.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TXs:</p><p>https://optimistic.etherscan.io/tx/0x6c19762186c9f32c81eb2a79420fc7ad4485aa916cab37ec278b216757bfba0d</p><p>https://phalcon.blocksec.com/tx/arbitrum/0x5db5c2400ab56db697b3cc9aa02a05deab658e1438ce2f8692ca009cc45171dd</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "DF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xae6aab43c4f3e0cea4ab83752c278f8debaba689",
+    "token_addresses": [
+        {
+            "address": "0xdfec2ea848cf8fda096503f8d9f37afac6e0ecf2",
+            "url": "https://optimistic.etherscan.io/token/0xdfec2ea848cf8fda096503f8d9f37afac6e0ecf2",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x2ce498b79c499c6bb64934042eba487bd31f75ea",
+            "url": "https://arbiscan.io/token/0x2ce498b79c499c6bb64934042eba487bd31f75ea",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ecb838e27a8.jpg",
+    "date": "2023-2-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1623901011680333824, https://twitter.com/SlowMist_Team/status/1623956763598000129",
+    "website_link": "https://dforce.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dForcenet",
+    "telegram_link": "https://t.me/dforcenet",
+    "our_post_link": null,
+    "funds_lost": 3650000,
+    "funds_returned": 0,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "1666600015",
+                "name": "Optimism"
+            },
+            "funds": {
+                "lost": {
+                    "value": "1000000",
+                    "date": "2023-02-10"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "42161",
+                "name": "Arbitrum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "2650000",
+                    "date": "2023-02-10"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/dforce-network",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/c2PC8SM",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3331,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        },
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3331,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/dForceLending_Audit_Report_Certik_Feb_2021.pdf",
+            "date": "2021-02-20T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/dForceLending_Audit_Report_Consensys_Mar_2021.pdf",
+            "date": "2021-03-01T00:00:00.000Z",
+            "partner": {
+                "id": 14,
+                "name": "ConsenSys Diligence",
+                "logo_link": "safe/files/partner/logo/609524af19cf1.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/dForceLending_Audit_Report_TrailofBits_Mar_2021.pdf",
+            "date": "2021-03-22T00:00:00.000Z",
+            "partner": {
+                "id": 18,
+                "name": "Trail of Bits",
+                "logo_link": "safe/files/partner/logo/60a7a1cccf039.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/dForceLending_Audit_Report_Certora_Feb_2021.pdf",
+            "date": "2021-02-08T00:00:00.000Z",
+            "partner": {
+                "id": 69,
+                "name": "Certora",
+                "logo_link": "safe/files/partner/logo/610861d6c1c37.jpeg"
+            }
+        }
+    ]
+}
