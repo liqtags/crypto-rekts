@@ -1,0 +1,51 @@
+{
+    "id": 2731,
+    "project_name": "dYdX",
+    "title": "dYdX",
+    "description": "<p>Affected contract:<br>https://etherscan.io/address/0x53773fE5ff4451c896127Dd2c91b8dE7ac51Ba2C<br><br>Timeline:<br><br>Nov 27 05:21. The dydX team received a report from a member of a trading firm regarding a vulnerability in the dYdX deposit proxy contract.<br><br>Nov 27 06:40. The dYdX team confirmed the bug. They asked samczsun and Georgios from Paradigm to join them in the war room as they respond to the vulnerability.<br><br>Nov 27 06:50. The dYdX and Paradigm teams together decided the best course of action is to execute a white-hat hack of vulnerable funds to move them to a safe location.<br><br>Nov 27 07:33. As samczsun finished a proof of concept for a white-hat hack, the dydX began implementing the recovery flow in the frontend and implementing a bot to save any additional funds that become vulnerable.<br><br>Nov 27 08:01. The dydX determined that ~700 addresses had allowances set on the vulnerable proxy contract. Of these, about 180 had funds at risk, totaling ~$2M.<br><br>Nov 27 09:27. The dydX team asked Etherscan to remove the verified source code from the proxy contract and they made the source code on GitHub private.<br><br>Nov 27 10:33. The white-hat escrow contract was deployed.<br><br>Nov 27 10:56. The <u>setAllowance</u>() function was disabled in the dYdX exchange frontend.<br><br>Nov 27 12:04. The first white-hat hack was executed via flashbots.<br><br>Nov 27 12:22. The front end was updated to show the warning and recovery process to users affected by the bug. Allowances for deposits were re-enabled using the old deposit flow.<br><br>Nov 27 12:32. Announcement was made on Twitter and Discord:<br>https://twitter.com/dydxprotocol/status/1464572467872247815?s=20<br><br>Nov 27 12:43. The second white-hat hack was executed via flashbots for two more addresses.<br><br>Nov 27 13:16. A recovery bot was deployed to automatically retrieve and escrow any more funds that become vulnerable.<br><br>As of Dec 8 at 18:00 UTC, $533,000 of additional funds were rescued by the bot, and nearly 80% of affected addresses have revoked approval from the vulnerable contract. Another estimated $211,000 in funds were exploited by frontrunner bots.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DYDX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x92d6c1e31e14520e676a687f0a93788b716beff5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61ba10afaa5ef.jpeg",
+    "date": "2021-11-24",
+    "scam_updates": [],
+    "proof_link": "https://dydx.exchange/blog/deposit-proxy-post-mortem",
+    "website_link": "https://dydx.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dydxprotocol",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 211002,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/dydxprotocol",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/dydx",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2731,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
