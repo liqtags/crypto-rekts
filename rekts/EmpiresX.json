@@ -1,0 +1,51 @@
+{
+    "id": 3286,
+    "project_name": "EmpiresX",
+    "title": "EmpiresX",
+    "description": "<p><strong>Quick Summary</strong></p><p>The head trader of EmpiresX Joshua David Nicholas pled guilty to running a Ponzi scheme. 100,000,000 $USD of investor's funds were taken over two years.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EmpiresX was a fake trading company, which used \"trading bots with artificial and human intelligence\" . Actually, there were no bots behind trading operations, and the 'guaranteed' returns for early investors had been paid by recent investor's funds. The classic Ponzi scheme was run over two years from 2020 to 2022. The total stolen amount reached approximately 100,000,000 $USD, when the actual amount that was used for trading was just nearly 1,000,000 $USD. On 30 November 2022, Joshua David Nicholas pled guilty to running a Ponzi scheme and have been handed an over four-year jail sentence.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/1zfE2, https://archive.ph/0dRzZ",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6388b58759256.jpg",
+    "date": "2022-9-8",
+    "scam_updates": [],
+    "proof_link": "https://www.justice.gov/opa/pr/empiresx-head-trader-pleads-guilty-global-cryptocurrency-investment-fraud-scheme-amassed, https://cointelegraph.com/news/empiresx-head-trader-to-face-4-years-of-prison-over-100m-crypto-ponzi",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 100000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3286,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
