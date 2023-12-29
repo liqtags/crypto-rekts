@@ -1,0 +1,60 @@
+{
+    "id": 3639,
+    "project_name": "IEGT",
+    "title": "IEGT Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>IEGT token was rugpulled by selling excess tokens leading to a loss of 1,143,775 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>IEGT is a BEP20 token trading on PancakeSwap. The scammer manipulated the token supply and sold 1,000,000,000 IEGT tokens, despite the total token supply showing only 5,000,000. After the sale, the funds were transferred to another address, which is currently holding the majority of the stolen funds. Smaller portions of the funds were sent to several other EOA addresses. The total loss from this exploit is estimated at 1,143,775 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer's Address:</p><p>https://bscscan.com/address/0x00002b9b0748d575cb21de3cae868ed19a7b5b56</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x000000481f40f88742399a627cbc2afb6ec34fed</p><p><br></p><p>Liquidity Draining Transaction:</p><p>https://bscscan.com/tx/0x9cea0bd314181f42a359c26b68f8790add4daf83e2bfd2d349268538e4e1e2ca</p>",
+    "name_categories": "Token",
+    "token_name": "IEGT",
+    "proof_archive_link": "https://archive.ph/WkG99",
+    "technical_issue": null,
+    "token_address": "0x8d07f605926837ea0f9e1e24dba0fb348cb3e97d",
+    "token_addresses": [
+        {
+            "address": "0x8d07f605926837ea0f9e1e24dba0fb348cb3e97d",
+            "url": "https://bscscan.com/address/0x8d07f605926837ea0f9e1e24dba0fb348cb3e97d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c4fc91cb5fa.png",
+    "date": "2023-7-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1684210839983644676",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1143772,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3639,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
