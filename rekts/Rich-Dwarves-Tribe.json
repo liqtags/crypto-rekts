@@ -1,0 +1,60 @@
+{
+    "id": 3306,
+    "project_name": "Rich Dwarves Tribe",
+    "title": "Rich Dwarves Tribe",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:4pt 0pt 4pt 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Rich Dwarves Tribe rugpulled shortly after the collection had been fully minted out. The creators abandoned the NFT project and disappeared with $3M gained from selling the collection.&nbsp;</span></h2><p><br></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;padding:0pt 0pt 4pt 0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The&nbsp;</span><span style=\"font-size:11.5pt;font-family:Roboto,sans-serif;color:#0f1419;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">funds were transferred to Binance and FTX addresses. Two receiver addresses on Binance are connected to three other rug pulls: Bored Bunny, Ancient Cats Club and Mayweverse.</span></h2><p><br></p><h2 dir=\"ltr\" style=\"line-height:1.3976470588235295;background-color:#ffffff;margin-top:0pt;margin-bottom:4pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The last tweet was posted on the 22nd of January. The project\u2019s website is down.&nbsp;</span></h2>",
+    "name_categories": "NFT",
+    "token_name": "DWARF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0A0211973587a837491f0AbE8Bd1Ec8D442efAC8",
+    "token_addresses": [
+        {
+            "address": "0x0A0211973587a837491f0AbE8Bd1Ec8D442efAC8",
+            "url": null,
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63b3659f1340d.png",
+    "date": "2022-1-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/zachxbt/status/1553036424617787400",
+    "website_link": "https://richdwarvestribe.io/",
+    "webarchive_link": "https://archive.ph/npVKu",
+    "twitter_link": "https://twitter.com/RichdwarvesNFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 5,
+        "type": "Abandoned"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3306,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
