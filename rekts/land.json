@@ -1,0 +1,68 @@
+{
+    "id": 3528,
+    "project_name": "land",
+    "title": "land",
+    "description": "<p><strong>Quick Summary</strong></p><p>LandNFT project experienced an exitscam. The scammer allowed to create of 200 NFTs that were sold for 145,043 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LandNFT is an NFT project on Binance Smart Chain (BSC). An investigation revealed that some miner addresses had unlimited ability to mint NFTs, including one with the address: 0x2e599883715d2f92468fa5ae3f9aab4e930e3ac7. The attack started by calling the contract owned by this miner's address to mint 200 NTFs without any restrictions or permissions.</p><p>Next, the scammer called another function from another contract using these newly created tokens to swap them for $XQJ tokens at a rate of 200 $XQJ per token. Finally, they exchanged all accumulated $XQJ tokens for 145,043 $USD. The stolen funds currently remain at the scammers original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x96b89c2560bcc43c342c12ba9c33dab7eb571a90</p><p><br></p><p>Mint Transaction:</p><p>https://bscscan.com/tx/0xe4db1550e3aa78a05e93bfd8fbe21b6eba5cce50dc06688949ab479ebed18048</p><p><br></p><p>Swap Transaction Example:</p><p>https://bscscan.com/tx/0x7ab211f9ed4d026a484ac786a59d9b3001939354c27500deda6ec3d248f4d180</p>",
+    "name_categories": "NFT",
+    "token_name": "land",
+    "proof_archive_link": "https://archive.ph/mogcO",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x1a62fe088f46561be92bb5f6e83266289b94c154",
+    "token_addresses": [
+        {
+            "address": "0x1a62fe088f46561be92bb5f6e83266289b94c154",
+            "url": "https://bscscan.com/address/0x1a62fe088f46561be92bb5f6e83266289b94c154",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x2e599883715d2f92468fa5ae3f9aab4e930e3ac7",
+            "url": "https://bscscan.com/address/0x2e599883715d2f92468fa5ae3f9aab4e930e3ac7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/646505576a89b.png",
+    "date": "2023-5-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1658018775541731329",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 145043,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3528,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
