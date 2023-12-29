@@ -1,0 +1,68 @@
+{
+    "id": 3533,
+    "project_name": "CS",
+    "title": "CS",
+    "description": "<p><strong>Quick Summary</strong></p><p>CS token's pool was exploited via a flash loan attack. The attacker used 80,000,000 $USD to manipulate the token price and made a profit of 714,285 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CS is a BEP20 token trading on PancakeSwap. The token's CS/USD pool was drained via a flash loan attack. The attack started from the malicious contract deployment by the exploiter, which took 80,000,000 $USD as a flash loan from the BSC-USD pool. Consequently, multiple swaps with a small amount of 5,000 $USD was continuously repeated to manipulate the pool's price. After reaching some conditions, the attacker could swap the $CS tokens back with an unfairly high price and the total amount gained back went to 80,954,285 $USD. 240,000 $USD were paid back to the BSC-USD pool as a flash loan fee after the base amount was returned. The exploiter's profit reached 714,285 $USD, which was transferred to the initial EOA, and then distributed between several addresses. All the malicious actions were performed in a single transaction.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2cdeee9698ffc9fcabc116b820c24e89184027ba&nbsp;</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x906394b2ee093720955a7d55bff1666f6cf6239e46bea8af99d6352b9687baa4&nbsp;</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x90fa57d23b85cdd52c46b85636f44c47926ee2e3&nbsp;</p>",
+    "name_categories": "Token",
+    "token_name": "CS",
+    "proof_archive_link": "https://archive.ph/7ELjC",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x8bc6ce23e5e2c4f0a96429e3c9d482d74171215e",
+    "token_addresses": [
+        {
+            "address": "0x8bc6ce23e5e2c4f0a96429e3c9d482d74171215e",
+            "url": "https://bscscan.com/address/0x8bc6ce23e5e2c4f0a96429e3c9d482d74171215e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x6BC2823De2c3718D3669C2E7036E1D888C4107a1",
+            "url": "https://bscscan.com/address/0x6BC2823De2c3718D3669C2E7036E1D888C4107a1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/647071eed0e32.png",
+    "date": "2023-5-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1661092709392629783",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 714285,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3533,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
