@@ -1,0 +1,51 @@
+{
+    "id": 3048,
+    "project_name": "Bored Ape Europe Club",
+    "title": "Bored Ape Europe Club",
+    "description": "<p>0xBAEC has been rugged for ~12ETH. The attacker deleted it's Twitter account (https://twitter.com/BoredApesEC).</p><p><br></p><p>Attacker wallet (ETH):</p><p>1) https://etherscan.io/address/0xF41cBA3718a736310E80cc18e18bb8F62C545B36</p><p>2) https://etherscan.io/address/0x6f495c3b5b47399074075270834f9f5bdcd74a48</p><p><br></p><p>Attacker wallet (BSC): https://bscscan.com/address/0x6f495C3B5B47399074075270834f9F5BdcD74a48</p><p>&nbsp;</p><p>Stolen money are currently at this address: https://etherscan.io/address/0xd100957B0D9771CBeEeEE836Ff948e780A29E09C</p><p>Funds are also sent to this wallet: https://etherscan.io/address/0x6f495c3b5b47399074075270834f9f5bdcd74a48</p><p><br></p><p>Collection at the OpenSea: https://opensea.io/collection/0xbaecs</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1535323838900277248, https://twitter.com/Crypto4me2/status/1535291364044201989, https://twitter.com/Crypto4me2/status/1535475599317184513",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a74c304d1e0.png",
+    "date": "2022-6-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 14400,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3048,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
