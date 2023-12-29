@@ -1,0 +1,51 @@
+{
+    "id": 2938,
+    "project_name": "Exco",
+    "title": "Exco",
+    "description": "<p>Exco.in suffered an attack that may have resulted in the loss of up to 2,000 BTC, according to some reports.<br><br>Exco.in believes one of their competitors may know the identity of the hacker who attacked them. The alleged hacker goes by the name \"ambiorx,\" and Exco.in says the Danish-based exchange CCEDK knows who he is.<br><br>CCEDK's founder appears to have posted conversations he had with a user who had found an exploit in Exco.in. Additionally, Exco.in has revealed that they believe DD4BC, the notorious hacking group responsible for attacks on both Bitalo and Nitrogensports.eu, was involved in the attack. DD4BC performed a DDoS attack on Exco.in. During that time, ambiorx allegedly hacked into Exco.in and pulled off the theft, according to sources. Other exchanges have also been experiencing downtime, but it is unclear whether the attacks are related.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624e0ae99711a.jpeg",
+    "date": "2015-2-10",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/notorious-hacker-group-involved-in-excoin-theft-owner-accuses-ccedk-of-withholding-info",
+    "website_link": "http://exco.in/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 460000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2938,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
