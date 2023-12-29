@@ -1,0 +1,51 @@
+{
+    "id": 271,
+    "project_name": "TRBAS3",
+    "title": "TRBAS3",
+    "description": "<p>The contract deployer invoked the minting function and <u>DistributeAirdrop</u>() to generate new tokens onto his wallet:<br>https://etherscan.io/tx/0xd1a72cc4d68bdc849769a6ba64baf73a604e837689a6ce4d614ff342e45351a7<br>https://etherscan.io/tx/0x9cd32b80ffbe08745f81c6b80b4a2821db54dfba40391a7200baa04dc43dc1f2<br>https://etherscan.io/tx/0xd2acd26e2b53b61ebaec684fbefe4122313563ab57a01f29be64476951057e1c<br><br>Tokens have been sold by the contract deployer in multiple transactions:<br>https://bloxy.info/txs/calls_from/0xbe9230888a7f842628b3475a430f7cadf1461734?signature_id=1102188&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d</p>",
+    "name_categories": "Token",
+    "token_name": "TRBAS3",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x43eb8277b06ec9a6b6ea32953c2ac34c18c44d02",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61c0b78bd1.png",
+    "date": "2020-12-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1338479100294402050",
+    "website_link": "https://www.trbas3.org/",
+    "webarchive_link": "https://web.archive.org/web/20201214134108/https://www.trbas3.org/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/trbas3",
+    "our_post_link": null,
+    "funds_lost": 3176,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 271,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
