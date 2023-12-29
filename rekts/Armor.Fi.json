@@ -1,0 +1,51 @@
+{
+    "id": 2769,
+    "project_name": "Armor.Fi",
+    "title": "Armor.Fi",
+    "description": "<p>The Armor team claimed that some team members were scammed by OTC and were defrauded of 1.2 million ARMOR tokens. The scammers have dumped all tokens for a profit of 600 ETH (approximately US$850,000). The Armor team disclosed that the scammers pretended to be strategic investors on social media, falsely claiming to purchase tokens from the team through OTC, defrauded 1.2 million ARMOR tokens in OTC transactions, and then sold them.<br><br>Scammers' addresses:<br>https://etherscan.io/address/0x5cb85fe2e80c5282ad7f349a2ca0fb806a08da90<br>https://etherscan.io/address/0x9f7ffe5ad07cb7b8db199e16a0617beadc116de9<br>https://etherscan.io/address/0x1ed3b57b018adacfee3919a449561d66a85a6f2b</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "ARMOR",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1337def16f9b486faed0293eb623dc8395dfe46a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e57ebf47c04.png",
+    "date": "2021-2-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/ArmorFi/status/1365863250827620352, https://hacked.slowmist.io/",
+    "website_link": "https://armor.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ArmorFi",
+    "telegram_link": "https://t.me/ArmorFi",
+    "our_post_link": null,
+    "funds_lost": 850000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/8HuTB22",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2769,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
