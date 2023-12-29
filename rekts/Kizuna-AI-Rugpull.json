@@ -1,0 +1,60 @@
+{
+    "id": 3693,
+    "project_name": "Kizuna AI",
+    "title": "Kizuna AI Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Kizuna AI token project rugpulled by deployer, removing liquidity worth 134,863 USD from UniSwap pool in multiple transactions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Kizuna AI (KIZUNA) is an ERC20 token trading on UniSwap. On August 29, 2023, the deployer performed an exit scam by removing liquidity from the LP pool in multiple small transactions. The stolen funds, equivalent to 78.5 ETH or 134,863 USD, were distributed to multiple EOA addresses in small amounts of ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x1CAFE95d8b22559F7b43A5eee15D9B7716d54763</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xbf29cf831f058ede1e6fea058bc9c233bd3cc2bbd7668f3432926f3f31491c81</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x7b5aefff150439a78a6410fe65c93e3d170762dce28228883a6883d60d396ad5</p>",
+    "name_categories": "Token",
+    "token_name": "KIZUNA",
+    "proof_archive_link": "https://archive.ph/BsWJ8",
+    "technical_issue": null,
+    "token_address": "0x15d5fed8f86732efec2c62e94ae8d434add7af1e",
+    "token_addresses": [
+        {
+            "address": "0x15d5fed8f86732efec2c62e94ae8d434add7af1e",
+            "url": "https://etherscan.io/token/0x15d5fed8f86732efec2c62e94ae8d434add7af1e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ef3ecf66d86.png",
+    "date": "2023-8-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1696823573678051683",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 134863,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3693,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
