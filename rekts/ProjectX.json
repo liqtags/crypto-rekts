@@ -1,0 +1,51 @@
+{
+    "id": 3081,
+    "project_name": "ProjectX",
+    "title": "ProjectX",
+    "description": "<p><strong>Quick Summary</strong></p><p>ProjectX has been rugpulled by the token creator. The token creator minted 1M $PXT tokens which were distributed among several addresses that dumped the token price taking profits of ~$28K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ProjectX was a nodes as a service project promising passive income to its holders.&nbsp;</p><p>The creator of the contract, deployed the token contract into the network and minted himself 1M $PXT (https://snowtrace.io/tx/0xf9cb648f4243b2796f77be3deae5c692e1f1f27c848ed759e7c186573a299dd5).&nbsp;</p><p>Then, 1M$PXT tokens were sent to the scam address (B) in this transaction (https://snowtrace.io/tx/0x07ca84475a6d999128625c5fa102e084cbb961d543b5182e7ebeb0bae047ea97)</p><p>The team opened a liquidity pool on Trader Joe, where the liquidity with a profit of 584 $WAVAX was ultimately removed&nbsp;</p><p>(https://snowtrace.io/tx/0xc674da82fc0814a8209448404d3757897837ba688e56b1e2a3d433b93248d4b9).</p><p>At the time of this writing funds are partly located at this address (<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://snowtrace.io/address/0x9c02ac147096ed92a53d9dca3fd04b4b001151fa</span>). &nbsp;The scammer address (D) received 500K $PXT tokens from scammer address (C), and swapped the tokens to 911.21 $WAVAX in these two transactions:</p><p>1) https://snowtrace.io/tx/0x177a8060163f2b6021cef2c17baf5fe42fe995e26b38d6d4ab01257651756826</p><p>2) https://snowtrace.io/tx/0x283d99a5f9d6a46629467900886a92cd291c03987b091dbe852b9640e79e7e3a</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://snowtrace.io/address/0x9adcbba4b79ee5285e891512b44706f41f14cafd</p><p>Token creator address: https://snowtrace.io/address/0x9dc72782deac4cf25e8319b9ffc1f689f5bf67fd</p><p><br></p><p>Scammer addresses:</p><p>1) https://snowtrace.io/address/0x9dc72782deac4cf25e8319b9ffc1f689f5bf67fd</p><p>2) https://snowtrace.io/address/0x19c7798a756e353f6585302b8cb71fd31dea83af</p><p>3) &nbsp;https://snowtrace.io/address/0xadbf6ee98f86d5c234d60662639d0c067818294e</p><p>4) https://snowtrace.io/address/0x9c02ac147096ed92a53d9dca3fd04b4b001151fa</p><p><br></p><p>Involved address: https://snowtrace.io/address/ 0xFbB3A79B276fE81719f24E96b78DfcEa7DCA3987</p>",
+    "name_categories": "Other",
+    "token_name": "PXT",
+    "proof_archive_link": "https://web.archive.org/web/20220707092953/https://twitter.com/0xLosingMoney/status/1544976905954152448, https://web.archive.org/web/20220712123913/https://twitter.com/CertiKAlert/status/1544942137195855872",
+    "technical_issue": null,
+    "token_address": "0x9ADCbba4b79eE5285E891512b44706F41F14CAFd",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62cd34c16da30.png",
+    "date": "2022-7-7",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/avalanche/0xf17a02640e399e01ee4a197ba101e0df14e60a98",
+    "website_link": "https://projectx.financial/",
+    "webarchive_link": "https://web.archive.org/web/20220626002737/https://projectx.financial/",
+    "twitter_link": "https://twitter.com/projectxfinance",
+    "telegram_link": "https://t.me/projectxnodes",
+    "our_post_link": null,
+    "funds_lost": 28247,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/XProject11/",
+    "git_hub_contract_link": "https://github.com/XProject11/OLD_Contracts",
+    "discord": "https://discord.com/invite/projectx",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3081,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
