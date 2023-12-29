@@ -1,0 +1,60 @@
+{
+    "id": 3655,
+    "project_name": "Satori",
+    "title": "Satori Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Satori token was rugpulled by the deployer, removing liquidity worth 225,762 $USD from the PancakeSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Satori is a BEP20 token trading on PancakeSwap. Between August 2 and August 7, the deployer executed a rugpull by removing liquidity from the LP pool in nine separate transactions. The stolen funds, amounting to 225,762 USDT, were transferred through several EOA addresses and are currently held at a specific address as of August 7.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xD2010607bAB8b8007BF6bB22b4D8A40f73a8003E</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x9F109Ff74aCDf0babBa1c171627154AB5BeE1De8</p><p><br></p><p>Funds Holder as of August 7, 2023:</p><p>https://bscscan.com/address/0xd311616d3eca87c716f53930e36d0277cc442d33</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xa20021dd2f597ef1430713e4cacf87c179b9f2e1cc8bfd5a4d6e32b4fbf791d3</p><p>https://bscscan.com/tx/0x38c992efa9a4e9ea8b9580aace96420f9376f2472ad7eb29a910d1db2520495e</p><p>https://bscscan.com/tx/0x20a7f529af8b8fbc712623f03e910144f3704278be74f4aadf1afcdae3b0051b</p>",
+    "name_categories": "Token",
+    "token_name": "Satori",
+    "proof_archive_link": "https://archive.ph/fX93x",
+    "technical_issue": null,
+    "token_address": "0x6dF52fC4c234600d2D1F064c33BE762146964BB1",
+    "token_addresses": [
+        {
+            "address": "0x6dF52fC4c234600d2D1F064c33BE762146964BB1",
+            "url": "https://bscscan.com/address/0x6dF52fC4c234600d2D1F064c33BE762146964BB1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64d1428252d90.png",
+    "date": "2023-8-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1688132913563398144?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 225765,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3655,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
