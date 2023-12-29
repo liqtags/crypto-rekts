@@ -1,0 +1,51 @@
+{
+    "id": 2720,
+    "project_name": "Formation.Fi",
+    "title": "Formation.Fi",
+    "description": "<p>The attacker:<br>https://etherscan.io/address/0x89640eb6c8d72606d6a0fff45415bff0ab0e3ae1<br><br>The transaction behind the attack:<br>https://etherscan.io/tx/0x5c9ac39ca05e51147d60156f085e650370a1e930f9f615f758fecb31deafb6ab<br><br>The attack contract:<br>https://etherscan.io/address/0xb5aef637d77648c4b937d1be5f6a036f52b1711e<br><br>Affected contracts:<br>https://bscscan.com/address/0xe2ee850d72d02b3d827b98847d332add0d3f0012<br><br>https://etherscan.io/address/0x62931dece3411ada1038c09cd01baa11db08334b<br><br>The farming contract has been using the balance of the pool for price discovery of the FORM token and LP token in order to calculate the USD (stable coin) value of the position and pay rewards accordingly.<br><br>The Flash Swap mechanism allows to alter the price of the FORM token \u2014 the exploit contract used that in order to excessively increase the value of the reward calculated at the withdrawal transaction.<br><br>The attacker:<br>- staked LP tokens.</p><p>- pulled available funds from the pool, unstaked LP token, and sent back funds to the pool.<br><br>Further exploitation was prevented by devs by setting the multiplier to 0, which makes the contract send no FORMs for any new staked LP tokens:<br>https://etherscan.io/tx/0x9aad3091b1f71b8fdb9587aadfec512809dec0d4118e1f2b8922a5e1a263efc8</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "FORM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x21381e026ad6d8266244f2a583b35f9e4413fa2a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b0d6fb7213e.png",
+    "date": "2021-11-20",
+    "scam_updates": [],
+    "proof_link": "https://formation-fi.medium.com/greetings-formation-fi-community-supporters-investors-and-friends-b09d673cda8a",
+    "website_link": "https://app.formation.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/formationfi",
+    "telegram_link": "https://t.me/FormationFi",
+    "our_post_link": null,
+    "funds_lost": 100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2720,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
