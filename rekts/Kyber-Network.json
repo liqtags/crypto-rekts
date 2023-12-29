@@ -1,0 +1,51 @@
+{
+    "id": 3177,
+    "project_name": "Kyber Network",
+    "title": "Kyber Network",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Kyber Network project was exploited by a hacker who took advantage of a vulnerability in the front end taking a profit of ~$265k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\"><span lang=\"en\">Kyber Network is a decentralized, blockchain-based protocol that aggregates liquidity and enables the exchange of tokens without an intermediary.</span></p><p data-v-51e0c2ec=\"\">The hacker managed to add malicious code to Google Tag Manager (GTM), which performed an approve, which gave the hacker access to user's funds. The script added by hacker's team was specifically targeting whale wallets.</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Involved addresses:</p><p data-v-51e0c2ec=\"\">- Scammer address:&nbsp;</p><p data-v-51e0c2ec=\"\">&nbsp; - Polygon: https://polygonscan.com/address/0x57A72cE4fd69eBEdEfC1a938b690fbf11A7Dff80</p><p data-v-51e0c2ec=\"\">&nbsp; - Ethereum: https://etherscan.io/address/0x57A72cE4fd69eBEdEfC1a938b690fbf11A7Dff80</p><p data-v-51e0c2ec=\"\">&nbsp;- Addresses supplying native tokens to hacker addresses: https://etherscan.io/address/0x9bc22f7e0234029eaf2c570588d829f07123fdd6</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "KNC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xfe56d5892bdffc7bf58f2e84be1b2c32d21c308b, https://etherscan.io/token/0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631767b2a2d36.jpeg",
+    "date": "2022-9-1",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://kyberswap.com/swap",
+    "webarchive_link": "https://web.archive.org/web/20220906152504/https://kyberswap.com/swap",
+    "twitter_link": "https://twitter.com/KyberNetwork",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 265050,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://twitter.com/KyberNetwork",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3177,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
