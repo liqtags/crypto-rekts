@@ -1,0 +1,51 @@
+{
+    "id": 2858,
+    "project_name": "Doodled Dragons",
+    "title": "Doodled Dragons",
+    "description": "<p>NFT project Doodled Dragons after their fundraising event stated that they will donate $30,000 to WWF. After a few minutes, the person in charge of Doodled Dragons stated that their charity will instead be their personal bank account and deleted their Twitter account:<br>https://web.archive.org/web/20220106161228/https://twitter.com/DoodledDragons_/status/1479123223543521282</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/623b3f88f1885.jpeg",
+    "date": "2022-1-6",
+    "scam_updates": [],
+    "proof_link": "https://web3isgoinggreat.com/?id=2022-01-09-0, https://twitter.com/gt3_btc/status/1479124552479346690?s=21",
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220106161228/https://twitter.com/DoodledDragons_/status/1479123223543521282",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 30000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 2858,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
