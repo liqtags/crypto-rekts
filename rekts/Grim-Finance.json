@@ -1,0 +1,51 @@
+{
+    "id": 2743,
+    "project_name": "Grim Finance",
+    "title": "Grim Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Grim Finance's GrimBoostVault was exploited due to a reentrancy bug, allowing the attacker to mint large amounts of GB tokens and withdraw more SPIRIT-LP tokens than they deposited.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by taking a flash loan from the Balancer vault in WBTC and WFTM tokens. They then added liquidity on SpiritSwap and minted LP tokens. The attacker exploited a reentrancy bug in the depositor () function in GrimBoostVault, using a malicious contract as the token parameter. This allowed them to mint a large amount of GB tokens and withdraw more SPIRIT-LP tokens than they deposited. The attacker then removed liquidity, gaining more XXX and YYY tokens, and repaid the flash loan. The stolen funds were then bridged to Polygon, BSC, and Ethereum.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://ftmscan.com/address/0xdefc385d7038f391eb0063c2f7c238cfb55b206c</p><p><br></p><p>The transaction behind the attack:</p><p>https://ftmscan.com/tx/0x19315e5b150d0a83e797203bb9c957ec1fa8a6f404f4f761d970cb29a74a5dd6</p><p><br></p><p>Affected vault:</p><p>https://ftmscan.com/address/0x660184ce8af80e0b1e5a1172a16168b15f4136bf#code</p><p><br></p><p>The attacker's addresses on other chains:</p><p>https://etherscan.io/address/0xdefc385d7038f391eb0063c2f7c238cfb55b206c</p><p>https://polygonscan.com/address/0xdefc385d7038f391eb0063c2f7c238cfb55b206c</p><p>https://bscscan.com/address/0xdefc385d7038f391eb0063c2f7c238cfb55b206c</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "GRIM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x7ec94c4327dc757601b4273cd67014d7760be97e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61c0ade22f440.jpeg",
+    "date": "2021-12-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/financegrim/status/1472357770846519312, https://twitter.com/k3mmio/status/1472315936166219777, https://twitter.com/peckshield/status/1472328354942849024",
+    "website_link": "https://www.grim.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/financegrim",
+    "telegram_link": "https://t.me/financegrim",
+    "our_post_link": null,
+    "funds_lost": 40000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/JEdKhXeDKB",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2743,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
