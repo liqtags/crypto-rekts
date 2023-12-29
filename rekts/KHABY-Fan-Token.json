@@ -1,0 +1,68 @@
+{
+    "id": 3235,
+    "project_name": "KHABY Fan Token",
+    "title": "KHABY Fan Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>KHABY Fan Token was rugpulled for 32,814 $USD. Liquidity was removed by the token deployer.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>KHABY Fan Token is BEP20 token trading on PancakeSwap and can't be confused with other tokens with the same name and symbol. The token deployer added liquidity for 250 $WBNB and after some period removed 373 $WBNB from the pool, which caused the $KFT token price to drop by 100%. The stolen funds were transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xacc1e2d394c0f599b7bab0077733c90cc02f832c</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0xb1f52dc5410536cf84eb99998abfa50890e0d2718dde621432eeded1ba9b484a</p>",
+    "name_categories": "Token",
+    "token_name": "KFT",
+    "proof_archive_link": "https://archive.ph/qNi1F",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xe1e17b24f32Cfe85a3C1aB63f14082D70592f6eE",
+    "token_addresses": [
+        {
+            "address": "0xe1e17b24f32Cfe85a3C1aB63f14082D70592f6eE",
+            "url": "https://bscscan.com/address/0xe1e17b24f32Cfe85a3C1aB63f14082D70592f6eE",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x604109262e0310ba3d60f824850650a522dc79e5",
+            "url": "https://bscscan.com/address/0x604109262e0310ba3d60f824850650a522dc79e5",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635293a8d67da.png",
+    "date": "2022-10-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1580228830601834496",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 32814,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3235,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
