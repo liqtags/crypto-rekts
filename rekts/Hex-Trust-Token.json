@@ -1,0 +1,68 @@
+{
+    "id": 3390,
+    "project_name": "Hex Trust Token",
+    "title": "Hex Trust Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Hex Trust Token was scammed by the deployer with a profit about of 200k $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The token contract deployer (<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>0x73e6) has minted <span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">100,000,000,000,000,000</span> HXT tokens after what LP on the pancake was totally drained.&nbsp;</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>All raised BNB was transferred through a tornado cash mixer.&nbsp;</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer sells:</p><p>https://bscscan.com/tx/0xd5b7fde2b199f3a17737a72f8a81b3c9b8af41d8ad2a796cae95d89c40e00433</p><p>https://bscscan.com/tx/0x85364e0c37d06d254187737ea77d3847648f527a5915ee2e8475271e55a22040</p><p>https://bscscan.com/tx/0xc45868bb64a2278a0dafa0dfadb402fdc55368cda9db3a456ee90f6b7c225bfc</p><p><br></p><p>Deployer address:</p><p>https://bscscan.com/address/0x73e6da6ac6f1122a2c55cc7a5463ae99a482884a</p><p><br></p><p>Mint tx:</p><p>https://bscscan.com/tx/0x69ceaa00b40e0cb4ab1a7db18daa3b4947bd0bdefd2205e84c76697e84600527</p><p><br></p><p>Example of tornado cash tx:</p><p>https://bscscan.com/tx/0xfe76a9c1c03e9f06fb0668369c5767777ddfba5a743f9ebd3e06be05dda79df5</p>",
+    "name_categories": "Token",
+    "token_name": "HXT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0003018ba02bacafc28cd8926d4a46a4bb20d76a",
+    "token_addresses": [
+        {
+            "address": "0x0003018BA02BacafC28cd8926D4a46A4bb20d76A",
+            "url": "https://bscscan.com/address/0x0003018BA02BacafC28cd8926D4a46A4bb20d76A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xc528df09af5ca925719373148e931ace541a9a77",
+            "url": "https://bscscan.com/address/0xc528df09af5ca925719373148e931ace541a9a77",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64233d80ba473.png",
+    "date": "2023-3-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1631299818189357057?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3390,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
