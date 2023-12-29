@@ -1,0 +1,61 @@
+{
+    "id": 3043,
+    "project_name": "Gym Network",
+    "title": "Gym Network",
+    "description": "<p>Gym Network has been exploited for $2.1M. The <em>depositFromOtherContract()</em> function is a wrapper for the <em>_autoDeposit()</em> function, where there is no <em>transfer()&nbsp;</em>function to transfer a user\u2019s deposit to the contract, so a user can call <em>deposit()</em> and \u2018create deposit record\u2019 without actually transferring tokens.&nbsp;</p><p>Now function is resolved adding <em>onlyBank()&nbsp;</em>modifier.</p><p><br></p><p>Exploiter address (BSC): https://bscscan.com/address/0xb2c035eee03b821cbe78644e5da8b8eaa711d2e5</p><p>Exploiter contract (BSC): https://bscscan.com/address/0x7cbfd7bccd0a4a377ec6f6e44857efe42c91b6ea</p><p>Victim contract: https://bscscan.com/address/0x0288fba0bf19072d30490a0f3c81cd9b0634258a</p><p>Repaired contract: https://bscscan.com/address/0x7df0bc661b6a239ae2f41f9548f6b17f7bd8328b</p><p><br></p><p>Exploiter transactions example:</p><p>1) https://bscscan.com/tx/0x171a448161f2c438cca0502599a6784561d11099c9218e2125c5f3c7a6705dd3</p><p>2)&nbsp;https://bscscan.com/tx/0x91f5e625447da3e7d0d409d5c7762c94c4d5793ab34430b81a9889e5ef9f37dd</p><p>3) https://bscscan.com/tx/0x12970f3962b4bacd01bb4e3dc086804e4e5861134db5dd80d7e4671aa7f23d16</p><p><br></p><p>The attacker has created several contracts to perform these steps:</p><p>The attacker calls the <em>depositFromOtherContract() &nbsp;</em>function with the deposit amount set to 8M GYMNET, without transferring money because there is no transfer function.</p><p>Next attacker calls <em>withdraw()</em> function to withdraw 8M GYMNET.</p><p>Then attacker swaps GYMNET tokens to BNB and sends them to this address: https://bscscan.com/address/0xb2c035eee03b821cbe78644e5da8b8eaa711d2e5<a href=\"https://bscscan.com/address/0xb2c035eee03b821cbe78644e5da8b8eaa711d2e5\"></a><br></p><p><br></p><p>All funds were laundered via TornadoCache.</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "GYMNET",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1534554576317255680, https://twitter.com/GymNet_Official/status/1534452473754157056, https://twitter.com/peckshield/status/1534423219607719936, https://twitter.com/CertiKAlert/status/1536387391518388228https://twitter.com/fswap2021/status/1536379736930263040",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x3a0d9d7764FAE860A659eb96A500F1323b411e68",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a3595a76669.jpeg",
+    "date": "2022-6-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/GymNet_Official/status/1534452473754157056",
+    "website_link": "https://gymnetwork.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GymNet_Official",
+    "telegram_link": "https://t.me/gymnetwork_english",
+    "our_post_link": null,
+    "funds_lost": 2100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3043,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Gym_Network_v20.pdf",
+            "date": "2022-05-06T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
