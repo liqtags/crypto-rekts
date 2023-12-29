@@ -1,0 +1,51 @@
+{
+    "id": 222,
+    "project_name": "Rubick Finance",
+    "title": "Rubick Finance",
+    "description": "<p>The token contract owner minted 1 million RBK tokens to his EOA wallet and exchanged them for 40.57 ETH on the Uniswap. The contract owner gained 10.57 ETH since he earlier added 30 ETH liquidity to the RBK-ETH pair on the Uniswap. Users, who remained with RBK tokens were unable to sell their tokens since all liquidity has been depleted.<br><br>Swap transaction:<br>https://etherscan.io/tx/0x620e0b9bf77dc062d106465180f9b5d18a2a879a69eed582c9844f1d2cb8869d</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RBK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x960a223f27b474de35f05b27210cc62cf7bdb1eb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5e9638626b.png",
+    "date": "2020-11-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1328532776673366019",
+    "website_link": "https://rubik.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201116122938/https://rubik.finance/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 20685,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 222,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
