@@ -1,0 +1,51 @@
+{
+    "id": 174,
+    "project_name": "Jointventure Finance",
+    "title": "Jointventure Finance",
+    "description": "<p>The contract deployer has locked part of tokens at:<br>https://etherscan.io/tx/0x6077ef8cd8587a0ddfd269e9798cc779fd4126961cab08f28de00e7cce3c4dbc<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xde4ad6af33aef90cc1325aa1b65c9133461731dfe2d627eab7fc573f25f4ed7e<br><br>The contract deployer used hidden minting functionality under the <u>burnFrom</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xa9d1f67364becac80b60f8a149c2bce93e3e1307d3ce9aa7c123f20668f4415e<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0x05e5b1fdc63207e498826fe437dd6939c0006c5ddb83a3a51da246fe9722439b</p>",
+    "name_categories": "Token",
+    "token_name": "JVF",
+    "proof_archive_link": "https://archive.ph/KDo4t",
+    "technical_issue": null,
+    "token_address": "0xddddefb8001569900cde12a113671b4c34fb6711",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5c04a3e386.png",
+    "date": "2021-1-13",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4443,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 174,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
