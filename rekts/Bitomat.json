@@ -1,0 +1,51 @@
+{
+    "id": 2983,
+    "project_name": "Bitomat",
+    "title": "Bitomat",
+    "description": "<p>Bitomat, Poland-based third largest Bitcoin exchange, announced that as of July 26 they lost access to their wallet.dat file and thus the exchange\u2019s entire fund base has become inaccessible.<br><br>According to the statement published by Bitomat, it appears that they were using Amazon Web Service\u2019s Elastic Cloud Computing network and held all of their information, including the wallet file for the exchanges bitcoins in a virtual machine.<br><br>\"On 26 July 2011 at about 11:00 PM, I noticed that bitcoin server was out of resources and I had to increase RAM. As a result of this operation, the virtual machine was deleted and all data lost, including bitcoin wallet and its backups.<br><br>I have established that data was lost because settings of the virtual machine were changed, although I didn\u2019t change them myself. Amazon Web Services Company, which hosts our servers, says that the cleared machine has been set up to be irretrievably destroyed (including the data on the disks) at the shutdown.<br><br>I\u2019m still trying to establish who has changed the settings and whether I will be able to recover the lost data. Unfortunately cooperation with Amazon Web Services is very difficult. As soon as I realized that my virtual machine was lost I have ordered AWS premium support, talked to the manager and asked for securing of the disk data. So far, without success.\" - was said in the statement.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://web.archive.org/web/20110804225352/http://btcbase.com/2011/08/01/bitomat-pl-statement/",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/625050d020789.png",
+    "date": "2011-7-26",
+    "scam_updates": [],
+    "proof_link": "https://siliconangle.com/2011/08/01/third-largest-bitcoin-exchange-bitomat-lost-their-wallet-over-17000-bitcoins-missing/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 236000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2983,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
