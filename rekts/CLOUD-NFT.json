@@ -1,0 +1,68 @@
+{
+    "id": 3578,
+    "project_name": "CLOUD NFT",
+    "title": "CLOUD NFT",
+    "description": "<p><strong>Quick Summary</strong></p><p>The CLOUD NFT project on the Binance Smart Chain was hit by a rugpull, resulting in a loss of 518,870 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CLOUD NFT is a BEP721 token. The scammer used the token sale contract's privileged function recoverLostTokensExceptOurTokens() to withdraw funds in two transactions, totaling 518,870 $USD. The funds were then transferred to another externally owned address. Subsequently, this EOA address swapped USDT for 1270 $BNB and transferred the funds through TornadoCash, while the remaining funds are still held at the address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x80593c0B0bC9f84680aFF4Ef500d80aF6Fd07928</p><p><br></p><p>Funds Holder:</p><p>https://bscscan.com/address/0x6176D70040e7AB1e68BEb8608524Ac48e92fae52</p><p><br></p><p>Liquidity Drain Transactions:</p><p>https://bscscan.com/tx/0x9edb872e4cf9865ac559da28e3963ba99af9c867f79566628a05851f395e7cfe</p><p>https://bscscan.com/tx/0x184c6bce5f8207fd8f7687e336df24aca712cb4cdbfe0e4aff186d19fc25ec95</p><p><br></p><p>Funds Moving Transaction Example:</p><p>https://bscscan.com/tx/0x9a977c5cef1855375aaaff3a53fc445e31c2400a15980d3b944acc81acc586f7</p><p><br></p><p>Tornado Cash Transaction Example:</p><p>https://bscscan.com/tx/0x90612f9155dd656afce8c23b9681f5d1a61c53875b97d4be4af84d86a1000ae8</p>",
+    "name_categories": "NFT",
+    "token_name": "CLOUDNFT",
+    "proof_archive_link": "https://archive.ph/HGgTi",
+    "technical_issue": null,
+    "token_address": "0x4a4ed2069ace9d0835a03716174c3c8f8882dc93",
+    "token_addresses": [
+        {
+            "address": "0x4a4ed2069ace9d0835a03716174c3c8f8882dc93",
+            "url": "https://bscscan.com/address/0x4a4ed2069ace9d0835a03716174c3c8f8882dc93",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xd4b08f79b2ae55b67767a18592bc063d801245cd",
+            "url": "https://bscscan.com/address/0xd4b08f79b2ae55b67767a18592bc063d801245cd",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649d3d6b86155.png",
+    "date": "2023-6-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1674001029862674436?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 518870,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3578,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
