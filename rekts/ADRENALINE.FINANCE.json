@@ -1,5 +1,5 @@
 {
-    "id": 1925,
+    "id": 1665,
     "project_name": "ADRENALINE.FINANCE",
     "title": "ADRENALINE.FINANCE",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,12 +7,12 @@
     "token_name": "bADR",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xa6aaa5c9aef9b60adc8cd59db70df7b2494e211c",
+    "token_address": "0xab3bb37a5da61c5528b0cc917b8ce256d53b4741",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5955999f4c.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f19434f0a6a.png",
     "date": null,
     "scam_updates": [],
-    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, \thttps://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1925,
+            "scam_database_id": 1665,
             "networks": {
                 "id": 56,
                 "name": "Binance",
