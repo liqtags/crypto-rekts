@@ -1,0 +1,51 @@
+{
+    "id": 2844,
+    "project_name": "DEUS Finance",
+    "title": "DEUS Finance",
+    "description": "<p>The attacker's address:<br>https://ftmscan.com/address/0x1ed5112b32486840071b7cdd2584ded2c66198dd<br><br>The transaction behind the attack:<br>https://ftmscan.com/tx/0xe374495036fac18aa5b1a497a17e70f256c4d3d416dd1408c026f3f5c70a3a9c<br><br>The hack is made possible due to the flash loan-assisted manipulation of the price oracle that takes the price from the pair of StableV1 AMM - USDC/DEI.<br><br>The attacker:<br>- flash loaned 9,739342 DEI via SPIRIT-LP_USDC_DEI<br><br>- flash loaded 24,772,798 DEI out of the sAMM-USDC/DEI pair (used as price oracle to calculate the collateral value)<br><br>- liquidated users<br><br>- repaid the borrowed 24,772,798 DEI to the sAMM-USDC/DEI pair<br><br>- burnt the liquidated LP token to get 5,218,173 USDC + 5,246,603 DEI<br><br>- swapped 5,218,173 USDC to 5,170,594 DEI<br><br>- repaid the flash loan with 3,001,552 DEI as hack profit.<br><br>The attack profit was bridged via Multichain to Ethereum:<br>https://ftmscan.com/tx/0x09dc3a1afd1dae211c31d7ad4b5cd6f68c9350727fa5d4c7c63efb9d287e3210<br><br>Then funds were deposited into Tornado Cash mixer to hide traces:<br>https://etherscan.io/address/0x1ed5112b32486840071b7cdd2584ded2c66198dd</p>",
+    "name_categories": "Other",
+    "token_name": "DEI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xDE12c7959E1a72bbe8a5f7A1dc8f8EeF9Ab011B3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6230dae723049.jpeg",
+    "date": "2022-3-15",
+    "scam_updates": [],
+    "proof_link": "https://lafayettetabor.medium.com/deus-post-mortem-3c65df12927f, https://rekt.news/deus-dao-rekt/, https://twitter.com/peckshield/status/1503632734299701250",
+    "website_link": "https://deus.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DeusDao",
+    "telegram_link": "https://t.me/deusfinance_news",
+    "our_post_link": null,
+    "funds_lost": 3024325,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/xTTaBBAMgG",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2844,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
