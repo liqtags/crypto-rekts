@@ -1,0 +1,60 @@
+{
+    "id": 3482,
+    "project_name": "PCORE",
+    "title": "PCORE",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 7th of April PCORE on the BSC chain was rugged for ~$40,5 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The PCORE protocol fell victim to a liquidity removal scam by the team responsible for managing liquidity. The contract deployer removed a significant amount of LP and dumped the token, causing it to fall by about 90% from its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0xe42e5670e9f6aaf1f42475742c88e2280db2ac71</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0xcabd9ccd6fed59c1346927fcb39bb00e2ef87ab718db96dbaa0caa537f2d7ad7</p>",
+    "name_categories": "Token",
+    "token_name": "PCORE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x76D44d2d4056b48c30A2eeACbd1583d3C7087a6D",
+    "token_addresses": [
+        {
+            "address": "0x76D44d2d4056b48c30A2eeACbd1583d3C7087a6D",
+            "url": "https://bscscan.com/address/0x76D44d2d4056b48c30A2eeACbd1583d3C7087a6D",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e8e30154b9.png",
+    "date": "2023-4-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1644274333676630017?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3482,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
