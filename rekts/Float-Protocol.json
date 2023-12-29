@@ -1,0 +1,60 @@
+{
+    "id": 3391,
+    "project_name": "Float Protocol",
+    "title": "Float Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Float Protocol's pool was exploited via Oracle Manipulation which led to a loss of 1,440,724 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Float Protocol is a staking and earning platform running on the Ethereum chain. The protocol's Rari 90 pool was exploited via Oracle Manipulation, which allowed the attacker to gain 1,440,724 $USD worth of assets including $FRAX, $FEI, and $DAI. The attack started with 47 $ETH withdrawn from TornadoCash and then used to buy $FLOAT tokens from the UniV3 pool. The action led to the $FLOAT price being higher than usual, and then Rari 90 pool that uses UniV3 pool as an oracle was exploited. The exploiter returned 250,000 $USDC to the protocol's multisig wallet. The rest of the stolen funds were transferred through TornadoCash.&nbsp;</p><p><br></p><p><strong>B</strong><strong>lock Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xa2ce300cc17601fc660bac4eeb79bdd9ae61a0e5</p><p><br></p><p>Malicious transactions:</p><p>https://etherscan.io/tx/0x71872e7b12892b715833135a5dcde8d6a90892ab36c4809340c5616292f0fcfe</p><p>https://etherscan.io/tx/0x40db7bd89d2a3f7df2793ba4f5be9a2ca93463d6bb6af024e5cd1b73ff827248</p><p>https://etherscan.io/tx/0xf09c4519f1519509ccad42b1507c48224ee1d3315deb948d6aaa05b6985ecacf</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x6ceefd33a3dfe593706d116d5bc2fd04a9d9ade0</p><p><br></p><p>Return transaction:</p><p>https://etherscan.io/tx/0x560c93624e772bfd94ee1309c0ad4d9889f900aef1795528b1ec1944d9e7bb0e</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "FLOAT",
+    "proof_archive_link": "https://archive.ph/FVPqP, https://archive.ph/lc40A",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xb05097849bca421a3f51b249ba6cca4af4b97cb9",
+    "token_addresses": [
+        {
+            "address": "0x898beab27b8d44501de79b946f8d4c67918e1c47",
+            "url": "https://etherscan.io/address/0x898beab27b8d44501de79b946f8d4c67918e1c47",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642343832cb7b.png",
+    "date": "2022-1-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/FloatProtocol/status/1482184042850263042, https://twitter.com/peckshield/status/1482211298699923457",
+    "website_link": "https://floatprotocol.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FloatProtocol",
+    "telegram_link": "https://t.me/officialfloatprotocol",
+    "our_post_link": null,
+    "funds_lost": 1440724,
+    "funds_returned": 249692,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/tmu78Rc8Fn",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3391,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
