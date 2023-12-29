@@ -1,0 +1,51 @@
+{
+    "id": 2817,
+    "project_name": "DePo",
+    "title": "DePo",
+    "description": "<p>The exploiter:<br>https://etherscan.io/address/0x6ffe6e183571139636b9479ca65cf99edc6be215<br><br>The exploiter was a public team member and the deployer of this MasterChef contract:<br>https://etherscan.io/address/0x1ca1a5937d73f74f89764c3835d6796e4e1c8314#code<br><br>He was able to invoke emergencyRewardWithdraw() to steal DEPO tokens, the example transactions:<br>https://etherscan.io/tx/0xd47dfe0b9df5d7f7796d54ac7dd4e118a236074b3d512ef5fd05a27a4957a6b7<br>https://etherscan.io/tx/0x8ac9a06a8de7b5167cf94388d761797955b1081726bf3d612ed977ce1a4495a5<br>https://etherscan.io/tx/0x287a7c336ba148c5f562a5852e1dba0820a65e7a6074c085df2d02eeb8b4e29b<br><br>Tokens were sold on Uniswap, the example transactions:<br>https://etherscan.io/tx/0x05996fc320cc79431b498f4a3a1132de4094de593e70c0737c0a93de1bff6a4e<br>https://etherscan.io/tx/0x82252439eb9cbd5658c28b516e1c46b325f64a60e0acc40043eefeccf8a7940f<br>https://etherscan.io/tx/0x2d26cf1f182b5283c245a2f1c40dc08f42d9b7b3b3673f51f541fbef93507bbf<br><br>Stolen funds were transferred to the external wallet:<br>https://etherscan.io/tx/0xe7e8cb72ed5a11063f0a2e14fa2db7c42ed8241300b81bd9cfe568691aca5bde<br><br>The funds' recipient deposited them into Tornado Cash mixer:<br>https://bloxy.info/txs/transfers_from/0x10da75631d05fcdf5451cfd70eaff6bf343307e9?currency_id=1</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "DEPO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa5def515cfd373d17830e7c1de1639cb3530a112",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620266ee2ca69.jpeg",
+    "date": "2022-2-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/tjdunham5/status/1490414814287519749, https://twitter.com/PeckShieldAlert/status/1489467040419258370",
+    "website_link": "https://www.depo.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DePo_io",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1723632,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/depo",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2817,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
