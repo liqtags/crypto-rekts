@@ -1,0 +1,51 @@
+{
+    "id": 2519,
+    "project_name": "SunnyDefi finance",
+    "title": "SunnyDefi finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "SUNNY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9905C2383008C1C2e5C0650D23fF6F940fa32A28",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612773aabaf5e.jpeg",
+    "date": "2021-8-26",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x64a8f4387d522658b72a955dc9d30b2b589d352c",
+    "website_link": "https://sunnydefi.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2519,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
