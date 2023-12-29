@@ -1,0 +1,70 @@
+{
+    "id": 3330,
+    "project_name": "Neutrino USD",
+    "title": "Neutrino USD (Neutrino Index Token)",
+    "description": "<p>The algorithmic stablecoin USDN, which is designed to maintain a 1:1 ratio with the US dollar, lost its peg as its token backing, WAVES, saw a double-digit price slide. This caused USDN to fall by more than 15% to $0.83, wiping out $200 million in the process. Users need to lock in WAVES in Neutrino's smart contracts to mint USDN, and USDN redemptions have the opposite effect of destroying the stablecoin to unlock WAVES supply.</p><p><br></p><p>The fall in WAVES price comes after several Twitter handles accused the Waves team of manipulating the price of its native token through its decentralized finance (DeFi) lending platform Vires.finance. Waves CEO Sasha Ivanov dismissed the allegations and accused Alameda Research of manipulating the prices of WAVES. On Sunday, Ivanov submitted a new governance proposal, supposedly to keep speculative activities at bay. However, Crypto Twitter is up in arms against the proposal, calling it an attempt to subvert the system in favor of insiders and a \"rug pull\" on everyone who used the platform in good faith. Vires.finance is losing liquidity amid the controversy, with the total value locked in the DeFi platform dropping to $945 million from a record $1.26 billion in three days.</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "USDN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+    "token_addresses": [
+        {
+            "address": "0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+            "url": "https://etherscan.io/address/0x674c6ad92fd080e4004b2312b45f796a192d27a0",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ecb188619e9.png",
+    "date": "2022-4-4",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2022/04/04/waves-usdn-stablecoin-loses-peg-drops-15-amid-manipulation-scare/, https://forkast.news/waves-usdn-loses-peg-price-manipulation-allegations/, https://cointelegraph.com/news/waves-backed-stablecoin-usdn-drops-further-after-regulator-warning-and-exchange-delisting",
+    "website_link": "https://neutrino.at/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/neutrino_proto?lang=en",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 200000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/waves-exchange/neutrino-contract/",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3330,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/USDN_Baosin.pdf",
+            "date": "2020-04-07T00:00:00.000Z",
+            "partner": {
+                "id": 54,
+                "name": "Beosin",
+                "logo_link": "safe/files/partner/logo/60df3c1fcb7f3.jpeg"
+            }
+        }
+    ]
+}
