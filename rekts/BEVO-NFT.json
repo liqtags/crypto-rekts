@@ -1,0 +1,60 @@
+{
+    "id": 3350,
+    "project_name": "BEVO NFT",
+    "title": "BEVO NFT",
+    "description": "<p><strong>Quick Summary</strong></p><p>On January 30, 2023, the BEVO NFT art token $BEVO was exploited resulting in a total loss of approximately $45,000.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>&nbsp;$45,000 was lost due to an exploit on the BEVO NFT art token. The attack was caused by the deflationary nature of the $BEVO token, resulting in a decrease in the token's total value. The exploiter took a flash loan, swapped it for $BEVO tokens, manipulated the token balance, and made a profit of 144 $WBNB. As a result, the price of $BEVO token plummeted by 99%.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Atack TX:</p><p>https://bscscan.com/tx/0xb97502d3976322714c828a890857e776f25c79f187a32e2d548dda1c315d2a7d</p><p><br></p><p>Exploiter:&nbsp;</p><p>https://bscscan.com/address/0xd3455773c44bf0809e2aeff140e029c632985c50</p>",
+    "name_categories": "NFT",
+    "token_name": "BEVO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc6cb12df4520b7bf83f64c79c585b8462e18b6aa",
+    "token_addresses": [
+        {
+            "address": "0xc6cb12df4520b7bf83f64c79c585b8462e18b6aa",
+            "url": "https://bscscan.com/token/0xc6cb12df4520b7bf83f64c79c585b8462e18b6aa#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f8fd1cf1f28.png",
+    "date": "2023-1-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1619996999054667784, https://neptunemutual.com/blog/how-was-bevo-nft-project-exploited/",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/wip/OC2X8",
+    "twitter_link": "https://mobile.twitter.com/nftbevo",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3350,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
