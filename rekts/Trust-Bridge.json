@@ -1,0 +1,68 @@
+{
+    "id": 3277,
+    "project_name": "Trust Bridge",
+    "title": "Trust Bridge",
+    "description": "<p><strong>Quick Summary</strong></p><p>Trust Bridge token was rugpulled by the token deployer. Liquidity removal caused a loss of 120,083 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Trust Bridge is a BEP20 token trading on PancakeSwap. The token deployer created a pool with 5,000,000 $TWB tokens and 20,009 $BUSD on 15 November. On 20 November all the provided liquidity was removed for 140,092 $BUSD. All the stolen funds were transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x4f515c945216efe889fd29eb79d6136cc4c99b91</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0xdfc47840433a1e44910b6898950baa252eab5d53bece1ab14c051b71f84fb7a8</p>",
+    "name_categories": "Token",
+    "token_name": "TWB",
+    "proof_archive_link": "https://archive.ph/Iau2H",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x737F5942D70f8F433d65823535e7Ae1DE1950d8e",
+    "token_addresses": [
+        {
+            "address": "0x737F5942D70f8F433d65823535e7Ae1DE1950d8e",
+            "url": "https://bscscan.com/address/0x737F5942D70f8F433d65823535e7Ae1DE1950d8e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x77b1173E3Dc3e73306a6f15e9c7e830B0F20E59A",
+            "url": "https://bscscan.com/address/0x77b1173E3Dc3e73306a6f15e9c7e830B0F20E59A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/637b50520131a.png",
+    "date": "2022-11-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1594409841396678659",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 120083,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3277,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
