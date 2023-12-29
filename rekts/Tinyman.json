@@ -1,0 +1,51 @@
+{
+    "id": 2763,
+    "project_name": "Tinyman",
+    "title": "Tinyman",
+    "description": "<p>The attacker's address:<br>https://algoexplorer.io/address/RJROFHHDTCMDRCPYSBKN2ATSKZAPOPEV3KWR3IQEOIZMMZCPMMCEUTXGG4<br><br>The account\u2019s first attack was this transaction group:<br>https://algoexplorer.io/tx/group/KbOlFc02lRAonvc4yfgpI%2FfkNrlP2FDHGX1ESAF2lvs%3D<br><br>A weakness in the project's smart contract code permitted the Tinyman hack. When a user invokes the protocol's burn function, they should be rewarded with two different tokens:</p><p>https://docs.tinyman.org/design-doc<br><br>The value of each token is determined by the quantity contained in the protocol.<br><br>The attacker took use of a flaw in the Tinyman pools' contract code, which enabled them to obtain the same token twice after a burn instead of two separate tokens. This worked in their favor since it allowed the attacker to take twice as many gobtc rather than a mixture of gobtc and ALGO tokens. Because gobtc is far more valuable than ALGO, the attacker was able to profit significantly and drain nearly $3 million in gobtc and goeth from the Tinyman pool across numerous transactions. These tokens were then exchanged for stablecoins in pools and withdrawn to various exchanges and wallets.<br><br>The original attacker's vulnerability was copied by other wallets that utilized it to attack the protocol. As a result, the Tinyman team advised all users to remove their funds from impacted pools.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e0496b2c10e.jpeg",
+    "date": "2022-1-1",
+    "scam_updates": [],
+    "proof_link": "https://tinymanorg.medium.com/official-announcement-about-the-incidents-of-01-01-2022-56abb19d8b19",
+    "website_link": "https://tinyman.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/tinymanorg",
+    "telegram_link": "https://t.me/tinymanofficial",
+    "our_post_link": null,
+    "funds_lost": 3000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/tinymanorg",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/wvHnAdmEv6",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600005,
+            "scam_database_id": 2763,
+            "networks": {
+                "id": 1666600005,
+                "name": "Algorand",
+                "icon_link": "safe/files/network/algorand.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
