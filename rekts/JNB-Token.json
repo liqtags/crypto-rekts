@@ -1,0 +1,68 @@
+{
+    "id": 3407,
+    "project_name": "JNB Token",
+    "title": "JNB Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>JNB token was rugpulled by the initial token holders for 106,497 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>JNB is a BEP20 token trading on PancakeSwap. The token's deployer-related addresses drained the PancakePool for 106,497 $USD in total. Two drainers' malicious actions dropped a token price by more than 98%. All the siphoned funds were transferred to multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x024ea85a644059476786513e8a227e8214ccd0e8</p><p>https://bscscan.com/address/0xd050e636454a9ebad91e8e2f93ed08fc64779464</p><p><br></p><p>Draining transaction examples:</p><p>https://bscscan.com/tx/0x0bc8451a0ca2082884438624620de22a30b28c0ab816f84da9d96d34ff00a5b5</p><p>https://bscscan.com/tx/0x8c3425a19dab39938c1ae77500af321da9c26380ca5277619f2ce4a99d3a7965</p>",
+    "name_categories": "Token",
+    "token_name": "JNB",
+    "proof_archive_link": "https://archive.ph/tRzJt",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x9119e3f30c18b9e6b16ab6589534391e5e4a5653",
+    "token_addresses": [
+        {
+            "address": "0x9119e3f30c18b9e6b16ab6589534391e5e4a5653",
+            "url": "https://bscscan.com/address/0x9119e3f30c18b9e6b16ab6589534391e5e4a5653",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x12C4d4aB624e0081545CF6775c6519911ef2c22D",
+            "url": "https://bscscan.com/address/0x12C4d4aB624e0081545CF6775c6519911ef2c22D",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6425fefa24356.png",
+    "date": "2023-2-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1630479724936921088?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 106497,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3407,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
