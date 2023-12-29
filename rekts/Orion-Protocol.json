@@ -1,0 +1,61 @@
+{
+    "id": 3332,
+    "project_name": "Orion Protocol",
+    "title": "Orion Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Orion protocol was exploited via reentrancy vulnerability with a profit of about 3M $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Orion Protocol, a decentralized finance (DeFi) protocol that aggregates liquidity from centralized exchanges, recently suffered a reentrancy exploit that resulted in a loss of around $3 million in Ethereum (ETH) on Feb. 2. The attacker used manipulated swaps of flash loaned stablecoins and artificially deposited assets twice before withdrawing the inflated balance. The exploiter also created and used a fake token to double their balance before making off with the stolen loot. Orion CEO Alexey Koloskov said the damage was contained to an internal broker account, and user funds remained safe. Orion has addressed several issues, such as bug fixes and interface changes, and Rekt reported that the $3 million loss has motivated Orion to take a more controlled approach.&nbsp;</p><p><br></p><p>After the attack, 1100 ETH were sent through the tornado cash mixer and 657 ETH are still held in the attacker's balance on the Ethereum network.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX:</p><p>https://bscscan.com/tx/0xfb153c572e304093023b4f9694ef39135b6ed5b2515453173e81ec02df2e2104</p><p><br></p><p>Exploiter addresses:</p><p>https://bscscan.com/address/0x837962b686fd5a407fb4e5f92e8be86a230484bd</p><p>https://bscscan.com/address/0x3dabf5e36df28f6064a7c5638d0c4e01539e35f1</p><p>https://etherscan.io/address/0x3dabf5e36df28f6064a7c5638d0c4e01539e35f1</p><p><br></p><p>Attacker contract:</p><p>https://bscscan.com/address/0x84452042cb7be650be4eb641025ac3c8a0079b67</p><p><br></p><p>Example of tornado cash TX:</p><p>https://etherscan.io/tx/0xa3fd4f4c4dd4d9a2a1fb8e5267c21b35107ca106cc1b6552a287e3acbad845cb</p><p><br></p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63ecc3d282a7b.jpg",
+    "date": "2023-2-2",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/orion-protocol-post-mortem-details-3m-defi-exploit/, https://cryptoslate.com/orion-protocol-suffers-3m-hack-due-to-third-party-vulnerabilities/, https://www.coindesk.com/business/2023/02/02/orion-protocol-loses-3m-of-crypto-in-trading-pool-exploit/, https://twitter.com/peckshield/status/1621342889522642944, https://twitter.com/alexeykoloskov/status/1621269268959477763?s=20&t=oIA8Mv3AkaYDT5-XjHPpUw",
+    "website_link": "https://trade.orionprotocol.io/swap/ORN-USDT",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/orion_protocol",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3332,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": null,
+            "date": "2021-08-24T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
