@@ -1,0 +1,51 @@
+{
+    "id": 87,
+    "project_name": "Solid Protocol",
+    "title": "Solid Protocol",
+    "description": "<p>On LinkedIn, the project team created accounts with fictitious images and identities.<br><br>The contract deployer distributed tokens in big amounts between external wallets at:<br>https://etherscan.io/tx/0x83dfa98a895d73f057c09642cc5fa214c8c05abec4fc9f3b0d9268fcd40dd868<br>https://etherscan.io/tx/0x64797cdc25feabc92af7cbf4a0644b80552fb5ccd1160d1b7df0474aa7e548a4<br>https://etherscan.io/tx/0xb8fa1eff25dd74c0ee5a2db5686f46df56f1e4214706c3dd396a360b311212b0<br>https://etherscan.io/tx/0xa20c511b169a385b0c58f908c014f3d2e550694e39dc49e14f09b48bd7e7eb52<br>https://etherscan.io/tx/0xaf70f4b329d98576a1d853ff5481cfedbf9129b9b90148daf6439db33fedafe2<br><br>One from the recipients added initial liquidity at:<br>https://etherscan.io/tx/0xb875065e3b2c7d9addc97f1ede7dfd0df69eb854e9328f518591cfa7e97e2452<br><br>The other addresses started selling tokens in multiple transactions, for example:<br>https://etherscan.io/tx/0xc5e5f42d08848f5bf81de732c358ba929948bd0b25df046514ceba5e2f6db17d<br>https://etherscan.io/tx/0x923bb84b69028040c043e0ec84566a32e7e85700596158a3599d34f3746ed103<br>https://etherscan.io/tx/0x494cf90d1da9dbe8fe6c5c86f0582edddcc23be82fd515a4b21ccc5e922d263e<br>https://etherscan.io/tx/0x040b78ab10f4f7c8b7a056e788ac7ebbfdd98675ae0da2ac10fef8553718a1cf<br><br>The liquidity was removed by the external address at:<br>https://etherscan.io/tx/0x25c58351dc6c02ba26f758b22f53c2dd72967c4ec4ee97ab18aa2130ce4094b7<br>https://etherscan.io/tx/0xeb822c02ef322f64185c3765891c06f96642060385186827dba293a44b7daccb</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SOLID",
+    "proof_archive_link": "https://archive.ph/Cg1xH",
+    "technical_issue": null,
+    "token_address": "0xd0fec381001de148f70cc67ad657f7b3877fc22f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d592a00344c.jpeg",
+    "date": "2020-12-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1340321995834052609",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/solidprotocol",
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/336",
+    "funds_lost": 71555,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 87,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
