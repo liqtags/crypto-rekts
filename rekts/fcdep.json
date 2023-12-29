@@ -1,0 +1,60 @@
+{
+    "id": 3510,
+    "project_name": "fcdep",
+    "title": "fcdep",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 21st of April fcdep (EPMAX) on the BSC chain was rugged for approx 675k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>fcdep (EPMAX)</span> protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0xca91ca94a05067255b765d3cfbacdceb57b4fc8b</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0xbc66cdb8a124f6ac70df6e750cd1d4b8bf8e3564a88b9dc10078569cbc8a78ce</p>",
+    "name_categories": "Token",
+    "token_name": "EPMAX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x66fff5bb007c4885a00fc14bdb1eee389b804ef7",
+    "token_addresses": [
+        {
+            "address": "0x66fff5bb007c4885a00fc14bdb1eee389b804ef7",
+            "url": "https://bscscan.com/address/0x66fff5bb007c4885a00fc14bdb1eee389b804ef7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6447a168b53a2.png",
+    "date": "2023-4-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1649436134013820928?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 675000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3510,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
