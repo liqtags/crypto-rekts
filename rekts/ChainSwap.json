@@ -1,0 +1,51 @@
+{
+    "id": 2583,
+    "project_name": "ChainSwap",
+    "title": "ChainSwap (2)",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0xEda5066780dE29D00dfb54581A707ef6F52D8113<br><br>On the Ethereum network, each token to be bridged has its own proxy Factory contract. The attacker was able to exploit the contract, minting tokens directly into different addresses, before reaccumulating them into the wallet from which the transactions were initially sent.<br><br>The attacker:<br>- called <u>receive</u>() function to the Factory minting contract<br><br>- dodged the sloppy auth check system using a new address as signature each tx<br><br>- paid 0.005 ETH <u>chargeFee</u><br><br>- set to parameter to the desired address, which receives the minted volume<br><br>- repeated x times.<br><br>Using the NFT platform WilderWorld as an example, this is one of 40 repeated transactions, each of which produced 500,000 $WILD tokens.<br><br>These 20M WILD were subsequently sold for 650 WBNB, or little more than $200,000 USD, using PancakeSwap, essentially emptying the WILD/WBNB pool.<br><br>The example transaction:<br>https://bscscan.com/tx/0x83b4adaf73ad34c5c53aa9b805579ed74bc1391c5297201e6457cde709dff723<br><br>Projects which got harmed:<br>- Wilder Worlds<br>- Antimatter<br>- Optionroom<br>- Umbrella Blank<br>- Nord<br>- Razor<br>- Peri<br>- Unido<br>- Oro<br>- Vortex<br>- Blank<br>- Unifarm</p>",
+    "name_categories": "Bridge",
+    "token_name": "ASAP",
+    "proof_archive_link": "https://archive.is/vVero",
+    "technical_issue": null,
+    "token_address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612652b06a3a3.jpeg",
+    "date": "2021-7-11",
+    "scam_updates": [],
+    "proof_link": "https://chain-swap.medium.com/chainswap-exploit-11-july-2021-post-mortem-6e4e346e5a32, https://www.rekt.news/chainswap-rekt/",
+    "website_link": "https://chainswap.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/chain_swap",
+    "telegram_link": "https://t.me/chainswap",
+    "our_post_link": null,
+    "funds_lost": 4400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2583,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
