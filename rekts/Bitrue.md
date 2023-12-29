@@ -1,48 +1,22 @@
 # Bitrue
 ![Bitrue](/rektimages/Bitrue.png)
-- Amount Lost: $21,882,489.00
-- Funds Returned: $0.00
+- Amount Lost: $5,000,000.00
+- Funds Returned: $5,000,000.00
 - Category: CeFi
-- Date: 2023-4-14
+- Date: 2019-6-26
 
-**Quick Summary**
-
-Bitrue Exchange experienced an exploit resulting in the loss of 21,882,489 $USD worth of assets from their hot wallet.
-
+Singapore-based crypto exchange Bitrue has suffered a major hack, losing 9.3 million XRP and 2.5 million cardano (ADA) from its hot wallet.  
   
-
-
- **Details of the Exploit**
-
-On April 14th, Bitrue,a centralized crypto exchange, suffered an attack on one of its hot wallets which led to the theft of 21,882,489 $USD worth of digital assets including 318 $ETH , 137,000 $QNT, 46,396,307 $GALA, 172,550,065,266 $SHIB, 756,149,367 $HOT and 310,071 $MATIC. The attacker gained access to Bitrue's hot wallet due to an access leak. In just six transactions within four hours after gaining control over the funds, they were able to withdraw all the Exchange’s assets into their own private wallet. The malicious actor then swapped stolen tokens for $ETH through Uniswap and already converted 18,610,517 $USD. The rest 3,271,972 $USD worth of stolen assets such as $SHIB and $HOT remains at the attacker's address at the moment.
-
+At the time of the breach — 1 a.m. GMT+8 June 27 — the stolen funds would have been worth over $4.5 million in XRP (valued at $0.488) and $237,500 in ADA (valued at $0.095), according to CoinMarketCap data.  
   
-
-
- **Block Data Reference**
-
-Attacker address:
-
-https://etherscan.io/address/0x1819ede3b8411ebc613f3603813bf42ae09ba5a5
-
+The exchange states that a purportedly single hacker first “exploited a vulnerability in our Risk Control team's 2nd review process to access the personal funds of about 90 Bitrue users,” subsequently using this first experience to access the exchange’s hot wallet and steal the cryptocurrency.  
   
-
-
-Affected Hot Wallet Address:
-
-https://etherscan.io/address/0x34d88cee9ed273fc540cd1c219369b26e736731a
-
-  
-
-
-Example Swap Transaction:
-
-https://etherscan.io/tx/0x49b03ca12b107c1d84b88634ce90615613b9065cc53be090198f047876d18436
+Any user accounts that were affected by the breach have had their assets replaced
 
 
 Proof Links:
-- [https://support.bitrue.com/hc/en-001/articles/17538384324121](https://support.bitrue.com/hc/en-001/articles/17538384324121)
-- [ https://twitter.com/BitrueOfficial/status/1646811220543168512]( https://twitter.com/BitrueOfficial/status/1646811220543168512)
-- [ https://twitter.com/vooidds/status/1646747005220425728]( https://twitter.com/vooidds/status/1646747005220425728)
+- [https://cointelegraph.com/news/singaporean-exchange-bitrue-gets-hacked-losing-5-million-in-xrp-cardano](https://cointelegraph.com/news/singaporean-exchange-bitrue-gets-hacked-losing-5-million-in-xrp-cardano)
+- [ https://twitter.com/BitrueOfficial/status/1144066874147131392]( https://twitter.com/BitrueOfficial/status/1144066874147131392)
+- [ https://bithomp.com/explorer/rwSvajJ4ZNhjgzcfaJWkEuLh4VURTFHuka]( https://bithomp.com/explorer/rwSvajJ4ZNhjgzcfaJWkEuLh4VURTFHuka)
 
 
