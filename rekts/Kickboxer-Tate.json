@@ -1,0 +1,60 @@
+{
+    "id": 3518,
+    "project_name": "Kickboxer Tate",
+    "title": "Kickboxer Tate",
+    "description": "<p><strong>Quick Summary</strong></p><p>Kickboxer Tate project was rugpulled by the deployer-related address, which drained roughly 33,000 $USD worth of $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Kickboxer Tate is an ERC20 token trading on the UniswapV2 pool in the Ethereum network. The token experienced a significant drop after a malicious action in which the initial buyers and deployers coordinated to drain liquidity from the pool. Investigation revealed that an EOA address bought 38,000,000 $KBTate tokens with 0.25 $ETH, then dumped them for 17.4 $ETH in one transaction to another EOA address controlled by the scammer's group.</p><p>The attacker transferred funds to their own account, which received additional cash injections from the tokens deployer.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address as Deployer:</p><p>https://etherscan.io/address/0x188602fbE627C96299D1ff78Fe4F9bD07D0e17B4</p><p><br></p><p>Scammer Address as Dumper:</p><p>https://etherscan.io/address/0xc7e90f04cd17784cc3643bd94ebd3582a53f6a83</p><p><br></p><p>Scammer Address as Funds Holder:</p><p>https://etherscan.io/address/0x753bD509786ccfad5c7957b282C71cB4578836B0</p><p><br></p><p>Drain Transaction:</p><p>https://etherscan.io/tx/0x16da62cb6aff8e0ea987f06385b94af278ea57b6a688546aceef61ab30990a23</p>",
+    "name_categories": "Token",
+    "token_name": "KBTate",
+    "proof_archive_link": "https://archive.ph/2kke5",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x5e276f6d84287260914065f83697008ce86d360c",
+    "token_addresses": [
+        {
+            "address": "0x5e276f6d84287260914065f83697008ce86d360c",
+            "url": "https://etherscan.io/address/0x5e276f6d84287260914065f83697008ce86d360c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6453790173ca3.png",
+    "date": "2023-5-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1654035186403901441?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 33179,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3518,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
