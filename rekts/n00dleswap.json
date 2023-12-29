@@ -1,0 +1,68 @@
+{
+    "id": 3247,
+    "project_name": "n00dleswap",
+    "title": "n00dleswap",
+    "description": "<p><strong>Quick Summary</strong></p><p>n00dleswap was exploited via a reentrancy attack. The attacker took 20 $ETH using a malicious smart contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>n00dleswap is an NFT DEX on the Ethereum chain. The project's ERC777-based smart contract was hacked via a reentrancy attack. The hacker stole 31,096 $USD worth of $ETH. All the stolen amount remains at the attacker's original address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x8ca72f46056d85db271dd305f6944f32a9870ff0</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x9c5a2a6431523fbbc648fb83137a20a2c1789c56</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x8037b3dc0bf9d5d396c10506824096afb8125ea96ada011d35faa89fa3893aea</p>",
+    "name_categories": "Exchange (DEX),NFT,Token",
+    "token_name": "n00d",
+    "proof_archive_link": "https://archive.ph/DJp97",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x2321537fd8ef4644bacdceec54e5f35bf44311fa",
+    "token_addresses": [
+        {
+            "address": "0x2321537fd8ef4644bacdceec54e5f35bf44311fa",
+            "url": "https://etherscan.io/address/0x2321537fd8ef4644bacdceec54e5f35bf44311fa",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x5476db8b72337d44a6724277083b1a927c82a389",
+            "url": "https://etherscan.io/address/0x5476db8b72337d44a6724277083b1a927c82a389",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635bbd2b5319f.png",
+    "date": "2022-10-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1584959295829180416",
+    "website_link": "https://n00dleswap.wtf/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/n00dleSwap",
+    "telegram_link": "https://t.co/TcyWOpQO4F",
+    "our_post_link": null,
+    "funds_lost": 31096,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://t.co/DjeDDQizcB",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3247,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
