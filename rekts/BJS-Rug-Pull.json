@@ -1,0 +1,60 @@
+{
+    "id": 3630,
+    "project_name": "BJS",
+    "title": "BJS Rug Pull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The BJS &nbsp;token recently experienced a rug pull incident, leading to a significant loss of approximately $290k USD in USDT tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The project team behind the BJS &nbsp;token executed a rug pull by performing liquidity removal from the Pancake V2 pool. As a result, they successfully withdrew and transferred a total of 290k USDT, distributing the ill-gotten funds across four different wallets.</p><p><br></p><p>This sudden liquidity removal and token transfer event caught the community off guard, causing substantial financial losses to investors and holders of BJS &nbsp;token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract Creator:</p><p>https://bscscan.com/address/0x4bed99273cae1906f18c5447ad64e4305673740e</p><p>Liquidity Removal tx:</p><p>https://bscscan.com/tx/0x3c715835a3e462fe12418a1b4f335b50cea525e8940ec1dd731274b6f270f1e6</p>",
+    "name_categories": "Token",
+    "token_name": "BJS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x17c8dd4ADf020Be82D296Aacde62c6030cD35c1C",
+    "token_addresses": [
+        {
+            "address": "0x17c8dd4ADf020Be82D296Aacde62c6030cD35c1C",
+            "url": "https://bscscan.com/address/0x17c8dd4ADf020Be82D296Aacde62c6030cD35c1C",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64bf85b800b43.png",
+    "date": "2023-7-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1679609679431827457?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 290000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3630,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
