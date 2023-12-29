@@ -1,0 +1,60 @@
+{
+    "id": 3733,
+    "project_name": "IVY",
+    "title": "IVY Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>YVI token rugpull exit scam occurred on Oct 16, 2023, with liquidity removal and 234,361 USD worth of tokens sold, resulting in a total loss of 1,820,319 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>YVI is a BEP20 token trading on PancakeSwap. On Oct 16, 2023, the Deployer renounced ownership after creating the contract. The scammer then removed liquidity from the LP pool and sold tokens in sixteen transactions worth 234,361 USD. The stolen funds were transferred to other addresses and converted from BSC-USD to USDT, resulting in a total loss of 1,820,319 USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x00B3aa7E0BE8D25f5DfCA7Aa0cE0a81859534B23</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x5c30d0a96820dc371e9Ac733AB5E4673723de64b</p><p>https://bscscan.com/address/0xee5797EC3aaD86DD0a802Fa0FEAB942aa8523cC5</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x86761605f6a507a69a6329851261e7a1d9ffe3ac699238759a11bb3a456d60ec</p><p><br></p><p>Stolen Funds Holder (USDT):</p><p>https://bscscan.com/address/0xcE97bEb47cd14e8675eeDdb0d81bE30a3789c40a</p>",
+    "name_categories": "Token",
+    "token_name": "IVY",
+    "proof_archive_link": "https://archive.ph/mOr97",
+    "technical_issue": null,
+    "token_address": "0xf99f2Aec50adFde23cc67aB6240168B0a59f1D30",
+    "token_addresses": [
+        {
+            "address": "0xf99f2aec50adfde23cc67ab6240168b0a59f1d30",
+            "url": "https://bscscan.com/address/0xf99f2aec50adfde23cc67ab6240168b0a59f1d30",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/652e3ac85a389.png",
+    "date": "2023-10-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1713869113578160477",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1820319,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3733,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
