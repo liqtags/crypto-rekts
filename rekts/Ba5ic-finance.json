@@ -1,0 +1,51 @@
+{
+    "id": 254,
+    "project_name": "Ba5ic finance",
+    "title": "Ba5ic finance",
+    "description": "<p>The hidden minting functionality was used under the <u>setFeeTransfer</u>() at:<br>https://etherscan.io/tx/0xbeeb09665b20a9fe2aa7980168bc0786cce169a14651b9741e1d4212121855c1<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x789fa9d71f6fedf6980dd80bfb0072b229cf14eb3445430052b9ca823d90cdbb<br><br>The contract deployer sold minted tokens at:<br>https://etherscan.io/tx/0x07f1a03e74a423ea27840b9cf8a3e34a290f4fdf16e7d5a2a148587423ab94b0</p>",
+    "name_categories": "Token",
+    "token_name": "BASIC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xcd6C56A778681a969AEd4eA09DCB2Ad8d81d4D36",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61598e962d.png",
+    "date": "2020-12-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1334153629184315393",
+    "website_link": "http://ba5ic.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201202140957/https://ba5ic.finance/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/ba5icfinance",
+    "our_post_link": null,
+    "funds_lost": 1055,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 254,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
