@@ -1,0 +1,51 @@
+{
+    "id": 3132,
+    "project_name": "Mirror Protocol",
+    "title": "Mirror Protocol (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Terra's Mirror Protocol was exploited for ~$2 million. This exploit was made possible through validators' usage of outdated oracle software.</p><p><strong><br>Details of the Exploit</strong></p><p>The Mirror Protocol was a synthetic assets protocol that allowed users to deposit $USTC or $LUNAC with a lockup period in order to mint synthetic stocks and commodities. It is noteworthy that the new Terra Network was launched within days after the collapse of the Terra Classic Network. The protocol suffered an exploit in the amount of $2 million caused by outdated oracle price feeds. The price feeds used the price of the new Luna Coin instead of the LunaC. While the new Luna coin was trading at a price around 5$ at the time, the $LUNAC coin was practically worthless at a price point of fractions of a cent. This meant that for $1k in $LUNC an attacker could deposit $1,3 million in deposit and borrow against it.&nbsp;</p><p><br></p><p>Due to this mechanism, attackers drained several pools on the platform.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p>Example Transaction: https://finder.terra.money/classic/tx/F830681D8FEACC4DA67E84D40C49F0FF805609F2BB5CCC39A0EFE66257F2D791</p>",
+    "name_categories": "Borrowing and Lending,Other",
+    "token_name": "MIR",
+    "proof_archive_link": "https://web.archive.org/web/20220712014943/https://twitter.com/FatManTerra/status/1531365988809293825, https://forum.mirror.finance/t/another-exploit/3511, https://web.archive.org/web/20220604064652/https://cryptopotato.com/terra-based-mirror-protocol-averts-crisis-but-2m-drained-nonetheless/, https://web.archive.org/web/20220531175626/https://www.tronweekly.com/mirror-protocol-2m-hack/",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/address/0x09a3EcAFa817268f77BE1283176B946C4ff2E608, https://bscscan.com/address/0x5B6DcF557E2aBE2323c48445E8CC948910d8c2c9, https://finder.terra.money/classic/address/terra15gwkyepfc6xgca5t5zefzwy42uts8l2m4g40k6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62ff5f7ea597c.png",
+    "date": "2022-5-31",
+    "scam_updates": [],
+    "proof_link": "https://www.theblock.co/post/149361/mirror-protocol-suffers-new-exploit-and-could-be-drained-in-hours",
+    "website_link": "https://www.mirror.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/mirror_protocol",
+    "telegram_link": "https://twitter.com/mirror_protocol",
+    "our_post_link": null,
+    "funds_lost": 2000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/mirror-protocol",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1003,
+            "scam_database_id": 3132,
+            "networks": {
+                "id": 1003,
+                "name": "Terra Classic",
+                "icon_link": "safe/files/network/terra-classic.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
