@@ -1,0 +1,88 @@
+{
+    "id": 2488,
+    "project_name": "Wault Finance",
+    "title": "Wault Finance",
+    "description": "<p>The attacker:<br>https://bscscan.com/address/0x886358f9296de461d12e791bc9ef6f5a03410c64<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0x31262f15a5b82999bf8d9d0f7e58dcb1656108e6031a2797b612216a95e1670e<br><br>The attacker:<br>- flash loaned 16.8M WUSD from WSwap\u2019s WUSD-USDT pool and redeemed it for 15M USDT and 106M WEX<br><br>- flash loaned 40M USDT from PCS\u2019s WBNB-USDT pool<br><br>- swapped a part of the flash loaned USDT to WEX before the price is pumped<br><br>- staked the flash loaned USDT to WUSDMaster contract. The 10% of staked USDT was used to buy WEX and the attacker gained the WUSD with a 1:1 rate<br><br>- since there was a limit on the staking amount, the attacker performed the previous step repeatedly to increase the WEX price with almost no cost<br><br>- gained profit in USDT by swapping WEX from steps 1 and 3 back to USDT<br><br>- returned the flash loaned WUSD and USDT<br><br>- swapped the remaining WUSD and the USDT profit to ETH.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "WUSD, WEX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3fF997eAeA488A082fb7Efc8e6B9951990D0c3aB, 0xa9c41a46a6b3531d28d5c32f6633dd2ff05dfb90",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610bf16b9bb81.jpeg",
+    "date": "2021-8-4",
+    "scam_updates": [],
+    "proof_link": "https://watchpug.medium.com/wault-wusd-minting-attack-root-cause-analysis-73b055499c6e, https://inspexco.medium.com/wault-finance-incident-analysis-wex-price-manipulation-using-wusdmaster-contract-c344be3ed376,",
+    "website_link": "https://wault.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Wault_Finance",
+    "telegram_link": "https://t.me/WaultFinance",
+    "our_post_link": null,
+    "funds_lost": 800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2488,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Wault_Locker_CertiK_Final_Report_for_Wault_Protocol_1.pdf",
+            "date": "2021-03-19T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Wault_Finance_Process_Quality_Review_PQ_Reviews.pdf",
+            "date": "2021-05-13T00:00:00.000Z",
+            "partner": {
+                "id": 23,
+                "name": "DeFi Safety",
+                "logo_link": "safe/files/partner/logo/6154df0c5cbef.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/WUSD_Hacken_Audit.pdf",
+            "date": "2021-08-03T00:00:00.000Z",
+            "partner": {
+                "id": 25,
+                "name": "Hacken",
+                "logo_link": "safe/files/partner/logo/60b69d7d56e5d.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/WaultSwap_Smart_Contract_Security_Audit_Report.pdf",
+            "date": "2021-05-11T00:00:00.000Z",
+            "partner": {
+                "id": 68,
+                "name": "RD Auditors",
+                "logo_link": "safe/files/partner/logo/61085d0ece3f8.jpeg"
+            }
+        }
+    ]
+}
