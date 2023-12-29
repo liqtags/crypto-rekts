@@ -1,0 +1,51 @@
+{
+    "id": 3055,
+    "project_name": "Treasure Swap",
+    "title": "Treasure Swap",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Treasure Swap project has been exploited by hackers. Using the vulnerability, the hacker needed only 1 wei to exchange all the $WETH tokens in the transaction pool.</p><p><strong><br>Details of the Exploit</strong></p><p>Treasure Swap is a donation protocol driven by the community to build a sustainable DAO.</p><p>The hacker noticed a vulnerability in the Treasure Swap contract, where in the swap<em>&nbsp;</em>function the check for the <strong>k</strong>-value of the constant formula <strong>k = a * b</strong>, which determines the price of the token (A) in the token (B), was skipped. The hacker noticed this vulnerability, deployed his malicious contracts on the network with which he began to steal the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$WETH&nbsp;</span>reserves from the protocol.</p><p>Example transactions of the exploit:</p><p>1) https://bscscan.com/tx/0x13285cc0397d529d81b70e1736c81b73c585532d6290803f0f371e2f9beba0c3</p><p>2) https://bscscan.com/tx/0x90a8e176537782ac64c672b0140133974873e92eafef835bdf2d6f2fd180c92d</p><p>3) https://bscscan.com/tx/0x0b13710aebdc2fa7655a511655cac84ae9ae8a93a778d7628fd7f0b21afc219c</p><p>All stolen $BNB are still held on the hacker's wallet.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Hacker address: https://bscscan.com/address/0x0FaCB17eFCb6cA6Ff66f272DE6B306DE9fb5931D</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Vulnerable contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xe26e436084348edc0d5c7244903dd2cd2c560f88</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x96f6eb307dcb0225474adf7ed3af58d079a65ec9</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Malicious contract addresses:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0xd53826f2c10b116990507d35f7b9fe4461651fba</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/address/0x5baa2e6b84c2bd1871e147983bc57fa90bdce376</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/address/0xd14c71b8f1b9576e0560273c764e289f593c2016</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://web.archive.org/web/20220725143805/https://twitter.com/beosinalert/status/1535474021504098304",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62ac5d74e22fd.jpeg",
+    "date": "2022-6-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://treasureswap.net/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/treasure__swap",
+    "telegram_link": "https://t.me/treasureswap_En",
+    "our_post_link": null,
+    "funds_lost": 1100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3055,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
