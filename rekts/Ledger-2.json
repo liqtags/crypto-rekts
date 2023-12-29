@@ -1,0 +1,51 @@
+{
+    "id": 2864,
+    "project_name": "Ledger",
+    "title": "Ledger (2)",
+    "description": "<p>Hackers launched a phishing attack targeting users of the Ledger hardware wallet.<br><br>The attackers allegedly sent Ledger users an email informing them that their wallets had been hacked in a security breach impacting thousands of users. They stated that the incident occurred on October 24 and that the Ledger security team is unable to estimate the extent of user harm.<br><br>\"In order to protect your assets, please download the latest version of Ledger Live and follow the instructions to set up a new PIN to your wallet,\" the email said. The user is then sent to a download link on a bogus website designed to steal the user's credentials.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241d26817192.jpeg",
+    "date": "2020-10-24",
+    "scam_updates": [],
+    "proof_link": "https://coingeek.com/phishing-scam-targets-ledger-wallet-users-again/, https://twitter.com/ndeet/status/1320307663427768320",
+    "website_link": "https://www.ledger.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Ledger",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2864,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
