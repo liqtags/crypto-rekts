@@ -1,0 +1,60 @@
+{
+    "id": 3281,
+    "project_name": "Sheep Farm",
+    "title": "Sheep Farm",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sheep Farm on-chain gaming dapp was exploited due to smart contract vulnerability. 91,320 $USD worth of $BNB was stolen from the project.</p><p><br></p><p><strong>Details of the Blockchain</strong></p><p>Sheep Farm is a GameFi dapp on the Binance chain. The project was exploited due to smart contract vulnerability, which allowed the attacker to register multiple times and increase the amount of owned gems using a deployed smart contract with unverified source code. 309 $BNB was stolen from the project's smart contract, which is valued at 91,320 $USD at the moment. All the stolen funds were transferred through TornadoCash.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2131c67ed7b6aa01b7aa308c71991ef5baedd049</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xf2db8665d82e1a23895ed78b213d36d62eec6bbc</p><p><br></p><p>Malicious transaction example:</p><p>https://bscscan.com/tx/0x8b3e0e3ea04829f941ca24c85032c3b4aeb1f8b1b278262901c2c5847dc72f1c</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/QgDNK",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x4726010da871f4b57b5031e3ea48bde961f122aa",
+            "url": "https://bscscan.com/address/0x4726010da871f4b57b5031e3ea48bde961f122aa",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/637e455b6a571.png",
+    "date": "2022-11-15",
+    "scam_updates": [],
+    "proof_link": "https://blog.neptunemutual.com/decoding-sheep-farm-smart-contract-hack/?utm_source=substack&utm_medium=email",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 91320,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3281,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
