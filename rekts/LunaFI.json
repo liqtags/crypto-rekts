@@ -1,0 +1,60 @@
+{
+    "id": 3546,
+    "project_name": "LunaFI",
+    "title": "LunaFI",
+    "description": "<p><strong>Quick Summary</strong></p><p>LunaFI, a Polygon-based project, was exploited resulting in the loss of 1,500,000 $LFI tokens worth around 36,362 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LunaFI is a betting platform running on Polygon. LunaFI's vLFI contract rewarding system was exploited. The attacker found an issue with the claimRewards() function that allowed them to repeatedly claim LFI tokens. As a result of this exploit, approximately 1,500,000 $LFI tokens were stolen which is equivalent to around 36,362 $USD at current market value. After stealing these tokens from multiple users' wallets on the Polygon network using this method they swapped them for around 20 $ETH and transferred it to their initial address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://polygonscan.com/address/0x11576cb3d8d6328cf319e85b10e09a228e84a8de</p><p><br></p><p>Malicious Transaction:</p><p>https://polygonscan.com/tx/0xa0480d0f7c8d8bf898cadde954e773ddc3740f1ffa31cdd98fe4c5f5d8266243</p><p><br></p><p>Malicious Contract Address:</p><p>https://polygonscan.com/address/0x43623b96936e854f8d85f893011f22ac91e58164</p>",
+    "name_categories": "Other",
+    "token_name": "LFI",
+    "proof_archive_link": "https://archive.is/ZxfwI",
+    "technical_issue": null,
+    "token_address": "0x77d97db5615dfe8a2d16b38eaa3f8f34524a0a74",
+    "token_addresses": [
+        {
+            "address": "0xe6e5f921c8cd480030efb16166c3f83abc85298d",
+            "url": "https://polygonscan.com/address/0xe6e5f921c8cd480030efb16166c3f83abc85298d",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64789b0db48f2.png",
+    "date": "2023-5-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AnciliaInc/status/1660767088699666433?s=20",
+    "website_link": "https://www.housebets.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LunaFi_Project",
+    "telegram_link": "https://t.me/LunaFi_Official",
+    "our_post_link": null,
+    "funds_lost": 36362,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/lunafi",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3546,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
