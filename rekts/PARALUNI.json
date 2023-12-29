@@ -1,0 +1,51 @@
+{
+    "id": 2843,
+    "project_name": "PARALUNI",
+    "title": "PARALUNI",
+    "description": "<p>The exploiter:<br>https://bscscan.com/address/0x94bc1d555e63eea23fe7fdbf937ef3f9ac5fcf8f<br><br>The example transaction behind the exploit:<br>https://bscscan.com/tx/0x70f367b9420ac2654a5223cc311c7f9c361736a39fd4e7dff9ed1b85bab7ad54<br><br>The hack is made possible due to a reentrancy bug (introduced by the use of a crafted token contract) in the <u>depositByAddLiquidity</u>() function, which somehow doubles the credits the hacker is able to claim. The result gains were swapped via PancakeSwap.<br><br>Stolen funds were bridged via cBridge and deposited into Tornado Cash mixer:<br>https://etherscan.io/address/0x94bc1d555e63eea23fe7fdbf937ef3f9ac5fcf8f</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/622fddc57724f.png",
+    "date": "2022-3-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1502817503877074947",
+    "website_link": "https://paraluni.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/paraluni",
+    "telegram_link": "https://t.me/paraluni",
+    "our_post_link": null,
+    "funds_lost": 1661107,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/paraluni",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2843,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
