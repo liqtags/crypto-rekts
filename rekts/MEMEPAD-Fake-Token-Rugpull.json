@@ -1,0 +1,60 @@
+{
+    "id": 3751,
+    "project_name": "MEMEPAD",
+    "title": "MEMEPAD Fake Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>MEMEPAD fake token was rugpulled by selling 4,854,740,126,240,000 tokens, depleting the liquidity pool and causing a loss of 80,372 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MEMEPAD is an ERC20 token trading on UniSwap. On Oct 30, 2023, the scammer minted a significantly larger number of tokens and then rug pulled by selling 4,854,740,126,240,000 MEMEPAD, completely depleting the liquidity pool. The stolen funds are still held in the scammer's address as 44.83 WETH, which is worth approximately 80,372 USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x0E629446fE7EA987F4fC53c922053a766942614b</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xBd72D445893aaD1Cf9dbCEc7c186f06F9D2B5871</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xc57aed7ca2be6b1ee2f7cb200b962ce73c042e9be295ccdcaf7369e1fda866bb</p><p><br></p><p>Funds Holder as of Oct 30:</p><p>https://etherscan.io/address/0xBd72D445893aaD1Cf9dbCEc7c186f06F9D2B5871</p>",
+    "name_categories": "Token",
+    "token_name": "MEMEPAD",
+    "proof_archive_link": "https://archive.ph/8hWcy",
+    "technical_issue": null,
+    "token_address": "0x51348a7c3969e670b1763D4B1C17441804eA001d",
+    "token_addresses": [
+        {
+            "address": "0x51348a7c3969e670b1763d4b1c17441804ea001d",
+            "url": "https://etherscan.io/address/0x51348a7c3969e670b1763d4b1c17441804ea001d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653f80add06e0.png",
+    "date": "2023-10-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1718885563321962634",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 80372,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3751,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
