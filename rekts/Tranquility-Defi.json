@@ -1,0 +1,51 @@
+{
+    "id": 106,
+    "project_name": "Tranquility Defi",
+    "title": "Tranquility Defi",
+    "description": "<p>The contract deployer added initial liquidity at<br>https://etherscan.io/tx/0xef3e733b7305057688bd87041c4e4b082f417dbab0cb1b17b447929202c01da9<br><br>The liquidity was removed multiple times by the contract deployer:<br>https://bloxy.info/txs/calls_from/0xcf4c4d29932cae67ae1cbc9cca653d023a8406fa?signature_id=1137786&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "TRNQ",
+    "proof_archive_link": "https://archive.ph/WedfC",
+    "technical_issue": null,
+    "token_address": "0x0bb033ed58bd5d19bc732249bcd8fceff53aedf6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5a6d6ee6c2.jpeg",
+    "date": "2021-2-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1344308837755408385",
+    "website_link": "https://www.tranquilitydefi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TranquilityDefi",
+    "telegram_link": "https://t.me/TranquilityDefi",
+    "our_post_link": null,
+    "funds_lost": 12702,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 106,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
