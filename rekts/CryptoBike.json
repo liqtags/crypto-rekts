@@ -1,0 +1,60 @@
+{
+    "id": 3307,
+    "project_name": "CryptoBike",
+    "title": "CryptoBike",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1c1c1c;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">CryptoBike rugpulled only a few days after its launch. The gamefi project had been released on the 27th of December, and on the 1st of January,&nbsp;</span><span style=\"font-size:10.5pt;font-family:Arial;color:#343a40;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">6 million CBs were sold for $1.4M. The token price was immediately decreased from $0.81 to $0.019.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#343a40;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The website went down, and all communication channels with the team closed.&nbsp;</span></p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "CB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xF66a8a197D5cb0e2799D79bE115208899332a0bA",
+    "token_addresses": [
+        {
+            "address": "0xF66a8a197D5cb0e2799D79bE115208899332a0bA",
+            "url": null,
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63b3ed5d352a9.png",
+    "date": "2022-1-1",
+    "scam_updates": [],
+    "proof_link": "https://www.sggpnews.org.vn/cryptobike-showing-signs-of-scam-post92781.html",
+    "website_link": "https://cryptobike.net/",
+    "webarchive_link": "https://archive.ph/YjSVA",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3307,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
