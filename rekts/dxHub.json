@@ -1,0 +1,51 @@
+{
+    "id": 90,
+    "project_name": "dxHub",
+    "title": "dxHub",
+    "description": "<p>On the Telegram announcement group, the project team invited people to join the dxHub token sale event. The TG group has 34 thousand members, however, most of the accounts of community members looked like bots. The tokenomic of the project was devoid of logic. The funds from the fundraising event came directly to the team's ETH address. The team's GitHub page lacks development history:<br>https://github.com/dxHubCoin<br><br>Users have complained about not receiving the airdropped tokens. 8.4 ETH, gathered from the sale, were transferred and converted into USDT.</p><p>Transfer transactions:<br>https://etherscan.io/tx/0xa786aafef6f1b03e689517e1def980bf46528827e89bbbfe13b16c841be3bd7a<br>https://etherscan.io/tx/0x75e3fea35f208bf8bc10f8c9bdee471ea472c104c63d6d85d7b204cd3efe98a9</p>",
+    "name_categories": "Token",
+    "token_name": "dxHub Coin",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xeab3552a3d1596aff52238a8ae91fd0978dcc511",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df355522924.png",
+    "date": "2020-12-13",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://dxhub.ninja/index.html",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/dxHubNinja",
+    "our_post_link": "https://t.me/defiyield_ann/297",
+    "funds_lost": 5150,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 90,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
