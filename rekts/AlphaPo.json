@@ -1,0 +1,77 @@
+{
+    "id": 3611,
+    "project_name": "AlphaPo",
+    "title": "AlphaPo",
+    "description": "<p><strong>Quick Summary</strong></p><p>AlphaPo, a crypto payment platform, was compromised via private key, resulting in a loss of approximately $23M across Bitcoin, Tron, and Ethereum chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>AlphaPo, which processes payments for numerous gambling services, suffered an exploit involving their hot wallets in Bitcoin, Tron, and Ethereum. The root cause was a private key compromise. The stolen assets were swapped for 5,742 ETH and bridged to Avalanche through several addresses. On the Avalanche chain, the funds were swapped for BTC and bridged to the Bitcoin chain.&nbsp;</p><p>On the Tron chain, the funds were swapped for 118,482,405 TRX and then transferred through several addresses.</p><p>22,851,804 USD loss confirmed across Ethereum and Tron chains:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>10,716,942 USD worth 5,742 ETH on&nbsp;</span>Ethereum:</p><p>&nbsp; &nbsp; - 2,464.3 ETH</p><p>&nbsp; &nbsp; - 4,555,628 USDT</p><p>&nbsp; &nbsp; - 108,050 USDC</p><p>&nbsp; &nbsp; - 1,687 DAI</p><p>&nbsp; &nbsp; - 100,218,957 non-liquid FTN</p><p>&nbsp; &nbsp; - 430,080 non-liquid TFL</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>12,134,862 USD on&nbsp;</span>Tron:</p><p>&nbsp; &nbsp; - 11,673,373 USDT</p><p>&nbsp; &nbsp; - 5,542,290 TRX</p><p><br></p><p>The estimated loss ranges from $23M to a potential $100M since funds lost on the Bitcoin chain are not revealed yet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Addresses:</p><p>- https://etherscan.io/address/0x040a96659fd7118259ebcd547771f6ecb9580d17</p><p>- https://etherscan.io/address/0x6d2e8a20b8afa88d92406d315b67822c01e53c38</p><p>- https://etherscan.io/address/0x8dc4f02e620fb24d07208c09950b9cba343805e8</p><p>- https://tronscan.org/#/address/TKSitnfTLVMRbJsF1i2UH5hNUeHLDrXDiY</p><p>- https://tronscan.org/#/address/TDoNAZHa7WxarUAFbQUhiijTGtd7EpbzRh</p><p><br></p><p>Funds Holder as of July 24, 2023:</p><p>- https://tronscan.org/#/address/TJF7mdFxDuHB4tb9hoyR4SCpKxk7gr23ym</p><p><br></p><p>USDT Drain Transaction:</p><p>https://etherscan.io/tx/0x68139cda62323b4e1fa24ebb5192e3ada0852ee2ff836fe9a3c8b4422155a7ce</p><p>ETH Drain Transaction:</p><p>https://etherscan.io/tx/0xd77012e22dbf51aceb4b759db83ef767af165c258d1c423187a6f10324d1d064</p><p>TRX Drain Transaction:</p><p>https://tronscan.org/#/transaction/a7d8b7b3e9df0ac88298d415128b6b136e6b8ee09c285545ecfed6e0b03b83b4</p><p>USDT Drain Transaction:</p><p>https://tronscan.org/#/transaction/61600fc1e7ac37e7de8bd9f07eb50660f2ef5cb2e8968146869bd5f606221bf8</p><p><br></p><p>Bridging to Avalanche:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/0x072dbb019372f4d965c18b9454dbb46039a1e1bb55e06a0a968230f264189a1f</span></p><p>Bridging to Bitcoin:</p><p>https://snowtrace.io/tx/0x0cb7c5f399d6c4bc1b6a759b025646d5e8677781c594241f45b6e3b4fbfb90a9</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/SyAt5, https://archive.ph/k7TbH",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7",
+            "url": "https://etherscan.io/address/0x6dfc34609a05bc22319fa4cce1d1e2929548c0d7",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "TGx3Lyc6rR14keStqfAK8u37euNFaq8uZ4",
+            "url": "https://tronscan.org/#/address/TGx3Lyc6rR14keStqfAK8u37euNFaq8uZ4",
+            "network": {
+                "id": 1001,
+                "icon_link": "safe/files/network/involved/tron.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64bda5d243194.png",
+    "date": "2023-7-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/zachxbt/status/1682946088746074119, https://twitter.com/PeckShieldAlert/status/1683034275489382401",
+    "website_link": "https://alphapo.net/",
+    "webarchive_link": "https://archive.ph/vjjat",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 22851804,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3611,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 1001,
+            "scam_database_id": 3611,
+            "networks": {
+                "id": 1001,
+                "name": "TRON",
+                "icon_link": "safe/files/network/tron.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
