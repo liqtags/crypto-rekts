@@ -1,0 +1,61 @@
+{
+    "id": 3113,
+    "project_name": "Reaper Farm",
+    "title": "Reaper Farm",
+    "description": "<p><strong>Quick Summary</strong><br>The Reaper Farm protocol was hacked due to the lack of validation checks, as a result of which user funds were withdrawn to the attacker's account.<br><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\"><span lang=\"en\">Reaper is an auto-compounding yield farm that maximizes users' yields by leveraging the power of compound interest.</span></p><p style=\"margin:0cm;background:white;\">The Reaper Farm protocol had a lack of validation check, which the attacker took advantage of, stealing $1.7M.</p><p style=\"margin:0cm;background:white;\">The attacker created a smart contract (https://ftmscan.com/tx/0xe7635f32b7e073186445d6400c83d429f130b34921a32347afbce10eefbdc607 ) which was used to withdraw funds from the protocol to the attacker address (B).</p><p style=\"margin:0cm;background:white;\">Example transactions:</p><p style=\"margin:0cm;background:white;\">1) https://ftmscan.com/tx/0xc929f3b9312ff26be0adb1c3ff832dbdafdcbcaad33d002744effd515e53c9d5</p><p style=\"margin:0cm;background:white;\">2) https://ftmscan.com/tx/0x24770e104ae1f8f47d1c095046379557ba3d17e49d3186e5f46f22d1067a57e9</p><p style=\"margin:0cm;background:white;\">3) https://ftmscan.com/tx/0x7f79934a9c2fb01e3f7af57939746cfdc4b3854ecfff712b84a593e60d8e3754</p><p>Full list of transactions: https://ftmscan.com/token/0x04068da6c83afcfa0e13ba15a6696662335d5b75?a=0x2c177d20b1b1d68cc85d3215904a7bb6629ca954</p><p>Then all stolen tokens were bridged from FTM to ETH.</p><p>Example transactions:</p><p>1) https://ftmscan.com/tx/0x2fa4eb1813a77a143b72006c682733a54eddef43fb1a0ec2b85b448a830a8913</p><p>2) https://ftmscan.com/tx/0x345b6f910bd318f1ab5df7c67effd4e808a202ac1f9c186bf69af7c6f49d5504</p><p>3) https://ftmscan.com/tx/0x551f875e2a9bf101f52e8138248ed74bc5201d9029ca7171c6c0a605c9a12e9d</p><p>Then all funds were laundered via Tornado.Cash.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attacker addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">(FTM) scammer address(A): https://ftmscan.com/address/0x5636e55e4a72299a0f194c001841e2ce75bb527a</p><p style=\"margin:0cm;background:white;\">(FTM) scammer address(B): https://ftmscan.com/address/0x2c177d20b1b1d68cc85d3215904a7bb6629ca954</p><p style=\"margin:0cm;background:white;\">(ETH) scammer address(B): https://etherscan.io/address/0x2c177d20b1b1d68cc85d3215904a7bb6629ca954</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Attacker's contract address: https://ftmscan.com/address/0x8162a5e187128565ace634e76fdd083cb04d0145</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": "https://web.archive.org/web/20220802123729/https://twitter.com/0xPaladinSec/status/1554445299665485825, https://web.archive.org/web/20220802133307/https://twitter.com/PeckShieldAlert/status/1554423041232629761",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62ea349ea5681.jpeg",
+    "date": "2022-8-2",
+    "scam_updates": [],
+    "proof_link": "https://chaindebrief.com/reaper-farm-got-hacked/#:~:text=Reaper%20Farm%2C%20previously%20known%20as%20Reaper%20finance%2C%20was%20just%20hacked.&text=The%20yield%20aggregator%2C%20which%20is,multi%2Dstrategy%20vault%20was%20hacked.&text=The%20smart%20contract%20had%20a,anybody's%20assets%20to%20their%20account.",
+    "website_link": "https://www.reaper.farm/",
+    "webarchive_link": "https://web.archive.org/web/20220620184134/https://www.reaper.farm/",
+    "twitter_link": "https://twitter.com/Reaper_Farm",
+    "telegram_link": "https://t.me/reaperfarm",
+    "our_post_link": null,
+    "funds_lost": 1700000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Byte-Masons",
+    "git_hub_contract_link": "https://github.com/Byte-Masons/reaper-core/tree/master/contracts",
+    "discord": "https://discord.com/invite/reaperfarm",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 3113,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/solidity_finance_audits_ReaperFarm.pdf",
+            "date": "2022-05-28T00:00:00.000Z",
+            "partner": {
+                "id": 9,
+                "name": "Solidity Finance",
+                "logo_link": "safe/files/partner/logo/6095222b6414c.jpeg"
+            }
+        }
+    ]
+}
