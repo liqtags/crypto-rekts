@@ -1,0 +1,51 @@
+{
+    "id": 2755,
+    "project_name": "MetaMask Governance",
+    "title": "MetaMask Governance (fake)",
+    "description": "<p>The contract deployer:<br>https://etherscan.io/address/0x0f6299143d721956c7d85ba4b04bd748e32cb417<br><br>Created 2 fake MetaMask tokens (MASK and META) and 1 Bored Ape Yacht Club (APE) token:<br>https://etherscan.io/tx/0x43fae6c235020e772504f5dea0dfd1b22c668d1a8cf670cd0f4d8c3ebd476cc2<br>https://etherscan.io/tx/0x46194ca072d5ea04bb12b5092db99f5337b02ac81f6a0fd88068f17d14e072c3<br>https://etherscan.io/tx/0x9e9faba20180fbf2ad76a3279d2c0426c5fe71731c6347ee1dbefd4db0823674<br><br>Added initial liquidity at:<br>https://etherscan.io/tx/0x264e914282b5788aded6293b5c719ba0a9269747001c8f1ec0461118ad811815<br>https://etherscan.io/tx/0x4a1faae12f12a7f9c0faf755939159f95ef76ddc3c021015077aa2b105e1b6d1<br>https://etherscan.io/tx/0x09b14538c3d687303421fea866ca55ef12ccc317f3b5c0e968b7f0fb8748c8ab<br>https://etherscan.io/tx/0x4648a35423447c44d38b81e2c8725d561f9222285db4020fd24e8a2eb03fb3f3<br>https://etherscan.io/tx/0x6621b85cb498e8fd02c1c7bed2b57d0feed4777d615a7ef69a885866c439a19e<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0xb1317e0434a66be1ebfff39437bc733f9954cff5554a814a5c533cd46c3f51d4<br>https://etherscan.io/tx/0x32ba9db40a0f8d82c90d6a68c9599148a80872fbc48b93c73085ec8883334076<br>https://etherscan.io/tx/0x66373054329f1024c8be316d3c1f1744293bfc260700e229837f1b4da13078f9<br>https://etherscan.io/tx/0x355a36ef11ebecc7170e33c006f25b7808c533beea73ec3fdea04e2643cb9c8f<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0x0f6299143d721956c7d85ba4b04bd748e32cb417?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967<br><br>The contract deployer possibly blocked token transfers:<br>https://honeypot.is/ethereum.html?address=0xd0898946E77138c9d19a727DdDA005558D57B33f<br>https://honeypot.is/ethereum.html?address=0xbb5d5c01e057be5caf3ce9cf3dae48dea28e5906<br>https://honeypot.is/ethereum.html?address=0xd696FB3C69726997DFfb904E0a3df28Ddaea3Df8</p>",
+    "name_categories": "Token",
+    "token_name": "MASK, META, APE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd696FB3C69726997DFfb904E0a3df28Ddaea3Df8, 0xbb5d5c01e057be5caf3ce9cf3dae48dea28e5906, 0xd0898946E77138c9d19a727DdDA005558D57B33f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61cb1ec147a0f.png",
+    "date": "2021-12-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cobynft/status/1475569815821733894",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1548908,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2755,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
