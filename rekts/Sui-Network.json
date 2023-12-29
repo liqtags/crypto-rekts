@@ -1,0 +1,68 @@
+{
+    "id": 3536,
+    "project_name": "Sui Network",
+    "title": "Sui Network",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sui Network, a fake token on Binance Smart Chain, was involved in an exit scam. The deployer sent 1 billion $SUI tokens to the scammer who added initial liquidity and later drained it.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sui Network is not related to the original SUI token. On October 22nd, 2022, the deployer transferred 1 billion $SUI tokens to a scammer's address. The scammer used these tokens along with 20 $BNB to add liquidity to the PancakeSwap pool. On May 22nd, 2023, after waiting for several months without any activity or trading volume on this fake token project; the scammer removed all available LP funds worth around $196k USD by draining them from the PancakeSwap pool and transferred them into another EOA address. Currently, there is only about $300 USD worth of $BNB remaining as liquidity in that pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x333ec34ecd77ba2fdcfc5a4d6ba71aed245e8764</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x54bCf365c27e7CCdC22403fB1A368ACB7541Fe19</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x5e33f620f42770c828904268d70b27d8b5cddc3b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xfb1f1fdc149a63ae3b5cec9f744a5aececeeed632b75a815e5af2b666d3e3850</p><p><br></p><p>Deployer Relation Proof:</p><p>https://bscscan.com/tx/a7632b84d35d4d99133ae0a9b59f8b48af77c92666be4e3fde0b0ece134b6dc3</p>",
+    "name_categories": "Token",
+    "token_name": "SUI",
+    "proof_archive_link": "https://archive.ph/4qAjE",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x34caaec040ca95f4e8fb892268f16a2a05dcc40f",
+    "token_addresses": [
+        {
+            "address": "0x34caaec040ca95f4e8fb892268f16a2a05dcc40f",
+            "url": "https://bscscan.com/address/0x34caaec040ca95f4e8fb892268f16a2a05dcc40f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x521cbcac9daf2a88e947fc8a7a3085e587cb88cf",
+            "url": "https://bscscan.com/address/0x521cbcac9daf2a88e947fc8a7a3085e587cb88cf",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6474a87084cb4.png",
+    "date": "2023-5-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1660683780493922304?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 196881,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3536,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
