@@ -1,0 +1,51 @@
+{
+    "id": 2804,
+    "project_name": "IDO rug pulls",
+    "title": "IDO rug pulls",
+    "description": "<p>The address behind several rug pulls:<br>https://bscscan.com/address/0x4edcf70d3ac8cacb658d43017fc114a0e5875d9a<br><br>Stolen funds were transferred to the other external address:<br>https://bscscan.com/tx/0xc9940a062d9b767fa84a03836b779cd83cf79bf225f0a1dbeac8cece7b88c2f2<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bscscan.com/txs?a=0xc43b1f4e7e47be5d5663c3b26e4fb3fe7e217f90&amp;p=1</p>",
+    "name_categories": "Other",
+    "token_name": "GOTEM, ONEP, HBARP, MPLAY, PEE, QDrop,",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa5fbc3520dd4bb85fcd175e1e3b994546a2c1ee8, 0xa5fbc3520dd4bb85fcd175e1e3b994546a2c1ee8, 0x926cc5b32c1e88d7532deff023ececdd66f37bfe, 0x9e3ad692084737daf3f8e92bdfb4030965d2d5e6, 0xdb787f0cc920446c93ee7a35a674185ac27606f2, 0x80dd860289d6dafa733c85a58d9f11707838687d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f2c1dce6da2.png",
+    "date": "2022-1-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1481088699593261056, https://twitter.com/RugDocIO/status/1481107278841270274",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2661699,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2804,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
