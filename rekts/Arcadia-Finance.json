@@ -1,0 +1,93 @@
+{
+    "id": 3595,
+    "project_name": "Arcadia Finance",
+    "title": "Arcadia Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Arcadia Finance, a decentralized trading platform, was exploited through reentrancy on both Ethereum and Optimism, losing 459,094 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Arcadia Finance, a DEX on Ethereum and Optimism chain was exploited due to a code vulnerability leading to the loss of funds on both Ethereum and Optimism chains. The hacker utilized a loophole in the code which lacked proper validation of untrusted input, draining assets from Ethereum (darcWETH) and Optimism (darcUSDC) vaults. The exploit resulted in a loss of 459,094 $USD in total, of which 159.22 $ETH and 162,627 $USDC were lost. 103,200 $USDC and 11 $ETH were lost from the Ethereum chain, while 59,427 $USDC and 148.22 $ETH were lost from the Optimism chain. Funds on the Ethereum chain were swapped for $ETH and $DAI and remained at the attacker's address, while the Optimism chain funds were swapped for $ETH and then bridged through Stargate Finance.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Ethereum:</p><p>Attacker Address:</p><p><span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\"></span>https://etherscan.io/address/0x5c75e94dd0ab9c10bfd1b8073dafef031d3c050d</p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0xefc4ac015069fdf9946997be0459db44c0491221159220be782454c32ec2d651</p><p>Malicious Contract:<br>https://etherscan.io/address/0x56a35fae9b0416360e1752a9abe78d89f51517cf</p><p><br></p><p>Optimism:</p><p>Attacker Address:</p><p>https://optimistic.etherscan.io/address/0xd3641c912a6a4c30338787e3c464420b561a9467</p><p>Malicious Transaction:</p><p>https://optimistic.etherscan.io/tx/0xca7c1a0fde444e1a68a8c2b8ae3fb76ec384d1f7ae9a50d26f8bfdd37c7a0afe</p><p>Malicious Contract:<br>https://optimistic.etherscan.io/address/0x01a4d9089c243ccaebe40aa224ad0cab573b83c6</p><p>Bridging Transaction:</p><p>https://optimistic.etherscan.io/tx/0x856c92dfeb56f4bdbfb9b85cc6eb221ca5834c4fa45fcf217536cc2acf6000da</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "ARCADIA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x00cb53780ea58503d3059fc02ddd596d0be926cb",
+    "token_addresses": [
+        {
+            "address": "0xd417c28af20884088f600e724441a3bab38b22cc",
+            "url": "https://etherscan.io/address/0xd417c28af20884088f600e724441a3bab38b22cc",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "url": "https://etherscan.io/address/0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xd417c28af20884088f600e724441a3bab38b22cc",
+            "url": "https://optimistic.etherscan.io/address/0xd417c28af20884088f600e724441a3bab38b22cc",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        },
+        {
+            "address": "0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "url": "https://optimistic.etherscan.io/address/0x9aa024d3fd962701ed17f76c17cab22d3dc9d92d",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64abdc53c8a58.png",
+    "date": "2023-7-7",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/arcadia-finance-hacked-on-ethereum-and-optimism-for-455k, https://twitter.com/PeckShieldAlert/status/1678248292327763968, https://twitter.com/ArcadiaFi/status/1678285634727706625, https://twitter.com/ArcadiaFi/status/1678310473832312833",
+    "website_link": "https://arcadia.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ArcadiaFi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 459094,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/arcadia-finance",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/PXcr8SEeTH",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3595,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3595,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
