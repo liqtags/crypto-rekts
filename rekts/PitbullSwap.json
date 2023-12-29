@@ -1,0 +1,51 @@
+{
+    "id": 2374,
+    "project_name": "PitbullSwap",
+    "title": "PitbullSwap",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "PIT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x489e1D5538702f72F0f0a5F764Eab50ba8f93cCe",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612e078130804.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0xa57ac35ce91ee92caefaa8dc04140c8e232c2e50",
+    "website_link": "https://pitbullswap.finance/pools",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2374,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
