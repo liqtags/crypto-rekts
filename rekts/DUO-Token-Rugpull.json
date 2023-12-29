@@ -1,0 +1,60 @@
+{
+    "id": 3717,
+    "project_name": "DUO",
+    "title": "DUO Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DUO token was rugpull on Sep 23, 2023, the Deployer removing liquidity worth 334,330 USD from PancakeSwap</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DUO is a BEP20 token trading on PancakeSwap. The deployer conducted an exit scam by removing liquidity from the pool in three separate transactions over four days, causing a total loss of 1574.89 BNB. Some of the stolen funds were distributed to different wallets and withdrawn using Tornado Cash, and the rest funds lost are in the creator's wallet as of Sep 30, 2023</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x6F238E6893C24fe505A9304c1c26A9fF2F1D261E</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x5C4Eb44a3a7170130b38fe21042fa302c1Fe113B</p><p>https://bscscan.com/address/0xaf991f71d849993AE429A1Db446DCa6c043b4673</p><p>https://bscscan.com/address/0x792340446674B4156ed76CDE45A69F7750A40B02</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x58e6d53a3ec315113db26aaeb58848a3b02d60259b447bb8e77ae3e88b92d2a4</p><p>https://bscscan.com/tx/0x932aeb6f16d3b8ead04a5f449bde2534550b7f7e7a8a079c2220e5b1f73dde84</p><p>https://bscscan.com/tx/0xdaffe7515d2c5da6a4661da17314e3d2a855de74d34744da6774e075bebcc8a3</p>",
+    "name_categories": "Token",
+    "token_name": "DUO",
+    "proof_archive_link": "https://archive.ph/87QNp",
+    "technical_issue": null,
+    "token_address": "0x1ED990bdcAEf4B13b01F4996dDe59EcD04F1343A",
+    "token_addresses": [
+        {
+            "address": "0x1ED990bdcAEf4B13b01F4996dDe59EcD04F1343A",
+            "url": "https://bscscan.com/token/0x1ED990bdcAEf4B13b01F4996dDe59EcD04F1343A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65186222c1660.png",
+    "date": "2023-9-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1705593154152386641",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 334330,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3717,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
