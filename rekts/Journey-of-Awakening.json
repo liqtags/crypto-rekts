@@ -1,0 +1,68 @@
+{
+    "id": 3218,
+    "project_name": "Journey of Awakening",
+    "title": "Journey of Awakening",
+    "description": "<p><strong>Quick Summary</strong></p><p>Journey of Awakening project was exploited for the total amount of 127,000 $USD. The attacker exploited the vault contract of the project with unverified source code.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Journey of Awakening is BEP20 token trading on PancakeSwap. The project token $ATK price dropped by more than 99% after the attacker drained liquidity with stolen tokens. The exploiter used deployed smart contract to withdraw $ATK tokens from the vault contract with an unverified source code and profited 127,000 $USD in total.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x3df6cd58716d22855afb3b828f82f10708afbb4f</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xd7ba198ce82f4c46ad8f6148ccfdb41866750231</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x601b8ab0c1d51e71796a0df5453ca671ae23de3d5ec9ffd87b9c378504f99c32</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x55983d8701e40353fee90803688170a16424ee702f6b21bb198bb8e7282112cd</p>",
+    "name_categories": "Token",
+    "token_name": "ATK",
+    "proof_archive_link": "https://archive.is/U0CTv",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x9cb928bf50ed220ac8f703bce35be5ce7f56c99c",
+    "token_addresses": [
+        {
+            "address": "0x96bf2e6cc029363b57ffa5984b943f825d333614",
+            "url": "https://bscscan.com/address/0x96bf2e6cc029363b57ffa5984b943f825d333614",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xd228fAee4f73a73fcC73B6d9a1BD25EE1D6ee611",
+            "url": "https://bscscan.com/address/0xd228fAee4f73a73fcC73B6d9a1BD25EE1D6ee611",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6347f9b7772d8.png",
+    "date": "2022-10-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1580078440711041025",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 127000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3218,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
