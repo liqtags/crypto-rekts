@@ -1,0 +1,68 @@
+{
+    "id": 3757,
+    "project_name": "Coin Merge",
+    "title": "Fake CMERGE Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake Coin Merge (CMERGE) project was rugpulled by the deployer, removing liquidity worth 75,887 USD from UniSwap pool during an exit scam.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Coin Merge (CMERGE) is an ERC20 token trading on UniSwap. On Feb 08, 2023, the deployer performed an exit scam by removing the liquidity from the UniSwap pool in a single transaction. The scammer removed 45.37 WETH, which is equivalent to approximately 75,887 USD at current market rates.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x93Ec3124D0919874dB92ECC415f5026a4099db6f</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xE990d297a8c249bC92CbE4ca2c72A8960676AB0d</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x969d2e42ab71a2e483570c577dc758b294e638d8a057eddee4ede4dbb0592886</p>",
+    "name_categories": "Token",
+    "token_name": "CMERGE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xC48b4814fAEd1CCc885DD6fDe62A6474AeCbb19a",
+    "token_addresses": [
+        {
+            "address": "0xC48b4814fAEd1CCc885DD6fDe62A6474AeCbb19a",
+            "url": "https://etherscan.io/address/0xC48b4814fAEd1CCc885DD6fDe62A6474AeCbb19a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x185e32f3db8226a8363c31ca0453385f3f8dc126",
+            "url": "https://etherscan.io/address/0x185e32f3db8226a8363c31ca0453385f3f8dc126",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65427a4e032a3.png",
+    "date": "2023-2-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 75887,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3757,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
