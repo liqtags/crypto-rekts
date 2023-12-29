@@ -1,0 +1,79 @@
+{
+    "id": 2489,
+    "project_name": "Merlin Labs",
+    "title": "Merlin Labs",
+    "description": "<p>The attacker:<br>https://bscscan.com/address/0x400fa7edd10d480f034113f5e81bc1bb78c162fa<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0x8e20a1118a669d03b66c5eca2d937646bd855a998afb1e94b94ff6303456ff97<br><br>The attacker:<br>- added a small sum of deposit to the LINK-BNB Vault at:<br>https://bscscan.com/tx/0x3ce0be64e6daae35c8c5155d38148a2af3eaf8a9b26d5a8c4d7337dc86f475ac<br><br>- sent 180 CAKE to the LINK-BNB Vault contract (leads to the hack)<br><br>- called <u>getReward</u>() with the deposit of LINK-BNB Vault from the first step<br><br>- with a large amount of CAKE token in the wallet balance of the vault contract (sent by the hacker in step 2), it returns a large amount of profit. As a result, the system minted 100 MERL as a reward to the hacker<br><br>- repeated 36 times, received 49K of MERL token in total<br><br>- swapped MERLIN token into 240 ETH and transferred out of BSC using Anyswap.<br><br>The attack was performed using a similar way as Bunny and Autoshark exploits.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "MERL",
+    "proof_archive_link": "https://web.archive.org/web/20210527010510/https://merlinlab.medium.com/our-road-ahead-fa2fafc8167d",
+    "technical_issue": null,
+    "token_address": "0xda360309c59cb8c434b28a91b823344a96444278",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610bfa21f2a52.png",
+    "date": "2021-5-26",
+    "scam_updates": [],
+    "proof_link": "https://watchpug.medium.com/merlin-lab-performance-fee-minting-incident-analysis-12571b591eb3, https://rekt.news/merlinlabs-rekt/",
+    "website_link": "https://merlinlab.com/farm",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MerlinLab_",
+    "telegram_link": "https://t.me/merlinannouncements",
+    "our_post_link": null,
+    "funds_lost": 680000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2489,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Merlin_2021_06_17.pdf",
+            "date": "2021-06-17T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Merlin_Process_Quality_Review_PQ_Reviews.pdf",
+            "date": "2021-05-17T00:00:00.000Z",
+            "partner": {
+                "id": 23,
+                "name": "DeFi Safety",
+                "logo_link": "safe/files/partner/logo/6154df0c5cbef.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/15052021_Merlin_SC_SecondReview_Audit_Report.pdf",
+            "date": "2021-05-15T00:00:00.000Z",
+            "partner": {
+                "id": 25,
+                "name": "Hacken",
+                "logo_link": "safe/files/partner/logo/60b69d7d56e5d.jpeg"
+            }
+        }
+    ]
+}
