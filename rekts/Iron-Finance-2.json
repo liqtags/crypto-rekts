@@ -1,0 +1,51 @@
+{
+    "id": 2592,
+    "project_name": "Iron Finance",
+    "title": "Iron Finance (2)",
+    "description": "<p>On the 16th of April, TITAN reached an all-time high of $64 and some investors cashed out. As a result, the price dropped to $60, where it remained for a time.<br><br>However, when TITAN fell below $60, it prompted a fresh wave of selling by big investors, commonly known as whales, driving the price down below $30. Because of the decline in the TITAN price, the IRON stablecoin lost its peg and fell to $0.90. This is where the real issues started.<br><br>The price oracle, which is a smart contract that generates token prices from liquidity pools, could not keep up with the volatility since it utilizes a 10 minute Time Weighted Average Price (TWAP) to determine the CR. Users could purchase IRON tokens for $0.90 and instantly redeem them for $0.75 USDC and $0.25 TITAN, which they could then sell for a risk-free profit.<br><br>Investors were ready to purchase dips in IRON and TITAN, helping IRON to briefly reclaim its peg and driving the TITAN price back up to $50.<br><br>This triggered another wave of selling as additional major traders began to take advantage of the arbitrage opportunity, flooding the market with newly minted TITAN and finally dumping it as the price approached zero. As a result, IRON fell further, reaching a low of $0.58 before rebounding to $0.74 at the time of writing.<br><br>The TITAN supply that was supposed to be capped at 1 billion tokens expanded without limit.</p>",
+    "name_categories": "Token",
+    "token_name": "TITAN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xaaa5b9e6c589642f98a1cda99b9d024b8407285a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6127b129472d2.jpeg",
+    "date": "2021-6-16",
+    "scam_updates": [],
+    "proof_link": "https://ironfinance.medium.com/iron-finance-post-mortem-17-june-2021-6a4e9ccf23f5, https://cointelegraph.com/news/mark-cuban-calls-for-stablecoin-regulation-in-wake-of-iron-finance-bank-run, https://thedefiant.io/iron-finance-implodes-after-bank-run/",
+    "website_link": "https://polygon.iron.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ironfinance",
+    "telegram_link": "https://t.me/ironfinance",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2592,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
