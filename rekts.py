@@ -109,7 +109,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items, 3399)
+        rekt_loop(items, 3397)
 
 download_project_images()
 
