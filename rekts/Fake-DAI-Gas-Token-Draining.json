@@ -1,0 +1,60 @@
+{
+    "id": 3735,
+    "project_name": "Fake DAI Token",
+    "title": "Fake DAI Gas Token Draining",
+    "description": "<p><strong>Quick Summary</strong></p><p>A fake DAI token scam on Binance Smart Chain led to a loss of 9,815 USD worth 46.45 BNB due to a gas token draining issue.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer deployed a Fake DAI token with malicious code in the Approval function, deceiving users into believing that the transaction fee to revoke was high on Fake DAI token Revoke Transactions. Minted CHI tokens were sent through several addresses and eventually swapped for BNB. The total loss amounted to 9,815 USD worth 46.45 BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x8639b763e40a8b42fd9008b7d3d1f3a9caba87a4</p><p><br></p><p>Funds Holder as of Oct 19, 2023:</p><p>https://bscscan.com/address/0x2D8451d1d5CcC3B25540d17Fe2a74fFf9Df435AA</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x7d3e1abaf857abd39e557ccb908c8273c436fd11d22f63c2791c73473bef63ad</p><p><br></p><p>Malicious Contract Address:</p><p>https://bscscan.com/address/0x1af32e8488822bf8e2fff374de8d737ecfb368c3</p>",
+    "name_categories": "Token",
+    "token_name": "DAI",
+    "proof_archive_link": "https://archive.ph/5IVSW",
+    "technical_issue": null,
+    "token_address": "0x1aF32E8488822bf8e2FFF374DE8D737ECfB368c3",
+    "token_addresses": [
+        {
+            "address": "0x1af32e8488822bf8e2fff374de8d737ecfb368c3",
+            "url": "https://bscscan.com/address/0x1af32e8488822bf8e2fff374de8d737ecfb368c3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65313484d570b.png",
+    "date": "2023-7-8",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/@zokyo.io/fake-approval-scam-40d870b15f8c",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 9815,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3735,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
