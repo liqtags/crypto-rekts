@@ -1,0 +1,60 @@
+{
+    "id": 3615,
+    "project_name": "PEPEHUB",
+    "title": "PEHUB Rug Pull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The PEHUB token recently experienced a rug pull incident, leading to a significant loss of approximately $255,000 in WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The project team behind the PEHUB token executed a rug pull by calling backdoor functions inside a contract which allows change accounts balances. After that tokens were swapped into WETH on the Uniswap V2 DEX. As a result, they successfully withdrew and transferred a total equivalent of $<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>255,000</span> USD, distributing the funds across four different wallets.</p><p><br></p><p>This sudden liquidity removal and token transfer event caught the community off guard, causing substantial financial losses to investors and holders of PEHUB token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract Creator:&nbsp;</p><p>https://etherscan.io/address/0x87f60e577a4b5ee6a2f3156cbc8261d103600177</p><p>Malicious txs:</p><p>https://etherscan.io/tx/0x1fff577a40769bcc3f93a5224d5eb2e1d13e7c7bc3decda025558d99f8a99263</p><p>https://etherscan.io/tx/0xc1d5cbe8fc4cfdb15f3c8f4981a292403efaa33b4086384938b3567336e583fc</p><p>Swap txs:&nbsp;</p><p>https://etherscan.io/tx/0xb7a54b6f451d43a41e6ad129860ffa4738af2351f13e6aafa1b2586abc5720ba</p><p>https://etherscan.io/tx/0x4f78b8cf4bca46e7610f359af78bed85633a870d71c3634f72b9d6589f72a38f</p><p>https://etherscan.io/tx/0x32e481eee00645524ddbd487ec20583cf3cb956db2d034b5f30eae6cb79148c6</p>",
+    "name_categories": "Token",
+    "token_name": "PEPEHUB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc3c51c071e5f1eca09575ac35e90956ae3b27311",
+    "token_addresses": [
+        {
+            "address": "0xc3c51c071e5f1eca09575ac35e90956ae3b27311",
+            "url": "https://etherscan.io/address/0xc3c51c071e5f1eca09575ac35e90956ae3b27311",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64be660424d84.png",
+    "date": "2023-7-3",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1676799261659348992?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 255000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3615,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
