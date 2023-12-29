@@ -1,0 +1,60 @@
+{
+    "id": 3515,
+    "project_name": "Ocean Life",
+    "title": "Ocean Life",
+    "description": "<p><strong>Quick Summary</strong></p><p>On April 19, 2023, an attacker hacked the Ocean Life token on Binance Smart Chain (BSC), using a flawed mechanism to lower the token supply and manipulate the price. The attacker earned 32 WBNB in return for their actions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker used a flash loan of 969 WBNB from DPPOracle and converted it to OLIFE tokens using PancakeSwap. By internally calling the '_reflectFee' function through the transfer function, the attacker decreased the total value of _tTotal. However, the balance of the pool was much higher after accumulation, as computed using balanceOf(), and the hacker used a direct call to swap to withdraw $WBNB from the pool. The attacker then returned the 969 WBNB flashloan and transferred the 32 WBNB profit to another address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker's transaction:&nbsp;</p><p>https://bscscan.com/tx/0xa21692ffb561767a74a4cbd1b78ad48151d710efab723b1efa5f1e0147caab0a</p><p>Attacker address:&nbsp;</p><p>https://bscscan.com/address/0xfb8ef8de849079559801bff8848178640cdd41b7</p><p>Stolen funds address:&nbsp;</p><p>https://bscscan.com/address/0x662D2dC484D65a3Ba4Da80E36EAa9a400AF0726B</p>",
+    "name_categories": "Token",
+    "token_name": "OLIFE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xb5a0ce3acd6ec557d39afdcbc93b07a1e1a9e3fa",
+    "token_addresses": [
+        {
+            "address": "0xb5a0ce3acd6ec557d39afdcbc93b07a1e1a9e3fa#code",
+            "url": "https://bscscan.com/address/0xb5a0ce3acd6ec557d39afdcbc93b07a1e1a9e3fa#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/644f9e3353e5f.png",
+    "date": "2023-4-19",
+    "scam_updates": [],
+    "proof_link": "https://www.binance.com/en/feed/post/437385, https://blog.solidityscan.com/ocean-life-token-hack-analysis-flash-loan-attack-ded51d0ee574, https://twitter.com/CertiKAlert/status/1648512961521283077",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 11000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3515,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
