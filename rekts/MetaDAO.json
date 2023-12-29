@@ -1,0 +1,51 @@
+{
+    "id": 2756,
+    "project_name": "MetaDAO",
+    "title": "MetaDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>The MetaDao Honeypot caused investors approx. $ 2,8 million in damages.</p><p><strong><br>Details of the Exploit</strong></p><p>MetaDAO claimed to be the DAO of DAO\u00b4s, building a new decentralized universe when in fact the project was a Honeypot all along. The $META token was configured in such a way that it could not be sold on decentralized exchanges, meaning investors funds were trapped. The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x2322e3e288216d450ff24bf3ea8f6d0524b0425cde75675572ee620ea7a52ac9</p><p>Once the project took on steam, the contract deployer unlocked liquidity and removed $ETH from the pair in the following example transactions:<br>https://etherscan.io/tx/0xfb75d381d5ea9037c578fbcd49f39740fed2fa4d62000ce6b3b6f9f3749303c2<br>https://etherscan.io/tx/0xfb684e20924fcb9e877c8c29355373cc0d8ba155ba006f3bc50d320c6efb7c26<br>The Stolen funds were funneled through the Tornado Cash mixer, example transactions:</p><p>1) https://etherscan.io/tx/0xaaccf3a1727f1b91a579a020b6d44428cd1fde35c246917420768591feff76db</p><p>2) https://etherscan.io/tx/0x998014eeeaba30addd68428aae0a3114775960e21b0856289ee59b048fd09578</p><p>3) https://etherscan.io/tx/0xe1693a0786eeb7290d192faca43480f7cd401ea7b48fe3a4fe9cf655e3953292</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">The contract deployer possibly blocked token transfers:<br>https://honeypot.is/ethereum.html?address=0x6795a9603e9992417560479b07ba04c5f0dd79e4</p>",
+    "name_categories": "Token",
+    "token_name": "META",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6795a9603e9992417560479b07ba04c5f0dd79e4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61eabed98a353.png",
+    "date": "2021-12-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1475434691939520523",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/metadao",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2826509,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2756,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
