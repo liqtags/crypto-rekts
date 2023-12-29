@@ -1,0 +1,68 @@
+{
+    "id": 3300,
+    "project_name": "Rubic",
+    "title": "Rubic",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">USDC balances of Rubic\u2019s users have been drained. The current losses reached $1.42M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">All USDC approved to the RubicProxy contract got under the risk of being drained after the USDC address was added into the list of available routers in the RubicProxy contract.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Through the routerCallNative() &nbsp;function, the attacker could call safeTransferFrom() on the USDC contract inputting user addresses, which have approved their USDC balances to be spent by RubicProxy, as the \u201cfrom\u201d parameter.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference&nbsp;</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exploit transactions:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The \u201cadd available router \u201d transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "RBC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3330BFb7332cA23cd071631837dC289B09C33333",
+    "token_addresses": [
+        {
+            "address": "0x3335A88bb18fD3b6824b59Af62b50CE494143333",
+            "url": null,
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x253dD81d642220267ccAc1d8202c0B96a92b299e",
+            "url": null,
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63ad501e9bd51.png",
+    "date": "2022-12-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CryptoRubic/status/1606951013449097218, https://twitter.com/peckshield/status/1606937055761952770",
+    "website_link": "https://rubic.exchange/",
+    "webarchive_link": "https://archive.ph/IBLLe, https://archive.ph/0Xdhe",
+    "twitter_link": "https://twitter.com/CryptoRubic",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1420000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3300,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
