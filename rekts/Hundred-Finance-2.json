@@ -1,0 +1,51 @@
+{
+    "id": 2849,
+    "project_name": "Hundred Finance",
+    "title": "Hundred Finance (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Exploitation of reentrancy vulnerability in xDAI token's architecture allows attackers to borrow assets significantly more valuable than the provided collateral.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited the xDAI token's architecture which includes the function callAfterTransfer(), creating a reentrancy vulnerability. By using flash loans as collateral, they were able to layer multiple borrow functions within one another to increase the borrowed amount before the protocol could update the debt balance. This approach was repeated and resulted in the borrowing of assets that were significantly more valuable than the collateral provided.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://blockscout.com/xdai/mainnet/address/0xD041Ad9aaE5Cf96b21c3ffcB303a0Cb80779E358/transactions</p><p>The stolen funds were bridged to Ethereum and deposited into Tornado Cash mixer:</p><p>https://etherscan.io/txs?a=0xd041ad9aae5cf96b21c3ffcb303a0cb80779e358</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "HND",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/643d0d4914cf3.jpg",
+    "date": "2022-3-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/HundredFinance/status/1503754916300476420, https://rekt.news/agave-hundred-rekt/, https://twitter.com/PeckShieldAlert/status/1503927403584061442",
+    "website_link": "https://hundred.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/HundredFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/hundred-finance",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/hundred",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 100,
+            "scam_database_id": 2849,
+            "networks": {
+                "id": 100,
+                "name": "Gnosis",
+                "icon_link": "safe/files/network/gnosis.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
