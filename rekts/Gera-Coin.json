@@ -1,0 +1,60 @@
+{
+    "id": 3183,
+    "project_name": "Gera Coin",
+    "title": "Gera Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>Gera Coin project was hacked through a private key leak. The $GERA token price dumped by over 98% on both Ethereum and BSC DEXes.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Gera Coin is a crypto payment platform. $GERA is a token, which is trading on Ethereum and Binance chains. As said on the official project's Twitter, the private key of the token deployer was leaked, so the hacker was able to transfer ownership to himself, and mint unlimited $GERA tokens. Consequently, the hacker minted 2,179,340,915 ERC20 GERA tokens on the Ethereum network and 275,900,000 GERA BEP20 tokens on the Binance network. The minted tokens were partially sold which led to a token price dumping of more than 98%. The total profit the hacker made is unknown.</p><p><br></p><p>Funds lost by chain:<br>BSC: 119,145 $USD lost and transferred through 1inch</p><p>Ethereum: 127,982 $USD lost and bridged through Celer Network</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x510e4d61663be6a24d600aaf90f892dd8c8c61dc</p><p>Mint transactions:</p><p>https://bscscan.com/tx/0x621f7b50a93e9ddea938c8dac33ab207088dc69b4889166c8e35762a0b8e9676</p><p>https://bscscan.com/tx/0xc80fb9358cb1bd0b194174758e89c5830a5b89a8a36574741a355dc480937eac</p>",
+    "name_categories": "Token",
+    "token_name": "GERA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xDe5eA375FFBDc8b25a80fe13D631E8Ba0AB4BB02,https://etherscan.io/token/0xDe5eA375FFBDc8b25a80fe13D631E8Ba0AB4BB02",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631f3ab1cbb00.jpeg",
+    "date": "2022-9-7",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/ZTj5k",
+    "website_link": "https://geracoin.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GeraCoin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 247127,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3183,
+            "networks": {
+                "id": 1,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        },
+        {
+            "networks_id": 56,
+            "scam_database_id": 3183,
+            "networks": {
+                "id": 56,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
