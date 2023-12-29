@@ -1,0 +1,51 @@
+{
+    "id": 3056,
+    "project_name": "Inverse Finance",
+    "title": "Inverse Finance (2)",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Ethereum-based Inverse Finance was exploited for more than $1.2 million by an attacker utilizing an oracle manipulation through a flash loan attack.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p><br></p><p><strong>Details of the exploit</strong></p><p><br></p><p>1) The attacker flashloaned 27,000 WBTC using it's contract from AAVE. Then WBTC was added as liquidity to the Curve pool.</p><p>2) The obtained LP tokens were deposited to the Yearn\u2019s Vault. Yearn\u2019s Vault tokens were deposited to Inverse Finance\u2019s Yearn 3Crypto Vault to serve as collateral on Inverse Finance.</p><p>3) The attacker's then uses the remaining 26,775 WBTC of the initial flashloan to swap for 75M USDT on Curve 3Crypto. It manipulates the pricing oracle that let's the attacker is then able to borrow $10M worth of Dola USD StableCoin.</p><p>4) Then, the 75M USDT is swapped for 26,626 WBTC.</p><p>5) The attacker then uses the borrowed DOLA to provide liquidity to the Curve Metapool. When the liquidity is ~10.1M USDT, it is removed.</p><p>6) Then, it converts 10M USDT to 451 WBTC using the 3Crypto pool on Curve. A remaining 99,976.294 USDT was kept in the attacker\u2019s smart contract.</p><p><br></p><p>Exploit transaction: https://etherscan.io/tx/0x958236266991bc3fe3b77feaacea120f172c0708ad01c7a715b255f218f9313c</p><p>Exploiter address: https://etherscan.io/address/0x7b792e49f640676b3706d666075e903b3a4deec6</p><p>Exploiter contract: https://etherscan.io/address/0xf508c58ce37ce40a40997c715075172691f92e2d</p><p>Withdrawing 100K USDT: https://etherscan.io/tx/0x3d2f86c1c289731f56bed95dce20434eff48e3bd4a50cdc007ef5d0a2177a9f7</p><p>Withdrawing 53.<span data-original-title=\"Current Price : $20,265.00 / WBTC\" data-toggle=\"tooltip\">24</span> WBTC: https://etherscan.io/tx/0x9959f8f10f59b3b88a5499066a21237e492f193e5ff2950bcc7e6c1f5e1fa60c</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "INV",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62b0966f33aea.png",
+    "date": "2022-6-16",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/inverse-rekt2, https://www.certik.com/resources/blog/6LbL57WA3iMNm8zd7q111R-inverse-finance-incident-analysis, https://hacken.io/industry-news-and-insights/flashloan-attack-on-inverse-finances-frontier/, https://cryptopotato.com/second-time-in-2-months-defi-lender-inverse-finance-drained-for-1-6m/",
+    "website_link": "https://www.inverse.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/InverseFinance",
+    "telegram_link": "https://t.me/InverseFinance",
+    "our_post_link": null,
+    "funds_lost": 1260000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/InverseFinance",
+    "git_hub_contract_link": "https://github.com/InverseFinance/inverse-protocol/tree/main/contracts",
+    "discord": "https://discord.com/invite/YpYJC7R5nv",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3056,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
