@@ -1,0 +1,60 @@
+{
+    "id": 3203,
+    "project_name": "e-STD",
+    "title": "e-STD",
+    "description": "<p><strong>Quick Summary</strong></p><p>Exit scam detected on e-STD token. Deployer and other team-related addresses dropped the token price and drained 49,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>e-STD is BEP20 token trading on PancakeSwap. The token deployer sent $e-STD tokens to 2 EOA addresses. Three scammer addresses sold a huge amount of $e-STD tokens and made a profit of 49,000 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xe5f616a54c132a03278584b14ce93a56f5f6b8d1</p><p>https://bscscan.com/address/0x7f37e0615198bad94b2add4fcfc03e4f38ebce39</p><p>https://bscscan.com/address/0x168ec8648e7411e00534d7304109bbca59832caa</p><p><br></p><p>Transfer transactions:</p><p>https://bscscan.com/tx/0xf963f5f913111021e1b644b1ffa3347541477daff3541b7360525128cdf75dd2</p><p>https://bscscan.com/tx/0xf067769d0142296c66d059099449ef7c97e7113e8671e41f3c5d5f639246888c</p>",
+    "name_categories": "Token",
+    "token_name": "e-STD",
+    "proof_archive_link": "https://archive.is/BdKT4",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x7aA4B6937DE7118bf4C8e56F9df3a99ceFB64C1a",
+    "token_addresses": [
+        {
+            "address": "0x9c0c9be7b2ae39bb8f7e54bb670a8de60315a4ed",
+            "url": "https://bscscan.com/address/0x9c0c9be7b2ae39bb8f7e54bb670a8de60315a4ed",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633c67005cd4b.png",
+    "date": "2022-9-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1574511544050028544",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 49000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3203,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
