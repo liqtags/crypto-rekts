@@ -1,0 +1,60 @@
+{
+    "id": 3728,
+    "project_name": "Bitcoin BSC",
+    "title": "Bitcoin BSC Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BTCBSC token project experienced a rugpull exit scam, with the deployer removing liquidity worth 48,617 USD from PancakeSwap pool, resulting in a total loss of 35,813 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BTCBSC is a BEP20 token trading on PancakeSwap. On Oct 3, 2023, the deployer performed an exit scam by removing 235.87 WBNB, equivalent to 48,617 USD, from the liquidity pool. Following the liquidity removal, the stolen funds amounting to 35,813 USD were lost, the stolen funds still remain in the deployer's wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xA51EA8e037e0a1A391A39Bc8b5CE1EC6533780Df</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x390447591a1ebc0f54eec1c767dc715f077fbf53343456d5cad3965a45158310</p>",
+    "name_categories": "Token",
+    "token_name": "BTCBSC",
+    "proof_archive_link": "https://archive.ph/aWgSD",
+    "technical_issue": null,
+    "token_address": "0x48747d325d139b1F9cD29d9381Fb73228B9AFfec",
+    "token_addresses": [
+        {
+            "address": "0x48747d325d139b1f9cd29d9381fb73228b9affec",
+            "url": "https://bscscan.com/address/0x48747d325d139b1f9cd29d9381fb73228b9affec",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6525a4df0eec0.png",
+    "date": "2023-10-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1711778499273359683",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 35813,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3728,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
