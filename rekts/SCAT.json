@@ -1,0 +1,68 @@
+{
+    "id": 3276,
+    "project_name": "SCAT",
+    "title": "SCAT",
+    "description": "<p><strong>Quick Summary</strong></p><p>SCAT copycat project was rugpulled. An EOA address received $SCAT tokens from the token deployer and drained liquidity for 26,081 $USD .</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SCAT is a copycat BEP20 token and can't be confused with other tokens with the same name and symbol. The token was rugpulled by the EOA address which received 100,000,000,000 $SCAT tokens from the token deployer. 26,081 $USD was stolen from the PancakeSwap liquidity pool and transferred through TransitSwap.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xc96d3505203641749ade6a2e62ce21d4ff43e8f6</p><p>https://bscscan.com/address/0xb0f6da6732a5f2dcd8fee016f2554b4a3670b4a4</p><p><br></p><p>Funds transfer transaction:</p><p>https://bscscan.com/tx/0x6e7888d9a3ed8a18a1e1f1b892cc13f776573e6108b7ca3b7601b77e79da1af1</p><p><br></p><p>Token transfer transactions:</p><p>https://bscscan.com/tx/0x95ce806fa05334b53174a130b8492e8236f7177993c93b20995f332ac027bf4b</p><p>https://bscscan.com/tx/0x932f66e7eeaaecf78566e2584827716814e1190a607f2fd5feb692d516e2c68d</p>",
+    "name_categories": "Token",
+    "token_name": "SCAT",
+    "proof_archive_link": "https://archive.ph/ehLv2",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x22a681b2b57050Ab42cb4a426d56A733c6ca859A",
+    "token_addresses": [
+        {
+            "address": "0x22a681b2b57050Ab42cb4a426d56A733c6ca859A",
+            "url": "https://bscscan.com/address/0x22a681b2b57050Ab42cb4a426d56A733c6ca859A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xc75F5c15b2373DC86BbfFc3FCd213Dced58E4B00",
+            "url": "https://bscscan.com/address/0xc75F5c15b2373DC86BbfFc3FCd213Dced58E4B00",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/637781677fb76.png",
+    "date": "2022-11-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1590856313138839552",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 26081,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3276,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
