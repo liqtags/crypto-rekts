@@ -1,0 +1,51 @@
+{
+    "id": 2106,
+    "project_name": "CHINASWAP",
+    "title": "CHINASWAP",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "CHINA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x227b2b1af44bb8eea57fbcb0737389f9b6b6a69a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f6fcc85e7df.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1386163504470659074",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2106,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
