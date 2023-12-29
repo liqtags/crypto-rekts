@@ -1,0 +1,51 @@
+{
+    "id": 364,
+    "project_name": "BitDao",
+    "title": "BitDao",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens:<br>https://honeypot.is/ethereum.html?address=0x1533c795ea2b33999dd6eff0256640dc3b2415c2<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x3966fb3f4b384dd7d08ffb76edb628d457c8078dbc41a27edfca4cec4d16a980<br><br>The contract deployer invoked <u>_mint</u> to generate new tokens on his address:<br>https://etherscan.io/tx/0x2d704fd0ebea8d5a6c8d5e5639aa5aa9d6c95b0325a842cb8dfa9368ca4ba660<br><br>Newly minted tokens were sold by the contract deployer:<br>https://etherscan.io/tx/0x90d7e07eb547b1cfbe9d3c4e874036616cc497635f933842e3929979f4596c7b<br>https://etherscan.io/tx/0xc0a7f3662c9773be35986f3fb4a24c574b8199b73bfccb59dd82a71db1f6bff9<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://etherscan.io/tx/0xa576b767c839bde6cd000bc261989425334e563f336959c767d3dfa938b45adc</p>",
+    "name_categories": "Token",
+    "token_name": "BDO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1533c795ea2b33999dd6eff0256640dc3b2415c2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e6e50d1355b.png",
+    "date": "2021-6-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 686491,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 364,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
