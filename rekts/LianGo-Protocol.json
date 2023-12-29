@@ -1,0 +1,76 @@
+{
+    "id": 3352,
+    "project_name": "LianGo Protocol",
+    "title": "LianGo Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>LianGo Protocol was exploited via access control. The attacker compromised private keys and was able to receive $LGT tokens from the project's pool for roughly 1,600,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LianGo Protocol is a decentralized consume-as-mine payment protocol. The project has multiple contracts such as $LGT token contract and LGT Pool. The deployer address of the protocol was compromised, which allowed the exploiter to add a malicious pool to the Pool contract, and drain $LGT tokens worth about 1,600,000 $USD. The stolen tokens were sold on the PancakeSwap which affected the $LGT token price, which has dropped 97%.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x36d173937f3e03074246adcfd6e4d06f3638c28a</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0xbdd83d5d3b1ae99a1222d3aa6307026c6dc4b1d251b7dad3b29e29fc15073953</p><p>https://bscscan.com/tx/0x29c29e9f1cdbc5e5d6b9d3b3cacc320a0a810242e7efeb611eeae596891e67d6</p>",
+    "name_categories": "Token",
+    "token_name": "LGT",
+    "proof_archive_link": "https://archive.ph/gb44e, https://archive.ph/rYN5K",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x62E8e3036964E9cfA21E970e8257B27F487175D8",
+    "token_addresses": [
+        {
+            "address": "0xf84f56f54c0c0f6e981eec0e4c14025d2b3b4c94",
+            "url": "https://bscscan.com/address/0xf84f56f54c0c0f6e981eec0e4c14025d2b3b4c94",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x62E8e3036964E9cfA21E970e8257B27F487175D8",
+            "url": "https://bscscan.com/address/0x62E8e3036964E9cfA21E970e8257B27F487175D8",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xb5950375d392728076449271b305639efd2fc558",
+            "url": "https://bscscan.com/address/0xb5950375d392728076449271b305639efd2fc558",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fa3bc462dfe.jpg",
+    "date": "2023-2-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1622987373045841920, https://twitter.com/LianGoProtocol/status/1623117336764092417",
+    "website_link": "https://liangopro.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LianGoProtocol",
+    "telegram_link": "https://t.me/LianGo_Chinese",
+    "our_post_link": null,
+    "funds_lost": 1600000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3352,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
