@@ -1,0 +1,68 @@
+{
+    "id": 3389,
+    "project_name": "YEED",
+    "title": "YEED",
+    "description": "<p><strong>Quick Summary</strong></p><p>YEED Token was dumped due to the exploit with a profit of about 1M+ $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The hacker has performed transfers to three trading pairs, namely ZEED, HOR, and USDT via YEED. This process has been repeated multiple times. The ZEED tokens are directly added or subtracted from the balance of the trading pair, which creates a vulnerability that the hacker exploits. This vulnerability allows the hacker to increase the balance and receive excess rewards from the pair. The attack leverages the ZEED contract's direct calculation of the balance using the rewardFee but not using the separate calculation of zedreward, horward, usdtreward. This vulnerability is used to generate profits for the hacker. The total amount of funds stolen is estimated at $1,043,070. The hacker has not yet transferred out the funds, as the contract has already self-destructed.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TXs:</p><p>https://bscscan.com/tx/0x0507476234193a9a5c7ae2c47e4c4b833a7c3923cefc6fd7667b72f3ca3fa83a</p><p>Exploiter address:</p><p>https://bscscan.com/address/0xec14207d56e10f72446576779d9b843e476e0fb0</p><p>Attacker contract:</p><p>https://bscscan.com/address/0x05e55d051ac0a5fb744e71704a8fa4ee3b103374</p>",
+    "name_categories": "Token",
+    "token_name": "YEED",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe7748fce1d1e2f2fd2dddb5074bd074745dda8ea",
+    "token_addresses": [
+        {
+            "address": "0xe7748fce1d1e2f2fd2dddb5074bd074745dda8ea",
+            "url": "https://bscscan.com/token/0xe7748fce1d1e2f2fd2dddb5074bd074745dda8ea",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x05e55d051ac0a5fb744e71704a8fa4ee3b103374",
+            "url": "https://bscscan.com/address/0x05e55d051ac0a5fb744e71704a8fa4ee3b103374",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64233a673b561.png",
+    "date": "2022-4-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1517062566232879105?s=20, https://mirror.xyz/0xaB265E6124dedE46C85336e720521209d51E403e/6Qi2X7fCVsts6nhlPvuLYi8DSo5RltArCg9Z52L-epo",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1043069,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3389,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
