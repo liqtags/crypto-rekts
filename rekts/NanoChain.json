@@ -1,5 +1,5 @@
 {
-    "id": 1358,
+    "id": 1357,
     "project_name": "NanoChain",
     "title": "NanoChain",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "NANO",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x46cbe50355401ceb1c70910f9194012c9a99b40a",
+    "token_address": "0x5e6d6dc203e21c66209a344c9a360a14e58d7ee8",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f04f3bcdd45.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f04f0de1c9f.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1382886019419103233",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1358,
+            "scam_database_id": 1357,
             "networks": {
                 "id": 56,
                 "name": "Binance",
