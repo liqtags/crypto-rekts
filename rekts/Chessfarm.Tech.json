@@ -1,0 +1,51 @@
+{
+    "id": 217,
+    "project_name": "Chessfarm.Tech",
+    "title": "Chessfarm.Tech",
+    "description": "<p><strong>Quick Summary</strong></p><p>Investors of the Chessfarm.Tech project were betrayed due to the project deployers privileged withdrawal access, which enabled the deployer to extract approx. $167k from the project.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Chessfarm.Tech project was a DEX, deployed on the Binance Smart Chain. The project promised to have tackled problems such as hyperinflation and price dumping through its new fair chess distribution. Only 5% of the staking rewards were supposed to go towards the team in order to fund further developments.</p><p>The contract deployer added initial liquidity at:<br>https://www.bscscan.com/tx/0xe2fd4137ef507c034c665f3fea4d6f77d873c5374ad27d3a21f8926bcb426f0b<br>and made the $CHESS token tradable on pancake swap.<br>Merely 5 days later the contract deployer used a hidden migration functionality under the <u>reduceReward</u>() function, by invoking it, the deployer received all deposited tokens from the staking smart contract, as can be seen in the following example transactions:<br>https://www.bscscan.com/tx/0xeefee4f7828e16a84062b0c3cf429d0cd4cc231a1ca6bc4950296490b98d430d<br>https://www.bscscan.com/tx/0x4abde5e6cdd45b0c6eeb46fd324988a2a65baa188f0876342006088cf0267ee3</p><p>The received tokens were then sold by the contract deployer as can be seen in the example transaction:<br>https://www.bscscan.com/tx/0x777cb33644a763aa7e846495dc654e30f64e02f18313f537c3e722d8fceb50b1<br>The deployer managed to gain around $BNB 4000 and decided the funds for Binance BTC tokens at:<br>https://www.bscscan.com/tx/0xd68620c0681c5fe6281ebde24c7d573734ae4c90f6b9d4f02f585f3e8262f4e8<br>The received $BTCB were distributed between different external addresses and deposited into Binance exchange, here an example:<br>https://www.bscscan.com/address/0x4bf9af802d9804c2e4e3308c5658123eeac89947#tokentxns<br><br>The deployer also made sure to remove the liquidity in order to maximize his profit:<br>https://www.bscscan.com/tx/0x52f89a249f4bbe6f3c029def0765a4ad6897fc98931f786725bc486fd07229a2</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Example Transactions (Reduce Rewards)</p><p>https://www.bscscan.com/tx/0x50b1a1594d9980e2bfca18dc80c7e5fa99c0170602936bbe37a7d527c322f447<br>https://www.bscscan.com/tx/0xfff49ffe24c3105b134e264748dfac4f4bcb3928d3207cde0f5d1f9c84edcd40<br>https://www.bscscan.com/tx/0x84ddf423ecb1448466f3079a20004dda9619a75f4a4d5c6c5b671f5ebb1f93d5<br>https://www.bscscan.com/tx/0x80611a1a729b0d49557aff9b2b9e83e8701ca264b640eacb924e9bb5e424b18f<br>https://www.bscscan.com/tx/0x2b1818c93db9c64be6865b034fafafc52bb228c703b544802b1a72430ee366f1</p><p><br></p><p>Example Transaction (Deployer Dumping)</p><p>https://www.bscscan.com/tx/0x353ce25e0d03838cb5255688a2a59f3428c117592aba570e98d73b39bde4e569<br>https://www.bscscan.com/tx/0xaaf8648a4b2fa3577e83220a8923570a45fc8c858a51a138b48dbf0913f391d4<br>https://www.bscscan.com/tx/0x604533dde572b549b0f247c0f68555977353ed429a4e8112de334bd8ce49b698<br>https://www.bscscan.com/tx/0xebbf66a68dabb526bf673cda2a93ac947017963fb642327136a9a1047a4c79b3</p>",
+    "name_categories": "Other",
+    "token_name": "Chess",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://www.bscscan.com/token/0x02f92a9c381bdea49bde29a8277666c73e60c88d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5e2ce84e4e.jpeg",
+    "date": "2020-11-11",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://chessfarm.tech/",
+    "webarchive_link": "https://web.archive.org/web/20201106215255/https://chessfarm.tech/",
+    "twitter_link": "https://twitter.com/ChessFarm",
+    "telegram_link": "https://t.me/Chessfarm_News",
+    "our_post_link": null,
+    "funds_lost": 167772,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 217,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
