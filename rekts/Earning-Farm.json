@@ -1,0 +1,70 @@
+{
+    "id": 3393,
+    "project_name": "Earning Farm",
+    "title": "Earning Farm",
+    "description": "<p><strong>Quick Summary</strong></p><p>Earning Farm was exploited via Flash Loan Attack resulted in a loss of 1,365,750 $USD worth of $ETH</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Earning Farm is a Yield Aggregator running on the Ethereum chain. The project suffered from a Flash Loan Attack and lost roughly 750 $ETH in total. The attacker was able to receive 268 $ETH while the rest of the stolen funds were siphoned by MEV Bot. The attacker deployed a malicious smart contract with unverified source code, and exploited EFLeverVault contract's logic issue. Security check for a callback initiator was missing in the affected contract, which allowed the attacker to drain the vault contract's $ETH. All the stolen funds were transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xdf31f4c8dc9548eb4c416af26dc396a25fde4d5f</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x160c5950a01b88953648ba90ec0a29b0c5383e055d35a7835d905c53a3dda01e</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x140cca423081ed0366765f18fc9f5ed299699388</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "EF_LEV",
+    "proof_archive_link": "https://archive.ph/UEZfK, https://archive.ph/xET4i, https://archive.ph/WKjg8",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xbae7ec1baaae7d5801ad41691a2175aa11bcba19",
+    "token_addresses": [
+        {
+            "address": "0xe39fd820b58f83205db1d9225f28105971c3d309",
+            "url": "https://etherscan.io/address/0xe39fd820b58f83205db1d9225f28105971c3d309",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6424037a6726c.jpg",
+    "date": "2022-10-14",
+    "scam_updates": [],
+    "proof_link": "https://u.today/earningfarm-yield-platform-under-attack-details, https://twitter.com/danielvf/status/1580936010556661761, https://twitter.com/Supremacy_CA/status/1581012823701786624",
+    "website_link": "https://earning.farm/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/EarningFarm",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1365750,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/EarningFarm/",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3393,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": null,
+            "date": "2022-11-08T00:00:00.000Z",
+            "partner": {
+                "id": 24,
+                "name": "SlowMist",
+                "logo_link": "safe/files/partner/logo/60af9beadb58e.jpeg"
+            }
+        }
+    ]
+}
