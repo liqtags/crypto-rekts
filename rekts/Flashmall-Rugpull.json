@@ -1,0 +1,60 @@
+{
+    "id": 3623,
+    "project_name": "Flashmall",
+    "title": "Flashmall Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Flashmall project was rugpulled with stolen funds worth 508,350 $USD bridged to Ethereum via Celer Bridge.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Flashmall is a project on the Binance Smart Chain. A privileged address set by the project manipulated a function to mint 10 times the tokens every time and then swap back tokens 1:1, finally removing liquidity to profit around 508,350 $USD. Part of these stolen funds was bridged to Ethereum via Celer Bridge and consequently transferred through TornadoCash as 200 BNB and 250 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x613C6F064A06C91B2f69459169B7ea739023193A</p><p><br></p><p>TornadoCash Transfers on BSC:</p><p>https://bscscan.com/tx/0x6ade5d00069ccc49dcc85222008e734e88040725c7b774430f9b6e8cfaac88da</p><p>https://bscscan.com/tx/0xda59ad2c75f69492c675f7af8aaeaba1bd0a4c0879a18e946a7eb4dc76a082bd</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/Im2R2",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x1f40465dce9a07a5273b4b63f5f9c31ff2bcbd9a",
+            "url": "https://bscscan.com/address/0x1f40465dce9a07a5273b4b63f5f9c31ff2bcbd9a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64bec7a8e57ee.png",
+    "date": "2023-7-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1681850857502003201",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 508350,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3623,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
