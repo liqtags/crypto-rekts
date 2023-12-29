@@ -1,0 +1,51 @@
+{
+    "id": 2813,
+    "project_name": "Flexcoin",
+    "title": "Flexcoin",
+    "description": "<p>Official statement:<br><br>\"On March 2nd, 2014 Flexcoin was attacked and robbed of all coins in the hot wallet. The attacker made off with 896 BTC, dividing them into these two addresses:<br><br>1NDkevapt4SWYFEmquCDBSF7DLMTNVggdu<br><br>19FcC5jitGwpFKORDd9QNH3eGN56d0Ngy6<br><br>As Flexcoin does not have the resources, assets, or otherwise to come back from this loss, we are closing our doors immediately.<br><br>Users who put their coins into cold storage will be contacted by Flexcoin and asked to verify their identity. Once identified, cold storage coins will be transferred out free of charge, Cold storage coins were held offline and not within reach of the attacker. All other users will be directed to Flexcoin's Terms of service located at \"Flexcoin.com/118.html\" a document which was agreed on, upon signing up with Flexcoin,<br><br>Flexcoin will attempt to work with law enforcement to trace the source of the hack<br><br>Updates will be posted on twitter as soon as they become available.\"</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f9312b003e9.png",
+    "date": "2014-3-2",
+    "scam_updates": [],
+    "proof_link": "https://www.techworm.net/2014/03/flexicoin-bitcoin-bank-and-poloniex.html",
+    "website_link": "http://www.flexcoin.com/",
+    "webarchive_link": "https://web.archive.org/web/20110627003838/http://www.flexcoin.com/",
+    "twitter_link": "https://twitter.com/flexcoin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 614298,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2813,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
