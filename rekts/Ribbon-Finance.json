@@ -1,0 +1,51 @@
+{
+    "id": 3091,
+    "project_name": "Ribbon Finance",
+    "title": "Ribbon Finance",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A DNS attack was made on Ribbon Finance. During the attack one of the users lost 16.5 $WBTC.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">A DNS attack was carried out on the Ribbon Finance project, during which 16.5 $WBTC was lost. The on-chain analysis revealed that the attack has common features with the DNS attack on Convex Finance and was made by the same hacker team. Hackers created a similar website with a malicious contract that required calling the approve() function.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer address: https://etherscan.io/address/0xb73261481064f717a63e6f295d917c28385af9aa</p><p style=\"margin:0cm;background:white;\">Contract creator address: https://etherscan.io/address/0x47832f5505847b6e1cce802201c55ad885146fc6</p><p style=\"margin:0cm;background:white;\">Malicious contract address: https://etherscan.io/address/0x65a8ec2c367a2d60efc1944c6eab614d73453b2f</p><p style=\"margin:0cm;background:white;\">Transferring 16.5 $WBTC from \"victim\" to scammer address transaction: https://etherscan.io/tx/0xd09057f1fdb3fa97d0ed7e8ebd8fd31dd9a0b5b61a29a22b46985d6217510850</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RBN",
+    "proof_archive_link": "https://web.archive.org/web/20220718084747/https://twitter.com/ribbonfinance/status/1540250826156871681, https://web.archive.org/web/20220708220629/https://twitter.com/MistTrack_io/status/1540276161812774913, https://web.archive.org/web/20220718100341/https://twitter.com/LefterisJP/status/1540306236087877635",
+    "technical_issue": null,
+    "token_address": "0x6123b0049f904d730db3c36a31167d9d4121fa6b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62d525e2d9dbf.png",
+    "date": "2022-6-24",
+    "scam_updates": [],
+    "proof_link": "https://blog.bybit.com/en-US/post/ribbon-finance-decentralized-crypto-structured-products-blt6c4b4ce0436c1949/, https://www.lockmeta.com/news/ribbon-finance-previously-suffered-a-dns-attack-now-resolved-and-all-funds-are-safe/, https://tokeninsight.com/en/news/ribbon-finance-had-attack-on-website-dns-with-all-funds-on-vault-contract-unaffected",
+    "website_link": "https://app.ribbon.finance/",
+    "webarchive_link": "https://web.archive.org/web/20220624175305/https://app.ribbon.finance/",
+    "twitter_link": "https://twitter.com/ribbonfinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 351064,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/ribbon-finance",
+    "git_hub_contract_link": "https://github.com/ribbon-finance/ribbon-v2/tree/master/contracts",
+    "discord": "https://discord.com/invite/ribbon-finance",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3091,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
