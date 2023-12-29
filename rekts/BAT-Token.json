@@ -1,0 +1,68 @@
+{
+    "id": 3573,
+    "project_name": "BAT Token",
+    "title": "BAT Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Copycat BAT project was rugpulled by the initial token holder, draining 49,001 $USD from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A copycat $BAT token trading on the PancakeSwap experienced a significant drain of funds from its PancakeSwap liquidity pool. The initial token holder was able to remove approximately 49,001 $USD. Note: this incident involves a fake $BAT token, not related to any other projects with the same token symbol or name.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x0ca870faa7864fb3572897f49c221c6e6c7f28d2</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x732B60976A636fCE4C47dE4D6fffA2eb3Ee32D86</p><p><br></p><p>Liquidity Drain Transaction Example:</p><p>https://bscscan.com/tx/0x3a2ce503fbc0debf61d1127db4c6011cb09f3e56b77858a85fd4fc0ef5ee601b</p><p><br></p><p>Funds Moving Transaction Example:</p><p>https://bscscan.com/tx/0xd99c7175db812a2c8faa825be5ae6b3ab930a75b59ac5a5a86501d66d375d6f7</p>",
+    "name_categories": "Token",
+    "token_name": "BAT",
+    "proof_archive_link": "https://archive.ph/W22bX",
+    "technical_issue": null,
+    "token_address": "0xbd2f6b7a19f2449675f7432d29d1dc1150ccd08f",
+    "token_addresses": [
+        {
+            "address": "0xbd2f6b7a19f2449675f7432d29d1dc1150ccd08f",
+            "url": "https://bscscan.com/address/0xbd2f6b7a19f2449675f7432d29d1dc1150ccd08f",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x4aeaae8554078235d1a5ff04f86ca0bdcd594319",
+            "url": "https://bscscan.com/address/0x4aeaae8554078235d1a5ff04f86ca0bdcd594319",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64957cd9db05e.png",
+    "date": "2023-6-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1669810860376698883",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 49001,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3573,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
