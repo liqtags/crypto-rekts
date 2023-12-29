@@ -1,0 +1,51 @@
+{
+    "id": 3000,
+    "project_name": "Bistroo",
+    "title": "Bistroo",
+    "description": "<p>On May 7th, was attacked one of the staking contract of Bistroo on BSC.</p><p><br></p><p>Attack transaction on BSC: 0x8c96b3314e30cf62bdfd4f94df38a2f040e171e849208b328dcd4ac2cdbcb748</p><p><br></p><p>Then funds were bridged on ETH and swapped on UniswapV2 to wETH.</p><p><br></p><p>Bridge transaction on BSC: https://bscscan.com/tx/0x01beb9667d3b91d201d6a9e2e9c0bdbf481dfd34a2314d96a2431a1886308632</p><p>Swap transaction: https://etherscan.io/tx/0xb6994245bc1a0121b89cf3ec0ce7cf0b0e55b70302acc9272d5af5d1150e99f2</p><p><br></p><p>Attacker address (BSC): https://bscscan.com/address/0xba31058357ea2f474a2ed0d1b3f9183904ebd38a</p><p>Attacker address (ETH): https://etherscan.io/address/0x6ea72d536c8842646daa95d14a2fd622c258b610</p>",
+    "name_categories": "Token",
+    "token_name": "BIST",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6e8908cfa881c9f6f2c64d3436e7b80b1bf0093f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6283fe2188f9c.png",
+    "date": "2022-5-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BistrooIO/status/1524334339705782278",
+    "website_link": "https://www.bistroo.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BistrooIO",
+    "telegram_link": "https://t.me/bistroo_comm",
+    "our_post_link": null,
+    "funds_lost": 47000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/bistroo",
+    "git_hub_contract_link": "https://github.com/bistroo/bistroo-contracts/tree/main/contracts",
+    "discord": "https://discord.com/invite/xRqEeMfQyz",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3000,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
