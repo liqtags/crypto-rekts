@@ -1,0 +1,60 @@
+{
+    "id": 3509,
+    "project_name": "ZKLOTTO",
+    "title": "ZKLOTTO",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 21st of April ZKLOTTO &nbsp;on the BSC chain was rugged for approx 609k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the ZKLOTTO &nbsp;protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0x81bebb89efe5dc6222efd7c5961964823d09cebb</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0x7ecb5b620a784387433d4a9b5bd25ac4513a8b1c4f7409ddcd59c3604acec84b</p><p>https://bscscan.com/tx/0xccf15d4a5e82e86c4b66fc8e197c4e208fbbe3a8aaca130cbaae642d8429c051</p>",
+    "name_categories": "Token",
+    "token_name": "ZKLOTTO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xcf0C7772b8C1b1f30Aa61E4c51a2B3FEC65990f7",
+    "token_addresses": [
+        {
+            "address": "0xcf0C7772b8C1b1f30Aa61E4c51a2B3FEC65990f7",
+            "url": "https://bscscan.com/address/0xcf0C7772b8C1b1f30Aa61E4c51a2B3FEC65990f7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6447a0ceb97b2.png",
+    "date": "2023-4-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1649429829912080385?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 609000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3509,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
