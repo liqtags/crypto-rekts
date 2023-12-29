@@ -1,0 +1,60 @@
+{
+    "id": 3562,
+    "project_name": "SpaceX Copycat",
+    "title": "SpaceX Copycat",
+    "description": "<p><strong>Quick Summary</strong></p><p>SpaceX token's deployer rugpulled the project, draining the liquidity pool worth 21,516 $USD and bridged stolen funds to BSC.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SpaceX is an imitation ERC20 token, unrelated to any legitimate projects sharing its name and symbol. The deployer siphoned off the liquidity in UniSwap by selling SpaceX tokens for 13.16 $ETH across two transactions. The drained funds were subsequently bridged over to the Binance Smart Chain through Multichain Bridge.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xeC2D2aE3c9e5D4250C2f8475d148299ACa2D0aA5</p><p><br></p><p>Liquidity Draining Transactions:</p><p>https://etherscan.io/tx/0x39c83e47169320e1c3fe9992b53a0e2a9847e2c7b580b3653e734552422c2680</p><p>https://etherscan.io/tx/0xdea2ea6a1875750830ce46a0e03ed1aa3d16cec7ec23e2ff77a4b8a6be753fe5</p><p><br></p><p>Bridging Transaction:</p><p>https://etherscan.io/tx/0x1d46c086c4d18c9705a176d741bc383bf097c03bfeba14c22f6a202650881014</p>",
+    "name_categories": "Token",
+    "token_name": "SpaceX",
+    "proof_archive_link": "https://archive.ph/q1eno",
+    "technical_issue": null,
+    "token_address": "0x3bb1c03e4ed495acd60476211859729dc579502f",
+    "token_addresses": [
+        {
+            "address": "0x3bb1c03e4ed495acd60476211859729dc579502f",
+            "url": "https://etherscan.io/address/0x3bb1c03e4ed495acd60476211859729dc579502f",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/648b02793d176.png",
+    "date": "2023-6-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1669206620591538176?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 21516,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3562,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
