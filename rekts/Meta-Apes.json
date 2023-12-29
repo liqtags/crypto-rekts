@@ -1,0 +1,51 @@
+{
+    "id": 3099,
+    "project_name": "Meta Apes",
+    "title": "Meta Apes",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">The $Shell token was rugpulled by the token creator. The token creator took away approximately $180k in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">$Shell is the in-game utility token of the NFT-Game Meta Apes.</p><p style=\"margin:0cm;background:white;\">The account with minter privileges minted 150M $SHELL token to scammer address (C) in this transaction: https://bscscan.com/tx/0x2a4bb4fc6300deee3bba4d7a010edfec2d8db87059f9a925c4f0e410ba8f6a4d</p><p style=\"margin:0cm;background:white;\">Scammer address (C) transferred the received 150M token to scammer address (D): https://bscscan.com/tx/0x264bbb37559ce3322156515051905c530363faf4c1fbc17fc2664f7f74069a5b</p><p style=\"margin:0cm;background:white;\">Then scammer address (D) proceeded to dump 60 million $SHELL token on PancakeSwap in a series of transactions for a total profit of $180k.</p><p style=\"margin:0cm;background:white;\">Here is an example of transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x1ea7a6439cd1289e8fad2ea34528e64250c19dd675930119f7fae3efc581c242</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x7ff107c22c3e75213ecb3eef5c1c39e12ed29f5a31a06a24c104cf129734af6f</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x24740d894e4438c8b17c3676c83ec480ba92e01a69c68ee3fed16c747a1b5f81</p><p style=\"margin:0cm;background:white;\">Then all the receive funds were transferred to the Binance Hot Wallet 6 along this chain of transactions:</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0xaf9dd345c7621402bcef3b874dc420cb190e009c7cc8d22eab073f6f9f620182</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x75ff71287ae39adb9267e6666e9244faaed8e11f6a6d034e8923564d0eeeca59</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token creator, scammer address (A): https://bscscan.com/address/0x1b9dfc56e38b0f92448659c114e2347bd803911c</p><p style=\"margin:0cm;background:white;\">Token minter, scammer address (B): https://bscscan.com/address/0xd10c833f4305e1053a64bc738c550381f48104ca</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0xd699576b6b97f57bd7513f70bef38cd63556edf7</p><p style=\"margin:0cm;background:white;\">Scammer Address (D): https://bscscan.com/address/0x5ba8c3f55edc13c641d8612cd37ca89dc4e2cfb2</p>",
+    "name_categories": "Gaming / Metaverse,NFT",
+    "token_name": "SHELL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x208cfec94d2ba8b8537da7a9bb361c6baad77272",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62da800873c72.png",
+    "date": "2022-6-11",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0xba54a71b2a9c7f4485af0f5638766722930cbf17",
+    "website_link": "https://metaapesgame.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MetaApesGame",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 183151,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3099,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
