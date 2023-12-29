@@ -1,0 +1,76 @@
+{
+    "id": 3254,
+    "project_name": "Solend",
+    "title": "Solend (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Solend protocol was exploited by oracle manipulation. The protocol has suffered 1,260,000 $USD in bad debt.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Solend is a decentralized lending and borrowing protocol. Oracle manipulation exploits happened on the protocol, resulting in a loss of 1,260,000 $USD. COIN98, Stable, and Kamino pools were affected and have been disabled right after the incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>COIN98 Pool:</p><p>https://solscan.io/account/5twXA9pwa6P3pmKz5NRiviffgGT1bqmf5d1dXVxJL895</p><p><br></p><p>Stable Pool:</p><p>https://solscan.io/account/HZ75yaVXYA4buymgZhzkLoPPyWyRGskg6hWTgkcnsWwL</p><p><br></p><p>Kamino Pool:</p><p>https://solscan.io/account/6e72R9KbYrc1RZiXd6ToF7fMyjGLrAf2itqApQyWGWWn</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "SLND",
+    "proof_archive_link": "https://archive.ph/VD3Vm, https://archive.ph/Bd2zt",
+    "technical_issue": null,
+    "token_address": "https://solscan.io/token/SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp",
+    "token_addresses": [
+        {
+            "address": "5twXA9pwa6P3pmKz5NRiviffgGT1bqmf5d1dXVxJL895",
+            "url": "https://solscan.io/account/5twXA9pwa6P3pmKz5NRiviffgGT1bqmf5d1dXVxJL895",
+            "network": {
+                "id": 1002,
+                "icon_link": "safe/files/network/involved/solana.svg"
+            }
+        },
+        {
+            "address": "6e72R9KbYrc1RZiXd6ToF7fMyjGLrAf2itqApQyWGWWn",
+            "url": "https://solscan.io/account/6e72R9KbYrc1RZiXd6ToF7fMyjGLrAf2itqApQyWGWWn",
+            "network": {
+                "id": 1002,
+                "icon_link": "safe/files/network/involved/solana.svg"
+            }
+        },
+        {
+            "address": "HZ75yaVXYA4buymgZhzkLoPPyWyRGskg6hWTgkcnsWwL",
+            "url": "https://solscan.io/account/HZ75yaVXYA4buymgZhzkLoPPyWyRGskg6hWTgkcnsWwL",
+            "network": {
+                "id": 1002,
+                "icon_link": "safe/files/network/involved/solana.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6362dc4be1823.png",
+    "date": "2022-11-2",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/business/2022/11/02/defi-protocol-solend-struck-by-126m-oracle-exploit/?utm_medium=referral&utm_source=rss&utm_campaign=headlines, https://twitter.com/solendprotocol/status/1587671511137398784",
+    "website_link": "https://solend.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/solendprotocol",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1260000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/aGXvPNGXDT",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 3254,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
