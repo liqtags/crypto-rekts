@@ -1,0 +1,51 @@
+{
+    "id": 145,
+    "project_name": "Mantle",
+    "title": "Mantle",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x0ed985541d9f2418a6c0ab6f70cffcd2c77e8abe417088d76501433f76025272<br><br>LP tokens were locked at:<br>https://etherscan.io/tx/0xba8d2f0fb2b154762541f746bf01767738e0f1c0660812729733ecc81b06c38c<br><br>LP tokens were withdrawn by the contract deployer at:<br>https://etherscan.io/tx/0x97497bcef1593d840e777656a5af375c4206cbaebeee77083545d9d3e8b03e64<br><br>Liquidity was removed multiple times by the contract deployer at:<br>https://bloxy.info/txs/references_address/0x816881a282a2644d7cfbe224db272f016359b05e?argument=to&amp;signature_id=1115283</p>",
+    "name_categories": "Token",
+    "token_name": "MANTLE",
+    "proof_archive_link": "https://archive.ph/RaGhK",
+    "technical_issue": null,
+    "token_address": "0x66c7a2211f81aa84da4dc1142f57940adc83e41a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b8eb4b15d.png",
+    "date": "2021-3-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/WARONRUGS/status/1341587058092093447",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 9507,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 145,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
