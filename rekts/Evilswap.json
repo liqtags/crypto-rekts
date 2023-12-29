@@ -1,0 +1,51 @@
+{
+    "id": 2469,
+    "project_name": "Evilswap",
+    "title": "Evilswap",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "EVIL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xB44D111a55fa1737b8ac7dd8F10b8aBb4541d053",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61290193e3d42.jpeg",
+    "date": "2021-8-27",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x4Eeb0cde7aB8FF9D005E585af5709a7e2E7b76Ee?a=0xb44d111a55fa1737b8ac7dd8f10b8abb4541d053",
+    "website_link": "https://evilswap.finance/#/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2469,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
