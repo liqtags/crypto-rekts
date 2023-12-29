@@ -1,0 +1,51 @@
+{
+    "id": 2701,
+    "project_name": "ElectronDAO",
+    "title": "ElectronDAO",
+    "description": "<p>The project was holding a fundraising event using smart contract:<br>https://polygonscan.com/token/0xd54b5a3b333a2aaf4521835fdf465af9df4e8130<br><br>Funds were received directly on the mentioned contract in the exchange of tokens:<br>https://polygonscan.com/tokentxns?a=0xd54b5a3b333a2aaf4521835fdf465af9df4e8130&amp;p=16<br><br>After the creation of the initial liquidity, tokens were removed from the pair together with fundraised DAI:<br>https://polygonscan.com/tx/0x2ef9d9840e3de8242b728205b51f365644f5cb85358fdae2ca473f6b1d3ebbc2</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "ELECTRON",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9943107d6fc813a257c7ceb63ee4bc238e49cfb8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a0f8222e152.png",
+    "date": "2021-11-25",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://electrondao.finance/",
+    "webarchive_link": "http://web.archive.org/web/20211116032834/https://electrondao.finance/",
+    "twitter_link": "https://twitter.com/ElectronDAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 728653,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/electrondao",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/r7Rzx6B5v2",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2701,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
