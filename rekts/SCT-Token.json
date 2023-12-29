@@ -1,0 +1,68 @@
+{
+    "id": 3554,
+    "project_name": "SCT Token",
+    "title": "SCT Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>SCT project was rugpulled by its deployer, who sold the significant token supply resulting in a 90% dump of token price. The funds lost in this incident are 286,123 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SCT is a BEP20 token trading on PancakeSwap. The project experienced an exit scam as its deployer acquired some tokens from the sale but ended up selling all of them. The market sale resulted in a significant dump with over 90% decrease in token price and a loss of approximately 286,123 $USD. Investigation revealed that the attacker moved funds along with those received from Gnosis Safe contract to drain liquidity pool through two transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xbc4bbd9e25f286bd4a69222799241966951233a9</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xB8e1136115dA79a668a98eB41a72954221Ce1546</p><p><br></p><p>Draining Transactions:</p><p>https://bscscan.com/tx/0x619d34f41c91075825efd3aabda3b679a408e4599bc737833a64ab1b9e30a407&nbsp;</p><p>https://bscscan.com/tx/0x8ea073c6e891d6939cc72a4ca8c15da653589aaef549f7e5a14b889b0b552494</p>",
+    "name_categories": "Token",
+    "token_name": "SCT",
+    "proof_archive_link": "https://archive.ph/c0UhS",
+    "technical_issue": null,
+    "token_address": "0x4ee98216499b81a9942e7aa77970b68c792ff679",
+    "token_addresses": [
+        {
+            "address": "0x4ee98216499b81a9942e7aa77970b68c792ff679",
+            "url": "https://bscscan.com/address/0x4ee98216499b81a9942e7aa77970b68c792ff679",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x6221f12997a83aaa779aa4a7a70b53423c3c4dc8",
+            "url": "https://bscscan.com/address/0x6221f12997a83aaa779aa4a7a70b53423c3c4dc8",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64830a5f2c5f5.png",
+    "date": "2023-6-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1666362798023008257?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 286123,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3554,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
