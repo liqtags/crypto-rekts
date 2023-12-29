@@ -1,0 +1,60 @@
+{
+    "id": 3486,
+    "project_name": "Zodiac Credit",
+    "title": "Zodiac Credit",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 9th of April ZOC on the BSC chain was rugged for approx 77k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the ZOC protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0xfad248b5c08c1a13efd00e348dc40cae9af8a28e</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0xb7fcda93cbe3fd5c7ed8f7e9d87b38c22c6d80aff47563350a20e019f663170d</p><p>https://bscscan.com/tx/0xec4c14d4edd75350391d540e39d1f622df312fbbb4e6133c7efb82e66e7d381a</p><p>https://bscscan.com/tx/0x6e950143c91635d6d92d61507a4f2687a7126616bb837fe48bc7d1e3e699ac0d</p>",
+    "name_categories": "Token",
+    "token_name": "ZOC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x76401604de3dc379aec0cf54005c0d0937a11717",
+    "token_addresses": [
+        {
+            "address": "0x76401604de3dc379aec0cf54005c0d0937a11717",
+            "url": "https://bscscan.com/address/0x76401604de3dc379aec0cf54005c0d0937a11717",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e91840f2a8.png",
+    "date": "2023-4-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1645093321797246976?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 77000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3486,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
