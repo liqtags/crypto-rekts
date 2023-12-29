@@ -1,0 +1,60 @@
+{
+    "id": 3316,
+    "project_name": "Midas Capital",
+    "title": "Midas Capital",
+    "description": "<p><strong>Quick Summary</strong></p><p>Midas Capital protocol was exploited via a flashloan attack. The attacker stole worth around $650k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Midas Capital protocol smart contract was exploited using multiple patterns such as flashloan, reentrancy, and code logic issues. Flashloan, taken, from the balancerV2 pool was used to perform an attack on the Midas pool. The logic of calculation of a position's collateral was exploited and gave an opportunity to the attacker to gain about &nbsp;660k MATIC of profit.&nbsp;</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>After that MATIC tokens were transferred to multiple addresses on Polygon network.&nbsp;</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX:</p><p>https://polygonscan.com/tx/0x0053490215baf541362fc78be0de98e3147f40223238d5b12512b3e26c0a2c2f</p><p>Exploiter addresses:&nbsp;</p><p>https://polygonscan.com/address/0x1863b74778cf5e1c9c482a1cdc2351362bd08611</p><p>https://polygonscan.com/address/0xe53955d29cab692a867faca3aa9c4bb872e359be</p><p>https://polygonscan.com/address/0x123bb33dea46ef0e1902b63ec52748f66c293eb8</p><p>https://polygonscan.com/address/0x7d27bc403c29f33abb9552b10a646de6de1d6c40</p><p>https://polygonscan.com/address/0xb6ac8cbd51172b23b579084c3857007e5333f429</p><p>https://polygonscan.com/address/0x49605afe33d1809b75394c3ef5183c6dec8e049c</p><p>https://polygonscan.com/address/0x8dded7daaee1f6cf2e77b89956c0eaf4a1c344ac</p><p>https://polygonscan.com/address/0x5ad4238b713a221836cc0d0ad455a1e84dd14a0d</p><p>https://polygonscan.com/address/0x65281cad63f4287e72b8f421cbaf075a9e5a72ec</p><p>https://polygonscan.com/address/0x7de62e82908729cbc7222cfa1441cc84047f5922</p><p>https://polygonscan.com/address/0x62cc85445c456a18e5d4d835840b273394957a8e</p><p>https://polygonscan.com/address/0x1395d3d5000ab898f0e5b5af62e77cebb68317ff</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xeaa782fa732fef5a5b127ea70d1b656216717353",
+            "url": "https://polygonscan.com/address/0xeaa782fa732fef5a5b127ea70d1b656216717353#code",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63c6b0e1a0b96.jpg",
+    "date": "2023-1-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1614711570528878597, https://twitter.com/BlockSecTeam/status/1614864084956254209,",
+    "website_link": "https://app.midascapital.xyz/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MidasCapitalxyz",
+    "telegram_link": "https://t.me/midascapitaltg",
+    "our_post_link": null,
+    "funds_lost": 650000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/cddSv7ATcq",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3316,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
