@@ -1,0 +1,60 @@
+{
+    "id": 3477,
+    "project_name": "Bitrue",
+    "title": "Bitrue (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bitrue Exchange experienced an exploit resulting in the loss of 21,882,489 $USD worth of assets from their hot wallet.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On April 14th, Bitrue,a centralized crypto exchange, suffered an attack on one of its hot wallets which led to the theft of <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>21,882,489 $USD</span> worth of digital assets including 318 $ETH , 137,000 $QNT, 46,396,307 $GALA, 172,550,065,266 $SHIB, 756,149,367 $HOT and <span style='color: rgb(33, 37, 41); font-family: Roboto, system-ui, -apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Noto Sans\", \"Liberation Sans\", Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"; font-size: 14.4992px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>310,071</span>&nbsp;$MATIC. The attacker gained access to Bitrue's hot wallet due to an access leak. In just six transactions within four hours after gaining control over the funds, they were able to withdraw all the Exchange\u2019s assets into their own private wallet. The malicious actor then swapped stolen tokens for $ETH through Uniswap and already converted 18,610,517 $USD. The rest 3,271,972 $USD worth of stolen assets such as $SHIB and $HOT remains at the attacker's address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x1819ede3b8411ebc613f3603813bf42ae09ba5a5</p><p><br></p><p>Affected Hot Wallet Address:</p><p>https://etherscan.io/address/0x34d88cee9ed273fc540cd1c219369b26e736731a</p><p><br></p><p>Example Swap Transaction:</p><p>https://etherscan.io/tx/0x49b03ca12b107c1d84b88634ce90615613b9065cc53be090198f047876d18436</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/A5l1N, https://archive.ph/mK3tl, https://archive.ph/HU0Lz",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x34d88cee9ed273fc540cd1c219369b26e736731a",
+            "url": "https://etherscan.io/address/0x34d88cee9ed273fc540cd1c219369b26e736731a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64395254f27d1.jpg",
+    "date": "2023-4-14",
+    "scam_updates": [],
+    "proof_link": "https://support.bitrue.com/hc/en-001/articles/17538384324121, https://twitter.com/BitrueOfficial/status/1646811220543168512, https://twitter.com/vooidds/status/1646747005220425728",
+    "website_link": "https://www.bitrue.com",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BitrueOfficial",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 21882489,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3477,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
