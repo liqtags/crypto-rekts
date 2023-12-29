@@ -1,0 +1,51 @@
+{
+    "id": 1001,
+    "project_name": "Torchic",
+    "title": "Torchic",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "CHIC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x39acb5fd5a7851f79c9fa2a257736d888a9eb725",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60eee2ae60e81.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1376434057102258177, https://bscscan.com/token/0x39acb5fd5a7851f79c9fa2a257736d888a9eb725#comments",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 1001,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
