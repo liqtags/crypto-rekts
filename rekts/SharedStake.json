@@ -1,0 +1,51 @@
+{
+    "id": 2777,
+    "project_name": "SharedStake",
+    "title": "SharedStake",
+    "description": "<p>Some members of the SharedStake core team claimed that a SharedStake insider, who was given access to the bug report of critical timelock vulnerability by the SharedStake team, appears to have used the vulnerability to exploit the SharedStake contracts four times for approximately $500,000 on June 19 and June 23.<br><br>SharedStake rogue insider tests exploit on mainnet:<br>https://etherscan.io/tx/0x9400daa8711b4326e7b3bb7a4874099e5c7fe801c8b1488ff91bd6e5de332c9f<br><br>SharedStake rogue insider exploits more timelocks on mainnet:<br>https://etherscan.io/tx/0x68dcf70e021684c414ec7512fd58b84098a020d62459b23f690f76a6ca6f38c5<br>https://etherscan.io/tx/0x466bca01f2648ea855a018edce701d8bb9ca1b53853b076dfe15da7ea379cf39<br>https://etherscan.io/tx/0x2dff7aa6b1f1f128b60504a5f195589597590765baf8d7607540fe3712328313</p><p><br>Some of the resulting funds have been swapped to a mix of USDC and vETH2.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "SGT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x84810bcF08744d5862B8181f12d17bfd57d3b078",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e59fb81f139.jpeg",
+    "date": "2021-6-24",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/immunefi/sharedstake-insider-exploit-postmortem-17fa93d5c90e",
+    "website_link": "https://www.sharedstake.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SharedStakeOrg",
+    "telegram_link": "https://t.me/SharedStakeFinance",
+    "our_post_link": null,
+    "funds_lost": 500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/SharedStake",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/h57cGqnT",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2777,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
