@@ -1,0 +1,51 @@
+{
+    "id": 2799,
+    "project_name": "OpenSea",
+    "title": "OpenSea",
+    "description": "<p>A bug has been exploited to purchase NFTs from users of OpenSea, at well below market value.<br><br>Was identified at least five attackers who have exploited this loophole to purchase at least twelve NFTs for much less than their market value. These include Bored Ape Yacht Club, Mutant Ape Yacht Club, Cool Cats, and Cyberkongz NFTs.<br><br>The exploit:<br>- when you list an item for sale (or bid) you are signing data that validate that you are willing to sell your NFT at this price<br><br>- the signature is saved in OpenSea's DB off-chain and when someone wants to buy your NFT, they will send to their smart contract your previously signed data where the signature and sale information (such as expiration &amp; price) are validated on-chain before making the transfer<br><br>- when you cancel a listing, you are required to perform a transaction. The reason is that someone might save your signed listing (which are public - i.e https://orders.rarible.com or even their API) and use it later, even if the listing got removed from the UI<br><br>- the transaction on-chain will save the fact that you canceled this sale on their smart contract and even if someone will try to use your signed data from before, the on-chain validation will reject the sale<br><br>- the bug stems from the fact that previously you could re-list an NFT without canceling it and all the previous listings are not canceled on-chain, this is why re-listing will not work<br><br>For example, at around 7 am on January 24, a Bored Ape Yacht Club NFT #9991 was purchased for 0.77 ETH ($1,800). This family of NFTs currently sells for at least $198,000. Twenty minutes later the hacker sold the NFT for 84.2 ETH ($196,000) \u2013 realizing a profit of $194,000.<br><br>One attacker, going by the pseudonym \"jpegdegenlove\" paid a total of $133,000 for seven NFTs \u2013 before quickly selling them on for $934,000 in ether. Five hours later this ether was sent through Tornado Cash, a \"mixing\" service that is used to prevent blockchain tracing of funds:<br>https://etherscan.io/address/0xb1a22cc48f6784f629a994917cd6474923630c48<br><br>Victims were partially compensated:<br>https://etherscan.io/tx/0xa4712e1f9aed57a26db689cabd47cc22a23e8638bb8c7be051cdeff27fd66bef<br>https://etherscan.io/tx/0x8c7327bf6d2bdb3e8f3db70fd87f160ff9f2b0940d4f0cdf6b9380d32295bf9c</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f0298278df1.png",
+    "date": "2022-1-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/_lut1/status/1485571998331781123, https://www.elliptic.co/blog/bug-allows-nfts-worth-over-1-million-to-be-stolen",
+    "website_link": "https://opensea.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/opensea",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1019300,
+    "funds_returned": 75000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/opensea",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2799,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
