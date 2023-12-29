@@ -1,0 +1,51 @@
+{
+    "id": 2659,
+    "project_name": "PancakeHunny",
+    "title": "PancakeHunny",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x0ef50be29c82ecf2158ec1886dc6692a2b0db411<br><br>The attacker:<br>- WBNB was swapped to CAKE at PancakeSwap</p><p>- sent CAKE to the HUNNY Minter contract</p><p>- staked on CAKE-BNB Hive in PancakeHunny</p><p>- HUNNY Minter was \u201ctricked\u201d to mint more HUNNY tokens, namely:<br>using all the wallet balance to make HUNNYBNB LP, and then uses it to calculate the profit hunnyBnbAmount, which can be easily tampered with by just sending the tokens to the minter contract<br><br>- the attacker then un-staked from CAKE-BNB Hive to receive the HUNNY tokens from the Minter<br><br>- the attacker then sold the HUNNY tokens on PancakeSwap<br><br>Stolen funds were transferred to the external address and deposited to the Binance exchange wallet at:<br>https://bscscan.com/tx/0xcc88d376224077f60ff7bcce62c6f077f14d0679d5fdd5bfde5934070a1b8324<br>https://bscscan.com/tx/0xba23b86d685aa04e8bb949fd5dc56710e68660f277364e27e2e113ffae62a215<br>https://bscscan.com/tx/0x4c93ae86c739cf76b7505846fb9c108d8852ccab94b26433f18f4fda5279dac8<br>https://bscscan.com/tx/0xe8f8d0e388bc099a9ccee842759c4fdb2cac2ea3142c28d29e65407678dc3fab</p>",
+    "name_categories": "Token",
+    "token_name": "HUNNY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x565b72163f17849832a692a3c5928cc502f46d69",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/615495cd23812.jpeg",
+    "date": "2021-6-3",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/pancakehunny/pancakehunny-preliminary-incident-report-6da18bc3c0e6, https://medium.com/pancakehunny/pancakehunny-post-mortem-analysis-de78967401d8, https://watchpug.medium.com/pancakehunny-performance-fee-minting-attack-analysis-e347d12bfdde",
+    "website_link": "https://pancakehunny.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PancakeHunny",
+    "telegram_link": "https://t.me/PancakeHunnyNews",
+    "our_post_link": null,
+    "funds_lost": 112187,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2659,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
