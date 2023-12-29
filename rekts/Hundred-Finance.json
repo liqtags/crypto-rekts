@@ -1,24 +1,24 @@
 {
-    "id": 2849,
+    "id": 2821,
     "project_name": "Hundred Finance",
-    "title": "Hundred Finance (2)",
-    "description": "<p><strong>Quick Summary</strong></p><p>Exploitation of reentrancy vulnerability in xDAI token's architecture allows attackers to borrow assets significantly more valuable than the provided collateral.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker exploited the xDAI token's architecture which includes the function callAfterTransfer(), creating a reentrancy vulnerability. By using flash loans as collateral, they were able to layer multiple borrow functions within one another to increase the borrowed amount before the protocol could update the debt balance. This approach was repeated and resulted in the borrowing of assets that were significantly more valuable than the collateral provided.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://blockscout.com/xdai/mainnet/address/0xD041Ad9aaE5Cf96b21c3ffcB303a0Cb80779E358/transactions</p><p>The stolen funds were bridged to Ethereum and deposited into Tornado Cash mixer:</p><p>https://etherscan.io/txs?a=0xd041ad9aae5cf96b21c3ffcb303a0cb80779e358</p>",
+    "title": "Hundred Finance",
+    "description": "<p>Hundred Finance lending protocol was affected due to the Meter bridge exploit.<br><br>The exploiter of Meter.io dumped BNB.bsc assets several times at:<br>https://moonriver.moonscan.io/tx/0x14dc9ed2bd8f2e6e2aef00d82001eccdc07037373adb6de7f14e5e45469be504<br>https://moonriver.moonscan.io/tx/0x4afa30ee32b139918b02aa0932b89ca3d27d71e08bcb243cd508c48848ab63bf<br>https://moonriver.moonscan.io/tx/0x5a87c24d0665c8f67958099d1ad22e39a03aa08d47d00b7276b8d42294ee0591<br>https://moonriver.moonscan.io/tx/0x9d6623969cf711a8327c7e966568870b583c0b9b900173e5f6a5746196cf966d<br>https://moonriver.moonscan.io/tx/0x4e2a54f3b3035573ffdafecdf7cd7837b6672d498bf3a560a4f8dd57322a2156<br>https://moonriver.moonscan.io/tx/0xbe0610f89e1b1a705d2524016f3b577293f51911d08a56a0149a37fb57f601ad<br><br>That resulted in the local depreciation in the price of BNB.bsc. Different external addresses were able to purchase BNB.bsc at a reduced price and use these tokens as collateral at the global Chainlink price to borrow uncompromised assets on Hundred Finance. As a result, MIM and FRAX tokens were impacted.</p>",
     "name_categories": "Borrowing and Lending",
     "token_name": "HND",
     "proof_archive_link": null,
     "technical_issue": null,
     "token_address": null,
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/643d0d4914cf3.jpg",
-    "date": "2022-3-15",
+    "logo_link": "safe/files/scamDatabase/logo/643d0d317b7d3.jpg",
+    "date": "2022-2-6",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/HundredFinance/status/1503754916300476420, https://rekt.news/agave-hundred-rekt/, https://twitter.com/PeckShieldAlert/status/1503927403584061442",
+    "proof_link": "https://rekt.news/meter-rekt/",
     "website_link": "https://hundred.finance/",
     "webarchive_link": null,
     "twitter_link": "https://twitter.com/HundredFinance",
     "telegram_link": null,
     "our_post_link": null,
-    "funds_lost": 6200000,
+    "funds_lost": 3300000,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -38,12 +38,12 @@
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 100,
-            "scam_database_id": 2849,
+            "networks_id": 1285,
+            "scam_database_id": 2821,
             "networks": {
-                "id": 100,
-                "name": "Gnosis",
-                "icon_link": "safe/files/network/gnosis.png"
+                "id": 1285,
+                "name": "Moonriver",
+                "icon_link": "safe/files/network/moonriver.png"
             }
         }
     ],
