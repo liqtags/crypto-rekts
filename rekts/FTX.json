@@ -1,0 +1,68 @@
+{
+    "id": 3223,
+    "project_name": "FTX",
+    "title": "FTX",
+    "description": "<p><strong>Quick Summary</strong></p><p>FTX was exploited due to gas limit vulnerability which caused mint of $XEN tokens at zero cost.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FTX is a centralized crypto exchange. FTX provides an opportunity for performing fee-free withdrawals. The hacker deployed a smart contract with unverified source code to exploit the vulnerability and was able to mint $XEN tokens with zero cost 17,000 times. FTX lost roughly 81 $ETH due to gas stealing, and 61 $ETH worth of $XEN tokens were minted and swapped through UniSwap. The price of the $XEN token dropped by 33% after an incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x6b01f9f457a0fd978d69cf317987e81c86b9b831</p><p><br></p><p>Malicious contracts:</p><p>https://etherscan.io/address/0x6438162e69037c452e8af5d6ae70db1515324a3d</p><p>https://etherscan.io/address/0x56af41c4b3bdf6aeafcb9872e8ca31fd093dcf45</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xfb1a7b359d439548c120d006d535e6fde6578489f4da78acc60e3a1711e3107d</p>",
+    "name_categories": "CeFi",
+    "token_name": "FTT",
+    "proof_archive_link": "https://archive.ph/xiZuU, https://archive.ph/hZdj6",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+    "token_addresses": [
+        {
+            "address": "0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+            "url": "https://etherscan.io/address/0x06450dee7fd2fb8e39061434babcfc05599a6fb8",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x353bb62ed786cdf7624bd4049859182f3c1e9e5d",
+            "url": "https://etherscan.io/address/0x353bb62ed786cdf7624bd4049859182f3c1e9e5d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634d31fb501d7.png",
+    "date": "2022-10-13",
+    "scam_updates": [],
+    "proof_link": "https://crypto.news/ftx-loses-over-100-million-xen-and-81-eth-in-a-hack/, https://medium.com/neptune-mutual/decoding-ftxs-gas-limit-vulnerability-b2f71a338a7b",
+    "website_link": "https://ftx.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FTX_Official",
+    "telegram_link": "https://t.me/FTX_Official",
+    "our_post_link": null,
+    "funds_lost": 187156,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3223,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
