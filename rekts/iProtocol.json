@@ -1,0 +1,51 @@
+{
+    "id": 85,
+    "project_name": "iProtocol",
+    "title": "iProtocol",
+    "description": "<p>The contract deployer transferred tokens to the iProtocolPreSale smart contract, which gathered funds from the fundraising event and added initial liquidity at:<br>https://etherscan.io/tx/0xa109005b96aefb0229c1ff65abaf8403da48b91c6a466d939ed68c362122e893<br><br>The contract deployer used hidden minting functionality under the <u>increaseAllowance</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0x0b5944f6ca0c3dda02295400bff665e322f7b0711f32e065891ff3c2f651ffba<br><br>The minted tokens were sold by the contract deployer in the following transactions:<br>https://etherscan.io/tx/0xcca01f5d4bd608e1be9a725431da3dc6dc18be99cd0ca5c89901c6b3c47e1018<br>https://etherscan.io/tx/0x0403198fef64e9d1139f3480304dc8ddca72a81f3d011f55587c061a1a0cfffa<br>https://etherscan.io/tx/0xaeac86a70a2862030f63e2c5217337cbe2e02bb0cad5c48aad0a51d3cacc66e4</p>",
+    "name_categories": "Other",
+    "token_name": "IYP",
+    "proof_archive_link": "https://archive.ph/MJo7J",
+    "technical_issue": null,
+    "token_address": "0xef7b1745C55D66a3941aD2a45329c5B2C0486e40",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5912e399f8.png",
+    "date": "2020-12-21",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://iprotocol.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/iprotocol_io",
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/336",
+    "funds_lost": 41930,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 85,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
