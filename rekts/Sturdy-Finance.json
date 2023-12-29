@@ -1,0 +1,87 @@
+{
+    "id": 3559,
+    "project_name": "Sturdy Finance",
+    "title": "Sturdy Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sturdy Finance, an Ethereum-based lending platform, fell victim to an oracle manipulation exploit, losing 775,332 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sturdy Finance was exploited through an oracle price manipulation attack. In a read-only reentrancy attack, the perpetrator managed to exploit the SturdyOracle contract and manipulate its pricing. They executed a single withdrawal transaction from the 'Sturdy_eth interest bearing WETH' contract.</p><p><br></p><p>The total funds lost due to the exploit amounted to 880,850 $USD. However, the attacker's profit was 442 $ETH, equating to around 775,332 $USD, while the remaining funds served as the flashloan commission. The illicitly gained profits were later moved through TornadoCash in multiple transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x1E8419E724d51E87f78E222D935fbbdeb631a08B</p><p><br></p><p>Malicious Contract:</p><p>https://etherscan.io/address/0x0B09c86260C12294e3b967f0D523B4b2bcdFbeab</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0xeb87ebc0a18aca7d2a9ffcabf61aa69c9e8d3c6efade9e2303f8857717fb9eb7</p><p><br></p><p>Example of Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x1702e647da897a35b59304bde5e62b4e6ad8d5148905b4627398bd30c42ee1a7</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "STRDY",
+    "proof_archive_link": "https://archive.ph/1DwtF, https://archive.ph/AMEQO",
+    "technical_issue": null,
+    "token_address": "0x59276455177429ae2af1cc62B77AE31B34EC3890",
+    "token_addresses": [
+        {
+            "address": "0xb1ebf8f77ae002d487e7bde22c6180be0af6a3d4",
+            "url": "https://etherscan.io/address/0xb1ebf8f77ae002d487e7bde22c6180be0af6a3d4",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xe5d78eb340627b8d5bcff63590ebec1ef9118c89",
+            "url": "https://etherscan.io/address/0xe5d78eb340627b8d5bcff63590ebec1ef9118c89",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6488b7f672ac3.jpg",
+    "date": "2023-6-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1668072853802037248, https://twitter.com/SturdyFinance/status/1668080627030315009",
+    "website_link": "https://sturdy.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SturdyFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 775332,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/sturdyfi",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/tRVHp6Vx5N",
+    "bug_bounty_program_link": "https://immunefi.com/bounty/sturdy/",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3559,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Sturdy_v9.pdf",
+            "date": "2022-01-05T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/sturdy_aura_integration_and_leverage.pdf",
+            "date": "2023-02-15T00:00:00.000Z",
+            "partner": {
+                "id": 13,
+                "name": "Quantstamp",
+                "logo_link": "safe/files/partner/logo/609523dccfbce.jpeg"
+            }
+        }
+    ]
+}
