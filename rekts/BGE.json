@@ -1,0 +1,60 @@
+{
+    "id": 3291,
+    "project_name": "BGE",
+    "title": "BGE",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The token deployer sold off BGE that had been preminted to their address on PancakeSwap.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exit scam </strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">13M of the BGE were preminted to the token\u2019s deployer address in the contract\u2019s creation transaction.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The deployer dumped 705,000 BGE on PancakeSwap in 23 transactions having gained $</span><span style=\"font-size:12pt;font-family:Nunito,sans-serif;color:#212529;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">426,892.</span></p><p><br></p><p><br></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The deployer address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/address/0xcdf77769ab5abf61097969417789101913e1c2d8\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/address/0xcdf77769ab5abf61097969417789101913e1c2d8</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Example sell transactions:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/tx/0xb54485b09bf1d86d5091adc586af492a57ed8eabc90bafdea8b5cc73e28b82d7\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0xb54485b09bf1d86d5091adc586af492a57ed8eabc90bafdea8b5cc73e28b82d7</span></a></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://bscscan.com/tx/0x3ac49ba765703bc03e4bb3c52220332feb142d2968f52d32a025f82a3dd42a9f\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0x3ac49ba765703bc03e4bb3c52220332feb142d2968f52d32a025f82a3dd42a9f</span></a></p><p><a href=\"https://bscscan.com/tx/0xabcd55d399bfb15a1c841989261d023a23aef224e3d77d31067256d61ec15d3b\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://bscscan.com/tx/0xabcd55d399bfb15a1c841989261d023a23aef224e3d77d31067256d61ec15d3b</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
+    "name_categories": "Token",
+    "token_name": "BGE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xbD7afa932F59F0e451D57BA523bA379e7545a4b3",
+    "token_addresses": [
+        {
+            "address": "0xbD7afa932F59F0e451D57BA523bA379e7545a4b3",
+            "url": null,
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/639c82422923c.png",
+    "date": "2022-12-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1598488030070902784",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/wUGdh",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 426892,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3291,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
