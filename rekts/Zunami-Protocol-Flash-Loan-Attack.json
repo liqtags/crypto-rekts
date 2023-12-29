@@ -1,0 +1,60 @@
+{
+    "id": 3669,
+    "project_name": "Zunami Protocol",
+    "title": "Zunami Protocol Flash Loan Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Zunami Yield Aggregator Suffers Flash Loan Attack; Loss of $2,177,741 Worth Approximately 1,180 ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On August 13th, 2023, Zunami, a Yield Aggregator on the Ethereum chain, was compromised through a flash loan attack. The attacker exploited a price manipulation issue in two transactions, utilizing a donation method to miscalculate the price. The stolen funds, totaling $2,177,741 or roughly 1,180 ETH, were deposited into TornadoCash, a privacy solution for anonymizing transactions.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x5f4C21c9Bb73c8B4a296cC256C0cDe324dB146DF</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x0788ba222970c7c68a738b0e08fb197e669e61f9b226ceec4cab9b85abe8cceb</p><p>https://etherscan.io/tx/0x2aec4fdb2a09ad4269a410f2c770737626fb62c54e0fa8ac25e8582d4b690cca</p><p><br></p><p>Malicious Contract:</p><p>https://etherscan.io/address/0xA21a2B59d80dC42D332F778Cbb9eA127100e5d75</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0x507dcec54dcaa73187f3a28d76bd3a91be7161182bf311631fea95509236f5b7</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "UZD",
+    "proof_archive_link": "https://archive.ph/PIPcB",
+    "technical_issue": null,
+    "token_address": "0xb40b6608b2743e691c9b54ddbdee7bf03cd79f1c",
+    "token_addresses": [
+        {
+            "address": "0xfc636d819d1a98433402ec9dec633d864014f28c",
+            "url": "https://etherscan.io/address/0xfc636d819d1a98433402ec9dec633d864014f28c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64da60731e9d2.jpg",
+    "date": "2023-8-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1690877589005778945",
+    "website_link": "https://www.zunami.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ZunamiProtocol",
+    "telegram_link": "https://t.me/ZunamiCommunityChat",
+    "our_post_link": null,
+    "funds_lost": 2177741,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/ZunamiProtocol/ZunamiProtocol",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/BnC6kTWkUe",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3669,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
