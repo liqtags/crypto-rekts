@@ -1,0 +1,51 @@
+{
+    "id": 290,
+    "project_name": "Kosta Finance",
+    "title": "Kosta Finance",
+    "description": "<p>The contract owner minted tokens during the project deployment stage. After the liquidity raised up, appropriated tokens were sold at these transactions:<br><br>https://etherscan.io/tx/0x442df167f9debabaf70908fa2db754b9d5d6911f0e0f9cf91775718774db548a<br>https://etherscan.io/tx/0xfc920909a46714edbdbfbf42a28703be4a143f1fd07757b7082c2934c4ca01de<br>https://etherscan.io/tx/0x4ad6eaea62154317f60f1621bd8549c1b3f6000ee38794857b8e57e159e8891c<br>https://etherscan.io/tx/0xeadb0bd0e1d46b9ed8a742b68cb9da9677ce2519ee9c461c0d6b6169c99c4f79<br>https://etherscan.io/tx/0x03a756b79a056ba5990acf9663f06bccb831e0bb04936b9b48cb0018e90c43d1<br>https://etherscan.io/tx/0xeeafcf2fc68930f49232673b0e1a18720116e47f2e6512c28b35c5bb23336888<br>https://etherscan.io/tx/0xd8cdc0c525786738cf327ddfbb4fc9e56dd0d53e3e91e9677dbd8218ba96a20e</p>",
+    "name_categories": "Token",
+    "token_name": "KOSTA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xF4bc926C6C5A8F81089C45cFcBA9C551c5d5af99",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e323c0c6e31.png",
+    "date": "2020-11-24",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 63376,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 290,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
