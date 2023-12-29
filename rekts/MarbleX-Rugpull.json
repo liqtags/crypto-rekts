@@ -1,0 +1,60 @@
+{
+    "id": 3730,
+    "project_name": "MarbleX",
+    "title": "MarbleX Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>MBX token project was rugpulled on PancakeSwap, with scammers stealing 161,784 USD worth of 787.65 WBNB after exploiting a backdoor function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MBX is a BEP20 token trading on PancakeSwap. On October 11, 2023, the project experienced an exit scam through a rugpull. The scammer exploited a backdoor function in the contract, allowing them to increase their balance by sending tokens to themselves. They then swapped the MBX tokens to 787.65 WBNB, worth approximately 161,784 USD. The stolen funds were transferred to another EOA and subsequently distributed among multiple addresses. Interestingly, the scammer received 0.055 BNB from Binance before the incident. Although not directly related to the deployer, the contract was likely intentionally written with the exploitable backdoor function.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x66C506cC9D6e1Cb6B475Bbc12aF517BE163cf491</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0xd93769ac0Fd9f0226334BDeF7CCB76e1F5F0e80A</p><p>https://bscscan.com/address/0x3f04768Eaf45f1F5961857c0216E36A49Cc704ED</p><p><br></p><p>Token Swap Transaction:</p><p>https://bscscan.com/tx/0x5cb066ac21661d6381e596b0d9e86f1d985d9927a523497118b8a76a01f84d4c</p><p><br></p><p>Transaction Receiving Funds from Binance:</p><p>https://bscscan.com/tx/0xeb0b552a5c530aa32d5d8ec304e4d671846bc45352704e8ddf161f87b5f460db</p>",
+    "name_categories": "Token",
+    "token_name": "MBX",
+    "proof_archive_link": "https://archive.ph/aoJ1D",
+    "technical_issue": null,
+    "token_address": "0x30D79364ddC7C4a88a8dC753389FABd4fcdE6B04",
+    "token_addresses": [
+        {
+            "address": "0x30d79364ddc7c4a88a8dc753389fabd4fcde6b04",
+            "url": "https://bscscan.com/address/0x30d79364ddc7c4a88a8dc753389fabd4fcde6b04",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/652714976c765.png",
+    "date": "2023-10-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1712021573505618239",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 161784,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3730,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
