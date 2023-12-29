@@ -1,0 +1,51 @@
+{
+    "id": 2334,
+    "project_name": "KitKat",
+    "title": "KitKat",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "KitKat",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x29e4c45a0c4615007beb57a994b3c862732911ef",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6130961378069.png",
+    "date": "2021-9-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1386163504470659074",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2334,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
