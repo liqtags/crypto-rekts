@@ -1,0 +1,51 @@
+{
+    "id": 2976,
+    "project_name": "Betcoin",
+    "title": "Betcoin",
+    "description": "<p>The attacker compromised three Betcoin computers and stole all of the deposits and cold wallet funds amounting to 3,171 BTC. Just a small part of the stolen coins was refunded to the users.</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62504a300a7cd.png",
+    "date": "2012-4-11",
+    "scam_updates": [],
+    "proof_link": "https://bitcointalk.org/index.php?topic=576337.0#post_toc_31",
+    "website_link": "https://betco.in/",
+    "webarchive_link": "https://web.archive.org/web/20110902093221/http://betco.in/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 15300,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2976,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
