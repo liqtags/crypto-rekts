@@ -1,0 +1,51 @@
+{
+    "id": 3408,
+    "project_name": "friesDAO",
+    "title": "friesDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>On October 27th, an attacker exploited the friesDAO contracts, taking control of the deployer address through a profanity attack vector and drained the treasury of its USDC, resulting in a loss of 2,138,705.403949 USDC, and drained the FRIES tokens in the staking contract and sold them through Uniswap, extracting 120.128930112550592565 ETH ($189,954.761991 at the time).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The friesDAO contracts were deployed by one address, which had not transferred ownership of the contracts to a different address such as multisig after deployment. The attacker was able to exploit the contracts by brute-forcing the private key using profanity's vulnerabilities, which reduced the possibilities of private keys due to flaws in generation, and gained control of the deployer contract. The first part of the attack drained all of the USDC from the treasury by swapping it to a bit of FRIES tokens, setting the manual, fixed refund rate variable to a high number, changing the merkle root whitelist of the NFT, and refunded the small bit of purchased FRIES token for the entire treasury\u2019s USDC. The second part took all of the FRIES out of the staking pool, then sold them through Uniswap to extract USDC from the liquidity pool.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0x6b88d0f4e94013b38e7c49ddc24135bfb0e2d49b</p><p><br></p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "FRIES",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xFA57F00D948bb6a28072f5416fCbF7836C3d62dD",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64269ecf54ebb.png",
+    "date": "2022-10-27",
+    "scam_updates": [],
+    "proof_link": "https://www.theblock.co/post/180973/friesdao-hacked-for-2-3-million-in-latest-profanity-exploit,https://docs.google.com/document/d/1xKZmj1aeM9iFrdQ7sieUNvh0_UI60worl1lfs5ImXk0/edit,https://thespoon.tech/hack-drains-friesdao-restaurant-project-of-2-3m-in-what-looks-like-potentially-lethal-blow/",
+    "website_link": "https://fries.fund/",
+    "webarchive_link": "https://archive.ph/nXC5i",
+    "twitter_link": "https://twitter.com/friesdao?lang=en",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2299999,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/friesdao",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3408,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
