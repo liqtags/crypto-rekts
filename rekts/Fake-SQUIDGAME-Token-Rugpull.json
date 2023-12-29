@@ -1,0 +1,60 @@
+{
+    "id": 3806,
+    "project_name": "SQUID GAME",
+    "title": "Fake SQUIDGAME Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SQUIDGAME token was rugpulled on PancakeSwap, with 55,539 USD worth of liquidity removed by the scammer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SQUIDGAME, a BEP20 token trading on PancakeSwap, experienced an exit scam when the scammer removed 237.31 WBNB worth 55,539 USD from the liquidity pool. The stolen funds were transferred to another EOA and then distributed between multiple addresses. Notably, the scammer sent 21,274 USD to the developer's address 11 hours and 19 minutes before the sale of a large number of tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x6dA430E6bAe6D27105aABa7cA25214232c91CDbd</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x2cFe2D07100200ba8E8108B234B0F5d219577e61</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x11ad1095fac841c1c2c9d09f1f01871ac6f41fbc33da76d141c5fb3dd05cf7a0</p><p><br></p><p>Funds Sent Transaction between Deployer's and Scammer's addresses:</p><p>https://bscscan.com/tx/0x53ea5e3c740613112aedbab8b87eba9b868934be119db1064745c700c2dea000</p>",
+    "name_categories": "Token",
+    "token_name": "SQUIDGAME",
+    "proof_archive_link": "https://archive.ph/7u4dc",
+    "technical_issue": null,
+    "token_address": "0xA8076f19AFD3ff060aE2cdED33fcc8D5EAa9f1a0",
+    "token_addresses": [
+        {
+            "address": "0xa8076f19afd3ff060ae2cded33fcc8d5eaa9f1a0",
+            "url": "https://bscscan.com/address/0xa8076f19afd3ff060ae2cded33fcc8d5eaa9f1a0",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656e01fe4798f.png",
+    "date": "2023-11-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727929461629497791",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 55539,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3806,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
