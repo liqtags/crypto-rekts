@@ -1,0 +1,68 @@
+{
+    "id": 3262,
+    "project_name": "Pando",
+    "title": "Pando",
+    "description": "<p><strong>Quick Summary</strong></p><p>Pando Network was used to steal 18,577,305 $USD in $ETH and $BTC. It seems like the hacker compromised the private key of the project's wallets on both chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Pando is a decentralized network based on MTG technology. The project was exploited to steal 5128 $ETH and 11,107,488 in stablecoins from the Ethereum chain, and 83.5 $BTC from the Bitcoin chain. It seems like the hacker compromised the private keys of the wallets, as stealing transactions were just direct transfers. The stolen funds remain at the attacker's original addresses at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0xd3f04cE2d37b182432e2f804F9913a02071CEa54</p><p>https://www.blockchain.com/btc/address/bc1qjnsx0sdxksh4w2azwu5ngr8sax46vcu52ljfcx</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/CdlQC",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xbea134b1920311f241416ba3bc6ebac277724d8a",
+            "url": "https://etherscan.io/address/0xbea134b1920311f241416ba3bc6ebac277724d8a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "bc1q93nlc94txeqakkgude7wtl7t7a0gq5fjj07vzp",
+            "url": "https://www.blockchain.com/btc/address/bc1q93nlc94txeqakkgude7wtl7t7a0gq5fjj07vzp",
+            "network": {
+                "id": 1666600003,
+                "icon_link": "safe/files/network/involved/cex.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/636ceeb3cd22d.png",
+    "date": "2022-11-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/pando_im/status/1589113232899575809",
+    "website_link": "https://pando.im/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/pando_im",
+    "telegram_link": "https://t.me/pandoim",
+    "our_post_link": null,
+    "funds_lost": 18577305,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/pandodao/",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/ek45g3Cymd",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3262,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
