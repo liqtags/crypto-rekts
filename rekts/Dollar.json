@@ -1,0 +1,60 @@
+{
+    "id": 3204,
+    "project_name": "Dollar",
+    "title": "Dollar",
+    "description": "<p><strong>Quick Summary</strong></p><p>Dollar token was rug pulled. The token deployer removed liquidity and took away 382,660 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Dollar is a BEP20 token, and can't be confused with other tokens with the same name. The token deployer removed liquidity for the total amount of 382,660 $BUSD.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x9b5c721715fd9abaeabcb64e89b777c06adee4a1</p><p><br></p><p>Removal transaction:</p><p>https://bscscan.com/tx/0x4f81f454ad6dba8190d0cab9fbc48383ba54d6e2086120fd38d187e4a4c9fb43</p>",
+    "name_categories": "Token",
+    "token_name": "Dollar",
+    "proof_archive_link": "https://archive.is/TpCS5",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x781163f0110b69DcBb2289339E3Ea16D040966D5",
+    "token_addresses": [
+        {
+            "address": "0x370098777c4c526b538f08bca89766155670466e",
+            "url": "https://bscscan.com/address/0x370098777c4c526b538f08bca89766155670466e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633c731e96e43.png",
+    "date": "2022-9-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1574376973228511234",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 382660,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3204,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
