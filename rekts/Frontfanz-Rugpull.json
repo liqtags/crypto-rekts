@@ -1,0 +1,60 @@
+{
+    "id": 3688,
+    "project_name": "Frontfanz",
+    "title": "Frontfanz Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Frontfanz suffered an exitscam on Aug 19, 2023, resulting in a loss of 98,302 USDT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Frontfanz (FANX), a fake BEP20 token trading on PancakeSwap, underwent an exitscam on Aug 19, 2023. The deployer removed liquidity from the LP pool in five separate transactions within two days, causing a total loss of 98,302 USDT. The stolen funds were distributed between multiple EOA addresses. The deployer initially added liquidity for 29,990 USDT on Aug 17 and managed to remove liquidity for 128,292 USDT in total, resulting in a profit of 98,302 USDT for the scammer.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://bscscan.com/address/0x57a7D78065eE0ED28e9ca035a1998C99CA1793eF</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://bscscan.com/address/0xbcb66b0d4d529d62c7dc607ccab0702a6697be43</p><p><br></p><p>- Funder Address:</p><p>&nbsp; https://bscscan.com/address/0xE6d14f656431C56e92A8A6b7BF452b8a4876fD2F</p><p><br></p><p>- Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x440999be8da8dce670748f1e0b41724a1853555a6e02087f70ce505940ba9e96</p><p>https://bscscan.com/tx/0x9703161de476c765085a0c548423f0f7a61a7b22e5243b549daf1c993e8c3378</p><p>https://bscscan.com/tx/0x92bdbafad3442a6f475018123b68c678b01eb1aa5fbdb09d021642880e462649</p><p>https://bscscan.com/tx/0xa7ed179d14bfca03cbede8b601d02b20bb23e0257ed9eadb79b36005cc281d33</p><p>https://bscscan.com/tx/0xc85fb5326b03bcfb18cb4f7445e7fa4eec60323f40e33c48f4226e68895bfd0b</p><p><br></p><p>- Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0xa7e3a6d6e9875971fe5f355f77395ad0a355eb9c6ae4c5961e97211cde82cc70</p>",
+    "name_categories": "Token",
+    "token_name": "FANX",
+    "proof_archive_link": "https://archive.ph/9YnaM",
+    "technical_issue": null,
+    "token_address": "0x1f373733ed5d6999908ea80b69b2d9cd2d63d98b",
+    "token_addresses": [
+        {
+            "address": "0x1f373733ed5d6999908ea80b69b2d9cd2d63d98b",
+            "url": "https://bscscan.com/token/0x1f373733ed5d6999908ea80b69b2d9cd2d63d98b",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64e5dc1eb0ab1.png",
+    "date": "2023-8-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1692885608388059498?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 98302,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3688,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
