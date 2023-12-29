@@ -1,0 +1,51 @@
+{
+    "id": 2711,
+    "project_name": "CollectCoin",
+    "title": "CollectCoin",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0xbb1d1d435d8c2238cc65a0f427034440b00ef1d2<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0x85778af13373250cd7d2a09903128c086e76bbbb5adc61b3df74ae8b126abfd8<br><br>The deployed contract involved in the attack:<br>https://bscscan.com/address/0x9be506b15a45757e1fb36e978ecadb415aaba9e0<br><br>The attacker:<br>- swapped 1 BNB on 2,860 CLCT on PancakeSwap<br>- invoked public <u>burn</u>() and pumped CLCT price<br>- sold 2,860 CLCT for 1,661 BNB<br><br>Stolen funds were deposited into the Tornado Cash mixer and distributed between external addresses.</p>",
+    "name_categories": "NFT",
+    "token_name": "CLCT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6b81ed499bfe7f4cb79c381892e5ce69c3c9a9df",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a7a7eee3518.jpeg",
+    "date": "2021-12-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CLCTCoin/status/1466029841552080897, https://twitter.com/BlockSecTeam/status/1465974367729307651",
+    "website_link": "https://www.collectco.in/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/CLCTCoin",
+    "telegram_link": "https://t.me/CLCTCoin",
+    "our_post_link": null,
+    "funds_lost": 1071931,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2711,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
