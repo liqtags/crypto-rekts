@@ -1,0 +1,51 @@
+{
+    "id": 227,
+    "project_name": "Slicer Finance",
+    "title": "Slicer Finance",
+    "description": "<p>A fair launch without adding initial liquidity from the contract deployer side.<br><br>However, the contract deployer invoked the <u>mint</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xcb78fcc59303212b3b7e285aa5eab7b240694b134d8ab249667a6dfabee02cf6<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0xc43131391acbf68e40252ddc3b1e92b85ed4b6daa95d6f64a9b7d9480a800185</p>",
+    "name_categories": "NFT",
+    "token_name": "SLS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1dAfac57c2F74CBC2736486309a009880CE4cbfc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ecb072168.png",
+    "date": "2021-1-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DetectivesRug/status/1345026148623937536",
+    "website_link": "http://slicer.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/slicerfinance",
+    "telegram_link": "https://t.me/slicerfinance",
+    "our_post_link": null,
+    "funds_lost": 14346,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 227,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
