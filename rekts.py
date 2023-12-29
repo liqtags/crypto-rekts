@@ -9,9 +9,9 @@ import urllib.request
 import consts
 
 def rekt_loop(items):
-    for index, item in enumerate(items):
+    for index, item in enumerate(items[1380:]):
     # for item in items:
-        print(f"index: {index}")
+        print(f"index: {index} - item: {item['title']}")
         # download image
         markdownLogo = consts.imageBaseUrl + item['logo_link']
         # Bitrue (2)
@@ -55,8 +55,8 @@ def rekt_loop(items):
         with open(f'./rekts/{slugged_name}.md', 'w') as rekt:
             rekt.write(markdownFullWithDescription + '\n')
         
-        # commandToRun = f"git add * && git commit -m 'add {project_name} to rekts' && git push"
-        # os.system(commandToRun)
+        commandToRun = f"git add * && git commit -m 'add {project_name} to rekts' && git push"
+        os.system(commandToRun)
 
 def convert_html_to_markdown(html):
     # if html is none: contine
@@ -103,7 +103,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        # rekt_loop(items)
+        rekt_loop(items)
 
 download_project_images()
 
