@@ -1,0 +1,60 @@
+{
+    "id": 3519,
+    "project_name": "Yoda Coin",
+    "title": "Yoda Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>Yoda Coin project rugpulled by the creator who removed all liquidity from UniSwap pool and transferred roughly 114,000 $USD to FixedFloat.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Yoda Coin is an ERC20 token trading on UniSwap. The project experienced a significant drop in price, which turned out to be a rugpull orchestrated by its own creator. The scammer raised 60 $ETH which is worth 114,000 $USD during pre-sale but only added 29 $ETH to LP. Furthermore, multiple $YODA tokens were created with different addresses.</p><p>The attacker then removed all available LP funds and migrated them to another contract address while deleting social accounts/groups related to YodaCoin on various platforms.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xe9626d145a2c5261070828c1a2e1a8ad47411272</p><p><br></p><p>Initial liquidity transaction:</p><p>https://etherscan.io/tx/0xb0dd30a66f2f6a39cb1b23b31e81ec51057be328f2b9b41995dc11fb0c7c28cb</p><p><br></p><p>Funds transfer transaction:&nbsp;</p><p>https://etherscan.io/tx/0x202addc74544531172ce2b5b8e8a1395672aa56603e9b6358a1c92b336d839fd</p>",
+    "name_categories": "Token",
+    "token_name": "YODA",
+    "proof_archive_link": "https://archive.is/MrsAV, https://archive.is/wV1d9",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xdd53E7944fBe2f0eB5C024caab96bBd5a818166C",
+    "token_addresses": [
+        {
+            "address": "0xdd53E7944fBe2f0eB5C024caab96bBd5a818166C",
+            "url": "https://etherscan.io/address/0xdd53E7944fBe2f0eB5C024caab96bBd5a818166C",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6454d3bf21d51.png",
+    "date": "2023-5-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1654401742107443201?s=20, https://twitter.com/GemsScope/status/1654146038943436804",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/yodacoineth_",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 114000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3519,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
