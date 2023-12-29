@@ -1,0 +1,51 @@
+{
+    "id": 2891,
+    "project_name": "GateHub",
+    "title": "GateHub",
+    "description": "<p><strong>Quick Summary</strong></p><p>GateHub's XRP Ledger wallets were compromised, resulting in a loss of approximately 23,200,000 XRP (nearly $9.5 million).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GateHub was alerted by its customers and community members about the theft of funds from their wallets. The company initiated an investigation and discovered increased API calls from a few IP addresses, which could be the method the hacker used to access encrypted secret keys. The hack was first noticed when a theft of 201,000 XRP was reported. The offending account had stolen substantial amounts from several other XRP accounts, likely managed through GateHub. As of June 5, approximately 23,200,000 XRP was stolen from 80\u201390 victims, of which around 13,100,000 XRP had already been laundered through exchanges and mixer services.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The offending account's address:</p><p>https://xrpscan.com/account/r9do2Ar8k64NxgLD6oJoywaxQhUS57Ck8k</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6246e046b45bf.png",
+    "date": "2019-6-6",
+    "scam_updates": [],
+    "proof_link": "https://gatehub.net/blog/gatehub-preliminary-statement/, https://cointelegraph.com/news/report-nearly-10-million-in-xrp-stolen-in-gatehub-hack",
+    "website_link": "https://gatehub.net/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GateHub",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 10000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2891,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
