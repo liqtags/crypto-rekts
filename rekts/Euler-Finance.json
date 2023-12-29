@@ -1,0 +1,108 @@
+{
+    "id": 3373,
+    "project_name": "Euler Finance",
+    "title": "Euler Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Euler Finance Suffers Hack Resulting in Loss of $196 Million USD in different assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On March 13th, Euler Finance, an Ethereum-based noncustodial lending protocol, was attacked through a flash loan attack which resulted in the theft of millions in various cryptocurrencies, including Dai, USD Coin, staked Ether (StETH), and Wrapped Bitcoin (WBTC). According to on-chain data, the attacker carried out multiple transactions and was able to steal nearly $196 million (<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$8.7 million in Dai, $18.5 million in Wrapped Bitcoin, $135.8 million in Staked Ethereum, and $33.8 million in Circle's USD stablecoin, USDC</span>). Meta Seluth, a crypto analytic firm, reported that the attack is similar to a deflation attack that took place one month prior. The attacker leveraged a multichain bridge to transfer funds from the BNB Smart Chain to Ethereum and then launched the attack. The funds were later deposited into Tornado Cash, a crypto mixer.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit txs:</p><p>https://etherscan.io/tx/0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d</p><p>https://etherscan.io/tx/0x47ac3527d02e6b9631c77fad1cdee7bfa77a8a7bfd4880dccbda5146ace4088f</p><p>https://etherscan.io/tx/0x3097830e9921e4063d334acb82f6a79374f76f0b1a8f857e89b89bc58df1f311</p><p>https://etherscan.io/tx/0x465a6780145f1efe3ab52f94c006065575712d2003d83d85481f3d110ed131d9</p><p>https://etherscan.io/tx/0x62bd3d31a7b75c098ccf28bc4d4af8c4a191b4b9e451fab4232258079e8b18c4</p><p>https://etherscan.io/tx/0x71a908be0bef6174bccc3d493becdfd28395d78898e355d451cb52f7bac38617</p><p><br></p><p>Attacker addresses:</p><p>https://etherscan.io/address/0x5f259d0b76665c337c6104145894f4d1d2758b8c</p><p>https://etherscan.io/address/0xb2698c2d99ad2c302a95a8db26b08d17a77cedd4</p><p><br></p><p>Attacker contracts:&nbsp;</p><p>https://etherscan.io/address/0xebc29199c817dc47ba12e3f86102564d640cbf99</p><p>https://etherscan.io/address/0x036cec1a199234fc02f72d29e596a09440825f1c</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "EUL",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1640620822288105472?s=20",
+    "technical_issue": "<p>https://etherscan.io/tx/0xe3f67f8e50042f09a3d9b6873bd15c14fa8b8176cfa1069bc1d3ab71e4b3fd0d</p><p>https://etherscan.io/tx/0x19f802affe24572bac3af47983f42bbec6055117c6a32c3fddc58bd7545e5240&nbsp;</p><p>https://etherscan.io/tx/0x9f3edbd1eb404dec2e4d9aae93c739136f79c87f6382af25413ce705cc431f59</p>",
+    "token_address": "0xd9fcd98c322942075a5c3860693e9f4f03aae07b",
+    "token_addresses": [
+        {
+            "address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+            "url": "https://etherscan.io/address/0xebc29199c817dc47ba12e3f86102564d640cbf99",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+            "url": "https://etherscan.io/token/0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x036cec1a199234fc02f72d29e596a09440825f1c",
+            "url": "https://etherscan.io/address/0x036cec1a199234fc02f72d29e596a09440825f1c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x0275b156cd77c5ed82d44bcc5f9e93eecff20138",
+            "url": "https://etherscan.io/address/0x0275b156cd77c5ed82d44bcc5f9e93eecff20138",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xbd1bd5c956684f7eb79da40f582cbe1373a1d593",
+            "url": "https://etherscan.io/address/0xbd1bd5c956684f7eb79da40f582cbe1373a1d593",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716",
+            "url": "https://etherscan.io/address/0xeb91861f8a4e1c12333f42dce8fb0ecdc28da716",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x1b808f49add4b8c6b5117d9681cf7312fcf0dc1d",
+            "url": "https://etherscan.io/address/0x1b808f49add4b8c6b5117d9681cf7312fcf0dc1d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/640f1aa56ed41.jpg",
+    "date": "2023-3-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/officer_cia/status/1635206447901577218?s=20, https://forkast.news/headlines/euler-finance-loses-nearly-us200-mln-in-exploit/, https://twitter.com/eulerfinance/status/1635218198042918918, https://twitter.com/peckshield/status/1635229594596036608?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1635231791509549057%7Ctwgr%5Edd8cd0ea95b3dd97ac68e15f18eab76f9b262824%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Fdecrypt.co%2F123293%2Fdefi-lender-euler-finance-hit-flash-loan-attack",
+    "website_link": "https://app.euler.finance/",
+    "webarchive_link": "https://archive.ph/wip/RnSCw",
+    "twitter_link": "https://twitter.com/eulerfinance",
+    "telegram_link": "https://t.me/eulerfinance_official",
+    "our_post_link": null,
+    "funds_lost": 196000000,
+    "funds_returned": 177000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/euler-xyz",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/CdG97VSYGk",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3373,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
