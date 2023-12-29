@@ -1,0 +1,61 @@
+{
+    "id": 2588,
+    "project_name": "Pinecone Finance",
+    "title": "Pinecone Finance",
+    "description": "<p>The attackers' addresses:<br>https://bscscan.com/address/0x472a2c88c1a5f794eb80706e587d4a120d9be255<br>https://bscscan.com/address/0x430ad7e178d3e00145f35c041c7f486d7e8a4c7e<br>https://bscscan.com/address/0xfc6682db7e9f57882e8b18ebc9adc7a19f770494<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0xe23ffa079edd975b5bd48503757040b7aa60e63d66972419fd56f4404c6d4da1<br><br>The root cause is a false deposit bug in the staking logic of Pinecone finance. In particular, the affected vault counts as valid deposits even no tokens are actually transferred in. The hacker has no sufficient PCT balance but stakes 200K PCTs to the vault. However, the tx still succeeds and credits the hacker with 200K valid PCTs staked:<br>https://bscscan.com/tx/0x10236426cbe9a6380b7990150013125a623784ed1002fe3e34d07ff89ffa2619<br><br>Overall, three hackers gathered 3.5 million PCTs, which were converted into 516.83 BNB (~$200,000).</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "PCT",
+    "proof_archive_link": "https://archive.is/AITfe",
+    "technical_issue": null,
+    "token_address": "0x4631d9d8b34f51b82958a19453bdc9ea0c4e49fc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61278aee4d85f.jpeg",
+    "date": "2021-8-18",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/@PineconeFinance/post-mortem-of-pct-staking-vault-attack-714e1171e121",
+    "website_link": "https://pinecone.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PineconeFinance",
+    "telegram_link": "https://t.me/Pinecone_finance",
+    "our_post_link": null,
+    "funds_lost": 200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2588,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Smart_contract_security_audit_report_pinecone.pdf",
+            "date": "2021-07-23T00:00:00.000Z",
+            "partner": {
+                "id": 54,
+                "name": "Beosin",
+                "logo_link": "safe/files/partner/logo/60df3c1fcb7f3.jpeg"
+            }
+        }
+    ]
+}
