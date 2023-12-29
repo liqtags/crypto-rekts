@@ -1,0 +1,99 @@
+{
+    "id": 3200,
+    "project_name": "Transit Swap",
+    "title": "Transit Swap",
+    "description": "<p><strong>Quick Summary</strong></p><p>Transit Swap exchange was hacked due to the smart contract vulnerability. The hacker stole 28,900,000 $USD from users who approved their assets to Transit Swap. 65% of the stolen funds were recovered by the joint effort of the security teams.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Transit Swap is a multichain DEX, running on both Ethereum and Binance chains. The project was exploited by a hacker, and roughly 28,900,000 $USD worth of assets were stolen from user's addresses. The hacker deployed malicious smart contracts to exploit the swap contracts of the project on both chains. Due to the vulnerability of the swap contracts, which allows the hacker to use transferFrom() function to drain the user's approved assets and transfer them to another EOA address.<br>Within 24 hours after the hack, Transit Finance announced about the recovery of 65% of stolen funds in collaboration with other security teams. And consequently, Transit Finance published an article with a list of addresses involved in the hack and said that the total recovered funds are from the hacker involved in the attack with the largest amount, and the team is working on recovering the remaining stolen funds and formulating Bug Bounty rules.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x5f0b31aa37bce387a8b21554a8360c6b8698fbef</p><p>https://etherscan.io/address/0x5f0b31aa37bce387a8b21554a8360c6b8698fbef</p><p><br></p><p>Address funds transferred:</p><p>https://bscscan.com/address/0x75f2aba6a44580d7be2c4e42885d4a1917bffd46</p><p>https://etherscan.io/address/0x75f2aba6a44580d7be2c4e42885d4a1917bffd46</p><p><br></p><p>Malicious contracts:</p><p>https://bscscan.com/address/0x8ca8fd9c7641849a14cbf72faf05c305b0c68a34</p><p>https://etherscan.io/address/0x17ff6c94ba3a49c72ef2f10782de8a6152f204ea</p><p><br></p><p>Recovering transactions:</p><p>https://etherscan.io/tx/0x3da1843247070fbcfcf9c8d0e02dcd660ea882640fc842625b675aabc45e6a2a</p><p>https://bscscan.com/tx/0xd941c6012656dae9fe16882becffdf41d91836b19bbcea659cad65f5049c5f83</p><p>https://bscscan.com/tx/0x53495bd2fddefd179ef107e43d5d2dea922ceda4bb1c9bc183e265dcc6474e02</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://archive.is/F2aXf, https://archive.is/H2uDy, https://archive.is/zottE",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xed1afc8c4604958c2f38a3408fa63b32e737c428",
+            "url": "https://bscscan.com/address/0xed1afc8c4604958c2f38a3408fa63b32e737c428#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633abb113278d.png",
+    "date": "2022-10-1",
+    "scam_updates": [
+        {
+            "date": "2022-10-11T00:00:00.000Z",
+            "description": "<p>240,000 $USD was fully recovered from 4th hacker with the help of BlockSec</p>"
+        }
+    ],
+    "proof_link": "https://medium.com/@TransitSwap/updates-about-transitfinance-4731c38d6910",
+    "website_link": "https://transit.finance",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TransitFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 28900000,
+    "funds_returned": 19140000,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "56",
+                "name": "Binance"
+            },
+            "funds": {
+                "lost": {
+                    "value": "17482166",
+                    "date": "2022-10-01"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "1",
+                "name": "Ethereum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "11417834",
+                    "date": "2022-10-01"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3200,
+            "networks": {
+                "id": 1,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        },
+        {
+            "networks_id": 56,
+            "scam_database_id": 3200,
+            "networks": {
+                "id": 56,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
