@@ -1,0 +1,60 @@
+{
+    "id": 3392,
+    "project_name": "SkyVerse",
+    "title": "SkyVerse",
+    "description": "<p><strong>Quick Summary</strong></p><p>The fake SkyVerse NFT project fraudulently withdrew roughly 150,000 $USD from the users.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SkyVerse is an NFT collection on the Ethereum chain that offers staking opportunities as well. The project's Twitter account and website were recreated and then 150,000 $USD worth of $ETH was withdrawn from the affected user's wallets. The scammer convinced over 250 NFT collectors that the project had started minting and was rapidly selling out. The scammer used a fake \"counter\" on the website to make it seem like the NFTs were selling out in real-time</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://etherscan.io/address/0x1203abb79F7343d2dAAa245ADF6fcB3Ab0D7e356</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/JnXsv, https://archive.ph/2sAJl",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x1203abb79F7343d2dAAa245ADF6fcB3Ab0D7e356",
+            "url": "https://etherscan.io/address/0x1203abb79F7343d2dAAa245ADF6fcB3Ab0D7e356",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64234cbfef7df.jpg",
+    "date": "2022-4-13",
+    "scam_updates": [],
+    "proof_link": "https://web3isgoinggreat.com/?id=fake-skyverse-project-draws-in-more-than-150000-and-counting, https://twitter.com/tannerwoodworth/status/1513676292209709059",
+    "website_link": "https://skyversenft.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SkyVerseNFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 150000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/SkyVerseOfficial",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3392,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
