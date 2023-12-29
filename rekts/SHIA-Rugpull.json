@@ -1,0 +1,68 @@
+{
+    "id": 3689,
+    "project_name": "SHIA",
+    "title": "SHIA Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SHIA token project was rugpulled by the deployer, removing liquidity worth 116,094 $USD, profiting 69.81 $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SHIA is an ERC20 token trading on UniSwap. On Aug 24, 2023, the deployer executed an exit scam by first adding 10 $ETH as liquidity and then removing it in two transactions. The total profit of the scammer reached 69.81 $ETH, equivalent to roughly 116,094 $USD at current market rates. Additionally, a wash trading technique was used to artificially inflate the trading volume. As of now, the stolen funds remain at the scammer's initial address.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xc765faECA19B33483f2A105e7B02e309393A45B0</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://etherscan.io/tx/0x3582fcee1d9f5a68d606db4a6327900a1d4c14919bad8b6bbd2132ba0efe85aa</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://etherscan.io/tx/0x57b9ca78e1add68edebc136fd37378f11a0b60ff371264f06bef69af799c049a</p><p>https://etherscan.io/tx/0xcbc27dee6a834da0e6e0b6b545da90aaf3d46ab4a7dc9beab35b9732ab67e20f</p><p><br></p><p>Wash Trading Transaction:</p><p>https://etherscan.io/tx/0x96c685090cf4917276d9c0b0651d6c33604564f3a1b3c8aff0f1d0eb9ad01ce3</p>",
+    "name_categories": "Token",
+    "token_name": "SHIA",
+    "proof_archive_link": "https://archive.ph/ZPMmv",
+    "technical_issue": null,
+    "token_address": "0x9dc2eb9671bcaf9d61823dd8cc2c18ac228a6f89",
+    "token_addresses": [
+        {
+            "address": "0x9dc2eb9671bcaf9d61823dd8cc2c18ac228a6f89",
+            "url": "https://etherscan.io/address/0x9dc2eb9671bcaf9d61823dd8cc2c18ac228a6f89",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x150361E00422018e97CbF3dAda22598E95E0aC6F",
+            "url": "https://etherscan.io/address/0x150361E00422018e97CbF3dAda22598E95E0aC6F",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64e7621ad14ad.png",
+    "date": "2023-8-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1694381224553246770?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 116094,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3689,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
