@@ -1,0 +1,51 @@
+{
+    "id": 261,
+    "project_name": "Farmland Network",
+    "title": "Farmland Network",
+    "description": "<p>The hidden minting functionality was used to perform the exit scam.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x932dab5bed3813997ecebe84dd5112ef0ef0202296b0091dd3b40df84e304afd<br><br>The contract deployer increased the token's total supply by invoking <u>initialSupply</u>() function and minting 99,999,999.9 tokens:<br>https://etherscan.io/tx/0xc7c01bd03ce963d4e4eb7bd48d364555bda9fc9b89a4d009cc9f6d28bb5e501c<br><br>The contract deployer removed liquidity at:<br>https://etherscan.io/tx/0x2f44fb035a02b74655a35bec6e3b6a5ecf602aecc9340555d127d6b252a7baa3</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "FRMN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x131468DDbcadD86ae6a03a91d56FFe613078be0B",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d6180585b99.png",
+    "date": "2020-12-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1335916385952665601",
+    "website_link": "http://farmland.network/",
+    "webarchive_link": "https://web.archive.org/web/20201207115755/http://farmland.network/",
+    "twitter_link": "https://twitter.com/FarmlandNtwrk",
+    "telegram_link": "https://t.me/farmlandnetwork",
+    "our_post_link": null,
+    "funds_lost": 892,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 261,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
