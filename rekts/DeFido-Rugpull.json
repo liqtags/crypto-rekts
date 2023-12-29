@@ -1,0 +1,60 @@
+{
+    "id": 3648,
+    "project_name": "DeFido",
+    "title": "DeFido Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DeFido project was rugpulled by the owner after removing liquidity worth 113,971 $USD from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DeFido (DEFIDO) is a BEP20 token trading on PancakeSwap. The project experienced an exit scam after the deployer transferred ownership to another address. The new owner then proceeded to remove liquidity from the LP pool in four separate transactions between July 28 and August 1. The stolen funds, amounting to 113,971 $USD worth 472.89 BNB, were transferred across multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xd041bC1b21b9c107eeD3AEF90B6AF62709C88D2F</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xf08ca718c8b8651791589f759cc96749c87971c7</p><p><strong><br></strong></p><p>Liquidity Removal Transactions:</p><p>1. https://bscscan.com/tx/0x13de16904e0ddbcb06d6613ab8477dee7a8615b366fa8aaaece762fd5b9b0e5d</p><p>2. https://bscscan.com/tx/0x6c838ada50c99c2897766dbca81e3df4331dc2da2dc19955084c6e90a642b8cf</p><p>3. https://bscscan.com/tx/0xeb4a7969815cf1f5161443240b8945251186fa077ac8642dab9edbd402e399f7</p><p>4. https://bscscan.com/tx/0x4c425ea7fecafead1bc81a416d50f73ee738cb42a2a79b8e1e63b71ff7b186a9</p><p><br></p><p>Ownership Transfer Transaction:</p><p>https://bscscan.com/tx/0x8faf466af337e4c0628daf736a6960d3a2c6c1e3cde1cb5c1d8e9b4cf18bb984</p>",
+    "name_categories": "Token",
+    "token_name": "DEFIDO",
+    "proof_archive_link": "https://archive.ph/gfA73",
+    "technical_issue": null,
+    "token_address": "0x490BBA5fDc58951e8309572Eb928b7AA147D2428",
+    "token_addresses": [
+        {
+            "address": "0x490bba5fdc58951e8309572eb928b7aa147d2428",
+            "url": "https://bscscan.com/token/0x490bba5fdc58951e8309572eb928b7aa147d2428",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64caaa1292d8b.png",
+    "date": "2023-7-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1684923262994636801",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 113971,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3648,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
