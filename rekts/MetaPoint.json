@@ -1,0 +1,76 @@
+{
+    "id": 3471,
+    "project_name": "MetaPoint",
+    "title": "MetaPoint",
+    "description": "<p><strong>Quick Summary</strong></p><p>MetaPoint was exploited due to a vulnerability in the deposit function, resulting in the loss of $700K worth of USDT/POT pool tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MetaPoint is a metaverse running on the Binance Smart Chain. The project was hacked through a vulnerability found within their deposit function. When a user used the deposit function, it created a new contract and deposited tokens into that contract. The issue arose because this newly created contract had an \"approve\" function that gave unrestricted access to $META tokens without any restrictions or limitations. An attacker took advantage of this by deploying a malicious smart contract with unverified source code, and draining mass amounts of funds from users who had deposited $POT tokens onto their platform. The exploiter was able to steal 2,518 $BNB which is worth 803,242 $USD at current market rates. All the stolen money transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x0d1969a30bb4ba02e731862edbced5f5abba8373</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0xc6e451c8fa3418b703121ac23e44803d143c5d5c</p><p><br></p><p>Malicious Transaction Example:</p><p>https://bscscan.com/tx/0x0ed5cc9abb0f97b27a673cc6f89d6f2e30bde01834887a21092f38c0dc59c4c4</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "POT",
+    "proof_archive_link": "https://archive.ph/t3AgT, https://archive.ph/u4tOu",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x3b5e381130673f794a5cf67fbba48688386bea86",
+    "token_addresses": [
+        {
+            "address": "0x3b5e381130673f794a5cf67fbba48688386bea86",
+            "url": "https://bscscan.com/token/0x3b5e381130673f794a5cf67fbba48688386bea86",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x9117df9aA33B23c0A9C2C913aD0739273c3930b3",
+            "url": "https://bscscan.com/address/0x9117df9aA33B23c0A9C2C913aD0739273c3930b3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x71a0c153f52cefcf6d26253f67b10dabed5556ff",
+            "url": "https://bscscan.com/address/0x71a0c153f52cefcf6d26253f67b10dabed5556ff",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643703b008b95.jpg",
+    "date": "2023-4-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/YannickCrypto/status/1645925807724929024, https://twitter.com/AnciliaInc/status/1645894518494076928?s=20",
+    "website_link": "https://metapoint.plus/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MetaPoint1024",
+    "telegram_link": "https://t.me/MetaPointplus",
+    "our_post_link": null,
+    "funds_lost": 803242,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3471,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
