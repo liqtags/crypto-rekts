@@ -1,0 +1,51 @@
+{
+    "id": 2692,
+    "project_name": "Blizzard",
+    "title": "Blizzard",
+    "description": "<p>The insider attack was performed by 2 team members: front-end and back-end developers.<br><br>Developers had access to the key contracts as they were members of a multisignature account, which requires only 2 signs.<br><br>1. Whitehat reported found bug in the vault contracts to the Immunefi team<br>2. Whitehat received bug bounty and the core team of Blizzard asked the back-end developer to remove retired vaults, put 0 reward rate and disable deposits.<br>3. Front-end and back-end started testing new vaults:<br>https://snowtrace.io/tx/0xf66a695d7df17771a649d9bf2c6076c324453c7a199d6da78dbc58b0baf3f48e<br><br>4. Back-end dev set the <u>rewardMintRate</u> to 50 BLIZZ per block<br>5. Developers exploited the harvesting issue:<br>https://snowtrace.io/tx/0xa7818cb803c1f29f4e5fd0d1cbc591e8514e07db4ed6042f76e23298c84b0363<br><br>6. Front-end dev had removed the retired PNG-AVAX vaults from the website front.<br>7. Developers exploited a single USDC vault:<br>https://snowtrace.io/address/0xdb6969402dd0b431d26cdf539acffc6db649b64e#code<br><br>8. Developers dumped received tokens:<br>https://snowtrace.io/tx/0x7cd6c8c8d8fb5d60a08780d95df01a257a00be910b3445130a2649394a00e482<br><br>9. Attackers used Anyswap bridge to transfer funds on Ethereum, and then, on the Binance Smart Chain<br>https://snowtrace.io/tx/0x198c7303d1e9f05ac9da81b7d4b2a02c2ffcb735b56c84c331c7a3e00a111495<br><br>10. Stolen funds were deposited into Tornado Cash mixer at:<br>https://explorer.bitquery.io/bsc/txs/transfers?sender=0xbb2c0ef4bad535e042b0f2686f83abec7e2ea965&amp;currency=BNB&amp;receiver=0x0d5550d52428e7e3175bfc9550207e4ad3859b17<br><br>The exploit is described in 3 steps:</p><p>- Modify the <u>rewardRate</u>, by calling <u>setRewardMintRate</u>(uint256 _rate) with the following parameter: 50000000000000000000</p><p>- Deposit any amount of USDC and wait until the desired amount of tokens has been minted</p><p>- Call <u>claim</u>() to transfer the rewards from the origin pool and additional minted token rewards from the aggregator to the beneficiary.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BLIZZ",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xb147656604217a03fe2c73c4838770df8d9d21b8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6196394410c56.jpeg",
+    "date": "2021-11-13",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/@blizzardavalanche/blizzard-exploit-a-post-mortem-a09e19b04ae7",
+    "website_link": "https://www.blizzard.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BlizzardAVAX",
+    "telegram_link": "https://t.me/BlizzardYield",
+    "our_post_link": null,
+    "funds_lost": 1109632,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 2692,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
