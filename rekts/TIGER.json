@@ -1,0 +1,51 @@
+{
+    "id": 3194,
+    "project_name": "TIGER",
+    "title": "TIGER",
+    "description": "<p><strong>Quick Summary</strong></p><p>TIGER token was rug pulled and the token price dropped by more than 90%. The attacker was related to the initial token holder.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TIGER is a BEP20 token, trading on PancakeSwap. The project can't be confused with other tokens with the same symbol. An EOA address started selling aggressively and dumped the token price on PancakeSwap. At the token creation transaction, 410,000 $TIGER tokens were minted to an additional address. Afterward, the address transferred tokens to the original attacker's address. The total profit of the attacker reached approximately 784,106 $USD, which was transferred to another address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious actor address:</p><p>https://bscscan.com/address/0x2b7f41d964f136138588998550841a2077471b5a</p><p><br></p><p>Initial token holder:</p><p>https://bscscan.com/address/0x2c690f9d3eb98093047577e56ea0ec16c149f22f</p><p><br></p><p>Tokens transferred to the attacker:</p><p>https://bscscan.com/tx/0xdcb323b34da876613aeac0cd881158d2a639a7b31bd4f5a2f8e53d34f30d84fd</p><p><br></p><p>Liquidity pool:</p><p>https://bscscan.com/address/0x6f5168460de7c80221087dac7bae6d02da51c700</p>",
+    "name_categories": "Token",
+    "token_name": "TIGER",
+    "proof_archive_link": "https://archive.is/yFP7p",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x5f351820674ccd9203ee9b019031647f31efd2d9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63341e634bfdc.png",
+    "date": "2022-9-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1573201331472547840",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 784106,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3194,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
