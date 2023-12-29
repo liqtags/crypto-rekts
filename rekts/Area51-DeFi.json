@@ -1,0 +1,51 @@
+{
+    "id": 2450,
+    "project_name": "Area51 DeFi",
+    "title": "Area51 DeFi",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "AREA51",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x84900A5C08Ae0201940D76C72EA56f836bd8D8f4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cb64cd8a0d.jpeg",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0xde70601b3bc32c15ba84b2d06bbdaf7a66770ab0?a=0xe9e5d999e94fa3f3eb1dec6c9eabbc47e9031f20",
+    "website_link": "https://area51defi.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2450,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
