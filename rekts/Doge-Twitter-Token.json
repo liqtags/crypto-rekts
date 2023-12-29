@@ -1,0 +1,60 @@
+{
+    "id": 3493,
+    "project_name": "Doge Twitter Token",
+    "title": "Doge Twitter Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 16th of April DOGETWIT on the BSC chain was rugged for approx 41k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the DOGETWIT protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0x78e8dd11edb3e33005f596699c838eec71c7ce15</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0xb7bf967b2d8a846d7aecaa32a8c1afae819d308c6823eaf8376f028a8a1f8e64</p>",
+    "name_categories": "Token",
+    "token_name": "DOGETWIT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1F528EA4d5d0Bf9E78A15db65aE07953EDC6Edf6",
+    "token_addresses": [
+        {
+            "address": "0x1F528EA4d5d0Bf9E78A15db65aE07953EDC6Edf6",
+            "url": "https://bscscan.com/address/0x1F528EA4d5d0Bf9E78A15db65aE07953EDC6Edf6",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e96221d377.png",
+    "date": "2023-4-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1647603222654119939?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 41000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3493,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
