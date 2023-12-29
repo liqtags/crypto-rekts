@@ -1,0 +1,60 @@
+{
+    "id": 3812,
+    "project_name": "AssetClub",
+    "title": "Fake ACC Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>ACC token was rugpulled by scammer, removing liquidity worth 83,874 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ACC is an ERC20 token trading on UniSwap. On Nov 28, 2023, the scammer conducted an exit scam by removing liquidity from the LP pool. The scammer removed 41.55 WETH, equivalent to 83,874 USD, and transferred the stolen funds to another EOA address using a malicious smart contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xa66E2E1fF9008bD66C4Ec41c163b27223C09E02d</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x95a6FcB5cd21535f22dE07682927E0B83779C180</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xe53a9d8752a21b7ca1d5fb5a756dcf20ee8f2d17e051d4c6fcf817a56fc56407</p><p><br></p><p>Malicious Contract:</p><p>https://etherscan.io/address/0x8B544F47aFccD6BDE7b7087143E2040fDFeF8cca</p>",
+    "name_categories": "Token",
+    "token_name": "ACC",
+    "proof_archive_link": "https://archive.ph/ZksDh",
+    "technical_issue": null,
+    "token_address": "0xe2Fbcb75746d30B836bef7FA8e29f84E4190E79B",
+    "token_addresses": [
+        {
+            "address": "0xe2fbcb75746d30b836bef7fa8e29f84e4190e79b",
+            "url": "https://etherscan.io/address/0xe2fbcb75746d30b836bef7fa8e29f84e4190e79b",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65779e51392e8.png",
+    "date": "2023-11-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1729452030748701031?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 83874,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3812,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
