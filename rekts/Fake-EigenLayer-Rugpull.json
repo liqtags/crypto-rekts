@@ -1,0 +1,60 @@
+{
+    "id": 3718,
+    "project_name": "EigenLayer",
+    "title": "Fake EigenLayer Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>EigenLayer token project exit scammed via rugpull, removing liquidity worth 821,232 USD (3,802 BNB) from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EigenLayer is a copycat BEP20 token trading on PancakeSwap, and can't be confused with the original project. The deployer started removing liquidity from the LP pool in twenty-seven transactions between Sep 14 and Oct 2, 2023, totaling 3,802 BNB, which is approximately 821,232 USD. The stolen funds were then transferred to another EOA and distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x12296f35e7B58F47Bb78C3fB4d1ba943c1270E85</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0xF6Da79E6E590799e744500798670529E9BA360ba</p><p>https://bscscan.com/address/0xAae3DA50681fD263474A611385f8EF950d4Dacd1</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xec9b2a71bb3320e5d8b4f4fcdf3b4be5b64d6a46365a306bcb5687efe5a59b53</p><p>https://bscscan.com/tx/0xced299997a72326e6065abd1aaa2157e7004a90bef1926de9158c91366efc742</p><p>https://bscscan.com/tx/0x014171b17b7aefafb450e8114c1bfd80773dfc8b2b4677451c002c95bf94f453</p><p><br></p><p>Funds Holder as of Oct 2:</p><p>https://bscscan.com/address/0x1F9d30Cd8644E33Ab21Fb4477d4692A11b3C384d</p>",
+    "name_categories": "Token",
+    "token_name": "EL",
+    "proof_archive_link": "https://archive.ph/Fyrfe",
+    "technical_issue": null,
+    "token_address": "0x14ac066ac2CD24CBdE31f78659c11F13aB61E4e7",
+    "token_addresses": [
+        {
+            "address": "0x14ac066ac2cd24cbde31f78659c11f13ab61e4e7",
+            "url": "https://bscscan.com/address/0x14ac066ac2cd24cbde31f78659c11f13ab61e4e7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/651b2fad81aea.png",
+    "date": "2023-10-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1708569119086215323",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 821230,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3718,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
