@@ -1,0 +1,51 @@
+{
+    "id": 3050,
+    "project_name": "HEGE coin",
+    "title": "HEGE coin",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">The $Hege token was rugpulled by the token creator. The token creator took away approximately $400k in profit.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\">The $HEGE token creator prepared the rugpull by funnelling $HEGE token to this address https://bscscan.com/address/0xecc5df612d6d15f034e4ef557abefed71b02ece2 through a number of addresses.</p><p style=\"margin:0cm;background:white;\">Below some example transactions of the funding;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0xbc26b7d92f2df83efdc98785cf324a5e2c1b2deb10fcf3010b1bfb12f1dcd428</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0x475f576841c15e8af8a0a179ba27d70860535a0a5de863cb3d01559d0e2f01af</p><p style=\"margin:0cm;background:white;\">The token creator then proceeded to dump the $HEGE against $USDT on pancake swap in a series of transactions ultimately netting him approximately $400k in funds.</p><p style=\"margin:0cm;background:white;\"><br>Example transactions;</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x338d1db9dd5cf7bf63b2454e3da587559a0d86144534b411f0b45dfdb5ef9232</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x713acac7b6ad807f76cfdfebce8f14e737de0fbbd03b1127607216f8805958fe</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Scammers address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0xecc5df612d6d15f034e4ef557abefed71b02ece2</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Transactions that proof funding of Scammers address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x40ef73f29f02a247636d75d9ada427b3786211f8bb62a1a076131f44a3fc3e5a</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x351e50dab6dd27a0973d0c77a5dfec050fd2b75cf1ebd8c9cf940f2e9c5b17d5</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x0926208a7914e8e261c35d94327420ad3546b8a160a193792401568a33cbcf12</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xdd9d79f1450e231aae4df4193bd3a4fddb2d4b01905ef5d04d4c71819bb614a7</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x475f576841c15e8af8a0a179ba27d70860535a0a5de863cb3d01559d0e2f01af</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x816402e5599020ab48c76dcee2ed49155bcf0fb6a951ec89ad7e733e940e16f2</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xb63339897943bfc290619110eabd969f2c9a7d04bcc724fbe16912a8106cbed4</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x314f57f40c530af037f35d18bd6fb613a9dec2592ccf043b638fb0b986fc0cb9</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0x23ffc6c27c7185112b4ea3716b0aa0ada1e716ec6e49a9ce156e41a29ded7c7c</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/tx/0xbc26b7d92f2df83efdc98785cf324a5e2c1b2deb10fcf3010b1bfb12f1dcd428</p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "HEGE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9Bb6C19905c4EC8B8D10ceEd5ce1781885B137a9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a76859ac454.png",
+    "date": "2022-6-11",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220611234538/https://twitter.com/CertiKAlert/status/1535770022043389952",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3050,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
