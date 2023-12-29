@@ -1,0 +1,60 @@
+{
+    "id": 3804,
+    "project_name": "AISurf",
+    "title": "Fake AISC Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>AISC token was rugpulled by deployer, removing liquidity worth 237,074 USD from PancakeSwap pool, resulting in a loss of 112,050 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>AISC is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer conducted an exit scam by removing liquidity from the LP pool. The stolen funds, worth 112,050 USD in 474.02 WBNB, were transferred to another EOA address and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x7e820e04a3e00888Af355815CE2CDa7D5E360382</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0x7c68f88480845458548aef92ca1893c6254bb8ac04027f3346ba4d66e7691870</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x59aa7dde9f930d112400a94dcb979427351952337c9edf230cd2cf0d11635235</p>",
+    "name_categories": "Token",
+    "token_name": "AISC",
+    "proof_archive_link": "https://archive.ph/1aQnj",
+    "technical_issue": null,
+    "token_address": "0x564A4f365C9A60617ED0947893A2C23B0B79E8c2",
+    "token_addresses": [
+        {
+            "address": "0x564a4f365c9a60617ed0947893a2c23b0b79e8c2",
+            "url": "https://bscscan.com/address/0x564a4f365c9a60617ed0947893a2c23b0b79e8c2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656df9d23c091.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727928255540588759",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 112050,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3804,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
