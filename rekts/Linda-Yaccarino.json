@@ -1,0 +1,68 @@
+{
+    "id": 3526,
+    "project_name": "Linda Yaccarino",
+    "title": "Linda Yaccarino",
+    "description": "<p><strong>Quick Summary</strong></p><p>Linda Yaccarino token project was rugpulled by the deployer, who manipulated the price and created false on-chain activity. The scammer stole 374,723 $USD while only initially adding 10,000 $USD as liquidity.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Linda Yaccarino $LINDA token is a BEP20 token trading on PancakeSwap. The project experienced a significant rugpull in which the deployer manipulated the price and created false on-chain activity. They repeatedly bought and sold tokens for the same amount to give an illusion of trading volume. Additionally, three transactions involving 600,000 $USD were executed to pump up prices further.</p><p>The scammer then withdrew 374,723 $USD by selling all their acquired $LINDA tokens, leaving investors with worthless holdings. The scammer used a smart contract that allows anyone to create scam tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:&nbsp;</p><p>https://bscscan.com/address/0xbcf9b9515251e37626bf0351ecb65dee86048faa</p><p><br></p><p>Malicious Transactions:&nbsp;</p><p>https://bscscan.com/tx/f3f2fc714bc66fca7a50d7a9be36dffc8e55d84c9035f280496a5a12850465fa</p><p>https://bscscan.com/tx/8fe809142909908d6b1716f6367a45cab49a059f04b9927a7c400376fe0026a0</p><p>https://bscscan.com/tx/cf7b6ec7d7f43732475753506745a8db3690f233bb44bbb642afb4acfc5b051d</p><p><br></p><p>Withdrawal Transaction:&nbsp;</p><p>https://bscscan.com/tx/85aff0544fd4b64b5f4917b10c050a1b194634f4dfe5236429c2c0aa1a9b8ff4</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x5f11614A956D320EB7e6dc8Bd3A83689C2ed56Af</p>",
+    "name_categories": "Token",
+    "token_name": "LINDA",
+    "proof_archive_link": "https://archive.ph/eKtUB",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x8883fa1d06b1653b08557f90f19c92b86c382cfb",
+    "token_addresses": [
+        {
+            "address": "0x8883fa1d06b1653b08557f90f19c92b86c382cfb",
+            "url": "https://bscscan.com/address/0x8883fa1d06b1653b08557f90f19c92b86c382cfb",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x01a4a45ab18aa4a6d24387907c3af67ec9e0b763",
+            "url": "https://bscscan.com/address/0x01a4a45ab18aa4a6d24387907c3af67ec9e0b763",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6463900f5d0cc.png",
+    "date": "2023-5-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1658425697520566273?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 374723,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3526,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
