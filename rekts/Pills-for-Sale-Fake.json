@@ -1,0 +1,51 @@
+{
+    "id": 175,
+    "project_name": "Pills for Sale",
+    "title": "Pills for Sale (Fake)",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x80464b808fd4ae02c5950cdcbcc8321034b88c42ae49f6f8cb98db4aa20d0585<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xbd5e38b18dba9eaf6f43e343ee0e8394cf59dc24dbb26c49d3d7f6994e3f9904</p>",
+    "name_categories": "Token",
+    "token_name": "PILLS",
+    "proof_archive_link": "https://archive.ph/iI5rL",
+    "technical_issue": null,
+    "token_address": "0x38710a11b17ca49362f461cbe2713491716b4b2b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5c0657f861.png",
+    "date": "2021-1-17",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 447069,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 175,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
