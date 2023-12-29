@@ -1,0 +1,51 @@
+{
+    "id": 2828,
+    "project_name": "BNB42",
+    "title": "BNB42",
+    "description": "<p>The address involved in the scam:<br>https://bscscan.com/address/0x9b74fde50f3fcd3a02fafea6a187092630d6eb8f<br><br>The address involved in the scam deployed the unverified contract which contained <u>withdraw</u>() function that allows only the owner to withdraw the entire total BNB (eth.balance(this.address) wei) to the owner\u2019s address.<br><br>The contract deployer invoked withdraw() to transfer 6,445.42 BNB onto own address at:<br>https://bscscan.com/tx/0x749215ebe457aa681194684401257fe8fb44daecb9f50a077b12c71e83cf9414<br><br>Stolen funds were distributed to a bunch of external addresses and deposited into the Tornado Cash mixer.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620be85414472.jpeg",
+    "date": "2022-2-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1493513392870473728, https://twitter.com/CertiKCommunity/status/1493614458144448513",
+    "website_link": "https://bnb42.com/",
+    "webarchive_link": "https://web.archive.org/web/20220201115537/https://bnb42.com/",
+    "twitter_link": "https://twitter.com/bnb42i",
+    "telegram_link": "https://t.me/bnb42invest",
+    "our_post_link": null,
+    "funds_lost": 2602079,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2828,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
