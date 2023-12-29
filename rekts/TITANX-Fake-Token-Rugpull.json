@@ -1,0 +1,60 @@
+{
+    "id": 3750,
+    "project_name": "TITANX",
+    "title": "TITANX Fake Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>TITANX token project experienced an exit scam rugpull on Oct 30, 2023, resulting in a loss of 82,238 USD from the UniSwap liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TITANX is an ERC20 token trading on UniSwap. On Oct 30, 2023, the scammer received a significantly larger number of tokens and then rugpulled by selling 4,854,740,126,240,000 TITANX, completely depleting the liquidity pool. The part of stolen funds are still at the scammer's address as of October 30, stored as ETH, while the rest were sent to another address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x9AFB1C02BA86553bFcB4B6FbAF951a423878D95F</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0xBd72D445893aaD1Cf9dbCEc7c186f06F9D2B5871</p><p>https://etherscan.io/address/0x78559C6e41beE29C44b62990e43370930d065965</p><p>https://etherscan.io/address/0x47E16F84B7FAa44F6F3177E3e8bF008ECf602524</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x2aa6446bd8ebb540aecdff770c343c3392d2e0a0351ad8c0c7f4673147230ecf</p>",
+    "name_categories": "Token",
+    "token_name": "TITANX",
+    "proof_archive_link": "https://archive.ph/ds6vf",
+    "technical_issue": null,
+    "token_address": "0xAF3302F7a83Cb4e66B8f9450b00E7644e605878d",
+    "token_addresses": [
+        {
+            "address": "0xaf3302f7a83cb4e66b8f9450b00e7644e605878d",
+            "url": "https://etherscan.io/address/0xaf3302f7a83cb4e66b8f9450b00e7644e605878d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653f65f10a573.png",
+    "date": "2023-10-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1718888131867590907",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 82238,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3750,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
