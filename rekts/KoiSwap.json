@@ -1,0 +1,51 @@
+{
+    "id": 101,
+    "project_name": "KoiSwap",
+    "title": "KoiSwap",
+    "description": "<p>The contract deployer added the initial liquidity at:<br>https://bscscan.com/tx/0xa5bad7abc32f5d50a965ee258a11c7ef8196681cb941a7051363551d4e85c812<br><br>The liquidity was removed by the contract deployer at:<br>https://bscscan.com/tx/0x0c1e68fb68dad08e3b45a2be7b17513d8107809e6939da84847e97f4f0d6cfe3<br><br>In addition, the contract deployer sold tokens multiple time at:<br>https://explorer.bitquery.io/bsc/txs/calls?caller=0xc0acd947e60cb9bd31fd9a6146842d4596a5d6c6&amp;contract=0x05ff2b0db69458a0750badebc4f9e13add608c7f</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "KOI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5ca6b72fa6ff2d27b941c0956f0808d9bba2eff9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5a1b04b459.png",
+    "date": "2021-3-9",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 19950,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 101,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
