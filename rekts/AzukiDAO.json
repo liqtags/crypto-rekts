@@ -1,0 +1,60 @@
+{
+    "id": 3600,
+    "project_name": "AzukiDAO",
+    "title": "AzukiDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>AzukiDAO, an Ethereum-based DAO project, was exploited in a replay attack resulting in a loss of 72,693 $USD.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>AzukiDAO's governance token contract (Bean) was exploited due to a contract vulnerability that was not properly checking the signatureClaimed variable, leading to replay attacks. Two attackers exploited this vulnerability and made a combined profit of approximately 35 ETH. The exploit has been halted with the contract currently in a paused state. The funds are currently remaining in the attacker's address as ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x85d231c204b82915c909a05847cca8557164c75e</p><p><br></p><p>Malicious Transaction Example:</p><p>https://etherscan.io/tx/0x4c50c1da8a25bcaf7c47661423f435a339c8dd3ce8f0e8e1c3a21dcc52e84acc</p>",
+    "name_categories": "NFT,Token",
+    "token_name": "Bean",
+    "proof_archive_link": "https://archive.ph/T2mhR",
+    "technical_issue": null,
+    "token_address": "0x8189afbe7b0e81dae735ef027cd31371b3974feb",
+    "token_addresses": [
+        {
+            "address": "0x8189afbe7b0e81dae735ef027cd31371b3974feb",
+            "url": "https://etherscan.io/token/0x8189afbe7b0e81dae735ef027cd31371b3974feb",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64aeedf9e462d.jpg",
+    "date": "2023-6-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/MetaSleuth/status/1675783739174166528",
+    "website_link": "https://azukidao.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/_AzukiDAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 72693,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/azukidao",
+    "git_hub_contract_link": "https://github.com/azukidao/Bean-contract",
+    "discord": "https://discord.com/invite/AzukiDAO",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3600,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
