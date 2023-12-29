@@ -1,0 +1,60 @@
+{
+    "id": 3807,
+    "project_name": "Expanso",
+    "title": "EXPSO Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The EXPSO token exit occurred on November 27, 2023, when scammers swapped 42.79 ETH from the LP liquidity pool.</p><p><br></p><p><strong>Exploit Details</strong></p><p>EXPSO is an ERC20 token traded on UniSwap. On November 27, 2023, the scammer removed liquidity from the LP pool, resulting in a total loss of 42.79 ETH. The stolen funds in the amount of $87,558 were transferred to another EOA through a contract created by the scammer.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x786F7F3a04A6205D6DE94E543C1b2c1d10f0A344</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x95a6FcB5cd21535f22dE07682927E0B83779C180</p><p><br></p><p>Token Swap Transaction:</p><p>https://etherscan.io/tx/0x1245f63dea27a6fe3ac7a5c3f617ec0dfd4f9e6822bfa66cb8be0d79c4c10d60</p><p><br></p><p>Funds Holder as of Dec 4, 2023:</p><p>https://etherscan.io/address/0x50810f36AdaE2cC08140a47501E5E660e9b05D9d</p><p><br></p><p>Malicious Contract Used by Scammer:</p><p>https://etherscan.io/address/0x8B544F47aFccD6BDE7b7087143E2040fDFeF8cca</p>",
+    "name_categories": "Token",
+    "token_name": "EXPSO",
+    "proof_archive_link": "https://archive.ph/kVoNb",
+    "technical_issue": null,
+    "token_address": "0xa26B031AD7dD0EF0Df4D6Af983B3b77EffbDbc86",
+    "token_addresses": [
+        {
+            "address": "0xa26b031ad7dd0ef0df4d6af983b3b77effbdbc86",
+            "url": "https://etherscan.io/address/0xa26b031ad7dd0ef0df4d6af983b3b77effbdbc86",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656e0aca8bd4e.png",
+    "date": "2023-11-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1728988361401196812",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 87558,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3807,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
