@@ -1,0 +1,68 @@
+{
+    "id": 3529,
+    "project_name": "DerpMan",
+    "title": "DerpMan",
+    "description": "<p><strong>Quick Summary</strong></p><p>Derpman token project was rugpulled by the deployer, who drained the UniSwap pool and stole 88,126 $USD worth of funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Derpman is an Ethereum-based ERC20 token trading on UniSwap. The scammer was able to drain all available liquidity from the UniSwap pool and swap them for 48.8 $ETH which was worth approximately 88,126 $USD at that time. The stolen assets were then transferred to another EOA address before being distributed between multiple addresses.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xcf18022d77d67134dbf462b7484eb3788d56561c</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x4d1fd751817C765aD9cF189D5B399e33663C1915</p><p><br></p><p>Draining Transaction:</p><p>https://etherscan.io/tx/0xdfc3a649dc7264095561036c0298f3790794f68ce2f0a5c81700e8262f88ef84</p><p><br></p><p>Stolen Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x935f1585b5a3678003931c3d9a2385d4e8ac65edbcaa48c9316435cae800940d</p>",
+    "name_categories": "Token",
+    "token_name": "DMAN",
+    "proof_archive_link": "https://archive.ph/wQieZ",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x9a3fb36bf72a387fcc821a38ee9f50f1a0eb8cbd",
+    "token_addresses": [
+        {
+            "address": "0x9a3fb36bf72a387fcc821a38ee9f50f1a0eb8cbd",
+            "url": "https://etherscan.io/address/0x9a3fb36bf72a387fcc821a38ee9f50f1a0eb8cbd",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x090ad37a382580580f4d4e2dbaaab7a3e50b279d",
+            "url": "https://etherscan.io/address/0x090ad37a382580580f4d4e2dbaaab7a3e50b279d",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64650b51eb30c.png",
+    "date": "2023-5-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1655905511361880071",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 88123,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3529,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
