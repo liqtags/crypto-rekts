@@ -1,0 +1,51 @@
+{
+    "id": 3154,
+    "project_name": "ROBOT SHIB",
+    "title": "ROBOT SHIB",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $RSHIB token has been rug pulled by its team. The team made away with $14k in profits.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team added liquidity for RSHIB/WBNB, then removed liquidity transferring $BNB 47 to scammer address (C).</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Involved addresses:</p><p>- Scammer address (A): https://bscscan.com/address/0xee89c2e6462141356c580f97be3d5a35abc3b27e</p><p>- Scammer address (B): https://bscscan.com/address/0x28804ddd4bd2e468db3dfbfb6e50b2155a5dc3fa</p><p>-Scammer address (C): https://bscscan.com/address/0xda9565e39769daf130997ae4bb2c69ec9f204fe0</p><p><br></p><p>Involved contracts:</p><p>- Contract that deployed the token: https://bscscan.com/address/0xf74a3016e6cb9c0f112f6f6acf5e9a5dcfb13c66</p>",
+    "name_categories": "Token",
+    "token_name": "RSHIB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0xc7fba797141f5392094e3dca8943ca7d8b6f92d8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6308d4aa48337.png",
+    "date": "2022-8-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1562692393698074624",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 14100,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3154,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
