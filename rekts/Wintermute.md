@@ -1,38 +1,55 @@
 # Wintermute
 ![Wintermute](/rektimages/Wintermute.png)
-- Amount Lost: $27,600,000.00
-- Funds Returned: $23,460,000.00
-- Category: Other
-- Date: 2022-6-9
+- Amount Lost: $160,000,000.00
+- Funds Returned: $0.00
+- Category: CeFi,Yield Aggregator
+- Date: 2022-9-20
 
 **Quick Summary**
 
-Wintermute was exploited for approximately $27.6M due to an address error.
+Wintermute's DeFi operations have been exploited for $160m in total according to the company's CEO.
 
   
 
 
  **Details of the Exploit**
 
-The funds were supposed to be sent to Wintermute by the Optimism Foundation as part of an agreement to perform Wintermute functions as a market maker on the eve of the launch of the OP token. However, Wintermute provided the address of their multisig on Ethereum as the destination address for Optimism - it was an address that they did not control. The exploiter was able to recreate the multisig address on Optimism and send himself 1M tokens. Then 1M OP was sent to Vitalic's address. The exploiter returned 17M OP on Jun 10th.
+Wintermute is an algorithmic market maker that provides liquidity across CeFi and DeFi exchanges as well as over-the-counter deals. Wintermute's CEO announced on the morning of the 20th of September that its DeFi operations had been hacked, CeFi and OTC services have not been affected. The company claims to be solvent despite $160m in assets taken and further states that 90 different assets were affected. Most of the assets taken were worth under $2,5m and therefore the markets should not be shaken by major sell-offs.
 
-  
+It appears that Wintermute had suffered a brute force private key compromise. The company used Profanity's services for generating vanity addresses. The private keys were generated in such a way that through using enough computing power every possible combination could be tried through until the code was hacked.
 
+Several EOA addresses and two smart contracts have been used to attack the platform. 
 
-Stolen funds:
-
-\- 1M OP tokens
+The attacker gained power over Wintermute's wallet and repeatedly used a privileged function to transfer funds from the Wintermute wallet to his malicious smart contracts which then transferred the funds to the attackers EOA address, where the assets are sitting at the moment.
 
   
 
 
  **Block Data Reference**
 
-Exploiter address: https://optimistic.etherscan.io/address/0x60b28637879b5a09d21b68040020ffbf7dba5107
+Attacker EOA address:
 
-Transaction behind the attack: https://optimistic.etherscan.io/tx/0xe9491bfb9a1ad13a47f3c1f61197b097416cbed2e32e038dd3de97172ddee303
+https://etherscan.io/address/0xe74b28c2eAe8679e3cCc3a94d5d0dE83CCB84705
 
-Transaction of returning funds: https://optimistic.etherscan.io/address/0x4f3a120e72c76c22ae802d129f599bfdbc31cb81#tokentxns
+Attacker smart contracts:
 
+https://etherscan.io/address/0x00000000ae347930bd1e7b0f35588b92280f9e75
+
+https://etherscan.io/address/0x0248f752802b2cfb4373cc0c3bc3964429385c26
+
+  
+
+
+Transfer transactions:
+
+https://etherscan.io/tx/0xedd31e2a949b7957a786d44b071dbe1bc5abd5c57e269edb9ec2bf1af30e9ec4
+
+https://etherscan.io/tx/0xc253450fc3e0e124224aef2936c13b371a86056e82e778113fc3ce8800bbe876
+
+
+Proof Links:
+- [https://www.coindesk.com/business/2022/09/20/crypto-market-maker-wintermute-hacked-for-160m-says-ceo/](https://www.coindesk.com/business/2022/09/20/crypto-market-maker-wintermute-hacked-for-160m-says-ceo/)
+- [ https://twitter.com/EvgenyGaevoy/status/1572134271011225601]( https://twitter.com/EvgenyGaevoy/status/1572134271011225601)
+- [ https://www.certik.com/resources/blog/uGiY0j3hwOzQOMcDPGoz9-wintermute-hack]( https://www.certik.com/resources/blog/uGiY0j3hwOzQOMcDPGoz9-wintermute-hack)
 
 
