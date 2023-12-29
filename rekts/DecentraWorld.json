@@ -1,0 +1,51 @@
+{
+    "id": 3021,
+    "project_name": "DecentraWorld",
+    "title": "DecentraWorld",
+    "description": "<p><strong>Quick Summary</strong></p><p>The DecentraWorld project was successfully rugpulled by its project team. At that time, projet's $DEWO token showed a positive development trend until the team drained out all the treasures from the project, stealing more than $1m.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The DecentraWorld token $DEWO was created in this transaction (https://bscscan.com/tx/0xb8ff69cf1edde00a1ea281c31492f1e81cbfbafcfb62b4b7b3a606171036faf7), where 100m tokens were minted to the address of the creator. The deployer's address accumulated transactions fees and tax from each transaction, as well as part of the tokens remained at the same address after minting, and when the price became attractive enough, the DecentraWorld project team sold tokens for $WBNB through the PancakeSwap (https://bscscan.com/tx/0x94018528b5dd20ae977b8de3d8e808b0b13376a743edf6c557e9124282816f66).</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract creator, scammer address: https://bscscan.com/address/0x5055e1d92779fb8400b922dc5f6d953786a68833</p><p>Swapping transaction: https://bscscan.com/tx/0x94018528b5dd20ae977b8de3d8e808b0b13376a743edf6c557e9124282816f66</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "DEWO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xcdd6494aeb193c8d5541b5b9c5e72a3809a98fdc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/628f4c3af4225.png",
+    "date": "2022-5-24",
+    "scam_updates": [],
+    "proof_link": "https://www.certik.com/resources/blog/nuy546zklYCih8ds6zvrw-revisiting-decentraworld, https://dappradar.com/blog/decentraworld-rug-pull-drains-over-1-million-in-bnb, https://twitter.com/CertiKAlert/status/1529180042311389184?s=20&t=f4Thrt5Y16ndZxlbeRyPBQ, https://web3isgoinggreat.com/single/decentraworld-project-rug-pulls-for-1-million",
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220520004144/https://decentraworld.co/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1037288,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3021,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
