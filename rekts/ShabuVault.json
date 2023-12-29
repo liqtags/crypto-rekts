@@ -1,0 +1,51 @@
+{
+    "id": 200,
+    "project_name": "ShabuVault",
+    "title": "ShabuVault",
+    "description": "<p>At first, the contract deployer removed himself from the list of minters, at this transaction:<br>https://etherscan.io/tx/0x497aa751563746ef288e18efad5a0c8ec5ecc04f8e7508d5ece3976d65ab7016<br><br>However, he left an opportunity in the token smart contract that would have allowed him to reinstate himself as a minter. He invoked <u>addMinter</u> function in the following transaction:<br>https://etherscan.io/tx/0x58bcb174d2442878adad1bdaddb6ac98e7ce346b5cd9e9b8ed80c1cd06676b14</p><p><br></p><p>After doing this, the owner generated an additional 4K SHABU tokens and placed them in his wallet. The owner could increase the tax rate to 100% and put himself on the whitelist. The project exit scammed after the token contract owner drained liquidity, stealing 10 ETH. ShabuVault's website and social media are inaccessible.</p>",
+    "name_categories": "Token",
+    "token_name": "SHABU",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe2bd4670da28e7c0d90f0c7ec41b79515893a4e3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5da7f14af0.jpeg",
+    "date": "2020-11-4",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/Cff4B",
+    "website_link": "https://shabu.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://t.me/shabuvault",
+    "telegram_link": "https://t.me/shabuvault",
+    "our_post_link": "https://t.me/defiyield_ann/269",
+    "funds_lost": 4357,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 200,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
