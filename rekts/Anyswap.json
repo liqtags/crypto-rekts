@@ -1,0 +1,51 @@
+{
+    "id": 2693,
+    "project_name": "Anyswap",
+    "title": "Anyswap",
+    "description": "<p><strong>Quick Summary</strong></p><p>Anyswap cross-chain liquidity pools v3 were exploited due to a deduced private key, resulting in a loss of 2,398,496.02 USDC and 5,509,222.73 MIM.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker managed to deduce the private key to the MPC account in reverse, which allowed them to exploit Anyswap's cross-chain liquidity pools v3. The attack was performed across multiple chains including Ethereum, BSC, and Fantom.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://etherscan.io/address/0x0aE1554860E51844B61AE20823eF1268C3949f7C</p><p><br></p><p>The transactions behind the attack:</p><p><br></p><p>- Ethereum:</p><p>https://etherscan.io/tx/0xc80e7cfeb16143cba4d5fb3b192b7dbe70e9bcd5ca0348facd20bf2d05693070</p><p><br></p><p>https://etherscan.io/tx/0xecaaf8b57b6587412242fdc040bd6cc084077a07f4def24b4adae6fbe8254ae3</p><p><br></p><p>- BSC:</p><p>https://bscscan.com/tx/0xa8a75905573cce1c6781a59a5d8bc7a8bfb6c8539ca298cbf507a292091ad4b5</p><p><br></p><p>- Fantom:</p><p>https://ftmscan.com/tx/0x7312936a28b143d797b4860cf1d36ad2cc951fdbe0f04ddfeddae7499d8368f8</p>",
+    "name_categories": "Bridge",
+    "token_name": "ANY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf99d58e463a2e07e5692127302c20a191861b4d6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/619782fe962f3.jpeg",
+    "date": "2021-7-10",
+    "scam_updates": [],
+    "proof_link": "https://anyswap.medium.com/anyswap-multichain-router-v3-exploit-statement-6833f1b7e6fb",
+    "website_link": "https://anyswap.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/AnyswapNetwork",
+    "telegram_link": "https://t.me/anyswap",
+    "our_post_link": null,
+    "funds_lost": 7907718,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2693,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
