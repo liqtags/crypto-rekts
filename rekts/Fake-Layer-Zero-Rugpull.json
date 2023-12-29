@@ -1,0 +1,60 @@
+{
+    "id": 3685,
+    "project_name": "LayerZero",
+    "title": "Fake Layer Zero Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>LayerZero, a fake BEP20 token, was rugpulled on Aug 20, 2023, causing a loss of 1,045,094 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LayerZero (ZRO) is a copycat BEP20 token trading on PancakeSwap. On Aug 20, 2023, the deployer removed liquidity from the LP pool. The token was advertised on a Russian-speaking Telegram group named KryptoAtom. The stolen funds, amounting to 1,045,094 $USD worth 4,827.99 $BNB, were transferred through several EOA addresses and then swapped for $USDT. As of August 21, 2023, the funds remain at the scammer's EOA.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://bscscan.com/address/0x7Ee2fc5eEc697A9b115cA93a54Be281172955aBE</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://bscscan.com/address/0x2ebc576bc98601e755cd8edf526d20d45eb72d5e</p><p><br></p><p>- Funds Holder as of August 21, 2023:</p><p>&nbsp; https://bscscan.com/address/0xa792a4ad2f1f120a63821b6ff20fac154ead4d84</p><p><br></p><p>- Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x098ed45346b9ea641a5993c9d279a786a23079ac358bac45041e54825b2aed67</p><p><br></p><p>- Swapping Transactions:</p><p>&nbsp;https://bscscan.com/tx/0xefa6247b17f79b06f3e5fccaf071d9320f3c1e84a840857bccd1614cdb1b7352</p><p>https://bscscan.com/tx/0x1b63f44bea15e389a35ad7f15fa71aaa9cd9dc665d313c340015a7aa39cf10d2</p><p>https://bscscan.com/tx/0x3f49c12476493fbce9ab71edaf2d9aa13545e9ef300acf8989457b49f63948ff</p>",
+    "name_categories": "Token",
+    "token_name": "ZRO",
+    "proof_archive_link": "https://archive.ph/j5lS3",
+    "technical_issue": null,
+    "token_address": "0x2266362f414bf2476c5465dc2ea953fe2a99ae1c",
+    "token_addresses": [
+        {
+            "address": "0x2266362f414bf2476c5465dc2ea953fe2a99ae1c",
+            "url": "https://bscscan.com/address/0x2266362f414bf2476c5465dc2ea953fe2a99ae1c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64e32ddf2ce84.png",
+    "date": "2023-8-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1693362027371123099?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1045094,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3685,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
