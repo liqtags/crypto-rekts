@@ -1,0 +1,61 @@
+{
+    "id": 3101,
+    "project_name": "Audius",
+    "title": "Audius",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The Audius Platform got exploited by an attacker who passed a malicious proposal and voted it through by &nbsp;himself. The attacker gained 18m $AUDIO token worth $6m USD but ultimately dumped the tokens in a single transaction for $1m USD.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"></p><p style=\"margin:0cm;background:white;\">Audius is a decentralized music streaming and sharing platform that aims to empower content creators.The attacker realized an exploitable vulnerability in Audius governance, staking and delegation contracts. Due to an inconsistent storage layout between contracts, the attacker was able to re-initialize the governance contracts and redirect the ownership of the community treasury to his wallet through the malicious proposal #85.</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x4227bca8ed4b8915c7eec0e14ad3748a88c4371d4176e716e8007249b9980dc9</p><p style=\"margin:0cm;background:white;\">The attacker proceeded and dumped the ill-gotten 18,5m $AUDIO token with a massive slippage of approx. 80% on Uniswap for $1m worth of $WETH instead of potentially $6m worth of $WETH that a slower approach might have yielded&nbsp;</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/tx/0x82fc23992c7433fffad0e28a1b8d11211dc4377de83e88088d79f24f4a3f28b3.</p><p style=\"margin:0cm;background:white;\">The attacker immediately started to launder the ill-gotten funds through Tornado.Cash https://etherscan.io/address/0xa0c7bd318d69424603cbf91e9969870f21b8ab4c.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">The vulnerabilities have been patched by the team and the project has resumed to its operations.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Attackers Addresses:</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0xa0c7bd318d69424603cbf91e9969870f21b8ab4c</p><p style=\"margin:0cm;background:white;\">Attacker smart contract used for draining the community treasury</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0xbdbb5945f252bc3466a319cdcc3ee8056bf2e569</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Audius Community Treasury</p><p style=\"margin:0cm;background:white;\">https://etherscan.io/address/0x4deca517d6817b6510798b7328f2314d3003abac</p>",
+    "name_categories": "Other",
+    "token_name": "AUDIO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62de5ac7c921c.png",
+    "date": "2022-7-23",
+    "scam_updates": [],
+    "proof_link": "https://blog.audius.co/article/audius-governance-takeover-post-mortem-7-23-22, https://cointelegraph.com/news/hacker-drains-1-08m-from-audius-following-passing-of-malicious-proposal, https://cryptonews.com/news/decentralized-music-platform-audius-identifies-source-of-usd-6m-exploit-says-it-applied-a-patch.htm, https://news.coincu.com/111560-audius-was-hacked-by-a-6-million-exploit/",
+    "website_link": "https://twitter.com/AudiusProject",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/audius",
+    "our_post_link": null,
+    "funds_lost": 1086000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/audius",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3101,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Kudelski.pdf",
+            "date": "2021-10-27T00:00:00.000Z",
+            "partner": {
+                "id": 36,
+                "name": "Kudelski Security",
+                "logo_link": "safe/files/partner/logo/60dce35823eff.jpeg"
+            }
+        }
+    ]
+}
