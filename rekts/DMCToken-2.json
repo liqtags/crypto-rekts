@@ -1,0 +1,68 @@
+{
+    "id": 3219,
+    "project_name": "DMCToken",
+    "title": "DMCToken (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>DMC Token was rugpulled by the token deployer and other liquidity providers. The scammers profited 189,876 $USD in total</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DMC is a copycat BEP20 token trading on PancakeSwap, and can't be confused with other tokens with the same symbol. The token deployer removed liquidity and moved $DMC tokens to other EOA addresses which drained the liquidity and dropped the token price by more than 83%. The total profit of the scammer reached 189,876 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x094f8627495e735497673cdd762123999e2923e2</p><p>https://bscscan.com/address/0x76a52f677f2b2968340119b5c9c35a67e760e55f</p><p>https://bscscan.com/address/0x65575b6e6c799ba392e340ac443aa4e8cbcf3059</p><p>https://bscscan.com/address/0x4d7c01414e40e38079de31c3cec60edf4cc1ee73</p><p><br></p><p>Liquidity removal transactions:</p><p>https://bscscan.com/tx/0xa148f7e880f646781389c9067de31802013086c341d25ec549205c6e0ce6cb7d</p><p>https://bscscan.com/tx/0x4ad1d5ee0337910d69940d3b317eded040946c0667faf60cd8d9035747039cee</p><p>https://bscscan.com/tx/0x82f172866250a90b7c5dd5bf367ed89eb80311ae785bad9f0e24bcb0c28507b9</p>",
+    "name_categories": "Token",
+    "token_name": "DMC",
+    "proof_archive_link": "https://archive.ph/7xYW4",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x256B001173111d632E87E6812fe9C23272D29600",
+    "token_addresses": [
+        {
+            "address": "0x256B001173111d632E87E6812fe9C23272D29600",
+            "url": "https://bscscan.com/address/0x256B001173111d632E87E6812fe9C23272D29600",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x101c47df8ffb7d03761312bc7d46cd22269fc8a6",
+            "url": "https://bscscan.com/address/0x101c47df8ffb7d03761312bc7d46cd22269fc8a6",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6348042e41c0d.png",
+    "date": "2022-10-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1579534265426923522",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 189876,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3219,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
