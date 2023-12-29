@@ -1,0 +1,60 @@
+{
+    "id": 3231,
+    "project_name": "GeoDB",
+    "title": "GeoDB",
+    "description": "<p><strong>Quick Summary</strong></p><p>GeoDB project was exploited due to the vulnerability of minting functionality. The attacker didn't perform any actions with newly minted tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GeoDB is a decentralized big data protocol on the Ethereum and the Binance chain. The project was exploited, the attacker used deployed smart contract to mint 10,000,000,000,000,000 $BGEO tokens. The project team moved all the liquidity from the Binance chain and the protocol is currently on maintenance. The attacker didn't perform any actions using newly minted tokens, which remain on the original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xde01f6ce91e4f4bdb94bb934d30647d72182320f</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x4760fe83d891dae46950c98af3f795e1c2d637a3</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x2673936a1191a35c24b60dd697644c953da321b4395b836439faa319b8335886</p>",
+    "name_categories": "Other",
+    "token_name": "BGEO",
+    "proof_archive_link": "https://archive.ph/JCuvW, https://archive.ph/w1fYk",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc342774492b54ce5f8ac662113ed702fc1b34972",
+    "token_addresses": [
+        {
+            "address": "0xc342774492b54ce5f8ac662113ed702fc1b34972",
+            "url": "https://bscscan.com/address/0xc342774492b54ce5f8ac662113ed702fc1b34972",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635120b4a28ac.png",
+    "date": "2022-10-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1582892058800685058, https://twitter.com/data_verse/status/1582820158699343873",
+    "website_link": "https://geodb.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/data_verse",
+    "telegram_link": "https://t.me/GeoDataBlock",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/KWudZCCUcm",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3231,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
