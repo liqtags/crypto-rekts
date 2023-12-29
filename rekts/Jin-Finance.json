@@ -1,0 +1,51 @@
+{
+    "id": 260,
+    "project_name": "Jin Finance",
+    "title": "Jin Finance",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer removed initial liquidity at:<br>https://etherscan.io/tx/0x55a99c66939687dd030bc5787f93ff6e375db043a76a4612bbddf1b087c60e2a</p>",
+    "name_categories": "Token",
+    "token_name": "JIN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x704d4bDcA652a85BFd7b56049DF57bBbC0b5FdEc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d617969be46.png",
+    "date": "2020-12-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1335819936074092545",
+    "website_link": "https://jin.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201101040148/https://jin.finance/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/Jin_Finance",
+    "our_post_link": null,
+    "funds_lost": 277,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 260,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
