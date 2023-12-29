@@ -1,0 +1,95 @@
+{
+    "id": 2999,
+    "project_name": "FEGtoken",
+    "title": "FEGtoken",
+    "description": "<p>The lack of validation of assets in the swap function contributed to the attacker taking advantage of this vulnerability, and to pull off a flash loan attack.<br><br>Attacker address (BSC): https://bscscan.com/address/0x73b359d5da488EB2E97990619976F2f004e9fF7C</p><p>Attacker address (ETH): https://etherscan.io/address/0x73b359d5da488EB2E97990619976F2f004e9fF7C</p><p>Attacker contract address (BSC): https://bscscan.com/address/0x9a843bb125a3c03f496cb44653741f2cef82f445</p><p>Attacker contract address (ETH):https://etherscan.io/address/0x9a843bb125a3c03f496cb44653741f2cef82f445</p><p><br></p><p>One of the attacker transaction on BSC: https://bscscan.com/tx/0xe4b03c4a0fdb6db8689e5e968d3994b145a6fe77bb9338bc4d3f86e08ee1355b</p><p>Attacker transaction on ETH: https://etherscan.io/tx/0x03bd0cfcec668d95cadec7dedde701761f30aef6271e3d5733dc35d40a07188f<br><br>Total losses: $1.5M</p>",
+    "name_categories": "Token",
+    "token_name": "FEG",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x389999216860ab8e0175387a0c90e5c52522c945",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6283f38d794ff.png",
+    "date": "2022-5-15",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://fegtoken.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FEGtoken",
+    "telegram_link": "https://t.me/fegchat",
+    "our_post_link": null,
+    "funds_lost": 1500000,
+    "funds_returned": 0,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "1",
+                "name": "Ethereum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "200000",
+                    "date": "2022-05-15"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "56",
+                "name": "Binance"
+            },
+            "funds": {
+                "lost": {
+                    "value": "1300000",
+                    "date": "2022-05-15"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2999,
+            "networks": {
+                "id": 1,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        },
+        {
+            "networks_id": 56,
+            "scam_database_id": 2999,
+            "networks": {
+                "id": 56,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/solidity_finance_audits_FEG.pdf",
+            "date": "2021-04-03T00:00:00.000Z",
+            "partner": {
+                "id": 9,
+                "name": "Solidity Finance",
+                "logo_link": "safe/files/partner/logo/6095222b6414c.jpeg"
+            }
+        }
+    ]
+}
