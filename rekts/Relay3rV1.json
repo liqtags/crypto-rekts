@@ -1,0 +1,51 @@
+{
+    "id": 128,
+    "project_name": "Relay3rV1",
+    "title": "Relay3rV1",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xe54c922ea70a2812b9306c29210249993b98100cc5468c928ddcc3844b1f5146<br><br>The liquidity was removed multiple times by the contract deployer:<br>https://bloxy.info/ru/txs/references_address/0xaa9e20bab58d013220d632874e9fe44f8f971e4d?argument=to&amp;signature_id=1111734</p>",
+    "name_categories": "Token",
+    "token_name": "RL3R",
+    "proof_archive_link": "https://archive.ph/BuSGX",
+    "technical_issue": null,
+    "token_address": "0xf771733a465441437ecf64ff410e261516c7c5f3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b573bc38b.png",
+    "date": "2020-11-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/WARONRUGS/status/1325926361987420160",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/BuSGX",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8222,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 128,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
