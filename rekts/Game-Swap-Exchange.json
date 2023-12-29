@@ -1,0 +1,51 @@
+{
+    "id": 160,
+    "project_name": "Game Swap Exchange",
+    "title": "Game Swap Exchange",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Game Swap Exchange project exploited its investors through minting and dumping the $GAME token for $ETH, netting the scammer $ETH 16 in the process.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Game Swap Exchange project existed for 1 day after launching. The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x67abd476012f072f521301fc4e55c11006c96001e3c452bcb283d768bb202758<br>The contract deployer then used a hidden backdoor mechanism by using the minting functionality under the <u>approveAndCall</u>() function to generate new tokens onto this external address at:<br>https://etherscan.io/tx/0x179c0c4146440e71cbf353353c664e7b4730475ddf91b0b02d61a56e31a099c8</p><p>At this point it is important to state that investors without technical knowledge could have spotted a massive centralization risk with the external wallet holding +99% of the token supply:</p><p>https://etherscan.io/token/0x681b24478e9f7e31ee3b5b7f807c9151e46aa165#balances<br><br>The token recipient sold the minted tokens for $ETH 28,4, which meant the end for the project:<br>https://etherscan.io/tx/0x2bc2c0d42bb22c36c70123179b2be5da9c4ef2653347183a5a396a431655c56f</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Project Deployer Address (Scammer):</p><p>https://etherscan.io/address/0x8c848be2790a535c5770af217f1e1b7739e4897b</p><p><br></p><p>Scammer Address that received the minted tokens:</p><p>https://etherscan.io/address/0x0659f3520590a4d39546975b8e56b2ef164c194d</p>",
+    "name_categories": "Token",
+    "token_name": "GAME",
+    "proof_archive_link": "https://archive.ph/82pha",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x681b24478e9f7e31ee3b5b7f807c9151e46aa165",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f04f4e03244.png",
+    "date": "2021-1-24",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://gameswap.exchange/",
+    "webarchive_link": "https://web.archive.org/web/20210121033307/https://gameswap.exchange/",
+    "twitter_link": "https://twitter.com/gameswapdefi",
+    "telegram_link": "https://t.me/gameswapdefi",
+    "our_post_link": null,
+    "funds_lost": 22796,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 160,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
