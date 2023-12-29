@@ -1,0 +1,51 @@
+{
+    "id": 2657,
+    "project_name": "ApeRocket",
+    "title": "ApeRocket",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x53d07afa123702469ab6cf286e9ff7033a7eff65<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0x701a308fba23f9b328d2cdb6c7b245f6c3063a510e0d5bc21d2477c9084f93e0<br><br>The attacker:<br>- borrowed 1.6M CAKE ($21.8M) of flash loan from PancakeSwap<br><br>- added 509K CAKE of deposit to the CAKE vault. Got the majority share (99.5%) of the vault<br><br>- sent 1.1M CAKE to the CAKE vault contract<br><br>- called <u>harvest</u>() and <u>getReward</u>() on the CAKE vault<br><br>- with the rather large amount of CAKE token in the wallet balance of the vault contract (sent by the hacker at step 3), it returned a large amount of profit. As a result, the system minted 508K SAPCE as a reward to the attacker<br><br>- repeated one more time<br><br>- swapped the rewarded SPACE token to CAKE, repaid the flash loan<br><br>- taken out 883 BNB.<br><br>By delivering a large number of CAKE tokens to the vault and calling harvest(), the profit amount for everyone in the vault is increased. Despite the fact that the hacker owns the bulk of the vault, virtually all of the earnings will be returned to the hacker.</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "SPACE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xe486a69e432fdc29622bf00315f6b34c99b45e80",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61548a57ccbe3.jpeg",
+    "date": "2021-7-14",
+    "scam_updates": [],
+    "proof_link": "https://aperocket.medium.com/moving-forward-24b9ae22c428, https://watchpug.medium.com/aperocket-finance-performance-fee-minting-incident-root-cause-analysis-b959c1e963ba",
+    "website_link": "https://bsc.aperocket.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ApeRocketFi",
+    "telegram_link": "https://t.me/ApeRocketNews",
+    "our_post_link": null,
+    "funds_lost": 260000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2657,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
