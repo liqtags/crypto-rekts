@@ -12,7 +12,10 @@ def rekt_loop(items):
     for item in items:
         # download image
         markdownLogo = consts.imageBaseUrl + item['logo_link']
-        slugged_name = item['project_name'].replace(" ", "-")
+        # Bitrue (2)
+        slugged_name = item['title'].replace(" ", "-")
+        slugged_name = slugged_name.replace("(", "")
+        slugged_name = slugged_name.replace(")", "")
         slugged_name = slugged_name.replace("/", "-")
         project_name = item['project_name']
         # save item to json file, nicely formatted
