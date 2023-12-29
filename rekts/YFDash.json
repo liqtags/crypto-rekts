@@ -1,0 +1,51 @@
+{
+    "id": 88,
+    "project_name": "YFDash",
+    "title": "YFDash",
+    "description": "<p>On the main website, there was false information concerning collaboration with Lloyds Bank. The YFDash project used the same token ticker as the legitimate YfDFI Finance to confuse the audience. The project team promised that it would be listed on Uniswap immediately following the token sale event. The token contract deployer created 20K tokens, of which 4K were transferred to an EOA wallet and 2318 were exchanged for 103 ETH:<br>https://etherscan.io/tx/0x1158acdb34543b6c864f47ea91a52ce1591660aeb7855e4541979562097c3ca6<br><br>The project's website is no longer operational, and its Twitter account has been deactivated.</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "YFD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x8a0c8b80d2232514b0ff426f7aae4bd99fc521b6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df167fb2996.png",
+    "date": "2020-12-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/UniswapD/status/1339220026704924672",
+    "website_link": "https://yfdash.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201202024641/https://yfdash.finance/en/your-money-your-way/",
+    "twitter_link": "https://twitter.com/YfDash",
+    "telegram_link": "https://t.me/yfdash",
+    "our_post_link": "https://t.me/defiyield_ann/297",
+    "funds_lost": 61000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 88,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
