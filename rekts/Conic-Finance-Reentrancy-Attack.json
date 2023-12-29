@@ -1,0 +1,61 @@
+{
+    "id": 3606,
+    "project_name": "Conic Finance",
+    "title": "Conic Finance Reentrancy Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Conic Finance on Ethereum was exploited due to a reentrancy issue, resulting in a loss of 3,254,850 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Conic Finance is a protocol for liquidity providers on Curve pools. The project fell victim to a reentrancy attack due to a wrong assumption about the address returned by the Curve Meta Registry for ETH in Curve V2 pools. As a result, 1,724 $ETH equivalent to approximately 3,254,850 $USD were stolen and transferred to another EOA, where they currently remain.</p><p><br></p><p>Interestingly, there was an unsuccessful attack attempt 10 minutes before the successful attack. A transaction was marked as read-only reentrancy. Conic has reached out to the exploiter via a transaction sent from the official Conic Multisig address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x8D67db0b205E32A5Dd96145F022Fa18Aae7DC8Aa</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x3d32c5a2e592c7b17e16bddc87eab75f33ae3010</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x8b74995d1d61d3d7547575649136b8765acb22882960f0636941c44ec7bbe146</p><p><br></p><p>Unsuccessful Attack Attempt:<br><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/</span>0x97a8315e942dd180fb90a17b92f7dabd6e8a2e5b9fd5e4a95ee4049ff33d2f16</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/xBrAP, https://archive.ph/DdQvk",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64bb02e6c60fb.jpg",
+    "date": "2023-7-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/ConicFinance/status/1682385596700844032, https://twitter.com/BlockSecTeam/status/1682346827939717120",
+    "website_link": "https://conic.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ConicFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3254850,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/ConicFinance",
+    "git_hub_contract_link": "https://github.com/ConicFinance/protocol/tree/main/contracts",
+    "discord": "https://discord.com/invite/vzhgyTP6Rp",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3606,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/PeckShield_Audit_Report_ConicFinance.pdf",
+            "date": "2023-02-03T00:00:00.000Z",
+            "partner": {
+                "id": 12,
+                "name": "PeckShield Inc.",
+                "logo_link": "safe/files/partner/logo/6095235554623.jpeg"
+            }
+        }
+    ]
+}
