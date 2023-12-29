@@ -1,0 +1,51 @@
+{
+    "id": 3051,
+    "project_name": "Gooniez Gang",
+    "title": "Gooniez Gang",
+    "description": "<p>Gooniez Gang discord has been hacked. 16 NFTs stolen with a total floor price of roughly 6.634 ETH. Hacker hacked discord of @MoonboyMoe (https://twitter.com/MoonboyMoe/status/1535813390798663681), and sent a phishing link. Discord is not available for now.</p><p><br></p><p>Contract address: https://etherscan.io/address/0x18cd9fda7d584401d04e30bf73fb0013efe65bb0</p><p><br></p>",
+    "name_categories": "Gaming / Metaverse,NFT",
+    "token_name": "GG",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1535814518252642304, https://twitter.com/MoonboyMoe/status/1535813390798663681",
+    "technical_issue": null,
+    "token_address": "0x18cD9fDa7d584401D04E30bf73FB0013EfE65bb0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a76dc6b1789.jpeg",
+    "date": "2022-6-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/GooniezNFT/status/1536072358963859459",
+    "website_link": "https://gooniezgang.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GooniezNFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 9700,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/gooniez",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3051,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
