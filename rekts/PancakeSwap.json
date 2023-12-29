@@ -1,0 +1,51 @@
+{
+    "id": 2761,
+    "project_name": "PancakeSwap",
+    "title": "PancakeSwap",
+    "description": "<p>Bad actors took advantage of a flaw in the connection between the MasterChef contract and the SyrupBar contract. Previously, when CAKE was staked, an equivalent number of SYRUP tokens were created. The SYRUP tokens would be burnt once the CAKE was unstaked and withdrawn. The exact attack here was that if a user invoked the MasterChef contract's emergencyWithdraw method to withdraw their staked CAKE, the related SYRUP tokens were not burned as planned. This enabled malicious actors to mint additional SYRUP tokens using their CAKE tokens on a regular basis.<br><br>Because there were much more SYRUP tokens in circulation than was permitted, the bad actors received a larger share of Syrup Pool rewards.&nbsp;</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "CAKE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e043cc71e3b.jpeg",
+    "date": "2020-11-3",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/pancakeswap/update-on-the-syrup-incident-8f54bf5c054d, https://www.bsc.news/post/pancakeswap-emergency-brake-on-syrup-pools",
+    "website_link": "https://pancakeswap.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PancakeSwap",
+    "telegram_link": "https://t.me/pancakeswap",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/pancakeswap/",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/pancakeswap",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2761,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
