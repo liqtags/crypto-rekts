@@ -1,0 +1,78 @@
+{
+    "id": 3124,
+    "project_name": "Dragoma",
+    "title": "Dragoma",
+    "description": "<p><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;\">Play-to-earn game Dragoma was rug pulled by its team, for $3,500,000 $USD.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">Dragoma is an application with built-in GameFi and SocialFi elements. In the game, users were invited to form dragon training teams and receive rewards for their breeding, training, and competitions.</p><p data-v-51e0c2ec=\"\">The project team drained the funds of its investors and withdrew the funds to a centralized exchange. The initial token holder EOA drained the pools after receiving 38,000,000 $DMA tokens from the project's vault contract with unverified source code. The token transfer transaction was initiated by the token deployer. As soon as they closed the project without announcing their community, they doubled the suspicion that the project is a scam by deleting their website, as well as all social networks. As the news about the scam spread among the community, the price of the token itself also collapsed, falling to 99%.</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\"><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Attacker address:</p><p data-v-51e0c2ec=\"\">https://polygonscan.com/address/0x4c0ce1c7d8f51fd2878c01806385f0c647db595d</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\">Vault contract:</p><p data-v-51e0c2ec=\"\">https://polygonscan.com/address/0xcec6540bf275328d962ea02e5e0fdff504cb3929</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\">Token transfer transaction:</p><p data-v-51e0c2ec=\"\">https://polygonscan.com/tx/0x70ce1369d3b7f95d872e65d1d38786889a958e12c7cfe7933e4d9559437129d2</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\">Drain transaction example:</p><p data-v-51e0c2ec=\"\">https://polygonscan.com/tx/0x7bbe8cc7ccc635b8e66ba47d757a51c61aad2ad423a6e3c85806c21bdb348c30</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "DMA",
+    "proof_archive_link": "https://web.archive.org/web/20220808015145/https://twitter.com/PeckShieldAlert/status/1556457893524033538",
+    "technical_issue": null,
+    "token_address": "https://polygonscan.com/token/0x16dfb898cf7029303c2376031392cb9bac450f94",
+    "token_addresses": [
+        {
+            "address": "0x16dfb898cf7029303c2376031392cb9bac450f94",
+            "url": "https://polygonscan.com/address/0x16dfb898cf7029303c2376031392cb9bac450f94",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        },
+        {
+            "address": "0xcec6540bf275328d962ea02e5e0fdff504cb3929",
+            "url": "https://polygonscan.com/address/0xcec6540bf275328d962ea02e5e0fdff504cb3929",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/62f504ba13641.png",
+    "date": "2022-8-7",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/business/2022/08/08/polygon-based-web3-game-dragoma-supporters-fall-victim-to-35m-rug-pull-peckshield/, https://www.cryptotimes.io/web3-game-dragomas-supporters-fall-victim-to-3-5m-rug-pull-scam/, https://cryptopotato.com/polygon-based-dragoma-rug-pulled-dma-dumps-99/",
+    "website_link": "https://dragoma.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dragoma_club",
+    "telegram_link": "https://t.me/dragoma_FI",
+    "our_post_link": null,
+    "funds_lost": 3500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3124,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Dragoma_Standard_Smart_Contract_Audit.pdf",
+            "date": "2022-06-01T00:00:00.000Z",
+            "partner": {
+                "id": 83,
+                "name": "Soken",
+                "logo_link": "safe/files/partner/logo/613a7086a031a.jpeg"
+            }
+        }
+    ]
+}
