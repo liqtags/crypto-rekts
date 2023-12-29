@@ -1,0 +1,60 @@
+{
+    "id": 3737,
+    "project_name": "L7 DEX",
+    "title": "LSD7 Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>LSD7 token project experienced an exit scam rugpull, with the scammer depleting the liquidity pool and causing a loss of 160,866 USD worth 761.63 WBNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LSD7 is a BEP20 token trading on PancakeSwap. The deployer renounced ownership after creating the token, possibly to facilitate a later hack. The scammer (0x2FbE92...46454f14) minted a significantly larger number of tokens and then rug pulled by selling 1,000,000,000,000,000 $LSD7, completely depleting the liquidity pool. The stolen funds were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x03d083269b26Cbf3747990321414EeeEF7438fD1</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x2FbE92F9D53042eF9cfF772F1DFcbbfC46454f14</p><p>https://bscscan.com/address/0xFcCe0c3Bb275e06557a99dDF1c312a6BDB8FD2d4</p><p>https://bscscan.com/address/0x17F06EC1D6D066769Bc3beEbe5B1Dab710a47831</p><p><br></p><p>Draining Transaction:</p><p>https://bscscan.com/tx/0x3f1fb13bc73d5c21ba4495a51a347e7d7870aca02f27c251c6896f106dbd68de</p>",
+    "name_categories": "Token",
+    "token_name": "LSD7",
+    "proof_archive_link": "https://archive.li/uLLXx",
+    "technical_issue": null,
+    "token_address": "0x8b1d897aE48a0F6ee118eAE829F2c1C8D48e44B7",
+    "token_addresses": [
+        {
+            "address": "0x8b1d897ae48a0f6ee118eae829f2c1c8d48e44b7",
+            "url": "https://bscscan.com/address/0x8b1d897ae48a0f6ee118eae829f2c1c8d48e44b7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6532b5febec3b.png",
+    "date": "2023-10-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AegisWeb3/status/1714838580101779691",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 160866,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3737,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
