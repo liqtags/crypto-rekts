@@ -1,0 +1,51 @@
+{
+    "id": 2732,
+    "project_name": "Evolved Apes",
+    "title": "Evolved Apes",
+    "description": "<p>A week after the project launch, the anonymous developer is known as Evil Ape vanished along with the project\u2019s official Twitter account and website.<br><br>Funds gathered on the NFT sale:<br>https://etherscan.io/address/0x233a65b06ef83ccf2fd58832086dd782f9da1642#internaltx<br><br>798.07 ETH was distributed between external wallets at:<br>https://etherscan.io/tx/0x573da368dee59749f25868f846473e2344b05684945465d65185832c89f803e9<br>https://etherscan.io/tx/0xa966f3a36a5fd55a668ffe97600d7f26459e756280d894aab25baf1404957be5</p>",
+    "name_categories": "NFT",
+    "token_name": "EVA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x233a65b06ef83ccf2fd58832086dd782f9da1642",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61ba217a88dc2.png",
+    "date": "2021-10-6",
+    "scam_updates": [],
+    "proof_link": "https://www.vice.com/en/article/y3dyem/investors-spent-millions-on-evolved-apes-nfts-then-they-got-scammed",
+    "website_link": "https://www.evolvedapes.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/evolvedapesnft",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2339031,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/evolvedapes",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2732,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
