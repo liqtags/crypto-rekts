@@ -1,66 +1,58 @@
 {
-    "id": 3300,
+    "id": 3253,
     "project_name": "Rubic",
     "title": "Rubic",
-    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">USDC balances of Rubic\u2019s users have been drained. The current losses reached $1.42M.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">All USDC approved to the RubicProxy contract got under the risk of being drained after the USDC address was added into the list of available routers in the RubicProxy contract.</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Through the routerCallNative() &nbsp;function, the attacker could call safeTransferFrom() on the USDC contract inputting user addresses, which have approved their USDC balances to be spent by RubicProxy, as the \u201cfrom\u201d parameter.&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Block Data Reference&nbsp;</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The attacker address:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9\" style=\"text-decoration:none;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#1155cc;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/address/0x001b91c794dfeecf00124d3f9525dd32870b6ee9</span></a><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The exploit transactions:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x9a97d85642f956ad7a6b852cf7bed6f9669e2c2815f3279855acf7f1328e7d46</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x6551b933b984342fd353d4b522aee7db500900e208dc1337b0c1f17647e36e56</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The \u201cadd available router \u201d transaction:</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><a href=\"https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Georgia;color:#1155cc;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">https://etherscan.io/tx/0x30679e7b6b410fb78368f5fb6e4c203e44d81c66ae9014c797e40856be1bbe66</span></a><span style=\"font-size:12pt;font-family:Georgia;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p>",
-    "name_categories": "Exchange (DEX)",
-    "token_name": "RBC",
-    "proof_archive_link": null,
+    "description": "<p><strong>Quick Summary</strong></p><p>Rubic platform was exploited for 79,670 $USD. The attacker compromised private keys and transferred funds to an EOA address.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Rubic is a DEX aggregator and multichain bridge. The project's wallet on the Binance Chain was exploited via access control. The attacker took 79,670 $USD worth of assets including $BRBC, $BNB, and several stablecoins. All the stolen funds remain on the attacker's EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xd2d113d7b5c4f8fb4a68ceda26f894f0fe25f24a</p>",
+    "name_categories": "Bridge,Exchange (DEX)",
+    "token_name": "BRBC",
+    "proof_archive_link": "https://archive.ph/xKMGL",
     "technical_issue": null,
-    "token_address": "0x3330BFb7332cA23cd071631837dC289B09C33333",
+    "token_address": "https://bscscan.com/token/0x8e3bcc334657560253b83f08331d85267316e08a",
     "token_addresses": [
         {
-            "address": "0x3335A88bb18fD3b6824b59Af62b50CE494143333",
-            "url": null,
+            "address": "0x105A3BA3637A29D36F61c7F03f55Da44B4591Cd1",
+            "url": "https://bscscan.com/address/0x105A3BA3637A29D36F61c7F03f55Da44B4591Cd1",
             "network": {
-                "id": 1,
-                "icon_link": "safe/files/network/involved/ethereum.svg"
-            }
-        },
-        {
-            "address": "0x253dD81d642220267ccAc1d8202c0B96a92b299e",
-            "url": null,
-            "network": {
-                "id": 1,
-                "icon_link": "safe/files/network/involved/ethereum.svg"
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
             }
         }
     ],
-    "logo_link": "safe/files/scamDatabase/logo/63ad501e9bd51.png",
-    "date": "2022-12-25",
+    "logo_link": "safe/files/scamDatabase/logo/63626dc532b7c.png",
+    "date": "2022-11-2",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/CryptoRubic/status/1606951013449097218, https://twitter.com/peckshield/status/1606937055761952770",
+    "proof_link": "https://twitter.com/CryptoRubic/status/1587704890800889858",
     "website_link": "https://rubic.exchange/",
-    "webarchive_link": "https://archive.ph/IBLLe, https://archive.ph/0Xdhe",
+    "webarchive_link": null,
     "twitter_link": "https://twitter.com/CryptoRubic",
-    "telegram_link": null,
+    "telegram_link": "https://t.me/cryptorubic_chat",
     "our_post_link": null,
-    "funds_lost": 1420000,
+    "funds_lost": 79670,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
     "active": 1,
-    "git_hub": null,
+    "git_hub": "https://github.com/Cryptorubic",
     "git_hub_contract_link": null,
-    "discord": null,
+    "discord": "https://discord.gg/7EYzPbWKFQ",
     "bug_bounty_program_link": null,
     "bug_bounty_program_company": null,
     "audit_code_conf": null,
-    "is_verified_source_code": 1,
-    "is_public_team": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
     "scam_type": {
-        "id": 19,
-        "type": "Other"
+        "id": 9,
+        "type": "Access Control"
     },
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 1,
-            "scam_database_id": 3300,
+            "networks_id": 56,
+            "scam_database_id": 3253,
             "networks": {
-                "id": 1,
-                "name": "Ethereum",
-                "icon_link": "safe/files/network/ethereum.png"
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
             }
         }
     ],
