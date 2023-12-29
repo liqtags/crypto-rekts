@@ -1,0 +1,60 @@
+{
+    "id": 3484,
+    "project_name": "Pervasive Information Community Organization",
+    "title": "Pervasive Information Community Organization",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 7th of April PICO on the BSC chain was rugged for approx 112k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The PICO protocol fell victim to a liquidity removal scam by the team responsible for managing liquidity. The contract deployer removed a significant amount of LP and dumped the token, causing it to fall by about 90% from its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0xe29addad3d27f51017febdcc154a0f558a239ec7</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0x9650dbdef4d47b7a54df84e91501e86030b71459cf02bee1da15ff4a2e280a8e</p><p>https://bscscan.com/tx/0x9650dbdef4d47b7a54df84e91501e86030b71459cf02bee1da15ff4a2e280a8e</p>",
+    "name_categories": "Token",
+    "token_name": "PICO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xE455228Ead628c6caDE249929De58D7cF41130cF",
+    "token_addresses": [
+        {
+            "address": "0xE455228Ead628c6caDE249929De58D7cF41130cF",
+            "url": "https://bscscan.com/address/0xE455228Ead628c6caDE249929De58D7cF41130cF",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e8fe68741d.png",
+    "date": "2023-4-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1644394005210202119?s=46&t=DefKAWsE5N91p9nzDiwo6A",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 112000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3484,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
