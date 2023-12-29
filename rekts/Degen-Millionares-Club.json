@@ -1,0 +1,60 @@
+{
+    "id": 3353,
+    "project_name": "Degen Millionares Club",
+    "title": "Degen Millionares Club",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Degen Millionaires Club lost about 60 $BNB due to a flaw in their smart contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Degen Millionaires Club is a token sniper project on the Binance chain. The project's token DMC is trading on PancakeSwap. On February 5, 2023, the Degen Millionaires Club project was hacked, which allowed free minting for any external caller.</p><p>During the investigation of the attack, it was discovered that the access restriction to mintFromStaking() had been seriously breached, allowing any caller to mine any number of tokens to their address.</p><p>Taking advantage of the lack of access control, the first attacker created 8,232,474 $DMC tokens and managed to sell 56.7 $BNB which equals 17,256 $USD. The attacker used malicious contract deployment with unverified source code to perform the actions below. The second attacker also created 32,409,804 $DMC tokens and sold far fewer tokens worth 686 $USD equivalent to 2.25 $BNB. They exchanged them for $BNB equivalents via PancakeSwap. The total amount stolen cost the owners of the Degen Millionaires Club about 60 $BNB. The project was informed of the compromise and restarted the project.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker\u2019s address:</p><p>https://bscscan.com/address/0x8faa29efb03ce3eaacc695bc5d68fcb1f4e13df3</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xf91c9741c5a1f36b5d788e61f0cd27466f7a6dc4</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x80bc0251cd8eb0303c8144d96f3283991736b1afd98bbcb0065c7594ed8b1d47</p>",
+    "name_categories": "Other,Token",
+    "token_name": "DMC",
+    "proof_archive_link": "https://archive.ph/tT2Bm, https://archive.ph/FOwAY",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xa176c5288f6da30dd481a7050f0432b5b3745015",
+    "token_addresses": [
+        {
+            "address": "0xa176c5288f6da30dd481a7050f0432b5b3745015",
+            "url": "https://bscscan.com/token/0xa176c5288f6da30dd481a7050f0432b5b3745015",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fcaa0ce3f47.jpg",
+    "date": "2023-2-5",
+    "scam_updates": [],
+    "proof_link": "https://blog.solidityscan.com/dmc-hack-analysis-free-mint-vulnerability-f280c96c3817, https://medium.com/@degenmillionairesclub/dmc-exploit-5th-february-2023-465972b76e2f",
+    "website_link": "https://degensniper.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DegenClub_DMC",
+    "telegram_link": "https://t.me/DegenMillionairesClub",
+    "our_post_link": null,
+    "funds_lost": 17259,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3353,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
