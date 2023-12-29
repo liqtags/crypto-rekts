@@ -1,0 +1,68 @@
+{
+    "id": 3586,
+    "project_name": "Smurfs Coin",
+    "title": "Smurfs Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>Smurfs Coin was rugpulled by the deployer, draining liquidity worth 365,524 $USD from the UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Smurfs Coin, an ERC20 token, experienced an exit scam as its deployer sold approximately 80 billion $SMURFS tokens for 186.47 $ETH, equating to around 365,524 $USD, thus draining all the liquidity from the UniSwap pool. A part of the stolen funds was then swapped for 218,943 $USDT, while the remaining was kept as $ETH. All the funds are currently located in the scammer's original EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xb79c812900334f8bd437E11A59FC3d1c5B4fDDBF</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://etherscan.io/tx/0xfc0479902fa3dce08ee8a73a99746c1c00bea710f66f5e29d14d28591d91ad1d</p>",
+    "name_categories": "Token",
+    "token_name": "Smurfs",
+    "proof_archive_link": "https://archive.ph/0fPzO",
+    "technical_issue": null,
+    "token_address": "0x5F250ed62CF3E5cF25F4F370d35D04782b0678a3",
+    "token_addresses": [
+        {
+            "address": "0x5F250ed62CF3E5cF25F4F370d35D04782b0678a3",
+            "url": "https://etherscan.io/token/0x5F250ed62CF3E5cF25F4F370d35D04782b0678a3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x71F55A6187e58fd4C797B3b07299d05b76Beb716",
+            "url": "https://etherscan.io/address/0x71F55A6187e58fd4C797B3b07299d05b76Beb716",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64a40a0a93d4e.png",
+    "date": "2023-6-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1674625602257580032?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SmurfsCoin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 365524,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3586,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
