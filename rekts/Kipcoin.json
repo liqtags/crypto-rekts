@@ -1,0 +1,51 @@
+{
+    "id": 2936,
+    "project_name": "Kipcoin",
+    "title": "Kipcoin",
+    "description": "<p>The Chinese Bitcoin exchange Kipcoin announced that it lost some or all of its user\u2019s bitcoins and will temporarily be shutting down. The exchange claimed to have lost over 3000 bitcoins in the hack. The announcement was made on the site\u2019s Weibo page.<br><br>The hacker apparently gained access to Kipcoin\u2019s server back in May and downloaded the wallet.dat file at that time. For months, according to Kipcoin, the hacker did nothing with the funds before beginning to move them in December 2014. It is not clear why the site didn\u2019t secure its funds at that time.<br><br>The addresses Kipcoin claimed belong to the hacker:<br><br>1Chg6NxMeTcZ3DQvYA9gocjU4RQwH1LtKD</p><p>18zf9CWe4uBy8BesHU3BWqjpibDRRBoPLD</p><p>1MYkHXvnWuZ5FaMJkNv4uCLoVC2Ztp2DXK</p><p>152BSsbpcGMdj9WBGHq3wXHgJVuqQCs4aJ</p><p>16j131w3cvkdAc13sg5nREMiiJj3zoRw5n</p><p>16qHXy4RDeek56mNDN84d2F6niE96taQso</p><p>175L5Sx81dZZBureP8RtLUyUXoruVdAj1E</p><p>17ZJ1sqDRxq7oRVrnNLxoyrvHrtrjtPRfp</p><p>17amdMD8JJPcipWqUEwzEtsAuYu1FzkVtg</p><p>181qVdiaCcJmzGJV9PEobeYYnkC25PyJdT</p><p>18ncsALSWGWRG3JK6yio4PXoiWBbvxAxng</p><p>1XgAzaQEe9iDEohWCmdNXSH8XZ74uLBnd</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624e05952bd17.png",
+    "date": "2015-2-18",
+    "scam_updates": [],
+    "proof_link": "https://coinjournal.net/news/chinese-exchange-kipcoin-hacked/",
+    "website_link": "https://kipcoin.com/",
+    "webarchive_link": "https://web.archive.org/web/20140414030418/https://kipcoin.com/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 721000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2936,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
