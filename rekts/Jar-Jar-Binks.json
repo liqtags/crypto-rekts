@@ -1,0 +1,68 @@
+{
+    "id": 3594,
+    "project_name": "Jar Jar Binks",
+    "title": "Jar Jar Binks",
+    "description": "<p><strong>Quick Summary</strong></p><p>Jar Jar Binks token deployer performed a rugpull, leading to a loss of 144,881 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Jar Jar Binks, an ERC20 token, experienced a rugpull by its deployer. The deployer removed all available liquidity from the UniSwap pool for 78.1 $ETH, which was worth around 144,881 $USD at the time of the incident. The funds were then transferred to another EOA and subsequently deposited into TornadoCash. Note that the token shouldn't be confused with other similar tokens with the same token symbol or token name.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xac6481186Fe3F7f675aBBDdd408251A05015321b</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xb57bc0a15a476a55dd45e7cd395353597352c2cd0de278c018705ec400966370</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0x514a9697c6c20ea1cdd225c82d7ec4d5f422db8bf5d23ddf4f72dd6b68686523</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://etherscan.io/tx/0x4b437c0a2c5f3680401cea41b3c0dd022c09f1b8aba808d35cf11f4e3532579b</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "JAR",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1ee508008b30248ac6b077df6904cfca4c63785b",
+    "token_addresses": [
+        {
+            "address": "0x1ee508008b30248ac6b077df6904cfca4c63785b",
+            "url": "https://etherscan.io/token/0x1ee508008b30248ac6b077df6904cfca4c63785b",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xa19252c253FceD6DB4E77a2C48ea67CF73553476",
+            "url": "https://etherscan.io/address/0xa19252c253FceD6DB4E77a2C48ea67CF73553476",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64abd3d5d1316.png",
+    "date": "2023-7-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cyversalerts/status/1678315077550714880",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Jarjarrbinkss",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 144881,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3594,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
