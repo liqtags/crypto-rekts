@@ -1,0 +1,60 @@
+{
+    "id": 3328,
+    "project_name": "YieldRobot",
+    "title": "YieldRobot",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Yield Robot contract on the Binance Smart Chain was rug pulled with a profit worth $2.1M USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Yield Robot contract on the Binance Smart Chain was drained of $2.1 million on January 17th, 2023. The project team initially announced it was exploited, but further investigation shows evidence of an exit scam. The incident was possible due to a change in the signer wallet, which allowed the attacker to redeem a coupon that would otherwise have been rejected. The attacker used the coupon system to claim a coupon worth $2.1 million and then transferred the reward balance to their wallet. The Yield Robot deployer later used the wallet to create an unverified contract, which was likely a copy of the original contract, but with the deposit address changed to the attacker's wallet. New deposits were made, but later reverted back to the original deposit wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Set signer TX:</p><p>https://bscscan.com/tx/0x31bf8f7f5ac1664ba1b45985f4070c7358e57db3f7ca26f058910b4c2f156cab</p><p><br></p><p>Rug TX:</p><p>https://bscscan.com/tx/0xb66c4003aa9861222a69ec63f21c076e20678803ad065856ced0c26f670995ed</p><p><br></p><p>Scammer address:</p><p>https://bscscan.com/address/0x8f2dba873c24498f4a82f990ab04cb5aa5654a4a</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/wip/T48te",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xb8CDa6AE6D005d56205B29797ADD341c85e59608",
+            "url": "https://bscscan.com/address/0xb8CDa6AE6D005d56205B29797ADD341c85e59608",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63dba77bcbd6c.jpg",
+    "date": "2023-1-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1617534035806355456, https://www.certik.com/resources/blog/6BoyRgbftDuzAIAXBFrCLb-yield-robot-exit-scam",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/yieldrobot",
+    "telegram_link": "https://t.me/YieldRobotCommunity",
+    "our_post_link": null,
+    "funds_lost": 2100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3328,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
