@@ -1,0 +1,17 @@
+# Trace Network
+![Trace Network](/rektimages/Trace-Network.png)
+- Amount Lost: $0.00
+- Funds Returned: $0.00
+- Category: Token
+- Date: 2021-6-30
+
+The contract owner could disable the transfer function, which restricted users in selling their tokens.  
+  
+
+
+
+Proof Links:
+- [https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/](https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/)
+- [ https://twitter.com/Token_Sniffer/status/1381346761566916614]( https://twitter.com/Token_Sniffer/status/1381346761566916614)
+
+
