@@ -1,0 +1,60 @@
+{
+    "id": 3511,
+    "project_name": "Void.Cash",
+    "title": "Void.Cash",
+    "description": "<p><strong>Quick Summary</strong></p><p>Void.Cash project rugpulled by the deployer, who removed liquidity worth 34,148 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Void.Cash is a decentralized protocol running on the Ethereum chain. The token $VCASH experienced an exit scam when its deployer removed all liquidity from the pool and sold tokens for 18.804 $ETH leading to slippage. Investigation revealed that funds were stolen which amounts to roughly 34,148 $USD at the time of the incident. All stolen assets remain in the deployer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xbd6b81eddeee88395dbb3a1bb68684a2a83c0e7c</p><p><br></p><p>Malicious Transaction:</p><p>https://etherscan.io/tx/0x552e65b7613bc3cf967c159a7671dba48d1cd3a627470e7200a217f262d144f6</p>",
+    "name_categories": "Token",
+    "token_name": "VCASH",
+    "proof_archive_link": "https://archive.ph/YcLdC",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x37cd4E8875E3EDafFDFe9Be63958f07eFfBD0Bfd",
+    "token_addresses": [
+        {
+            "address": "0x37cd4E8875E3EDafFDFe9Be63958f07eFfBD0Bfd",
+            "url": "https://etherscan.io/address/0x37cd4E8875E3EDafFDFe9Be63958f07eFfBD0Bfd",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6447df215430c.jpg",
+    "date": "2023-4-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1650032695500750849",
+    "website_link": "https://void.cash/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/voidcasherc",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 34148,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3511,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
