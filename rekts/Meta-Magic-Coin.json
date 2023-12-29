@@ -1,0 +1,51 @@
+{
+    "id": 3173,
+    "project_name": "Meta Magic Coin",
+    "title": "Meta Magic Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>Meta Magic Coin was rug pulled for the total amount of 62,224 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span lang=\"en\">Meta Magic Coin is a BEP20 token trading on PancakeSwap. The token price dumped &gt;90% after liquidity was removed by the token owner. Consequently, the rugpulled amount of 62,224 $BUSD were transferred to another EOA address.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Address of owner:</p><p>https://bscscan.com/address/0x1849226164f4214e789f28b613cd500184aca7de</p><p>Liquidity remove transaction:</p><p>https://bscscan.com/tx/0xea98ea53c7f66b5d6ba3c4ac625765b5aad9d96a3d94157facd1f85592fdf434</p><p>Address that holds stolen funds:</p><p>https://bscscan.com/address/0x387a6a929e7a8174ca0e97f5d86ac79d70337b26</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "MMC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xe62935529B59c1C9a3f5D01323F791E309B007c3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631621cdcba84.png",
+    "date": "2022-9-2",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/n86da",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 62224,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3173,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
