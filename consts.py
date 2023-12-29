@@ -1,1 +1,0 @@
-imageBaseUrl = "https://files.safe.de.fi/"
