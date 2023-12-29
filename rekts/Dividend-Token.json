@@ -1,0 +1,51 @@
+{
+    "id": 291,
+    "project_name": "Dividend Token",
+    "title": "Dividend Token",
+    "description": "<p>The token contract owner was setted to 0x38f614ddd1b2127619be43fa6f596704c688459e address, according to the contract overview:<br>https://etherscan.io/token/0xc84ed03607dbb3c0280f2691f8b361f08b7a1e94#readContract<br><br>The transaction below shows that he was able to generate 1.8 trillion DIV tokens onto his wallet:<br>https://etherscan.io/tx/0x5776d1e8dbd9ea7a8cf608c1c2bb8ce55ce5fa9ee9bbb4b1100cc9c701c67c82<br><br>Subsequently, these tokens were sold, of which he received ~137.2 ETH. Transaction list:<br>https://bloxy.info/txs/calls_from/0x38f614ddd1b2127619be43fa6f596704c688459e?signature_id=1102188&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d<br><br>Another wallet, which participated in this event, used a smart contract backdoor and was able to execute mint and sell tokens in the same transaction, additionally gaining 17.6 ETH:<br>https://etherscan.io/tx/0x619ecf493c8b3cea7769e37267c5f7bf0ea867782d1b87f5c742372d9fea1b9a</p>",
+    "name_categories": "Token",
+    "token_name": "DIV",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc84ed03607dbb3c0280f2691f8b361f08b7a1e94",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e3310f00f2a.png",
+    "date": "2020-11-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1331473858847600642",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 92360,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 291,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
