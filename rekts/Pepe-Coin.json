@@ -1,0 +1,60 @@
+{
+    "id": 3505,
+    "project_name": "Pepe Coin",
+    "title": "Pepe Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 19th of April Pepe coin on the BSC chain was rugged for approx 95k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the Pepe coin executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Liquidity removal txs:</p><p>https://bscscan.com/tx/0x26eefe9edf931894038631849e9e899a6727bbf1454d1750028c4f4136e93dfc</p><p>https://bscscan.com/tx/0x51d422417ac1d1c2db4873874cbad8e49ccfd086a10a7867fd85a6274009aacf</p><p>https://bscscan.com/tx/0xb812b789232e0d1adfd114192afee7ee0b16ed1b9520998db89d82d4e1a47de5</p>",
+    "name_categories": "Token",
+    "token_name": "PEPE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x79879c0a8B949458DFA60cA7A8df24f59e42bb1B",
+    "token_addresses": [
+        {
+            "address": "0x79879c0a8B949458DFA60cA7A8df24f59e42bb1B",
+            "url": "https://bscscan.com/address/0x79879c0a8B949458DFA60cA7A8df24f59e42bb1B",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64428bb1e54e8.png",
+    "date": "2023-4-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1649037100438765571?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 95000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3505,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
