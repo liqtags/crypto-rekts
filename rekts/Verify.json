@@ -1,0 +1,51 @@
+{
+    "id": 3044,
+    "project_name": "Verify",
+    "title": "Verify",
+    "description": "<p>Verify token has been rugged, all social networks down. Totally 90 BNB were stolen.</p><p><br></p><p>Address https://bscscan.com/address/0x2a9cfe450be293997f3f65e76e67b8c93b8ff034 received about 2.8B VRFY tokens from RD address and charity address. 0xbb04e84bc92f31b23dcdc1a58f477468aba22e14 and 0x6ca72c73228e2015c127e6b37ade4aeb3205f80e respectively.</p><p><br></p><p>The attacker swapped all VRFY to 90BNB: https://bscscan.com/token/0x3f52ff3137b52fca2f96f41656632ee8d5e79401?a=0x2a9cfe450be293997f3f65e76e67b8c93b8ff034</p>",
+    "name_categories": "Other",
+    "token_name": "VRFY",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1534573742235521025",
+    "technical_issue": null,
+    "token_address": "0x3f52ff3137b52fca2f96f41656632ee8d5e79401",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a3675d5b63a.png",
+    "date": "2022-6-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220509225104/http://www.verifytoken.net/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 25000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3044,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
