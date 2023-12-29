@@ -1,0 +1,77 @@
+{
+    "id": 3436,
+    "project_name": "ERC20 Permit",
+    "title": "ERC Permit Phishing",
+    "description": "<p><strong>Quick Summary</strong></p><p>EOA wallet lost over 4,000,000 $USD due to a phishing attack, further ERC20 Permit exploit.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>EOA wallet lost 4,096,849 $USD worth of assets due to phishing attack. The attacker exploited EIP2612 Permit standard, firstly getting the affected user's signature via phishing attack. 2,986,213 $DAI and 1,110,636 $USDC was drained in two transactions and then transferred through multiple EOA addresses.</p><p>Permit1 functionality extends ERC20 token standard, allowing optimized approvals. But the standard has significant security issues, which may be cause of exploits like this.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x1661f1b207629e4f385da89cff535c8e5eb23ee3</p><p><br></p><p>Malicious transactions:</p><p>https://etherscan.io/tx/0xadeedf979efcca7ae8c521f36702ead9874035f04a886fce95136f4995720172</p><p>https://etherscan.io/tx/0xc86ed8ae7b30d163cd0e200d217e56df83a7d917396f7824facc97e94dec9c5d</p><p><br></p><p>Funds initially transferred to:</p><p>https://etherscan.io/address/0x18d0230037cbcc426d49687f5ae309aa5b9306f2</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/tthDj, https://archive.ph/rOeUk",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x82287cdda3d1b5d26d49ce03280d07b86d54fe54",
+            "url": "https://etherscan.io/address/0x82287cdda3d1b5d26d49ce03280d07b86d54fe54",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d47f54e3d7.png",
+    "date": "2023-3-24",
+    "scam_updates": [
+        {
+            "date": "2023-11-15T00:00:00.000Z",
+            "description": "<p>Someone lost 1,504,805 aUSDT via Phishing Attack<br><br>Victim:<br>https://etherscan.io/address/0xc108b793e293f1aac19418e899397e62fdf02575<br><br>Scammer:<br>https://etherscan.io/address/0xa7308fbb4effcce7b77b9f8fcb0b564ca44c2896<br><br>Malicious Transaction:<br>https://etherscan.io/tx/0x45cc7b9ff7220fbb2b92a1fe6b9a688ae69239392517f2edbab5096aa5c8d005</p>"
+        },
+        {
+            "date": "2023-08-21T00:00:00.000Z",
+            "description": "<p>Twitter user @meUP_meQuit lost 846,962 USDC via ERC20-Permit Phishing on Arbitrum chain<br><br>Victim Address:<br>https://arbiscan.io/address/0x0555a87622600f3787b46390123d8b1c7c23f6cc<br><br>Scammer Addresses:<br>https://arbiscan.io/address/0x0169a0ab7443bb52f3d16cbd371a10eed335b3a5<br>https://arbiscan.io/address/0xc04946c6ffa0bb7e0f74de7f534e0363cd26a45c<br><br>Funds Transfer Transaction:<br>https://arbiscan.io/tx/0xbaad3d3cd4af841334ab505e2c571ce2f7b6b324e273168c4a9d8cc0b03cfd68<br><br>Malicious Transaction:<br>https://arbiscan.io/tx/0x6a7300c8d5589a6ea6e2e6d8b27f50762be9180401c0966cb99f0040740c570a</p>"
+        },
+        {
+            "date": "2023-08-07T00:00:00.000Z",
+            "description": "<p>Another victim lost 2,217,982 $USD worth of sfrxETH via ERC20 Permit Phishing attack.<br><br>Affected Address:<br>https://etherscan.io/address/0x13c9d9b81513fe8ef119408f916b74118478cb03<br><br>Attacker Addresses:<br>https://etherscan.io/address/0x000f1e24f3f0c7e3dd25939dbf0ba61da3c40000<br>https://etherscan.io/address/0xb1ee1226361e45538f4d507111adb76c351a4555<br><br>Malicious Transactions:<br>https://etherscan.io/tx/0x7dcd3f764c7f236c223591aeb122c52497ad3dd28a86dff496d0c4d316ee44c5<br>https://etherscan.io/tx/0x73aadf47041b23aca863467d2ed397f27224afc28a2a8422b52e0305d4a736c4</p>"
+        },
+        {
+            "date": "2023-07-25T00:00:00.000Z",
+            "description": "<p>Someone lost 139,000 $USD worth of assets via ERC20 Permit Phishing<br><br>Affected Address:<br>https://etherscan.io/address/0x419518f13614933bbfafc917c009cdba1edfd84f<br><br>Attacker Addresses:<br><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/</span>0x0000553F880fFA3728b290e04E819053A3590000<br>https://etherscan.io/address/0x4bddb58c542d056ff7c56bc0c6fb92a679455f2f<br><br>Funds Transfer Transaction:<br>https://etherscan.io/tx/0xdf51686b45c94666dc06ca21e4eae03776bf8189eea598816fdb8de0153e08a4</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/realScamSniffer/status/1639260170021740545?s=20, https://twitter.com/realscamsniffer/status/1688406054944862208?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8804793,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3436,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
