@@ -6,7 +6,7 @@ import html2text
 import time
 import os
 import urllib.request
-import consts
+# import consts
 import subprocess
 
 def rekt_loop(items, start):
@@ -92,10 +92,20 @@ def do_the_do():
     with open('rektdb.json', 'r') as f:
         data = json.load(f)
         items = data['items']
-        timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        readme_file_name = f'README.md'
-        add_title = f"# Rekt Projects\n\n"
-        make_toc(items, readme_file_name)
-        rekt_loop(items, 3397)
+        # timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # readme_file_name = f'README.md'
+        # add_title = f"# Rekt Projects\n\n"
+        # make_toc(items, readme_file_name)
+        # rekt_loop(items, 3397)
+        # add up all the funds lost
+        total_funds_lost = 0
+        for item in items:
+            formatted_funds_lost = "${:,.2f}".format(item['funds_lost'])
+            total_funds_lost += item['funds_lost']
+        
+        formatted_total_funds_lost = "${:,.2f}".format(total_funds_lost)
+
+        print(f"Total Funds Lost: {formatted_total_funds_lost}")
+
 
 do_the_do()

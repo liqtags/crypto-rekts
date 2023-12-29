@@ -1,3 +1,10 @@
+# A Knowledgebase About Crypto Rekts
+
+Credit to De.fi, Defilarma, Onchain Data and the [Web3 News Bot](https://github.com/0xlino/web3-news-daily)
+
+# Total Funds Lost:
+$77,789,516,447.00
+
 # Table of Contents
 
 - [Terra Classic](/rekts/Terra-Classic.md) - Lost: $40,000,000,000.00 Recovered: $0.00 
