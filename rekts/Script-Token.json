@@ -1,0 +1,60 @@
+{
+    "id": 3434,
+    "project_name": "Script Token",
+    "title": "Script Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>SCPT token rugpulled by the deployer, who removed liquidity worth 133,857 $USD over two days.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SCPT is a BEP20 token trading on PancakeSwap. An investigation revealed that its liquidity pool had been drained after several malicious actions performed by the token's deployer. The attacker used privilege over contracts to modify functions like transferFrom() and remove all available LP funds spread across five transactions within 48 hours.</p><p>The total amount of loss due to this attack is approximately 133,857$ USD. Token analysis suggests that it might be a honeypot designed specifically for such an exploit.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x779783886a3aabf24cfcc4d52f48e03a259d5db9</p><p><br></p><p>Liquidity removal example:</p><p>https://bscscan.com/tx/0x948975f31e4dd1ff156271bd8e7da4a62b8bd46f0e5f371fd69ad055e1903015</p>",
+    "name_categories": "Token",
+    "token_name": "SCPT",
+    "proof_archive_link": "https://archive.ph/VjuRo",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd4ac227eb1a4c0384aae06f7808f08bb8f516ebf",
+    "token_addresses": [
+        {
+            "address": "0xd4ac227eb1a4c0384aae06f7808f08bb8f516ebf",
+            "url": "https://bscscan.com/address/0xd4ac227eb1a4c0384aae06f7808f08bb8f516ebf",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642d8b5c7d541.png",
+    "date": "2023-4-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1642426343039090688?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 133857,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3434,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
