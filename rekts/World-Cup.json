@@ -1,0 +1,51 @@
+{
+    "id": 3149,
+    "project_name": "World Cup",
+    "title": "World Cup",
+    "description": "<p><strong>Quick Summary</strong></p><p>The WCP project has been rug pulled by its team. The team made away with $131k in profits. This project is not be associated with the official World Cup.</p><p><br></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Involved addresses:</p><p>- Scammer address, token deployer: https://bscscan.com/address/0xb22955933dee31bb1982d6db980b33c263cae9f1</p>",
+    "name_categories": "Token",
+    "token_name": "WCP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x4a3c2be1caa3cb7e0a2c34b11b383fb82da5162f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6307770305267.png",
+    "date": "2022-8-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1562168870777098240",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 131892,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3149,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
