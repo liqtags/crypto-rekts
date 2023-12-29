@@ -1,0 +1,68 @@
+{
+    "id": 3542,
+    "project_name": "MoveCash",
+    "title": "MoveCash",
+    "description": "<p><strong>Quick Summary</strong></p><p>MoveCash token was rugpulled by the token deployer, which removed liquidity worth 133,215 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MoveCash is a BEP20 token trading on PancakeSwap. The token deployer removed all the liquidity from the pool, receiving 427 $BNB. Worth mentioning that initial liquidity was also added by the same deployer's address, which added 784 $BNB along with $MCA tokens. All the stolen funds currently remain at the scammer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x311950516ce533dff8140ec8dc64dae24396f9e6</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x26400c0192ff144673e8fbc7da5fbc6cd005fb5bdddb168666553956c385aaec</p>",
+    "name_categories": "Token",
+    "token_name": "MCA",
+    "proof_archive_link": "https://archive.ph/wOyHa",
+    "technical_issue": null,
+    "token_address": "0xf3dbdf718667874e19ef368721a10409345fc218",
+    "token_addresses": [
+        {
+            "address": "0xf3dbdf718667874e19ef368721a10409345fc218",
+            "url": "https://bscscan.com/address/0xf3dbdf718667874e19ef368721a10409345fc218",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x07da834d8a784f1397ce96eec880ecb50847dbe6",
+            "url": "https://bscscan.com/address/0x07da834d8a784f1397ce96eec880ecb50847dbe6",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6476179322567.png",
+    "date": "2023-5-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1663540031150260226?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 133215,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3542,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
