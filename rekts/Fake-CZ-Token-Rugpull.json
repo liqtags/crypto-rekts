@@ -1,0 +1,60 @@
+{
+    "id": 3805,
+    "project_name": "Changpeng Zhao",
+    "title": "Fake CZ Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>CZ token experienced a rugpull by the deployer who removed liquidity worth 454,168 USD from PancakeSwap pool, resulting in a total loss of 1,934.17 WBNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CZ is a BEP20 token trading on PancakeSwap. On Nov 24, 2023, the deployer performed an exit scam by removing liquidity from the LP pool through multiple transactions, selling a large number of tokens. The stolen funds, amounting to 454,168 USD (1934.17 WBNB), were transferred to another EOA and subsequently distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xCC78A24926dBd0bc6349aD223e20416fBFC2f66C</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x638Fbf482160bc910081146854515b72c50C7a85</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xd020a4e1ad26c00989faaf9366535f0c1edcdd3e0bad4b6d9339d8a29680a18e</p><p>https://bscscan.com/tx/0x01f90355c737236c492527e9b4f5c364afeac300af69ba31746526cd7a1110b9</p>",
+    "name_categories": "Token",
+    "token_name": "CZ",
+    "proof_archive_link": "https://archive.ph/WI3Cm",
+    "technical_issue": null,
+    "token_address": "0x7ab51257164f6E9e6Ed932aa676E3e6479f1B732",
+    "token_addresses": [
+        {
+            "address": "0x7ab51257164f6e9e6ed932aa676e3e6479f1b732",
+            "url": "https://bscscan.com/address/0x7ab51257164f6e9e6ed932aa676e3e6479f1b732",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656dfbdf8a01b.png",
+    "date": "2023-11-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshieldalert/status/1727927390217867716",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 454168,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3805,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
