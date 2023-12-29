@@ -1,0 +1,128 @@
+{
+    "id": 3217,
+    "project_name": "QAN Platform",
+    "title": "QAN Platform (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>QAN Platform Bridge was hacked due to a private key compromise. The hacker gained access to the private key of the bridge deployer address and withdrew $QANX tokens from the bridge contract on both Ethereum and BSC chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>QAN Platform is the bridge between Ethereum and BSC chains. The hacker compromised the private keys of the bridge contract deployer and withdrew 1,444,000,000 $QANX tokens from the BSC chain and 1,459,000,000 $QANX tokens from the Ethereum chain. Consequently, the attacker swapped $QANX tokens which led to a drop in the token price by more than 99%. The hacker managed to withdraw 1,165,500 $USD worth of assets through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://bscscan.com/address/0xf163a6cab228085935fa6c088f9fc242afd4fb11</p><p>https://etherscan.io/address/0xf163a6cab228085935fa6c088f9fc242afd4fb11</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0xf93047e41433d73ddf983cfa008aeb356ec89803c0a92b0e97ccdc6c42a13f51</p><p>https://etherscan.io/tx/0x048a1a71fd41102c72427cc1d251f4ecbf70558562564306e919f66fd451fe82</p><p>https://etherscan.io/tx/0x39ec0a6bbe9c973a0eaa3f14c11952bd6ab3f9bc1bd1059a5614121c8f74080f</p>",
+    "name_categories": "Bridge",
+    "token_name": "QANX",
+    "proof_archive_link": "https://archive.is/wip/ehCr1, https://archive.is/g1Vyj",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xaaa7a10a8ee237ea61e8ac46c50a8db8bcc1baaa",
+    "token_addresses": [
+        {
+            "address": "0xaaa4940aa878d932d3482bf1de332e1d50c15aaa",
+            "url": "https://bscscan.com/address/0xaaa4940aa878d932d3482bf1de332e1d50c15aaa",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xaaa4940aa878d932d3482bf1de332e1d50c15aaa",
+            "url": "https://etherscan.io/address/0xaaa4940aa878d932d3482bf1de332e1d50c15aaa",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x68e8198d5b3b3639372358542b92eb997c5c314a",
+            "url": "https://bscscan.com/address/0x68e8198d5b3b3639372358542b92eb997c5c314a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x68e8198d5b3b3639372358542b92eb997c5c314a",
+            "url": "https://etherscan.io/address/0x68e8198d5b3b3639372358542b92eb997c5c314a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6347e5f9d104c.jpg",
+    "date": "2022-10-11",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/@CryptoSavingExpert/qanx-token-dumps-99-after-qanplatform-suffers-1m-bridge-hack-75fd56a83a8d, https://decrypt.co/111633/quantum-resistant-blockchain-qanplatform-suffers-bridge-hack-1-million",
+    "website_link": "https://qanplatform.com/en",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/QANplatform",
+    "telegram_link": "https://t.me/QANplatform",
+    "our_post_link": null,
+    "funds_lost": 1165500,
+    "funds_returned": 0,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "1",
+                "name": "Ethereum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "582750",
+                    "date": "2022-10-11"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "56",
+                "name": "Binance"
+            },
+            "funds": {
+                "lost": {
+                    "value": "582750",
+                    "date": "2022-10-11"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/QANplatform",
+    "git_hub_contract_link": "https://github.com/QANplatform/qanx-bridge",
+    "discord": "https://discord.com/invite/PYBxQsudTE",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3217,
+            "networks": {
+                "id": 1,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        },
+        {
+            "networks_id": 56,
+            "scam_database_id": 3217,
+            "networks": {
+                "id": 56,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_QANX_Bridge.pdf",
+            "date": "2021-10-27T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
