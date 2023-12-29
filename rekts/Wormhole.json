@@ -1,0 +1,60 @@
+{
+    "id": 2814,
+    "project_name": "Wormhole",
+    "title": "Wormhole",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Wormhole bridge was compromised by an attacker that bypassed the verification process and made away with 120,000 $WETH.</p><p><strong><br>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><br></p><p>1. The attacker minted 120,000 wETH on Solana:<br>https://solscan.io/tx/2zCz2GgSoSS68eNJENWrYB48dMM1zmH8SZkgYneVDv2G4gRsVfwu5rNXtK5BKFxn7fSqX9BvrBc1rdPAeBEcD6Es<br><br>2. The attacker redeemed 93,750 wETH for ETH worth $254 million onto the Ethereum:<br>https://etherscan.io/tx/0x24c7d855a0a931561e412d809e2596c3fd861cc7385566fd1cb528f9e93e5f14<br>3. The hacker used some funds to buy SportX ($SX), Meta Capital ($MCAP), Finally Usable Crypto Karma ($FUCK), and Bored Ape Yacht Club Token ($APE), the example transactions:<br>https://etherscan.io/tx/0x8ab3c4adab6d1a21ec1fcd7dc96523e7dada92d1373ee6919aa6b10b51ebe8d1<br>https://etherscan.io/tx/0x697869218add15e019f7a1904b7c3b435f9048ec3bcb9c84cf23e64916a41add<br>https://etherscan.io/tx/0x6f17f122dca10e9c894af3766d93e97c08f8925eb3a20b894b810edb3d029ed0<br>https://etherscan.io/tx/0x57a48345888cbfb2d442f272c6fd9d38f57f6f5608c00c4978860eea7dc927c<br><br>4. The remaining wETH was swapped for SOL and USDC on Solana. The hacker\u2019s Solana wallet currently holds 432,662 SOL ($44 million):<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka#splTransfers<br><br>Probably the issue was in the signature verification process. So it lead to an unverified call by the attacker.</p><p>Investors were made whole by Jump Trading the mother company behind the wormhole bridge that replenished the stolen ETH.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p>The attacker's addresses:<br>https://etherscan.io/address/0x629e7da20197a5429d30da36e77d06cdf796b71a<br>https://solscan.io/account/CxegPrfn2ge5dNiQberUrQJkHCcimeR4VXkeawcFBBka</p>",
+    "name_categories": "Bridge",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "2SDN4vEJdCdW3pGyhx2km9gB3LeHzMGLrG2j4uVNZfrx",
+            "url": "https://solscan.io/account/2SDN4vEJdCdW3pGyhx2km9gB3LeHzMGLrG2j4uVNZfrx#splTransfer",
+            "network": {
+                "id": 1002,
+                "icon_link": "safe/files/network/involved/solana.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/61fbf1c66bbcf.jpeg",
+    "date": "2022-2-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/wormholecrypto/status/1489001949881978883, https://twitter.com/peckshield/status/1489053988716568577, https://cointelegraph.com/news/wormhole-token-bridge-loses-321m-in-largest-hack-so-far-in-2022",
+    "website_link": "https://wormholenetwork.com/",
+    "webarchive_link": "https://web.archive.org/web/20220217184708/https://www.foxbusiness.com/markets/jump-trading-replaces-stolen-wormhole-funds-after-320m-crypto-hack",
+    "twitter_link": "https://twitter.com/wormholecrypto",
+    "telegram_link": "https://t.me/wormholecrypto",
+    "our_post_link": null,
+    "funds_lost": 326000000,
+    "funds_returned": 326000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/TsjcDtTPVp",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 2814,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
