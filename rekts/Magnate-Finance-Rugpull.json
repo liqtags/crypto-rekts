@@ -1,0 +1,60 @@
+{
+    "id": 3690,
+    "project_name": "Magnate Finance",
+    "title": "Magnate Finance Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Magnate Finance exit scammed, removing various assets worth 5,357,862 $USD, causing a drop in TVL of approximately 6,400,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Magnate Finance, a borrowing and lending platform running on Base chain, experienced a significant exploit on Aug 25, 2023. The deployer removed various assets from Magnate Finance's smart contract with unverified source code. The funds were transferred and bridged via Stargate to various chains including Arbitrum, Ethereum, Optimism, and Binance Smart Chain, and then swapped to DAI or ETH to prevent freezing of the funds. The confirmed loss from the project's smart contract is 5,357,862 $USD, while the total value locked (TVL) of Magnate Finance dropped by approximately 6,400,000 $USD.</p><p><br></p><p>Losses include:</p><p>1,557,255 $USD worth 946.66 ETH</p><p>2,051,576 USDC</p><p>1,341,285 DAI</p><p>407,746 $USD worth 247.87 WETH</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://basescan.org/address/0xa146dffe1c304a8a3de74c460ffe8dc73e5ce6e1</p><p><br></p><p>Funds Holders as of August 26:</p><p>https://bscscan.com/address/0x0664FAf5AfeCDe5958D8b32258e012C3788006A3</p><p>https://bscscan.com/address/0x2f3801ac648413C93009b2e7bD9e7ebf5844D0Cb</p><p>https://arbiscan.io/address/0x7B53eC7E129Acf224d58D107C96eF6FD9F91FA33</p><p>https://etherscan.io/address/0x4f2b229082Eda4790e2331B80038eA8c5cC0E2b3</p><p>https://arbiscan.io/address/0x06D3930F1b34d728BCCbd4Dffc1C90673b41DBE8</p><p>https://optimistic.etherscan.io/address/0xD85ac6Af8Cc313A30FDeDf41501d00a213457820</p><p><br></p><p>Malicious Transaction:</p><p>https://basescan.org/tx/0x39555e75d76b294248a434fdfe9640e0cfe3f22bd7fceb675fd4ef4b5e02f719</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "MAG",
+    "proof_archive_link": "https://archive.ph/0z0KU, https://archive.ph/ZeCFR",
+    "technical_issue": null,
+    "token_address": "https://basescan.org/token/0x2DC1cDa9186a4993bD36dE60D08787c0C382BEAD",
+    "token_addresses": [
+        {
+            "address": "0x6a8fbf751c92a8c922428c0ffc5a89e709f7e505",
+            "url": "https://basescan.org/address/0x6a8fbf751c92a8c922428c0ffc5a89e709f7e505",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ea4c9e980dd.png",
+    "date": "2023-8-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1694946221788729440?s=20, https://twitter.com/zachxbt/status/1694914871165345997",
+    "website_link": "https://magnate.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MagnateFi",
+    "telegram_link": "https://t.me/magnatefi",
+    "our_post_link": null,
+    "funds_lost": 5357862,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/MagnateArb",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/CG6f8snjsT",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3690,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
