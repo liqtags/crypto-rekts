@@ -1,5 +1,5 @@
 {
-    "id": 649,
+    "id": 648,
     "project_name": "NFTQR",
     "title": "NFTQR",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -9,8 +9,8 @@
     "technical_issue": null,
     "token_address": "0x403f7fbdc358a3e85379bb7193d677964de579ba",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60ed86649322d.png",
-    "date": "2021-6-2",
+    "logo_link": "safe/files/scamDatabase/logo/60ed866475af6.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 649,
+            "scam_database_id": 648,
             "networks": {
                 "id": 56,
                 "name": "Binance",
