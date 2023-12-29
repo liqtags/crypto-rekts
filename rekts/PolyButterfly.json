@@ -1,0 +1,51 @@
+{
+    "id": 2477,
+    "project_name": "PolyButterfly",
+    "title": "PolyButterfly",
+    "description": "<p>The contract deployer changed the ownership of the MasterChef contract to the malicious one:<br>https://polygonscan.com/tx/0x0d788beecd8b2213eab7d707d654b2aec95576fb24c8d330bc073c7e680556f0<br><br>The contract deployer removed funds from the MasterChef contract at:<br>https://polygonscan.com/tx/0x35a8ac07c8918430638d3565d64c8abb8d0372996fafc194a03e3984ab76c563<br><br>Stolen funds were sold on ETH.</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX),Yield Aggregator",
+    "token_name": "POLLEN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x485a1703506acbca235d87266322f66694cbc781",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6128f30a7559b.png",
+    "date": "2021-6-5",
+    "scam_updates": [],
+    "proof_link": "https://azcoinnews.com/as-polygon-network-is-growing-scam-activity-migrates-to-this-high-performance-platform-and-latest-victim-is-polybutterfly.html",
+    "website_link": "https://polybutterfly.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/polybutterflyfi",
+    "telegram_link": "https://t.me/polybutterfly",
+    "our_post_link": null,
+    "funds_lost": 1500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/polybutterflyfi",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2477,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
