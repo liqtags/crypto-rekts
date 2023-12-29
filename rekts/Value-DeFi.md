@@ -1,45 +1,33 @@
 # Value DeFi
 ![Value DeFi](/rektimages/Value-DeFi.png)
-- Amount Lost: $10,000,000.00
-- Funds Returned: $0.00
+- Amount Lost: $7,000,000.00
+- Funds Returned: $2,000,000.00
 - Category: Exchange (DEX)
-- Date: 2021-5-5
+- Date: 2020-11-14
 
 **Quick Summary**
 
-An attacker exploited a vulnerability in the pool of vBSWAP/BUSD LP, re-initialized the pool, took control, and drained the original stake token, resulting in a loss of 10,839.16 vBSWAP/BUSD LP.
+A Flash loan attack on ValueMultiVaultBank resulted in a loss of 5.4M DAI.
 
   
 
 
  **Details of the Exploit**
 
-The attacker re-initialized the pool and set the operator role to himself and _stakeToken to HACKEDMONEY. He then took control of the pool and called the method governanceRecoverUnsupported() to drain the original stake token (vBWAP/BUSD LP). The attacker removed 10,839.16 vBWAP/BUSD LP, then removed liquidity and received 7342.75 vBSWAP and 205,659.22 BUSD. He sold all 7342.75 vBSWAP for 8790.77 BNB at 1inch. The attacker used both BNB and BUSD to buy renBTC and used renBridge to move the funds back to BTC, which was laundered to a specific address.
+The attacker initiated the exploit by flash loaning 80k ETH from Aave and flash swapping 166M DAI from Uniswap. They then swapped 80k for 31M USDT on Uniswap, deposited 25M DAI on ValueMultiVaultBank, and swapped 91M DAI to 90.2M USDC on Curve. The attacker then withdrew 33M 3CRV from ValueMultiVaultBank, swapped 17.3M USDC to 30.9M USDT on Curve, and removed liquidity with 33M 3CRV for 33.1M DAI on Curve. They then repaid the flash swap and flash loan, transferred 2M DAI to Value Deployer, and finally transferred 5.4M DAI to their EOA.
 
   
 
 
  **Block Data Reference**
 
-The attacker's address:
+The attacker's transaction:
 
-https://bscscan.com/address/0xef63ad578e75d498d0723e5420fa1962b1d28764
-
-The transaction behind the attack:
-
-https://bscscan.com/tx/0xd3382252bc204fdc32a6b3add8c639850882b70a798399d6e00a542cdf769040
-
-The transaction of removing vBWAP/BUSD LP:
-
-https://bscscan.com/tx/0x9ba0454c2301ad5780795ae7477e9fa7e38226be16cc282158624479e66389b6
-
-The laundered BTC address:
-
-https://www.blockchain.com/btc/address/1Cm6WGvXQ9EgvvWX5dRsBxE2NvxFjfbcVF
+https://etherscan.io/tx/0x46a03488247425f845e444b9c10b52ba3c14927c687d38287c0faddc7471150a
 
 
 Proof Links:
-- [https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714](https://medium.com/valuedefi/vstake-pool-incident-post-mortem-4550407c9714)
-- [ https://rekt.news/value-rekt2/]( https://rekt.news/value-rekt2/)
+- [https://rekt.news/value-defi-rekt/](https://rekt.news/value-defi-rekt/)
+- [ https://twitter.com/FrankResearcher/status/1327649421492957184?s=20]( https://twitter.com/FrankResearcher/status/1327649421492957184?s=20)
 
 
