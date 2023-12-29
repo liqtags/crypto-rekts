@@ -1,0 +1,51 @@
+{
+    "id": 146,
+    "project_name": "Wallstreetswap Finance",
+    "title": "Wallstreetswap Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Wallstreetswap Finance rug pulled its investors by introducing a backdoor into its smart contracts, granting the project deployer to transfer of all LP positions at will. The exploit cost investors approx. $2,9 million in damages.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Wallstreetswap Finance was a DEX on the Binance Smart Chain that offered the typical DEX services such as staking, farming, and swapping. The factory contract contains a line that approves both tokens' balances to the malicious actor in every created LP inside initialize() function. This means that the malicious actor can perform liquidity withdrawal from the pools anytime.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>LP creation contract WallStreetSwapFactory:<br>https://bscscan.com/address/0xd395ce2bbc62eeb612bd4c41d51ef4b6bf611d6c#code</p><p>Contract deployer (scammer) address:</p><p>https://bscscan.com/address/0xa7524ec326d81dd26765f1bb17ad976d04778304</p><p>Some example of token draining:<br>https://bscscan.com/tx/0xb8fb142aa94092de2ccf4749a70400f6a91f8365e9ee53ed4d38512e2ec0a5a3</p><p>https://bscscan.com/tx/0xb05480336ed4c099f42fde746abb74a370c2ffb4ea1a7850f5be9ee335ca6d26</p><p>In this last transaction the contract deployer transferred &nbsp;all stolen $BNB to a third seemingly unrelated address:</p><p>https://bscscan.com/tx/0x92d301e06107cf524101a12ea3540bae85c87b154dcb470f19a88bbf5952d7e7</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "WALLST",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x2dc38868a9215a1347c6fd8480d4a127da4812eb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b906be415.png",
+    "date": "2021-2-15",
+    "scam_updates": [],
+    "proof_link": "https://y-pakorn.medium.com/defi-scams-rug-pull-analysis-wallstreetswap-finance-ca657280b85a",
+    "website_link": "https://wallstreetswap.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/wallstreetswap",
+    "telegram_link": "https://t.me/wallstreetswap",
+    "our_post_link": null,
+    "funds_lost": 2905021,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 146,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
