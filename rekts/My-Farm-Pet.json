@@ -1,0 +1,51 @@
+{
+    "id": 3090,
+    "project_name": "My Farm Pet",
+    "title": "My Farm Pet",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A flashloan attack was made on the My Farm Pet project with a profit of $31k gained by the attacker</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">My farm pet is a blockchain farming game, where anyone can buy and own virtual farms.</p><p style=\"margin:0cm;background:white;\">The attacker created a contract in which there was a flashloan function to perform arbitration on the marketplace between versions V2 and V3. The attacker used 340k $BUSD to exchange for 22k $MYFARMPET, of which 1k were used to buy 70k $ChickenFood on My Farm Pets Marketplace V2. The contract then exchanged 21k $MYFARMPET tokens for 337k$BUSD, thereby increasing the pool on PancakeSwap, and exchanged 70k $ChickenFood on the V3 market for 34k $BUSD. Then, when the deposit of 340k was repaid, the attacker received a net profit of 31k $BUSD.</p><p style=\"margin:0cm;background:white;\"><br></p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "MYFARMPET",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x903fcaf1a49b29678c15b43bc9f852232bfa7df1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62d18c17e5414.jpeg",
+    "date": "2021-10-6",
+    "scam_updates": [],
+    "proof_link": "https://www.certik.com/resources/blog/5MitXi5L6hexTouIjOkHRH-revisiting-the-my-farm-pet-flashloan",
+    "website_link": "https://www.myfarmpet.io/#",
+    "webarchive_link": "https://web.archive.org/web/20220127013407/https://www.myfarmpet.io/",
+    "twitter_link": "https://twitter.com/Myfarmpet1",
+    "telegram_link": "https://t.me/myfarmpet1",
+    "our_post_link": null,
+    "funds_lost": 31410,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3090,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
