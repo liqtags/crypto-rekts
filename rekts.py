@@ -9,7 +9,7 @@ import urllib.request
 import consts
 
 def rekt_loop(items, start):
-    for index, item in enumerate(items[1430:], start=1430):
+    for index, item in enumerate(items[start:], start=1430):
     # for item in items:
         print(f"index: {index} - item: {item['title']}")
         # download image
