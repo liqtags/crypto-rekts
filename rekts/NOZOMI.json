@@ -1,5 +1,5 @@
 {
-    "id": 1516,
+    "id": 1229,
     "project_name": "NOZOMI",
     "title": "NOZOMI",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "NZMI",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x536c1d5c6678bbba41b64f1e9af08ed87c3e4013",
+    "token_address": "0xf8f22082a6fc646859983e4f1fe4af7458a6560e",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f137a633465.png",
+    "logo_link": "safe/files/scamDatabase/logo/60eff9730200d.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1516,
+            "scam_database_id": 1229,
             "networks": {
                 "id": 56,
                 "name": "Binance",
