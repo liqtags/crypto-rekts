@@ -1,0 +1,51 @@
+{
+    "id": 2955,
+    "project_name": "BASIC-MINING",
+    "title": "BASIC-MINING",
+    "description": "<p>Mining company BASIC-MINING took advantage of the ASIC boom to become a leading publically-traded mining company by early 2013. After the collapse of BTC-TC, the exchange on which it was traded, the founder disappeared with substantial assets.</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f27c8aeb66.png",
+    "date": "2013-10-1",
+    "scam_updates": [],
+    "proof_link": "https://bitcointalk.org/index.php?topic=576337#post_toc_55",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 277000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2955,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
