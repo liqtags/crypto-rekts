@@ -1,0 +1,60 @@
+{
+    "id": 3649,
+    "project_name": "Apache NFT SalesRoom",
+    "title": "Apache NFT SalesRoom Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Apache NFT SalesRoom was rugpulled; liquidity worth 617,960 $USD was drained through multiple transactions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Apache NFT SalesRoom (ASN) is a BEP20 token trading on PancakeSwap. On Aug 03, 2023, the deployer executed a complex exit scam, involving multiple transfers between addresses and draining the PancakeSwap pool by selling 47,500 ASN tokens in multiple transactions. The stolen funds were then transferred to another EOA, and part of the assets were distributed across several addresses. The total funds lost in this rugpull amount to 617,960 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xa064df827c8612c63468b9d92bb31440f41e5006</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xdc8bcf3f79e3235ead8e656c65721e33edfe8d6d</p><p><br></p><p>Funds Holder as of August 3, 2023:</p><p>https://bscscan.com/address/0x92238A97f2B82BBC299940Ee29cd3cDb85Db6fb4</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x6942914423ef33623ea1ac647daaf9585e07cb22fddff9f9c75cfe73e6ad93bd</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x3b08c74a76d65e0a5c172e742420de64018aad1c26601a548ee542c0eb6d539e</p>",
+    "name_categories": "Token",
+    "token_name": "ASN",
+    "proof_archive_link": "https://archive.ph/SEoFL",
+    "technical_issue": null,
+    "token_address": "0xabe776435f7459e2f5ba773bfb753ed19a053dd0",
+    "token_addresses": [
+        {
+            "address": "0xabe776435f7459e2f5ba773bfb753ed19a053dd0",
+            "url": "https://bscscan.com/token/0xabe776435f7459e2f5ba773bfb753ed19a053dd0",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64cc1227a8f31.png",
+    "date": "2023-8-3",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1686944832688906240?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 617960,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3649,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
