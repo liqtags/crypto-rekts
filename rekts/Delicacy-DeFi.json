@@ -1,0 +1,51 @@
+{
+    "id": 43,
+    "project_name": "Delicacy DeFi",
+    "title": "Delicacy DeFi",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://bscscan.com/tx/0x6a2a3aa0e0b4ffa334e83d40cc5b71aa2ae1abdf6b753fcc2b99cdbcd4b292f4<br>https://bscscan.com/tx/0x0256b9a5fa3cd5d4fa78783b1678277a0d5cdab8847076b7e9d3a1558b122cb1<br><br>The contract deployer locked the bigger part of LP tokens using CryptEx at:<br>https://bscscan.com/tx/0x5655c9a321277689fc09085c0f2acd2e85a12f19faf3880a3cc3b2b2a33adcbb<br><br>After the unlock, the liquidity was removed by the contract deployer at:<br>https://bscscan.com/tx/0xfe692790c5f5d07f7741efe752275b6d32788ef6c0f2def01e5bb243b3e72b51</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DELI",
+    "proof_archive_link": "https://archive.ph/bjUbb",
+    "technical_issue": null,
+    "token_address": "0x66b32cee882d82a897a1f6102a18da5af6f01f6f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4de4f0421a.png",
+    "date": "2021-6-3",
+    "scam_updates": [],
+    "proof_link": "https://t.me/rugsteemer/71",
+    "website_link": "http://delicacydefi.com/",
+    "webarchive_link": "https://web.archive.org/web/sitemap/https://delicacydefi.com/",
+    "twitter_link": "https://twitter.com/DefiDelicacy",
+    "telegram_link": "https://t.me/delicacyDeFi",
+    "our_post_link": null,
+    "funds_lost": 3725,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 43,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
