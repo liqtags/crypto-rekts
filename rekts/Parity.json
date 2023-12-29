@@ -1,24 +1,33 @@
 {
-    "id": 2921,
+    "id": 2927,
     "project_name": "Parity",
-    "title": "Parity",
-    "description": "<p><strong>Quick Summary</strong></p><p>513,000 $ETH has been locked and maintained unreachable on Parity contracts after the user accidentally killed it.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On November 6th, 2017, Github user devops199 posted the following statement under the Github issues section of the Parity Multi-Sig Library: \u201cI accidentally killed it\u201d:<br>https://github.com/openethereum/parity-ethereum/issues/6995<br><br>Just moments earlier, devops199 exploited a vulnerability within the smart-contract library code, blocking funds in 587 wallets holding a total of 513,774.16 Ether as well as various other tokens.<br><br>On November 6th, the transaction was sent to WalletLibrary, which called the <u>initWallet</u> method:<br>https://etherscan.io/tx/0x05f71e1b2cb4f03e547739db15d080fd30c989eda04d37ce6264c5686e0722c9<br><br>This transaction ended up making the 0xae7168deb525862f4fee37d987a971b385b96952 the sole owner. The transaction, which called the <u>kill</u> method of <u>WalletLibrary</u> with 0xae7168deb525862f4fee37d987a971b385b96952 as the beneficiary address:<br>https://etherscan.io/tx/0x47f7cff7a5e671884629c93b368cb18f58a993f4b19c2a53a8662e3f1482f690<br><br>Approximately 30 minutes later, Devops199 created Parity issue #6995 to document what had just occurred:<br>https://github.com/openethereum/parity-ethereum/issues/6995<br><br>Devops199 posted a link to the issue in the Parity gitter channel, asking \u201cIs this serious issue?\u201d He then followed up by asking \u201cWill I get arrested for this?\u201d. It seemed as though Devops199 failed to understand the consequences of what he had done, by stating \u201cI\u2019m eth newbie..just learning\u201d.</p><p><br>About three hours later, Parity released a warning on Twitter:<br>https://twitter.com/ParityTech/status/927850992145719296</p>",
+    "title": "Parity (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Parity multisig wallet has been attacked by a hacker in two transactions, taking profit of $34M.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker had drained 153,037 ETH from three high-profile multi-signature contracts used to store funds from past token sales. The attacker's address:<br>https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32<br><br>The attacker sent two transactions to each of the affected contracts: the first to obtain exclusive ownership of the MultiSig, and the second to move all of its funds.<br><br>1st transaction (call to <u>initWallet</u>):<br>https://etherscan.io/tx/0x9dbf0326a03a2a3719c27be4fa69aacc9857fd231a8d9dcaede4bb083def75ec<br><br>2nd transaction:<br>https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c<br><br>This function was probably created as a way to extract the wallet\u2019s constructor logic into a separate library. The wallet contract forwards all unmatched function calls to the library using <u>delegatecall</u><br><br>This causes all public functions from the library to be callable by anyone, including <u>initWallet</u>, which can change the contract\u2019s owners. Unfortunately, <u>initWallet</u> has no checks to prevent an attacker from calling it after the contract was initialized. The attacker exploited this and simply changed the contract\u2019s <u>m_owners</u> state variable to a list containing only their address, and requiring just one confirmation to execute any transaction:<br>https://etherscan.io/tx/0x9dbf0326a03a2a3719c27be4fa69aacc9857fd231a8d9dcaede4bb083def75ec<br><br>After that, the attacker executed the function to send all funds to an account controlled by the attacker:<br>https://etherscan.io/tx/0xeef10fc5170f669b86c4cd0444882a96087221325f8bf2f55d6188633aa7be7c</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32</p><p><br></p>",
     "name_categories": "Other",
     "token_name": null,
     "proof_archive_link": null,
     "technical_issue": null,
     "token_address": null,
-    "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/624cb5cf10870.jpeg",
-    "date": "2017-11-8",
+    "token_addresses": [
+        {
+            "address": "0xb3764761e297d6f121e79c32a65829cd1ddb4d32",
+            "url": "https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/624db9a751a54.jpeg",
+    "date": "2017-7-19",
     "scam_updates": [],
-    "proof_link": "https://hackernoon.com/parity-wallet-hack-2-electric-boogaloo-e493f2365303, https://blog.openzeppelin.com/on-the-parity-wallet-multisig-hack-405a8c12e8f7/, https://twitter.com/ParityTech/status/927850992145719296",
+    "proof_link": "https://blog.openzeppelin.com/on-the-parity-wallet-multisig-hack-405a8c12e8f7/",
     "website_link": "https://www.parity.io/",
     "webarchive_link": null,
     "twitter_link": "https://twitter.com/ParityTech",
     "telegram_link": "https://t.me/parity_technologies",
     "our_post_link": null,
-    "funds_lost": 155000000,
+    "funds_lost": 34000000,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -39,7 +48,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 2921,
+            "scam_database_id": 2927,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
