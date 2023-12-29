@@ -1,0 +1,51 @@
+{
+    "id": 164,
+    "project_name": "Boost",
+    "title": "Boost",
+    "description": "<p>The project was holding a fundraising event using BoostCrowdsale smart contract:<br>https://etherscan.io/address/0xb7e6db6869bE55189279034F65eBe9D341467703#code<br><br>They have collected 35.46 ETH in total. The gathered funds were transferred to the Proxy smart contract at:<br>https://etherscan.io/tx/0xee145c440f3df7d185688837df5708cd0f38865ca80dd9fdb3fa064137786efc<br>https://etherscan.io/tx/0x7e8e6bc3c5a5ecf82dc7eb4320532f1ae779c1c00a9a81f03356232d6d75bb55<br><br>The initial liquidity, using 17.2 ETH was added through the Proxy contract at:<br>https://etherscan.io/tx/0x095fc65314707f06d399424adae4f54bc783e9d44a9a3633534f08000caac606<br><br>The contract deployer added liquidity as well at:<br>https://etherscan.io/tx/0x49137d8bcc0e1b97560c219fbabf5beaaa8bcdecd570decb00114417254aad70<br><br>The contract deployer received LP tokens from the Proxy contract at:<br>https://etherscan.io/tx/0x5075c55e824554dfcc8937f7cac4bbba37c487cd7a1a1b9e91e15710f4a36d55<br><br>The contract deployer locked liquidity at:<br>https://etherscan.io/tx/0xfab8aaca2efedc1558f953d4ee1147d6006274fac170bb9a750de2c5ef3d4706<br><br>The contract deployer received back LP tokens:<br>https://etherscan.io/tx/0x90fe5580b9df8daa2d1a81ec2a8a7e4676014de8fd57221125713b0fe023af90<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0xa1b3a0058888d09730f615da32f1f396d56424ae9f141b676888db1ede20e2f6</p>",
+    "name_categories": "Token",
+    "token_name": "BOOST",
+    "proof_archive_link": "https://archive.ph/xNjWy",
+    "technical_issue": null,
+    "token_address": "0x65D14e3E5Ea1e0b752783837ff1136BFe0A5dD34",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5be44d3d04.png",
+    "date": "2020-12-26",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 22680,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 164,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
