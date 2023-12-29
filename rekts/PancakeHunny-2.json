@@ -1,0 +1,70 @@
+{
+    "id": 2682,
+    "project_name": "PancakeHunny",
+    "title": "PancakeHunny (2)",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x731821d13414487ea46f1b485cfb267019917689<br><br>The contract used for the attack:<br>https://bscscan.com/address/0xa5312796dc20add51e41a4034bf1ed481b708e71<br><br>The attacker:<br>- took a 53.25 BTC flash loan from Cream Finance<br><br>- used 53.25 BTC to get a 2,717,107 TUSD loan from Venus<br><br>- manipulated the price of BNB/TUSD Pool on PancakeSwap<br><br>- used 50 different contracts, deployed earlier to deposit 38,250 TUSD into HUNNY TUSD Vault<br><br>- redeemed 2842.16TUSD and minted 12,020.40 Hunny<br><br>- sold minted Hunny for 7.78 WBNB<br><br>&nbsp;-repeated with 50 wallets 26 times.<br><br>The hack is made possible by a profit inflation flaw that transforms a little number of harvested ALPACA into a big sum of TUSD for staking. These converted TUSDs are then counted as profit, which is subsequently inflated to produce a big quantity of HUNNY.<br><br>Stolen funds were bridged on Ethereum blockchain and deposited into Tornado Cash mixer:<br>https://etherscan.io/address/0x731821d13414487ea46f1b485cfb267019917689</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "HUNNY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x565b72163f17849832a692a3c5928cc502f46d69",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61702ba1874ff.jpeg",
+    "date": "2021-10-20",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/pancakehunny/pancakehunny-incident-report-b5b74557b0ad, https://twitter.com/peckshield/status/1450801612901937152",
+    "website_link": "https://pancakehunny.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PancakeHunny",
+    "telegram_link": "https://t.me/PancakeHunnyNews",
+    "our_post_link": null,
+    "funds_lost": 1984749,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2682,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Pancake_Hunny_Contracts_2021_06_23.pdf",
+            "date": "2021-06-10T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Pancake_Hunny_Finance_2021_10_12.pdf",
+            "date": "2021-10-06T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
