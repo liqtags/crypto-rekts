@@ -1,0 +1,60 @@
+{
+    "id": 3667,
+    "project_name": "Carson",
+    "title": "Carson Flash Loan Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Carson ERC20 Token Suffers Flash Loan Attack Resulting in Loss of $144,000 Worth 600 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On July 26th, 2023, Carson, an ERC20 token trading on UniSwap, was attacked through a flash loan exploit. The attacker targeted the UniSwap pool, stealing funds that were subsequently swapped for WBNB and then deposited into TornadoCash. A total loss of $144,000, equivalent to 600 BNB, was incurred. The attacker's funding was traced back to Binance's Hot Wallet.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x25bcbbb92c2ae9d0c6f4db814e46fd5c632e2bd3</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x37d921a6bb0ecdd8f1ec918d795f9c354727a3ff6b0dba98a512fceb9662a3ac</p><p>https://bscscan.com/tx/0xed52a42b2f45e4dea8d07f70d645931e4f6da65e9ab281cd3dbb9d9d21febb45</p><p>https://bscscan.com/tx/0xcd781fec34b46f8c7372a9fcc7604c210b40442dc4f1a5c274fc3f9283df39ce</p><p>https://bscscan.com/tx/0x6a94a644856c3aa1db8249b700956379b6b3a18de9b8811566fbd56c89240a01</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x9cffc95e742d22c1446a3d22e656bb23835a38ac</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://bscscan.com/tx/0xe27d73643df3bea516548ff78d0ccb559f9affbe1ad844d1c10ee706e70dbc52</p>",
+    "name_categories": "Token",
+    "token_name": "Carson",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0acd5019edc8ff765517e2e691c5eef6f9c08830",
+    "token_addresses": [
+        {
+            "address": "0xe0a3e0f7e4c789747eb29a212ea915a7a1e1ac69",
+            "url": "https://bscscan.com/address/0xe0a3e0f7e4c789747eb29a212ea915a7a1e1ac69",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64d7d4e22ef10.png",
+    "date": "2023-7-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1684378929937911811",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 144000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3667,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
