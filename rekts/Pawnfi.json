@@ -1,0 +1,78 @@
+{
+    "id": 3565,
+    "project_name": "Pawnfi",
+    "title": "Pawnfi",
+    "description": "<p><strong>Quick Summary</strong></p><p>Pawnfi, an Ethereum-based NFT project, was exploited resulting in a loss of 633,411 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Several Pawnfi contracts including ApeStaking were exploited, leading to a total funds loss of 633,441 $USD worth of 366.77 $ETH. The attacker transferred 100 $ETH through TornadoCash and the remaining 266.77 $ETH to another EOA address, which currently holds the stolen funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0x8f7370D5d461559f24b83ba675b4C7e2Fdb514cC</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0xcd12d4413a4d0f430580cf24915cdaeb7aff7b2d</p><p><br></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0xe855cc3bad87933bf742fd474bd0ae0ec58d45e9c1a0643b9700dafe8faf0864</p><p>https://etherscan.io/tx/0x8d3036371ccf27579d3cb3d4b4b71e99334cae8d7e8088247517ec640c7a59a5</p><p>https://etherscan.io/tx/0x94fbebf08af9e354cd9336e920165bff8b6086b709f4f8cdb4a56ddfd0705602</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://etherscan.io/tx/0xc62899a98c44b822cee2da61935e3494dec9da57bab0f4ab61662d0a46056e7b</p><p><br></p><p>Funds Transfer to TornadoCash Transaction:</p><p>https://etherscan.io/tx/0xf83afda6819542d03f7c3fd0dc1f68786f6df5db01723136649038ac14a05118</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/9h5aM, https://archive.ph/peJpx",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x3b2da9304bd1308dc0d1b2f9c3c14f4cf016a955",
+            "url": "https://etherscan.io/address/0x3b2da9304bd1308dc0d1b2f9c3c14f4cf016a955",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x5954ab967bc958940b7eb73ee84797dc8a2afbb9",
+            "url": "https://etherscan.io/address/0x5954ab967bc958940b7eb73ee84797dc8a2afbb9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6490618239b92.jpg",
+    "date": "2023-6-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/AnciliaInc/status/1669907136418283520?s=20",
+    "website_link": "https://pawnfi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PawnfiOfficial",
+    "telegram_link": "https://t.me/pawnfiprotocol",
+    "our_post_link": null,
+    "funds_lost": 633441,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/PawnFi",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/BtN9rGhcQt",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3565,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/PeckShield_Audit_Report_PawnFi_ApeStaking_v1_2.pdf",
+            "date": "2023-06-05T00:00:00.000Z",
+            "partner": {
+                "id": 12,
+                "name": "PeckShield Inc.",
+                "logo_link": "safe/files/partner/logo/6095235554623.jpeg"
+            }
+        }
+    ]
+}
