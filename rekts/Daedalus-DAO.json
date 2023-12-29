@@ -1,0 +1,51 @@
+{
+    "id": 2718,
+    "project_name": "Daedalus DAO",
+    "title": "Daedalus DAO",
+    "description": "<p>The project was holding a fundraising event using a presale smart contract:<br>https://cronos.crypto.org/explorer/address/0xF9e824A2f0A85ddb8675E25e87600DA40a32fd9a/transactions<br><br>The contract deployer:<br>https://cronos.crypto.org/explorer/address/0x5527Cbe48233E77728245BdB4F230892D986c8BD/transactions<br><br>The contract deployer withdrew gathered funds into his wallet at:<br>https://cronos.crypto.org/explorer/tx/0x3524d13f9d3e625aafd7e2a0a702e09113eaaabb9ae1fc0bbb0fb9a6694fda96/token-transfers<br><br>Stolen funds (128,829 MIM) were deposited into the bridge:<br>https://cronos.crypto.org/explorer/tx/0x6a248519f4309ba88648b8c865935a3b79536161d4b096fdf555c13453ed06e4/token-transfers<br><br>Tokens were delivered in the Binance Smart Chain:<br>https://bscscan.com/address/0x5527cbe48233e77728245bdb4f230892d986c8bd#tokentxns</p>",
+    "name_categories": "Other",
+    "token_name": "MAZE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xD2fC424fF0196c3Fb2b3D2A3b29dDEe94e025aee",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61af8fc09133f.png",
+    "date": "2021-12-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CryptoConjurer/status/1467246945790054406",
+    "website_link": "https://daedalus.bond/#/",
+    "webarchive_link": "https://web.archive.org/web/20211128051028/https://daedalus.bond/#/",
+    "twitter_link": "https://twitter.com/daedalusfinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 128832,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/daedalusfi",
+    "git_hub_contract_link": null,
+    "discord": "http://discord.gg/daedalus",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 25,
+            "scam_database_id": 2718,
+            "networks": {
+                "id": 25,
+                "name": "Cronos",
+                "icon_link": "safe/files/network/cronos.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
