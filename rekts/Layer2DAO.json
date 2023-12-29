@@ -1,0 +1,60 @@
+{
+    "id": 3238,
+    "project_name": "Layer2DAO",
+    "title": "Layer2DAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>Layer2DAO investing platform was exploited. The hacker compromised the private key of the multi-sig wallet and stole roughly 50,000,000 $L2DAO tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Layer2DAO is a decentralized investment and staking platform running on the Optimistic chain. The project's multi-sig wallet was compromised. The attacker was able to steal 49,950,000 $L2DAO tokens. With the effort of the project's team, 31,239,611 $L2DAO tokens were repurchased to secure the token's price. Although, the token price dropped by more than 36% over the last 24 hours. The hacker profited for 71,119 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious transaction:</p><p>https://optimistic.etherscan.io/tx/0x074c9a7067a8a11937c3697549ccc2232ee123de483676428ca115fcf45a8201</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "L2DAO",
+    "proof_archive_link": "https://archive.ph/ahMx9",
+    "technical_issue": null,
+    "token_address": "https://optimistic.etherscan.io/token/0xd52f94DF742a6F4B4C8b033369fE13A41782Bf44",
+    "token_addresses": [
+        {
+            "address": "0x5318f07a3a20a2f8bb0ddf14f1dd58c517a76508",
+            "url": "https://optimistic.etherscan.io/address/0x5318f07a3a20a2f8bb0ddf14f1dd58c517a76508",
+            "network": {
+                "id": 1666600015,
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6357bc44b0796.jpg",
+    "date": "2022-10-23",
+    "scam_updates": [],
+    "proof_link": "https://tokeninsight.com/en/news/layer2dao-hacked-for-nearly-50m-l2dao-repurchases-over-31m-tokens",
+    "website_link": "https://www.layer2dao.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TheLayer2DAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 190370,
+    "funds_returned": 119251,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Layer2DAO/Layer2DAO",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/PTKzgswQRX",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3238,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
