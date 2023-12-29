@@ -1,0 +1,51 @@
+{
+    "id": 3125,
+    "project_name": "Impermax",
+    "title": "Impermax",
+    "description": "<p><strong>Quick Summary</strong></p><p>The hacker managed to steal the private keys of the Impermax team. Despite the fact that the Impermax team took measures, the hacker still managed to escape with some of the money.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">Impermax is a DeFi platform for unlocking the value of LP tokens.</p><p data-v-51e0c2ec=\"\">The hacker stole the funds, but did not sell them immediately. The stolen amount is enough to dump the token price to about 0. The team decided to make a frontrun attack by dumping a huge amount of tokens before the hacker does it.&nbsp;</p><p data-v-51e0c2ec=\"\">The team plans to make a recovery process, during which a new $IMX token will be made, which will be sent to all holders of the old token.</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer addresses:</p><p style=\"margin:0cm;background:white;\">ETH</p><p style=\"margin:0cm;background:white;\">- Scammer address (A): https://etherscan.io/address/0x64e5ac2e59ccd85c02dede27d290f16d0ed5bf24</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://etherscan.io/address/0x1d2677ed1b0815fab22368347723551a9dd1fb1b</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Polygon:</p><p style=\"margin:0cm;background:white;\">- Scammer address (B): https://polygonscan.com/address/0x8e430d8388d44e30f8e612708d59cf9d832daac2</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "IMX",
+    "proof_archive_link": "https://web.archive.org/web/20220815091819/https://twitter.com/CertiKAlert/status/1557183539271065602?t=syB3sIYSTfv6l3IJojxl_w&s=31",
+    "technical_issue": null,
+    "token_address": "0x7b35ce522cb72e4077baeb96cb923a5529764a00, 0xea6887e4a9cda1b77e70129e5fba830cdb5cddef, 0x9c67ee39e3c4954396b9142010653f17257dd39c, 0x900f1ec5819fa087d368877cd03b265bf1802667, 0x60bb3d364b765c497c8ce50ae0ae3f0882c5bd05, 0xea38f1ccf77bf43f352636241b05dd8f6f5f52b2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62fa4d6e5f805.png",
+    "date": "2022-7-16",
+    "scam_updates": [],
+    "proof_link": "https://impermax.medium.com/imx-incident-post-mortem-and-recovery-plan-aeecd4e457ce,",
+    "website_link": "https://www.impermax.finance/",
+    "webarchive_link": "https://web.archive.org/web/20220515103910/https://www.impermax.finance/",
+    "twitter_link": "https://twitter.com/ImpermaxFinance",
+    "telegram_link": "https://t.me/ImpermaxFinance",
+    "our_post_link": null,
+    "funds_lost": 7200,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Impermax-Finance",
+    "git_hub_contract_link": "https://github.com/Impermax-Finance/IMX/tree/main/contracts",
+    "discord": "https://discord.com/invite/XN739EgG4X",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3125,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
