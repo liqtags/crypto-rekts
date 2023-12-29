@@ -1,0 +1,60 @@
+{
+    "id": 3524,
+    "project_name": "Block Forest",
+    "title": "Block Forest",
+    "description": "<p><strong>Quick Summary</strong></p><p>Block Forest's pool was exploited via a flash loan attack resulting in the loss of 275,439 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Block Forest is a BEP20 token trading on PancakeSwap. The project's pool suffered from a flash loan attack. An attacker deployed a malicious contract with unverified source code and performed an attack in a single transaction. The exploiter took out a flash loan from the DODO project and drained all liquidity worth 275,439 $USD from PancakePool. All stolen assets were transferred to another EOA address and currently remain there.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2d2bcd3caed4b51b7090c78cfd73ea091a4b44de</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0x7e39468760c45205b616a385c414d2ffd7cbdc33</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x5a89e083e8e3ad75c38be65a6a92d7e32249cf9b5ceb304bf1ae2409241993ff</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x8b5C1046C2886042Cc435C84Fb77121E69Cad968</p>",
+    "name_categories": "Token",
+    "token_name": "BFT",
+    "proof_archive_link": "https://archive.ph/o4Nou",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc4e83b0ef81b4c7cab394f1c0d4a39bf8bc4e248",
+    "token_addresses": [
+        {
+            "address": "0x97a22ab59234ba7dd11d5c72e206ed19f045b06c",
+            "url": "https://bscscan.com/address/0x97a22ab59234ba7dd11d5c72e206ed19f045b06c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6462415a2ef36.png",
+    "date": "2023-5-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1654918609410433025?s=20",
+    "website_link": "https://www.bft.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 275439,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3524,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
