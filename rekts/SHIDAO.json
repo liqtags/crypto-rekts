@@ -1,0 +1,51 @@
+{
+    "id": 3022,
+    "project_name": "SHIDAO",
+    "title": "SHIDAO",
+    "description": "<p>On May 25th, SHIDAO was rug pulled for ~$180K. The project falsified the CertiK audit in order to gain the trust of its customers and lure them to rugpool.</p><p><br></p><p>Rug funding address: https://bscscan.com/address/0x1815b5805DD5260b644B8db230763e38df4C5d7f which distributed BNB for a tx fee, funds approximately 25 other addresses with 0.02 BNB for token sales.</p><p>The ShiD tokens are then distributed by the contract https://bscscan.com/address/0xC86D17c77dfCc002c17c4cBed83040795C0Ea9A1 to all the addresses. &nbsp;After funding completes, the wallets sold their tokens.</p><p><br></p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "ShiD",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1529620537248567296",
+    "technical_issue": null,
+    "token_address": "0xc59D46Ce32D8652536b5aE96DED0242E04923FD6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/628f72528c3f9.jpeg",
+    "date": "2022-5-25",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SHIIIIDAO",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 180000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3022,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
