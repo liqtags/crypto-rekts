@@ -1,0 +1,51 @@
+{
+    "id": 2878,
+    "project_name": "PlusToken",
+    "title": "PlusToken",
+    "description": "<p><strong>Quick Summary</strong></p><p>The perpetrators of one of the largest digital currency frauds have been sentenced to up to 11 years in prison. In addition, the PlusToken operators were penalized up to $900,000 by a Chinese court for their participation in the $2.25 billion Ponzi scam.<br><strong><br>Details of the Exploit</strong><br>Chen Bo established PlusToken in early 2018, posing as a South Korean wallet and exchange. It enticed investors by promising speedy and guaranteed returns. In the two years afterwards, Bo has recruited numerous others and spread the fraud to other Southeast Asian nations such as China, Cambodia, Malaysia, Vanuatu, and Vietnam.<br><br>PlusToken operators had devised a pyramid scheme that managed to lure over 2.6 million investors, authorities said. The scam was organized into at least 3,200 investor levels, with more referrals and bigger investments bumping an investor up the chain. The operators also lied to investors that they were making money through digital currency investing, according to investors.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62432b9d39213.png",
+    "date": "2019-12-16",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/vanuatu-extradicts-six-chinese-citizens-allegedly-involved-in-crypto-scheme, https://www.nasdaq.com/articles/ringleaders-of-plustoken-scam-jailed-for-up-to-11-years-2020-12-01, https://coingeek.com/plustoken-scam-top-operators-jailed-for-up-to-11-years/",
+    "website_link": "https://thecryptonizer.team-plt.com/",
+    "webarchive_link": "https://web.archive.org/web/20220125033211/https://www.coindesk.com/policy/2020/12/01/ringleaders-of-plustoken-scam-jailed-for-up-to-11-years/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2900000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2878,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
