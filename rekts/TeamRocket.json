@@ -1,0 +1,51 @@
+{
+    "id": 2289,
+    "project_name": "TeamRocket",
+    "title": "TeamRocket",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "TEAM ROCKET",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa260ca4e16bac1dec175f3e22ff4027631280bff",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6139c2c030977.jpeg",
+    "date": "2021-9-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1380219360631906307 https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-noapproval/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2289,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
