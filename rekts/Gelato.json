@@ -1,0 +1,51 @@
+{
+    "id": 2729,
+    "project_name": "Gelato",
+    "title": "Gelato",
+    "description": "<p>The transaction behind the exploit:<br>https://etherscan.io/tx/0x90a5d10ca9092a82464fd87efb1a7ed06c0d0420fde0cbb20af6e7ec9046c303<br><br>The bug in GUniRouter02 within the rebalanceAndAddLiquidity() function was able to be exploited to transfer funds from users' wallets who have previously approved GUniRouter02 for spending their tokens.<br><br>Tokens, which were mostly affected: DAI, USDC, FEI, agEUR, FRAX, WETH, ENS, ETH2x-FLI, G-UNI DAI/USDC, and POP.<br><br>The root issue: rebalanceAndAddLiquidity() can be invoked with custom _swapAction and _swapDatas parameters. Given the fact that users have given infinite allowances for the router contract, the possible exploiter could drain users' funds from their wallets.<br><br>The project team executed a successful whitehat hack which secured around $26M of user funds.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b8e978d9ec2.jpeg",
+    "date": "2021-12-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/gelatonetwork/status/1469813838916866050, https://twitter.com/peckshield/status/1469816376923942912",
+    "website_link": "https://www.gelato.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/gelatonetwork",
+    "telegram_link": "https://t.me/therealgelatonetwork",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/gelatodigital",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/ApbA39BKyJ",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2729,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
