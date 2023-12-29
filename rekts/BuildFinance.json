@@ -1,0 +1,51 @@
+{
+    "id": 2830,
+    "project_name": "BuildFinance",
+    "title": "BuildFinance",
+    "description": "<p>The exploiter's address:<br>https://etherscan.io/address/0xdcc8a38a3a1f4ef4d0b4984dcbb31627d0952c28<br><br>The Build Finance DAO has been the victim of a hostile governance takeover in which a malicious actor proposed and was successful in gaining control of the Build token contract.<br><br>The proposal was made by a wallet named Suho.eth but it was failed.<br><br>However, it appears that the exploiter transferred their governance tokens to another wallet and attempted again. This idea, however, was not picked up by the bot on the Discord server. This idea seemed to go ignored until it was passed on February 10th.<br><br>The attacker exploited their newly acquired access over the DAO and its token minting capabilities to generate 1.1 million BUILD tokens for himself. They drained the liquidity pools on two decentralized exchanges, Balancer and Uniswap. Following that, they removed 130,000 METRIC tokens from the project's treasury, sold them, and minted 1 billion BUILD tokens additionally.<br><br>After, the exploiter deposited stolen funds into the Tornado Cash mixer</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BUILD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6e36556b3ee5aa28def2a8ec3dae30ec2b208739",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/620d2f3751df8.jpeg",
+    "date": "2022-2-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/finance_build/status/1493223190071554049, https://twitter.com/PeckShieldAlert/status/1493412074642309120",
+    "website_link": "https://build.finance/",
+    "webarchive_link": "https://web.archive.org/web/20210613143032/https://build.finance/",
+    "twitter_link": "https://twitter.com/finance_build",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 470000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2830,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
