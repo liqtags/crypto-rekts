@@ -1,0 +1,51 @@
+{
+    "id": 132,
+    "project_name": "Galaxy DeFi",
+    "title": "Galaxy DeFi",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x4bb442addcdf8b0dde549461afc2dc364fdc230b41212d600a3210f8df0eee36<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xac70e946c5a2d688ff8e2c66d5033cbe6956b6b9ea3774409343e1aeaa5c7725</p>",
+    "name_categories": "Token",
+    "token_name": "GLXY",
+    "proof_archive_link": "https://archive.ph/U31bp",
+    "technical_issue": null,
+    "token_address": "0x82b1f749808fa4a1d3685ae554c12ac7552a7428",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b6c2855c1.jpeg",
+    "date": "2021-1-12",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://galaxydefi.io/",
+    "webarchive_link": "https://web.archive.org/web/20210201162804/https://galaxydefi.io/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/pumpGalaxyDeFi",
+    "our_post_link": null,
+    "funds_lost": 38798,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 132,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
