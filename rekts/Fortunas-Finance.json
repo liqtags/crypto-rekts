@@ -1,0 +1,51 @@
+{
+    "id": 3195,
+    "project_name": "Fortunas Finance",
+    "title": "Fortunas Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fortunas Finance was exploited using smart contract vulnerability. The hacker minted $FRTNA tokens and sold them on PancakeSwap and KnightSwap which dumped the token price by more than 99% on both pools.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Fortunas Finance is a gamified crypto project. The project's token $FRTNA was hacked using a vulnerability in the liquidity pool's smart contracts. The hacker used mint() function to mint tokens without $BUSD, and profit for the total amount of 21,672 $BUSD. Several smart contracts with unverified source code were used to perform an attack. The stolen funds were transferred to another contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x8dd7c524eaac1ab194afe0d6395282fb7987c08d</p><p>Malicious contracts:</p><p>https://bscscan.com/address/0x3cd84851bc50be00642be846c34b35ed58715f79</p><p>https://bscscan.com/address/0x0dbb3f6e8ee4c9823c2b8d38d72b82ef3c11f369</p><p><br></p><p>PancakeSwap pool:</p><p>https://bscscan.com/address/0x379cBeC604015B70B0aabF6c5B7Ad568975e94ED</p><p>KnightSwap pool:</p><p>https://bscscan.com/address/0x4Afb4997026465a2346f62893fcF81334C9CfFA8</p><p><br></p><p>Exploit transaction example:</p><p>https://bscscan.com/tx/0x68d11391d11994d161e20e6449ae3ba2fe9b44cff0bb3328297c76252eb4c9b4</p>",
+    "name_categories": "Token",
+    "token_name": "FRTNA",
+    "proof_archive_link": "https://archive.is/pQV4I",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x3949D773d188Bb53E67CAE443Aa8e741878b5216",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63348851dcec4.jpeg",
+    "date": "2022-9-22",
+    "scam_updates": [],
+    "proof_link": "https://mobile.twitter.com/FortunasFinance/status/1572950332635844616, https://twitter.com/CertiKAlert/status/1572880628584165376",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 21672,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3195,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
