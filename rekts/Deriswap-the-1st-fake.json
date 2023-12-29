@@ -1,0 +1,51 @@
+{
+    "id": 51,
+    "project_name": "Deriswap",
+    "title": "Deriswap (the 1st fake)",
+    "description": "<p>The anonymous team developed a bogus token - DWAP - and issued it on the Uniswap when Andre Cronje announced not released project named Deriswap.<br><br>The contract deployer added liquidity at:<br>https://etherscan.io/tx/0xf14b9d31cd896593668cabdba455c94af65f7314f8a99744ee722fa6fd39effb<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xdc920baf1dcfead96a023ce3f99a7645d3a74f79957a3821c87475049f6742e6</p><p>https://etherscan.io/tx/0x0198716af5f85606cbcb13da99406e3f1eaf8234cb56c7911705c6118a286d40</p><p>https://etherscan.io/tx/0xf7b8d681a29d35061b4d9cd8472c0cc84a941b38c56790b4e71b3815bea7bac4</p><p>https://etherscan.io/tx/0x7ef9d3719de3654c97628a966793784de79207c7d4f0a43be287801874e4be33</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "DWAP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x846D152216146c77C81aF3A1657790eD8bA69281",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4e26b3e31a.png",
+    "date": "2020-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1330792133100376066",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/243",
+    "funds_lost": 2170264,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 51,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
