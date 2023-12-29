@@ -1,0 +1,76 @@
+{
+    "id": 3311,
+    "project_name": "Dictum Exchange",
+    "title": "Dictum Exchange",
+    "description": "<p><strong>Quick Summary</strong></p><p>Dictum Exchange has rugged pulled. On the 31st of Dec 2022, just after airdropping its $DIC token, the project shut down all of its social networks and performed hard rug from unverified proxy <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>liquidity pool&nbsp;</span>contracts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The protocol built on the Arbitrum network <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Dictum Exchange</span> performed hard rug from its LPs.&nbsp;</p><p>Most of the contracts of the protocol are built using a proxy upgradeability pattern. In this case, it allows deploying new implementations with any malicious logic. Currently, the source code of all LPs is not verified and includes malicious logic in the burn() function.&nbsp;</p><p>This function was called on each LP contract to drain a huge share of liquidity from them.</p><p>Currently, all stolen funds are bridged to the Ethereum Mainnet as ETH and stored in the account: 0xaF8f284e93c5bF5795ccA636D8AeE62a2616e21d</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addreses:</p><p>https://arbiscan.io/address/0xaf8f284e93c5bf5795cca636d8aee62a2616e21d</p><p>https://etherscan.io/address/0xaF8f284e93c5bF5795ccA636D8AeE62a2616e21d</p><p><br></p><p>Liquidity draining TXs:</p><p>https://arbiscan.io/tx/0xbe0e8d8304f1057a19cb15e1bbb8917d1e3dac60e9b779ab628d9a4c1ce17112</p><p>https://arbiscan.io/tx/0xe7275b599228ffe565a9894011c949c3037a2ad90dc1b1adee14284bfe02b307</p><p>https://arbiscan.io/tx/0xe197f911e263ee6079db65398b3a7e4dbf2fdff5cce9dbe79c43137eed4c187f</p><p>https://arbiscan.io/tx/0x874e189e44ef1d378a0c94bf9a2df2102444f55e7c08dde658fa72cf05667f66</p><p>https://arbiscan.io/tx/0xf3b3099021a657383c5af009ffa0fdbabb062d7cc360c2de96b018299533540a</p><p>https://arbiscan.io/tx/0x4812d74fd976e42798f4b61e6a008fcec0f89ba1cf51ffab94051bfdd651c7bc</p><p>https://arbiscan.io/tx/0x67ac2279d9ac0cb49bc5269c8edc79f4a999fcffa08eb2ddcbb0a196470723b1</p><p>https://arbiscan.io/tx/0xb0f0bc34f36c12cf32c94a1965999e400bb84ce3bc56eb3d8e3303eca2e8effc</p><p>https://arbiscan.io/tx/0x48805ffac3d061aff5d96b115e2991a01be87083432d900f725575e3c7123876</p><p><br></p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DTOKEN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xfd808d72761ad2423f100c53aa2f2c7f133def0a",
+    "token_addresses": [
+        {
+            "address": "0xfa3e4050dd383b8df1990831e59a82c350379bd7",
+            "url": "https://arbiscan.io/address/0xfa3e4050dd383b8df1990831e59a82c350379bd7#code",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xfd742b576c123b6447c98ffaa54941e3fc41ebe7",
+            "url": "https://arbiscan.io/address/0xfd742b576c123b6447c98ffaa54941e3fc41ebe7#code",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xa0e07bd009f53cf0be73e0995b7445dfd8888c4b",
+            "url": "https://arbiscan.io/address/0xa0e07bd009f53cf0be73e0995b7445dfd8888c4b#code",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63b829e8d13a1.png",
+    "date": "2022-12-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/olimpiocrypto/status/1609183982821818369, https://twitter.com/DefiyieldSec/status/1609273620039090176",
+    "website_link": "https://dictum.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DictumExchange",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3311,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
