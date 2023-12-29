@@ -1,0 +1,68 @@
+{
+    "id": 3753,
+    "project_name": "APE",
+    "title": "APE Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>APE token was rugpulled by the scammer, removing liquidity worth 96,421 USD from UniSwap pool in three transactions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>APE is an ERC20 token trading on UniSwap. On Jul 26, 2022, the scammer executed an exit scam by performing a rugpull on the APE token project. They removed liquidity from the UniSwap pool in three separate transactions, resulting in a total loss of 96,421 USD, which is equivalent to 53.36 WETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xAa5408d9490C97f71680CF8A989642753fEF1F11</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xF969Eb68bCBFB97D6c0515703FdAaB5f0e4EAc59</p><p><br></p><p>Liquidity Removal Transactions:</p><p>1. https://etherscan.io/tx/0x9903e0b2e82919d56cf57bdac7f688962fbea7aeebd2a5630d494e7b588da951</p><p>2. https://etherscan.io/tx/0xc303750e890fe718f5e5aa44b6ca5ba23e25dfbc30057663de4a8dfc2c831b7c</p><p>3. https://etherscan.io/tx/0xfd9274e85fd8ac3cfd2392431ef5b48669e7142b55d0903da3d01f9454272f4b</p>",
+    "name_categories": "Token",
+    "token_name": "APE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
+    "token_addresses": [
+        {
+            "address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
+            "url": "https://etherscan.io/address/0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x5ae205303c7d3254ef536d4f535fafc47e3b957f",
+            "url": "https://etherscan.io/address/0x5ae205303c7d3254ef536d4f535fafc47e3b957f",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65412525d982e.png",
+    "date": "2022-7-26",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 94216,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3753,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
