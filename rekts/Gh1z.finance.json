@@ -1,0 +1,51 @@
+{
+    "id": 230,
+    "project_name": "Gh1z.finance",
+    "title": "Gh1z.finance",
+    "description": "<p>The contract deployer added initial liquidity to the pair using funds from KuCoin exchange. Funds from KuCoin received at:<br>https://etherscan.io/tx/0xb021a6e5ed11bcc2c85a8fb6ff742aebf2417b3b6d7614434ada7da94aa5828f<br><br>Initial liquidity added at:<br>https://etherscan.io/tx/0x61c5730942710e6417eb5dad3fb381a9785535c9c25c5d0227cd8959f90d197b<br><br>The contract deployer invoked hidden minting under setFeeDistributor() function at:<br>https://etherscan.io/tx/0x6552ac529bd11a4a8d889e59752cfd3b0f28ce761368068d90d7763b24401162<br><br>The contract deployer has sold tokens at:<br>https://etherscan.io/tx/0x52cb39ceeac782b46215c7ca84ce5a929cc67a94cd0e3b3e1932eb8a1a58dd39</p>",
+    "name_categories": "Token",
+    "token_name": "GHZ",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xdba87d3b55fb2ed762d3b43b663ebbe21a8167a6",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ee3dd8c1c.png",
+    "date": "2020-11-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1331256105079431168",
+    "website_link": "http://gh1z.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201124151514/https://gh1z.finance/",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/gh1zfinance",
+    "our_post_link": null,
+    "funds_lost": 2137,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 230,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
