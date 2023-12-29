@@ -1,0 +1,51 @@
+{
+    "id": 2619,
+    "project_name": "BeastMode Token",
+    "title": "BeastMode Token",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BEAST",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x4a6569ff2ca81a37342875d684aeb95e0a6d0534",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6135e2e6763aa.png",
+    "date": "2021-9-6",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x4a6569ff2ca81a37342875d684aeb95e0a6d0534?a=0x375ee6d02f1197715C41E51A8F609B13839F69CB",
+    "website_link": "https://beastmode.finance/?refer=0x9D4c31a3f6630D3B9aE5f04BA08DdFA21Acf2e19#/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2619,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
