@@ -1,0 +1,51 @@
+{
+    "id": 1035,
+    "project_name": "7finance.io",
+    "title": "7finance.io",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "SVN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x74df5a3e304335c3852f5a8e83338322c26f92f0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60eef69b5f81e.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1382886019419103233",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 1035,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
