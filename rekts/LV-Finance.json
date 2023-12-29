@@ -1,0 +1,51 @@
+{
+    "id": 41,
+    "project_name": "LV Finance",
+    "title": "LV Finance",
+    "description": "<p>The core staking smart contracts were backdoored with the <u>addReward</u>() function. The following contracts accepted deposits from users in different tokens:<br>https://etherscan.io/address/0x80c09d3cc108fa52b7b63cdcc071daebc059a494#code<br>https://etherscan.io/address/0x9e1d0964d519ccb470151dd85e78fc798c75deb7#code<br>https://etherscan.io/address/0x7b63771fdc7ae30bad88b84cf902161ef3c39f80#code<br>https://etherscan.io/address/0xa2a430ce64c1f15f6d3c4a6cce04613986d6f27d#code<br>https://etherscan.io/address/0xb7b3ab6363507e5f36e744607696d60b2cdd2f3e#code<br>https://etherscan.io/address/0x828995b479999abb8e9e3f82381f34b2c05f7a27#code<br>https://etherscan.io/address/0x5a529c3a12006d5a5ecbb5044b66bed0a872bc6c#code<br>https://etherscan.io/address/0xd76e44702168e5d3270344e0d14ca10bb902f7f1#code<br>https://etherscan.io/address/0xbca5fc48d3d0310204965f6d22764add6989ca06#code<br>https://etherscan.io/address/0xc3dc2d24fe3e9127d86ed822e86ddc42b87b903f#code<br>https://etherscan.io/address/0xe52dfd3d4bfe8aa76a0cd4ae2f8ad443fa2a3e14#code<br>https://etherscan.io/address/0x478e26cbd368aeb8b0b23a43255ccc2d41d28c02#code<br><br>In the example below, the external address refers to each smart contract by invoking <u>addReward</u>() function and withdrawing user's deposits:<br>https://etherscan.io/tx/0xa5b92bb943f4ddae839145abf11b059b79d3353f4254b989325e415295f03325<br><br>In total, 201.5K USDC, 79.6K USDT, 8.1 LEND, 2.7<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>K</span> SUSHI, 816 UNI, 1K LINK, 1.3 SNX, 261 YFV, 0.02 YFI, 82.1 PYLON and 0.76 YFII were stolen and exchanged on ETH.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "LV",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa77f34bde382522cd3fb3096c480d15e525aab22",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60dc73a320933.png",
+    "date": "2020-9-19",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/69",
+    "funds_lost": 333987,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 41,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
