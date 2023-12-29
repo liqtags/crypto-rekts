@@ -1,0 +1,51 @@
+{
+    "id": 100,
+    "project_name": "Sonic Swap",
+    "title": "Sonic Swap",
+    "description": "<p>The contract deployer invoked <u>mint</u>() to generate 100,000 tokens onto his wallet:<br>https://etherscan.io/tx/0x7d8c79bb95d76a1738b7c7fafbdb4daa4e30460f84ee352b227662bcd3eda13a<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x5f168df68d307c5a180d9352c6f5bb37693f29731c859ebddc4f527dd12c5626<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xcab94141109d8bdffb52730c7ac8080ad4f98d73cca23c456c4a6a9fc9f2f693</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SNIC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xfa51c363cf42c6c860ef77548fe79a7049df901a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d59fb7819a3.png",
+    "date": "2020-12-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1340930652321923073",
+    "website_link": "http://sonicswap.io/",
+    "webarchive_link": "https://archive.ph/qkUL6",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 824,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 100,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
