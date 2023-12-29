@@ -1,0 +1,51 @@
+{
+    "id": 91,
+    "project_name": "CREW",
+    "title": "CREW",
+    "description": "<p>The project was holding a fundraising event:<br>https://archive.is/8bDTt<br><br>The presale contract:<br>https://etherscan.io/address/0xD5862D568fee62E746633b58C9eA07b4a0e4F586<br><br>Raised funds (10.8 ETH) were distributed to the external address at:<br>https://bloxy.info/txs/transfers_from/0xd5862d568fee62e746633b58c9ea07b4a0e4f586?currency_id=1</p>",
+    "name_categories": "Other",
+    "token_name": "CREW",
+    "proof_archive_link": "https://archive.ph/EV2eH",
+    "technical_issue": null,
+    "token_address": "0xf212f5f479801606e4eee5ecb150d09cd16320f3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5994bb1fa1.jpeg",
+    "date": "2020-12-12",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://crewmates.org/",
+    "webarchive_link": "https://web.archive.org/web/20201207203905/https://crewmates.org/",
+    "twitter_link": null,
+    "telegram_link": "http://t.me/crewmatesorg",
+    "our_post_link": "https://t.me/defiyield_ann/269",
+    "funds_lost": 6105,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 91,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
