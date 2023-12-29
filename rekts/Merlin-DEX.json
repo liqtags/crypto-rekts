@@ -1,0 +1,70 @@
+{
+    "id": 3513,
+    "project_name": "Merlin DEX",
+    "title": "Merlin DEX",
+    "description": "<p><strong>Quick Summary</strong></p><p>Merlin DEX on zkSync was exploited, with one exploiter stealing almost 850,000 USDC and transferring them to Ethereum. The amount drained from a liquidity pool on the DEX reached $1.82 million, and hackers transferred nearly 165,000 USDC to Binance and MEXC centralized exchanges. The Merlin team has released a post-mortem report stating that several members of the back-end team had drained all of their contracts, carried out on-chain transactions to drain all of Merlin's pools and manipulate front-end contracts.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Merlin DEX on zkSync was recently exploited, with one exploiter stealing almost 850,000 USDC and transferring them to Ethereum. Further reports by PeckShield revealed that hackers transferred nearly 165,000 USDC to Binance and MEXC centralized exchanges. The Merlin team has released a post-mortem report stating that several members of the back-end team had drained all of their contracts, carried out on-chain transactions to drain all of Merlin's pools and manipulate front-end contracts.</p><p><br></p><p>According to the report, the back-end team implemented a function that allowed a call action to all Merlin pairs alongside hidden front-end contracts, draining all of Merlin's pools and the public sale. Merlin had submitted all intended contracts to be used on their platform to Certik for a full audit, but there was a clear oversight on the overarching power that the owner had of the pools. Furthermore, the back-end team, who also had access to Merlin's web-host, unknowingly manipulated the code to achieve their goal.</p><p><br></p><p>Merlin's priority is to return all funds to affected parties and participants on their platform at the earliest opportunity. They are working alongside on-chain analysts to monitor the movement of the stolen funds and have notified relevant authorities in Serbia (region of the back-end team).</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Wallet addresses of the contract owner/deployer: https://explorer.zksync.io/address/0xc0D6987d10430292A3ca994dd7A31E461eb28182, https://explorer.zksync.io/address/0xc7fD785f81Fe6bBb499009746a2BCbbdd895f5b0</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xc0D6987d10430292A3ca994dd7A31E461eb28182,",
+            "url": "https://explorer.zksync.io/address/0xc0D6987d10430292A3ca994dd7A31E461eb28182",
+            "network": {
+                "id": 324,
+                "icon_link": "safe/files/network/involved/zkSyncEra.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64497791b1ee6.png",
+    "date": "2023-4-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/TheMerlinDEX/status/1651281814395187200, https://www.investing.com/news/cryptocurrency-news/certikaudited-merlin-dex-loses-182m-to-liquidity-pool-exploit-3064794, https://www.coindesk.com/tech/2023/04/26/zksync-based-dex-merlin-drained-of-1m-during-public-token-sale-despite-audit/, https://twitter.com/wasgiventhatday/status/1651043902647078913",
+    "website_link": "https://mage.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TheMerlinDEX",
+    "telegram_link": "https://t.me/themerlindex",
+    "our_post_link": null,
+    "funds_lost": 1800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/MerlinDEX",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/merlindex",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 324,
+            "scam_database_id": 3513,
+            "networks": {
+                "id": 324,
+                "name": "zkSync Era",
+                "icon_link": "safe/files/network/zkSyncEra.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_Merlin_DEX_audit_2_v16.pdf",
+            "date": "2023-04-24T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
