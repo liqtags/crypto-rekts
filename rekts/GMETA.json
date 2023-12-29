@@ -1,0 +1,68 @@
+{
+    "id": 3604,
+    "project_name": "GMETA",
+    "title": "GMETA",
+    "description": "<p><strong>Quick Summary</strong></p><p>GMETA token was rugpulled by the deployer and linked addresses, resulting in a loss of 3,675,612 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GMETA, a BEP20 token, fell victim to a rugpull. The token deployer transferred a significant amount of $GMETA tokens to an EOA address on February 4, 2023. A portion of these tokens was moved to another EOA which sold the tokens and drained over 2.3 million $USDT from the PancakePool. The remaining tokens were transferred between multiple EOA addresses, and one of them drained the pool for an additional 1.3 million $USDT, of which 1 million $USDT was transferred to an unverified contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x9f02c29ad35fd20a51cd48250512a7b7feeb8ed1</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0xd33D347d8f54EC3229A771F2092A6c6b6750D695</p><p>https://bscscan.com/address/0x97Ed15d9f86465f6079ef01779F6A546e19bd7DE</p><p><br></p><p>Funds Holder Contract:</p><p>https://bscscan.com/address/0xc95615e6711a356671f7deb408f689d6cc2bec20</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xb8c4220db882d3633347bcb723921499b2f2420557ba5ed34aa06c829afbf62f</p><p>https://bscscan.com/tx/0x444d119ae43d45d86234e2f9e5e35e8db74feeda600fd8bc0f6aad09148af4dc</p><p><br></p><p>Tokens Transfer Transaction:</p><p>https://bscscan.com/tx/0xded53af2a2be936b510e516c9416bfd1f94a8b81d29632ed68375cc50351314c</p><p><br></p><p>Deployer Relation Proof:</p><p>https://bscscan.com/token/0x93023f1d3525e273f291b6f76d2f5027a39bf302?a=0x42787259d749b67a065803533e71af41a351a8e5</p>",
+    "name_categories": "Token",
+    "token_name": "GMETA",
+    "proof_archive_link": "https://archive.ph/fWGnt",
+    "technical_issue": null,
+    "token_address": "0x93023f1d3525e273f291b6f76d2f5027a39bf302",
+    "token_addresses": [
+        {
+            "address": "0x93023f1d3525e273f291b6f76d2f5027a39bf302",
+            "url": "https://bscscan.com/token/0x93023f1d3525e273f291b6f76d2f5027a39bf302",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x54b313d3e292cAf367017068ED752398e28eDe1C",
+            "url": "https://bscscan.com/address/0x54b313d3e292cAf367017068ED752398e28eDe1C",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64b7308878b0c.png",
+    "date": "2023-7-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1681292342102458368",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3675612,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3604,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
