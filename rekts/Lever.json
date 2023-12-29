@@ -1,0 +1,51 @@
+{
+    "id": 2719,
+    "project_name": "Lever",
+    "title": "Lever",
+    "description": "<p>The attacker:<br>https://bscscan.com/address/0x1bd2c35424bcb28b79ff75b540bbe0c84902f76b<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0xb5365a299c07c81670e52934893793ad7c225a5cf30b641e20b451b2b5815593<br><br>Attack contract A:<br>https://bscscan.com/address/0x5f92949a14e92d42ac182b27e1541fca4ca13f4e<br><br>Attack contract B:<br>https://bscscan.com/address/0x3790c9b5a9b9d9aa1c69140a5f01a57c9b868e1e<br><br>Steps:</p><p>- attack contract A flash loaded 2,100 BNB from PancakeSwap and deposited 2000 BNB on Lever\u2019s BNB vault<br><br>- borrowed 1500 BNB from Lever\u2019s BNB vault and transferred it to Lever attack contract B<br><br>- attack contract B deposited 1500 BNB and used it to drain 32.78 ETH, 1,068.05 BAKE, 167.25 XVS, 1,042.89DAI, 64,157.79 BUSD, 54,335.19USDT ,2.8806 BTC, 1,930.01CAKE, 463.0078DOT, and 332.9184 WBNB<br><br>- The total loss equals $652941.<br><br>Attack contract A used attack contract B\u2019s 1500 xBNB (which had been collateralized to borrow other assets) to repay the 1500 dBNB it borrowed, by calling the <u>repay</u>() function in the MarginPool.sol contract.<br><br>The contract didn\u2019t check the liabilities of the caller. The attack contract B was able to repay the attack contract A\u2019s dtoken with its xtoken. The attack contract A repaid the flash loan on PancakeSwap.</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "LEV",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xbc194e6f748a222754c3e8b9946922c09e7d4e91",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b0cf2661248.png",
+    "date": "2021-11-26",
+    "scam_updates": [],
+    "proof_link": "https://levernetwork.medium.com/full-report-of-the-lever-hack-ee508cf7488c",
+    "website_link": "https://lever.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LeverNetwork",
+    "telegram_link": "https://t.me/LeverNetwork",
+    "our_post_link": null,
+    "funds_lost": 652941,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/levernetwork",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/vfKupyqq2V",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2719,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
