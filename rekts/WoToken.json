@@ -1,0 +1,51 @@
+{
+    "id": 2871,
+    "project_name": "WoToken",
+    "title": "WoToken",
+    "description": "<p><strong>Quick Summary</strong></p><p>WoToken scam took in roughly $1 billion worth of crypto at current prices from over 715,000 victims.</p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif !important;'><br style=\"box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-family: &quot;Avenir Next&quot;, sans-serif !important;\"></strong><strong>Details of the Exploit</strong></p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(5, 15, 25); font-family: \"Avenir Next\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>WoToken purported to create profits for users by deploying algorithmic trading bots and paying affiliates referral commissions. The stated proprietary trading program, however, did not exist, as with other MLM frauds.</span></p><p style='box-sizing: inherit; margin: 8px 0px 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; line-height: 1.4285em; font-family: \"Avenir Next\", sans-serif; overflow-wrap: break-word; color: rgb(5, 15, 25); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(250, 251, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>One of the scam's key operators is allegedly tied to PlusToken, a multibillion-dollar Ponzi scheme that is thought to have influenced the price trajectory of Bitcoin (BTC) many times during 2019.<br><br>WoToken amassed 46,000 BTC, over 2 million Ethereum (ETH), 292,000 Litecoin (LTC), 56,000 Bitcoin Cash (BCH), and 684,00 Eos (EOS) \u2013 totaling approximately $1 billion at the time of the arrest.<br><br>WoToken was operational from July 2018 until October 2019.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://web.archive.org/web/20210418234212/https://coingeek.com/operators-of-1b-ponzi-scheme-wotoken-sentenced-to-9-years-in-prison/",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62430ce2179b7.png",
+    "date": "2020-5-14",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/plustoken-scammer-implicated-in-chinas-second-ten-figure-crypto-ponzi, https://www.theblockcrypto.com/linked/82783/china-crypto-ponzi-prison-wotoken-billions, https://news.bitcoin.com/billion-crypto-ponzi-wotoken-prison-china/",
+    "website_link": "http://wotoken.pro/",
+    "webarchive_link": "https://web.archive.org/web/20181029073006/http://wotoken.pro/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1000000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2871,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
