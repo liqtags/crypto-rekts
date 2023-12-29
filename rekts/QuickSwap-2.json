@@ -1,0 +1,60 @@
+{
+    "id": 3239,
+    "project_name": "QuickSwap",
+    "title": "QuickSwap (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>QuickSwap exchange was exploited through a flash loan attack. The hacker managed to transfer 190,000 $USD using TornadoCash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>QuickSwap is a DEX running on the Polygon chain. The hacker used the deployed smart contract with unverified source code to perform a flash loan attack. AAVE and Balancer platforms were used to loan 43,000,000 $USD worth of $MATIC and to manipulate an assets price on the pool. QuickSwap tweeted, mentioning that only the MarketXYZ lending platform's contracts were affected, cause of the Curve Oracle. The hacker made a profit of 190,000 $USD after paying the flash loans and bridged the funds to the Ethereum chain and consequently to the TornadoCash.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://polygonscan.com/address/0x4206d62305d2815494dcdb759c4e32fca1d181a0</p><p><br></p><p>Malicious contract:</p><p>https://polygonscan.com/address/0xeb4c67e5be040068fa477a539341d6aef081e4eb</p><p><br></p><p>Malicious transaction:</p><p>https://polygonscan.com/tx/0xb8efe839da0c89daa763f39f30577dc21937ae351c6f99336a0017e63d387558</p><p><br></p><p>Bridge transaction:</p><p>https://polygonscan.com/tx/0x771018d8a59ef5cc3e99eb753ae9d2dcf3f51eefa0e23cd1664100778cc8dc1b</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/Pi8T2, https://archive.ph/sNNwL, https://archive.ph/vDScw",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x65752c54d9102bdfd69d351e1838a1be83c924c6",
+            "url": "https://polygonscan.com/address/0x65752c54d9102bdfd69d351e1838a1be83c924c6",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6357cc72b8103.jpg",
+    "date": "2022-10-23",
+    "scam_updates": [],
+    "proof_link": "https://decrypt.co/112750/polygon-quickswap-flash-loan-attack, https://twitter.com/BeosinAlert/status/1584551399941365763, https://twitter.com/QuickswapDEX/status/1584524584984145922?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1584524584984145922%7Ctwgr%5E80802f1841beeca2583097ffd33e3d2664fa97fc%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fdecrypt.co%2F112750%2Fpolygon-quickswap-flash-loan-attack",
+    "website_link": "https://quickswap.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/QuickswapDEX",
+    "telegram_link": "https://t.me/QuickSwapDEX",
+    "our_post_link": null,
+    "funds_lost": 190000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/dSMd7AFH36",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3239,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
