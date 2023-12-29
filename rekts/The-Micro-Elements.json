@@ -1,0 +1,68 @@
+{
+    "id": 3221,
+    "project_name": "The Micro Elements",
+    "title": "The Micro Elements",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Micro Elements project was rugpulled for the total amount of 573,223 $USD. The deployer-related EOA drained liquidity from the PancakeSwap pair.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Micro Elements token $TME was scammed by a token-deployer-funded EOA address. $TME is a BEP20 token and can't be confused with other tokens with the same symbol. The scammer profited for 573,223 $USD and all the stolen funds remain at the scammer's address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x2b5f629b5d1966f2f7e6699b3e00533fb892e8dd</p><p><br></p><p>Deployer address:</p><p>https://bscscan.com/address/0x4ff04c511031b49f76299c599becb7927209e1a9</p><p><br></p><p>Relation transaction:</p><p>https://bscscan.com/tx/0x06ef43022e5fc034bb118d2ab99ec808049adf099edd910150b8082ca751eded</p><p><br></p><p>Draining transactions:</p><p>https://explorer.bitquery.io/bsc/txs/calls?caller=0x2B5f629B5d1966f2F7E6699B3e00533FB892e8dD&amp;contract=https://explorer.bitquery.io/bsc/txs/calls?caller=0xa226def6244d3b164aa04710087646833682a896&amp;contract=0x10ed43c718714eb63d5aa57b78b54704e256024e</p>",
+    "name_categories": "Token",
+    "token_name": "TME",
+    "proof_archive_link": "https://archive.ph/59cCW",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd631464f596e2ff3b9fe67a0ae10f6b73637f71e",
+    "token_addresses": [
+        {
+            "address": "0xd631464f596e2ff3b9fe67a0ae10f6b73637f71e",
+            "url": "https://bscscan.com/address/0xd631464f596e2ff3b9fe67a0ae10f6b73637f71e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x1093522A50776b667F83028679329e626d3F5950",
+            "url": "https://bscscan.com/address/0x1093522A50776b667F83028679329e626d3F5950",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63493796c159a.png",
+    "date": "2022-10-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1579707616002908160",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 573223,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3221,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
