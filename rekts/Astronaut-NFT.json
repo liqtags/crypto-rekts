@@ -1,0 +1,51 @@
+{
+    "id": 167,
+    "project_name": "Astronaut NFT",
+    "title": "Astronaut NFT",
+    "description": "<p>The contract deployer invoked mint() function to generate new tokens onto his wallet:<br>https://bscscan.com/tx/0x7d4e6e05c44d2378c359d826bcdfc69a94e9e8bb1e4f31c2667a32294cdb40dc<br><br>The contract deployer has sold tokens multiple times starting from this transaction:<br>https://bscscan.com/tx/0xa23f6f33f69a19e42c856e4c85f3ed050381e133ffa50b8c59057f14c55fd953</p>",
+    "name_categories": "NFT",
+    "token_name": "AST",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1b732a0fa37795aa1833625ec8f66e3b2c2845ac",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5bf0c2821c.jpeg",
+    "date": "2021-2-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/VidarTheAuditor/status/1358482278763094016",
+    "website_link": "https://www.astronautnft.com/",
+    "webarchive_link": "https://web.archive.org/web/20210206085731/https://www.astronautnft.com/",
+    "twitter_link": "https://twitter.com/AstronautNFT",
+    "telegram_link": "https://t.me/astronaut_chat",
+    "our_post_link": null,
+    "funds_lost": 187400,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 167,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
