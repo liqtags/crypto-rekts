@@ -1,0 +1,51 @@
+{
+    "id": 2586,
+    "project_name": "Soft Yearn Finance",
+    "title": "Soft Yearn Finance",
+    "description": "<p>The protocol did not handle the rebase event correctly. It enabled a user to start Uniswap sell transaction immediately following the modification of wallet balances, but before any price change in the token was registered.<br><br>The rebase event functioned wrong. Because the YFI to SYFI conversion rate was incorrectly entered, an erroneous balance change was started. Together, these two errors permitted a transaction to be initiated that would basically remove the pool's aggregate cash.<br><br>The transaction, where the external address buys 2 SYFI using 0.5 ETH on the Uniswap:<br>https://etherscan.io/tx/0xed33e727dd5b2f8e5164f6e15dabc1923652f2e933645378a87c45bf33c4e59a<br><br>15 minutes later, the same external address sells 15,551 SYFI for 747 ETH after the positive rebase event:<br>https://etherscan.io/tx/0xbb45a3aaa222432f50974b4be0852445e446698d33b0fcd47a4f627a2764ea83</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "SYFI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x322124122df407b0d0d902cb713b3714fb2e2e1f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61266f278ccc3.jpeg",
+    "date": "2020-9-3",
+    "scam_updates": [],
+    "proof_link": "https://www.forbes.com/sites/nicholasgans/2020/09/09/another-project-bites-the-dust-how-someone-turned-200-into-250k/?sh=2fe5c2a86a39, https://cointelegraph.com/news/jackpot-user-turns-200-into-250k-thanks-to-a-buggy-defi-protocol",
+    "website_link": "https://syfi.finance/",
+    "webarchive_link": "https://web.archive.org/web/20200919204307/https://syfi.finance/",
+    "twitter_link": "https://twitter.com/softyearnfi",
+    "telegram_link": "https://t.me/softyearnfi",
+    "our_post_link": null,
+    "funds_lost": 281382,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2586,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
