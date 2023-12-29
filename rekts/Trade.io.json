@@ -1,0 +1,51 @@
+{
+    "id": 2907,
+    "project_name": "Trade.io",
+    "title": "Trade.io",
+    "description": "<p><strong>Quick Summary</strong></p><p>Trade.io experienced a security breach resulting in the loss of over 50 million Trade tokens (TIO) from its cold storage wallets.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>An unknown party managed to withdraw 50 million TIO tokens from Trade.io's cold storage wallets. These tokens were meant to be allocated for the Liquidity Pool. The stolen funds were the company's backup cryptocurrency, held in reserve for peak trading activity. An estimated 1.3 million of the stolen tokens were transferred to both Bancor and Kucoin.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The Etherscan records of the stolen funds:</p><p>https://etherscan.io/token/0x80bc5512561c7f85a3a9508c7df7901b370fa1df</p><p>The transactions to Bancor and Kucoin:</p><p>https://etherscan.io/tx/0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37991</p><p>https://etherscan.io/tx/0x5a504fe72ef7fc76dfeb4d979e533af4e23fe37e90b5516186d5787893c37992</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c51068e698.jpeg",
+    "date": "2018-10-20",
+    "scam_updates": [],
+    "proof_link": "https://www.financemagnates.com/cryptocurrency/news/hack-trade-io-loses-50-million-tio-tokens-from-cold-wallet/, https://www.zdnet.com/article/trade-io-loses-7-5mil-worth-of-cryptocurrency-in-mysterious-cold-wallet-hack/",
+    "website_link": "https://trade.io/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 9000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2907,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
