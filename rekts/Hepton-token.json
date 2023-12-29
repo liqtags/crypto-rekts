@@ -1,0 +1,60 @@
+{
+    "id": 3491,
+    "project_name": "Hepton token",
+    "title": "Hepton token",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 15th of April <span style='color: rgb(15, 20, 25); font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Hepton&nbsp;</span>on the BSC chain was rugged for approx 73k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the <span style='color: rgb(15, 20, 25); font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Hepton&nbsp;</span>protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0x3da39c75e36c73068d171023481b3313cdbaa5b3</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0x1f9c5ba1fc40a5d83fb7c90266970a4858b1512866d3260e7f17bd5d8ecbe714</p>",
+    "name_categories": "Token",
+    "token_name": "HTE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9D77c78D1f06d5f7B599F0654dBb61ea706D9de3",
+    "token_addresses": [
+        {
+            "address": "0x9D77c78D1f06d5f7B599F0654dBb61ea706D9de3",
+            "url": "https://bscscan.com/address/0x9D77c78D1f06d5f7B599F0654dBb61ea706D9de3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643e9531cb3b6.png",
+    "date": "2023-4-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1647150106427400198?s=46&t=DefKAWsE5N91p9nzDiwo6A",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 73000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3491,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
