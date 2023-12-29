@@ -1,0 +1,60 @@
+{
+    "id": 3817,
+    "project_name": "CKD TOKEN",
+    "title": "CKD Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>CKD token was rugpulled on PancakeSwap, with 485,176 USD worth of BNB stolen in a series of 33 transactions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CKD is a BEP20 token trading on PancakeSwap. On Dec 5, 2023, the scammer conducted an exit scam by selling a significantly large number of tokens in 33 transactions, completely depleting the liquidity pool. The deployer initially sent 0.05 BNB to the scammer's address for gas fees before the tokens were sold.The stolen funds in the amount of USD 485,176 were transferred to another EOA and as of December 14, 2023. still remain at this address as BSC-USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xd03E23Da7A53BE6c96d7fF6e17c0c5ceb49B0dC1</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xcfC9d03561d0F66B204A7ab147B3A9f633A6856a</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xf4b1f69a86bf50ef6f29f236a306a5f064b122eff8531e4af9af20a6a07bcbcd</p><p>https://bscscan.com/tx/0xec99837b8b903a2217872ab0f793ce68fb1d31faaaf8e5e1aea55fb1ae2abfda</p><p>https://bscscan.com/tx/0xb9b49619b8c559b9e9081c09fcaff20907f2510a91a627d7ed43a78e5f9db07d</p><p><br></p><p>Funds Holder as of Dec 14, 2023:</p><p>https://bscscan.com/address/0xE934b442A04629CA2d68f1B5837bAb53A4535b35</p><p><br></p><p>Scammer Funding Transaction:</p><p>https://bscscan.com/tx/0x37acc49d90d10cbd000aeed780011e999bd7d01b034e146137a68dd17a15d06a</p>",
+    "name_categories": "Token",
+    "token_name": "CKD",
+    "proof_archive_link": "https://archive.ph/6VTjY",
+    "technical_issue": null,
+    "token_address": "0x583e9b5ebB7B67157f7817CE3d57A2604fc83881",
+    "token_addresses": [
+        {
+            "address": "0x583e9b5ebB7B67157f7817CE3d57A2604fc83881",
+            "url": "https://bscscan.com/address/0x583e9b5ebB7B67157f7817CE3d57A2604fc83881",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/657a27e44f2c4.png",
+    "date": "2023-12-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1732018126160560271?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 485176,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3817,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
