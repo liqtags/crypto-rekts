@@ -1,0 +1,51 @@
+{
+    "id": 104,
+    "project_name": "POKeFARM",
+    "title": "POKeFARM",
+    "description": "<p>POKeFARM smart contract was backed by the proxy contract. The major token pair's liquidity wasn't locked. Because the token contract included minting functionality, the owner has minted 1M POK tokens while avoiding the proxy contract. To confuse the community, the contract deployer sent 500K, 250K, 150K, and 100K POK tokens to some wallets. The recipient exchanged POK tokens for 500 ETH, which he subsequently put in Tornado Cash to hide the trace in the following transactions:<br><br>https://etherscan.io/tx/0x1a3b8b06eef4b7db06979fadd0cc03b6c6287443e6ded9ce26e58c02533d4b9d<br>https://etherscan.io/tx/0x6ad7bc755bb41ef4b40c66cf9c7c042c6a2233607ac3dd9bdd7c494985b81378<br>https://etherscan.io/tx/0xc313476793d893e33804ad87c8fc92d5c69219e6fd0aa94c62a2eb51f73c01ef<br>https://etherscan.io/tx/0x3477512dbffccb10cdfbe9c20bbe389d4e08cf82cca6f8b8f0e2b232bbb59e74<br>https://etherscan.io/tx/0xbba546f684ab1034cf1232572b8779eeece8e935b8e5d721afe48f3038871a5d</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "POK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x61129781bdb5468b1bc4476fc696ac5ef06fa5f0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df34c16449c.png",
+    "date": "2020-11-13",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/H31gM",
+    "website_link": "http://pokeswap.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RealPokeSwap",
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/269",
+    "funds_lost": 238435,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 104,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
