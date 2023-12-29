@@ -1,0 +1,51 @@
+{
+    "id": 53,
+    "project_name": "Unidark",
+    "title": "Unidark",
+    "description": "<p>The project team announced an airdrop as well as a token sale. They used Telegram to spread phony Vitalik Buterin statements about their token in order to boost the trust. The contract deployer with malicious rights called a function named <u>clearETH()</u>, which allowed him to transfer ETH to his own address. As a result, 85.1 ETH was withdrawn from the token contract. Users contacted Binance's technical support. In the end, the address of the deployer was frozen on the exchange.<br><br>The transaction where the mentioned function was invoked:<br>https://etherscan.io/tx/0xfa04a396f9fc06b4d1a7a01382dde92e488e268759af348e680d7a1ca8bda75a</p>",
+    "name_categories": "Other",
+    "token_name": "DARK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xafb43414e6344f6310f29e9d7dc95d817ffd89e8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4e3619037a.jpeg",
+    "date": "2020-10-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://unidark.org/",
+    "webarchive_link": "https://web.archive.org/web/20201021213508/https://unidark.org/",
+    "twitter_link": "https://twitter.com/unidarkofficial",
+    "telegram_link": "https://t.me/unidarkofficial",
+    "our_post_link": "https://t.me/unidarkofficial",
+    "funds_lost": 29887,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 53,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
