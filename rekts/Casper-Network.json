@@ -1,5 +1,5 @@
 {
-    "id": 1944,
+    "id": 1301,
     "project_name": "Casper Network",
     "title": "Casper Network",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,10 +7,10 @@
     "token_name": "CSPR",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x0ae7b7588de17fcb4eef73a5b2438ab90aa26345",
+    "token_address": "0xe054dd30026149b171b5349c19e4656acd70786a",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5988d18f38.png",
-    "date": "2021-3-28",
+    "logo_link": "safe/files/scamDatabase/logo/60f01576f0935.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
     "website_link": null,
@@ -38,12 +38,12 @@
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 1,
-            "scam_database_id": 1944,
+            "networks_id": 56,
+            "scam_database_id": 1301,
             "networks": {
-                "id": 1,
-                "name": "Ethereum",
-                "icon_link": "safe/files/network/ethereum.png"
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
             }
         }
     ],
