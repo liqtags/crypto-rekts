@@ -1,0 +1,60 @@
+{
+    "id": 3777,
+    "project_name": "Builders NFT",
+    "title": "BuiLDerS Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BuiLDerS token rugpulled on PancakeSwap, with 89,296 USD worth of liquidity removed by the scammer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BuiLDerS, a BEP20 token trading on PancakeSwap, experienced a rugpull on November 14, 2023. The scammer swapped a significantly larger number of tokens, completely depleting the liquidity pool. The stolen funds, amounting to 89,296 USD (369.19 WBNB), were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x02604E54815F0819c08fE7468507a11472bC0A2C</p><p><br></p><p>Scammer's Addresses:</p><p>https://bscscan.com/address/0xF751d509b7Aa59c5F494BBdd3385a8e7cEf70090</p><p>https://bscscan.com/address/0x0aE08b4744CeF0Ec78e2dD37B7bc69868Eeb915f</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xb622506ea94495d3c559d24897bb0da5285d3f7423dcf8e1b717461268027faa</p>",
+    "name_categories": "Token",
+    "token_name": "BuiLDerS",
+    "proof_archive_link": "https://archive.ph/YJ6CJ",
+    "technical_issue": null,
+    "token_address": "0xdE0cf62d54a53f2c72A345beA4C0E9b6158f0662",
+    "token_addresses": [
+        {
+            "address": "0xde0cf62d54a53f2c72a345bea4c0e9b6158f0662",
+            "url": "https://bscscan.com/address/0xde0cf62d54a53f2c72a345bea4c0e9b6158f0662",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6555158eb3cc7.png",
+    "date": "2023-11-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1724312180714099079",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 89296,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3777,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
