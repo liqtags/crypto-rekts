@@ -1,0 +1,60 @@
+{
+    "id": 3470,
+    "project_name": "Aave Protocol",
+    "title": "Aave Protocol (Phishing)",
+    "description": "<p><strong>Quick Summary</strong></p><p>A user's Aave Protocol assets were stolen using phishing attack, which resulted in a loss of 1,201,576 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A user approved trading for four different tokens of Aave Protocol, such as $aArbWETH, $aFanWETH, $aArbWBTC and $aFanUSDC, possible via phishing attack. The attacker took the assets and then swapped them into 1,201,576 $USDC using four smart contract with unverified source code, and than all selfdestructed. The funds were transferred through Celer Bridge.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://arbiscan.io/address/0x053a85c51417c3e2aad3e490ed133c68b18408d1</p><p>https://arbiscan.io/address/0x0a009741192aa0bffe53b376e000ce7435f00012</p><p><br></p><p>Malicious transaction:</p><p>https://arbiscan.io/tx/0x3c79b99676a32c0a641269f4d9848fc4e3658676071e5e2116cbc3970e4a2467</p><p><br></p><p>Approval transaction:</p><p>https://arbiscan.io/tx/0x4d8ecb31e5740a3afbb5304d670cc9e1d7db9e1fc59ff9a6f172e8ad51e54ed1</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/9Pwbb",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xbdba63c30e5d89b14ecdbee37259d975a677946f",
+            "url": "https://arbiscan.io/address/0xbdba63c30e5d89b14ecdbee37259d975a677946f",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6436b517c751c.png",
+    "date": "2023-4-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1645728349560659969",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1201576,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3470,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
