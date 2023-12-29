@@ -1,0 +1,51 @@
+{
+    "id": 2914,
+    "project_name": "Coinsecure",
+    "title": "Coinsecure",
+    "description": "<p>Coinsecure announced the heist, valued at $3.3 million. The CEO of the bitcoin exchange, Mohit Kalra, has accused his Chief Strategy Officer (CSO) of stealing 438 Bitcoin from the operator\u2019s main wallet.<br><br>The issue was reported by the exchange after consumers complained about difficulty withdrawing funds from the platform. The exchange notified users through email and issued an official statement clarifying the incident: \u201cWe regret to inform you that our bitcoin funds have been exposed and seem to have been siphoned out to an address that is outside our control\u201d.<br><br>Coinsecure added a scanned copy of a police complaint CEO Mohit Kalra filed with the New Delhi police. Kalra filed an FIR (First Information Report) with the Cyber Cell of Delhi. According to the exchange, Chief Strategy Officer Amitabh Saxena is at the center of the incident. The company claims the funds were lost while he was extracting Bitcoin Gold to distribute to their customers.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c6487997c0.png",
+    "date": "2018-4-12",
+    "scam_updates": [],
+    "proof_link": "https://www.newsbtc.com/news/bitcoin/coinsecure-reports-3-3-million-worth-heist/",
+    "website_link": "https://coinsecure.in/",
+    "webarchive_link": "https://web.archive.org/web/20130713002558/https://coinsecure.in/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2914,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
