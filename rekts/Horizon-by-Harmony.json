@@ -1,0 +1,56 @@
+{
+    "id": 3062,
+    "project_name": "Horizon by Harmony",
+    "title": "Horizon by Harmony",
+    "description": "<p><strong>Quick Summary</strong></p><p>Harmony's Horizon Bridge was exploited by an attacker resulting in losses of roughly $100M. The bridge was secured by multisig wallet which needed 2 out of 5 wallets to confirm transaction. The hacker gained control over 2 wallets which enabled the attacker to drain the funds of the bridge and transfer said funds to his wallet.</p><p><br></p><p><strong>Details of the Exploit&nbsp;</strong></p><p>For yet unspecified reasons the attacker gained access over 2 of the 5 multisig wallets.</p><p>The attacker was able to enter and confirm transactions by himself. The exploit resulted in the loss of: ETH, USDC, WBTC, USDT, DAI, BUSD, AAG, FXS, SUSHI, AAVE, WETH, and FRAX. The ONE token was not affected by this attack.</p><p><br></p><p>For more context, bridges in DeFi are used to enable interoperability between blockchains. Through bridges a user of DeFi may pursue opportunities in an ecosystem that is not native to the coins or tokens a user is holding. For example through Harmony's Horizon Bridge a user holding $ETH on the Ethereum network could bridge $ETH over to the Harmony blockchain receiving newly minted wrapped $1ETH on a 1:1 ratio.&nbsp;</p><p><br></p><p>Since the funds on the bridge were seized by the attacker, the receipt was no longer backed by the collateral on a 1:1 ratio. The depreciation of the wrapped assets were felt by users in the form of massive slippages on dexes and other bridges as users tried to flee the Harmony Ecosystem.</p><p><br></p><p>Below a breakdown of the specific function used by the attacker.</p><p><br></p><p>1) The multisig owner called the <em>submitTransaction(),&nbsp;</em>then to confirm owner calls confirmTransaction() from the MultiSigWallet with the input transactionId 21106.</p><p>2) The executeTransaction() function has made an external call with input that will call the unlockEth() function in the Ethmanager contract. <span lang=\"en\"><span data-language-for-alternatives=\"en\" data-language-to-translate-into=\"ru\" data-number-of-phrases=\"1\" data-phrase-index=\"0\">The input specifies the amount, recipient, and receiptId to be passed to the unlockEth() function.</span></span></p><p>3) The following steps were repeated with different ids.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker transactions:</p><p>640K BUSD: https://bscscan.com/tx/0x4ed7941394725e49e7423e56553901c4ce841792c70e87adeee282cd78500668</p><p>Link to attacker draining bridge for ERC20 tokens: https://etherscan.io/address/0x0d043128146654c7683fbf30ac98d7b2285ded00#tokentxns</p><p><br></p><p>Multisig wallet addresses that were compromised:</p><p>1) https://etherscan.io/address/0xf845a7ee8477ad1fb4446651e548901a2635a915</p><p>2) https://etherscan.io/address/0x812d8622c6f3c45959439e7ede3c580da06f8f25</p><p>These addresses confirmed the transaction with id 21108. It can be checked by this multisig wallet (https://etherscan.io/address/0x715CdDa5e9Ad30A0cEd14940F9997EE611496De6#readContract) in the <em>getConfirmations()&nbsp;</em>function.</p><p><br></p><p>Attacker addresses:</p><p>1) https://etherscan.io/address/0x0d043128146654c7683fbf30ac98d7b2285ded00</p><p>2) https://etherscan.io/address/0x58f4baccb411acef70a5f6dd174af7854fc48fa9</p><p>3) https://etherscan.io/address/0x9e91ae672e7f7330fc6b9bab9c259bd94cd08715</p><p>4) https://etherscan.io/address/0x1ec6f83b55c3f4cefc630442716872ba15f16430</p><p>5) https://etherscan.io/address/0x432a9cb4353bed67ec5351734d4a44c0826847ae</p><p>6) https://etherscan.io/address/0x4507ac1bdf4ae5e61ffcec3a9aeda312e2505970</p><p>7) https://etherscan.io/address/0x8a0858888beeb5d1435ecd3657831699f169c3f4</p><p><br></p><p>Victim addresses:</p><p>Harmony ETH Bridge: https://etherscan.io/address/0xf9fb1c508ff49f78b60d3a96dea99fa5d7f3a8a6</p><p>Harmony ERC20 Bridge: https://etherscan.io/address/0x2dCCDB493827E15a5dC8f8b72147E6c4A5620857</p><p>Harmony BUSD Bridge: https://etherscan.io/address/0xfd53b1b4af84d59b20bf2c20ca89a6beeaa2c628</p><p><br></p><p>Funds from the Harmony hack are being laundered via Tornado Cash mixing services. In total 42,000 ETH ~$44,7m have been laundered as the time of writing.</p>",
+    "name_categories": "Bridge",
+    "token_name": "ONE",
+    "proof_archive_link": "https://hub.elliptic.co/analysis/elliptic-collaborates-with-binance-and-huobi-to-freeze-lazarus-group-hack-proceeds/",
+    "technical_issue": "<p><span style='color: rgb(0, 0, 0); font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Crypto exchanges Binance and Huobi today froze accounts containing approximately $1.4 million in crypto assets originating from the June 2022&nbsp;</span><a href=\"https://hub.elliptic.co/analysis/over-1-billion-stolen-from-bridges-so-far-in-2022-as-harmony-s-horizon-bridge-becomes-latest-victim-in-100-million-hack/\" style='--tw-shadow:0 0 transparent; --tw-ring-inset:var(--tw-empty, ); --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(0, 131, 143); text-decoration: none; font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;' title=\"Over $1 Billion Stolen From Bridges So far in 2022 as Harmony\u2019s Horizon Bridge Becomes Latest Victim in $100 Million Hack\">hack of Harmony\u2019s Horizon Bridge</a><span style='color: rgb(0, 0, 0); font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>.</span></p>",
+    "token_address": "0x00eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62b9bcb52227f.png",
+    "date": "2022-6-23",
+    "scam_updates": [
+        {
+            "date": "2023-02-14T00:00:00.000Z",
+            "description": "<p><span style='color: rgb(0, 0, 0); font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Crypto exchanges Binance and Huobi today froze accounts containing approximately $1.4 million in crypto assets originating from the June 2022&nbsp;</span><a href=\"https://hub.elliptic.co/analysis/over-1-billion-stolen-from-bridges-so-far-in-2022-as-harmony-s-horizon-bridge-becomes-latest-victim-in-100-million-hack/\" style='--tw-shadow:0 0 transparent; --tw-ring-inset:var(--tw-empty, ); --tw-ring-offset-width:0px; --tw-ring-offset-color:#fff; --tw-ring-color:rgba(59,130,246,0.5); --tw-ring-offset-shadow:0 0 transparent; --tw-ring-shadow:0 0 transparent; box-sizing: border-box; background-color: rgb(255, 255, 255); color: rgb(0, 131, 143); text-decoration: none; font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;' title=\"Over $1 Billion Stolen From Bridges So far in 2022 as Harmony\u2019s Horizon Bridge Becomes Latest Victim in $100 Million Hack\">hack of Harmony\u2019s Horizon Bridge</a><span style='color: rgb(0, 0, 0); font-family: Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>.</span></p>"
+        }
+    ],
+    "proof_link": "https://rekt.news/harmony-rekt/, https://www.certik.com/resources/blog/2QRuMEEZAWHx0f16kz43uC-harmony-incident-analysis, https://www.cnbc.com/2022/06/24/hackers-steal-100-million-in-crypto-from-harmonys-horizon-bridge.html, https://techcrunch.com/2022/06/24/harmony-blockchain-crypto-hack/",
+    "website_link": "https://www.harmony.one/",
+    "webarchive_link": "https://web.archive.org/web/20220625080214/https://twitter.com/harmonyprotocol/status/1540110924400324608",
+    "twitter_link": "https://twitter.com/harmonyprotocol",
+    "telegram_link": "https://t.me/harmony_one",
+    "our_post_link": null,
+    "funds_lost": 100000000,
+    "funds_returned": 1400000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/harmony-one",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/rdCmBpe",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3062,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
