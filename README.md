@@ -15,35 +15,35 @@
 - [WoToken](/rekts/WoToken.md) - Lost: $1,000,000,000.00 Recovered: $0.00 
 - [Bitcoin Sheikh](/rekts/Bitcoin-Sheikh.md) - Lost: $766,000,000.00 Recovered: $0.00 
 - [Ronin](/rekts/Ronin.md) - Lost: $625,000,000.00 Recovered: $155,800,000.00 
-- [Poly Network](/rekts/Poly-Network.md) - Lost: $602,189,570.00 Recovered: $602,189,570.00 
+- [Poly Network Exploit](/rekts/Poly-Network-Exploit.md) - Lost: $602,189,570.00 Recovered: $602,189,570.00 
 - [BSC Token Hub](/rekts/BSC-Token-Hub.md) - Lost: $586,000,000.00 Recovered: $459,000,000.00 
 - [Coincheck](/rekts/Coincheck.md) - Lost: $534,000,000.00 Recovered: $534,000,000.00 
 - [Vires Finance](/rekts/Vires-Finance.md) - Lost: $500,000,000.00 Recovered: $0.00 
-- [Mt. Gox](/rekts/Mt.-Gox.md) - Lost: $473,000,000.00 Recovered: $0.00 
+- [Mt. Gox (3)](/rekts/Mt.-Gox-3.md) - Lost: $473,000,000.00 Recovered: $0.00 
 - [MyCoin](/rekts/MyCoin.md) - Lost: $387,000,000.00 Recovered: $0.00 
 - [Wormhole](/rekts/Wormhole.md) - Lost: $326,000,000.00 Recovered: $326,000,000.00 
 - [Trade Coin Club](/rekts/Trade-Coin-Club.md) - Lost: $295,000,000.00 Recovered: $0.00 
 - [KuCoin](/rekts/KuCoin.md) - Lost: $280,000,000.00 Recovered: $280,000,000.00 
 - [Multichain](/rekts/Multichain.md) - Lost: $231,129,033.00 Recovered: $0.00 
-- [Gate.io](/rekts/Gate.io.md) - Lost: $230,000,000.00 Recovered: $0.00 
-- [Neutrino USD](/rekts/Neutrino-USD.md) - Lost: $200,000,000.00 Recovered: $0.00 
+- [Gate.io (2)](/rekts/Gate.io-2.md) - Lost: $230,000,000.00 Recovered: $0.00 
+- [Neutrino USD (Neutrino Index Token)](/rekts/Neutrino-USD-Neutrino-Index-Token.md) - Lost: $200,000,000.00 Recovered: $0.00 
 - [Euler Finance](/rekts/Euler-Finance.md) - Lost: $196,000,000.00 Recovered: $177,000,000.00 
 - [BitMart Exchange](/rekts/BitMart-Exchange.md) - Lost: $196,000,000.00 Recovered: $0.00 
 - [Nomad](/rekts/Nomad.md) - Lost: $190,000,000.00 Recovered: $36,342,325.00 
 - [Beanstalk](/rekts/Beanstalk.md) - Lost: $181,000,000.00 Recovered: $0.00 
 - [BTC-e](/rekts/BTC-e.md) - Lost: $181,000,000.00 Recovered: $0.00 
-- [Wintermute](/rekts/Wintermute.md) - Lost: $160,000,000.00 Recovered: $0.00 
+- [Wintermute (2)](/rekts/Wintermute-2.md) - Lost: $160,000,000.00 Recovered: $0.00 
 - [Token.Store](/rekts/Token.Store.md) - Lost: $160,000,000.00 Recovered: $0.00 
 - [Parity](/rekts/Parity.md) - Lost: $155,000,000.00 Recovered: $0.00 
 - [Control Finance](/rekts/Control-Finance.md) - Lost: $147,000,000.00 Recovered: $0.00 
 - [QuadrigaCX](/rekts/QuadrigaCX.md) - Lost: $147,000,000.00 Recovered: $0.00 
 - [BitGrail](/rekts/BitGrail.md) - Lost: $146,000,000.00 Recovered: $0.00 
-- [Mixin Network](/rekts/Mixin-Network.md) - Lost: $142,041,764.00 Recovered: $0.00 
+- [Mixin Network Exploit](/rekts/Mixin-Network-Exploit.md) - Lost: $142,041,764.00 Recovered: $0.00 
 - [Vulcan Forged](/rekts/Vulcan-Forged.md) - Lost: $140,000,000.00 Recovered: $0.00 
 - [Boy X Highspeed](/rekts/Boy-X-Highspeed.md) - Lost: $139,895,140.00 Recovered: $0.00 
-- [Cream Finance](/rekts/Cream-Finance.md) - Lost: $130,000,000.00 Recovered: $0.00 
+- [Cream Finance (2)](/rekts/Cream-Finance-2.md) - Lost: $130,000,000.00 Recovered: $0.00 
 - [Ormeus Coin](/rekts/Ormeus-Coin.md) - Lost: $124,000,000.00 Recovered: $0.00 
-- [Poloniex](/rekts/Poloniex.md) - Lost: $122,981,391.00 Recovered: $0.00 
+- [Poloniex Access Control Exploit](/rekts/Poloniex-Access-Control-Exploit.md) - Lost: $122,981,391.00 Recovered: $0.00 
 - [BadgerDAO](/rekts/BadgerDAO.md) - Lost: $120,285,547.00 Recovered: $0.00 
 - [BonqDAO](/rekts/BonqDAO.md) - Lost: $120,000,000.00 Recovered: $0.00 
 - [Mango Markets](/rekts/Mango-Markets.md) - Lost: $116,000,000.00 Recovered: $69,000,000.00 
@@ -54,46 +54,46 @@
 - [Liquid](/rekts/Liquid.md) - Lost: $97,000,000.00 Recovered: $0.00 
 - [Mirror Protocol](/rekts/Mirror-Protocol.md) - Lost: $90,000,000.00 Recovered: $0.00 
 - [Compound Labs](/rekts/Compound-Labs.md) - Lost: $89,000,000.00 Recovered: $0.00 
-- [HECO](/rekts/HECO.md) - Lost: $86,284,430.00 Recovered: $0.00 
+- [Heco Bridge Exploit](/rekts/Heco-Bridge-Exploit.md) - Lost: $86,284,430.00 Recovered: $0.00 
 - [Qubit Finance](/rekts/Qubit-Finance.md) - Lost: $80,000,000.00 Recovered: $0.00 
 - [Rari Fuse](/rekts/Rari-Fuse.md) - Lost: $79,749,026.00 Recovered: $79,749,026.00 
 - [AscendEX](/rekts/AscendEX.md) - Lost: $77,700,000.00 Recovered: $0.00 
 - [Venus](/rekts/Venus.md) - Lost: $77,000,000.00 Recovered: $0.00 
 - [Fireblocks](/rekts/Fireblocks.md) - Lost: $75,000,000.00 Recovered: $0.00 
-- [Compound Labs](/rekts/Compound-Labs.md) - Lost: $71,101,556.00 Recovered: $0.00 
+- [Compound Labs (2)](/rekts/Compound-Labs-2.md) - Lost: $71,101,556.00 Recovered: $0.00 
 - [EvoDeFi Bridge](/rekts/EvoDeFi-Bridge.md) - Lost: $66,000,000.00 Recovered: $0.00 
-- [Bitfinex](/rekts/Bitfinex.md) - Lost: $65,000,000.00 Recovered: $65,000,000.00 
+- [Bitfinex (2)](/rekts/Bitfinex-2.md) - Lost: $65,000,000.00 Recovered: $65,000,000.00 
 - [NiceHash](/rekts/NiceHash.md) - Lost: $64,000,000.00 Recovered: $0.00 
 - [Mining Capital Coin](/rekts/Mining-Capital-Coin.md) - Lost: $62,000,000.00 Recovered: $0.00 
 - [Freeway](/rekts/Freeway.md) - Lost: $60,000,000.00 Recovered: $0.00 
 - [AnubisDAO](/rekts/AnubisDAO.md) - Lost: $60,000,000.00 Recovered: $0.00 
 - [Zaif](/rekts/Zaif.md) - Lost: $59,000,000.00 Recovered: $0.00 
 - [EasyFi](/rekts/EasyFi.md) - Lost: $59,000,000.00 Recovered: $0.00 
-- [Uranium Finance](/rekts/Uranium-Finance.md) - Lost: $57,200,000.00 Recovered: $0.00 
-- [CoinEx](/rekts/CoinEx.md) - Lost: $52,847,077.00 Recovered: $0.00 
+- [Uranium Finance (2)](/rekts/Uranium-Finance-2.md) - Lost: $57,200,000.00 Recovered: $0.00 
+- [CoinEx Exploit](/rekts/CoinEx-Exploit.md) - Lost: $52,847,077.00 Recovered: $0.00 
 - [Upbit](/rekts/Upbit.md) - Lost: $51,200,000.00 Recovered: $0.00 
-- [Vyper](/rekts/Vyper.md) - Lost: $50,476,970.00 Recovered: $6,820,757.00 
+- [Vyper Compiler Exploit](/rekts/Vyper-Compiler-Exploit.md) - Lost: $50,476,970.00 Recovered: $6,820,757.00 
 - [Blockchain.com](/rekts/Blockchain.com.md) - Lost: $50,000,000.00 Recovered: $0.00 
 - [TheDAO](/rekts/TheDAO.md) - Lost: $50,000,000.00 Recovered: $0.00 
 - [Cashio](/rekts/Cashio.md) - Lost: $48,000,000.00 Recovered: $0.00 
-- [bZx](/rekts/bZx.md) - Lost: $47,600,000.00 Recovered: $0.00 
-- [KyberSwap](/rekts/KyberSwap.md) - Lost: $45,275,428.00 Recovered: $0.00 
+- [bZx (4)](/rekts/bZx-4.md) - Lost: $47,600,000.00 Recovered: $0.00 
+- [KyberSwap Flashloan Exploit](/rekts/KyberSwap-Flashloan-Exploit.md) - Lost: $45,275,428.00 Recovered: $0.00 
 - [CoinDeal](/rekts/CoinDeal.md) - Lost: $45,000,000.00 Recovered: $0.00 
 - [CoinBene](/rekts/CoinBene.md) - Lost: $45,000,000.00 Recovered: $0.00 
 - [PancakeBunny](/rekts/PancakeBunny.md) - Lost: $45,000,000.00 Recovered: $100,000.00 
 - [Binance](/rekts/Binance.md) - Lost: $41,700,000.00 Recovered: $0.00 
-- [Stake](/rekts/Stake.md) - Lost: $41,408,903.00 Recovered: $0.00 
+- [Stake Wallet Hack](/rekts/Stake-Wallet-Hack.md) - Lost: $41,408,903.00 Recovered: $0.00 
 - [Bo Shen Wallet Hack](/rekts/Bo-Shen-Wallet-Hack.md) - Lost: $41,053,572.00 Recovered: $0.00 
 - [Coinrail](/rekts/Coinrail.md) - Lost: $40,000,000.00 Recovered: $0.00 
 - [Grim Finance](/rekts/Grim-Finance.md) - Lost: $40,000,000.00 Recovered: $0.00 
 - [Alpha Finance Lab](/rekts/Alpha-Finance-Lab.md) - Lost: $37,500,000.00 Recovered: $3,700,000.00 
-- [CoinsPaid](/rekts/CoinsPaid.md) - Lost: $37,000,000.00 Recovered: $0.00 
+- [CoinsPaid $37 Million Heist Orchestrated by Lazarus Group](/rekts/CoinsPaid-$37-Million-Heist-Orchestrated-by-Lazarus-Group.md) - Lost: $37,000,000.00 Recovered: $0.00 
 - [Cream Finance](/rekts/Cream-Finance.md) - Lost: $36,154,954.00 Recovered: $0.00 
 - [IRA Financial](/rekts/IRA-Financial.md) - Lost: $36,000,000.00 Recovered: $0.00 
 - [Vee Finance](/rekts/Vee-Finance.md) - Lost: $36,000,000.00 Recovered: $0.00 
 - [Scream](/rekts/Scream.md) - Lost: $35,000,000.00 Recovered: $0.00 
 - [Crypto.com](/rekts/Crypto.com.md) - Lost: $34,358,003.00 Recovered: $34,358,003.00 
-- [Parity](/rekts/Parity.md) - Lost: $34,000,000.00 Recovered: $0.00 
+- [Parity (2)](/rekts/Parity-2.md) - Lost: $34,000,000.00 Recovered: $0.00 
 - [Harvest Finance](/rekts/Harvest-Finance.md) - Lost: $33,800,000.00 Recovered: $2,500,000.00 
 - [Ackerman Ponzi](/rekts/Ackerman-Ponzi.md) - Lost: $33,000,000.00 Recovered: $0.00 
 - [Bitpoint](/rekts/Bitpoint.md) - Lost: $32,000,000.00 Recovered: $0.00 
@@ -103,15 +103,15 @@
 - [Tether](/rekts/Tether.md) - Lost: $30,950,010.00 Recovered: $0.00 
 - [Meerkat Finance](/rekts/Meerkat-Finance.md) - Lost: $30,883,780.00 Recovered: $0.00 
 - [Spartan Protocol](/rekts/Spartan-Protocol.md) - Lost: $30,500,000.00 Recovered: $0.00 
-- [Bithumb](/rekts/Bithumb.md) - Lost: $30,000,000.00 Recovered: $0.00 
+- [Bithumb (2)](/rekts/Bithumb-2.md) - Lost: $30,000,000.00 Recovered: $0.00 
 - [SnowdogDAO](/rekts/SnowdogDAO.md) - Lost: $30,000,000.00 Recovered: $0.00 
-- [Herencia Artifex](/rekts/Herencia-Artifex.md) - Lost: $29,586,973.00 Recovered: $0.00 
+- [HXA Token Exploit](/rekts/HXA-Token-Exploit.md) - Lost: $29,586,973.00 Recovered: $0.00 
 - [Transit Swap](/rekts/Transit-Swap.md) - Lost: $28,900,000.00 Recovered: $19,140,000.00 
 - [Deribit Exchange](/rekts/Deribit-Exchange.md) - Lost: $28,317,206.00 Recovered: $0.00 
 - [Wintermute](/rekts/Wintermute.md) - Lost: $27,600,000.00 Recovered: $23,460,000.00 
-- [Paid Network](/rekts/Paid-Network.md) - Lost: $27,418,034.00 Recovered: $0.00 
+- [Paid Network (old)](/rekts/Paid-Network-old.md) - Lost: $27,418,034.00 Recovered: $0.00 
 - [Bitmarket](/rekts/Bitmarket.md) - Lost: $27,100,000.00 Recovered: $0.00 
-- [Binance User](/rekts/Binance-User.md) - Lost: $27,093,953.00 Recovered: $0.00 
+- [Binance User Access Control Exploit](/rekts/Binance-User-Access-Control-Exploit.md) - Lost: $27,093,953.00 Recovered: $0.00 
 - [StableMagnet](/rekts/StableMagnet.md) - Lost: $27,000,000.00 Recovered: $24,000,000.00 
 - [MEV Boost Exploit](/rekts/MEV-Boost-Exploit.md) - Lost: $26,123,300.00 Recovered: $0.00 
 - [Coinbin](/rekts/Coinbin.md) - Lost: $26,000,000.00 Recovered: $0.00 
@@ -119,12 +119,12 @@
 - [Ankr](/rekts/Ankr.md) - Lost: $24,000,000.00 Recovered: $0.00 
 - [xToken](/rekts/xToken.md) - Lost: $24,000,000.00 Recovered: $0.00 
 - [Bancor](/rekts/Bancor.md) - Lost: $23,500,000.00 Recovered: $0.00 
-- [Bald](/rekts/Bald.md) - Lost: $23,129,572.00 Recovered: $0.00 
-- [Coindroplet](/rekts/Coindroplet.md) - Lost: $23,095,489.00 Recovered: $0.00 
+- [Bald Rugpull](/rekts/Bald-Rugpull.md) - Lost: $23,129,572.00 Recovered: $0.00 
+- [Coindroplet Phishing](/rekts/Coindroplet-Phishing.md) - Lost: $23,095,489.00 Recovered: $0.00 
 - [AlphaPo](/rekts/AlphaPo.md) - Lost: $22,851,804.00 Recovered: $0.00 
 - [Elephant Money](/rekts/Elephant-Money.md) - Lost: $22,200,000.00 Recovered: $0.00 
-- [Bitrue](/rekts/Bitrue.md) - Lost: $21,882,489.00 Recovered: $0.00 
-- [HTX](/rekts/HTX.md) - Lost: $21,854,944.00 Recovered: $0.00 
+- [Bitrue (2)](/rekts/Bitrue-2.md) - Lost: $21,882,489.00 Recovered: $0.00 
+- [HTX Access Control Exploit](/rekts/HTX-Access-Control-Exploit.md) - Lost: $21,854,944.00 Recovered: $0.00 
 - [TBIS](/rekts/TBIS.md) - Lost: $21,000,000.00 Recovered: $0.00 
 - [Bilaxy](/rekts/Bilaxy.md) - Lost: $21,000,000.00 Recovered: $0.00 
 - [Freedom Protocol | Raccoon Network](/rekts/Freedom-Protocol-|-Raccoon-Network.md) - Lost: $20,800,000.00 Recovered: $0.00 
@@ -133,20 +133,20 @@
 - [Auros](/rekts/Auros.md) - Lost: $20,000,000.00 Recovered: $0.00 
 - [Superfluid](/rekts/Superfluid.md) - Lost: $20,000,000.00 Recovered: $0.00 
 - [Pickle Finance](/rekts/Pickle-Finance.md) - Lost: $19,700,000.00 Recovered: $0.00 
-- [Bithumb](/rekts/Bithumb.md) - Lost: $19,200,000.00 Recovered: $14,000,000.00 
+- [Bithumb (3)](/rekts/Bithumb-3.md) - Lost: $19,200,000.00 Recovered: $14,000,000.00 
 - [Pando](/rekts/Pando.md) - Lost: $18,577,305.00 Recovered: $0.00 
 - [Lympo](/rekts/Lympo.md) - Lost: $18,500,000.00 Recovered: $0.00 
-- [DEUS Finance](/rekts/DEUS-Finance.md) - Lost: $17,900,000.00 Recovered: $0.00 
-- [Electrum](/rekts/Electrum.md) - Lost: $17,700,000.00 Recovered: $0.00 
+- [DEUS Finance (2)](/rekts/DEUS-Finance-2.md) - Lost: $17,900,000.00 Recovered: $0.00 
+- [Electrum (2)](/rekts/Electrum-2.md) - Lost: $17,700,000.00 Recovered: $0.00 
 - [Flare Token](/rekts/Flare-Token.md) - Lost: $17,010,503.00 Recovered: $0.00 
 - [Monkey Drainer](/rekts/Monkey-Drainer.md) - Lost: $16,506,602.00 Recovered: $0.00 
 - [Indexed Finance](/rekts/Indexed-Finance.md) - Lost: $16,000,000.00 Recovered: $0.00 
 - [Rari Capital](/rekts/Rari-Capital.md) - Lost: $15,723,948.00 Recovered: $0.00 
 - [Dego Finance](/rekts/Dego-Finance.md) - Lost: $15,444,277.00 Recovered: $0.00 
 - [Eminence Finance](/rekts/Eminence-Finance.md) - Lost: $15,113,001.00 Recovered: $8,000,000.00 
-- [Starstream / Agora](/rekts/Starstream-/-Agora.md) - Lost: $15,000,000.00 Recovered: $0.00 
-- [Electrum](/rekts/Electrum.md) - Lost: $15,000,000.00 Recovered: $0.00 
-- [Inverse Finance](/rekts/Inverse-Finance.md) - Lost: $14,500,000.00 Recovered: $0.00 
+- [Starstream / Agora](/rekts/Starstream---Agora.md) - Lost: $15,000,000.00 Recovered: $0.00 
+- [Electrum (3)](/rekts/Electrum-3.md) - Lost: $15,000,000.00 Recovered: $0.00 
+- [Inverse Finance (1)](/rekts/Inverse-Finance-1.md) - Lost: $14,500,000.00 Recovered: $0.00 
 - [GDAC](/rekts/GDAC.md) - Lost: $14,324,040.00 Recovered: $0.00 
 - [FURUCOMBO](/rekts/FURUCOMBO.md) - Lost: $14,000,000.00 Recovered: $0.00 
 - [Team Finance](/rekts/Team-Finance.md) - Lost: $13,073,700.00 Recovered: $0.00 
@@ -156,18 +156,18 @@
 - [CoinDash](/rekts/CoinDash.md) - Lost: $12,200,000.00 Recovered: $0.00 
 - [Defrost Finance](/rekts/Defrost-Finance.md) - Lost: $12,000,000.00 Recovered: $12,000,000.00 
 - [EXMO](/rekts/EXMO.md) - Lost: $11,700,000.00 Recovered: $0.00 
-- [yearn.finance](/rekts/yearn.finance.md) - Lost: $11,512,509.00 Recovered: $0.00 
+- [yearn.finance (2)](/rekts/yearn.finance-2.md) - Lost: $11,512,509.00 Recovered: $0.00 
 - [Saddle Finance](/rekts/Saddle-Finance.md) - Lost: $11,000,000.00 Recovered: $2,500,000.00 
-- [Value DeFi](/rekts/Value-DeFi.md) - Lost: $11,000,000.00 Recovered: $0.00 
+- [Value DeFi (3)](/rekts/Value-DeFi-3.md) - Lost: $11,000,000.00 Recovered: $0.00 
 - [bEarn Fi](/rekts/bEarn-Fi.md) - Lost: $11,000,000.00 Recovered: $0.00 
 - [yearn.finance](/rekts/yearn.finance.md) - Lost: $11,000,000.00 Recovered: $1,700,000.00 
 - [Kraken](/rekts/Kraken.md) - Lost: $10,500,000.00 Recovered: $0.00 
-- [Poly Network](/rekts/Poly-Network.md) - Lost: $10,201,612.00 Recovered: $0.00 
+- [Poly Network Access Control Exploit](/rekts/Poly-Network-Access-Control-Exploit.md) - Lost: $10,201,612.00 Recovered: $0.00 
 - [Youbit](/rekts/Youbit.md) - Lost: $10,000,000.00 Recovered: $0.00 
 - [GateHub](/rekts/GateHub.md) - Lost: $10,000,000.00 Recovered: $0.00 
 - [Arbix Finance](/rekts/Arbix-Finance.md) - Lost: $10,000,000.00 Recovered: $0.00 
 - [SharkTron](/rekts/SharkTron.md) - Lost: $10,000,000.00 Recovered: $0.00 
-- [Value DeFi](/rekts/Value-DeFi.md) - Lost: $10,000,000.00 Recovered: $0.00 
+- [Value DeFi (2)](/rekts/Value-DeFi-2.md) - Lost: $10,000,000.00 Recovered: $0.00 
 - [Cryptsy](/rekts/Cryptsy.md) - Lost: $9,890,000.00 Recovered: $0.00 
 - [Pizza](/rekts/Pizza.md) - Lost: $9,863,088.00 Recovered: $0.00 
 - [BreedTech](/rekts/BreedTech.md) - Lost: $9,400,000.00 Recovered: $0.00 
@@ -176,39 +176,39 @@
 - [Trade.io](/rekts/Trade.io.md) - Lost: $9,000,000.00 Recovered: $0.00 
 - [Safe Moon](/rekts/Safe-Moon.md) - Lost: $8,900,000.00 Recovered: $0.00 
 - [Punk Protocol](/rekts/Punk-Protocol.md) - Lost: $8,900,000.00 Recovered: $0.00 
-- [ERC20 Permit](/rekts/ERC20-Permit.md) - Lost: $8,804,793.00 Recovered: $0.00 
+- [ERC Permit Phishing](/rekts/ERC-Permit-Phishing.md) - Lost: $8,804,793.00 Recovered: $0.00 
 - [Crema Finance](/rekts/Crema-Finance.md) - Lost: $8,782,446.00 Recovered: $7,356,932.00 
-- [Mt. Gox](/rekts/Mt.-Gox.md) - Lost: $8,750,000.00 Recovered: $0.00 
+- [Mt. Gox (2)](/rekts/Mt.-Gox-2.md) - Lost: $8,750,000.00 Recovered: $0.00 
 - [Platypus Finance](/rekts/Platypus-Finance.md) - Lost: $8,500,887.00 Recovered: $0.00 
 - [Blizz Finance](/rekts/Blizz-Finance.md) - Lost: $8,300,000.00 Recovered: $0.00 
 - [Haven Protocol](/rekts/Haven-Protocol.md) - Lost: $8,186,549.00 Recovered: $0.00 
-- [bZx](/rekts/bZx.md) - Lost: $8,100,000.00 Recovered: $8,100,000.00 
-- [BitKeep](/rekts/BitKeep.md) - Lost: $8,000,000.00 Recovered: $0.00 
-- [Uniswap](/rekts/Uniswap.md) - Lost: $8,000,000.00 Recovered: $0.00 
-- [THORChain](/rekts/THORChain.md) - Lost: $8,000,000.00 Recovered: $0.00 
+- [bZx (3)](/rekts/bZx-3.md) - Lost: $8,100,000.00 Recovered: $8,100,000.00 
+- [BitKeep (2)](/rekts/BitKeep-2.md) - Lost: $8,000,000.00 Recovered: $0.00 
+- [Uniswap (Fake)](/rekts/Uniswap-Fake.md) - Lost: $8,000,000.00 Recovered: $0.00 
+- [THORChain (2)](/rekts/THORChain-2.md) - Lost: $8,000,000.00 Recovered: $0.00 
 - [Origin Protocol](/rekts/Origin-Protocol.md) - Lost: $8,000,000.00 Recovered: $0.00 
 - [LCX](/rekts/LCX.md) - Lost: $7,940,000.00 Recovered: $0.00 
-- [HTX](/rekts/HTX.md) - Lost: $7,912,519.00 Recovered: $7,912,519.00 
+- [HTX (Huobi Global) Exploit](/rekts/HTX-Huobi-Global-Exploit.md) - Lost: $7,912,519.00 Recovered: $7,912,519.00 
 - [Anyswap](/rekts/Anyswap.md) - Lost: $7,907,718.00 Recovered: $0.00 
 - [Warp Finance](/rekts/Warp-Finance.md) - Lost: $7,800,000.00 Recovered: $5,800,000.00 
 - [DFX Finance](/rekts/DFX-Finance.md) - Lost: $7,645,284.00 Recovered: $204,800.00 
 - [Jimbos protocol](/rekts/Jimbos-protocol.md) - Lost: $7,500,000.00 Recovered: $0.00 
 - [BitBNS](/rekts/BitBNS.md) - Lost: $7,500,000.00 Recovered: $0.00 
-- [Fantom Foundation](/rekts/Fantom-Foundation.md) - Lost: $7,359,282.00 Recovered: $0.00 
+- [Fantom Foundation Exploit](/rekts/Fantom-Foundation-Exploit.md) - Lost: $7,359,282.00 Recovered: $0.00 
 - [BurgerSwap](/rekts/BurgerSwap.md) - Lost: $7,200,000.00 Recovered: $0.00 
-- [Exactly Protocol](/rekts/Exactly-Protocol.md) - Lost: $7,197,240.00 Recovered: $0.00 
+- [Exactly Protocol Exploit](/rekts/Exactly-Protocol-Exploit.md) - Lost: $7,197,240.00 Recovered: $0.00 
 - [FinNexus](/rekts/FinNexus.md) - Lost: $7,000,000.00 Recovered: $0.00 
 - [Value DeFi](/rekts/Value-DeFi.md) - Lost: $7,000,000.00 Recovered: $2,000,000.00 
 - [DAO Maker](/rekts/DAO-Maker.md) - Lost: $6,884,420.00 Recovered: $0.00 
 - [Bondly](/rekts/Bondly.md) - Lost: $6,800,989.00 Recovered: $6,800,987.00 
 - [Luna Yield](/rekts/Luna-Yield.md) - Lost: $6,709,834.00 Recovered: $4,025,900.00 
-- [Hundred Finance](/rekts/Hundred-Finance.md) - Lost: $6,701,157.00 Recovered: $0.00 
+- [Hundred Finance (3)](/rekts/Hundred-Finance-3.md) - Lost: $6,701,157.00 Recovered: $0.00 
 - [Alchemix](/rekts/Alchemix.md) - Lost: $6,500,000.00 Recovered: $0.00 
 - [PicoStocks](/rekts/PicoStocks.md) - Lost: $6,420,000.00 Recovered: $6,420,000.00 
 - [AniMoon](/rekts/AniMoon.md) - Lost: $6,300,000.00 Recovered: $0.00 
 - [Belt Finance](/rekts/Belt-Finance.md) - Lost: $6,300,000.00 Recovered: $0.00 
-- [Deus Finance](/rekts/Deus-Finance.md) - Lost: $6,227,977.00 Recovered: $0.00 
-- [Hundred Finance](/rekts/Hundred-Finance.md) - Lost: $6,200,000.00 Recovered: $0.00 
+- [Deus Finance (3)](/rekts/Deus-Finance-3.md) - Lost: $6,227,977.00 Recovered: $0.00 
+- [Hundred Finance (2)](/rekts/Hundred-Finance-2.md) - Lost: $6,200,000.00 Recovered: $0.00 
 - [Safuu Protocol](/rekts/Safuu-Protocol.md) - Lost: $6,073,083.00 Recovered: $0.00 
 - [DragonEx](/rekts/DragonEx.md) - Lost: $6,030,000.00 Recovered: $0.00 
 - [LendHub](/rekts/LendHub.md) - Lost: $6,000,000.00 Recovered: $0.00 
@@ -221,7 +221,7 @@
 - [Agave](/rekts/Agave.md) - Lost: $5,500,000.00 Recovered: $0.00 
 - [ETERBASE](/rekts/ETERBASE.md) - Lost: $5,400,000.00 Recovered: $0.00 
 - [Roll](/rekts/Roll.md) - Lost: $5,389,203.00 Recovered: $750,000.00 
-- [Magnate Finance](/rekts/Magnate-Finance.md) - Lost: $5,357,862.00 Recovered: $0.00 
+- [Magnate Finance Rugpull](/rekts/Magnate-Finance-Rugpull.md) - Lost: $5,357,862.00 Recovered: $0.00 
 - [Friendsies](/rekts/Friendsies.md) - Lost: $5,300,000.00 Recovered: $0.00 
 - [Bitstamp](/rekts/Bitstamp.md) - Lost: $5,263,614.00 Recovered: $0.00 
 - [Solana Slope Wallet](/rekts/Solana-Slope-Wallet.md) - Lost: $5,200,000.00 Recovered: $0.00 
@@ -234,10 +234,10 @@
 - [Bitcoin Savings and Trust](/rekts/Bitcoin-Savings-and-Trust.md) - Lost: $4,630,000.00 Recovered: $0.00 
 - [TEDDY DOGE](/rekts/TEDDY-DOGE.md) - Lost: $4,500,000.00 Recovered: $0.00 
 - [Eleven Finance](/rekts/Eleven-Finance.md) - Lost: $4,500,000.00 Recovered: $4,200,000.00 
-- [xToken](/rekts/xToken.md) - Lost: $4,500,000.00 Recovered: $0.00 
+- [xToken (2)](/rekts/xToken-2.md) - Lost: $4,500,000.00 Recovered: $0.00 
 - [Raydium](/rekts/Raydium.md) - Lost: $4,400,000.00 Recovered: $0.00 
 - [Meter.io](/rekts/Meter.io.md) - Lost: $4,400,000.00 Recovered: $0.00 
-- [ChainSwap](/rekts/ChainSwap.md) - Lost: $4,400,000.00 Recovered: $0.00 
+- [ChainSwap (2)](/rekts/ChainSwap-2.md) - Lost: $4,400,000.00 Recovered: $0.00 
 - [THORChain](/rekts/THORChain.md) - Lost: $4,364,612.00 Recovered: $0.00 
 - [DeFiAi](/rekts/DeFiAi.md) - Lost: $4,173,646.00 Recovered: $0.00 
 - [Kokomo Finance](/rekts/Kokomo-Finance.md) - Lost: $4,163,392.00 Recovered: $0.00 
@@ -248,28 +248,28 @@
 - [Gala](/rekts/Gala.md) - Lost: $4,000,000.00 Recovered: $0.00 
 - [GBL](/rekts/GBL.md) - Lost: $4,000,000.00 Recovered: $0.00 
 - [OneCoin](/rekts/OneCoin.md) - Lost: $4,000,000.00 Recovered: $0.00 
-- [DAO Maker](/rekts/DAO-Maker.md) - Lost: $4,000,000.00 Recovered: $0.00 
+- [DAO Maker (2)](/rekts/DAO-Maker-2.md) - Lost: $4,000,000.00 Recovered: $0.00 
 - [Maze Protocol](/rekts/Maze-Protocol.md) - Lost: $4,000,000.00 Recovered: $3,800,000.00 
 - [XCarnival](/rekts/XCarnival.md) - Lost: $3,837,110.00 Recovered: $1,746,801.00 
 - [DODO](/rekts/DODO.md) - Lost: $3,800,000.00 Recovered: $3,100,000.00 
-- [Pink Drainer](/rekts/Pink-Drainer.md) - Lost: $3,749,487.00 Recovered: $0.00 
+- [Pink Drainer Phishing](/rekts/Pink-Drainer-Phishing.md) - Lost: $3,749,487.00 Recovered: $0.00 
 - [GMETA](/rekts/GMETA.md) - Lost: $3,675,612.00 Recovered: $0.00 
 - [dForce](/rekts/dForce.md) - Lost: $3,650,000.00 Recovered: $0.00 
 - [Bogged Finance](/rekts/Bogged-Finance.md) - Lost: $3,642,100.00 Recovered: $0.00 
 - [Hayden Adams Phishing](/rekts/Hayden-Adams-Phishing.md) - Lost: $3,600,000.00 Recovered: $0.00 
-- [Rocket Pool](/rekts/Rocket-Pool.md) - Lost: $3,600,000.00 Recovered: $0.00 
+- [Rocket Pool (Phishing)](/rekts/Rocket-Pool-Phishing.md) - Lost: $3,600,000.00 Recovered: $0.00 
 - [Luke Dashjr](/rekts/Luke-Dashjr.md) - Lost: $3,600,000.00 Recovered: $0.00 
 - [Ola.finance](/rekts/Ola.finance.md) - Lost: $3,600,000.00 Recovered: $0.00 
 - [Nirvana Finance](/rekts/Nirvana-Finance.md) - Lost: $3,574,635.00 Recovered: $0.00 
-- [SushiSwap](/rekts/SushiSwap.md) - Lost: $3,505,950.00 Recovered: $723,450.00 
+- [SushiSwap (2)](/rekts/SushiSwap-2.md) - Lost: $3,505,950.00 Recovered: $723,450.00 
 - [Pokemoney](/rekts/Pokemoney.md) - Lost: $3,500,000.00 Recovered: $0.00 
 - [Dragoma](/rekts/Dragoma.md) - Lost: $3,500,000.00 Recovered: $0.00 
 - [PokeMoney](/rekts/PokeMoney.md) - Lost: $3,500,000.00 Recovered: $0.00 
-- [EraLend](/rekts/EraLend.md) - Lost: $3,400,000.00 Recovered: $0.00 
+- [EraLend Exploit](/rekts/EraLend-Exploit.md) - Lost: $3,400,000.00 Recovered: $0.00 
 - [Hundred Finance](/rekts/Hundred-Finance.md) - Lost: $3,300,000.00 Recovered: $0.00 
 - [Cheese Bank](/rekts/Cheese-Bank.md) - Lost: $3,300,000.00 Recovered: $0.00 
 - [HoneySwap.Fi](/rekts/HoneySwap.Fi.md) - Lost: $3,280,848.00 Recovered: $0.00 
-- [Conic Finance](/rekts/Conic-Finance.md) - Lost: $3,254,850.00 Recovered: $0.00 
+- [Conic Finance Reentrancy Attack](/rekts/Conic-Finance-Reentrancy-Attack.md) - Lost: $3,254,850.00 Recovered: $0.00 
 - [Ref Finance](/rekts/Ref-Finance.md) - Lost: $3,202,539.00 Recovered: $3,202,539.00 
 - [Coinsecure](/rekts/Coinsecure.md) - Lost: $3,200,000.00 Recovered: $0.00 
 - [Zabu Finance](/rekts/Zabu-Finance.md) - Lost: $3,200,000.00 Recovered: $0.00 
@@ -285,25 +285,25 @@
 - [Tinyman](/rekts/Tinyman.md) - Lost: $3,000,000.00 Recovered: $0.00 
 - [SushiSwap](/rekts/SushiSwap.md) - Lost: $2,993,606.00 Recovered: $2,993,606.00 
 - [Fortress Loans](/rekts/Fortress-Loans.md) - Lost: $2,976,004.00 Recovered: $0.00 
-- [Stars Arena](/rekts/Stars-Arena.md) - Lost: $2,974,530.00 Recovered: $2,677,077.00 
+- [Stars Arena Exploit](/rekts/Stars-Arena-Exploit.md) - Lost: $2,974,530.00 Recovered: $2,677,077.00 
 - [Swaprum](/rekts/Swaprum.md) - Lost: $2,915,567.00 Recovered: $0.00 
 - [IOTA wallet](/rekts/IOTA-wallet.md) - Lost: $2,910,000.00 Recovered: $0.00 
 - [Wallstreetswap Finance](/rekts/Wallstreetswap-Finance.md) - Lost: $2,905,021.00 Recovered: $0.00 
 - [MetaDAO](/rekts/MetaDAO.md) - Lost: $2,826,509.00 Recovered: $0.00 
-- [Multichain](/rekts/Multichain.md) - Lost: $2,726,413.00 Recovered: $2,522,800.00 
+- [Multichain (Anyswap)](/rekts/Multichain-Anyswap.md) - Lost: $2,726,413.00 Recovered: $2,522,800.00 
 - [IDO rug pulls](/rekts/IDO-rug-pulls.md) - Lost: $2,661,699.00 Recovered: $0.00 
 - [Fantasm Finance](/rekts/Fantasm-Finance.md) - Lost: $2,622,097.00 Recovered: $0.00 
 - [BNB42](/rekts/BNB42.md) - Lost: $2,602,079.00 Recovered: $0.00 
 - [PYE](/rekts/PYE.md) - Lost: $2,600,000.00 Recovered: $0.00 
 - [Fetch.ai](/rekts/Fetch.ai.md) - Lost: $2,600,000.00 Recovered: $0.00 
 - [FCS](/rekts/FCS.md) - Lost: $2,588,000.00 Recovered: $0.00 
-- [Boy X Highspeed](/rekts/Boy-X-Highspeed.md) - Lost: $2,584,890.00 Recovered: $0.00 
+- [Boy X Highspeed (2)](/rekts/Boy-X-Highspeed-2.md) - Lost: $2,584,890.00 Recovered: $0.00 
 - [Purse](/rekts/Purse.md) - Lost: $2,510,000.00 Recovered: $2,510,000.00 
 - [Zapper](/rekts/Zapper.md) - Lost: $2,500,000.00 Recovered: $2,500,000.00 
 - [Emerald Mine](/rekts/Emerald-Mine.md) - Lost: $2,500,000.00 Recovered: $0.00 
 - [Wallet Drain](/rekts/Wallet-Drain.md) - Lost: $2,430,419.00 Recovered: $0.00 
 - [PancakeBunny](/rekts/PancakeBunny.md) - Lost: $2,395,931.00 Recovered: $2,395,931.00 
-- [OKX](/rekts/OKX.md) - Lost: $2,390,976.00 Recovered: $0.00 
+- [OKX DEX Exploit](/rekts/OKX-DEX-Exploit.md) - Lost: $2,390,976.00 Recovered: $0.00 
 - [TempleDAO](/rekts/TempleDAO.md) - Lost: $2,376,872.00 Recovered: $0.00 
 - [BitPay](/rekts/BitPay.md) - Lost: $2,370,000.00 Recovered: $0.00 
 - [Evolved Apes](/rekts/Evolved-Apes.md) - Lost: $2,339,031.00 Recovered: $0.00 
@@ -312,11 +312,11 @@
 - [friesDAO](/rekts/friesDAO.md) - Lost: $2,299,999.00 Recovered: $0.00 
 - [Bifrost](/rekts/Bifrost.md) - Lost: $2,248,328.00 Recovered: $0.00 
 - [PopcornSwap](/rekts/PopcornSwap.md) - Lost: $2,241,690.00 Recovered: $0.00 
-- [Zunami Protocol](/rekts/Zunami-Protocol.md) - Lost: $2,177,741.00 Recovered: $0.00 
-- [Deriswap](/rekts/Deriswap.md) - Lost: $2,170,264.00 Recovered: $0.00 
+- [Zunami Protocol Flash Loan Attack](/rekts/Zunami-Protocol-Flash-Loan-Attack.md) - Lost: $2,177,741.00 Recovered: $0.00 
+- [Deriswap (the 1st fake)](/rekts/Deriswap-the-1st-fake.md) - Lost: $2,170,264.00 Recovered: $0.00 
 - [BitoPro](/rekts/BitoPro.md) - Lost: $2,170,000.00 Recovered: $0.00 
 - [ApolloX](/rekts/ApolloX.md) - Lost: $2,150,414.00 Recovered: $0.00 
-- [Onyx Protocol](/rekts/Onyx-Protocol.md) - Lost: $2,149,772.00 Recovered: $0.00 
+- [Onyx Protocol Exploit](/rekts/Onyx-Protocol-Exploit.md) - Lost: $2,149,772.00 Recovered: $0.00 
 - [Gatecoin](/rekts/Gatecoin.md) - Lost: $2,140,000.00 Recovered: $0.00 
 - [YieldRobot](/rekts/YieldRobot.md) - Lost: $2,100,000.00 Recovered: $0.00 
 - [Dictum Exchange](/rekts/Dictum-Exchange.md) - Lost: $2,100,000.00 Recovered: $0.00 
@@ -326,55 +326,55 @@
 - [AFKSystems Finance](/rekts/AFKSystems-Finance.md) - Lost: $2,017,053.00 Recovered: $0.00 
 - [Ovix](/rekts/Ovix.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [FilDA](/rekts/FilDA.md) - Lost: $2,000,000.00 Recovered: $229,000.00 
-- [Mirror Protocol](/rekts/Mirror-Protocol.md) - Lost: $2,000,000.00 Recovered: $0.00 
+- [Mirror Protocol (2)](/rekts/Mirror-Protocol-2.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [Mad Meerkat Finance](/rekts/Mad-Meerkat-Finance.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [Revest](/rekts/Revest.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [MintPal](/rekts/MintPal.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [Circle](/rekts/Circle.md) - Lost: $2,000,000.00 Recovered: $0.00 
-- [AutoSharkFinance](/rekts/AutoSharkFinance.md) - Lost: $2,000,000.00 Recovered: $0.00 
+- [AutoSharkFinance (2)](/rekts/AutoSharkFinance-2.md) - Lost: $2,000,000.00 Recovered: $0.00 
 - [Akropolis](/rekts/Akropolis.md) - Lost: $2,000,000.00 Recovered: $0.00 
-- [PancakeHunny](/rekts/PancakeHunny.md) - Lost: $1,984,749.00 Recovered: $0.00 
-- [MEV Bot](/rekts/MEV-Bot.md) - Lost: $1,974,350.00 Recovered: $0.00 
+- [PancakeHunny (2)](/rekts/PancakeHunny-2.md) - Lost: $1,984,749.00 Recovered: $0.00 
+- [Unknown MEV Exploit](/rekts/Unknown-MEV-Exploit.md) - Lost: $1,974,350.00 Recovered: $0.00 
 - [Titano](/rekts/Titano.md) - Lost: $1,949,111.00 Recovered: $0.00 
 - [Coinis](/rekts/Coinis.md) - Lost: $1,930,000.00 Recovered: $0.00 
 - [BTER](/rekts/BTER.md) - Lost: $1,910,000.00 Recovered: $0.00 
 - [KLAYswap](/rekts/KLAYswap.md) - Lost: $1,900,000.00 Recovered: $0.00 
 - [Omm Finance](/rekts/Omm-Finance.md) - Lost: $1,900,000.00 Recovered: $0.00 
 - [Percent Finance](/rekts/Percent-Finance.md) - Lost: $1,900,000.00 Recovered: $0.00 
-- [Balancer](/rekts/Balancer.md) - Lost: $1,898,586.00 Recovered: $0.00 
+- [Balancer Pools Exploit](/rekts/Balancer-Pools-Exploit.md) - Lost: $1,898,586.00 Recovered: $0.00 
 - [BT.Finance](/rekts/BT.Finance.md) - Lost: $1,867,271.00 Recovered: $0.00 
 - [Hope Finance](/rekts/Hope-Finance.md) - Lost: $1,860,000.00 Recovered: $0.00 
-- [IVY](/rekts/IVY.md) - Lost: $1,820,319.00 Recovered: $0.00 
+- [IVY Token Rugpull](/rekts/IVY-Token-Rugpull.md) - Lost: $1,820,319.00 Recovered: $0.00 
 - [Merlin DEX](/rekts/Merlin-DEX.md) - Lost: $1,800,000.00 Recovered: $0.00 
 - [CoinTiger](/rekts/CoinTiger.md) - Lost: $1,800,000.00 Recovered: $0.00 
-- [Ledger](/rekts/Ledger.md) - Lost: $1,800,000.00 Recovered: $0.00 
-- [PancakeSwap](/rekts/PancakeSwap.md) - Lost: $1,800,000.00 Recovered: $0.00 
-- [BTER](/rekts/BTER.md) - Lost: $1,790,000.00 Recovered: $0.00 
+- [Ledger (2)](/rekts/Ledger-2.md) - Lost: $1,800,000.00 Recovered: $0.00 
+- [PancakeSwap (2)](/rekts/PancakeSwap-2.md) - Lost: $1,800,000.00 Recovered: $0.00 
+- [BTER (2)](/rekts/BTER-2.md) - Lost: $1,790,000.00 Recovered: $0.00 
 - [Bent Finance](/rekts/Bent-Finance.md) - Lost: $1,786,520.00 Recovered: $0.00 
 - [Gate.io](/rekts/Gate.io.md) - Lost: $1,750,000.00 Recovered: $0.00 
 - [EVODeFi](/rekts/EVODeFi.md) - Lost: $1,735,747.00 Recovered: $0.00 
 - [DePo](/rekts/DePo.md) - Lost: $1,723,632.00 Recovered: $0.00 
 - [Reaper Farm](/rekts/Reaper-Farm.md) - Lost: $1,700,000.00 Recovered: $0.00 
-- [OpenSea](/rekts/OpenSea.md) - Lost: $1,700,000.00 Recovered: $0.00 
-- [Rodeo Finance](/rekts/Rodeo-Finance.md) - Lost: $1,690,000.00 Recovered: $810,000.00 
-- [FSL](/rekts/FSL.md) - Lost: $1,681,340.00 Recovered: $0.00 
+- [OpenSea (2)](/rekts/OpenSea-2.md) - Lost: $1,700,000.00 Recovered: $0.00 
+- [Rodeo Finance Exploit](/rekts/Rodeo-Finance-Exploit.md) - Lost: $1,690,000.00 Recovered: $810,000.00 
+- [FSL Token Rugpull](/rekts/FSL-Token-Rugpull.md) - Lost: $1,681,340.00 Recovered: $0.00 
 - [PARALUNI](/rekts/PARALUNI.md) - Lost: $1,661,107.00 Recovered: $0.00 
-- [DefiLabs](/rekts/DefiLabs.md) - Lost: $1,634,351.00 Recovered: $0.00 
+- [DefiLabs Rugpull](/rekts/DefiLabs-Rugpull.md) - Lost: $1,634,351.00 Recovered: $0.00 
 - [LianGo Protocol](/rekts/LianGo-Protocol.md) - Lost: $1,600,000.00 Recovered: $0.00 
 - [Acala Swap](/rekts/Acala-Swap.md) - Lost: $1,600,000.00 Recovered: $0.00 
 - [TenderFi](/rekts/TenderFi.md) - Lost: $1,583,432.00 Recovered: $1,486,726.00 
 - [Taylor](/rekts/Taylor.md) - Lost: $1,580,000.00 Recovered: $0.00 
-- [MetaMask Governance](/rekts/MetaMask-Governance.md) - Lost: $1,548,908.00 Recovered: $0.00 
+- [MetaMask Governance (fake)](/rekts/MetaMask-Governance-fake.md) - Lost: $1,548,908.00 Recovered: $0.00 
 - [OneRing](/rekts/OneRing.md) - Lost: $1,508,300.00 Recovered: $0.00 
 - [Pragma Money](/rekts/Pragma-Money.md) - Lost: $1,500,000.00 Recovered: $0.00 
 - [LV Metaverse](/rekts/LV-Metaverse.md) - Lost: $1,500,000.00 Recovered: $0.00 
 - [FEGtoken](/rekts/FEGtoken.md) - Lost: $1,500,000.00 Recovered: $0.00 
-- [Bitcurex](/rekts/Bitcurex.md) - Lost: $1,500,000.00 Recovered: $0.00 
-- [MintPal](/rekts/MintPal.md) - Lost: $1,500,000.00 Recovered: $0.00 
+- [Bitcurex (2)](/rekts/Bitcurex-2.md) - Lost: $1,500,000.00 Recovered: $0.00 
+- [MintPal (2)](/rekts/MintPal-2.md) - Lost: $1,500,000.00 Recovered: $0.00 
 - [JulSwap](/rekts/JulSwap.md) - Lost: $1,500,000.00 Recovered: $0.00 
 - [Levyathan](/rekts/Levyathan.md) - Lost: $1,500,000.00 Recovered: $0.00 
 - [PolyButterfly](/rekts/PolyButterfly.md) - Lost: $1,500,000.00 Recovered: $0.00 
-- [Florence Finance](/rekts/Florence-Finance.md) - Lost: $1,456,162.00 Recovered: $0.00 
+- [Florence Finance Phishing Attack](/rekts/Florence-Finance-Phishing-Attack.md) - Lost: $1,456,162.00 Recovered: $0.00 
 - [Universe Token](/rekts/Universe-Token.md) - Lost: $1,447,175.00 Recovered: $0.00 
 - [Float Protocol](/rekts/Float-Protocol.md) - Lost: $1,440,724.00 Recovered: $249,692.00 
 - [OMNI](/rekts/OMNI.md) - Lost: $1,430,000.00 Recovered: $0.00 
@@ -387,26 +387,26 @@
 - [Venus Protocol](/rekts/Venus-Protocol.md) - Lost: $1,350,000.00 Recovered: $0.00 
 - [Day of Defeat](/rekts/Day-of-Defeat.md) - Lost: $1,350,000.00 Recovered: $0.00 
 - [UFCT](/rekts/UFCT.md) - Lost: $1,323,077.00 Recovered: $0.00 
-- [Safereum](/rekts/Safereum.md) - Lost: $1,306,583.00 Recovered: $0.00 
+- [Safereum Token Rugpull](/rekts/Safereum-Token-Rugpull.md) - Lost: $1,306,583.00 Recovered: $0.00 
 - [Frosties](/rekts/Frosties.md) - Lost: $1,300,000.00 Recovered: $0.00 
 - [Uranium Finance](/rekts/Uranium-Finance.md) - Lost: $1,300,000.00 Recovered: $0.00 
 - [LaserSwap Cash](/rekts/LaserSwap-Cash.md) - Lost: $1,280,809.00 Recovered: $0.00 
-- [Black Hole](/rekts/Black-Hole.md) - Lost: $1,275,981.00 Recovered: $0.00 
+- [Black Hole Price Manipulation Exploit](/rekts/Black-Hole-Price-Manipulation-Exploit.md) - Lost: $1,275,981.00 Recovered: $0.00 
 - [Monkey Kingdom](/rekts/Monkey-Kingdom.md) - Lost: $1,273,618.00 Recovered: $1,273,618.00 
-- [Solend](/rekts/Solend.md) - Lost: $1,260,000.00 Recovered: $0.00 
-- [Inverse Finance](/rekts/Inverse-Finance.md) - Lost: $1,260,000.00 Recovered: $0.00 
+- [Solend (2)](/rekts/Solend-2.md) - Lost: $1,260,000.00 Recovered: $0.00 
+- [Inverse Finance (2)](/rekts/Inverse-Finance-2.md) - Lost: $1,260,000.00 Recovered: $0.00 
 - [Atlantis Loans](/rekts/Atlantis-Loans.md) - Lost: $1,251,622.00 Recovered: $0.00 
 - [New Free DAO](/rekts/New-Free-DAO.md) - Lost: $1,250,372.00 Recovered: $0.00 
 - [Big Daddy Ape Club](/rekts/Big-Daddy-Ape-Club.md) - Lost: $1,237,622.00 Recovered: $0.00 
 - [Zenon Network](/rekts/Zenon-Network.md) - Lost: $1,209,467.00 Recovered: $0.00 
-- [Aave Protocol](/rekts/Aave-Protocol.md) - Lost: $1,201,576.00 Recovered: $0.00 
+- [Aave Protocol (Phishing)](/rekts/Aave-Protocol-Phishing.md) - Lost: $1,201,576.00 Recovered: $0.00 
 - [CheddaToken](/rekts/CheddaToken.md) - Lost: $1,200,000.00 Recovered: $0.00 
 - [Hunter Global](/rekts/Hunter-Global.md) - Lost: $1,200,000.00 Recovered: $0.00 
 - [BitKeep](/rekts/BitKeep.md) - Lost: $1,192,464.00 Recovered: $0.00 
 - [HeroCat](/rekts/HeroCat.md) - Lost: $1,177,347.00 Recovered: $0.00 
-- [QAN Platform](/rekts/QAN-Platform.md) - Lost: $1,165,500.00 Recovered: $0.00 
-- [Speadefi](/rekts/Speadefi.md) - Lost: $1,148,309.00 Recovered: $0.00 
-- [IEGT](/rekts/IEGT.md) - Lost: $1,143,772.00 Recovered: $0.00 
+- [QAN Platform (2)](/rekts/QAN-Platform-2.md) - Lost: $1,165,500.00 Recovered: $0.00 
+- [Speadefi Exploit](/rekts/Speadefi-Exploit.md) - Lost: $1,148,309.00 Recovered: $0.00 
+- [IEGT Rugpull](/rekts/IEGT-Rugpull.md) - Lost: $1,143,772.00 Recovered: $0.00 
 - [Jumpn Finance](/rekts/Jumpn-Finance.md) - Lost: $1,143,446.00 Recovered: $0.00 
 - [NowSwap Protocol](/rekts/NowSwap-Protocol.md) - Lost: $1,142,357.00 Recovered: $0.00 
 - [TopGoal](/rekts/TopGoal.md) - Lost: $1,135,097.00 Recovered: $0.00 
@@ -424,35 +424,35 @@
 - [CollectCoin](/rekts/CollectCoin.md) - Lost: $1,071,931.00 Recovered: $0.00 
 - [Chibi Finance](/rekts/Chibi-Finance.md) - Lost: $1,052,646.00 Recovered: $0.00 
 - [Tornado Cash](/rekts/Tornado-Cash.md) - Lost: $1,049,513.00 Recovered: $0.00 
-- [LayerZero](/rekts/LayerZero.md) - Lost: $1,045,094.00 Recovered: $0.00 
+- [Fake Layer Zero Rugpull](/rekts/Fake-Layer-Zero-Rugpull.md) - Lost: $1,045,094.00 Recovered: $0.00 
 - [YEED](/rekts/YEED.md) - Lost: $1,043,069.00 Recovered: $0.00 
 - [Bithumb](/rekts/Bithumb.md) - Lost: $1,040,000.00 Recovered: $0.00 
 - [DecentraWorld](/rekts/DecentraWorld.md) - Lost: $1,037,288.00 Recovered: $0.00 
 - [OpenSea](/rekts/OpenSea.md) - Lost: $1,019,300.00 Recovered: $75,000.00 
 - [Ordinals Finance](/rekts/Ordinals-Finance.md) - Lost: $1,015,192.00 Recovered: $0.00 
-- [Cypher Protocol](/rekts/Cypher-Protocol.md) - Lost: $1,000,000.00 Recovered: $0.00 
+- [Exploit Halts Solana-Based Cypher Protocol with $1 Million Loss](/rekts/Exploit-Halts-Solana-Based-Cypher-Protocol-with-$1-Million-Loss.md) - Lost: $1,000,000.00 Recovered: $0.00 
 - [Soxex](/rekts/Soxex.md) - Lost: $1,000,000.00 Recovered: $0.00 
 - [Bitcoin Norway](/rekts/Bitcoin-Norway.md) - Lost: $1,000,000.00 Recovered: $1,000,000.00 
 - [Sentinel DVPN](/rekts/Sentinel-DVPN.md) - Lost: $1,000,000.00 Recovered: $0.00 
-- [ApeRocket](/rekts/ApeRocket.md) - Lost: $1,000,000.00 Recovered: $0.00 
+- [ApeRocket (2)](/rekts/ApeRocket-2.md) - Lost: $1,000,000.00 Recovered: $0.00 
 - [King Tribe](/rekts/King-Tribe.md) - Lost: $997,086.00 Recovered: $0.00 
 - [Profanity Wallet Hack](/rekts/Profanity-Wallet-Hack.md) - Lost: $977,550.00 Recovered: $0.00 
-- [Visor Finance](/rekts/Visor-Finance.md) - Lost: $972,616.00 Recovered: $0.00 
+- [Visor Finance (2)](/rekts/Visor-Finance-2.md) - Lost: $972,616.00 Recovered: $0.00 
 - [Sentiment](/rekts/Sentiment.md) - Lost: $968,279.00 Recovered: $862,569.00 
 - [Bacon Protocol](/rekts/Bacon-Protocol.md) - Lost: $957,166.00 Recovered: $957,166.00 
 - [Vanity address exploit](/rekts/Vanity-address-exploit.md) - Lost: $950,000.00 Recovered: $0.00 
 - [Electrum](/rekts/Electrum.md) - Lost: $949,000.00 Recovered: $0.00 
 - [Harvest Keeper](/rekts/Harvest-Keeper.md) - Lost: $929,595.00 Recovered: $0.00 
 - [8ight Finance](/rekts/8ight-Finance.md) - Lost: $923,719.00 Recovered: $0.00 
-- [Palm USD](/rekts/Palm-USD.md) - Lost: $900,000.00 Recovered: $0.00 
+- [Palm USD Exploit](/rekts/Palm-USD-Exploit.md) - Lost: $900,000.00 Recovered: $0.00 
 - [SudoRare](/rekts/SudoRare.md) - Lost: $883,201.00 Recovered: $0.00 
 - [VPANDAO DAO](/rekts/VPANDAO-DAO.md) - Lost: $869,463.00 Recovered: $0.00 
-- [RocketSwap](/rekts/RocketSwap.md) - Lost: $869,000.00 Recovered: $0.00 
+- [RocketSwap Access Control Exploit](/rekts/RocketSwap-Access-Control-Exploit.md) - Lost: $869,000.00 Recovered: $0.00 
 - [BiSwap](/rekts/BiSwap.md) - Lost: $865,000.00 Recovered: $0.00 
 - [ElasticSwap](/rekts/ElasticSwap.md) - Lost: $850,000.00 Recovered: $0.00 
 - [Armor.Fi](/rekts/Armor.Fi.md) - Lost: $850,000.00 Recovered: $0.00 
-- [Hope Lend](/rekts/Hope-Lend.md) - Lost: $834,616.00 Recovered: $0.00 
-- [EigenLayer](/rekts/EigenLayer.md) - Lost: $821,230.00 Recovered: $0.00 
+- [Hope Lend Exploit](/rekts/Hope-Lend-Exploit.md) - Lost: $834,616.00 Recovered: $0.00 
+- [Fake EigenLayer Rugpull](/rekts/Fake-EigenLayer-Rugpull.md) - Lost: $821,230.00 Recovered: $0.00 
 - [Inputs.io](/rekts/Inputs.io.md) - Lost: $809,000.00 Recovered: $0.00 
 - [BitBot](/rekts/BitBot.md) - Lost: $805,001.00 Recovered: $0.00 
 - [MetaPoint](/rekts/MetaPoint.md) - Lost: $803,242.00 Recovered: $0.00 
@@ -466,17 +466,17 @@
 - [Sturdy Finance](/rekts/Sturdy-Finance.md) - Lost: $775,332.00 Recovered: $0.00 
 - [Cryptoburgers](/rekts/Cryptoburgers.md) - Lost: $770,000.00 Recovered: $0.00 
 - [Crypto Burgers](/rekts/Crypto-Burgers.md) - Lost: $770,000.00 Recovered: $450,251.00 
-- [BearnDAO](/rekts/BearnDAO.md) - Lost: $768,363.00 Recovered: $0.00 
-- [GMBL Computer](/rekts/GMBL-Computer.md) - Lost: $768,196.00 Recovered: $383,826.00 
-- [Ledger Live Web3](/rekts/Ledger-Live-Web3.md) - Lost: $768,000.00 Recovered: $0.00 
+- [BearnDAO Exploit](/rekts/BearnDAO-Exploit.md) - Lost: $768,363.00 Recovered: $0.00 
+- [GMBL Computer Exploit](/rekts/GMBL-Computer-Exploit.md) - Lost: $768,196.00 Recovered: $383,826.00 
+- [Fake Ledger Live Web3 Exploit](/rekts/Fake-Ledger-Live-Web3-Exploit.md) - Lost: $768,000.00 Recovered: $0.00 
 - [Mercenary](/rekts/Mercenary.md) - Lost: $760,000.00 Recovered: $0.00 
 - [AutoSharkFinance](/rekts/AutoSharkFinance.md) - Lost: $759,046.00 Recovered: $0.00 
-- [SAI Pro](/rekts/SAI-Pro.md) - Lost: $751,627.00 Recovered: $0.00 
+- [SAI Token Rugpull](/rekts/SAI-Token-Rugpull.md) - Lost: $751,627.00 Recovered: $0.00 
 - [RESDAO](/rekts/RESDAO.md) - Lost: $750,000.00 Recovered: $0.00 
 - [Azuki](/rekts/Azuki.md) - Lost: $750,000.00 Recovered: $0.00 
 - [Altilly](/rekts/Altilly.md) - Lost: $750,000.00 Recovered: $0.00 
 - [Yam DAO](/rekts/Yam-DAO.md) - Lost: $750,000.00 Recovered: $0.00 
-- [LINEA](/rekts/LINEA.md) - Lost: $740,809.00 Recovered: $0.00 
+- [Fake LINEA Token Rugpull](/rekts/Fake-LINEA-Token-Rugpull.md) - Lost: $740,809.00 Recovered: $0.00 
 - [Mother](/rekts/Mother.md) - Lost: $733,883.00 Recovered: $0.00 
 - [Forest Tiger Pro](/rekts/Forest-Tiger-Pro.md) - Lost: $732,647.00 Recovered: $0.00 
 - [ElectronDAO](/rekts/ElectronDAO.md) - Lost: $728,653.00 Recovered: $0.00 
@@ -486,16 +486,16 @@
 - [Meta Pets](/rekts/Meta-Pets.md) - Lost: $708,623.00 Recovered: $0.00 
 - [QAN Platform](/rekts/QAN-Platform.md) - Lost: $704,590.00 Recovered: $0.00 
 - [LaunchZone](/rekts/LaunchZone.md) - Lost: $700,000.00 Recovered: $0.00 
-- [Umbrella Network](/rekts/Umbrella-Network.md) - Lost: $700,000.00 Recovered: $0.00 
+- [Umbrella Network (2)](/rekts/Umbrella-Network-2.md) - Lost: $700,000.00 Recovered: $0.00 
 - [Meebits](/rekts/Meebits.md) - Lost: $700,000.00 Recovered: $0.00 
 - [ProTradeX](/rekts/ProTradeX.md) - Lost: $698,143.00 Recovered: $0.00 
 - [BitDao](/rekts/BitDao.md) - Lost: $686,491.00 Recovered: $0.00 
 - [Merlin Labs](/rekts/Merlin-Labs.md) - Lost: $680,000.00 Recovered: $0.00 
 - [fcdep](/rekts/fcdep.md) - Lost: $675,000.00 Recovered: $0.00 
-- [UniBot](/rekts/UniBot.md) - Lost: $673,317.00 Recovered: $0.00 
-- [Uni Bot](/rekts/Uni-Bot.md) - Lost: $673,317.00 Recovered: $0.00 
+- [UniBot Exploit](/rekts/UniBot-Exploit.md) - Lost: $673,317.00 Recovered: $0.00 
+- [Uni Bot Exploit](/rekts/Uni-Bot-Exploit.md) - Lost: $673,317.00 Recovered: $0.00 
 - [Zerogoki](/rekts/Zerogoki.md) - Lost: $670,000.00 Recovered: $0.00 
-- [bZx](/rekts/bZx.md) - Lost: $665,840.00 Recovered: $0.00 
+- [bZx (2)](/rekts/bZx-2.md) - Lost: $665,840.00 Recovered: $0.00 
 - [BabyMUSK](/rekts/BabyMUSK.md) - Lost: $664,910.00 Recovered: $0.00 
 - [Ariva Digital](/rekts/Ariva-Digital.md) - Lost: $660,739.00 Recovered: $0.00 
 - [Impossible Finance](/rekts/Impossible-Finance.md) - Lost: $660,657.00 Recovered: $0.00 
@@ -508,44 +508,44 @@
 - [Hashflow](/rekts/Hashflow.md) - Lost: $640,000.00 Recovered: $600,000.00 
 - [WSB Coin](/rekts/WSB-Coin.md) - Lost: $635,000.00 Recovered: $0.00 
 - [Pawnfi](/rekts/Pawnfi.md) - Lost: $633,441.00 Recovered: $0.00 
-- [LeetSwap](/rekts/LeetSwap.md) - Lost: $628,583.00 Recovered: $0.00 
-- [GoodDollars](/rekts/GoodDollars.md) - Lost: $627,919.00 Recovered: $0.00 
+- [LeetSwap Exploit](/rekts/LeetSwap-Exploit.md) - Lost: $628,583.00 Recovered: $0.00 
+- [GoodDollars Exploit](/rekts/GoodDollars-Exploit.md) - Lost: $627,919.00 Recovered: $0.00 
 - [VitaDAO.com](/rekts/VitaDAO.com.md) - Lost: $626,595.00 Recovered: $0.00 
-- [MyBitcoin](/rekts/MyBitcoin.md) - Lost: $619,000.00 Recovered: $0.00 
-- [Apache NFT SalesRoom](/rekts/Apache-NFT-SalesRoom.md) - Lost: $617,960.00 Recovered: $0.00 
+- [MyBitcoin (2)](/rekts/MyBitcoin-2.md) - Lost: $619,000.00 Recovered: $0.00 
+- [Apache NFT SalesRoom Rugpull](/rekts/Apache-NFT-SalesRoom-Rugpull.md) - Lost: $617,960.00 Recovered: $0.00 
 - [Flexcoin](/rekts/Flexcoin.md) - Lost: $614,298.00 Recovered: $0.00 
 - [Curve.Finance](/rekts/Curve.Finance.md) - Lost: $612,000.00 Recovered: $450,000.00 
 - [Wild Credit](/rekts/Wild-Credit.md) - Lost: $611,963.00 Recovered: $611,963.00 
 - [ZKLOTTO](/rekts/ZKLOTTO.md) - Lost: $609,000.00 Recovered: $0.00 
-- [Midas Capital](/rekts/Midas-Capital.md) - Lost: $600,000.00 Recovered: $0.00 
+- [Midas Capital (2)](/rekts/Midas-Capital-2.md) - Lost: $600,000.00 Recovered: $0.00 
 - [Hedera Token Service](/rekts/Hedera-Token-Service.md) - Lost: $600,000.00 Recovered: $0.00 
 - [BIPS](/rekts/BIPS.md) - Lost: $600,000.00 Recovered: $0.00 
-- [Boost Coin](/rekts/Boost-Coin.md) - Lost: $593,267.00 Recovered: $0.00 
+- [Boost Coin Rugpull](/rekts/Boost-Coin-Rugpull.md) - Lost: $593,267.00 Recovered: $0.00 
 - [Ocean Venture](/rekts/Ocean-Venture.md) - Lost: $588,000.00 Recovered: $0.00 
 - [Nerve Finance](/rekts/Nerve-Finance.md) - Lost: $585,882.00 Recovered: $0.00 
-- [IPO](/rekts/IPO.md) - Lost: $585,153.00 Recovered: $0.00 
+- [IPO Rugpull](/rekts/IPO-Rugpull.md) - Lost: $585,153.00 Recovered: $0.00 
 - [DAO_Officials](/rekts/DAO_Officials.md) - Lost: $581,250.00 Recovered: $0.00 
 - [Thoreum Finance](/rekts/Thoreum-Finance.md) - Lost: $580,000.00 Recovered: $0.00 
 - [The Micro Elements](/rekts/The-Micro-Elements.md) - Lost: $573,223.00 Recovered: $0.00 
 - [Allbridge](/rekts/Allbridge.md) - Lost: $570,000.00 Recovered: $465,000.00 
 - [Bitsane](/rekts/Bitsane.md) - Lost: $570,000.00 Recovered: $0.00 
-- [BitLord](/rekts/BitLord.md) - Lost: $566,201.00 Recovered: $0.00 
+- [BitLord Rugpull](/rekts/BitLord-Rugpull.md) - Lost: $566,201.00 Recovered: $0.00 
 - [BNB HEROES](/rekts/BNB-HEROES.md) - Lost: $561,284.00 Recovered: $0.00 
-- [Merlin Labs](/rekts/Merlin-Labs.md) - Lost: $550,000.00 Recovered: $0.00 
+- [Merlin Labs (2)](/rekts/Merlin-Labs-2.md) - Lost: $550,000.00 Recovered: $0.00 
 - [Serial Scammer](/rekts/Serial-Scammer.md) - Lost: $547,066.00 Recovered: $0.00 
 - [WeExchange](/rekts/WeExchange.md) - Lost: $545,000.00 Recovered: $0.00 
 - [Kper Network](/rekts/Kper-Network.md) - Lost: $541,755.00 Recovered: $0.00 
-- [Earning Farm](/rekts/Earning-Farm.md) - Lost: $541,381.00 Recovered: $0.00 
+- [Earning Farm Reentrancy Exploit](/rekts/Earning-Farm-Reentrancy-Exploit.md) - Lost: $541,381.00 Recovered: $0.00 
 - [Feminist Metaverse](/rekts/Feminist-Metaverse.md) - Lost: $540,000.00 Recovered: $0.00 
-- [Visor Finance](/rekts/Visor-Finance.md) - Lost: $529,929.00 Recovered: $0.00 
+- [Visor Finance (3)](/rekts/Visor-Finance-3.md) - Lost: $529,929.00 Recovered: $0.00 
 - [REALSWAK](/rekts/REALSWAK.md) - Lost: $526,968.00 Recovered: $0.00 
-- [Balancer](/rekts/Balancer.md) - Lost: $523,613.00 Recovered: $0.00 
+- [Balancer Exploit](/rekts/Balancer-Exploit.md) - Lost: $523,613.00 Recovered: $0.00 
 - [CLOUD NFT](/rekts/CLOUD-NFT.md) - Lost: $518,870.00 Recovered: $0.00 
-- [Star Token](/rekts/Star-Token.md) - Lost: $517,684.00 Recovered: $0.00 
+- [Star Token Price Manipulation Attack](/rekts/Star-Token-Price-Manipulation-Attack.md) - Lost: $517,684.00 Recovered: $0.00 
 - [Array Finance](/rekts/Array-Finance.md) - Lost: $516,391.00 Recovered: $0.00 
 - [PolyDEX](/rekts/PolyDEX.md) - Lost: $511,144.00 Recovered: $0.00 
 - [HUT](/rekts/HUT.md) - Lost: $509,000.00 Recovered: $0.00 
-- [Flashmall](/rekts/Flashmall.md) - Lost: $508,350.00 Recovered: $0.00 
+- [Flashmall Rugpull](/rekts/Flashmall-Rugpull.md) - Lost: $508,350.00 Recovered: $0.00 
 - [Umbrella Network](/rekts/Umbrella-Network.md) - Lost: $505,060.00 Recovered: $0.00 
 - [Visor Finance](/rekts/Visor-Finance.md) - Lost: $504,845.00 Recovered: $504,845.00 
 - [BNO](/rekts/BNO.md) - Lost: $504,217.00 Recovered: $0.00 
@@ -557,24 +557,24 @@
 - [DMC Token](/rekts/DMC-Token.md) - Lost: $497,386.00 Recovered: $0.00 
 - [Stable Yield Credit](/rekts/Stable-Yield-Credit.md) - Lost: $494,001.00 Recovered: $0.00 
 - [MetaverseToken](/rekts/MetaverseToken.md) - Lost: $487,042.00 Recovered: $0.00 
-- [CKD TOKEN](/rekts/CKD-TOKEN.md) - Lost: $485,176.00 Recovered: $0.00 
+- [CKD Token Rugpull](/rekts/CKD-Token-Rugpull.md) - Lost: $485,176.00 Recovered: $0.00 
 - [WanderVerse NFT](/rekts/WanderVerse-NFT.md) - Lost: $484,887.00 Recovered: $0.00 
 - [TWEETY-MEGA-FUMO](/rekts/TWEETY-MEGA-FUMO.md) - Lost: $484,320.00 Recovered: $0.00 
-- [Nft Trader](/rekts/Nft-Trader.md) - Lost: $481,888.00 Recovered: $0.00 
+- [Nft Trader Reentrancy Attack](/rekts/Nft-Trader-Reentrancy-Attack.md) - Lost: $481,888.00 Recovered: $0.00 
 - [HSO](/rekts/HSO.md) - Lost: $481,800.00 Recovered: $398,657.00 
 - [Pump Farm](/rekts/Pump-Farm.md) - Lost: $477,544.00 Recovered: $0.00 
 - [Arbitrage Robot Token](/rekts/Arbitrage-Robot-Token.md) - Lost: $472,459.00 Recovered: $0.00 
 - [BuildFinance](/rekts/BuildFinance.md) - Lost: $470,000.00 Recovered: $0.00 
 - [Snowflake](/rekts/Snowflake.md) - Lost: $468,000.00 Recovered: $0.00 
 - [Swapos](/rekts/Swapos.md) - Lost: $464,026.00 Recovered: $0.00 
-- [SwilrLend](/rekts/SwilrLend.md) - Lost: $460,317.00 Recovered: $0.00 
+- [SwirlLend Rugpull](/rekts/SwirlLend-Rugpull.md) - Lost: $460,317.00 Recovered: $0.00 
 - [Exco](/rekts/Exco.md) - Lost: $460,000.00 Recovered: $0.00 
 - [Arcadia Finance](/rekts/Arcadia-Finance.md) - Lost: $459,094.00 Recovered: $0.00 
-- [Friend Tech](/rekts/Friend-Tech.md) - Lost: $456,230.00 Recovered: $0.00 
-- [Changpeng Zhao](/rekts/Changpeng-Zhao.md) - Lost: $454,168.00 Recovered: $0.00 
+- [Fake Friend Tech Rugpull](/rekts/Fake-Friend-Tech-Rugpull.md) - Lost: $456,230.00 Recovered: $0.00 
+- [Fake CZ Token Rugpull](/rekts/Fake-CZ-Token-Rugpull.md) - Lost: $454,168.00 Recovered: $0.00 
 - [Libertify](/rekts/Libertify.md) - Lost: $452,114.00 Recovered: $0.00 
 - [Xdef finance](/rekts/Xdef-finance.md) - Lost: $449,690.00 Recovered: $0.00 
-- [Pills for Sale](/rekts/Pills-for-Sale.md) - Lost: $447,069.00 Recovered: $0.00 
+- [Pills for Sale (Fake)](/rekts/Pills-for-Sale-Fake.md) - Lost: $447,069.00 Recovered: $0.00 
 - [Poolz Finance](/rekts/Poolz-Finance.md) - Lost: $443,439.00 Recovered: $0.00 
 - [SyncDex](/rekts/SyncDex.md) - Lost: $442,470.00 Recovered: $0.00 
 - [FSWAP](/rekts/FSWAP.md) - Lost: $432,497.00 Recovered: $0.00 
@@ -597,13 +597,13 @@
 - [Linda Yaccarino](/rekts/Linda-Yaccarino.md) - Lost: $374,723.00 Recovered: $0.00 
 - [Ploutoz Finance](/rekts/Ploutoz-Finance.md) - Lost: $372,441.00 Recovered: $0.00 
 - [opyn](/rekts/opyn.md) - Lost: $371,260.00 Recovered: $371,260.00 
-- [Do Right](/rekts/Do-Right.md) - Lost: $370,556.00 Recovered: $0.00 
+- [DR Token Rugpull](/rekts/DR-Token-Rugpull.md) - Lost: $370,556.00 Recovered: $0.00 
 - [Cauldron](/rekts/Cauldron.md) - Lost: $370,000.00 Recovered: $0.00 
 - [Bitcoin Rain](/rekts/Bitcoin-Rain.md) - Lost: $370,000.00 Recovered: $0.00 
 - [Themis Protocol](/rekts/Themis-Protocol.md) - Lost: $367,748.00 Recovered: $0.00 
 - [ForceDAO](/rekts/ForceDAO.md) - Lost: $367,000.00 Recovered: $367,000.00 
 - [XSTABLE Protocol](/rekts/XSTABLE-Protocol.md) - Lost: $366,975.00 Recovered: $0.00 
-- [Custom Lending Pool](/rekts/Custom-Lending-Pool.md) - Lost: $366,058.00 Recovered: $0.00 
+- [Custom Lending Pool Exploit](/rekts/Custom-Lending-Pool-Exploit.md) - Lost: $366,058.00 Recovered: $0.00 
 - [Smurfs Coin](/rekts/Smurfs-Coin.md) - Lost: $365,524.00 Recovered: $0.00 
 - [Hype Bet Finance](/rekts/Hype-Bet-Finance.md) - Lost: $363,854.00 Recovered: $0.00 
 - [Miss Universe NFT](/rekts/Miss-Universe-NFT.md) - Lost: $360,000.00 Recovered: $0.00 
@@ -614,37 +614,37 @@
 - [Bubbleworld](/rekts/Bubbleworld.md) - Lost: $343,697.00 Recovered: $0.00 
 - [Vircurex](/rekts/Vircurex.md) - Lost: $342,000.00 Recovered: $0.00 
 - [ATF Token](/rekts/ATF-Token.md) - Lost: $340,061.00 Recovered: $0.00 
-- [DUO](/rekts/DUO.md) - Lost: $334,330.00 Recovered: $0.00 
+- [DUO Token Rugpull](/rekts/DUO-Token-Rugpull.md) - Lost: $334,330.00 Recovered: $0.00 
 - [LV Finance](/rekts/LV-Finance.md) - Lost: $333,987.00 Recovered: $0.00 
-- [Merlin Labs](/rekts/Merlin-Labs.md) - Lost: $333,825.00 Recovered: $0.00 
+- [Merlin Labs (3)](/rekts/Merlin-Labs-3.md) - Lost: $333,825.00 Recovered: $0.00 
 - [BitFinex](/rekts/BitFinex.md) - Lost: $332,000.00 Recovered: $0.00 
-- [Raft](/rekts/Raft.md) - Lost: $330,440.00 Recovered: $0.00 
-- [Worldcoin](/rekts/Worldcoin.md) - Lost: $330,000.00 Recovered: $0.00 
-- [Uwerx](/rekts/Uwerx.md) - Lost: $324,254.00 Recovered: $0.00 
+- [Raft Non-Profit Exploit](/rekts/Raft-Non-Profit-Exploit.md) - Lost: $330,440.00 Recovered: $0.00 
+- [Worldcoin Rug Pull](/rekts/Worldcoin-Rug-Pull.md) - Lost: $330,000.00 Recovered: $0.00 
+- [Uwerx Flashloan Exploit](/rekts/Uwerx-Flashloan-Exploit.md) - Lost: $324,254.00 Recovered: $0.00 
 - [SashimiSwap](/rekts/SashimiSwap.md) - Lost: $316,800.00 Recovered: $0.00 
 - [OlympusDAO](/rekts/OlympusDAO.md) - Lost: $315,328.00 Recovered: $315,328.00 
-- [HIGH RETURN (HRN)](/rekts/HIGH-RETURN-(HRN).md) - Lost: $315,000.00 Recovered: $0.00 
-- [ROBIN HOOD](/rekts/ROBIN-HOOD.md) - Lost: $313,000.00 Recovered: $0.00 
+- [HIGH RETURN (HRN)](/rekts/HIGH-RETURN-HRN.md) - Lost: $315,000.00 Recovered: $0.00 
+- [ROBIN HOOD Token Rug Pull](/rekts/ROBIN-HOOD-Token-Rug-Pull.md) - Lost: $313,000.00 Recovered: $0.00 
 - [Cake Lock](/rekts/Cake-Lock.md) - Lost: $310,654.00 Recovered: $0.00 
-- [Tommy VICE CITY](/rekts/Tommy-VICE-CITY.md) - Lost: $308,248.00 Recovered: $0.00 
+- [Tommy VICE CITY Rugpull](/rekts/Tommy-VICE-CITY-Rugpull.md) - Lost: $308,248.00 Recovered: $0.00 
 - [Rbase Finance](/rekts/Rbase-Finance.md) - Lost: $307,098.00 Recovered: $0.00 
 - [DD coin](/rekts/DD-coin.md) - Lost: $306,597.00 Recovered: $0.00 
 - [FileSystemVideo](/rekts/FileSystemVideo.md) - Lost: $303,625.00 Recovered: $0.00 
-- [Bitcoinica](/rekts/Bitcoinica.md) - Lost: $303,000.00 Recovered: $0.00 
+- [Bitcoinica (2)](/rekts/Bitcoinica-2.md) - Lost: $303,000.00 Recovered: $0.00 
 - [Altsbit](/rekts/Altsbit.md) - Lost: $303,000.00 Recovered: $0.00 
 - [ShadowFi](/rekts/ShadowFi.md) - Lost: $302,817.00 Recovered: $0.00 
 - [Lymex](/rekts/Lymex.md) - Lost: $301,754.00 Recovered: $0.00 
 - [Mycelium](/rekts/Mycelium.md) - Lost: $300,000.00 Recovered: $0.00 
 - [Glide Finance](/rekts/Glide-Finance.md) - Lost: $300,000.00 Recovered: $0.00 
-- [Hu Tao Spirit Soother](/rekts/Hu-Tao-Spirit-Soother.md) - Lost: $299,828.00 Recovered: $0.00 
+- [Hu Tao Spirit Soother Rugpull](/rekts/Hu-Tao-Spirit-Soother-Rugpull.md) - Lost: $299,828.00 Recovered: $0.00 
 - [Flurry Finance](/rekts/Flurry-Finance.md) - Lost: $293,000.00 Recovered: $0.00 
 - [FASTSWAP](/rekts/FASTSWAP.md) - Lost: $290,738.00 Recovered: $0.00 
-- [BJS](/rekts/BJS.md) - Lost: $290,000.00 Recovered: $0.00 
-- [Plankton Plankton](/rekts/Plankton-Plankton.md) - Lost: $288,021.00 Recovered: $0.00 
+- [BJS Rug Pull](/rekts/BJS-Rug-Pull.md) - Lost: $290,000.00 Recovered: $0.00 
+- [Plankton Plankton Rugpull](/rekts/Plankton-Plankton-Rugpull.md) - Lost: $288,021.00 Recovered: $0.00 
 - [Metaland DAO](/rekts/Metaland-DAO.md) - Lost: $286,585.00 Recovered: $0.00 
 - [Tomatos](/rekts/Tomatos.md) - Lost: $286,136.00 Recovered: $0.00 
 - [SCT Token](/rekts/SCT-Token.md) - Lost: $286,123.00 Recovered: $0.00 
-- [Safe](/rekts/Safe.md) - Lost: $283,829.00 Recovered: $0.00 
+- [Safe Wallet's User Exploited](/rekts/Safe-Wallet's-User-Exploited.md) - Lost: $283,829.00 Recovered: $0.00 
 - [Soft Yearn Finance](/rekts/Soft-Yearn-Finance.md) - Lost: $281,382.00 Recovered: $0.00 
 - [Tales of Elleria](/rekts/Tales-of-Elleria.md) - Lost: $280,000.00 Recovered: $0.00 
 - [MTDAO](/rekts/MTDAO.md) - Lost: $280,000.00 Recovered: $0.00 
@@ -653,11 +653,11 @@
 - [Project culs](/rekts/Project-culs.md) - Lost: $278,442.00 Recovered: $0.00 
 - [SynLev](/rekts/SynLev.md) - Lost: $277,897.00 Recovered: $0.00 
 - [BASIC-MINING](/rekts/BASIC-MINING.md) - Lost: $277,000.00 Recovered: $0.00 
-- [Bored Ape Yacht Club](/rekts/Bored-Ape-Yacht-Club.md) - Lost: $276,290.00 Recovered: $0.00 
+- [Bored Ape Yacht Club (2)](/rekts/Bored-Ape-Yacht-Club-2.md) - Lost: $276,290.00 Recovered: $0.00 
 - [Saddle Finance](/rekts/Saddle-Finance.md) - Lost: $275,735.00 Recovered: $0.00 
 - [Block Forest](/rekts/Block-Forest.md) - Lost: $275,439.00 Recovered: $0.00 
 - [LOO](/rekts/LOO.md) - Lost: $275,117.00 Recovered: $0.00 
-- [SyncSpace](/rekts/SyncSpace.md) - Lost: $272,652.00 Recovered: $0.00 
+- [SyncSpace Aury Bridge Exploit](/rekts/SyncSpace-Aury-Bridge-Exploit.md) - Lost: $272,652.00 Recovered: $0.00 
 - [Omni Bridge](/rekts/Omni-Bridge.md) - Lost: $271,800.00 Recovered: $0.00 
 - [xWin Finance](/rekts/xWin-Finance.md) - Lost: $270,000.00 Recovered: $0.00 
 - [DeFiPie](/rekts/DeFiPie.md) - Lost: $269,315.00 Recovered: $0.00 
@@ -665,7 +665,7 @@
 - [Gandalf The Grey](/rekts/Gandalf-The-Grey.md) - Lost: $266,238.00 Recovered: $0.00 
 - [Vip Panda Community](/rekts/Vip-Panda-Community.md) - Lost: $265,865.00 Recovered: $0.00 
 - [Kyber Network](/rekts/Kyber-Network.md) - Lost: $265,050.00 Recovered: $0.00 
-- [TheStandard.io](/rekts/TheStandard.io.md) - Lost: $264,000.00 Recovered: $264,000.00 
+- [TheStandard.io Price Manipulation Exploit](/rekts/TheStandard.io-Price-Manipulation-Exploit.md) - Lost: $264,000.00 Recovered: $264,000.00 
 - [BAYC & OtherSide](/rekts/BAYC-&-OtherSide.md) - Lost: $262,732.00 Recovered: $0.00 
 - [SherLOCK](/rekts/SherLOCK.md) - Lost: $262,175.00 Recovered: $0.00 
 - [TTTT](/rekts/TTTT.md) - Lost: $261,000.00 Recovered: $0.00 
@@ -676,9 +676,9 @@
 - [PoW ETH](/rekts/PoW-ETH.md) - Lost: $255,780.00 Recovered: $0.00 
 - [SuperStep](/rekts/SuperStep.md) - Lost: $255,682.00 Recovered: $0.00 
 - [BNQ Token](/rekts/BNQ-Token.md) - Lost: $255,675.00 Recovered: $0.00 
-- [PEPEHUB](/rekts/PEPEHUB.md) - Lost: $255,000.00 Recovered: $0.00 
+- [PEHUB Rug Pull](/rekts/PEHUB-Rug-Pull.md) - Lost: $255,000.00 Recovered: $0.00 
 - [BlockGPT](/rekts/BlockGPT.md) - Lost: $254,592.00 Recovered: $0.00 
-- [Hachiko](/rekts/Hachiko.md) - Lost: $253,702.00 Recovered: $0.00 
+- [Hachiko Rugpull](/rekts/Hachiko-Rugpull.md) - Lost: $253,702.00 Recovered: $0.00 
 - [796 Exchange](/rekts/796-Exchange.md) - Lost: $253,000.00 Recovered: $0.00 
 - [BitFloor](/rekts/BitFloor.md) - Lost: $251,000.00 Recovered: $0.00 
 - [EtherDelta](/rekts/EtherDelta.md) - Lost: $251,000.00 Recovered: $0.00 
@@ -686,61 +686,61 @@
 - [Sperax USD](/rekts/Sperax-USD.md) - Lost: $250,000.00 Recovered: $0.00 
 - [Bisq](/rekts/Bisq.md) - Lost: $250,000.00 Recovered: $0.00 
 - [PolyYeld Finance](/rekts/PolyYeld-Finance.md) - Lost: $250,000.00 Recovered: $0.00 
-- [Safe Dollar](/rekts/Safe-Dollar.md) - Lost: $248,000.00 Recovered: $0.00 
+- [Safe Dollar (2)](/rekts/Safe-Dollar-2.md) - Lost: $248,000.00 Recovered: $0.00 
 - [Gera Coin](/rekts/Gera-Coin.md) - Lost: $247,127.00 Recovered: $0.00 
-- [Gladiator](/rekts/Gladiator.md) - Lost: $246,180.00 Recovered: $0.00 
+- [Gladiator Rugpull](/rekts/Gladiator-Rugpull.md) - Lost: $246,180.00 Recovered: $0.00 
 - [Chainlink](/rekts/Chainlink.md) - Lost: $245,000.00 Recovered: $0.00 
 - [EarnHub](/rekts/EarnHub.md) - Lost: $244,938.00 Recovered: $0.00 
-- [Popeye the Sailor](/rekts/Popeye-the-Sailor.md) - Lost: $241,000.00 Recovered: $0.00 
+- [Popeye the Sailor Token Rug Pull](/rekts/Popeye-the-Sailor-Token-Rug-Pull.md) - Lost: $241,000.00 Recovered: $0.00 
 - [POKeFARM](/rekts/POKeFARM.md) - Lost: $238,435.00 Recovered: $0.00 
-- [Balancer](/rekts/Balancer.md) - Lost: $238,000.00 Recovered: $0.00 
-- [Scooby Pepe](/rekts/Scooby-Pepe.md) - Lost: $237,583.00 Recovered: $0.00 
+- [Balancer Frontend Exploit](/rekts/Balancer-Frontend-Exploit.md) - Lost: $238,000.00 Recovered: $0.00 
+- [Scooby Pepe Rugpull](/rekts/Scooby-Pepe-Rugpull.md) - Lost: $237,583.00 Recovered: $0.00 
 - [DubaiCEO](/rekts/DubaiCEO.md) - Lost: $237,272.00 Recovered: $0.00 
-- [Reflex Staking Bot](/rekts/Reflex-Staking-Bot.md) - Lost: $236,801.00 Recovered: $0.00 
+- [Reflex Staking Bot Rugpull](/rekts/Reflex-Staking-Bot-Rugpull.md) - Lost: $236,801.00 Recovered: $0.00 
 - [Celer Bridge](/rekts/Celer-Bridge.md) - Lost: $236,334.00 Recovered: $0.00 
 - [Bitomat](/rekts/Bitomat.md) - Lost: $236,000.00 Recovered: $0.00 
 - [Shido Global](/rekts/Shido-Global.md) - Lost: $235,462.00 Recovered: $0.00 
-- [STILTON MUSK](/rekts/STILTON-MUSK.md) - Lost: $231,904.00 Recovered: $0.00 
-- [Peapods Finance](/rekts/Peapods-Finance.md) - Lost: $231,192.00 Recovered: $231,192.00 
-- [Elongate Deluxe](/rekts/Elongate-Deluxe.md) - Lost: $230,455.00 Recovered: $0.00 
+- [STILTON Token Rugpull](/rekts/STILTON-Token-Rugpull.md) - Lost: $231,904.00 Recovered: $0.00 
+- [Peapods Finance Exploit](/rekts/Peapods-Finance-Exploit.md) - Lost: $231,192.00 Recovered: $231,192.00 
+- [ELongD Token Rugpull](/rekts/ELongD-Token-Rugpull.md) - Lost: $230,455.00 Recovered: $0.00 
 - [Linode](/rekts/Linode.md) - Lost: $228,000.00 Recovered: $0.00 
-- [Agent Smith](/rekts/Agent-Smith.md) - Lost: $226,545.00 Recovered: $0.00 
-- [Satori](/rekts/Satori.md) - Lost: $225,765.00 Recovered: $0.00 
-- [Abattoir of Zir](/rekts/Abattoir-of-Zir.md) - Lost: $225,553.00 Recovered: $0.00 
+- [Agent Smith Rugpull](/rekts/Agent-Smith-Rugpull.md) - Lost: $226,545.00 Recovered: $0.00 
+- [Satori Rugpull](/rekts/Satori-Rugpull.md) - Lost: $225,765.00 Recovered: $0.00 
+- [DIABLO Token Rugpull](/rekts/DIABLO-Token-Rugpull.md) - Lost: $225,553.00 Recovered: $0.00 
 - [BRA Token](/rekts/BRA-Token.md) - Lost: $225,000.00 Recovered: $0.00 
 - [Shadetech](/rekts/Shadetech.md) - Lost: $224,579.00 Recovered: $0.00 
-- [PAULY](/rekts/PAULY.md) - Lost: $224,000.00 Recovered: $0.00 
+- [PAULY Rug Pull](/rekts/PAULY-Rug-Pull.md) - Lost: $224,000.00 Recovered: $0.00 
 - [Ledger](/rekts/Ledger.md) - Lost: $224,000.00 Recovered: $0.00 
 - [Diamond DND](/rekts/Diamond-DND.md) - Lost: $223,335.00 Recovered: $0.00 
 - [Ethereum alarm clock](/rekts/Ethereum-alarm-clock.md) - Lost: $219,294.00 Recovered: $0.00 
 - [Tetris Finance](/rekts/Tetris-Finance.md) - Lost: $217,507.00 Recovered: $0.00 
 - [Cubic Finance](/rekts/Cubic-Finance.md) - Lost: $216,694.00 Recovered: $0.00 
 - [NFTflow](/rekts/NFTflow.md) - Lost: $216,386.00 Recovered: $0.00 
-- [CIRCLE (fake)](/rekts/CIRCLE-(fake).md) - Lost: $216,000.00 Recovered: $0.00 
-- [Hypr Network](/rekts/Hypr-Network.md) - Lost: $215,193.00 Recovered: $0.00 
+- [CIRCLE fake token rug pull](/rekts/CIRCLE-fake-token-rug-pull.md) - Lost: $216,000.00 Recovered: $0.00 
+- [Hypr's OP Stack Bridge Exploit](/rekts/Hypr's-OP-Stack-Bridge-Exploit.md) - Lost: $215,193.00 Recovered: $0.00 
 - [MMFinance](/rekts/MMFinance.md) - Lost: $215,000.00 Recovered: $0.00 
 - [Brand New Quest Metaverse](/rekts/Brand-New-Quest-Metaverse.md) - Lost: $214,122.00 Recovered: $0.00 
 - [Bep Finance](/rekts/Bep-Finance.md) - Lost: $212,432.00 Recovered: $0.00 
-- [Linear Finance](/rekts/Linear-Finance.md) - Lost: $211,726.00 Recovered: $0.00 
+- [Linear Finance Exploit](/rekts/Linear-Finance-Exploit.md) - Lost: $211,726.00 Recovered: $0.00 
 - [dYdX](/rekts/dYdX.md) - Lost: $211,002.00 Recovered: $0.00 
 - [Santa Coin](/rekts/Santa-Coin.md) - Lost: $210,893.00 Recovered: $0.00 
 - [Swello Finance](/rekts/Swello-Finance.md) - Lost: $210,000.00 Recovered: $0.00 
-- [Celestia](/rekts/Celestia.md) - Lost: $208,853.00 Recovered: $0.00 
+- [Fake TIA Token 2](/rekts/Fake-TIA-Token-2.md) - Lost: $208,853.00 Recovered: $0.00 
 - [Elastic Staking](/rekts/Elastic-Staking.md) - Lost: $208,514.00 Recovered: $0.00 
 - [Sifchain Finance](/rekts/Sifchain-Finance.md) - Lost: $207,718.00 Recovered: $0.00 
 - [DeFi WZ Token](/rekts/DeFi-WZ-Token.md) - Lost: $207,620.00 Recovered: $0.00 
 - [ArchWay Fake](/rekts/ArchWay-Fake.md) - Lost: $207,371.00 Recovered: $0.00 
-- [Elon Pepe](/rekts/Elon-Pepe.md) - Lost: $205,796.00 Recovered: $0.00 
+- [Elon Pepe Rugpull](/rekts/Elon-Pepe-Rugpull.md) - Lost: $205,796.00 Recovered: $0.00 
 - [Rare Bears](/rekts/Rare-Bears.md) - Lost: $205,586.00 Recovered: $0.00 
-- [stoicDAO](/rekts/stoicDAO.md) - Lost: $204,746.00 Recovered: $0.00 
+- [ZETA Token Rugpull](/rekts/ZETA-Token-Rugpull.md) - Lost: $204,746.00 Recovered: $0.00 
 - [ArenaPlayAPC](/rekts/ArenaPlayAPC.md) - Lost: $204,259.00 Recovered: $0.00 
-- [MaximusDAO](/rekts/MaximusDAO.md) - Lost: $203,996.00 Recovered: $0.00 
+- [MaximusDAO (Phishing)](/rekts/MaximusDAO-Phishing.md) - Lost: $203,996.00 Recovered: $0.00 
 - [Santa DAO](/rekts/Santa-DAO.md) - Lost: $203,878.00 Recovered: $0.00 
-- [Bare Bear](/rekts/Bare-Bear.md) - Lost: $202,000.00 Recovered: $0.00 
+- [Bare Bear Rug Pull](/rekts/Bare-Bear-Rug-Pull.md) - Lost: $202,000.00 Recovered: $0.00 
 - [Automated Assassins](/rekts/Automated-Assassins.md) - Lost: $202,000.00 Recovered: $0.00 
 - [Bitmit](/rekts/Bitmit.md) - Lost: $202,000.00 Recovered: $0.00 
-- [zkSync Copycat](/rekts/zkSync-Copycat.md) - Lost: $201,549.00 Recovered: $0.00 
-- [Time](/rekts/Time.md) - Lost: $200,000.00 Recovered: $0.00 
+- [zkSync Copycat Rugpull](/rekts/zkSync-Copycat-Rugpull.md) - Lost: $201,549.00 Recovered: $0.00 
+- [Time Token Exploit](/rekts/Time-Token-Exploit.md) - Lost: $200,000.00 Recovered: $0.00 
 - [Quixotic](/rekts/Quixotic.md) - Lost: $200,000.00 Recovered: $0.00 
 - [Hex Trust Token](/rekts/Hex-Trust-Token.md) - Lost: $200,000.00 Recovered: $0.00 
 - [Doglands](/rekts/Doglands.md) - Lost: $200,000.00 Recovered: $0.00 
@@ -755,53 +755,53 @@
 - [NWT Token](/rekts/NWT-Token.md) - Lost: $191,468.00 Recovered: $0.00 
 - [Layer2DAO](/rekts/Layer2DAO.md) - Lost: $190,370.00 Recovered: $119,251.00 
 - [Real Web Project](/rekts/Real-Web-Project.md) - Lost: $190,332.00 Recovered: $0.00 
-- [QuickSwap](/rekts/QuickSwap.md) - Lost: $190,000.00 Recovered: $0.00 
+- [QuickSwap (2)](/rekts/QuickSwap-2.md) - Lost: $190,000.00 Recovered: $0.00 
 - [Wettok Market](/rekts/Wettok-Market.md) - Lost: $189,905.00 Recovered: $0.00 
-- [DMCToken](/rekts/DMCToken.md) - Lost: $189,876.00 Recovered: $0.00 
+- [DMCToken (2)](/rekts/DMCToken-2.md) - Lost: $189,876.00 Recovered: $0.00 
 - [Magix](/rekts/Magix.md) - Lost: $188,252.00 Recovered: $0.00 
-- [Memecoin](/rekts/Memecoin.md) - Lost: $188,095.00 Recovered: $0.00 
+- [Fake MEME Token Rugpull](/rekts/Fake-MEME-Token-Rugpull.md) - Lost: $188,095.00 Recovered: $0.00 
 - [Astronaut NFT](/rekts/Astronaut-NFT.md) - Lost: $187,400.00 Recovered: $0.00 
 - [FTX](/rekts/FTX.md) - Lost: $187,156.00 Recovered: $0.00 
 - [GDS Chain](/rekts/GDS-Chain.md) - Lost: $187,000.00 Recovered: $0.00 
-- [Toothless - How to train meme](/rekts/Toothless---How-to-train-meme.md) - Lost: $186,000.00 Recovered: $0.00 
+- [Toothless Token Rug Pull](/rekts/Toothless-Token-Rug-Pull.md) - Lost: $186,000.00 Recovered: $0.00 
 - [BigFinance](/rekts/BigFinance.md) - Lost: $185,200.00 Recovered: $0.00 
 - [Meta Apes](/rekts/Meta-Apes.md) - Lost: $183,151.00 Recovered: $0.00 
-- [Cover protocol](/rekts/Cover-protocol.md) - Lost: $182,745.00 Recovered: $0.00 
-- [Civilization](/rekts/Civilization.md) - Lost: $180,474.00 Recovered: $0.00 
+- [Cover protocol (fake)](/rekts/Cover-protocol-fake.md) - Lost: $182,745.00 Recovered: $0.00 
+- [Civilization Exploit](/rekts/Civilization-Exploit.md) - Lost: $180,474.00 Recovered: $0.00 
 - [SHIDAO](/rekts/SHIDAO.md) - Lost: $180,000.00 Recovered: $0.00 
-- [Web](/rekts/Web.md) - Lost: $178,964.00 Recovered: $0.00 
-- [Helio Protocol](/rekts/Helio-Protocol.md) - Lost: $178,277.00 Recovered: $0.00 
+- [WEB Token Rugpull](/rekts/WEB-Token-Rugpull.md) - Lost: $178,964.00 Recovered: $0.00 
+- [Helio Protocol Rugpull](/rekts/Helio-Protocol-Rugpull.md) - Lost: $178,277.00 Recovered: $0.00 
 - [Bill Muray Wallet Hack](/rekts/Bill-Muray-Wallet-Hack.md) - Lost: $177,873.00 Recovered: $0.00 
 - [PAK REVOLUTION](/rekts/PAK-REVOLUTION.md) - Lost: $175,184.00 Recovered: $0.00 
-- [DarkProtocol](/rekts/DarkProtocol.md) - Lost: $174,334.00 Recovered: $0.00 
-- [Aspiring Cooperation Community](/rekts/Aspiring-Cooperation-Community.md) - Lost: $173,462.00 Recovered: $0.00 
+- [DARK Token](/rekts/DARK-Token.md) - Lost: $174,334.00 Recovered: $0.00 
+- [Aspiring Cooperation Community Rugpull](/rekts/Aspiring-Cooperation-Community-Rugpull.md) - Lost: $173,462.00 Recovered: $0.00 
 - [ParaSpace](/rekts/ParaSpace.md) - Lost: $173,100.00 Recovered: $0.00 
-- [IPMB](/rekts/IPMB.md) - Lost: $172,483.00 Recovered: $0.00 
+- [Fake IPMB Token Rugpull](/rekts/Fake-IPMB-Token-Rugpull.md) - Lost: $172,483.00 Recovered: $0.00 
 - [Casper DeFi](/rekts/Casper-DeFi.md) - Lost: $172,411.00 Recovered: $190,383.00 
-- [Alpha Finance Lab](/rekts/Alpha-Finance-Lab.md) - Lost: $170,704.00 Recovered: $170,704.00 
-- [KeeperDAO](/rekts/KeeperDAO.md) - Lost: $170,217.00 Recovered: $0.00 
+- [Alpha Finance Lab (2)](/rekts/Alpha-Finance-Lab-2.md) - Lost: $170,704.00 Recovered: $170,704.00 
+- [KeeperDAO (fake)](/rekts/KeeperDAO-fake.md) - Lost: $170,217.00 Recovered: $0.00 
 - [Trust Wallet](/rekts/Trust-Wallet.md) - Lost: $170,000.00 Recovered: $0.00 
 - [Nikhil Gopalani Wallet](/rekts/Nikhil-Gopalani-Wallet.md) - Lost: $170,000.00 Recovered: $0.00 
 - [Iron Finance](/rekts/Iron-Finance.md) - Lost: $170,000.00 Recovered: $0.00 
 - [MIKE and SID Tokens](/rekts/MIKE-and-SID-Tokens.md) - Lost: $169,652.00 Recovered: $0.00 
-- [APIG](/rekts/APIG.md) - Lost: $169,164.00 Recovered: $0.00 
+- [APIG Rugpull](/rekts/APIG-Rugpull.md) - Lost: $169,164.00 Recovered: $0.00 
 - [ZigGap](/rekts/ZigGap.md) - Lost: $169,000.00 Recovered: $0.00 
-- [Big Time](/rekts/Big-Time.md) - Lost: $168,699.00 Recovered: $0.00 
-- [Majin Buu](/rekts/Majin-Buu.md) - Lost: $168,213.00 Recovered: $0.00 
+- [Big Time Token Rugpull](/rekts/Big-Time-Token-Rugpull.md) - Lost: $168,699.00 Recovered: $0.00 
+- [Majin Buu Rugpull](/rekts/Majin-Buu-Rugpull.md) - Lost: $168,213.00 Recovered: $0.00 
 - [Chessfarm.Tech](/rekts/Chessfarm.Tech.md) - Lost: $167,772.00 Recovered: $0.00 
 - [PicoStocks](/rekts/PicoStocks.md) - Lost: $167,000.00 Recovered: $0.00 
-- [SOMESING](/rekts/SOMESING.md) - Lost: $166,715.00 Recovered: $0.00 
+- [SOMESING Token Rugpull](/rekts/SOMESING-Token-Rugpull.md) - Lost: $166,715.00 Recovered: $0.00 
 - [Stobox Exchange](/rekts/Stobox-Exchange.md) - Lost: $166,306.00 Recovered: $0.00 
 - [X2Y2](/rekts/X2Y2.md) - Lost: $165,000.00 Recovered: $0.00 
 - [Stader.Near](/rekts/Stader.Near.md) - Lost: $165,000.00 Recovered: $0.00 
-- [Elephant Money](/rekts/Elephant-Money.md) - Lost: $163,415.00 Recovered: $0.00 
-- [MarbleX](/rekts/MarbleX.md) - Lost: $161,784.00 Recovered: $0.00 
+- [Elephant Money Exploit](/rekts/Elephant-Money-Exploit.md) - Lost: $163,415.00 Recovered: $0.00 
+- [MarbleX Rugpull](/rekts/MarbleX-Rugpull.md) - Lost: $161,784.00 Recovered: $0.00 
 - [Bitcash.cz](/rekts/Bitcash.cz.md) - Lost: $161,000.00 Recovered: $0.00 
-- [L7 DEX](/rekts/L7-DEX.md) - Lost: $160,866.00 Recovered: $0.00 
-- [Celestia](/rekts/Celestia.md) - Lost: $160,731.00 Recovered: $0.00 
+- [LSD7 Token Rugpull](/rekts/LSD7-Token-Rugpull.md) - Lost: $160,866.00 Recovered: $0.00 
+- [Fake Celestia Token Rugpull](/rekts/Fake-Celestia-Token-Rugpull.md) - Lost: $160,731.00 Recovered: $0.00 
 - [FDO](/rekts/FDO.md) - Lost: $160,441.00 Recovered: $0.00 
-- [Jigsaw saw you](/rekts/Jigsaw-saw-you.md) - Lost: $160,000.00 Recovered: $0.00 
-- [ROACH RACE](/rekts/ROACH-RACE.md) - Lost: $160,000.00 Recovered: $0.00 
+- [Token Jigsaw saw you](/rekts/Token-Jigsaw-saw-you.md) - Lost: $160,000.00 Recovered: $0.00 
+- [ROACH RACE Token Rug Pull](/rekts/ROACH-RACE-Token-Rug-Pull.md) - Lost: $160,000.00 Recovered: $0.00 
 - [CoW Swap](/rekts/CoW-Swap.md) - Lost: $160,000.00 Recovered: $0.00 
 - [Sport Move](/rekts/Sport-Move.md) - Lost: $159,685.00 Recovered: $0.00 
 - [SkyLands](/rekts/SkyLands.md) - Lost: $159,136.00 Recovered: $0.00 
@@ -810,25 +810,25 @@
 - [Huge Gas Fee Draining](/rekts/Huge-Gas-Fee-Draining.md) - Lost: $156,190.00 Recovered: $0.00 
 - [OBB Token](/rekts/OBB-Token.md) - Lost: $156,063.00 Recovered: $0.00 
 - [ADAF](/rekts/ADAF.md) - Lost: $156,000.00 Recovered: $0.00 
-- [Creso](/rekts/Creso.md) - Lost: $153,603.00 Recovered: $0.00 
-- [TrustPad](/rekts/TrustPad.md) - Lost: $152,487.00 Recovered: $0.00 
+- [Fake CRE Token Rugpull](/rekts/Fake-CRE-Token-Rugpull.md) - Lost: $153,603.00 Recovered: $0.00 
+- [TrustPad Exploit](/rekts/TrustPad-Exploit.md) - Lost: $152,487.00 Recovered: $0.00 
 - [Artificial intelligence robot](/rekts/Artificial-intelligence-robot.md) - Lost: $152,000.00 Recovered: $0.00 
-- [LK-99 Protocol](/rekts/LK-99-Protocol.md) - Lost: $151,735.00 Recovered: $0.00 
-- [GGBOND](/rekts/GGBOND.md) - Lost: $150,971.00 Recovered: $0.00 
+- [LK-99 Protocol Rugpull](/rekts/LK-99-Protocol-Rugpull.md) - Lost: $151,735.00 Recovered: $0.00 
+- [GGBOND Rugpull](/rekts/GGBOND-Rugpull.md) - Lost: $150,971.00 Recovered: $0.00 
 - [LlamaCoin](/rekts/LlamaCoin.md) - Lost: $150,620.00 Recovered: $0.00 
-- [AI C-3PO](/rekts/AI-C-3PO.md) - Lost: $150,000.00 Recovered: $0.00 
+- [AI C-3PO Token Rug Pull](/rekts/AI-C-3PO-Token-Rug-Pull.md) - Lost: $150,000.00 Recovered: $0.00 
 - [SkyVerse](/rekts/SkyVerse.md) - Lost: $150,000.00 Recovered: $0.00 
-- [BONK Inu](/rekts/BONK-Inu.md) - Lost: $150,000.00 Recovered: $0.00 
+- [BONK Inu (Fake)](/rekts/BONK-Inu-Fake.md) - Lost: $150,000.00 Recovered: $0.00 
 - [DeeKay](/rekts/DeeKay.md) - Lost: $150,000.00 Recovered: $0.00 
 - [MyEtherWallet](/rekts/MyEtherWallet.md) - Lost: $150,000.00 Recovered: $0.00 
 - [FlokiMoon](/rekts/FlokiMoon.md) - Lost: $148,132.00 Recovered: $0.00 
 - [DDCX](/rekts/DDCX.md) - Lost: $148,019.00 Recovered: $0.00 
-- [LooBr](/rekts/LooBr.md) - Lost: $147,439.00 Recovered: $0.00 
-- [Multichain](/rekts/Multichain.md) - Lost: $147,326.00 Recovered: $0.00 
+- [LooBr Rugpull](/rekts/LooBr-Rugpull.md) - Lost: $147,439.00 Recovered: $0.00 
+- [Multichain (Anyswap) (2)](/rekts/Multichain-Anyswap-2.md) - Lost: $147,326.00 Recovered: $0.00 
 - [land](/rekts/land.md) - Lost: $145,043.00 Recovered: $0.00 
 - [Jar Jar Binks](/rekts/Jar-Jar-Binks.md) - Lost: $144,881.00 Recovered: $0.00 
 - [Deri Protocol](/rekts/Deri-Protocol.md) - Lost: $144,532.00 Recovered: $0.00 
-- [Carson](/rekts/Carson.md) - Lost: $144,000.00 Recovered: $0.00 
+- [Carson Flash Loan Attack](/rekts/Carson-Flash-Loan-Attack.md) - Lost: $144,000.00 Recovered: $0.00 
 - [mCoin](/rekts/mCoin.md) - Lost: $143,841.00 Recovered: $0.00 
 - [HPD](/rekts/HPD.md) - Lost: $142,950.00 Recovered: $0.00 
 - [DHE](/rekts/DHE.md) - Lost: $142,000.00 Recovered: $0.00 
@@ -838,18 +838,18 @@
 - [ArbiSwap](/rekts/ArbiSwap.md) - Lost: $138,055.00 Recovered: $0.00 
 - [Tin Finance](/rekts/Tin-Finance.md) - Lost: $137,342.00 Recovered: $0.00 
 - [TwitFi](/rekts/TwitFi.md) - Lost: $137,000.00 Recovered: $0.00 
-- [Bancor](/rekts/Bancor.md) - Lost: $135,229.00 Recovered: $0.00 
+- [Bancor (2)](/rekts/Bancor-2.md) - Lost: $135,229.00 Recovered: $0.00 
 - [BabyDogeCoin](/rekts/BabyDogeCoin.md) - Lost: $135,013.00 Recovered: $0.00 
 - [OzCoin](/rekts/OzCoin.md) - Lost: $135,000.00 Recovered: $83,215.00 
-- [Kizuna AI](/rekts/Kizuna-AI.md) - Lost: $134,863.00 Recovered: $0.00 
+- [Kizuna AI Rugpull](/rekts/Kizuna-AI-Rugpull.md) - Lost: $134,863.00 Recovered: $0.00 
 - [Dark Light](/rekts/Dark-Light.md) - Lost: $134,120.00 Recovered: $0.00 
-- [CommEX](/rekts/CommEX.md) - Lost: $134,077.00 Recovered: $0.00 
+- [CommEX Fake Token Rugpull](/rekts/CommEX-Fake-Token-Rugpull.md) - Lost: $134,077.00 Recovered: $0.00 
 - [Script Token](/rekts/Script-Token.md) - Lost: $133,857.00 Recovered: $0.00 
 - [MoveCash](/rekts/MoveCash.md) - Lost: $133,215.00 Recovered: $0.00 
 - [Netbox](/rekts/Netbox.md) - Lost: $132,000.00 Recovered: $0.00 
 - [World Cup](/rekts/World-Cup.md) - Lost: $131,892.00 Recovered: $0.00 
 - [Securedverse Copycat](/rekts/Securedverse-Copycat.md) - Lost: $131,133.00 Recovered: $0.00 
-- [Kaonashi the Faceless](/rekts/Kaonashi-the-Faceless.md) - Lost: $131,000.00 Recovered: $0.00 
+- [Kaonashi the Faceless Token Rug Pull](/rekts/Kaonashi-the-Faceless-Token-Rug-Pull.md) - Lost: $131,000.00 Recovered: $0.00 
 - [GST Token](/rekts/GST-Token.md) - Lost: $130,943.00 Recovered: $0.00 
 - [Baby Pepe Token](/rekts/Baby-Pepe-Token.md) - Lost: $130,752.00 Recovered: $0.00 
 - [Quint](/rekts/Quint.md) - Lost: $130,000.00 Recovered: $0.00 
@@ -865,35 +865,35 @@
 - [Biki](/rekts/Biki.md) - Lost: $123,000.00 Recovered: $0.00 
 - [MooCakeCTX](/rekts/MooCakeCTX.md) - Lost: $122,960.00 Recovered: $0.00 
 - [PSYOP Phishing](/rekts/PSYOP-Phishing.md) - Lost: $122,546.00 Recovered: $0.00 
-- [Terk The Gorilla](/rekts/Terk-The-Gorilla.md) - Lost: $122,440.00 Recovered: $0.00 
+- [Terk The Gorilla Rugpull](/rekts/Terk-The-Gorilla-Rugpull.md) - Lost: $122,440.00 Recovered: $0.00 
 - [MAD](/rekts/MAD.md) - Lost: $122,354.00 Recovered: $0.00 
 - [Elron Token](/rekts/Elron-Token.md) - Lost: $122,000.00 Recovered: $0.00 
 - [MoltenSwap](/rekts/MoltenSwap.md) - Lost: $121,994.00 Recovered: $0.00 
-- [Patex](/rekts/Patex.md) - Lost: $121,600.00 Recovered: $0.00 
-- [RepubliK](/rekts/RepubliK.md) - Lost: $121,445.00 Recovered: $0.00 
-- [PIPI](/rekts/PIPI.md) - Lost: $121,373.00 Recovered: $0.00 
+- [Patex Rug Pull](/rekts/Patex-Rug-Pull.md) - Lost: $121,600.00 Recovered: $0.00 
+- [Fake RPK Token Rugpull](/rekts/Fake-RPK-Token-Rugpull.md) - Lost: $121,445.00 Recovered: $0.00 
+- [PIPI Token Rugpull](/rekts/PIPI-Token-Rugpull.md) - Lost: $121,373.00 Recovered: $0.00 
 - [DESTINY Protocol](/rekts/DESTINY-Protocol.md) - Lost: $120,800.00 Recovered: $0.00 
-- [PAPABEAR](/rekts/PAPABEAR.md) - Lost: $120,648.00 Recovered: $0.00 
+- [Fake PAPA Token Rugpull](/rekts/Fake-PAPA-Token-Rugpull.md) - Lost: $120,648.00 Recovered: $0.00 
 - [Trust Bridge](/rekts/Trust-Bridge.md) - Lost: $120,083.00 Recovered: $0.00 
-- [Utopia](/rekts/Utopia.md) - Lost: $120,018.00 Recovered: $0.00 
+- [Utopia Exploit](/rekts/Utopia-Exploit.md) - Lost: $120,018.00 Recovered: $0.00 
 - [ACC TOKEN](/rekts/ACC-TOKEN.md) - Lost: $120,000.00 Recovered: $0.00 
 - [Twitter](/rekts/Twitter.md) - Lost: $120,000.00 Recovered: $0.00 
-- [MYX Finance](/rekts/MYX-Finance.md) - Lost: $119,888.00 Recovered: $0.00 
+- [QMYX Token Rugpull](/rekts/QMYX-Token-Rugpull.md) - Lost: $119,888.00 Recovered: $0.00 
 - [Kaoya Swap](/rekts/Kaoya-Swap.md) - Lost: $118,000.00 Recovered: $0.00 
-- [Snake Eyes](/rekts/Snake-Eyes.md) - Lost: $117,292.00 Recovered: $0.00 
+- [Snake Eyes Rugpull](/rekts/Snake-Eyes-Rugpull.md) - Lost: $117,292.00 Recovered: $0.00 
 - [ROT Token](/rekts/ROT-Token.md) - Lost: $116,150.00 Recovered: $0.00 
-- [SHIA](/rekts/SHIA.md) - Lost: $116,094.00 Recovered: $0.00 
+- [SHIA Rugpull](/rekts/SHIA-Rugpull.md) - Lost: $116,094.00 Recovered: $0.00 
 - [Local Traders](/rekts/Local-Traders.md) - Lost: $115,595.00 Recovered: $0.00 
 - [Easier](/rekts/Easier.md) - Lost: $115,549.00 Recovered: $0.00 
 - [ArbTomb](/rekts/ArbTomb.md) - Lost: $114,646.00 Recovered: $0.00 
 - [FOMO DAO](/rekts/FOMO-DAO.md) - Lost: $114,360.00 Recovered: $0.00 
 - [Yoda Coin](/rekts/Yoda-Coin.md) - Lost: $114,000.00 Recovered: $0.00 
-- [DeFido](/rekts/DeFido.md) - Lost: $113,971.00 Recovered: $0.00 
-- [Stanley the Bugman](/rekts/Stanley-the-Bugman.md) - Lost: $113,758.00 Recovered: $0.00 
+- [DeFido Rugpull](/rekts/DeFido-Rugpull.md) - Lost: $113,971.00 Recovered: $0.00 
+- [Stanley the Bugman Rugpull](/rekts/Stanley-the-Bugman-Rugpull.md) - Lost: $113,758.00 Recovered: $0.00 
 - [CBC Token](/rekts/CBC-Token.md) - Lost: $113,002.00 Recovered: $0.00 
 - [Cdecker](/rekts/Cdecker.md) - Lost: $113,000.00 Recovered: $0.00 
 - [PancakeHunny](/rekts/PancakeHunny.md) - Lost: $112,187.00 Recovered: $0.00 
-- [AISurf](/rekts/AISurf.md) - Lost: $112,050.00 Recovered: $0.00 
+- [Fake AISC Token Rugpull](/rekts/Fake-AISC-Token-Rugpull.md) - Lost: $112,050.00 Recovered: $0.00 
 - [OpenAI LASA](/rekts/OpenAI-LASA.md) - Lost: $112,000.00 Recovered: $0.00 
 - [Pervasive Information Community Organization](/rekts/Pervasive-Information-Community-Organization.md) - Lost: $112,000.00 Recovered: $0.00 
 - [Dark Matter](/rekts/Dark-Matter.md) - Lost: $111,637.00 Recovered: $0.00 
@@ -908,24 +908,24 @@
 - [ERC20 Token Bank](/rekts/ERC20-Token-Bank.md) - Lost: $108,967.00 Recovered: $0.00 
 - [Boring Nakas](/rekts/Boring-Nakas.md) - Lost: $108,439.00 Recovered: $0.00 
 - [Bitcurex](/rekts/Bitcurex.md) - Lost: $108,000.00 Recovered: $0.00 
-- [SPROUT](/rekts/SPROUT.md) - Lost: $107,982.00 Recovered: $0.00 
-- [GigaDAO](/rekts/GigaDAO.md) - Lost: $107,819.00 Recovered: $0.00 
+- [SPROUT Token Rugpull](/rekts/SPROUT-Token-Rugpull.md) - Lost: $107,982.00 Recovered: $0.00 
+- [Fake GIGS Token Rugpull](/rekts/Fake-GIGS-Token-Rugpull.md) - Lost: $107,819.00 Recovered: $0.00 
 - [QuickSwap](/rekts/QuickSwap.md) - Lost: $107,600.00 Recovered: $0.00 
-- [To the Moon](/rekts/To-the-Moon.md) - Lost: $107,464.00 Recovered: $0.00 
-- [Fake zkSync](/rekts/Fake-zkSync.md) - Lost: $106,527.00 Recovered: $0.00 
+- [To the Moon Rugpull](/rekts/To-the-Moon-Rugpull.md) - Lost: $107,464.00 Recovered: $0.00 
+- [Fake zkSync Rugpull](/rekts/Fake-zkSync-Rugpull.md) - Lost: $106,527.00 Recovered: $0.00 
 - [JNB Token](/rekts/JNB-Token.md) - Lost: $106,497.00 Recovered: $0.00 
-- [Mina Protocol](/rekts/Mina-Protocol.md) - Lost: $106,395.00 Recovered: $0.00 
+- [Fake Mina Protocol Rugpull](/rekts/Fake-Mina-Protocol-Rugpull.md) - Lost: $106,395.00 Recovered: $0.00 
 - [YZY DAO](/rekts/YZY-DAO.md) - Lost: $106,315.00 Recovered: $0.00 
-- [DigiFund](/rekts/DigiFund.md) - Lost: $105,555.00 Recovered: $0.00 
+- [Fake DFUND Token Rugpull](/rekts/Fake-DFUND-Token-Rugpull.md) - Lost: $105,555.00 Recovered: $0.00 
 - [TetherShiba](/rekts/TetherShiba.md) - Lost: $105,421.00 Recovered: $0.00 
 - [SellToken](/rekts/SellToken.md) - Lost: $105,270.00 Recovered: $0.00 
 - [DarkPool](/rekts/DarkPool.md) - Lost: $103,859.00 Recovered: $0.00 
 - [FDB](/rekts/FDB.md) - Lost: $103,540.00 Recovered: $0.00 
 - [Philcoin](/rekts/Philcoin.md) - Lost: $103,000.00 Recovered: $0.00 
-- [Dor](/rekts/Dor.md) - Lost: $102,731.00 Recovered: $0.00 
+- [DOR Token Rugpull](/rekts/DOR-Token-Rugpull.md) - Lost: $102,731.00 Recovered: $0.00 
 - [Mars Meta Space](/rekts/Mars-Meta-Space.md) - Lost: $102,310.00 Recovered: $0.00 
 - [Yearn Machine Learning](/rekts/Yearn-Machine-Learning.md) - Lost: $100,367.00 Recovered: $0.00 
-- [KUKUCoin](/rekts/KUKUCoin.md) - Lost: $100,335.00 Recovered: $0.00 
+- [KUKUCoin Rugpull](/rekts/KUKUCoin-Rugpull.md) - Lost: $100,335.00 Recovered: $0.00 
 - [Baby Doge Coin](/rekts/Baby-Doge-Coin.md) - Lost: $100,000.00 Recovered: $0.00 
 - [POOPEPE token](/rekts/POOPEPE-token.md) - Lost: $100,000.00 Recovered: $0.00 
 - [XCAD](/rekts/XCAD.md) - Lost: $100,000.00 Recovered: $0.00 
@@ -934,17 +934,17 @@
 - [Ranger](/rekts/Ranger.md) - Lost: $100,000.00 Recovered: $0.00 
 - [Coinbase](/rekts/Coinbase.md) - Lost: $100,000.00 Recovered: $0.00 
 - [Formation.Fi](/rekts/Formation.Fi.md) - Lost: $100,000.00 Recovered: $0.00 
-- [DMD](/rekts/DMD.md) - Lost: $99,385.00 Recovered: $0.00 
-- [Frontfanz](/rekts/Frontfanz.md) - Lost: $98,302.00 Recovered: $0.00 
+- [DMD Rugpull](/rekts/DMD-Rugpull.md) - Lost: $99,385.00 Recovered: $0.00 
+- [Frontfanz Rugpull](/rekts/Frontfanz-Rugpull.md) - Lost: $98,302.00 Recovered: $0.00 
 - [Aphrodite Protocol](/rekts/Aphrodite-Protocol.md) - Lost: $97,147.00 Recovered: $0.00 
-- [GN](/rekts/GN.md) - Lost: $96,097.00 Recovered: $0.00 
+- [GN Token Rugpull](/rekts/GN-Token-Rugpull.md) - Lost: $96,097.00 Recovered: $0.00 
 - [OBB](/rekts/OBB.md) - Lost: $96,000.00 Recovered: $0.00 
 - [Safe Dollar](/rekts/Safe-Dollar.md) - Lost: $95,392.00 Recovered: $0.00 
 - [Pepe Coin](/rekts/Pepe-Coin.md) - Lost: $95,000.00 Recovered: $0.00 
 - [CityDAO](/rekts/CityDAO.md) - Lost: $95,000.00 Recovered: $0.00 
 - [Citizen Finance](/rekts/Citizen-Finance.md) - Lost: $94,336.00 Recovered: $0.00 
 - [OkayLetsGo](/rekts/OkayLetsGo.md) - Lost: $94,226.00 Recovered: $0.00 
-- [APE](/rekts/APE.md) - Lost: $94,216.00 Recovered: $0.00 
+- [APE Token Rugpull](/rekts/APE-Token-Rugpull.md) - Lost: $94,216.00 Recovered: $0.00 
 - [Marvel Metauniverse](/rekts/Marvel-Metauniverse.md) - Lost: $93,746.00 Recovered: $0.00 
 - [Sloth Climb](/rekts/Sloth-Climb.md) - Lost: $93,531.00 Recovered: $0.00 
 - [Nifity](/rekts/Nifity.md) - Lost: $93,410.00 Recovered: $0.00 
@@ -958,15 +958,15 @@
 - [Cashera](/rekts/Cashera.md) - Lost: $90,000.00 Recovered: $0.00 
 - [Klein Bottle](/rekts/Klein-Bottle.md) - Lost: $89,747.00 Recovered: $0.00 
 - [Brahma Finance](/rekts/Brahma-Finance.md) - Lost: $89,522.00 Recovered: $0.00 
-- [Builders NFT](/rekts/Builders-NFT.md) - Lost: $89,296.00 Recovered: $0.00 
-- [Towelie](/rekts/Towelie.md) - Lost: $88,861.00 Recovered: $0.00 
-- [Ninja Gaiden](/rekts/Ninja-Gaiden.md) - Lost: $88,794.00 Recovered: $0.00 
+- [BuiLDerS Token Rugpull](/rekts/BuiLDerS-Token-Rugpull.md) - Lost: $89,296.00 Recovered: $0.00 
+- [Towelie (TOWELIE) Rugpull](/rekts/Towelie-TOWELIE-Rugpull.md) - Lost: $88,861.00 Recovered: $0.00 
+- [Ninja Gaiden Token Rugpull](/rekts/Ninja-Gaiden-Token-Rugpull.md) - Lost: $88,794.00 Recovered: $0.00 
 - [AI DAY: Part 2](/rekts/AI-DAY:-Part-2.md) - Lost: $88,736.00 Recovered: $0.00 
 - [NFDAO](/rekts/NFDAO.md) - Lost: $88,420.00 Recovered: $0.00 
 - [DerpMan](/rekts/DerpMan.md) - Lost: $88,123.00 Recovered: $0.00 
 - [China Rabbit](/rekts/China-Rabbit.md) - Lost: $88,000.00 Recovered: $0.00 
-- [iSharesBitcoin](/rekts/iSharesBitcoin.md) - Lost: $87,947.00 Recovered: $0.00 
-- [Expanso](/rekts/Expanso.md) - Lost: $87,558.00 Recovered: $0.00 
+- [ISharesBitcoin Token Rugpull](/rekts/ISharesBitcoin-Token-Rugpull.md) - Lost: $87,947.00 Recovered: $0.00 
+- [EXPSO Token Rugpull](/rekts/EXPSO-Token-Rugpull.md) - Lost: $87,558.00 Recovered: $0.00 
 - [Move token](/rekts/Move-token.md) - Lost: $87,000.00 Recovered: $0.00 
 - [Bitcoinica](/rekts/Bitcoinica.md) - Lost: $87,000.00 Recovered: $0.00 
 - [Novo](/rekts/Novo.md) - Lost: $85,604.00 Recovered: $0.00 
@@ -975,19 +975,19 @@
 - [Galaxy Coin](/rekts/Galaxy-Coin.md) - Lost: $84,535.00 Recovered: $0.00 
 - [Raptor2](/rekts/Raptor2.md) - Lost: $83,960.00 Recovered: $0.00 
 - [CBDAO](/rekts/CBDAO.md) - Lost: $83,884.00 Recovered: $0.00 
-- [AssetClub](/rekts/AssetClub.md) - Lost: $83,874.00 Recovered: $0.00 
-- [2049](/rekts/2049.md) - Lost: $82,471.00 Recovered: $0.00 
-- [TITANX](/rekts/TITANX.md) - Lost: $82,238.00 Recovered: $0.00 
+- [Fake ACC Token Rugpull](/rekts/Fake-ACC-Token-Rugpull.md) - Lost: $83,874.00 Recovered: $0.00 
+- [2049 Token Rugpull](/rekts/2049-Token-Rugpull.md) - Lost: $82,471.00 Recovered: $0.00 
+- [TITANX Fake Token Rugpull](/rekts/TITANX-Fake-Token-Rugpull.md) - Lost: $82,238.00 Recovered: $0.00 
 - [NeedForSpeed Finance](/rekts/NeedForSpeed-Finance.md) - Lost: $82,091.00 Recovered: $0.00 
-- [ChainGPT](/rekts/ChainGPT.md) - Lost: $82,000.00 Recovered: $0.00 
-- [Finance](/rekts/Finance.md) - Lost: $81,000.00 Recovered: $0.00 
-- [MEMEPAD](/rekts/MEMEPAD.md) - Lost: $80,372.00 Recovered: $0.00 
+- [ChainGPT (fake)](/rekts/ChainGPT-fake.md) - Lost: $82,000.00 Recovered: $0.00 
+- [Finance (ARKEN)](/rekts/Finance-ARKEN.md) - Lost: $81,000.00 Recovered: $0.00 
+- [MEMEPAD Fake Token Rugpull](/rekts/MEMEPAD-Fake-Token-Rugpull.md) - Lost: $80,372.00 Recovered: $0.00 
 - [YAYO](/rekts/YAYO.md) - Lost: $80,000.00 Recovered: $0.00 
 - [ROE Finance](/rekts/ROE-Finance.md) - Lost: $80,000.00 Recovered: $0.00 
 - [Rubic](/rekts/Rubic.md) - Lost: $79,670.00 Recovered: $0.00 
-- [BABYFIDO](/rekts/BABYFIDO.md) - Lost: $79,306.00 Recovered: $0.00 
+- [BABYFIDO Token Rugpull](/rekts/BABYFIDO-Token-Rugpull.md) - Lost: $79,306.00 Recovered: $0.00 
 - [DKP Token](/rekts/DKP-Token.md) - Lost: $79,233.00 Recovered: $0.00 
-- [Memecoin](/rekts/Memecoin.md) - Lost: $79,157.00 Recovered: $0.00 
+- [Memecoin Fake Token Rugpull](/rekts/Memecoin-Fake-Token-Rugpull.md) - Lost: $79,157.00 Recovered: $0.00 
 - [Cupid](/rekts/Cupid.md) - Lost: $78,623.00 Recovered: $0.00 
 - [Pirate x Pirate](/rekts/Pirate-x-Pirate.md) - Lost: $78,000.00 Recovered: $0.00 
 - [OracleSwapToken](/rekts/OracleSwapToken.md) - Lost: $77,328.00 Recovered: $0.00 
@@ -995,9 +995,9 @@
 - [Star Swap](/rekts/Star-Swap.md) - Lost: $76,654.00 Recovered: $0.00 
 - [Sakura DeFi](/rekts/Sakura-DeFi.md) - Lost: $76,480.00 Recovered: $0.00 
 - [Cellframe Network](/rekts/Cellframe-Network.md) - Lost: $76,112.00 Recovered: $0.00 
-- [ZUCK](/rekts/ZUCK.md) - Lost: $76,000.00 Recovered: $0.00 
+- [ZUCK Rug Pull](/rekts/ZUCK-Rug-Pull.md) - Lost: $76,000.00 Recovered: $0.00 
 - [Nimbus DAO](/rekts/Nimbus-DAO.md) - Lost: $76,000.00 Recovered: $0.00 
-- [Coin Merge](/rekts/Coin-Merge.md) - Lost: $75,887.00 Recovered: $0.00 
+- [Fake CMERGE Token Rugpull](/rekts/Fake-CMERGE-Token-Rugpull.md) - Lost: $75,887.00 Recovered: $0.00 
 - [Doodle Monkey](/rekts/Doodle-Monkey.md) - Lost: $75,555.00 Recovered: $0.00 
 - [Goldbank Finance](/rekts/Goldbank-Finance.md) - Lost: $75,239.00 Recovered: $0.00 
 - [Bio Farm](/rekts/Bio-Farm.md) - Lost: $73,244.00 Recovered: $0.00 
@@ -1005,7 +1005,7 @@
 - [Hepton token](/rekts/Hepton-token.md) - Lost: $73,000.00 Recovered: $0.00 
 - [GameFi](/rekts/GameFi.md) - Lost: $73,000.00 Recovered: $0.00 
 - [AzukiDAO](/rekts/AzukiDAO.md) - Lost: $72,693.00 Recovered: $0.00 
-- [Julia](/rekts/Julia.md) - Lost: $72,474.00 Recovered: $0.00 
+- [Julia Token Rugpull](/rekts/Julia-Token-Rugpull.md) - Lost: $72,474.00 Recovered: $0.00 
 - [YFFC](/rekts/YFFC.md) - Lost: $72,446.00 Recovered: $0.00 
 - [BNQ](/rekts/BNQ.md) - Lost: $72,000.00 Recovered: $0.00 
 - [Equalizer Finance](/rekts/Equalizer-Finance.md) - Lost: $72,000.00 Recovered: $0.00 
@@ -1014,8 +1014,8 @@
 - [TSUKA](/rekts/TSUKA.md) - Lost: $70,755.00 Recovered: $0.00 
 - [UniTarget](/rekts/UniTarget.md) - Lost: $70,732.00 Recovered: $0.00 
 - [Snowflake Floki](/rekts/Snowflake-Floki.md) - Lost: $70,375.00 Recovered: $0.00 
-- [BabyShiba2.0](/rekts/BabyShiba2.0.md) - Lost: $70,000.00 Recovered: $0.00 
-- [Arbitrum token](/rekts/Arbitrum-token.md) - Lost: $70,000.00 Recovered: $0.00 
+- [BabyShiba2.0 on BNB Chain Rug Pull](/rekts/BabyShiba2.0-on-BNB-Chain-Rug-Pull.md) - Lost: $70,000.00 Recovered: $0.00 
+- [Arbitrum token (fake)](/rekts/Arbitrum-token-fake.md) - Lost: $70,000.00 Recovered: $0.00 
 - [BTC-por](/rekts/BTC-por.md) - Lost: $70,000.00 Recovered: $0.00 
 - [OMNI Real Estate](/rekts/OMNI-Real-Estate.md) - Lost: $70,000.00 Recovered: $0.00 
 - [Paribus](/rekts/Paribus.md) - Lost: $69,696.00 Recovered: $0.00 
@@ -1023,26 +1023,26 @@
 - [ArbShibaAI](/rekts/ArbShibaAI.md) - Lost: $68,350.00 Recovered: $0.00 
 - [MyBitcoin](/rekts/MyBitcoin.md) - Lost: $68,300.00 Recovered: $0.00 
 - [Dogecoin 3.0](/rekts/Dogecoin-3.0.md) - Lost: $67,971.00 Recovered: $0.00 
-- [BabyShia](/rekts/BabyShia.md) - Lost: $67,569.00 Recovered: $0.00 
+- [BabyShia Rugpull](/rekts/BabyShia-Rugpull.md) - Lost: $67,569.00 Recovered: $0.00 
 - [Force Dao](/rekts/Force-Dao.md) - Lost: $65,806.00 Recovered: $0.00 
 - [Poloniex Exchange](/rekts/Poloniex-Exchange.md) - Lost: $65,600.00 Recovered: $65,600.00 
 - [Hackerdao](/rekts/Hackerdao.md) - Lost: $65,155.00 Recovered: $0.00 
-- [FloorDAO](/rekts/FloorDAO.md) - Lost: $65,000.00 Recovered: $0.00 
+- [FloorDAO exploit](/rekts/FloorDAO-exploit.md) - Lost: $65,000.00 Recovered: $0.00 
 - [LightLink token](/rekts/LightLink-token.md) - Lost: $65,000.00 Recovered: $0.00 
 - [Dogioh](/rekts/Dogioh.md) - Lost: $65,000.00 Recovered: $0.00 
 - [SLM Token](/rekts/SLM-Token.md) - Lost: $64,891.00 Recovered: $0.00 
-- [Deez Nuts](/rekts/Deez-Nuts.md) - Lost: $64,044.00 Recovered: $0.00 
+- [Deez Nuts Rugpull](/rekts/Deez-Nuts-Rugpull.md) - Lost: $64,044.00 Recovered: $0.00 
 - [DEAT token](/rekts/DEAT-token.md) - Lost: $63,800.00 Recovered: $0.00 
-- [Jewels](/rekts/Jewels.md) - Lost: $63,794.00 Recovered: $0.00 
+- [JWL Token Rugpull](/rekts/JWL-Token-Rugpull.md) - Lost: $63,794.00 Recovered: $0.00 
 - [Kosta Finance](/rekts/Kosta-Finance.md) - Lost: $63,376.00 Recovered: $0.00 
 - [Echelon DAO](/rekts/Echelon-DAO.md) - Lost: $63,188.00 Recovered: $0.00 
 - [GUIDO The Mechanics](/rekts/GUIDO-The-Mechanics.md) - Lost: $62,695.00 Recovered: $0.00 
 - [Fantom](/rekts/Fantom.md) - Lost: $62,500.00 Recovered: $0.00 
 - [Meta Magic Coin](/rekts/Meta-Magic-Coin.md) - Lost: $62,224.00 Recovered: $0.00 
-- [Genswap](/rekts/Genswap.md) - Lost: $62,000.00 Recovered: $0.00 
+- [Genswap dex exploit](/rekts/Genswap-dex-exploit.md) - Lost: $62,000.00 Recovered: $0.00 
 - [ETX Infinity](/rekts/ETX-Infinity.md) - Lost: $62,000.00 Recovered: $0.00 
-- [Carol Protocol](/rekts/Carol-Protocol.md) - Lost: $61,164.00 Recovered: $0.00 
-- [Strong Finance](/rekts/Strong-Finance.md) - Lost: $61,081.00 Recovered: $0.00 
+- [Carol Protocol Exploit](/rekts/Carol-Protocol-Exploit.md) - Lost: $61,164.00 Recovered: $0.00 
+- [STRONG Token Rugpull](/rekts/STRONG-Token-Rugpull.md) - Lost: $61,081.00 Recovered: $0.00 
 - [YFDash](/rekts/YFDash.md) - Lost: $61,000.00 Recovered: $0.00 
 - [K33pr](/rekts/K33pr.md) - Lost: $60,858.00 Recovered: $0.00 
 - [A6 Token](/rekts/A6-Token.md) - Lost: $60,852.00 Recovered: $0.00 
@@ -1054,35 +1054,35 @@
 - [Rise Protocol](/rekts/Rise-Protocol.md) - Lost: $59,164.00 Recovered: $0.00 
 - [FIO Protocol](/rekts/FIO-Protocol.md) - Lost: $59,082.00 Recovered: $0.00 
 - [RIFT Token](/rekts/RIFT-Token.md) - Lost: $59,040.00 Recovered: $0.00 
-- [Arbitrum](/rekts/Arbitrum.md) - Lost: $59,000.00 Recovered: $0.00 
-- [Openfabric AI](/rekts/Openfabric-AI.md) - Lost: $58,644.00 Recovered: $0.00 
+- [Arbitrum (fake)](/rekts/Arbitrum-fake.md) - Lost: $59,000.00 Recovered: $0.00 
+- [Fake OFN Token Rugpull](/rekts/Fake-OFN-Token-Rugpull.md) - Lost: $58,644.00 Recovered: $0.00 
 - [Floki Inu](/rekts/Floki-Inu.md) - Lost: $58,591.00 Recovered: $0.00 
 - [Victor the Fortune](/rekts/Victor-the-Fortune.md) - Lost: $58,450.00 Recovered: $0.00 
 - [SSPF](/rekts/SSPF.md) - Lost: $58,448.00 Recovered: $0.00 
 - [BTC Guild](/rekts/BTC-Guild.md) - Lost: $58,000.00 Recovered: $0.00 
-- [The Honest Ventures](/rekts/The-Honest-Ventures.md) - Lost: $57,765.00 Recovered: $0.00 
-- [TrustPad](/rekts/TrustPad.md) - Lost: $56,329.00 Recovered: $0.00 
+- [TheHonestVentures Exit Scam](/rekts/TheHonestVentures-Exit-Scam.md) - Lost: $57,765.00 Recovered: $0.00 
+- [TPAD Fake Token Rugpull](/rekts/TPAD-Fake-Token-Rugpull.md) - Lost: $56,329.00 Recovered: $0.00 
 - [Poz finance](/rekts/Poz-finance.md) - Lost: $56,292.00 Recovered: $0.00 
-- [SQUID GAME](/rekts/SQUID-GAME.md) - Lost: $55,539.00 Recovered: $0.00 
+- [Fake SQUIDGAME Token Rugpull](/rekts/Fake-SQUIDGAME-Token-Rugpull.md) - Lost: $55,539.00 Recovered: $0.00 
 - [Nody](/rekts/Nody.md) - Lost: $54,559.00 Recovered: $0.00 
-- [BNBpay](/rekts/BNBpay.md) - Lost: $53,973.00 Recovered: $0.00 
+- [BNBpay Rugpull](/rekts/BNBpay-Rugpull.md) - Lost: $53,973.00 Recovered: $0.00 
 - [SHADE INU Token](/rekts/SHADE-INU-Token.md) - Lost: $53,761.00 Recovered: $0.00 
-- [Symbiogenesis](/rekts/Symbiogenesis.md) - Lost: $53,639.00 Recovered: $0.00 
+- [Fake Symbiogenesis Token](/rekts/Fake-Symbiogenesis-Token.md) - Lost: $53,639.00 Recovered: $0.00 
 - [StarMan](/rekts/StarMan.md) - Lost: $53,460.00 Recovered: $0.00 
-- [EspressoBot](/rekts/EspressoBot.md) - Lost: $53,110.00 Recovered: $0.00 
+- [EspressoBot Rugpull](/rekts/EspressoBot-Rugpull.md) - Lost: $53,110.00 Recovered: $0.00 
 - [Bitcoin7](/rekts/Bitcoin7.md) - Lost: $53,100.00 Recovered: $0.00 
 - [GEMDAO](/rekts/GEMDAO.md) - Lost: $53,000.00 Recovered: $0.00 
 - [BabyElon](/rekts/BabyElon.md) - Lost: $52,852.00 Recovered: $0.00 
 - [Satt King](/rekts/Satt-King.md) - Lost: $52,769.00 Recovered: $0.00 
-- [EI Risitas](/rekts/EI-Risitas.md) - Lost: $52,351.00 Recovered: $0.00 
+- [Fake KEK Token Rugpull](/rekts/Fake-KEK-Token-Rugpull.md) - Lost: $52,351.00 Recovered: $0.00 
 - [Platypus Finance](/rekts/Platypus-Finance.md) - Lost: $51,840.00 Recovered: $0.00 
-- [AORcoin](/rekts/AORcoin.md) - Lost: $51,693.00 Recovered: $0.00 
+- [AORcoin Rugpull](/rekts/AORcoin-Rugpull.md) - Lost: $51,693.00 Recovered: $0.00 
 - [Cornerchain](/rekts/Cornerchain.md) - Lost: $51,411.00 Recovered: $0.00 
 - [Doge Vault](/rekts/Doge-Vault.md) - Lost: $51,100.00 Recovered: $0.00 
 - [ValentineFloki](/rekts/ValentineFloki.md) - Lost: $50,830.00 Recovered: $0.00 
 - [Bit LC Inc.](/rekts/Bit-LC-Inc..md) - Lost: $50,800.00 Recovered: $0.00 
 - [ULME Token](/rekts/ULME-Token.md) - Lost: $50,646.00 Recovered: $0.00 
-- [LV Metaverse](/rekts/LV-Metaverse.md) - Lost: $50,625.00 Recovered: $0.00 
+- [LV Metaverse (2)](/rekts/LV-Metaverse-2.md) - Lost: $50,625.00 Recovered: $0.00 
 - [Crown Token](/rekts/Crown-Token.md) - Lost: $50,000.00 Recovered: $0.00 
 - [AGD](/rekts/AGD.md) - Lost: $50,000.00 Recovered: $0.00 
 - [LW](/rekts/LW.md) - Lost: $49,298.00 Recovered: $0.00 
@@ -1096,7 +1096,7 @@
 - [Bistroo](/rekts/Bistroo.md) - Lost: $47,000.00 Recovered: $0.00 
 - [Cheebs](/rekts/Cheebs.md) - Lost: $46,493.00 Recovered: $0.00 
 - [Prophet Project](/rekts/Prophet-Project.md) - Lost: $46,356.00 Recovered: $0.00 
-- [One For The Books](/rekts/One-For-The-Books.md) - Lost: $46,150.00 Recovered: $0.00 
+- [One For The Books Rugpull](/rekts/One-For-The-Books-Rugpull.md) - Lost: $46,150.00 Recovered: $0.00 
 - [HashFree](/rekts/HashFree.md) - Lost: $46,000.00 Recovered: $0.00 
 - [Hunter Doge](/rekts/Hunter-Doge.md) - Lost: $45,978.00 Recovered: $0.00 
 - [Tableland](/rekts/Tableland.md) - Lost: $45,819.00 Recovered: $0.00 
@@ -1107,16 +1107,16 @@
 - [Sirius Token](/rekts/Sirius-Token.md) - Lost: $44,963.00 Recovered: $0.00 
 - [ElonMVP](/rekts/ElonMVP.md) - Lost: $44,371.00 Recovered: $0.00 
 - [NFT Cross Chain](/rekts/NFT-Cross-Chain.md) - Lost: $44,052.00 Recovered: $0.00 
-- [EC token](/rekts/EC-token.md) - Lost: $43,800.00 Recovered: $0.00 
+- [EC token (EC)](/rekts/EC-token-EC.md) - Lost: $43,800.00 Recovered: $0.00 
 - [ChainGPT](/rekts/ChainGPT.md) - Lost: $43,400.00 Recovered: $0.00 
 - [GenomesDAO](/rekts/GenomesDAO.md) - Lost: $43,269.00 Recovered: $0.00 
-- [Greatest Of All Time (GOAT)](/rekts/Greatest-Of-All-Time-(GOAT).md) - Lost: $43,100.00 Recovered: $0.00 
-- [HarryPotterObamaJustinHuobiSun](/rekts/HarryPotterObamaJustinHuobiSun.md) - Lost: $42,696.00 Recovered: $0.00 
+- [Greatest Of All Time (GOAT)](/rekts/Greatest-Of-All-Time-GOAT.md) - Lost: $43,100.00 Recovered: $0.00 
+- [HarryPotterObamaJustinHuobiSun Rugpull](/rekts/HarryPotterObamaJustinHuobiSun-Rugpull.md) - Lost: $42,696.00 Recovered: $0.00 
 - [DoraFactory](/rekts/DoraFactory.md) - Lost: $42,373.00 Recovered: $0.00 
 - [MOON Token](/rekts/MOON-Token.md) - Lost: $42,117.00 Recovered: $0.00 
 - [Liquid Core](/rekts/Liquid-Core.md) - Lost: $42,099.00 Recovered: $0.00 
-- [Velodrome Finance](/rekts/Velodrome-Finance.md) - Lost: $42,000.00 Recovered: $0.00 
-- [Coin](/rekts/Coin.md) - Lost: $42,000.00 Recovered: $0.00 
+- [Velodrome Finance Exploit](/rekts/Velodrome-Finance-Exploit.md) - Lost: $42,000.00 Recovered: $0.00 
+- [Coin token Rug Pull](/rekts/Coin-token-Rug-Pull.md) - Lost: $42,000.00 Recovered: $0.00 
 - [Leo Finance](/rekts/Leo-Finance.md) - Lost: $42,000.00 Recovered: $0.00 
 - [iProtocol](/rekts/iProtocol.md) - Lost: $41,930.00 Recovered: $0.00 
 - [SLS](/rekts/SLS.md) - Lost: $41,112.00 Recovered: $0.00 
@@ -1124,28 +1124,28 @@
 - [Midgets Token](/rekts/Midgets-Token.md) - Lost: $40,842.00 Recovered: $0.00 
 - [Mango Inu](/rekts/Mango-Inu.md) - Lost: $40,384.00 Recovered: $0.00 
 - [StarFinancial](/rekts/StarFinancial.md) - Lost: $40,264.00 Recovered: $0.00 
-- [MotherOfAllMemes](/rekts/MotherOfAllMemes.md) - Lost: $40,000.00 Recovered: $0.00 
+- [MotherOfAllMemes Rug Pull](/rekts/MotherOfAllMemes-Rug-Pull.md) - Lost: $40,000.00 Recovered: $0.00 
 - [PCORE](/rekts/PCORE.md) - Lost: $40,000.00 Recovered: $0.00 
 - [Lottery Swap](/rekts/Lottery-Swap.md) - Lost: $40,000.00 Recovered: $0.00 
 - [Block Chain Games](/rekts/Block-Chain-Games.md) - Lost: $39,686.00 Recovered: $0.00 
 - [TheCatWorld](/rekts/TheCatWorld.md) - Lost: $39,471.00 Recovered: $0.00 
 - [DAO ventures](/rekts/DAO-ventures.md) - Lost: $39,443.00 Recovered: $0.00 
 - [EDAO](/rekts/EDAO.md) - Lost: $39,300.00 Recovered: $0.00 
-- [Friendchips.tech](/rekts/Friendchips.tech.md) - Lost: $39,276.00 Recovered: $0.00 
+- [Friendchips.tech Token Rugpull](/rekts/Friendchips.tech-Token-Rugpull.md) - Lost: $39,276.00 Recovered: $0.00 
 - [Trojan Wallet](/rekts/Trojan-Wallet.md) - Lost: $39,200.00 Recovered: $0.00 
 - [Galaxy DeFi](/rekts/Galaxy-DeFi.md) - Lost: $38,798.00 Recovered: $0.00 
-- [Dracula](/rekts/Dracula.md) - Lost: $38,349.00 Recovered: $0.00 
+- [Fake DRAC Token Rugpull](/rekts/Fake-DRAC-Token-Rugpull.md) - Lost: $38,349.00 Recovered: $0.00 
 - [Unlock Protocol](/rekts/Unlock-Protocol.md) - Lost: $38,300.00 Recovered: $0.00 
 - [MystenLabs](/rekts/MystenLabs.md) - Lost: $38,300.00 Recovered: $0.00 
-- [RAIDEN GOD Thunder](/rekts/RAIDEN-GOD-Thunder.md) - Lost: $37,977.00 Recovered: $0.00 
+- [RAIDEN GOD Thunder Rugpull](/rekts/RAIDEN-GOD-Thunder-Rugpull.md) - Lost: $37,977.00 Recovered: $0.00 
 - [Mars Farm](/rekts/Mars-Farm.md) - Lost: $37,645.00 Recovered: $0.00 
-- [Lets Go Farming Token](/rekts/Lets-Go-Farming-Token.md) - Lost: $37,265.00 Recovered: $0.00 
+- [LGF Token Rugpull](/rekts/LGF-Token-Rugpull.md) - Lost: $37,265.00 Recovered: $0.00 
 - [BitPaid](/rekts/BitPaid.md) - Lost: $37,140.00 Recovered: $0.00 
 - [LiveArtX](/rekts/LiveArtX.md) - Lost: $36,743.00 Recovered: $0.00 
 - [ANT Token](/rekts/ANT-Token.md) - Lost: $36,496.00 Recovered: $0.00 
 - [Orbit Swap](/rekts/Orbit-Swap.md) - Lost: $36,441.00 Recovered: $0.00 
 - [LunaFI](/rekts/LunaFI.md) - Lost: $36,362.00 Recovered: $0.00 
-- [Bitcoin BSC](/rekts/Bitcoin-BSC.md) - Lost: $35,813.00 Recovered: $0.00 
+- [Bitcoin BSC Rugpull](/rekts/Bitcoin-BSC-Rugpull.md) - Lost: $35,813.00 Recovered: $0.00 
 - [Solv3 network](/rekts/Solv3-network.md) - Lost: $35,643.00 Recovered: $0.00 
 - [Cryptoger Club](/rekts/Cryptoger-Club.md) - Lost: $35,364.00 Recovered: $0.00 
 - [SAUDI Token](/rekts/SAUDI-Token.md) - Lost: $35,331.00 Recovered: $0.00 
@@ -1161,7 +1161,7 @@
 - [Yearnspace](/rekts/Yearnspace.md) - Lost: $33,988.00 Recovered: $0.00 
 - [Loop X Network](/rekts/Loop-X-Network.md) - Lost: $33,902.00 Recovered: $0.00 
 - [MinterPro](/rekts/MinterPro.md) - Lost: $33,821.00 Recovered: $0.00 
-- [fren](/rekts/fren.md) - Lost: $33,768.00 Recovered: $0.00 
+- [FREN Token Rugpull](/rekts/FREN-Token-Rugpull.md) - Lost: $33,768.00 Recovered: $0.00 
 - [Kickboxer Tate](/rekts/Kickboxer-Tate.md) - Lost: $33,179.00 Recovered: $0.00 
 - [Zodiac Credit](/rekts/Zodiac-Credit.md) - Lost: $33,000.00 Recovered: $0.00 
 - [SpaceID](/rekts/SpaceID.md) - Lost: $33,000.00 Recovered: $0.00 
@@ -1172,14 +1172,14 @@
 - [Nemo Finance](/rekts/Nemo-Finance.md) - Lost: $31,797.00 Recovered: $0.00 
 - [AutoTrade Finance](/rekts/AutoTrade-Finance.md) - Lost: $31,797.00 Recovered: $0.00 
 - [My Farm Pet](/rekts/My-Farm-Pet.md) - Lost: $31,410.00 Recovered: $0.00 
-- [3913 token](/rekts/3913-token.md) - Lost: $31,354.00 Recovered: $0.00 
+- [3913 Token Exploit](/rekts/3913-Token-Exploit.md) - Lost: $31,354.00 Recovered: $0.00 
 - [Reaper Finance](/rekts/Reaper-Finance.md) - Lost: $31,237.00 Recovered: $0.00 
 - [n00dleswap](/rekts/n00dleswap.md) - Lost: $31,096.00 Recovered: $0.00 
 - [Apollo Swap](/rekts/Apollo-Swap.md) - Lost: $31,056.00 Recovered: $0.00 
-- [BTC20Token](/rekts/BTC20Token.md) - Lost: $30,478.00 Recovered: $0.00 
+- [BTC20Token Flash Loan Exploit](/rekts/BTC20Token-Flash-Loan-Exploit.md) - Lost: $30,478.00 Recovered: $0.00 
 - [NONAME](/rekts/NONAME.md) - Lost: $30,120.00 Recovered: $0.00 
 - [WOLF Protocol](/rekts/WOLF-Protocol.md) - Lost: $30,022.00 Recovered: $0.00 
-- [QuillDex](/rekts/QuillDex.md) - Lost: $30,000.00 Recovered: $0.00 
+- [QuilDex Token Rugpull](/rekts/QuilDex-Token-Rugpull.md) - Lost: $30,000.00 Recovered: $0.00 
 - [APPLE](/rekts/APPLE.md) - Lost: $30,000.00 Recovered: $0.00 
 - [DOXED](/rekts/DOXED.md) - Lost: $30,000.00 Recovered: $0.00 
 - [Revert Finance](/rekts/Revert-Finance.md) - Lost: $30,000.00 Recovered: $30,000.00 
@@ -1188,28 +1188,28 @@
 - [DiceSwap](/rekts/DiceSwap.md) - Lost: $29,780.00 Recovered: $0.00 
 - [wDAO EON](/rekts/wDAO-EON.md) - Lost: $29,195.00 Recovered: $0.00 
 - [RETAWATCH](/rekts/RETAWATCH.md) - Lost: $29,069.00 Recovered: $0.00 
-- [Yzer Token](/rekts/Yzer-Token.md) - Lost: $28,960.00 Recovered: $0.00 
+- [Yzer Token Rugpull](/rekts/Yzer-Token-Rugpull.md) - Lost: $28,960.00 Recovered: $0.00 
 - [Dragonswap](/rekts/Dragonswap.md) - Lost: $28,710.00 Recovered: $0.00 
 - [ASKACR Token](/rekts/ASKACR-Token.md) - Lost: $28,661.00 Recovered: $0.00 
 - [ProjectX](/rekts/ProjectX.md) - Lost: $28,247.00 Recovered: $0.00 
-- [MOJO](/rekts/MOJO.md) - Lost: $28,000.00 Recovered: $0.00 
+- [Mojo Jojo Token Rug Pull](/rekts/Mojo-Jojo-Token-Rug-Pull.md) - Lost: $28,000.00 Recovered: $0.00 
 - [Web3Memes](/rekts/Web3Memes.md) - Lost: $27,699.00 Recovered: $0.00 
 - [QWCF](/rekts/QWCF.md) - Lost: $27,000.00 Recovered: $0.00 
-- [LocalBitcoins](/rekts/LocalBitcoins.md) - Lost: $27,000.00 Recovered: $0.00 
+- [LocalBitcoins (2)](/rekts/LocalBitcoins-2.md) - Lost: $27,000.00 Recovered: $0.00 
 - [UN Token](/rekts/UN-Token.md) - Lost: $26,558.00 Recovered: $0.00 
 - [DARK DEFI](/rekts/DARK-DEFI.md) - Lost: $26,543.00 Recovered: $0.00 
-- [Bondly Finance](/rekts/Bondly-Finance.md) - Lost: $26,471.00 Recovered: $0.00 
+- [Bondly Finance (FAKE)](/rekts/Bondly-Finance-FAKE.md) - Lost: $26,471.00 Recovered: $0.00 
 - [Zenith Finance](/rekts/Zenith-Finance.md) - Lost: $26,354.00 Recovered: $0.00 
 - [Space Godzilla](/rekts/Space-Godzilla.md) - Lost: $26,153.00 Recovered: $0.00 
 - [SCAT](/rekts/SCAT.md) - Lost: $26,081.00 Recovered: $0.00 
 - [Dreams Come True](/rekts/Dreams-Come-True.md) - Lost: $26,000.00 Recovered: $0.00 
 - [WinPlay](/rekts/WinPlay.md) - Lost: $25,773.00 Recovered: $0.00 
-- [CredixFinance](/rekts/CredixFinance.md) - Lost: $25,564.00 Recovered: $0.00 
+- [CredixFinance Rugpull](/rekts/CredixFinance-Rugpull.md) - Lost: $25,564.00 Recovered: $0.00 
 - [Saxon James Musk](/rekts/Saxon-James-Musk.md) - Lost: $25,500.00 Recovered: $0.00 
 - [TIM3](/rekts/TIM3.md) - Lost: $25,300.00 Recovered: $0.00 
 - [Horizon Finance](/rekts/Horizon-Finance.md) - Lost: $25,287.00 Recovered: $0.00 
 - [PDR](/rekts/PDR.md) - Lost: $25,278.00 Recovered: $0.00 
-- [SafeMoonX](/rekts/SafeMoonX.md) - Lost: $25,018.00 Recovered: $0.00 
+- [SafeMoonX Rugpull](/rekts/SafeMoonX-Rugpull.md) - Lost: $25,018.00 Recovered: $0.00 
 - [MutantNFTs](/rekts/MutantNFTs.md) - Lost: $25,000.00 Recovered: $0.00 
 - [Verify](/rekts/Verify.md) - Lost: $25,000.00 Recovered: $0.00 
 - [RUL3R Token](/rekts/RUL3R-Token.md) - Lost: $24,792.00 Recovered: $0.00 
@@ -1217,19 +1217,19 @@
 - [NarutoSwap](/rekts/NarutoSwap.md) - Lost: $24,424.00 Recovered: $0.00 
 - [DefiBox](/rekts/DefiBox.md) - Lost: $24,412.00 Recovered: $0.00 
 - [Static](/rekts/Static.md) - Lost: $24,143.00 Recovered: $0.00 
-- [Symbiosis](/rekts/Symbiosis.md) - Lost: $23,725.00 Recovered: $0.00 
+- [Fake Symbiosis Rugpull](/rekts/Fake-Symbiosis-Rugpull.md) - Lost: $23,725.00 Recovered: $0.00 
 - [Pacific Protocol](/rekts/Pacific-Protocol.md) - Lost: $23,531.00 Recovered: $0.00 
-- [loveloverocket](/rekts/loveloverocket.md) - Lost: $23,439.00 Recovered: $0.00 
+- [LoveRCKT Token Rugpull](/rekts/LoveRCKT-Token-Rugpull.md) - Lost: $23,439.00 Recovered: $0.00 
 - [NanoCore](/rekts/NanoCore.md) - Lost: $22,924.00 Recovered: $0.00 
 - [Game Swap Exchange](/rekts/Game-Swap-Exchange.md) - Lost: $22,796.00 Recovered: $0.00 
 - [Boost](/rekts/Boost.md) - Lost: $22,680.00 Recovered: $0.00 
 - [Zap Finance](/rekts/Zap-Finance.md) - Lost: $22,461.00 Recovered: $0.00 
 - [Dynamic](/rekts/Dynamic.md) - Lost: $22,400.00 Recovered: $0.00 
-- [DOGETAMA](/rekts/DOGETAMA.md) - Lost: $22,041.00 Recovered: $0.00 
+- [DOGETAMA Token Rugpull](/rekts/DOGETAMA-Token-Rugpull.md) - Lost: $22,041.00 Recovered: $0.00 
 - [Fortunas Finance](/rekts/Fortunas-Finance.md) - Lost: $21,672.00 Recovered: $0.00 
 - [SpaceX Copycat](/rekts/SpaceX-Copycat.md) - Lost: $21,516.00 Recovered: $0.00 
 - [CoinSWOP](/rekts/CoinSWOP.md) - Lost: $21,049.00 Recovered: $0.00 
-- [Cool Cats](/rekts/Cool-Cats.md) - Lost: $20,961.00 Recovered: $0.00 
+- [COOL20 Token Rugpull](/rekts/COOL20-Token-Rugpull.md) - Lost: $20,961.00 Recovered: $0.00 
 - [Rubick Finance](/rekts/Rubick-Finance.md) - Lost: $20,685.00 Recovered: $0.00 
 - [CatDog](/rekts/CatDog.md) - Lost: $20,225.00 Recovered: $0.00 
 - [Smashcash](/rekts/Smashcash.md) - Lost: $20,000.00 Recovered: $0.00 
@@ -1251,24 +1251,24 @@
 - [True Seigniorage Dollar](/rekts/True-Seigniorage-Dollar.md) - Lost: $16,644.00 Recovered: $0.00 
 - [Dragonball](/rekts/Dragonball.md) - Lost: $16,000.00 Recovered: $0.00 
 - [Solend](/rekts/Solend.md) - Lost: $16,000.00 Recovered: $16,000.00 
-- [Ethereum Hive](/rekts/Ethereum-Hive.md) - Lost: $15,569.00 Recovered: $0.00 
+- [Ethereum Hive Exploit](/rekts/Ethereum-Hive-Exploit.md) - Lost: $15,569.00 Recovered: $0.00 
 - [Foxi.finance](/rekts/Foxi.finance.md) - Lost: $15,513.00 Recovered: $0.00 
 - [ArcadeEarn](/rekts/ArcadeEarn.md) - Lost: $15,368.00 Recovered: $0.00 
 - [Betcoin](/rekts/Betcoin.md) - Lost: $15,300.00 Recovered: $0.00 
-- [Raichu Thunderstone](/rekts/Raichu-Thunderstone.md) - Lost: $14,964.00 Recovered: $0.00 
+- [Raichu Thunderstone Rugpull](/rekts/Raichu-Thunderstone-Rugpull.md) - Lost: $14,964.00 Recovered: $0.00 
 - [Bored Ape Europe Club](/rekts/Bored-Ape-Europe-Club.md) - Lost: $14,400.00 Recovered: $0.00 
 - [Slicer Finance](/rekts/Slicer-Finance.md) - Lost: $14,346.00 Recovered: $0.00 
 - [ROBOT SHIB](/rekts/ROBOT-SHIB.md) - Lost: $14,100.00 Recovered: $0.00 
 - [50BTC](/rekts/50BTC.md) - Lost: $14,000.00 Recovered: $0.00 
 - [Numbers Protocol](/rekts/Numbers-Protocol.md) - Lost: $13,836.00 Recovered: $0.00 
-- [DeriTrade](/rekts/DeriTrade.md) - Lost: $13,411.00 Recovered: $0.00 
+- [DeriTrade Rugpull](/rekts/DeriTrade-Rugpull.md) - Lost: $13,411.00 Recovered: $0.00 
 - [Alexa](/rekts/Alexa.md) - Lost: $13,256.00 Recovered: $0.00 
 - [Twerk Finance](/rekts/Twerk-Finance.md) - Lost: $13,140.00 Recovered: $0.00 
 - [Hypechill fund](/rekts/Hypechill-fund.md) - Lost: $12,910.00 Recovered: $0.00 
 - [Tranquility Defi](/rekts/Tranquility-Defi.md) - Lost: $12,702.00 Recovered: $0.00 
 - [ChaddyFinance](/rekts/ChaddyFinance.md) - Lost: $12,524.00 Recovered: $0.00 
 - [Whale Loans](/rekts/Whale-Loans.md) - Lost: $12,374.00 Recovered: $0.00 
-- [XSD Token](/rekts/XSD-Token.md) - Lost: $12,000.00 Recovered: $0.00 
+- [XSD Token Flashloan Attack](/rekts/XSD-Token-Flashloan-Attack.md) - Lost: $12,000.00 Recovered: $0.00 
 - [Bitcoin Syndicate](/rekts/Bitcoin-Syndicate.md) - Lost: $12,000.00 Recovered: $0.00 
 - [RFbtc](/rekts/RFbtc.md) - Lost: $11,874.00 Recovered: $0.00 
 - [GMT](/rekts/GMT.md) - Lost: $11,825.00 Recovered: $0.00 
@@ -1280,8 +1280,8 @@
 - [OceanLifeToken](/rekts/OceanLifeToken.md) - Lost: $10,504.00 Recovered: $0.00 
 - [SAV3R](/rekts/SAV3R.md) - Lost: $10,423.00 Recovered: $0.00 
 - [Bing Swap](/rekts/Bing-Swap.md) - Lost: $10,239.00 Recovered: $0.00 
-- [The Onigiri Neko](/rekts/The-Onigiri-Neko.md) - Lost: $10,000.00 Recovered: $0.00 
-- [Fake DAI Token](/rekts/Fake-DAI-Token.md) - Lost: $9,815.00 Recovered: $0.00 
+- [The Onigiri Neko project scam](/rekts/The-Onigiri-Neko-project-scam.md) - Lost: $10,000.00 Recovered: $0.00 
+- [Fake DAI Gas Token Draining](/rekts/Fake-DAI-Gas-Token-Draining.md) - Lost: $9,815.00 Recovered: $0.00 
 - [Gooniez Gang](/rekts/Gooniez-Gang.md) - Lost: $9,700.00 Recovered: $0.00 
 - [SuperMarioBros](/rekts/SuperMarioBros.md) - Lost: $9,669.00 Recovered: $0.00 
 - [Focus](/rekts/Focus.md) - Lost: $9,555.00 Recovered: $0.00 
@@ -1330,7 +1330,7 @@
 - [Delicacy DeFi](/rekts/Delicacy-DeFi.md) - Lost: $3,725.00 Recovered: $0.00 
 - [iBLUE](/rekts/iBLUE.md) - Lost: $3,470.00 Recovered: $0.00 
 - [Reflect3 Finance](/rekts/Reflect3-Finance.md) - Lost: $3,294.00 Recovered: $0.00 
-- [Deriswap](/rekts/Deriswap.md) - Lost: $3,262.00 Recovered: $0.00 
+- [Deriswap (the 2nd fake)](/rekts/Deriswap-the-2nd-fake.md) - Lost: $3,262.00 Recovered: $0.00 
 - [TRBAS3](/rekts/TRBAS3.md) - Lost: $3,176.00 Recovered: $0.00 
 - [Lootx Finance](/rekts/Lootx-Finance.md) - Lost: $2,845.00 Recovered: $0.00 
 - [EASYPump](/rekts/EASYPump.md) - Lost: $2,720.00 Recovered: $0.00 
@@ -1367,7 +1367,7 @@
 - [BOMBHEAD token](/rekts/BOMBHEAD-token.md) - Lost: $342.00 Recovered: $0.00 
 - [Dswap](/rekts/Dswap.md) - Lost: $330.00 Recovered: $0.00 
 - [Jin Finance](/rekts/Jin-Finance.md) - Lost: $277.00 Recovered: $0.00 
-- [SPIDER](/rekts/SPIDER.md) - Lost: $0.00 Recovered: $109,000.00 
+- [SPIDER Token Rug Pull](/rekts/SPIDER-Token-Rug-Pull.md) - Lost: $0.00 Recovered: $109,000.00 
 - [Umami finance](/rekts/Umami-finance.md) - Lost: $0.00 Recovered: $0.00 
 - [Swerve Finance](/rekts/Swerve-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [Coinsuper](/rekts/Coinsuper.md) - Lost: $0.00 Recovered: $0.00 
@@ -1432,7 +1432,7 @@
 - [Fire Swap](/rekts/Fire-Swap.md) - Lost: $0.00 Recovered: $0.00 
 - [Pikachu Swap](/rekts/Pikachu-Swap.md) - Lost: $0.00 Recovered: $0.00 
 - [Polysafemoon](/rekts/Polysafemoon.md) - Lost: $0.00 Recovered: $0.00 
-- [Iron Finance](/rekts/Iron-Finance.md) - Lost: $0.00 Recovered: $0.00 
+- [Iron Finance (2)](/rekts/Iron-Finance-2.md) - Lost: $0.00 Recovered: $0.00 
 - [Pirate Farm](/rekts/Pirate-Farm.md) - Lost: $0.00 Recovered: $0.00 
 - [YFARM](/rekts/YFARM.md) - Lost: $0.00 Recovered: $0.00 
 - [Corgi Finance](/rekts/Corgi-Finance.md) - Lost: $0.00 Recovered: $0.00 
@@ -1474,7 +1474,7 @@
 - [BACON](/rekts/BACON.md) - Lost: $0.00 Recovered: $0.00 
 - [MYSTERYToken](/rekts/MYSTERYToken.md) - Lost: $0.00 Recovered: $0.00 
 - [Elara Finance](/rekts/Elara-Finance.md) - Lost: $0.00 Recovered: $0.00 
-- [crocofi.org(CROCO)](/rekts/crocofi.org(CROCO).md) - Lost: $0.00 Recovered: $0.00 
+- [crocofi.org(CROCO)](/rekts/crocofi.orgCROCO.md) - Lost: $0.00 Recovered: $0.00 
 - [Vine Protocol](/rekts/Vine-Protocol.md) - Lost: $0.00 Recovered: $0.00 
 - [Mortal Kombat](/rekts/Mortal-Kombat.md) - Lost: $0.00 Recovered: $0.00 
 - [Dragonfly](/rekts/Dragonfly.md) - Lost: $0.00 Recovered: $0.00 
@@ -2117,7 +2117,7 @@
 - [d-fund.io](/rekts/d-fund.io.md) - Lost: $0.00 Recovered: $0.00 
 - [MOON SURGE](/rekts/MOON-SURGE.md) - Lost: $0.00 Recovered: $0.00 
 - [RocketElon](/rekts/RocketElon.md) - Lost: $0.00 Recovered: $0.00 
-- [Sienna](/rekts/Sienna.md) - Lost: $0.00 Recovered: $0.00 
+- [Sienna (ERC20)](/rekts/Sienna-ERC20.md) - Lost: $0.00 Recovered: $0.00 
 - [Rocket Doge](/rekts/Rocket-Doge.md) - Lost: $0.00 Recovered: $0.00 
 - [MASKSWAP](/rekts/MASKSWAP.md) - Lost: $0.00 Recovered: $0.00 
 - [CargoX](/rekts/CargoX.md) - Lost: $0.00 Recovered: $0.00 
@@ -2416,14 +2416,14 @@
 - [BITCOIN CONSUMPTION](/rekts/BITCOIN-CONSUMPTION.md) - Lost: $0.00 Recovered: $0.00 
 - [BEER COIN](/rekts/BEER-COIN.md) - Lost: $0.00 Recovered: $0.00 
 - [KNIGHT RIDER](/rekts/KNIGHT-RIDER.md) - Lost: $0.00 Recovered: $0.00 
-- [t.me/astracoincommunity](/rekts/t.me/astracoincommunity.md) - Lost: $0.00 Recovered: $0.00 
+- [t.me/astracoincommunity](/rekts/t.me-astracoincommunity.md) - Lost: $0.00 Recovered: $0.00 
 - [KingAkita](/rekts/KingAkita.md) - Lost: $0.00 Recovered: $0.00 
 - [Ether Shiba](/rekts/Ether-Shiba.md) - Lost: $0.00 Recovered: $0.00 
 - [Bingo Inu](/rekts/Bingo-Inu.md) - Lost: $0.00 Recovered: $0.00 
 - [SHINKY](/rekts/SHINKY.md) - Lost: $0.00 Recovered: $0.00 
 - [SAD CAT](/rekts/SAD-CAT.md) - Lost: $0.00 Recovered: $0.00 
 - [Garfield Token](/rekts/Garfield-Token.md) - Lost: $0.00 Recovered: $0.00 
-- [t.me/DickBootyBSC](/rekts/t.me/DickBootyBSC.md) - Lost: $0.00 Recovered: $0.00 
+- [t.me/DickBootyBSC](/rekts/t.me-DickBootyBSC.md) - Lost: $0.00 Recovered: $0.00 
 - [Caterpie Finance](/rekts/Caterpie-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [HungryWorldBSC](/rekts/HungryWorldBSC.md) - Lost: $0.00 Recovered: $0.00 
 - [Shiba Inu Shih Tzu](/rekts/Shiba-Inu-Shih-Tzu.md) - Lost: $0.00 Recovered: $0.00 
@@ -3616,11 +3616,11 @@
 - [Exbase Finance](/rekts/Exbase-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [Link Based](/rekts/Link-Based.md) - Lost: $0.00 Recovered: $0.00 
 - [Beer Garden](/rekts/Beer-Garden.md) - Lost: $0.00 Recovered: $0.00 
-- [Xdef finance](/rekts/Xdef-finance.md) - Lost: $0.00 Recovered: $0.00 
+- [Xdef finance (relaunch)](/rekts/Xdef-finance-relaunch.md) - Lost: $0.00 Recovered: $0.00 
 - [Dasis Cash](/rekts/Dasis-Cash.md) - Lost: $0.00 Recovered: $0.00 
 - [Dolphin Token](/rekts/Dolphin-Token.md) - Lost: $0.00 Recovered: $0.00 
 - [SoSo token](/rekts/SoSo-token.md) - Lost: $0.00 Recovered: $0.00 
-- [Kanva](/rekts/Kanva.md) - Lost: $0.00 Recovered: $0.00 
+- [Kanva (fake)](/rekts/Kanva-fake.md) - Lost: $0.00 Recovered: $0.00 
 - [Compasswap Token](/rekts/Compasswap-Token.md) - Lost: $0.00 Recovered: $0.00 
 - [Tree Finance](/rekts/Tree-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [KumQuat](/rekts/KumQuat.md) - Lost: $0.00 Recovered: $0.00 

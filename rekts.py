@@ -55,10 +55,14 @@ def rekt_loop(items):
         with open(f'./rekts/{slugged_name}.md', 'w') as rekt:
             rekt.write(markdownFullWithDescription + '\n')
         
-        commandToRun = f"git add * && git commit -m 'add {project_name} to rekts' && git push"
-        os.system(commandToRun)
+        # commandToRun = f"git add * && git commit -m 'add {project_name} to rekts' && git push"
+        # os.system(commandToRun)
 
 def convert_html_to_markdown(html):
+    # if html is none: contine
+    if html is None:
+        return ""
+
     text_maker = html2text.HTML2Text()
     text_maker.body_width = 0  # This sets the body width to unlimited which helps in not wrapping the text automatically.
     markdown_content = text_maker.handle(html)
@@ -69,10 +73,13 @@ def make_toc(items, filename):
     # from all the items, make a table of contents for the readme with - [Project Name](#project-name)
     tocsWithTitle = "# Table of Contents\n\n"
     for item in items:
-        project_name = item['project_name']
+        project_name = item['title']
         formatted_funds_lost = "${:,.2f}".format(item['funds_lost'])
         formatted_returned = "${:,.2f}".format(item['funds_returned'])
         slugged_name = project_name.replace(" ", "-")
+        slugged_name = slugged_name.replace("(", "")
+        slugged_name = slugged_name.replace(")", "")
+        slugged_name = slugged_name.replace("/", "-")
         linkToMarkdownFile = f'/rekts/{slugged_name}.md'
         tocsWithTitle += f"- [{project_name}]({linkToMarkdownFile}) - Lost: {formatted_funds_lost} Recovered: {formatted_returned} \n"
         # tocsWithTitleAndSumLost
@@ -96,7 +103,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items)
+        # rekt_loop(items)
 
 download_project_images()
 

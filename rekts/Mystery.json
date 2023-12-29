@@ -1,0 +1,51 @@
+{
+    "id": 2678,
+    "project_name": "Mystery",
+    "title": "Mystery",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "MST",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3308cecce12518ed1a075bbd4eca20273b5b8ff1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/616d696304f38.jpeg",
+    "date": "2021-10-18",
+    "scam_updates": [],
+    "proof_link": "https://ftmscan.com/token/0x3308cecce12518ed1a075bbd4eca20273b5b8ff1?a=0x659436bd1f189064c8d6aeda3be99a036981a443",
+    "website_link": "https://t.me/mystery_swap",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/mystery_swap",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2678,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
