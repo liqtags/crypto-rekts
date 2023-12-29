@@ -1,0 +1,60 @@
+{
+    "id": 3340,
+    "project_name": "ROE Finance",
+    "title": "ROE Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>ROE Finance was exploited on 11th, January 2023. The exploiter's profit is about $80k USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RoeFinance, a decentralized finance (DeFi) protocol, recently suffered an attack resulting in the drain of its victim pool (0x574f) and a total loss of approximately $80K. This type of attack, known as price manipulation, was made possible by the limited liquidity of the pool, which led to the manipulation of the price oracle.</p><p><br></p><p>The attack involved the use of two addresses (0x67a9 and 0x3afb) and was carried out in 10 steps, resulting in a total profit of approximately $80K, or the equivalent of 2.29 WBTC and 39,982 USDC.</p><p><br></p><p>It's important to note that the original attack transaction can be found at https://etherscan.io/address/0x15d87dc2eb27fda26451f8fb04c576639104344d, which was front-run by a mev bot.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX:</p><p>https://etherscan.io/tx/0x927b784148b60d5233e57287671cdf67d38e3e69e5b6d0ecacc7c1aeaa98985b</p><p><br></p><p>Vulnerable pool:&nbsp;</p><p>https://etherscan.io/address/0x574FF39184Dee9e46F6C3229B95e0e0938e398d0</p><p><br></p><p>Attacker: 0x67a909f2953fb1138bea4b60894b51291d2d0795</p><p>Attacker2: 0xE2Ba15be8C6Fb0d7C1F7bEA9106eb8232248FB8B</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x574FF39184Dee9e46F6C3229B95e0e0938e398d0",
+            "url": "https://etherscan.io/address/0x574FF39184Dee9e46F6C3229B95e0e0938e398d0",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f4f5a3ea7a4.jpg",
+    "date": "2023-1-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1613267000913960976, https://quillaudits.medium.com/decoding-roe-finances-flash-loan-exploit-quillaudits-df8494e2090f",
+    "website_link": "https://www.roe.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/RoeFinance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 80000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/RoeFinance/RoeMarkets",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/HfyZFYvhmw",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3340,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
