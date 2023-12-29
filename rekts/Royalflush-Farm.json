@@ -1,0 +1,51 @@
+{
+    "id": 2431,
+    "project_name": "Royalflush Farm",
+    "title": "Royalflush Farm",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "Royalflush",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xaC8071A2d6B2347751dB4B380DEb798af95860bC",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610aacf6d782f.png",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x3009dd0e4254d08a4a0b0caf08a996570d4ef2b0",
+    "website_link": "http://royalflushfinance.biz/cgi-sys/suspendedpage.cgi",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2431,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
