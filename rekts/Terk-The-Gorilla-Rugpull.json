@@ -1,0 +1,60 @@
+{
+    "id": 3640,
+    "project_name": "Terk The Gorilla",
+    "title": "Terk The Gorilla Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Terk The Gorilla (TERK) token's liquidity was siphoned off in a rug pull, leading to a loss of 122,440 $USD, or 65.35 ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TERK, an ERC20 token trading on Uniswap, suffered an exit scam in the form of a rug pull on July 26, 2023. The token's deployer withdrew all liquidity from the LP pool and then moved the stolen funds through multiple EOA addresses. The assets were then distributed among a range of different addresses using CoinTool. The total estimated loss from this rug pull is 122,440 $USD, or 65.35 ETH.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Deployer's Address:</p><p>https://etherscan.io/address/0x82d8eE740FA7dfb0c9bfEdeee552fF3AcdfDEd92</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x4358608caa219a652d17ea027c243008af857b61542fd139e28ea2fe774bd1b3</p><p><br></p><p>Funds Distribution Transaction:</p><p>https://etherscan.io/tx/0x0a8f1862c7ad2d324fba73f42404ab15a5e9626864bc613e49c31a150fd8bf6f</p>",
+    "name_categories": "Token",
+    "token_name": "TERK",
+    "proof_archive_link": "https://archive.ph/OxJiC",
+    "technical_issue": null,
+    "token_address": "0xea05110ce800719cc041e5fe79490af0d94d803f",
+    "token_addresses": [
+        {
+            "address": "0xea05110ce800719cc041e5fe79490af0d94d803f",
+            "url": "https://etherscan.io/address/0xea05110ce800719cc041e5fe79490af0d94d803f",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c54c64e7fcc.png",
+    "date": "2023-7-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1684195658339610625",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 122440,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3640,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
