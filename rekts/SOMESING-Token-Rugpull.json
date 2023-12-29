@@ -1,0 +1,60 @@
+{
+    "id": 3740,
+    "project_name": "SOMESING",
+    "title": "SOMESING Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SSX token project was rugpulled by a scammer, causing a loss of 166,715 USD by depleting the PancakeSwap liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SSX is a BEP20 token trading on PancakeSwap. On Oct 20, 2023, the scammer minted a significantly larger number of tokens and then rugpulled by selling 1,000,000,000,000,000 SSX, completely depleting the liquidity pool. It is assumed that the deployer created the contract in this way precisely so that it could later be hacked. The stolen funds were transferred to another EOA and distributed between multiple addresses. Previously, the Deployer and scammer sent funds from Binance to their addresses. The total funds lost in this exit scam is 166,715 USD worth 792.21 WBNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x94Ac38CF63C9ee9f7AEC0e61dC8b4C0c641b9610</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x56ee7a7908152be2b73f112c99069685e8584d88</p><p>https://bscscan.com/address/0x3f04768Eaf45f1F5961857c0216E36A49Cc704ED</p><p><br></p><p>Tokens Sell Transaction:</p><p>https://bscscan.com/tx/0x27a64f0c11266f4eeda07ff4400d1f6d8fc3fca6040b37b7d3904a5b4a75e454</p>",
+    "name_categories": "Token",
+    "token_name": "SSX",
+    "proof_archive_link": "https://archive.ph/3YVTH",
+    "technical_issue": null,
+    "token_address": "0xD4E8839F98787eb02Fcc7c659497E13b95bF0c4C",
+    "token_addresses": [
+        {
+            "address": "0xd4e8839f98787eb02fcc7c659497e13b95bf0c4c",
+            "url": "https://bscscan.com/address/0xd4e8839f98787eb02fcc7c659497e13b95bf0c4c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653526d2c88c8.png",
+    "date": "2023-10-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1715272345362018788",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 166715,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3740,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
