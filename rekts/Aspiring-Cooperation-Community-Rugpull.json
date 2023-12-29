@@ -1,0 +1,68 @@
+{
+    "id": 3696,
+    "project_name": "Aspiring Cooperation Community",
+    "title": "Aspiring Cooperation Community Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>ACC token rugpulled by the scammer, removing liquidity worth 173,462 USDT from PancakeSwap pool on Aug 23, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Aspiring Cooperation Community (ACC) is a BEP20 token trading on PancakeSwap. The scammer received tokens from the initial token holder and then removed liquidity from the LP pool on Aug 23, 2023. Previously, the scammer had added liquidity for 50,816 USDT on March 30. After the rugpull, the stolen funds were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xBcA8ec8D700733b46B1DceE342Ae991477E04Cc5</p><p><br></p><p>Initial Token Holder Address:</p><p>https://bscscan.com/address/0x297717c1dbaaeb905fee8f5fef79a75a3291f1da</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x3557EF182A3CE30A2e2708c9d30EAe2b95205bE0</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0x129d77c9b26cef72cc1fb8fbe31378a0e4bfc52811330d65f9f2da9d38b6a2d7</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x23686c0f1a1084be203ccdfb3f24bdd4f5c3e97fe9e88c612dfcc8034c7e4499</p>",
+    "name_categories": "Token",
+    "token_name": "ACC",
+    "proof_archive_link": "https://archive.ph/wDoxN",
+    "technical_issue": null,
+    "token_address": "0x9703fa7d52f925387a2e738457936f162218129c",
+    "token_addresses": [
+        {
+            "address": "0x9703fa7d52f925387a2e738457936f162218129c",
+            "url": "https://bscscan.com/token/0x9703fa7d52f925387a2e738457936f162218129c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xfc84b960d93d232abeb381aea0674106c8eb9120",
+            "url": "https://bscscan.com/address/0xfc84b960d93d232abeb381aea0674106c8eb9120",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64f4bf38510b2.png",
+    "date": "2023-8-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1694290119337849303?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 173462,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3696,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
