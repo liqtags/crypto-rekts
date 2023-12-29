@@ -1,0 +1,60 @@
+{
+    "id": 3455,
+    "project_name": "Sloth Climb",
+    "title": "Sloth Climb",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sloth Climb project rugpulled by EOA address which removed liquidity worth 93,531 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sloth Climb is a BEP20 token trading on PancakeSwap. The token can't be confused with other tokens with the same symbol or name. Its liquidity pool was drained after an EOA address called removeLiquidityETH() function to withdraw all available funds in the amount of 93,531 $USD. The attacker address took LP tokens from LockService contract, which was deployed by the token deployer. The attacker then transferred stolen funds through Stargate Bridge.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xe9b7dec3815bc27a755724b488a441043388aa52</p><p><br></p><p>Vault contract:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/</span>0x624bf9c8c4694c36642ac46b3ac36a91de1e2eef</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://bscscan.com/tx/0xf4d483a276b7ee6cbdc99b59d78596199a69b03941d6c3de0d29107733454c83</p>",
+    "name_categories": "Token",
+    "token_name": "SLOTH",
+    "proof_archive_link": "https://archive.ph/lKzxv",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xBCC1AE526d8BeBAB02af19945A866dDC0DF80F37",
+    "token_addresses": [
+        {
+            "address": "0xBCC1AE526d8BeBAB02af19945A866dDC0DF80F37",
+            "url": "https://bscscan.com/address/0xBCC1AE526d8BeBAB02af19945A866dDC0DF80F37",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642dc1e236006.png",
+    "date": "2023-3-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1637187079850414080?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 93531,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3455,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
