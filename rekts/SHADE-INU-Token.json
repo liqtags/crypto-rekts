@@ -1,0 +1,51 @@
+{
+    "id": 3077,
+    "project_name": "SHADE INU Token",
+    "title": "SHADE INU Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $SadeIT token has been rugpulled by the token creator. The token creator deployed $SadeIT token and when the price increased the scammer exchanged tokens for $BNB dumping the price of $SadeIT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The creator of the token $SadeIT deployed the smart contract and minted himself 5B tokens in this transaction: https://bscscan.com/tx/0x5f5bd205678799dd9d9d2e4496d6351218504d2924b85df379a7b5f913c146d7</p><p>Immediately after the contract was created, 200 BNB was received by another address in this transaction: https://bscscan.com/tx/0x09aa93f9d544932ca25d068d5643b19ba976c5a42c10bfccd0e4d1ef7f62137f Received $BNB were used to create a liquidity pool on PancakeSwap:&nbsp;</p><p>https://bscscan.com/tx/0xcba090862949fc20f4e701af0867541e63306731eac3ebf3070374477feaef9e</p><p>When the price of the token became acceptable to the scammer, the two swapping transactions was made for ~983T $SadeIT, receiving 424.8 $BNB of which the profit is 224.8 $BNB:</p><p>1) https://bscscan.com/tx/0xd2811df9e4dcd2204421620e21f5e4f0b380de00adbeb5ce481db76e0aedc733</p><p>2) https://bscscan.com/tx/0xd6fb62acc00921f22d6a76e54a5db5d5cef8e526b5fb0ff4a4cac19de532ddc7</p><p>Then all the tokens were transferred to another address in this transaction: https://bscscan.com/tx/0x1b672d0aa565b5ee6e68512e9bd45cf1b55a2c7d5a2a2f39ef35c6ee9fa939fa</p><p>From this address, 150 BNB was sent to the address of the creator of the $NodyC token, which also got rugpulled.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://bscscan.com/address/0x24676ea2799ac6131e77bcd627cb27dee5c43d7e</p><p><br></p><p>Scammer addresses:&nbsp;</p><p>1) https://bscscan.com/address/0x698c726d33b0ba736391eecf81aa743e648ba003 (Token creator)&nbsp;</p><p>2) https://bscscan.com/address/0x91a20dcb398d9cd19e841175f395138a9bb4b073 (EOA that sent 200 $BNB to token creator)</p><p>3) https://bscscan.com/address/0x5f56e93b54e6f9f25c437995af13f16c68706f6c (Creator of $NodyC)</p><p><strong><br></strong></p><p><strong>A little warning (NFA)</strong></p><p>Attention, do not interact with projects that are sponsored by this account (https://bscscan.com/address/0x91a20dcb398d9cd19e841175f395138a9bb4b073). This account creates tokens which are then rugpulled, taking a good profit for themselves. There is a possibility that this account has a telegram group or it sponsors telegram groups to purchase its tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "SadeIT",
+    "proof_archive_link": "https://web.archive.org/web/20220708111541/https://twitter.com/CertiKAlert/status/1544726163527966721",
+    "technical_issue": null,
+    "token_address": "0x24676Ea2799ac6131E77bCd627CB27dEe5C43d7e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62c80ec5686e5.png",
+    "date": "2022-7-6",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 53761,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3077,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
