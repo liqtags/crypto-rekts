@@ -1,0 +1,51 @@
+{
+    "id": 287,
+    "project_name": "Transformers Finance",
+    "title": "Transformers Finance",
+    "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+    "name_categories": "Token",
+    "token_name": "TRANS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x96af66db0afc4aa9ab2b23fbf89ca67f17d17943",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df2c4898ddf.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1330152696096108544",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 287,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
