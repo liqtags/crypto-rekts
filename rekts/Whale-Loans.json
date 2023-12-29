@@ -1,0 +1,61 @@
+{
+    "id": 3057,
+    "project_name": "Whale Loans",
+    "title": "Whale Loans",
+    "description": "<p>Whale Loans was exploited due to K-check of the WhaleSwap Finance Pair contract. When a user swaps, there is an issue with the magnitude of the parameters passed in.&nbsp;</p><p>The attacker flashloaned <a data-original-title=\"View Token Tracker Page\" data-toggle=\"tooltip\" href=\"https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955\" style=\"box-sizing: border-box; color: rgb(52, 152, 219); background-color: rgb(255, 255, 255); text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\" title=\"\"></a>BSC-USD and then returns flashloan with a K-check parameter in function <em>swap()</em> contract WhaleswapPair.sol of magnitude 10000^4. However, the K-check takes a parameter of magnitude 10000^2, which causes the K-check to fail.</p><p><br></p><p>Exploiter address: https://bscscan.com/address/0xd793ff8d744828c25da7f80123b88dd5c2bf7a50</p><p>Attack transaction: https://bscscan.com/tx/0x9f5b02cb1ce2d75ba457a2d152d89b6d3932ff057c03739a0071fb816e0ebab3</p><p>Attacker contract: https://bscscan.com/address/0xf95536755732544e41baad22f1c79d1ee529385f</p><p>Victim address: https://bscscan.com/address/0x8bfee2caff6b5d4ac9f438f4b1f36feeb5e76794</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "HUMP",
+    "proof_archive_link": "https://web.archive.org/web/20220620165846/https://twitter.com/WhaleLoans/status/1538929205526020096",
+    "technical_issue": null,
+    "token_address": "0xfAAec9f866Fa7f34a2c31c2B11D1723Ad4a46446",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62b1c95c9b54c.jpeg",
+    "date": "2022-6-20",
+    "scam_updates": [],
+    "proof_link": "https://www.certik.com/resources/blog/2V34hTMNWst97BQA62FaBf-whale-loans-incident-analysis",
+    "website_link": "https://whale.loans/dashboard",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/WhaleLoans",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12374,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Whale-loans",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/rFzNx4wRtK",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3057,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/whale_v1_4.pdf",
+            "date": "2021-11-25T00:00:00.000Z",
+            "partner": {
+                "id": 104,
+                "name": "BlockSec",
+                "logo_link": "safe/files/partner/logo/622f2c0a8b473.jpeg"
+            }
+        }
+    ]
+}
