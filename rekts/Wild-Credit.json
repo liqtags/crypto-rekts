@@ -1,0 +1,51 @@
+{
+    "id": 2705,
+    "project_name": "Wild Credit",
+    "title": "Wild Credit",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0xb1af124c860f819bf8de7d4c459e5b31fecdb95e<br><br>The transaction behind the attack:<br>https://etherscan.io/tx/0xdbef3b393a64608756c284568217355f694a0e5c8edf80eac75ec087d642ce07<br><br>The exploited contract:<br>https://etherscan.io/address/0x7b3b69eab43c1aa677df04b4b65f0d169fcdc6ca<br><br>Wild Credit team left initialize() function in the LPTokenMaster contract public and reusable, so anyone can become the owner of the LP token contract. The hacker took ownership of the contract, has minted tokens to themselves, and then used those tokens to withdraw real funds.<br><br>The hacker was a whitehat and returned the funds to the contract deployer:<br>https://etherscan.io/tx/0xb4fffa0e824034a10af2807f1504ac247ae1dd6f2bcfed8085989bbfda434542</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "WILD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x08a75dbc7167714ceac1a8e43a8d643a4edd625a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a633d09d51c.jpeg",
+    "date": "2021-5-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/WildCredit/status/1397786796675649538, https://twitter.com/mudit__gupta/status/1397888546686398470",
+    "website_link": "https://wild.credit/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/WildCredit",
+    "telegram_link": "https://t.me/WildCredit",
+    "our_post_link": null,
+    "funds_lost": 611963,
+    "funds_returned": 611963,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/emcBDpwf6G",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2705,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
