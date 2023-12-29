@@ -1,0 +1,51 @@
+{
+    "id": 243,
+    "project_name": "Hypechill fund",
+    "title": "Hypechill fund",
+    "description": "<p>The contract deployer minted tokens onto his wallet:<br>https://etherscan.io/tx/0x6a1a0926701bf72f268e23e7735ad088cce5bf05851da9f286476ba87b58bf57<br><br>The initial liquidity was added at:<br>https://etherscan.io/tx/0xcb4070e43b592671a8b0b33208af7543fcd81be07a4e57f226101044ee8f189e<br><br>The contract deployer removed liquidity at:<br>https://etherscan.io/tx/0x6dcf0a6fc7d2b3180bd2f176ededda084505ad6e42c912e9505dca117e9e1067</p>",
+    "name_categories": "Token",
+    "token_name": "CHILL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0FE5FDF01B48008DC68FC32E8fB7E0d93CA99BC5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d60f4d36604.png",
+    "date": "2020-11-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1332166373389135872",
+    "website_link": "http://hypechill.fund/",
+    "webarchive_link": "https://web.archive.org/web/20201127033650/http://hypechill.fund/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 12910,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 243,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
