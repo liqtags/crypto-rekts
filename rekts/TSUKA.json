@@ -1,0 +1,51 @@
+{
+    "id": 3188,
+    "project_name": "TSUKA",
+    "title": "TSUKA",
+    "description": "<p><strong>Quick Summary</strong></p><p>TSUKA token was rug pulled by the token deployer. The total profit of the scammer is 70,755 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TSUKA is a copycat BEP20 token and is not to be confused with Dejitaru Tsuka which has the same token name. The token deployer added liquidity on PancakeSwap for 55 $WBNB and 500,000 $TSUKA tokens. Within an hour after trading started, the scammer sold 100,100,100,100,100,000,000 $TSUKA for 320 $WBNB and dropped the token price by more than 99%</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf9ddbfdb94b84a55d569671bcbc48ff438a7e158</p><p>Liquidity Pool:</p><p>https://bscscan.com/address/0x3f024015d654b393f66f3f84fbfe0a57451d77ec</p><p>Drain transaction:</p><p>https://bscscan.com/tx/0x950446e13f7152094a22d7e30c9fbe509da6215918c0fdce1a761b7da9d87f47</p>",
+    "name_categories": "Token",
+    "token_name": "TSUKA",
+    "proof_archive_link": "https://archive.is/YmGHf",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x4e8842F6CAf3F64037DF67C8427000dAE207F56C",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63289ddb18546.png",
+    "date": "2022-9-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1570622611331112960",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 70755,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3188,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
