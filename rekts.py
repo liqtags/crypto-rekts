@@ -55,7 +55,7 @@ def rekt_loop(items, start):
         with open(f'./rekts/{slugged_name}.md', 'w') as rekt:
             rekt.write(markdownFullWithDescription + '\n')
         
-        commandToRun = f"git add * && git commit -m 'add {project_name} to rekts' && git push"
+        commandToRun = f"git add * && git commit -m 'add {project_name} to rekts'"
         os.system(commandToRun)
 
 def convert_html_to_markdown(html):
@@ -103,7 +103,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items)
+        rekt_loop(items, 2980)
 
 download_project_images()
 
