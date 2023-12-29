@@ -1,0 +1,51 @@
+{
+    "id": 179,
+    "project_name": "Zenith Finance",
+    "title": "Zenith Finance",
+    "description": "<p>The project was holding the fundraising event, as stated in their Telegram community:<br>https://archive.is/1c587<br><br>The address, mentioned in the Telegram post gathered ETH from the investors. Transaction list:<br>https://bloxy.info/txs/transfers_to/0xdc553e9b6e4b771ab53aac159318dfd6693d3822?currency_id=1<br><br>The initial liquidity wasn't added. Stolen funds were distributed between some external wallets:<br>https://bloxy.info/txs/transfers_from/0xdc553e9b6e4b771ab53aac159318dfd6693d3822?currency_id=1</p>",
+    "name_categories": "Other",
+    "token_name": "ZFV",
+    "proof_archive_link": "https://archive.ph/RNylH",
+    "technical_issue": null,
+    "token_address": "0x517b54fe8ee3b7463dd0532c8ff452b25d287fb0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f58694514d2.jpeg",
+    "date": "2020-11-28",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "http://www.zenithfinance.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201118050638/https://zenithfinance.finance/",
+    "twitter_link": "https://twitter.com/ZenithFinanceVt",
+    "telegram_link": "https://t.me/s/zenithfinancevault",
+    "our_post_link": null,
+    "funds_lost": 26354,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 179,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
