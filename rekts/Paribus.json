@@ -1,0 +1,60 @@
+{
+    "id": 3497,
+    "project_name": "Paribus",
+    "title": "Paribus",
+    "description": "<p><strong>Quick Summary</strong></p><p>Paribus was exploited due to a reentrancy issue, resulting in the loss of 69,696 $USD worth of $ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Paribus is a cross-chain lending and borrowing protocol. The protocol suffered an exploit on the Arbitrum layer-two chain. The root cause was a well-known reentrancy vulnerability from an old version of CompoundV2 that Paribus had forked. The attacker deployed two malicious unverified contracts and used this vulnerability to withdraw funds multiple times before updating their balance on-chain. As a result, they were able to drain 35.2 $ETH which is currently worth 69,696 $USD at the time of writing.</p><p>All stolen assets were transferred through Stargate Bridge in two transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://arbiscan.io/address/0x014abff04e5c441b2ceaa62d843bbc5ae49e5504</p><p><br></p><p>Malicious transaction:</p><p>https://arbiscan.io/tx/0x0e29dcf4e9b211a811caf00fc8294024867bffe4ab2819cc1625d2e9d62390af</p><p><br></p><p>Malicious contracts:</p><p>https://arbiscan.io/address/0xcd31e27f0a811de7139938b1972b475697f8c50b</p><p>https://arbiscan.io/address/0xec05281d0345f5142acd197bdbc6c4e1fc29dfe7</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "pUSDT",
+    "proof_archive_link": "https://archive.ph/plkVm",
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xd3e323a672f6568390f29f083259debb44c41f41",
+    "token_addresses": [
+        {
+            "address": "0xd3e323a672f6568390f29f083259debb44c41f41",
+            "url": "https://arbiscan.io/address/0xd3e323a672f6568390f29f083259debb44c41f41",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64402d8b436c2.jpg",
+    "date": "2023-4-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1645742296904929280?s=20",
+    "website_link": "https://paribus.io",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/paribus_io",
+    "telegram_link": "https://t.me/paribus_io",
+    "our_post_link": null,
+    "funds_lost": 69696,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3497,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
