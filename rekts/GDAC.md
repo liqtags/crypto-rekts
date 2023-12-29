@@ -1,0 +1,26 @@
+# GDAC
+![GDAC](/rektimages/GDAC.png)
+- Amount Lost: $14,324,040.00
+- Funds Returned: $0.00
+- Category: CeFi
+- Date: 2023-4-9
+
+**Quick Summary**
+
+South Korean crypto exchange GDAC was hacked for 14,324,040 $USD. The hacker transferred 23% of GDAC's total assets under custody.
+
+  
+
+
+ **Details of the Exploit**
+
+GDAC is a Centralized Exchange based in South Korea. On April 9th, a hack occurred in the Gdac Hot Wallet and 14,324,040 $USD worth of cryptocurrency was transferred to an unidentified wallet. The stolen assets include 60.8 $BTC, 350.5 $ETH, 220,000 $USDT, and 10,000,000 $WEMIX. This is approximately 23% of GDAC's total assets currently under custody. As soon as this was confirmed through their monitoring system, the emergency response team convened and began responding immediately by suspending all deposit and withdrawal services along with related servers being blocked. They reported the fact to the police requesting a cyber investigation while notifying Korea Internet & Security Agency (KISA) for technical support. FIU has been notified about this incident too.
+
+GDAC urged asset issuers (foundations), exchanges, and DeFi managers to freeze assets further adding that they are doing their best by collaborating with various organizations. 
+
+
+Proof Links:
+- [https://support.gdac.com/hc/ko/articles/17389345782041--%EA%B8%B4%EA%B8%89%EA%B3%B5%EC%A7%80-%EC%9E%85%EC%B6%9C%EA%B8%88-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9D%BC%EC%8B%9C%EC%A4%91%EB%8B%A8-%EB%B0%8F-%EA%B8%B4%EA%B8%89-%EC%84%9C%EB%B2%84%EC%A0%90%EA%B2%80-%EC%A7%84%ED%96%89-%EC%82%AC%EC%9C%A0](https://support.gdac.com/hc/ko/articles/17389345782041--%EA%B8%B4%EA%B8%89%EA%B3%B5%EC%A7%80-%EC%9E%85%EC%B6%9C%EA%B8%88-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%9D%BC%EC%8B%9C%EC%A4%91%EB%8B%A8-%EB%B0%8F-%EA%B8%B4%EA%B8%89-%EC%84%9C%EB%B2%84%EC%A0%90%EA%B2%80-%EC%A7%84%ED%96%89-%EC%82%AC%EC%9C%A0)
+- [ https://www.coindesk.com/tech/2023/04/10/s-korean-crypto-exchange-gdac-hacked-for-nearly-13m/]( https://www.coindesk.com/tech/2023/04/10/s-korean-crypto-exchange-gdac-hacked-for-nearly-13m/)
+
+
