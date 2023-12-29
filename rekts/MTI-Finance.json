@@ -1,0 +1,51 @@
+{
+    "id": 54,
+    "project_name": "MTI Finance",
+    "title": "MTI Finance",
+    "description": "<p>The contract deployer invoked <u>mint</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0x48d8abe1c4334d918b832551ee5255e30da8caeb3fe18294dbfc9f41aa511d7e<br><br>The contract deployer started exchanging minted tokens on ETH:<br>https://bloxy.info/txs/references_address/0x98367e3a97dc712375db09f909c123bf5b8ea42f?argument=to&amp;signature_id=1117797<br><br>Following that, he transferred 66 ETH to the external wallet:<br>https://etherscan.io/tx/0xafdc724954a194172a34b9e89ef657ca5c7b9d189fbfa45424943f90267d38d9<br><br>The external wallet deposited funds to the KuCoin exchange wallet:<br>https://etherscan.io/tx/0x5b4798e8157581d311076987216866464f7b8492c1f35f23e953e7c9fbb7906d</p>",
+    "name_categories": "Token",
+    "token_name": "MTI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x86d3F38edaF7e7959E5d8E6Aea5aD3187b78C346",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4e528c9871.jpeg",
+    "date": "2020-11-19",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/4psVb",
+    "website_link": "https://mti.finance/index.html",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/finance_mti",
+    "telegram_link": "https://t.me/mtifinance",
+    "our_post_link": "https://t.me/defiyield_ann/243",
+    "funds_lost": 32065,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 54,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
