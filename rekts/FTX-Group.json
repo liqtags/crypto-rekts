@@ -1,0 +1,77 @@
+{
+    "id": 3265,
+    "project_name": "FTX Group",
+    "title": "FTX Group",
+    "description": "<p><strong>Quick Summary</strong></p><p>FTX crypto exchange, Alameda Research trading company, and 130 other affiliated companies declared bankruptcy. Lost funds are valued at an estimated 1,000,000,000 to 2,000,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sam Bankman-Fried announced the bankruptcy of his two companies: FTX and Alameda Research. The accident begins with the research revealing Alameda Research's collateral was dominated by FTX's native token $FTT. For being concrete about the collateral, Alameda had 14,600,000,000 $USD worth of assets in total, where 3,660,000,000 $USD was free $FTT tokens, and 2,160,000,000 $USD in \"FTT collateral\". There were also major amounts of $SOL and $SRM tokens. Mr. Bankman-Fried was an early investor in the Solana chain and the co-founder of the Serum exchange.</p><p>It sparked a run on FTX, with panicked customers withdrawing billions of dollars from the exchange. $FTT token crashed by more than 95% in 24 hours. $SOL was also affected by the accident and by the recent on-chain activity that 49,000,000 $SOL tokens were withdrawn from the staking which caused the token price to drop by approximately 60%. FTX halted withdrawals on the exchange and declared bankruptcy. Because FTX was a major player in the crypto industry, other crypto projects that relied on the exchange were reporting fund losses one by one at the time.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p><p>https://bscscan.com/address/0x59ABf3837Fa962d6853b4Cc0a19513AA031fd32b</p>",
+    "name_categories": "CeFi,Other",
+    "token_name": "FTT",
+    "proof_archive_link": "https://archive.ph/vfRY7, https://archive.ph/sxiB6, https://archive.ph/yFg7B, https://archive.ph/mVXo0, https://archive.ph/1vVLZ, https://archive.ph/KrIsL",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+    "token_addresses": [
+        {
+            "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "url": "https://etherscan.io/address/0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+            "url": "https://solscan.io/token/AGFEad2et2ZJif9jaGpdMixQqvW5i81aBdvKe7PHNfz3",
+            "network": {
+                "id": 1002,
+                "icon_link": "safe/files/network/involved/solana.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6372442f63873.png",
+    "date": "2022-11-11",
+    "scam_updates": [
+        {
+            "date": "2022-11-16T00:00:00.000Z",
+            "description": "<p>We are seeing activity on FTX Drainer addresses on both BSC and Ethereum chains. The total funds transferred to the drainer address reached 319,916,924 $USD. Assets worth 21,696,310 $USD remain on the BSC address, and 298,220,614 $USD is on the Ethereum address. A huge part of tokens on the Ethereum address was swapped for $ETH, and the current Ether balance of the address is 235,392.</p>"
+        },
+        {
+            "date": "2022-11-12T00:00:00.000Z",
+            "description": "<p>263,119,661 $USD worth of assets from the FTX's wallets were siphoned and transferred to an EOA address. 158,513 $ETH and 62,606,803 $USD worth of tokens remain at the address at the moment. This could be possible exploit by private keys compromise.</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/FTX_Official/status/1591071832823959552, https://twitter.com/SBF_FTX/status/1591089317300293636, https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/, https://www.bbc.com/news/technology-63612489, https://twitter.com/PeckShieldAlert/status/1591268801248911361, https://twitter.com/CertiKAlert/status/1592814539279454208",
+    "website_link": "https://ftx.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FTX_Official",
+    "telegram_link": "https://t.me/FTX_Official",
+    "our_post_link": null,
+    "funds_lost": 1000000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3265,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
