@@ -1,0 +1,60 @@
+{
+    "id": 3530,
+    "project_name": "LW",
+    "title": "LW",
+    "description": "<p><strong>Quick Summary</strong></p><p>LW token's URoter contract was exploited leading to a loss of 49,300 $USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LW is a BEP20 token trading on PancakeSwap. The project's URoter contract was exploited which resulted in a loss of 49,300 $USD. The attacker took out a flash loan worth 1,000,000 $USD and used it to exploit logic flaws in the URoter contract by deploying their own malicious smart contract that drained funds. Once they had successfully stolen the funds, they repaid their flash loan and made off with their profits. In total, 150 $BNB was transferred through TornadoCash for anonymity purposes.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x4404de29913e0fd055190e680771a016777973e5</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xb846f3aeb9b3027fe138b23bbf41901c155bd6d4b24f08d6b83bd37a975e4e4a</p><p><br></p><p>Funds transfer example transaction:</p><p>https://bscscan.com/tx/0x4617131298a4ab375448465d0381b6cb217301abd7ca5988b1d239f6332d3a97</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/a4fbc2c95ac4240277313bf3f810c54309dfcd6c</p>",
+    "name_categories": "Token",
+    "token_name": "LW",
+    "proof_archive_link": "https://archive.is/PpPtO",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x7b8c378df8650373d82ceb1085a18fe34031784f",
+    "token_addresses": [
+        {
+            "address": "0xae2f168900d5bb38171b01c2323069e5fd6b57b9",
+            "url": "https://bscscan.com/address/0xae2f168900d5bb38171b01c2323069e5fd6b57b9#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6466b6dca89ed.png",
+    "date": "2023-5-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1657169429434626050?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 49298,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3530,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
