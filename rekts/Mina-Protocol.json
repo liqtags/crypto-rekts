@@ -1,15 +1,15 @@
 {
-    "id": 1931,
+    "id": 1776,
     "project_name": "Mina Protocol",
     "title": "Mina Protocol",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "MIP",
+    "token_name": "MINA",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x5d1c1e440a04276c71b69e2a32c832ea87947779",
+    "token_address": "0xdc0d00397cbace3c361cd76d24163d60c4478ac2",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5964eabd14.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f1f4f8be2f7.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 1931,
+            "scam_database_id": 1776,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
