@@ -1,0 +1,51 @@
+{
+    "id": 358,
+    "project_name": "BitClave",
+    "title": "BitClave",
+    "description": null,
+    "name_categories": "Yield Aggregator",
+    "token_name": "CAT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1234567461d3f8db7496581774bd869c83d51c93",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e6ddab02f6a.png",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 358,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
