@@ -1,0 +1,51 @@
+{
+    "id": 3080,
+    "project_name": "Bilaxy",
+    "title": "Bilaxy",
+    "description": "<p><strong>Quick Summary</strong></p><p>The cryptocurrency exchange Bilaxy became a victim of a <span data-contrast=\"auto\">hack that compromised a hot wallet on its platform for $21M</span>.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p><span lang=\"en\">The Bilaxy exchange is a cryptocurrency trading service.</span>&nbsp;</p><p>The platform was attacked by hackers, in the amount of $21M. Hackers managed to gain access to the Hot Wallet of this company and withdraw funds from there. <span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #1d2228;\">Approximately 295 ERC20 tokens were transferred by the hacker to this&nbsp;</span></span><span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #1d2228;\">address&nbsp;</span></span>(https://etherscan.io/address/0xA14d5DA3C6BF2D9304FE6D4BC6942395b4dE048b)<span data-hs-cos-general-type=\"meta_field\" data-hs-cos-type=\"rich_text\"><span style=\"color: #4a4f55;\">. The hack involved the transfer of nearly 300 cryptocurrencies, including $USDT, $USDC, $UNI, $SUSHI amongst others.<br></span></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>The address of the Bilaxy Hot Wallet that was the victim of hackers: https://etherscan.io/address/0xCCE8D59AFFdd93be338FC77FA0A298C2CB65Da59</p>",
+    "name_categories": "CeFi",
+    "token_name": "BIA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x40d52577830e01aaefa80659aa90ee8b34685f4e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62cc509873073.png",
+    "date": "2021-8-29",
+    "scam_updates": [],
+    "proof_link": "https://blog.merklescience.com/hacktrack/hack-track-analysis-of-the-bilaxy-exchange-hack, https://www.pymnts.com/cryptocurrency/2021/crypto-exchange-bilaxy-loses-21m-in-hack/, https://cointelegraph.com/news/bilaxy-exchange-suspends-website-after-erc-20-hot-wallet-hack",
+    "website_link": "https://bilaxy.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Bilaxy_exchange",
+    "telegram_link": "https://t.me/bilaxychat",
+    "our_post_link": null,
+    "funds_lost": 21000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/bilaxy-exchange",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3080,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
