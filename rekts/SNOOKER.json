@@ -1,0 +1,60 @@
+{
+    "id": 3525,
+    "project_name": "SNOOKER",
+    "title": "SNOOKER",
+    "description": "<p><strong>Quick Summary</strong></p><p>SNOOKER token was exploited for $197,725 due to a reward mechanism issue resulting in a 97% price drop.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SNOOKER is a BEP20 token trading on PancakeSwap. The project's SNKMiner contract was exploited. The attackers used SNOOKER's invitation reward mechanism to make a profit and stole 197,725 $USD worth of $SNK tokens. As a result of this exploit, the price of $SNK has plunged by approximately 97%. The stolen funds are currently held at the attacker's address another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x6b67f9e79180e08cb42132754bc9f88558b1e535</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0x7738b2f18d994c7c8fa10e1fe456069624740f3e</p><p><br></p><p>Malicious transactions example:</p><p>https://bscscan.com/tx/0x7394f2520ff4e913321dd78f67dd84483e396eb7a25cbb02e06fe875fc47013a</p><p><br></p><p>Malicious contract address:</p><p>https://bscscan.com/address/0xc04c4914d14225345f1678a705a69aa5636b3a33</p>",
+    "name_categories": "Token",
+    "token_name": "SNK",
+    "proof_archive_link": "https://archive.ph/dmlSw",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x05e2899179003d7c328de3c224e9df2827406509",
+    "token_addresses": [
+        {
+            "address": "0x05e2899179003d7c328de3c224e9df2827406509",
+            "url": "https://bscscan.com/address/0x05e2899179003d7c328de3c224e9df2827406509",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64625e8cacd52.png",
+    "date": "2023-5-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1656265459052716032",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 197725,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3525,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
