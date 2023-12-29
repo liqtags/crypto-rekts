@@ -1,0 +1,60 @@
+{
+    "id": 3386,
+    "project_name": "Saddle Finance",
+    "title": "Saddle Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Saddle Finance, an automated market maker (AMM) on Ethereum, suffered an attack on April 30, 2022, which exploited smart contracts and resulted in roughly $11m of crypto being stolen</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Saddle Finance, an automated market maker (AMM) on Ethereum, experienced a series of transactions on April 30, 2022, which resulted in the loss of roughly $11 million worth of cryptocurrency. The attack was carried out in three transactions, with one of them being a whitehat who managed to rescue approximately 25% of the total amount taken. The exploit was made possible due to a previously known bug that had not been properly patched. Saddle Finance is an AMM that focuses on stable swaps of assets that are pegged or similar in nature. It uses concepts from Curve, which has two distinct swap pools: Standard and Meta. The Meta pool allows liquidity in one pool to be used in additional pools. The root cause of the attack on Saddle Finance was the inconsistent price calculations of assets within its Meta pool. The mispricing was caused by the omission of math that calculates the value of tokens given, based upon the base virtual price of the LP token. The bug was present within the library called MetaSwapUtils, which is used for calculating swaps, deposits, and withdrawals. Despite the protocol's quick reaction to the exploit and the migration to a supposedly fixed MetaSwapUtils library, the incorrect swap calculation present in the original code was still present in live pools.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TXs:</p><p>https://etherscan.io/tx/0x2b023d65485c4bb68d781960c2196588d03b871dc9eb1c054f596b7ca6f7da56</p><p>https://etherscan.io/tx/0xe7e0474793aad11875c131ebd7582c8b73499dd3c5a473b59e6762d4e373d7b8</p><p><br></p><p>Exploiter:</p><p>https://etherscan.io/address/0x63341ba917de90498f3903b199df5699b4a55ac0</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SDL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf1Dc500FdE233A4055e25e5BbF516372BC4F6871",
+    "token_addresses": [
+        {
+            "address": "0x88cc4aa0dd6cf126b00c012dda9f6f4fd9388b17",
+            "url": "https://etherscan.io/address/0x88cc4aa0dd6cf126b00c012dda9f6f4fd9388b17",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64217cc0f2302.png",
+    "date": "2022-4-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1520330006710616064?s=20, https://medium.com/immunefi/hack-analysis-saddle-finance-april-2022-f2bcb119f38",
+    "website_link": "https://saddle.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/saddlefinance",
+    "telegram_link": "https://t.me/saddle_finance",
+    "our_post_link": null,
+    "funds_lost": 11000000,
+    "funds_returned": 2500000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/saddle-finance",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/saddle",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3386,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
