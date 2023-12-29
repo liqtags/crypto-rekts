@@ -1,0 +1,60 @@
+{
+    "id": 3729,
+    "project_name": "FSL",
+    "title": "FSL Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>FSL token was rugpulled by the scammer, causing a loss of 1,681,340 USD in the exit scam on PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FSL is a BEP20 token trading on PancakeSwap. On Oct 10, 2023, the deployer minted 97 million tokens of FSL and sent them to the scammer address. The scammer sell 97M FSL tokens &nbsp;what worth 1.68M USDT , finally swapped for BNB and sent into Tornado Cash</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x281b8cb2AE64cd14501fc7Bcd2545be2836B173D</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x7249B903DA533358c897784438b87Bc94b402352</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x792515002eaeb73da6ca36b535ae50b3e95c69b74c1a39beea90ff31c2bed5c1</p><p><br></p><p>Tornado Cash Transactions:</p><p>https://bscscan.com/tx/0x0d7afb6085443cbdf085afe649a97673eec84e1a8f03959b65c1c937817b7dae</p><p>https://bscscan.com/tx/0x7cbba5f46dfb79e36fd8d1acca1cd911f974197d0cc544e440d915703297415e</p>",
+    "name_categories": "Token",
+    "token_name": "FSL",
+    "proof_archive_link": "https://archive.ph/Ugm7g",
+    "technical_issue": null,
+    "token_address": "0x8923881e8cAe6684C2bB84D69aE88A9bbbEC8d5a",
+    "token_addresses": [
+        {
+            "address": "0x8923881e8cae6684c2bb84d69ae88a9bbbec8d5a",
+            "url": "https://bscscan.com/address/0x8923881e8cae6684c2bb84d69ae88a9bbbec8d5a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6526dc61bf8eb.png",
+    "date": "2023-10-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1711930957107007642",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1681340,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3729,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
