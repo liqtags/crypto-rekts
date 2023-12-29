@@ -1,0 +1,68 @@
+{
+    "id": 3680,
+    "project_name": "Deez Nuts",
+    "title": "Deez Nuts Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Deez Nuts token was rugpulled with liquidity removal between Aug 9-11, 2023; 64,044 $USD worth of 35.96 $ETH was lost.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Deez Nuts (DEEZ) is an ERC20 token trading on UniSwap. The token experienced a rugpull when its deployer removed liquidity in four transactions between August 9 and August 11, 2023. The stolen funds, amounting to 64,044 $USD worth of 35.96 $ETH, were initially transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://etherscan.io/address/0x2F4f6aF973Be182B8980be3BcD2FDF6693cE8B9B</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://etherscan.io/address/0xa6997eebae986a4e633b70fb6cdbe7ca701db097</p><p><br></p><p>- Liquidity Removal Transactions:</p><p>https://etherscan.io/tx/0xfbf55299812a410e804c1e246b7f0c9b30b39d4eff0ea9f7f3f99818d4efd1f6</p><p>https://etherscan.io/tx/0x87c8e56335fc676dfb17bc21daf1747b48a3421f713a4428e231e08c0c18b941</p><p>https://etherscan.io/tx/0x2b41833053325d28b9152facc8ee9a9bd581e2a2675beddeb18a7cf28d29cdcc</p><p>https://etherscan.io/tx/0xa10ada3a418faff86be0a8a0a87e31b7f3a1e04ebe836692b9a6b22653931b88</p>",
+    "name_categories": "Token",
+    "token_name": "DEEZ",
+    "proof_archive_link": "https://archive.ph/QNse0",
+    "technical_issue": null,
+    "token_address": "0x0f2492a6e2fead91fc62fbd91864f0b9faf376a2",
+    "token_addresses": [
+        {
+            "address": "0x0f2492a6e2fead91fc62fbd91864f0b9faf376a2",
+            "url": "https://etherscan.io/token/0x0f2492a6e2fead91fc62fbd91864f0b9faf376a2",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xddabb6474e5f60b79febb7ecfae55a27e255900b",
+            "url": "https://etherscan.io/address/0xddabb6474e5f60b79febb7ecfae55a27e255900b",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64de3196b12ed.png",
+    "date": "2023-8-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1689226022409904128?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 64044,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3680,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
