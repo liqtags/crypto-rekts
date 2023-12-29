@@ -1,0 +1,51 @@
+{
+    "id": 2687,
+    "project_name": "AutoSharkFinance",
+    "title": "AutoSharkFinance (2)",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0xfcf6738cabd9ce27f908a480ecaea53219fc08f4<br><br>The example of transaction behind the attack:<br>https://bscscan.com/tx/0x8769f7ee2c8e010fc8791bd0e42569b7ced9b2f67b721e6f0c6a6435b4d6670f<br><br>The hack is made possible due to a profit inflation bug, which was exploited to donate a large amount of $NOVAs so that a huge amount of $JAWS tokens can be minted as a reward.<br><br>The attacker (based on the example tx):<br>- flash loaned 2.5K BNB<br><br>- swapped 569 BNB to 186.5K NOVA<br><br>- deposited &nbsp;186.5K NOVA to Shiba's NOVA/WBNB LP<br><br>- called <u>getReward()</u> to swap 3.69e-06 NOVA to 561 BNB<br><br>- swapped 280 BNB to 3362 JAWS<br><br>- added liquidity with 280 BNB and 3362 JAWS into JAWS/WBNB LP, receiving 955 LP tokens<br><br>- minted 640,050 JAWS as a reward because of the inflated value of 955 JAWS/WBNB LP tokens<br><br>- called <u>withdrawAll()</u> to withdraw 640,050 JAWS<br><br>- swapped received JAWS to 509 BNB<br><br>Stolen funds were bridged into Ethereum. The attacker deposited ETH into Tornado Cash mixer:<br>https://etherscan.io/address/0xfcf6738cabd9ce27f908a480ecaea53219fc08f4</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SHARK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf7321385a461c4490d5526d83e63c366b149cb15",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/617c0b0d58c74.jpeg",
+    "date": "2021-10-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1454026801869590529, https://twitter.com/AutoSharkFin/status/1454037053159591949",
+    "website_link": "https://autoshark.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/AutoSharkFin",
+    "telegram_link": "https://t.me/autosharkfinance",
+    "our_post_link": null,
+    "funds_lost": 2000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2687,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
