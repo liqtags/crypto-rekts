@@ -1,0 +1,51 @@
+{
+    "id": 142,
+    "project_name": "Reflation",
+    "title": "Reflation",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xb52e11e11d6aa14ea261d5f59df962013879e40e2f1f2798b5e80942821f82af<br><br>The contract deployer used hidden minting functionality under the increaseAllowance() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xaa141fae41b7f4dd0c2170741834a3a70562599a9c3490c3b6b272f8d903e3a0<br><br>The new tokens were exchanged for ETH 3 times at:<br>https://etherscan.io/tx/0x6d54fe5eb4b8772b6a4cc361c82ef2a084f936dafd5a70ec28178785eaff39f0<br>https://etherscan.io/tx/0xebffb4e0e3b812b3ca03b2a01a5c1507abc58a748863b636691c106beba3b0d5<br>https://etherscan.io/tx/0xd70328a748e0547f819affe889d42a939fa31d88387c1e61f834455012f64e69<br><br>Stolen funds were transferred to the external wallet at:<br>https://etherscan.io/tx/0xa8fb0d3048d89b0bb0c8561b96356552e4787aedeabc00e5f3c94bc04efcc00b</p>",
+    "name_categories": "Token",
+    "token_name": "RLF",
+    "proof_archive_link": "https://archive.ph/N2HfF",
+    "technical_issue": null,
+    "token_address": "0xdc65d31b94dbc5188ee5e01c22618537e5e86bac",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b85f0d386.png",
+    "date": "2020-12-14",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8987,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 142,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
