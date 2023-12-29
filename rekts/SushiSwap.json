@@ -1,0 +1,51 @@
+{
+    "id": 2634,
+    "project_name": "SushiSwap",
+    "title": "SushiSwap",
+    "description": "<p>The exploiter:<br>https://etherscan.io/address/0x3ddd8b6d092df917473680d6c41f80f708c45395<br><br>Sushiswap's launchpad MISO was attacked from the front end side. The anonymous contractor of the Sushiswap GitHub uploaded malicious code, which replaced the auction's wallet with the exploiter's wallet. Commit author was under the AristoK3 nickname. The exploiter's wallet was funded from exchanges like Binance, FTX.<br><br>The transaction where the funds were withdrawn:<br>https://etherscan.io/tx/0x78d6355703507f88f2090eb780d245b0ab26bf470eabdb004761cedf3b1cda44<br><br>The funds were returned back to the SushiSwap Operation Multisig wallet at:<br>https://etherscan.io/tx/0x4bfd68aaaaad03d0dd2d5b9e862e3bc4c7ee90cb85507eb85262e932c8748521<br>https://etherscan.io/tx/0x904e5bcb5ef9cfb19f19afd04849f3b12d17dc347d3e525072fcd139cc08cbdb<br>https://etherscan.io/tx/0x421e06f92f900692d4687b5c18422d73ab2d69ade0fbce300555ec6394f6fa61</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX)",
+    "token_name": "SUSHI",
+    "proof_archive_link": "https://archive.is/wip/a1gPN",
+    "technical_issue": null,
+    "token_address": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6433fd9672691.png",
+    "date": "2021-9-16",
+    "scam_updates": [],
+    "proof_link": "https://decrypt.co/81120/sushiswaps-token-launchpad-hacked-over-3m-ethereum",
+    "website_link": "https://app.sushi.com/miso",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SushiSwap",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2993606,
+    "funds_returned": 2993606,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2634,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
