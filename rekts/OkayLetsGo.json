@@ -1,0 +1,68 @@
+{
+    "id": 3556,
+    "project_name": "OkayLetsGo",
+    "title": "OkayLetsGo",
+    "description": "<p><strong>Quick Summary</strong></p><p>OkayLetsGo token project was rugpulled by the deployer, who drained the UniSwap pool and removed liquidity. The total loss is 94,230 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OkayLetsGo is an ERC20 token trading on UniSwap. The OKLG token experienced a significant liquidity removal. Investigation revealed that the token deployer sold a significant amount of tokens in exchange for 50 $ETH to drain the UniSwap pool. Afterward, two transactions were made from their contract address to remove all remaining liquidity worth 4 $ETH in total. All stolen funds were transferred to another EOA after an incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xBBb0bB7EC7d45d1B22e6eC83ad329621fa468375</p><p><br></p><p>Funds Holder Address:</p><p>https://etherscan.io/address/0x47C7c921ADf8b09e24EfAc584E2064e34CBb1b6F</p><p><br></p><p>Draining Transaction:</p><p>https://etherscan.io/tx/0x57cee9957eaf584a0a924c9ddee2145da6c44a856036a94e1b57c3e0c1e23993</p><p><br></p><p>Liquidity Removal Transactions:&nbsp;</p><p>https://etherscan.io/tx/0xfb1b1818cca9c739638af5afaaf476de13a4a4e583d14cd4ee0f12302d90c3b5</p><p>https://etherscan.io/tx/0xd1ef2bad5b5dd593e069354ec0f2f3dbb92e218492019e90d7bbe3eaed1e08a5</p>",
+    "name_categories": "Token",
+    "token_name": "OKLG",
+    "proof_archive_link": "https://archive.is/uIyPm",
+    "technical_issue": null,
+    "token_address": "0x5dbb9f64cd96e2dbbca58d14863d615b67b42f2e",
+    "token_addresses": [
+        {
+            "address": "0x5dbb9f64cd96e2dbbca58d14863d615b67b42f2e",
+            "url": "https://etherscan.io/address/0x5dbb9f64cd96e2dbbca58d14863d615b67b42f2e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xadf5fcca72f5d66c7d89ef496124cffe68973357",
+            "url": "https://etherscan.io/address/0xadf5fcca72f5d66c7d89ef496124cffe68973357",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64870b2a6d1c6.png",
+    "date": "2023-6-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1667485269786783744?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 94226,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3556,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
