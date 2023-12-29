@@ -1,0 +1,60 @@
+{
+    "id": 3174,
+    "project_name": "Bill Muray Wallet Hack",
+    "title": "Bill Muray Wallet Hack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bill Murray's hot wallet was compromised by hacker, which led to the loss of funds collected in the actor's NFT collection. The hacker managed to drain wallet for 112 $ETH.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\"><span lang=\"en\">Bill Murray</span> is an <span lang=\"en\">American comedian and actor. As soon as the actor got acquainted with the concept of NFT, he began to work on a collection that will consist of unique stories from his life. The proceeds from the asset sales were to go to charity for military families, emergency response services and rare medical diagnoses with the help of life-changing grants.</span></p><p data-v-51e0c2ec=\"\">The hacker was able to get the actor's private key or seed phrase, thanks to which, the malicious actor was able to drain the actor's wallet for 112 $ETH.</p><p data-v-51e0c2ec=\"\">As it turned out, the hacker also wanted to steal the actor's NFT collection, but it was well protected, and all the NFTs were successfully sent to safe account.</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Bill Murray Hot Wallet: https://etherscan.io/address/0xabFEC94BE2D181F340C30BC70EE164eAc9935529</span></p>",
+    "name_categories": "NFT,Other",
+    "token_name": "BillMurray",
+    "proof_archive_link": "https://web.archive.org/web/20220905162129/https://www.certik.com/resources/blog/6xNUNVFaLtzO9El2TypjoN-bill-murray-hacked-wallet, https://web.archive.org/web/20220905162213/https://twitter.com/CertiKAlert/status/1566167217451958273",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/address/0xc4219ce63cec2236a955655951aea9b6f8b2431b",
+    "token_addresses": [
+        {
+            "address": "0xabFEC94BE2D181F340C30BC70EE164eAc9935529",
+            "url": "https://etherscan.io/address/0xabFEC94BE2D181F340C30BC70EE164eAc9935529",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63162253be44f.png",
+    "date": "2022-8-31",
+    "scam_updates": [],
+    "proof_link": "https://www.certik.com/resources/blog/6xNUNVFaLtzO9El2TypjoN-bill-murray-hacked-wallet",
+    "website_link": "https://nft.coinbase.com/collection/BillMurray, https://theshack.thechive.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/EnterTheShack_",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 177873,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/HnXFs2Deqv",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3174,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
