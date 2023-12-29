@@ -1,0 +1,86 @@
+{
+    "id": 3547,
+    "project_name": "unshETH",
+    "title": "unshETH",
+    "description": "<p><strong>Quick Summary</strong></p><p>UnshETH suffered an access control exploit resulting in the loss of $375,000 $USD worth of farm rewards and protocol liquidity</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>UnshETH is a staking and yield protocol in Ethereum and Arbitrum chains. One of the deployer keys for auxiliary unshETH contracts (farms and bridge contracts) was compromised. The security teams narrowed down the scope of impact to USH farm rewards and protocol-owned liquidity. Onchain message communication with the malicious actor was established for recovery purposes. Within two hours after being contacted by unshETH team members, the attacker responded with intentions to return control of all compromised contracts which were then transferred back to multisig addresses on each chain securing all impacted assets. The attacker had already recovered some assets and gained approximately 375,000 $USD in proceeds but negotiations are ongoing towards their retrieval in exchange for a 50,000 $DAI as a whitehat bounty. During this incident, unshETH withdrawals were paused for 24 hours.</p><p>&nbsp;</p><p><strong>Block Data Reference</strong></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x2cf0c07dd0b4944bb0b5abbb4ea26e83b7732907fc221fc28c257403be3439d2</p><p><br></p><p>Onchain messages:<br>https://etherscan.io/tx/0x6b7d74b8efe11a9d9ae9e9b10b526ab07c5aae08dc801528bcf0be61068565c3</p><p>https://etherscan.io/tx/0x7faade0b77341e6e1ab4ee4085e287ea2f32ca434972067c75bfd48e6009b37a</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "unshETH",
+    "proof_archive_link": "https://archive.is/fERRJ",
+    "technical_issue": null,
+    "token_address": "0xe60779cc1b2c1d0580611c526a8df0e3f870ec48",
+    "token_addresses": [
+        {
+            "address": "0x33890b88f98a9d511678954ad8db0510b6953cfc",
+            "url": "https://etherscan.io/address/0x33890b88f98a9d511678954ad8db0510b6953cfc",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x35636b85b68c1b4a216110fb3a5fb447a99db14a",
+            "url": "https://etherscan.io/address/0x35636b85b68c1b4a216110fb3a5fb447a99db14a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xd41d27ff3205787a4a617708f6675a44821c53ec",
+            "url": "https://etherscan.io/address/0xd41d27ff3205787a4a617708f6675a44821c53ec",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6478abb525298.png",
+    "date": "2023-5-31",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/wagmi33/status/1664137080593678336",
+    "website_link": "https://unsheth.xyz/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/unsheth_xyz",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 375000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/UnshETH?type=source",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/5tZXASh5P3",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3547,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/v2_audit.pdf",
+            "date": "2023-04-04T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
