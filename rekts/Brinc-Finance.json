@@ -1,0 +1,51 @@
+{
+    "id": 2728,
+    "project_name": "Brinc Finance",
+    "title": "Brinc Finance",
+    "description": "<p>The address marked as \"hacker\" on Etherscan:<br>https://etherscan.io/address/0x6B0b61323F6d77ef8A1a35D11FA877631d8f67Bb<br><br>1. The contract deployer of the staking contract invoked <u>transferOwnership</u>() at:<br>https://etherscan.io/tx/0x09ae252d00122864070461e78810a3b91c4fb64076f72eb6dba775a80ca00df4<br><br>2. The <u>newOwner</u> was set to \"hacker's\" address:<br>https://etherscan.io/address/0x6B0b61323F6d77ef8A1a35D11FA877631d8f67Bb<br><br>3. The contract deployer of the staking contract upgraded implementation of the contract at:<br>https://etherscan.io/tx/0xdc7b986561a0bec76f1565881a2983b2afd34091130c6658275e1b6276efcfa7<br><br>4. The new implementation is:<br>https://etherscan.io/address/0x1eC83036A1dbbd6e001bb216e31b8A259ebd8f3D#code<br><br>5. The new implementation includes <u>rescueTokens</u>() function which allows the owner to withdraw all tokens balance from the contract:<br>https://etherscan.io/address/0x1eC83036A1dbbd6e001bb216e31b8A259ebd8f3D#code#F1#L817<br><br>6. The \"hacker\" invokes <u>rescueTokens</u>() at:<br>https://etherscan.io/tx/0x729c2888077942764f9c3ea7aae6b22d8d92b37dec0e96f63589a97e2926da27<br>https://etherscan.io/tx/0x03bae1ef2096d490e277cc2aa46022b1985db70b59fd8801b3a9bdfbf9c510db<br><br>7. The \"hacker\" burns BRC and receives DAI in exchange:<br>https://etherscan.io/tx/0x160471a45ddf9130b7e1b0d3f87c3612084bfad6ac3df31079eab7fbfdda15bc<br><br>8. The \"hacker\" swaps gBRC for DAI on SushiSwap at:<br>https://etherscan.io/tx/0xfc559fad3bb06e926c2b9736b61b8a61bfdad4f1d5f6db06b33e9ef767e551f7<br><br>9. Stolen DAI were exchanged on ETH at:<br>https://etherscan.io/tx/0xc16be592c609728548e74ea7b1d82bf898d7c11eb58b30ada08e11e9615fc9c9<br><br>10. Received ETH were deposited into Tornado Cash mixer at multiple transactions:<br>https://bloxy.info/txs/calls_from/0x6b0b61323f6d77ef8a1a35d11fa877631d8f67bb?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967<br><br>The hacker was funded by the contract deployer before the incident:<br>https://etherscan.io/tx/0xc95e14ea17062bc04bd824fff995a110e07f67ea25c14b2c298768c6bb0c4944</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "BRC, gBRC, sgBRC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x7BFf1FC001054c4FfFF4E9117415112E07212A4E, 0x5fe5e1d5d86bdd4a7d84b4cafac1e599c180488f, 0xff395641c57d4a53d35e5eba3c8384ae9076dae0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b8ca3bd4c69.jpeg",
+    "date": "2021-12-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BrincFi/status/1470592846009073664",
+    "website_link": "https://brinc.fi/#/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BrincFi",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1103568,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/QFFrBu68rp",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2728,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
