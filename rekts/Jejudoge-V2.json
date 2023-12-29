@@ -1,5 +1,5 @@
 {
-    "id": 463,
+    "id": 419,
     "project_name": "Jejudoge V2",
     "title": "Jejudoge V2",
     "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p><p><br></p>",
@@ -7,9 +7,9 @@
     "token_name": "JEJUDOGEv2",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xe4e873b8b73b290913ce7f26b55a2e809e1b9013",
+    "token_address": "0xe6a739e8dc3b2f81cae3f76bb7cf6ab62b127a76",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60ebfb86ddcff.png",
+    "logo_link": "safe/files/scamDatabase/logo/60e826cb7fb60.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 463,
+            "scam_database_id": 419,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
