@@ -1,0 +1,60 @@
+{
+    "id": 2879,
+    "project_name": "Ronin",
+    "title": "Ronin",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Ronin bridge has been exploited for 173,600 Ethereum and 25.5M USDC.</p><p><br></p><p><strong>Details of the Exploit &nbsp;</strong></p><p>The Ronin Network, an Ethereum-based sidechain hosts the prominent play-to-earn game Axie Infinity.</p><p>The project team discovered that on March 23rd that Sky Mavis\u2019s Ronin validator nodes and Axie DAO validator nodes were compromised resulting in 173,600 Ethereum and 25.5M USDC drained from the Ronin bridge in two transactions:<br>https://etherscan.io/tx/0xc28fad5e8d5e0ce6a2eaf67b6687be5d58113e16be590824d6cfa1a94467d0b7<br>https://etherscan.io/tx/0xed2c72ef1a552ddaec6dd1f5cddf0b59a8f37f82bdda5257d9c7c37db7bb9b08<br><br>The attacker used hacked private keys in order to forge fake withdrawals. The validator key scheme is set up to be decentralized so that it limits an attack vector, but the attacker found a backdoor through a gas-free RPC node, which they abused to get the signature for the Axie DAO validator. Binance managed to identify and recover $5,8 million in funds spread across 86 accounts that had been moved to their exchange. In the aftermath of the Ronin bridge hack a Binance led funding round raised $150 million in order to partially repay users and ensure that operations will be sustained</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The hacker's address on Ethereum:<br>https://etherscan.io/address/0x098b716b8aaf21512996dc57eb0615e2383e2f96</p>",
+    "name_categories": "Bridge",
+    "token_name": "RON",
+    "proof_archive_link": "https://web.archive.org/web/20220603160152/https://cointelegraph.com/news/binance-recovers-5-8m-in-funds-connected-to-ronin-bridge-exploit, https://web.archive.org/web/20220803005138/https://cointelegraph.com/news/the-aftermath-of-axie-infinity-s-650m-ronin-bridge-hack",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4",
+    "token_addresses": [
+        {
+            "address": "0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2",
+            "url": "https://etherscan.io/address/0x1a2a1c938ce3ec39b6d47113c7955baa9dd454f2",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/624332aec87d2.jpeg",
+    "date": "2022-3-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Ronin_Network/status/1508828719711879168, https://roninblockchain.substack.com/p/community-alert-ronin-validators?s=w",
+    "website_link": "https://bridge.roninchain.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Ronin_Network",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 625000000,
+    "funds_returned": 155800000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600009,
+            "scam_database_id": 2879,
+            "networks": {
+                "id": 1666600009,
+                "name": "Ronin",
+                "icon_link": "safe/files/network/ronin.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
