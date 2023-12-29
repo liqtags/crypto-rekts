@@ -1,0 +1,60 @@
+{
+    "id": 3628,
+    "project_name": "Worldcoin",
+    "title": "Worldcoin Rug Pull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The WLD token recently experienced a rug pull incident, leading to a significant loss of approximately $330K USD in 179 Ethereum (WETH) tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The project team behind the WLD token executed a rug pull by performing liquidity removal from the Uniswap V2 pool. As a result, they successfully withdrew and transferred a total of <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>179</span> WETH, equivalent to $<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>330K&nbsp;</span> USD, distributing the ill-gotten funds across four different wallets.</p><p><br></p><p>This sudden liquidity removal and token transfer event caught the community off guard, causing substantial financial losses to investors and holders of WLD token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract Creator:</p><p>https://etherscan.io/address/0x39903b7ed2a7ce8ae4362a2349e2e90ff6410902</p><p>Liquidity Removal tx:</p><p>https://etherscan.io/tx/0x4a55ed8b01de3b60d967d866a3080b4b716949a24cfd8724fc234cf5edb3246d</p>",
+    "name_categories": "Token",
+    "token_name": "WLD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x4928df618cfe00150f7a12fc9e03829d37fb7d6a",
+    "token_addresses": [
+        {
+            "address": "0x4928df618cfe00150f7a12fc9e03829d37fb7d6a",
+            "url": "https://etherscan.io/token/0x4928df618cfe00150f7a12fc9e03829d37fb7d6a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64bf827caac83.png",
+    "date": "2023-7-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/artemDeDotFi/status/1683694062165954561?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 330000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3628,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
