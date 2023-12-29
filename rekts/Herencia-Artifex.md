@@ -1,0 +1,143 @@
+# Herencia Artifex
+![Herencia Artifex](/rektimages/Herencia-Artifex.png)
+- Amount Lost: $29,586,973.00
+- Funds Returned: $0.00
+- Category: NFT,Token
+- Date: 2023-12-7
+
+**Quick Summary**
+
+HerenciaArtifex NFT project exploited, losing 29,586,973 USD worth of HXA tokens due to a vulnerable code in ThirdWeb development kit.
+
+  
+
+
+ **Details of the Exploit**
+
+HerenciaArtifex, an NFT project with native token HXA, was exploited on December 7, 2023. The attacker compromised a signature and gained approval of a large number of tokens from a 0x..dead address, which was used to burn HXA tokens. This allowed the attacker to freely transfer over 450 billion HXA tokens to themselves. The exploit was related to a vulnerable code in the ThirdWeb development kit, specifically the msgSender parameter in the multiCall function. The stolen funds were transferred through several EOA addresses, distributed, and part of the stolen funds were deposited into various centralized exchanges. The funds lost were calculated based on the current price of the token, and the actual lost amount might be much lower due to liquidity issues in various exchanges.
+
+  
+
+
+ **Block Data Reference**
+
+Attacker Addresses:
+
+https://etherscan.io/address/0x0000000000000F25a072EFA232D8EFc0b5CE2436
+
+https://etherscan.io/address/0x396E753ae1ae7d9905c95D70eB964C4e05052619
+
+  
+
+
+Malicious Transaction:
+
+https://etherscan.io/tx/0x71f0c8f7ce124b1853db7bea4cb160695066beff1fed68b53c65680740e4208c
+
+  
+
+
+Assets Acquire Transaction:
+
+https://etherscan.io/tx/0x4f534c08790064c7a116128663bc6d4166107bf68447296adf8e954e8c7c5c1f
+
+  
+
+
+Malicious Contract Address:
+
+https://etherscan.io/address/0x000000000000C35e4364DEFfA9059DbAdAeFd4F8
+
+  
+
+
+Funding Transaction:
+
+https://etherscan.io/tx/0x71f0c8f7ce124b1853db7bea4cb160695066beff1fed68b53c65680740e4208c
+
+  
+
+
+XT.com Deposit Transaction:
+
+https://etherscan.io/tx/0xe67a20f1e246cbcac703e37375e373753325d72c925cd17fae1b8a1a4b1427f6
+
+  
+
+
+Gate.io Deposit Transaction:
+
+https://etherscan.io/tx/0xad453b12db924c9a091bfec15f0f601241f470383c4fd03bc4424c9866690309Quick Summary
+
+HerenciaArtifex's HXA token exploited via ERC2771Context vulnerability, leading to a loss of 29,586,973 USD worth of HXA tokens.
+
+  
+
+
+Details of the Exploit
+
+HerenciaArtifex is an NFT project with HXA as its native token. On Dec 07, 2023, the attacker exploited a vulnerability in the ERC2771Context implementation from OpenZeppelin, compromising the Forwarder contract on HXA. This allowed the attacker to gain approval for a massive amount of HXA tokens from the 0x..dead burn address and freely transfer over 450 billion HXA tokens to themselves.
+
+  
+
+
+The stolen funds were transferred through several EOA addresses, distributed, and partially deposited into various centralized exchanges. It's worth noting that the actual loss might be lower due to the token's liquidity on exchanges. OpenZeppelin fixed the issue on December 8, 2023.
+
+  
+
+
+Block Data Reference
+
+Attacker Addresses:
+
+https://etherscan.io/address/0x0000000000000F25a072EFA232D8EFc0b5CE2436
+
+https://etherscan.io/address/0x396E753ae1ae7d9905c95D70eB964C4e05052619
+
+  
+
+
+Malicious Transaction:
+
+https://etherscan.io/tx/0x71f0c8f7ce124b1853db7bea4cb160695066beff1fed68b53c65680740e4208c
+
+  
+
+
+Assets Acquire Transaction:
+
+https://etherscan.io/tx/0x4f534c08790064c7a116128663bc6d4166107bf68447296adf8e954e8c7c5c1f
+
+  
+
+
+Malicious Contract Address:
+
+https://etherscan.io/address/0x000000000000C35e4364DEFfA9059DbAdAeFd4F8
+
+  
+
+
+Funding Transaction:
+
+https://etherscan.io/tx/0x71f0c8f7ce124b1853db7bea4cb160695066beff1fed68b53c65680740e4208c
+
+  
+
+
+XT.com Deposit Transaction:
+
+https://etherscan.io/tx/0xe67a20f1e246cbcac703e37375e373753325d72c925cd17fae1b8a1a4b1427f6
+
+  
+
+
+Gate.io Deposit Transaction:
+
+https://etherscan.io/tx/0xad453b12db924c9a091bfec15f0f601241f470383c4fd03bc4424c9866690309
+
+
+Proof Links:
+- [https://twitter.com/DeDotFiSecurity/status/1733163803162955920](https://twitter.com/DeDotFiSecurity/status/1733163803162955920)
+
+
