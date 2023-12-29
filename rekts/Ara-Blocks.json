@@ -1,0 +1,51 @@
+{
+    "id": 3568,
+    "project_name": "Ara Blocks",
+    "title": "Ara Blocks",
+    "description": "<p><strong>Quick Summary</strong></p><p>Ara Blocks, an NFT project, was exploited via flashloan attack, causing a loss of 124,915 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Ara Blocks, an NFT project on the Binance Smart Chain, fell victim to a flashloan attack. The attacker exploited the project, resulting in a loss of 124,915 $USD. The stolen funds were then transferred to another externally owned account (EOA) which currently holds all the assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:&nbsp;</p><p>https://bscscan.com/address/0xF84efA8a9F7E68855CF17EAaC9c2f97A9d131366</p><p><br></p><p>Funds Holder Address:&nbsp;</p><p>https://bscscan.com/address/0xC8B5ecfA4eFBAE96A3Ac90B0D0De316abE6Ca0D1</p><p><br></p><p>Malicious Contract Address:&nbsp;</p><p>https://bscscan.com/address/0x98e241BD3BE918e0D927Af81B430be00D86B04F9</p><p><br></p><p>Malicious Transaction:&nbsp;</p><p>https://bscscan.com/tx/0xd87cdecd5320301bf9a985cc17f6944e7e7c1fbb471c80076ef2d031cc3023b2</p>",
+    "name_categories": "NFT,Other",
+    "token_name": "ARA",
+    "proof_archive_link": "https://archive.ph/7fgvR",
+    "technical_issue": null,
+    "token_address": "0x5542958fa9bd89c96cb86d1a6cb7a3e644a3d46e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6491bb41867a8.jpg",
+    "date": "2023-6-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1670538200505278465?s=20",
+    "website_link": "https://ara.one/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/AraBlocks",
+    "telegram_link": "https://t.me/arablocks",
+    "our_post_link": null,
+    "funds_lost": 124915,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/AraBlocks",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/AA9ud3UBch",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3568,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
