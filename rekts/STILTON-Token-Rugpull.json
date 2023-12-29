@@ -1,0 +1,68 @@
+{
+    "id": 3762,
+    "project_name": "STILTON MUSK",
+    "title": "STILTON Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>STILTON token was rugpulled by deployer, stolen funds worth 231,904 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>STILTON is an ERC20 token trading on UniSwap. The deployer initially sold a huge amount of tokens for 162.35 WETH on June 15, 2022. After some period of time, on Mar 8, 2023, the deployer removed the remaining liquidity of 17.45 WETH from the UniSwap pool in a single transaction, resulting in a total loss of 179.8 WETH, which is equivalent to approximately 231,904 USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x96759b16ab543551C06B5E6B0E4f887C9401b654</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x315cdf0ab60adaf5a7d415492ace01910a7a865fa2c9af5628e234fe6cee50d4</p><p><br></p><p>Huge Sell Transaction:</p><p>https://etherscan.io/tx/0x64a2a79f887ef7a303984ae7145002c02b1548b35954fa75adbb55609985d21e</p>",
+    "name_categories": "Token",
+    "token_name": "STILTON",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x06fcbf38e823efc1e609b9491AaB546334c6ee69",
+    "token_addresses": [
+        {
+            "address": "0x06fcbf38e823efc1e609b9491AaB546334c6ee69",
+            "url": "https://etherscan.io/address/0x06fcbf38e823efc1e609b9491AaB546334c6ee69",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x779dAC1F4dF345Acb6EE814AFDA755f1693770Cb",
+            "url": "https://etherscan.io/address/0x779dac1f4df345acb6ee814afda755f1693770cb",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/654282d827c08.png",
+    "date": "2023-3-8",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 231904,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3762,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
