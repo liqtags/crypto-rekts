@@ -1,0 +1,60 @@
+{
+    "id": 3743,
+    "project_name": "Safereum",
+    "title": "Safereum Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SAFEREUM token project experienced an exit scam rugpull, with the scammer draining liquidity worth 1,306,583 USD from UniSwap pools on Oct 24, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SAFEREUM is an ERC20 token trading on UniSwap. The scammer with safereum.eth ENS unlocked 95,000,000,000 SAFEREUM tokens and sold them in two different pools on UniSwap. The stolen funds were distributed to multiple EOA addresses and consequently were sent to FixedFloat Exchange. A part of the stolen funds was swapped to USDT in MetaMask and then sent to other EOA addresses. The total loss amounts to 1,306,583 USD, equivalent to 732.39 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xf7979E7FB772e8dcB95858C2A0BB6e4F81934A6b</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x67c8423a7709adb8ed31c04dcbb0c161637b807f</p><p><br></p><p>Unlock Transaction:</p><p>https://etherscan.io/tx/0x7fd3ad139e759e3ccffe6a3e09527432536a28f94d159574daa8cf8d3196efb9</p><p><br></p><p>Liquidity Draining Transactions:</p><p>https://etherscan.io/tx/0x880c9ba14c8fd11ad668066ce6d9490f8dcfac6a28f48b17101032a3427cc5e2</p><p>https://etherscan.io/tx/0x7ea754306e87882a35265bdf23ac470bbe7ede4b07126e7ea2f516b7d3a14ecf</p><p>https://etherscan.io/tx/0x98568ec9f66f5365e63293be3a6d71b79cd5ae2c8134c1c06859b22c47a10c7c</p><p>https://etherscan.io/tx/0x98568ec9f66f5365e63293be3a6d71b79cd5ae2c8134c1c06859b22c47a10c7c</p><p><br></p><p>Funds Transfer Transaction Example:</p><p>https://etherscan.io/tx/0xc3c7100c7137bfa46958d20f574a4e506d1a94a56d9d080ab2644f4674a718c5</p><p><br></p><p>FixedFloat Deposit Transaction Example:</p><p>https://etherscan.io/tx/0x4c2a90d4daf74ac65794ae98ddc9f4e442d6142d9b6e645f2b9a5689f02da12f</p>",
+    "name_categories": "Token",
+    "token_name": "SAFEREUM",
+    "proof_archive_link": "https://archive.ph/2Gmja",
+    "technical_issue": null,
+    "token_address": "0xb504035a11E672e12a099F32B1672b9C4a78b22f",
+    "token_addresses": [
+        {
+            "address": "0xb504035a11e672e12a099f32b1672b9c4a78b22f",
+            "url": "https://etherscan.io/address/0xb504035a11e672e12a099f32b1672b9c4a78b22f",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65386010695a7.png",
+    "date": "2023-10-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1716554530010157508?s=20",
+    "website_link": "https://safereum.medium.com/",
+    "webarchive_link": "https://archive.ph/bC6xq",
+    "twitter_link": "https://twitter.com/safereum",
+    "telegram_link": "https://t.me/TheSafereumNews/154",
+    "our_post_link": null,
+    "funds_lost": 1306583,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3743,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
