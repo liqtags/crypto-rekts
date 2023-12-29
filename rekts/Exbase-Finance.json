@@ -1,0 +1,51 @@
+{
+    "id": 236,
+    "project_name": "Exbase Finance",
+    "title": "Exbase Finance",
+    "description": "<p>A review of the token contract shows low network activity, which didn't lead to significant funds loss for the user in the past. The project is considered abandoned.</p>",
+    "name_categories": "Token",
+    "token_name": "EXBASE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x15c5339954a1016c77732ea626cc714b0d37dd6a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5f0cc3fad9.jpeg",
+    "date": null,
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DetectivesRug/status/1341445584062980097",
+    "website_link": "https://exbase.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Exbase_finance",
+    "telegram_link": "https://t.me/exbase_finance",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 236,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
