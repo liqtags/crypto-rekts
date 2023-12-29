@@ -1,0 +1,70 @@
+{
+    "id": 3384,
+    "project_name": "KLAYswap",
+    "title": "KLAYswap",
+    "description": "<p><strong>Quick Summary</strong></p><p>Exploiters have stolen $1.9m from South Korean cryptocurrency platform KLAYswap using a Border Gateway Protocol (BGP).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>According to reports, the attackers used a Border Gateway Protocol (BGP) hijack to manipulate the network flow and configure it in a way that allowed users connected to KLAYswap to download malicious code from the server sent by the attackers instead of the normal software development kit file or KakaoTalk.</p><p><br></p><p>When a token-related function was executed through the KLAYswap UI on February 3, the researchers found that a malicious external attack occurred due to the infection of SDK files from external sites, which did not originate from KLAYswap's own front-end source code. Instead, the user's normal Kakao SDK JavaScript file request was connected to a third-party server built by the attacker, which was not a Kakao server, that led to an incident in which malicious code files were downloaded.</p><p><br></p><p>The malicious JavaScript allowed the attackers to intercept funds as a user-initiated transaction. Over a two-hour period, the hackers stole cryptocurrency totaling 2.2 billion won (about $1.9 million) from 407 abnormal transactions from 325 customer wallets.</p><p><br></p><p>The attackers changed all transaction requests of users to either directly send or approve the user's token to their contract and load it on the KLAYswap site. By changing the Kakao SDK script, the malicious code was created in the form of interfering with the operation of the existing KLAYswap code and allowing its own code to be executed. If a transaction occurred with corrupted logic, the user's assets were approved for use or the assets were transferred directly to the attacker's address.</p><p><br></p><p>KLAYswap developers say they blocked all functions of KLAYswap and performed an emergency check to prevent further damage after the incident was identified. They also restricted the operation of Klaytn minter, a blockchain platform in the bridge, to prevent the transfer of stolen assets to other exchange platforms through the Orbit Bridge.</p><p><br></p><p>South Korean cybersecurity firm S2W analyzed the attack and found that the malicious code was distributed only to users who accessed it through KLAYswap by checking the referrer value of the HTTP header when connecting. Other users received a server-side error.</p><p><br></p><p><br></p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "KSP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://scope.klaytn.com/token/0xc6a2ad8cc6e4a7e08fc37cc5954be07d499e7654?tabId=tokenTransfer",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64216632e131a.jpg",
+    "date": "2023-2-3",
+    "scam_updates": [],
+    "proof_link": "https://www.bankinfosecurity.asia/crypto-exchange-klayswap-loses-19m-after-bgp-hijack-a-18518, https://medium.com/klayswap/klayswap-incident-report-feb-03-2022-70ff124aed6b",
+    "website_link": "https://klayswap.com/",
+    "webarchive_link": "https://archive.ph/Zf0nE",
+    "twitter_link": "https://twitter.com/KLAYswap",
+    "telegram_link": "https://t.me/klayswapchannel",
+    "our_post_link": null,
+    "funds_lost": 1900000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/klayswap",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 8217,
+            "scam_database_id": 3384,
+            "networks": {
+                "id": 8217,
+                "name": "Klaytn",
+                "icon_link": "safe/files/network/klaytn.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Smart_Contract_Audit_Report_KlaySwap_ver_2_0.pdf",
+            "date": "2021-03-24T00:00:00.000Z",
+            "partner": {
+                "id": 19,
+                "name": "Haechi",
+                "logo_link": "safe/files/partner/logo/60a7d5a09fba2.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Theori_Ozys_KLAYswap_Final_Report_2021_10_07.pdf",
+            "date": "2021-10-01T00:00:00.000Z",
+            "partner": {
+                "id": 35,
+                "name": "Theori",
+                "logo_link": "safe/files/partner/logo/60dcbe04a7b9d.jpeg"
+            }
+        }
+    ]
+}
