@@ -1,0 +1,51 @@
+{
+    "id": 2932,
+    "project_name": "Gatecoin",
+    "title": "Gatecoin",
+    "description": "<p>Gatecoin experienced a cyberattack on its hot wallets that resulted in the loss of funds. A new update from the exchange team indicated that as much as $2m was lost.<br><br>Gatecoin has claimed that it lost as much as 185,000 ethers and 250 bitcoins, an amount worth roughly $2.14m at press time.<br><br>Gatecoin said in a statement:<br>\"We have previously communicated the fact that most clients\u2019 crypto-asset funds are stored in multi-signature cold wallets. However, the malicious external party involved in this breach, managed to alter our system so that ETH deposit transfers by-passed the multi-sig cold storage and went directly to the hot wallet during the breach period. This means that losses of ETH funds exceed the 5% limit that we imposed on our hot wallets.\"</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624dc69137225.png",
+    "date": "2016-5-10",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2016/05/16/gatecoin-claims-2-million-in-bitcoins-and-ethers-lost-in-security-breach/",
+    "website_link": "https://gatecoin.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Gatecoin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2140000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2932,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
