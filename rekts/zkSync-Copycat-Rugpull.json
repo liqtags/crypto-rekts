@@ -1,0 +1,60 @@
+{
+    "id": 3647,
+    "project_name": "zkSync Copycat",
+    "title": "zkSync Copycat Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake zkSync token rugpulled, removing liquidity worth 201,549 $USD; total funds lost equate to 822.65 $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>zkSync (TBD) is a copycat BEP20 token trading on PancakeSwap, not to be confused with the original zkSync project or tokens sharing the same token symbol. On July 28, 2023, the deployer executed a rugpull by removing liquidity from the LP pool in two separate transactions. The stolen funds were subsequently transferred to another EOA address and distributed between multiple addresses. The total loss in this exit scam is 201,549 $USD, equivalent to 822.65 $BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x1cd9af6a4a61f2a37159e9f90cb9e995ceef9a8b</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xa52f62dc4c8660f50731d0f5c5e0ba4fb9907594</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x65a6f4f5971bbbd51baba104e895cbcb1f5e9c60680418c1d264ecf192b23552</p><p>https://bscscan.com/tx/0xf748b0826d528462c29f8063f38826a22c73f6632d336c5beae53a942d4a9606</p>",
+    "name_categories": "Token",
+    "token_name": "TBD",
+    "proof_archive_link": "https://archive.ph/6GgT3",
+    "technical_issue": null,
+    "token_address": "0x8f2775e4be08055c7dd4ebf654628b183106a8e1",
+    "token_addresses": [
+        {
+            "address": "0x8f2775e4be08055c7dd4ebf654628b183106a8e1",
+            "url": "https://bscscan.com/address/0x8f2775e4be08055c7dd4ebf654628b183106a8e1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ca5a438960a.png",
+    "date": "2023-7-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1684998871561224192",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 201549,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3647,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
