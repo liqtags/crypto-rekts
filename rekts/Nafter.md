@@ -11,6 +11,6 @@ The contract owner could disable the transfer function, which restricted users i
 
 
 Proof Links:
-- [https://tokensniffer.com/exploit/Reported%20by%20user(s)](https://tokensniffer.com/exploit/Reported%20by%20user(s))
+- [https://twitter.com/Token_Sniffer/status/1374999601485291522](https://twitter.com/Token_Sniffer/status/1374999601485291522)
 
 

@@ -1,18 +1,18 @@
 {
-    "id": 1539,
+    "id": 1537,
     "project_name": "Nafter",
     "title": "Nafter",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
     "name_categories": "Token",
-    "token_name": "NAFT",
+    "token_name": "NAFTER",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x9e1b5eac734937bce4c4dca4669bd67d506d6725",
+    "token_address": "0x22b500180842be502b19631c482a95639cbf2289",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f15fe63cc95.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f15724b2735.png",
     "date": null,
     "scam_updates": [],
-    "proof_link": "https://tokensniffer.com/exploit/Reported%20by%20user(s)",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1539,
+            "scam_database_id": 1537,
             "networks": {
                 "id": 56,
                 "name": "Binance",
