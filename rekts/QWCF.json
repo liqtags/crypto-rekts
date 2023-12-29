@@ -1,0 +1,51 @@
+{
+    "id": 3167,
+    "project_name": "QWCF",
+    "title": "QWCF",
+    "description": "<p><strong>Quick Summary</strong></p><p>QWCF token project has been rugpulled by its team. Team made a profit of $27k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The creator of the token deployed a $QWCF contract, releasing 100 million tokens to the BSC network. Then the scammer transferred tokens to different addresses:</p><p>1) https://bscscan.com/tx/0xe9bbe09f4df77a3ac2cd70378417c440ce65906237c3e0943a2f9ef41181aa60</p><p>2) https://bscscan.com/tx/0x5e1d56746776c6738cd8ff67663bddadb27be90dfdc969847962e76bddf131ed</p><p>3) https://bscscan.com/tx/0x4a3434de6ad593872010b4ba06e54b6ff670c51800b5cb3e071af8f35c90ad25</p><p>4) https://bscscan.com/tx/0xc0cb7fe8b0fbf365a53b36446c49647627af5e63d851a433c54ca2aaac671977</p><p>Scammer address (B) then created pair QWCF/USDT investing 50k $USDT.</p><p>When the community invested in this project the scammer addresses (E, F, G) dumped the token price, swapping $QWCF to $USDT. Example transactions:</p><p>1) https://bscscan.com/tx/0xbaf9a5fb5207fb9bc544371dc171255cf45db1bec849f38ae9e2ba71f0db87ef</p><p>2) https://bscscan.com/tx/0x0e17a0a9fbb0da8f078724250e0e6b2861820bd4521ad976f6626a9c96939b81</p><p>3) https://bscscan.com/tx/0x11063b75751c9191f401b14738ff25a2b167f54bd6c6d00a9cfe893122d9137e</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Involved address:</p><p>- Scammer address (A): https://bscscan.com/address/0xb3f0c93a589a808901705e2e222b01a28a7e505f</p><p>- Scammer address (B), pair creator: https://bscscan.com/address/0x14065880fed5d61ed1895ba829c543ebb571f347</p><p>- Scammer address (C): https://bscscan.com/address/0x79f6f2210ce5e21edc3526b33aaa82547b53ac58</p><p>- Scammer address (E): https://bscscan.com/address/0x75581496d2c0f2f27d13d4ea6d54f4f76d448bab</p><p>- Scammer address (F): https://bscscan.com/address/0xe0bc795f5022673b807ecb42b086825e1605cc4e</p><p>- Scammer address (G): https://bscscan.com/address/0xe3ec3aa20d863e0d523f4bb8ba00d5305f1c6709</p><p>0x81d3ec77438b4e99aa99ba25b1dbc3fea317fe3b0x81d3ec77438b4e99aa99ba25b1dbc3fea317fe3b</p>",
+    "name_categories": "Token",
+    "token_name": "QWCF",
+    "proof_archive_link": "https://web.archive.org/web/20220901131314/https://twitter.com/CertiKAlert/status/1564252227597996032",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0xae19025ea5fa6e1d6b195f65764a4148579d1daf",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6310b058df6ff.png",
+    "date": "2022-8-29",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x4a474eca664d638562d70ed981e9b1d4133f6cd9",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 27000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3167,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
