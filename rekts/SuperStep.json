@@ -1,0 +1,51 @@
+{
+    "id": 3111,
+    "project_name": "SuperStep",
+    "title": "SuperStep",
+    "description": "<p><strong>Quick Summary</strong><br>The SuperStep project was rugpulled by the team that worked on it. The team created a staking platform, offering a high annual income from staking. The project entailed a backdoor in the contract, allowing the creator address to withdraw all of the staked $BNB within the protocol.<br><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">SuperStep is a fitness DAPP empowered by Jog-to-Earn mechanism.</p><p>The scammers created contracts to attract investors to their project. In order to make the token valuable, they created a pair on PancakeSwap in this transaction:</p><p>https://bscscan.com/tx/0x83275f173a0566ee59ac28a911d08918dc8fc17adb02ddbb9cae80910ad69acc</p><p>Then they made an airdrop, which attracted even more investment in the project:</p><p>https://bscscan.com/txsInternal?a=0xc54b12925a4689d61440de998b51012f6f8d54ea&amp;p=92</p><p>When funds were deposited into the staking contract, scammers began to withdraw funds:</p><p>https://bscscan.com/address/0xaef547a5fb271700bb8f393b6d74219088444885#internaltx.</p><p><br></p><p>Funds were laundered via Tornado.cash.</p><p><br></p><p style=\"margin:0cm;background:white;\">As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved address:&nbsp;</p><p style=\"margin:0cm;background:white;\">Scammer address (A): https://bscscan.com/address/0xaef547a5fb271700bb8f393b6d74219088444885</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://bscscan.com/address/0x52c586c20364dbfa4c09ba11fbc56440eaf2caac</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0xd2f7fd26ba459ba8a367a34194410ef94e67e812</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Liquidity pool creation transaction: https://bscscan.com/tx/0x83275f173a0566ee59ac28a911d08918dc8fc17adb02ddbb9cae80910ad69acc</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Contracts interacted with:</p><p style=\"margin:0cm;background:white;\">Token address: https://bscscan.com/address/0x6f7a88274647ad54bcbe25e9d28c51ddb6b5b55f</p><p style=\"margin:0cm;background:white;\">Gem address: https://bscscan.com/address/0x594b5d76df07985590217ffdd58433bdabf65633</p><p style=\"margin:0cm;background:white;\">Unverified contract addresses:&nbsp;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/address/0x948213ed3005425b66bc6bbc5e2bbca29625d2c0<br>2) https://bscscan.com/address/0x948213ed3005425b66bc6bbc5e2bbca29625d2c0</p>",
+    "name_categories": "Gaming / Metaverse,NFT,Token",
+    "token_name": "SGMT",
+    "proof_archive_link": "https://web.archive.org/web/20220802132113/https://twitter.com/PeckShieldAlert/status/1551868745957920768, https://web.archive.org/web/20220611075455/https://twitter.com/WealthByAlex/status/1535530891925237761",
+    "technical_issue": null,
+    "token_address": "0x6f7a88274647ad54bcbe25e9d28c51ddb6b5b55f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62e7ec0636748.png",
+    "date": "2022-7-25",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://www.superstep.org/staking",
+    "webarchive_link": "https://web.archive.org/web/20220801145911/https://www.superstep.org/staking",
+    "twitter_link": "https://mobile.twitter.com/superstepo",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 255682,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3111,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
