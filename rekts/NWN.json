@@ -1,0 +1,60 @@
+{
+    "id": 3202,
+    "project_name": "NWN",
+    "title": "NWN",
+    "description": "<p><strong>Quick Summary</strong></p><p>Rug pull happened on NWN token, which lead to a dump of the token price by more than 89%</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NWN is a BEP20 token. Rug pull happened after an EOA address sold 410,000 $NWN tokens on PancakeSwap and drained the huge amount of liquidity. The address received the tokens from 3 other addresses. The total profit of the scammer reached 110,00 $USD. More than half of the drained funds were sent to another EOA address and the remaining 50,000 $BUSD are at the original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xbb30f7705b65afb61a29294938146c1f9cd27281</p><p><br></p><p>Token receive transactions:<br>https://bscscan.com/tx/0xe2afc14da643f2868b0664260c533f58ee2dd046a332e98b839e8b7e21da6c8b</p><p>https://bscscan.com/tx/0xef7cdf81562eb9ffdc70506a7057b6e9ad239b073a1ee97554963885f3c1015a</p><p>https://bscscan.com/tx/0xd6efd87004cd65e7713adf26d83b7173cda86068d16136a7e3fb9215fec8864a</p>",
+    "name_categories": "Token",
+    "token_name": "NWN",
+    "proof_archive_link": "https://archive.is/Rcv9M",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x95e6823F1Fc728Fd34Cc79c36b69935acFc862e9",
+    "token_addresses": [
+        {
+            "address": "0x76f4b42a1158d6c8ab7687e5289bead30bde12e3",
+            "url": "https://bscscan.com/address/0x76f4b42a1158d6c8ab7687e5289bead30bde12e3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/633c582e2c456.png",
+    "date": "2022-9-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1574887757687791626",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 110000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3202,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
