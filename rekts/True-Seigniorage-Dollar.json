@@ -1,0 +1,51 @@
+{
+    "id": 74,
+    "project_name": "True Seigniorage Dollar",
+    "title": "True Seigniorage Dollar",
+    "description": "<p>From the project's Twitter publication:<br><br>\"A malicious attacker has just utilized $TSD DAO to mint 11.8 billion tokens to his own account and sold all to Pancakeswap. Here is what happened:<br><br>1. Due to long Debt phase, people unbond from DAO because they no longer have rewards from expansion..<br><br>2. Dev account has only 9% of the DAO. We failed once when proposing the Implementation to enable the crosschain bridge. In this case, Dev account does not have enough stack to vote against the attacker.<br><br>3. What has been done by him? He gradually bought $TSD at low price to accumulate until he has more than 33% of the DAO. Then he proposed an Implementation and voted for it. Because he possess enough stack to finish the voting process, the Implementation went through successfully<br><br>In the Implementation, the attacker added code to mint for himself 11.8 billion $TSD. Then he sold all of the tokens to Pancakeswap. That's sad, it is an attack but it is how a decentralized DAO works.<br><br>Actually, the attacker minted 11.5 quintillion $TSD, not 11.8 billion. He sold 11.8 billion $TSD to Pancakeswap though -&gt;\"<br>https://bscscan.com/tx/0xb50cd62cb3e09dc98fa63d7eb7a5f707292e8e1725829ff5512d8d476b278faa</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "TSD",
+    "proof_archive_link": "https://archive.is/VMHDr",
+    "technical_issue": null,
+    "token_address": "0x4846239FDF4D4C1AEB26729fa064B0205acA90e1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5070216714.jpeg",
+    "date": "2021-3-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/TrueSeigniorage/status/1370956726489415683",
+    "website_link": "https://truedollar.finance/#/",
+    "webarchive_link": "https://web.archive.org/web/20201231175359/https://truedollar.finance/",
+    "twitter_link": "https://twitter.com/TrueSeigniorage",
+    "telegram_link": "https://t.me/TrueSeigniorageDollar",
+    "our_post_link": null,
+    "funds_lost": 16644,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 74,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
