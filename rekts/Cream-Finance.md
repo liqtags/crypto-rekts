@@ -1,71 +1,33 @@
 # Cream Finance
 ![Cream Finance](/rektimages/Cream-Finance.png)
-- Amount Lost: $36,154,954.00
+- Amount Lost: $0.00
 - Funds Returned: $0.00
-- Category: Borrowing and Lending
-- Date: 2021-8-31
+- Category: Borrowing and Lending,Exchange (DEX)
+- Date: 2021-3-17
 
-**Quick Summary**
-
-Cream Finance got exploited through a vulnerability hidden in the borrow() function, which was repeatedly utilized for reentrancy attacks. The attacker made away with approx. $36 million.
-
+DNS hijacking was discovered at Cream Finance. Their GoDaddy account was hacked, and users were redirected to a phishing website.  
   
+Incident timeline:  
+1\. The website was down; users reported a website outage
 
+2\. GoDaddy DNS CNAME record not pointing to their hosting IP, consistent with the website outage
 
- **Details of the Exploit**
+3\. DNS A record was updated to the correct IP; root cause analysis began
 
-Cream (Crypto Rules Everything Around Me) Finance is a decentralized lending protocol designed for institutions, protocols and people in order to access financial services.
+4\. Noticed DNS cache pollution, consistent with user reports; Began DNS migration to Cloudflare
 
-The risk for reentrancy arose because of the way $AMP was integrated into the protocol. The $AMP token contract is based on the ERC777 standard, which utilizes the _callPostTransferHooks hook. The attack transactions started with supplying $ETH as a collateral for borrowing $AMP from the crAMP market. When transferring AMP to the attacking contract, the _callPostTransferHooks was called, which in turn triggered the execution of a fallback function in the attack contract allowing the latter to re-enter the crETH market to borrow $ETH against the very same collateral initially supposed to be used for borrowing $AMP.
+5\. Discovered that GoDaddy login credentials were compromised and could not log in
 
-The flow of an example exploit transaction: https://etherscan.io/tx/0xa9a1b8ea288eb9ad315088f17f7c7386b9989c95b4d13c81b69d5ddad7ffe61e
+6\. CoinGecko, CoinMarketCap, and imToken were notified to update the website link and put up warning messages
 
-\- The hacker creates contract A to flash loan 500 $WETH and use the funds as collateral on cream, minting 24.17k crETH;
+7\. Two alternative websites were put for users to continue using Cream Finance
 
-\- borrows 19.48M $AMP for the received crETH;
+8\. The ownership of the domain was reclaimed with the help of GoDaddy, started to recover the service and ensure the security
 
-\- exploits the reentrancy possibility by repeatedly calling borrow() during the token transfer, taking a further 355 $ETH before the state of the initial borrow() has been updated;
-
-\- uses contract B, which receives a half (9.74M) of A's borrowed $AMP;
-
-\- contract B liquidates part of A's loan, redeeming 187 $WETH and transferring it back to contract A;
-
-\- contract A uses $ETH borrowed via reentrancy to repay the remainder of the flash loan.
-
-  
-
-
-The profits of the above explained transaction amounted to 41 $ETH and 9.74M $AMP.
-
-In total, 17 attack transactions were conducted netting the attackers a total of $AMP 462,079,976 and $ETH 2,804.96.
-
-  
-
-
- **Block Data Reference**
-
-Attack contract A:
-
-https://etherscan.io/address/0x38c40427efbaae566407e4cde2a91947df0bd22b
-
-Attack contract B:
-
-https://etherscan.io/address/0x0ec306D7634314D35139d1dF4A630d829475A125
-
-Exploiter address 1:
-
-https://etherscan.io/address/0xce1f4b4f17224ec6df16eeb1e3e5321c54ff6ede
-
-Exploiter address 2:
-
-https://etherscan.io/address/0x8036EbD0Fc9C120BA0469ffCB27b204AA06aaF1F
-
-  
-
+9\. The website returned to normal, while some regions were still affected as DNS propagation continued
 
 
 Proof Links:
-- [https://medium.com/cream-finance/c-r-e-a-m-finance-post-mortem-amp-exploit-6ceb20a630c5](https://medium.com/cream-finance/c-r-e-a-m-finance-post-mortem-amp-exploit-6ceb20a630c5)
-- [ https://rekt.news/cream-rekt/]( https://rekt.news/cream-rekt/)
+- [https://medium.com/cream-finance/postmortem-report-of-dns-hijacking-66ab9c6ce63d](https://medium.com/cream-finance/postmortem-report-of-dns-hijacking-66ab9c6ce63d)
 
 
