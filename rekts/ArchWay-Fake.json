@@ -1,0 +1,68 @@
+{
+    "id": 3590,
+    "project_name": "ArchWay Fake",
+    "title": "ArchWay Fake",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake ArchWay token deployer executed a rugpull, causing a total loss of 207,371 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ArchWay is a fake BEP20 token, that was rugpulled by a token deployer. In two transactions, the deployer removed liquidity leading to a loss of 207,371 $USD. The deployer orchestrated multiple simultaneous transactions before draining the pool, intending to increase trade volume and manipulate $ARCH token prices. Half of the stolen funds were transferred to another EOA, while the rest remain at the scammer's original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xd2010607bab8b8007bf6bb22b4d8a40f73a8003e</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xc5d1ad9e13858babeb3d05236bbb4c134206534b606e91c6c533ccab840d3e41</p><p>https://bscscan.com/tx/0xbb2aa80862bd684d1b27f68c3aff15afcd615225dd26b2d961b36b69e8b08784</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x730f5fc7eeec3d25444cfb2f205294a78083ad0e12e90bc681bc827413d5a4cd</p>",
+    "name_categories": "Token",
+    "token_name": "ARCH",
+    "proof_archive_link": "https://archive.ph/SxL9U",
+    "technical_issue": null,
+    "token_address": "0xe6eff43ca45b23470e36c9148f1beb24ca38d572",
+    "token_addresses": [
+        {
+            "address": "0xe6eff43ca45b23470e36c9148f1beb24ca38d572",
+            "url": "https://bscscan.com/token/0xe6eff43ca45b23470e36c9148f1beb24ca38d572",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xC786c3b66c8AE53296e7d097d0141616684937AC",
+            "url": "https://bscscan.com/address/0xC786c3b66c8AE53296e7d097d0141616684937AC",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64a59c17856a7.png",
+    "date": "2023-6-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1674687923591995395?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 207371,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3590,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
