@@ -1,0 +1,51 @@
+{
+    "id": 2794,
+    "project_name": "Multichain",
+    "title": "Multichain (Anyswap)",
+    "description": "<p>On Jan 18, Multichain urged users to remove approvals for six cross-chain tokens (WETH, PERI, OMT, WBNB, MATIC, AVAX), while the users haven\u2019t revoked WETH approval were exploited (WETH 602.69 total affected).<br><br>The whitehat hacker returned 259 ETH at:<br>https://etherscan.io/tx/0x2bbd6a6a0d4d56db0b231465f56c5fca9d11e874109277a576b69f2acf1ee7a9</p>",
+    "name_categories": "Bridge",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e97c6e4df1e.jpeg",
+    "date": "2022-1-18",
+    "scam_updates": [],
+    "proof_link": "https://multichainorg.medium.com/answers-to-the-frequently-asked-questions-about-multichain-vulnerability-b3efe109a308, https://medium.com/multichainorg/action-required-critical-vulnerability-for-six-tokens-6b3cbd22bfc0, https://twitter.com/MultichainOrg/status/1484083811101126656",
+    "website_link": "https://multichain.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MultichainOrg",
+    "telegram_link": "https://t.me/anyswap",
+    "our_post_link": null,
+    "funds_lost": 2726413,
+    "funds_returned": 2522800,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/anyswap",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2794,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
