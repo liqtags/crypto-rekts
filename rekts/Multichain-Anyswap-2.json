@@ -1,0 +1,70 @@
+{
+    "id": 3343,
+    "project_name": "Multichain",
+    "title": "Multichain (Anyswap) (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Multichain Protocol encountered a front-run attack resulting in the loss of 147,326 $USD worth of $ETH&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Multichain is an infrastructure designed to support arbitrary cross-chain interactions. On February 15, 2023, the AnyswapV4Router contract of Multichain encountered a front-run attack, during which the attacker made a profit of 87 $ETH, worth approximately 147,326 $USD at the moment.&nbsp;</p><p>The vulnerability occurred because the attacker used an MEV contract to front-run and invoke a function of the AnySwapV4Router contract to sign and approve the transfer. Due to the lack of signature verification, the attacker was able to transfer the $ETH approved to the victim contract, through the from address parameter directly to the attack contract using the safeTransferFrom() function.</p><p><br></p><p>This was an old vulnerability that was reported in January 2022 and more than 61% of all affected users had revoked access to the contract containing the underlying vulnerability. The liquidity pool's vulnerability was quickly fixed after it was reported, as the Multichain team upgraded the affected tokens' liquidity to new contracts.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xfde0d1575ed8e06fbf36256bcdfa1f359281455a</p><p><br></p><p>Malicious MEV contract:</p><p>https://etherscan.io/address/0xd050e0a4838d74769228b49dff97241b4ef3805d</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x192e2f19ab497f93ed32b2ed205c4b2ff628c82e2f236b26bec081ac361be47f</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/IaABa, https://archive.ph/JXbyc",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x6b7a87899490ece95443e979ca9485cbe7e71522",
+            "url": "https://etherscan.io/address/0x6b7a87899490ece95443e979ca9485cbe7e71522",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f6597808711.jpg",
+    "date": "2023-2-15",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/multichainorg/multichain-contract-vulnerability-post-mortem-d37bfab237c8, https://twitter.com/BlockSecTeam/status/1625743126307414017",
+    "website_link": "https://multichain.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MultichainOrg",
+    "telegram_link": "https://t.me/anyswap",
+    "our_post_link": null,
+    "funds_lost": 147326,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/anyswap",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": "https://docs.multichain.org/getting-started/security/bug-bounty-immunefi",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3343,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/blocksec_audit_multichain_routerv7_v1_0_signed.pdf",
+            "date": "2022-08-12T00:00:00.000Z",
+            "partner": {
+                "id": 104,
+                "name": "BlockSec",
+                "logo_link": "safe/files/partner/logo/622f2c0a8b473.jpeg"
+            }
+        }
+    ]
+}
