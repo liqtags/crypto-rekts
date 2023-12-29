@@ -1,0 +1,51 @@
+{
+    "id": 2723,
+    "project_name": "8ight Finance",
+    "title": "8ight Finance",
+    "description": "<p>The project's team stated: \"Our private key got compromised and the funds have been transferred out of the treasury.\"<br><br>As a result, the address that received access control withdrew:<br>- 490,170 DAI<br>https://explorer.harmony.one/tx/0x7a9aeca34468a667fd1cc045d12245b424fcaf65ab97c54cb09ac0f48b9af964<br><br>- 378,417 DAI - 10,843 LP<br>https://explorer.harmony.one/tx/0x0af0e8ea2af54429ba84f1e645725b6c6b0844fccc7fa4e2f69dc580a2dc70b2<br><br>- 12,362 USDT<br>https://explorer.harmony.one/tx/0x71a8fa404b7d8b4776397dedb5c7aa9090e045d86a8c621ae1b681fb92ec5bf9<br><br>Transfer from xxca1d account to cc541:<br>https://explorer.harmony.one/tx/0xbe7617d4c46c334327a018d6cfe7d6d492726b102f2d63d57da5ee11ab797bec<br><br>Funds were delivered into Ethereum and deposited into Tornado Cash mixer:<br>https://etherscan.io/address/0x4d8071452bf5f629ea1c72e1e42a18aebc04ca1d</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b21e8e6b552.jpeg",
+    "date": "2021-12-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/8ight_finance/status/1468073179784486912, https://rekt.news/8ight-finance-rekt/",
+    "website_link": "https://8ight.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/8ight_finance",
+    "telegram_link": "https://t.me/+w0AC787ZmUs5ZjJl",
+    "our_post_link": null,
+    "funds_lost": 923719,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/8ight-finance",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600000,
+            "scam_database_id": 2723,
+            "networks": {
+                "id": 1666600000,
+                "name": "Harmony",
+                "icon_link": "safe/files/network/harmony.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
