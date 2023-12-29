@@ -1,0 +1,51 @@
+{
+    "id": 2412,
+    "project_name": "Night Wolf",
+    "title": "Night Wolf",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "NIGHTWOLF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc07Afe7D2e7689adA0d0DE668B6Fc3C981967Bde",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cd3c6d8170.jpeg",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x28722c7c087dd97ac50cc5616659946de5348283",
+    "website_link": "https://nightwolf.app/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2412,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
