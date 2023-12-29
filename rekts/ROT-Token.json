@@ -1,0 +1,68 @@
+{
+    "id": 3415,
+    "project_name": "ROT Token",
+    "title": "ROT Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>ROT token project rugpulled by the deployer for 116,150 $USD after blacklisting the other token holders.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ROT is a BEP20 token trading on PancakeSwap, which cannot be confused with other projects carrying similar symbols or names. An investigation revealed that its liquidity pool was drained after a malicious action in which the token deployer used privilege over contracts to modify functions like transferFrom(). <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The tokens' contract was rigged to blacklist holders and prevent them from selling their ROT.</span> Consequently, several buyers could not sell their holdings as they have been blacklisted already at this point.</p><p>The attacker then removed all available LP funds worth 116,150$ USD over two transactions spread across three days.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:&nbsp;</p><p>https://bscscan.com/address/0xb909a7e2eea1a34d3bdd1fd24948b73fa95430d1</p><p><br></p><p>Malicious Transactions:</p><p>https://bscscan.com/tx/0xd78db6f44091ca7ca266c93d45246fa77807a1b21b99e78a419d514a22ee07c6</p><p>https://bscscan.com/tx/0xb32c46067b964ce4cd7bbbcc50ad3c1a4dcc22f57aae7902e2c772641552f091</p>",
+    "name_categories": "Token",
+    "token_name": "ROT",
+    "proof_archive_link": "https://archive.ph/ONJ8N",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc631a358C9Ef5Da18144A185b7122735D4c04BE9",
+    "token_addresses": [
+        {
+            "address": "0xc631a358C9Ef5Da18144A185b7122735D4c04BE9",
+            "url": "https://bscscan.com/address/0xc631a358C9Ef5Da18144A185b7122735D4c04BE9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x7e54d4e918039cd5365a8642ef1781c6796de29e",
+            "url": "https://bscscan.com/address/0x7e54d4e918039cd5365a8642ef1781c6796de29e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6428249017da8.png",
+    "date": "2023-2-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1623645074394431488?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 116150,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3415,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
