@@ -1,0 +1,51 @@
+{
+    "id": 3073,
+    "project_name": "Fantom",
+    "title": "Fantom",
+    "description": "<p><strong>Quick Summary</strong></p><p>A validator wallet was drained for 250k FTM by an attacker during the node setup process on Fantom network. The problem is a go-opera code bug, allowing users to unlock the local account with http/ws enabled.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker tracked the transfers to the node accounts, so he could know when and how much a validator account would receive, and taking advantage of the vulnerability, was able to steal money from the node validator. The vulnerability is in the <em>UnlockAccount()&nbsp;</em>function, in which the <em>ExtRPCEnabled()</em> flag does not work correctly, which makes the entire security check useless.</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p>",
+    "name_categories": "Other",
+    "token_name": "FTM",
+    "proof_archive_link": "https://web.archive.org/web/20220701230243/https://twitter.com/0xNevermind/status/1543007126905290755",
+    "technical_issue": null,
+    "token_address": "0xad29abb318791d579433d831ed122afeaf29dcfe",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62c595ec85c1b.png",
+    "date": "2022-7-1",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://fantom.foundation/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/FantomFDN?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+    "telegram_link": "https://t.me/fantomfoundation",
+    "our_post_link": null,
+    "funds_lost": 62500,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Fantom-foundation",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/zS4Ek4WByA/",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 3073,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
