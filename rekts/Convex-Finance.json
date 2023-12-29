@@ -1,0 +1,51 @@
+{
+    "id": 3089,
+    "project_name": "Convex Finance",
+    "title": "Convex Finance",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">A DNS attack was conducted on Convex Finance. The hacker managed to create a contract with a similar address, prompting users to sign approval without noticing the substitution.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a>Convex Finance, a protocol offering boosted rewards for Curve liquidity providers and stakers.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Hackers changed the original website address with the original contract to a copy of the website with a fake contract address.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Original contract address: 0xF403C135812408BFbE8713b5A23a04b3D48AAE31</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">Malicious contract address: 0xF403a2c10B0B9feF8f0d4F931df5d86aD187AE31.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The hackers managed to recreate the address of the contract, very similar to the address of the Convex contract, and the users did not notice the substitution, paying attention to the first 4 or last 4 characters thinking there is no problem and signed the malicious approval transaction. In total, 15,968 $CVXCRV and 433 $CRV were lost.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Scammer address: https://etherscan.io/address/0xb73261481064f717a63e6f295d917c28385af9aa</p><p>Malicious contract address: https://etherscan.io/address/0xF403a2c10B0B9feF8f0d4F931df5d86aD187AE31</p><p><br></p><p>Accounts that approved malicious contract:</p><p>1) https://etherscan.io/address/0x496e53c32a69a79a82ed85d2913010dd2f9d1b4f</p><p>2) https://etherscan.io/address/0x4ffc5f22770ab6046c8d66dabae3a9cd1e7a03e7</p><p>3) https://etherscan.io/address/0x5b186c93a50d3cb435fe2933427d36e6dc688e4b</p><p>4) https://etherscan.io/address/0x624301090700ea1e3c5b5224f89adfae405412c1</p><p>5) https://etherscan.io/address/0x92557b6ffa116b53cf2c3bc1d6d33f78d97ed4c9</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "CVX",
+    "proof_archive_link": "https://web.archive.org/web/20220623203832/https://twitter.com/Alexintosh/status/1540062373935026177, https://web.archive.org/web/20220626214114/https://twitter.com/ConvexFinance/status/1540104036229185536",
+    "technical_issue": null,
+    "token_address": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b, BLvmrccP4g1B6SpiVvmQrLUDya1nZ4B2D1nm9jzKF7sz",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62d15ad9e62bf.png",
+    "date": "2022-6-23",
+    "scam_updates": [],
+    "proof_link": "https://thedefiant.io/convex-exploit/, https://convexfinance.medium.com/post-mortem-of-events-june-23-3d6db955dc7d",
+    "website_link": "https://www.convexfinance.com/",
+    "webarchive_link": "https://web.archive.org/web/20220707152049/https://www.convexfinance.com/",
+    "twitter_link": "https://twitter.com/ConvexFinance",
+    "telegram_link": "https://t.co/gN3pxLF3zN",
+    "our_post_link": null,
+    "funds_lost": 11578,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/TTEVTqY488",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3089,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
