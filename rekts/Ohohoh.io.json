@@ -1,0 +1,51 @@
+{
+    "id": 700,
+    "project_name": "Ohohoh.io",
+    "title": "Ohohoh.io",
+    "description": "<p>The contract deployer has minted tokens onto his wallet at:<br>https://etherscan.io/tx/0xf4d022e0ea78529c0ef6d8b55e53728ef9ada395542282959529a6c7ceeb4861<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x530ad85a3a87e5029955f4d0ffafb64329b9db633cd30666c3c0afee6253c4ad<br><br>The contract deployer transferred tokens to the external address:<br>https://etherscan.io/tx/0xc4eb2dc384e0c21f23398fb17341d84a2a2f299f5d74ed8d6d316c4bd25282f7<br><br>The recipient has sold tokens in multiple transactions:<br>https://bloxy.info/txs/calls_from/0x22b3d80f93b1ed477e784cba93790584b5795ed8?signature_id=1102188&amp;smart_contract_address_bin=0x7a250d5630b4cf539739df2c5dacb4c659f2488d<br><br>The contract deployer removed liquidity at:<br>https://etherscan.io/tx/0x7c553b24f5fee5035fa133b94b8cfb2469eba01f874dda201c4e0dda6bc497f8</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "OHOHOH",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0ad7cc8e06951f538b9009c32e3ebdc924c9bcb8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60eda828b302f.png",
+    "date": "2021-1-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1333806114400419846",
+    "website_link": "http://ohohoh.io/",
+    "webarchive_link": "https://web.archive.org/web/20201201150213/http://ohohoh.io/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6460,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 700,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
