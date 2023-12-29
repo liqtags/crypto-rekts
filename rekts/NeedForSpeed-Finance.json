@@ -1,0 +1,51 @@
+{
+    "id": 140,
+    "project_name": "NeedForSpeed Finance",
+    "title": "NeedForSpeed Finance",
+    "description": "<p>Custom ERC20 Standard with malicious logic which allows blocking token transferring.<br><br>The project was holding a fundraising event using Token Sale smart contract:<br>https://etherscan.io/address/0x21c76e2a1c12ff97fa28ec3c0113233fee18d0b0#code<br><br>The funds gathered from the token sale were transferred to the contract deployer:<br>https://etherscan.io/tx/0x4f71d08fe123d6587ba51f4f5bfc7c8410adf207fbc14fb97614d36c2d1f8d0a<br><br>&nbsp;All 125 ETH was used to add the initial liquidity at:<br>https://etherscan.io/tx/0x1286d6c624335b8beaed99677306338e73f989eeb7047a5d79646283392fc01a<br>https://etherscan.io/tx/0xfbe5865278c0e55f89c1dc911c9ee300367bb307746113238866b689339c472e<br>https://etherscan.io/tx/0x2f5a1600881e23e8f42eb7612ebeb5228dd1326127938d1005b61e85c214ea6f<br><br>The liquidity was removed by the contract deployer:<br>https://etherscan.io/tx/0x8ecb6bd2d6fba50055891114aa4dfdd52085af67a3f239ff9d726b6cf509de99<br>https://etherscan.io/tx/0x874091d6ba4c6dcb3645fb8e39bbac8bb7904c60cdf57be11612722876d34124<br>https://etherscan.io/tx/0x2775cd7ffe4a868bb880abdc2d43de1d8d762feceda00bf242f909696d9cb262</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RFI-NFS",
+    "proof_archive_link": "https://archive.ph/cBudW",
+    "technical_issue": null,
+    "token_address": "0x77b97372d1feb50f79a9212fed50e3daf0eb44db",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b82573e4c.jpeg",
+    "date": "2021-4-27",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://needforspeed.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": "https://t.me/RFI_NFS",
+    "our_post_link": null,
+    "funds_lost": 82091,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 140,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
