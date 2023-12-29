@@ -1,0 +1,51 @@
+{
+    "id": 3064,
+    "project_name": "Swello Finance",
+    "title": "Swello Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Swello Finance has been rugpulled by the contract owner of the project. The contract owner called the <em>pullForBNB()&nbsp;</em>function through an unverified contract that dumped $SWLO against $WBNB via PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Swello Finance was<strong>&nbsp;</strong>a staking service provider with a high APY rating.</p><p><span style=\"background-color: transparent;\">The token owner address received 3.8b $SWLO tokens from the contract deployer in this tx: https://bscscan.com/tx/0x66bc683326ce4ed62ce04ad85dba4355302eebd82223db4d06a249c947c690a4.</span></p><p>Then the token owner interacted with an unverified smart contract that was created by the scammer. By calling &nbsp;the <em>pullForBNB()&nbsp;</em>function the smart contract exchanged 7.3b $SWLO tokens in total on PancakeSwap to ~891 WBNB &nbsp;and transferred the funds to the scammer wallet address (https://bscscan.com/tx/0xb99d2914505b533abd97fe94d697a2ef98cfa6c3642ecddfd356c5cf825b9971<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>).</span></p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address (A): https://bscscan.com/address/0xf23c31aae62f7cc8f21b043d4036308373b67c32</p><p>Scammer address (B): https://bscscan.com/address/0x70d4a89b2085b8cc73dcc868fabbeb19f4e13100</p><p><br></p><p>Scammer's contract: https://bscscan.com/address/0x4aa97b495e5602147b5bc625fb85aac6a83d5e6f</p><p><br></p><p>Involved addresses:</p><p>https://bscscan.com/address/0x511396d971405bc99ea2031b1ca579c11a5dc22c</p><p>https://bscscan.com/address/0x7cc490281dddc886ca0901f36cbc8942a4be7e79</p><p><br></p><p>Addresses contacted with scammer's contract: https://bscscan.com/address/0x4aa97b495e5602147b5bc625fb85aac6a83d5e6f#tokentxns</p>",
+    "name_categories": "Other",
+    "token_name": "SWLO",
+    "proof_archive_link": "https://web.archive.org/web/20220630083635/https://twitter.com/CertiKAlert/status/1540792429153882113",
+    "technical_issue": null,
+    "token_address": "0xdD6C57f8403aEF4bd9282c81C0d1887222e86710",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62bd6528bfc8f.jpeg",
+    "date": "2022-6-25",
+    "scam_updates": [],
+    "proof_link": "https://desk.lsr.finance/asset/swlo-swello/, https://coinmarketbag.com/was-swello-finance-hacked-or-did-they-rug-pull-safemoon-joe-loses-money-for-many-of-his-followers/",
+    "website_link": null,
+    "webarchive_link": "https://web.archive.org/web/20220527233457/https://www.swello.finance/",
+    "twitter_link": "https://mobile.twitter.com/swello_finance",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 210000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/KGrBfDJWBw",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3064,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
