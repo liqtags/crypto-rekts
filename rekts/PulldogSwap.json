@@ -1,0 +1,51 @@
+{
+    "id": 92,
+    "project_name": "PulldogSwap",
+    "title": "PulldogSwap",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer transferred part of the tokens to some external wallets at:<br>https://bscscan.com/tx/0x89e44f27e7acf32a1db574f58f26363f39a47b33bfd2e78a0c94555a130b5f2a<br>https://bscscan.com/tx/0x4795f3ea32916389b56c0251ccdbba5d574b4059dbc636d949a828044d63af3c<br>https://bscscan.com/tx/0x602b25292f506163edbbc3230a4773a9f18bf5036103c7c1f6fcee3b8f97c371<br><br>One of these wallets added initial liquidity at:<br>https://bscscan.com/tx/0x9622893cc7f20cec85310f3f7f540aeff0866bd80d762f82fefeec977b6d508f<br><br>The liquidity was removed by the external wallet at:<br>https://bscscan.com/tx/0x12446a0d979475f1e2501bb079f729cd8d0afcfeba3e6bd6cf89bdb27a2a2a32</p>",
+    "name_categories": "Token",
+    "token_name": "PUS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xdb5084383e9524d112b7eede002778124c2144bc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d59aabf3a6b.jpeg",
+    "date": "2021-3-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/RugSteemer/status/1369566460016697344",
+    "website_link": "https://pulldogswap.finance/#/swap",
+    "webarchive_link": "https://archive.ph/2rogX",
+    "twitter_link": null,
+    "telegram_link": "https://t.me/Pulldog_Swap",
+    "our_post_link": null,
+    "funds_lost": 10531,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 92,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
