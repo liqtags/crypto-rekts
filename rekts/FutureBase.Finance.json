@@ -1,0 +1,51 @@
+{
+    "id": 86,
+    "project_name": "FutureBase.Finance",
+    "title": "FutureBase.Finance",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xfd6d5756c49c0efd5c4e056a8416a523319540f92e994f6317a80debf6f72712<br><br>The contract deployer used hidden minting functionality under the <u>renounceOwnership</u>() function to generate new tokens onto his wallet at:<br>https://etherscan.io/tx/0xdf78757847953d4fd56d1137ec451e4e86024c74c45afd9a067c3a1a6d268902<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0x8cce4238c214ac20da5de73d673818f88c8ff7659b469bc0352cfcae6773c223</p>",
+    "name_categories": "Token",
+    "token_name": "FBASE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x8a59500444d48041eb90f6fcbb5814a938d5a428",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d591eb5468f.png",
+    "date": "2020-12-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1341224812664946688",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/336",
+    "funds_lost": 4272,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 86,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
