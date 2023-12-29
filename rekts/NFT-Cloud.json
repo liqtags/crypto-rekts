@@ -1,0 +1,60 @@
+{
+    "id": 3380,
+    "project_name": "NFT Cloud",
+    "title": "NFT Cloud",
+    "description": "<p><strong>Quick Summary</strong></p><p>NFT Cloud platform was exploited, which caused a loss of 85,330 $USD worth of $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>NFT Cloud is a Web3 platform for entrepreneurs and creators. The staking contract of the platform was exploited due to an indexing-related logic issue. The attacker was able to receive 100,000 $CLOUD tokens using a malicious contract with an unverified source code, and then drain the PancakeSwap liquidity pool. The token price dropped by more than 75% cause of an exploit. The total funds lost reached roughly 265 $BNB which is worth 85,300 $USD at the moment. All the stolen funds were transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x16b904b61a5104e270521e759d27520bb97f1dd0</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x4897b7fb241c72dc96d97ba4ad42c00654d47cb3961239f5088b878942b4d48d</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x09845b8e7d94c559697bfa860cea69bbc7b0495f</p><p><br></p><p>Transfer transaction example:</p><p>https://bscscan.com/tx/0x49b8aa37ded9192deac81d251451072fd770caf8465b82675577e2d518dc04cb</p>",
+    "name_categories": "NFT,Token",
+    "token_name": "CLOUD",
+    "proof_archive_link": "https://archive.ph/chV6C, https://archive.ph/e6Qwu",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x5c10e4660ec45a89de85a1fd1b22355b0398fb66",
+    "token_addresses": [
+        {
+            "address": "0x9b15f60d0bb30b125904690c852af696a3531e96",
+            "url": "https://bscscan.com/address/0x9b15f60d0bb30b125904690c852af696a3531e96",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/641b732f8bade.jpg",
+    "date": "2023-2-24",
+    "scam_updates": [],
+    "proof_link": "https://neptunemutual.com/blog/how-was-nft-cloud-exploited/, https://twitter.com/CertiKAlert/status/1629768331635875840",
+    "website_link": "https://nftcloud.net",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/nftcloud_net",
+    "telegram_link": "https://t.me/nftcloud_ann",
+    "our_post_link": null,
+    "funds_lost": 85330,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/wbMhfWTR",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3380,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
