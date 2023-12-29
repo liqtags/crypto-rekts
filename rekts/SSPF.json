@@ -1,33 +1,24 @@
 {
-    "id": 3429,
+    "id": 3193,
     "project_name": "SSPF",
     "title": "SSPF",
-    "description": "<p><strong>Quick Summary</strong></p><p>On Jan 5, 2023, the team behind the SSPF &nbsp;Token token executed a rug pull, resulting in a loss of funds worth $126k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the SSPF <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Token</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0xe0b0b714f722ef25ee7a79117bcb2dc577995952</p><p>Example TX of sales:</p><p>https://bscscan.com/token/0x75b695ee478b8c477d3611737d93a7cea915ab14?a=0x24cc2fb8b0a34abd5bb2220e0b3d0c04df794289</p>",
+    "description": "<p><strong>Quick Summary</strong></p><p>SSPF token was rug pulled and a total amount of 208 $BNB was drained from the liquidity pool using two EOA addresses.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SSPF is the BEP20 token, and can't be confused with other ~10 projects with the same token symbol including SevenSpaceFour. Two addresses started selling huge amounts of $SSPF and the token price dropped by more than 90%. After almost all assets are drained from the liquidity pool, addresses sent 191 $BNB to another EOA address. The remaining 17 $BNB is on the previous address at the moment of writing.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious actors addresses:</p><p>https://bscscan.com/address/0x4c6408490ea6da00bfa8a8573d790b45ceb61083</p><p>https://bscscan.com/address/0xa226def6244d3b164aa04710087646833682a896</p><p>https://bscscan.com/address/0x9469d3f0c157ac2b8a2681ff6b282705eb29e910</p><p><br></p><p>Some sell TXs:</p><p>https://explorer.bitquery.io/bsc/txs/calls?caller=0xa226def6244d3b164aa04710087646833682a896&amp;contract=0x10ed43c718714eb63d5aa57b78b54704e256024e</p><p>https://explorer.bitquery.io/bsc/txs/calls?caller=0x4c6408490ea6da00bfa8a8573d790b45ceb61083&amp;contract=0x10ed43c718714eb63d5aa57b78b54704e256024e</p><p><br></p><p>Transfer of 191 $BNB:</p><p>https://bscscan.com/tx/0x300e650e848804dcfee9a092eefff758ef292f03e8071773a65cba778adea626</p><p><br></p><p>Liquidity pool:</p><p>https://bscscan.com/address/0xae12412b83b4783ac1642781c4f6e2ab055d049d</p>",
     "name_categories": "Token",
     "token_name": "SSPF",
-    "proof_archive_link": null,
+    "proof_archive_link": "https://archive.is/d4LrN",
     "technical_issue": null,
-    "token_address": "0x75B695eE478B8C477D3611737D93A7CeA915aB14",
-    "token_addresses": [
-        {
-            "address": "0x75B695eE478B8C477D3611737D93A7CeA915aB14",
-            "url": "https://bscscan.com/address/0x75B695eE478B8C477D3611737D93A7CeA915aB14",
-            "network": {
-                "id": 56,
-                "icon_link": "safe/files/network/involved/bsc.svg"
-            }
-        }
-    ],
-    "logo_link": "safe/files/scamDatabase/logo/642bfa440c50e.png",
-    "date": "2023-1-5",
+    "token_address": "https://bscscan.com/token/0xae23e138e67cdab4417b740820608834e2145629",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63332156404ff.png",
+    "date": "2022-9-24",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/CertiKAlert/status/1610758655988666392?s=20",
+    "proof_link": "https://twitter.com/CertiKAlert/status/1573438798838497280",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
     "telegram_link": null,
     "our_post_link": null,
-    "funds_lost": 126000,
+    "funds_lost": 58448,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -37,7 +28,7 @@
     "discord": null,
     "bug_bounty_program_link": null,
     "bug_bounty_program_company": null,
-    "audit_code_conf": 0,
+    "audit_code_conf": null,
     "is_verified_source_code": 0,
     "is_public_team": 0,
     "scam_type": {
@@ -48,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 3429,
+            "scam_database_id": 3193,
             "networks": {
                 "id": 56,
                 "name": "Binance",
