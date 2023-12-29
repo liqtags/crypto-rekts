@@ -1,0 +1,60 @@
+{
+    "id": 3782,
+    "project_name": "CredixFinance",
+    "title": "CredixFinance Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>CREDIX token was rugpulled by scammer, depleting UniSwap liquidity pool and causing a loss of 25,564 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CREDIX is an ERC20 token trading on UniSwap. On Nov 21, 2023, the scammer performed a rugpull by swapping a significantly larger number of tokens, completely depleting the liquidity pool. The stolen funds were partially transferred to another EOA address, while the rest remains in the scammer's address. Prior to the contract creation, the scammer sent 27.2 ETH to the token deployer. The total loss amounts to 25,564 USD, equivalent to 14.06 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xF23Ee45550307Fd4Da3B7e03533696e10cE3bdF0</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x45aF15b299De5e77b3DadCA429DD4ba466d7a448</p><p><br></p><p>Token Swap Transaction:</p><p>https://etherscan.io/tx/0xc4943319096409dc59c2ff0dc9dcec0f1225793a094e6bde5b51cb5375145b60</p><p><br></p><p>Funds Holder as of Nov 22, 2023:</p><p>https://etherscan.io/address/0x674341FE12a3503b6078561849114f16442827B5</p>",
+    "name_categories": "Token",
+    "token_name": "CREDIX",
+    "proof_archive_link": "https://archive.ph/oaBg9",
+    "technical_issue": null,
+    "token_address": "0x6b5e9e55921e5e412cF1002599c05d4428cF50c5",
+    "token_addresses": [
+        {
+            "address": "0x6b5e9e55921e5e412cf1002599c05d4428cf50c5",
+            "url": "https://etherscan.io/address/0x6b5e9e55921e5e412cf1002599c05d4428cf50c5",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/655d13038493b.png",
+    "date": "2023-11-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1726890161903108415",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 25564,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3782,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
