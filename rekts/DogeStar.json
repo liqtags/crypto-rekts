@@ -1,16 +1,16 @@
 {
-    "id": 1220,
+    "id": 902,
     "project_name": "DogeStar",
     "title": "DogeStar",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "DST",
+    "token_name": "DOS",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xbe8181dfc5b2abd06bbcdd3ee366beb74e71947d",
+    "token_address": "0xa93e550e8f1d07eeb5eecf2d32386a1a9e6fc066",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60efedff900e3.png",
-    "date": "2021-5-27",
+    "logo_link": "safe/files/scamDatabase/logo/60eecbd125b53.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1220,
+            "scam_database_id": 902,
             "networks": {
                 "id": 56,
                 "name": "Binance",
