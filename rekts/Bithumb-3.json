@@ -1,0 +1,51 @@
+{
+    "id": 2897,
+    "project_name": "Bithumb",
+    "title": "Bithumb (3)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bithumb suffered an insider attack leading to abnormal withdrawals but managed to recover approximately $14m.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bithumb detected unusual withdrawals through their monitoring system. The incident was an \"accident involving insiders.\" The exchange's EOS hot wallet began sending EOS to the attacker's address. The company realized the attack was ongoing and started to move the funds to the cold storage wallet, which was not compromised. Bithumb admitted that it had only focused on protection from outside attacks and did not verify its staff.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The attacker's address:</p><p>https://bloks.io/account/ifguz3chmamg</p><p><br></p><p>The exchange hot wallet:</p><p>https://bloks.io/account/g4ydomrxhege</p><p><br></p><p>Bithumb's claim about $14m recovery:</p><p>https://www.econotimes.com/Bithumb-claims-recovery-of-14M-in-hacked-cryptocurrencies-1396613</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624af08c081bf.jpeg",
+    "date": "2019-3-29",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/crypto-exchange-bithumb-reportedly-hacked, https://twitter.com/bithumbofficial/status/1111877947592310785?s=12, https://cafe.bithumb.com/view/board-contents/1640037",
+    "website_link": "https://www.bithumb.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BithumbOfficial",
+    "telegram_link": "https://t.me/BithumbExchange",
+    "our_post_link": null,
+    "funds_lost": 19200000,
+    "funds_returned": 14000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2897,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
