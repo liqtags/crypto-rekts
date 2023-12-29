@@ -1,0 +1,51 @@
+{
+    "id": 2444,
+    "project_name": "Bengal Swap",
+    "title": "Bengal Swap",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BENGAL-LP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x740676Fef9f13D499Ef890028B065D6282e472e3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cb981d39a2.png",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x317962ea2f573b9a0b918e7ffc86457668178329?a=0x740676fef9f13d499ef890028b065d6282e472e3",
+    "website_link": "https://bengalswap.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2444,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
