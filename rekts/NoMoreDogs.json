@@ -1,0 +1,51 @@
+{
+    "id": 2402,
+    "project_name": "NoMoreDogs",
+    "title": "NoMoreDogs",
+    "description": null,
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "NMD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x65ff69c76f8be20Ea4DedE0455e89Ec456694483",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610a74c86c99d.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x6cee354086874056d207e533c5fe852471c1c45c?a=0xc46dc91cfc1344177846147903c73a3cc815a153",
+    "website_link": "https://nomore.dog/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2402,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
