@@ -1,0 +1,51 @@
+{
+    "id": 50,
+    "project_name": "MiniVault.Finance",
+    "title": "MiniVault.Finance",
+    "description": "<p>The primary reason for this project's rug pulling was its proxy contract. The development team declined to destroy the contract's admin keys. They made the decision to replace the proxy contract with a new unverified contract that enabled the mint function. One trillion miniCORE tokens were minted onto the EOA wallet. They were exchanged into ETH by the contract deployer.<br><br>Mint transaction:<br>https://etherscan.io/tx/0xeaa1d313b6be3a1f0608cc11524d7337dbdafe7b6a4d16a8fe169e8ee439ef23<br><br>Swap transaction:<br>https://etherscan.io/tx/0xee0312389f56ba0802b997cc0d62f85d3f6814e269e7200b49c4179f546147a8</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "miniCORE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0209ce3516587cc4a22b54c024b2ee724c117036",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df35049da9c.png",
+    "date": "2020-11-26",
+    "scam_updates": [],
+    "proof_link": "https://archive.ph/YKWZJ",
+    "website_link": "https://minivault.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201104144320/https://minivault.finance/",
+    "twitter_link": "https://twitter.com/miniCORETeam",
+    "telegram_link": null,
+    "our_post_link": "https://t.me/defiyield_ann/243",
+    "funds_lost": 17372,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 50,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
