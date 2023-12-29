@@ -1,0 +1,51 @@
+{
+    "id": 2931,
+    "project_name": "Bitcurex",
+    "title": "Bitcurex (2)",
+    "description": "<p>Bitcurex posted an announcement revealing the exchange had suffered a hack attack. The message said a third party was able to perform an automated data collection on the site, resulting in the loss of partial assets.<br><br>According to the Polish Bitcoin news website Bitcoin.pl, one of the bitcoin addresses for Bitcurex is 1K2PKGPGrYTQjPohXjDgbjeRtynGAZU9cF.<br><br>When reviewing the address, you can see large chunks of bitcoin being sent (withdrawn) from that address on October 13. In total, the sum of those transactions is over 2300 BTC. This converts to a loss of over $1.5 million in funds.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624dc38ad565c.png",
+    "date": "2016-10-15",
+    "scam_updates": [],
+    "proof_link": "https://news.bitcoin.com/bitcurex-forced-million-theft/",
+    "website_link": "https://bitcurex.com/",
+    "webarchive_link": "https://web.archive.org/web/20120918230253/https://bitcurex.com/",
+    "twitter_link": "https://twitter.com/bitcurex",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1500000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2931,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
