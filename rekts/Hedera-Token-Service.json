@@ -1,0 +1,56 @@
+{
+    "id": 3371,
+    "project_name": "Hedera Token Service",
+    "title": "Hedera Token Service",
+    "description": "<p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\";'><strong>Quick Summary</strong></p><p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\";'>Hedera Token Service was exploited via smart contract decompiling issue, leading to the theft of liquidity pool tokens from multiple DEXs.&nbsp;</p><p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\"; min-height: 16px;'><br></p><p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\";'><strong>Details of the Exploit&nbsp;</strong></p><p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\";'>Hedera Token Service is a public network which is powered by the Hedera Hashgraph blockchain.</p><p style='font-stretch: normal; font-size: 13px; line-height: normal; font-family: \"Helvetica Neue\";'>On March 9, 2023, the attacker exploited the Hedera Token Service of the Hedera mainnet. The attacker targeted token in multiple liquidity pools at various DEXs that use Uniswap-derived contract code ported over to use the Hedera Token Service, including Pangolin, SaucerSwap, and HeliSwap. The amount of tokens stolen has not been confirmed. To prevent the attacker from stealing more tokens, Hedera turned off mainnet proxies, which removed user access to the mainnet. The Hedera Team announced in their official Twitter, the root cause of the issue was identified and solution is in progress. Once the solution is ready, Hedera Council members will sign transactions to approve the deployment of the code on mainnet to remove this vulnerability, at which point the mainnet proxies will be turned back on, allowing normal activity to resume, they claimed.</p>",
+    "name_categories": "Other,Token",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/GV90w, https://archive.ph/MZqe9, https://archive.ph/M2f5D, https://archive.ph/df4fu",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/640b34f52e9bb.jpg",
+    "date": "2023-3-9",
+    "scam_updates": [
+        {
+            "date": "2023-03-11T00:00:00.000Z",
+            "description": "<p>The stolen amount was calculated by the Hedera Team and reached roughly 600,000 $USD worth 3,630,000 $WHBAR, 287,998 $USDC, 66,997 $USDT, and 1,001 $DAI according to the project's official blog&nbsp;</p>"
+        }
+    ],
+    "proof_link": "https://status.hedera.com, https://cointelegraph.com/news/hedera-confirms-exploit-on-mainnet-led-to-theft-of-service-tokens, https://twitter.com/hedera/status/1634055353435561986, https://hedera.com/blog/analysis-remediation-of-the-flash-loan-bug-on-the-hedera-network",
+    "website_link": "https://hedera.com",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/hedera",
+    "telegram_link": "https://discord.com/invite/hedera",
+    "our_post_link": null,
+    "funds_lost": 600000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/hashgraph/hedera-services",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/hedera",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3371,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
