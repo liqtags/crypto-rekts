@@ -1,0 +1,51 @@
+{
+    "id": 188,
+    "project_name": "KeeperDAO",
+    "title": "KeeperDAO (fake)",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xd9965ead567a1bfd380ef550f04f928eaaee6ba9c636a748e39840a4273f28ef<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x133acaa12dd8fd5beedc3aa0f9efa3892ba3ea3e6a2137b5f8fc427b72e34e6f</p>",
+    "name_categories": "Token",
+    "token_name": "K3D",
+    "proof_archive_link": "https://archive.ph/e4A8p",
+    "technical_issue": null,
+    "token_address": "0x573169979d264b14d625b16fe27caaf0b6339483",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d5d9e16ff.png",
+    "date": "2020-11-7",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 170217,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 188,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
