@@ -1,0 +1,60 @@
+{
+    "id": 3417,
+    "project_name": "MTDAO",
+    "title": "MTDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>A suspicious flashloan caused a slippage on the MTDAO (MT) project, leading to a 90% drop in value, and $280k worth of funds lost. &nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong>&nbsp;</p><p>On October 16th 2022, a suspicious flashloan occurred on the MTDAO (MT) project, which caused a significant slippage and a drop of around 90% in the value of the token. The flashloan was used to obtain 730 BNB, which is equivalent to around $280k. The funds were then sent to EOA 0xb2e8, which deposited them into TornadoCash, a privacy-focused Ethereum mixer. The rest of the funds, approximately $219k, were bridged to Ethereum mainnet and remain in EOA 0xD0665. It is unclear who is behind the exploit, and investigations are ongoing.</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "MT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+    "token_addresses": [
+        {
+            "address": "0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+            "url": "https://bscscan.com/address/0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642a8c09ca36c.jpg",
+    "date": "2022-10-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1581966260686188547?s=20",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/IFcyI",
+    "twitter_link": "https://twitter.com/mtdao_?lang=en",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 280000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3417,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
