@@ -1,0 +1,51 @@
+{
+    "id": 3196,
+    "project_name": "Sirius Token",
+    "title": "Sirius Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sirius Token was rugpulled by contract deployer-related addresses for the total amount of 44,963 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sirius Token is a copycat BEP20 token, and can't be confused with Sirius Finance Project or other projects with the same name. $SIUS token was rugpulled by two EOA addresses, which got the token from the token deployer. The total drained liquidity reached 44,963 $USD worth of assets in $WBNB and $BUSD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The malicious actors addresses:</p><p>https://bscscan.com/address/0x5386b957700a4f0c998599e825bc4c53eab762a7</p><p>https://bscscan.com/address/0xd74d9828ac70a067c7ed3748be9c955e102c4600</p><p><br></p><p>Liquidity Pool:</p><p>https://bscscan.com/address/0xBF5de443b374D66b6F311B4b4C4eBB218A7531FF</p><p><br></p><p>The biggest rug transaction:</p><p>https://bscscan.com/tx/0x7081408c39b9c860dd661d6b0bf388ebd8163a49f4ab9d12e61bbfb90e432538</p><p><br></p><p>Transfer transaction between malicious addresses:</p><p>https://bscscan.com/tx/0xef15fffcd56237fa817fdccf45cbe4b710036d99c697f2f7286d0f39f542e318</p><p><br></p><p>Token flow from the deployer to the attacker:</p><p>https://bscscan.com/tx/0xc057f6e2d6106b830d4cf6edda684acbde37103393beaea6672ed869ed6aef4d</p><p>https://bscscan.com/tx/0xc2789ac71f15086783c16bc43af5686d3ab839aa22d0911bec0a6b65a7a86557</p><p>https://bscscan.com/tx/0x32a032736c2e567592abba92e6a3001eca0441158500f8f79409390613668186</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "SIUS",
+    "proof_archive_link": "https://archive.is/Yvpba",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x9bc699780A326C059C660C6ee2EF1D8583D01aEa",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6335af8762ce8.png",
+    "date": "2022-9-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1572792819798118400",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 44963,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3196,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
