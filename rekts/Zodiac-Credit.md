@@ -1,40 +1,36 @@
 # Zodiac Credit
 ![Zodiac Credit](/rektimages/Zodiac-Credit.png)
-- Amount Lost: $77,000.00
+- Amount Lost: $33,000.00
 - Funds Returned: $0.00
 - Category: Token
-- Date: 2023-4-9
+- Date: 2023-2-6
 
 **Quick Summary**
 
-On the 9th of April ZOC on the BSC chain was rugged for approx 77k  USD.
+On Feb 6, 2023, the team behind the Zodiac Credit token executed a rug pull, resulting in a loss of funds worth $33K USD.
 
   
 
 
  **Details of the Exploit**
 
-The team responsible for managing liquidity in the ZOC protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.
+The attack on the  Zodiac Credit token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.
 
   
 
 
  **Block Data Reference**
 
-Scammer:
+Deployer:
 
-https://bscscan.com/address/0xfad248b5c08c1a13efd00e348dc40cae9af8a28e
+https://bscscan.com/address/0xb0b86e33d9e0f847e3600fc2ad6b357652c19ec7
 
-Liquidity removal:
+Remove liquidity:
 
-https://bscscan.com/tx/0xb7fcda93cbe3fd5c7ed8f7e9d87b38c22c6d80aff47563350a20e019f663170d
-
-https://bscscan.com/tx/0xec4c14d4edd75350391d540e39d1f622df312fbbb4e6133c7efb82e66e7d381a
-
-https://bscscan.com/tx/0x6e950143c91635d6d92d61507a4f2687a7126616bb837fe48bc7d1e3e699ac0d
+https://bscscan.com/tx/0x0054d2be3295cd7ec5896374f27ad0f3c8aa4d11557912949b6869a7b94710a9
 
 
 Proof Links:
-- [https://twitter.com/CertiKAlert/status/1645093321797246976?s=20](https://twitter.com/CertiKAlert/status/1645093321797246976?s=20)
+- [https://twitter.com/CertiKAlert/status/1622623517526347785?s=20](https://twitter.com/CertiKAlert/status/1622623517526347785?s=20)
 
 

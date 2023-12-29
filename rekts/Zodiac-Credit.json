@@ -1,33 +1,33 @@
 {
-    "id": 3486,
+    "id": 3422,
     "project_name": "Zodiac Credit",
     "title": "Zodiac Credit",
-    "description": "<p><strong>Quick Summary</strong></p><p>On the 9th of April ZOC on the BSC chain was rugged for approx 77k &nbsp;USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team responsible for managing liquidity in the ZOC protocol executed a liquidity removal scam, causing the project to suffer significant losses. The contract deployer removed a significant amount of liquidity pool (LP) and sold off the token, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer:</p><p>https://bscscan.com/address/0xfad248b5c08c1a13efd00e348dc40cae9af8a28e</p><p>Liquidity removal:</p><p>https://bscscan.com/tx/0xb7fcda93cbe3fd5c7ed8f7e9d87b38c22c6d80aff47563350a20e019f663170d</p><p>https://bscscan.com/tx/0xec4c14d4edd75350391d540e39d1f622df312fbbb4e6133c7efb82e66e7d381a</p><p>https://bscscan.com/tx/0x6e950143c91635d6d92d61507a4f2687a7126616bb837fe48bc7d1e3e699ac0d</p>",
+    "description": "<p><strong>Quick Summary</strong></p><p>On Feb 6, 2023, the team behind the Zodiac Credit token executed a rug pull, resulting in a loss of funds worth $33K USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;Zodiac Credit</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://bscscan.com/address/0xb0b86e33d9e0f847e3600fc2ad6b357652c19ec7</p><p>Remove liquidity:</p><p>https://bscscan.com/tx/0x0054d2be3295cd7ec5896374f27ad0f3c8aa4d11557912949b6869a7b94710a9</p>",
     "name_categories": "Token",
-    "token_name": "ZOC",
+    "token_name": "ZODC",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x76401604de3dc379aec0cf54005c0d0937a11717",
+    "token_address": "0x436f510a72f7972996b07dC2edeafa26308539e7",
     "token_addresses": [
         {
-            "address": "0x76401604de3dc379aec0cf54005c0d0937a11717",
-            "url": "https://bscscan.com/address/0x76401604de3dc379aec0cf54005c0d0937a11717",
+            "address": "0x436f510a72f7972996b07dC2edeafa26308539e7",
+            "url": "https://bscscan.com/address/0x436f510a72f7972996b07dC2edeafa26308539e7",
             "network": {
                 "id": 56,
                 "icon_link": "safe/files/network/involved/bsc.svg"
             }
         }
     ],
-    "logo_link": "safe/files/scamDatabase/logo/643e91840f2a8.png",
-    "date": "2023-4-9",
+    "logo_link": "safe/files/scamDatabase/logo/642bf3fcaed95.png",
+    "date": "2023-2-6",
     "scam_updates": [],
-    "proof_link": "https://twitter.com/CertiKAlert/status/1645093321797246976?s=20",
+    "proof_link": "https://twitter.com/CertiKAlert/status/1622623517526347785?s=20",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
     "telegram_link": null,
     "our_post_link": null,
-    "funds_lost": 77000,
+    "funds_lost": 33000,
     "funds_returned": 0,
     "funds_by_chains": [],
     "funds_recovered": null,
@@ -48,7 +48,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 3486,
+            "scam_database_id": 3422,
             "networks": {
                 "id": 56,
                 "name": "Binance",
