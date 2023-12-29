@@ -1,0 +1,51 @@
+{
+    "id": 2889,
+    "project_name": "Bitsane",
+    "title": "Bitsane",
+    "description": "<p>Bitsane, an Irish cryptocurrency exchange, has apparently vanished in a multimillion-euro fraud. Over 100 people have lost between \u20ac5,000 (~$5,700) and \u20ac132,000 (~$150,000).<br><br>Bitsane reportedly went offline on June 17 and its Twitter and Facebook accounts have also been deleted. On June 19, one Twitter user posted that he can\u2019t withdraw XRP from Bitsane:<br><br>One user named Shane Johnson, who claims to be \u201ca US Army veteran,\u201d tweeted that he is missing over $7000 worth of crypto in Bitsane:<br>https://twitter.com/MrShaneson/status/1143943208398983168<br><br>Another user from India, named Vikas Tak, tweeted that Bitsane closed their exchange \u201cwithout any notice\u201d and that he is unable to recover his 6,400 XRP tokens:<br>https://twitter.com/VikasTa96623196/status/1143760208222494720</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6246dd380dda3.png",
+    "date": "2019-6-17",
+    "scam_updates": [],
+    "proof_link": "https://www.theblockcrypto.com/linked/29393/irish-crypto-exchange-bitsane-disappears-in-a-suspected-scam-worth-millions",
+    "website_link": "https://bitsane.com/",
+    "webarchive_link": "http://web.archive.org/web/20190530045834/https://bitsane.com/",
+    "twitter_link": "https://twitter.com/bitsane_com",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 570000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2889,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
