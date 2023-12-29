@@ -1,0 +1,51 @@
+{
+    "id": 3351,
+    "project_name": "Kujira",
+    "title": "Kujira",
+    "description": "<p><strong>Quick Summary</strong></p><p>Kujira Network was exploited, resulting in more than 236,000 $USD worth of $USK being created.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Kujira Network is a layer-1 ecosystem. $USK is the stablecoin of the ecosystem. The attacker exploited a previously unknown vulnerability and minted $USK to buy their own $ETH back from themselves at an unusually expensive rate. This exploit caused $230,000 of bad debt to be accrued by this contract.&nbsp;</p><p><br></p><p>In the USK Margin contract instead of providing collateral and minting $USK, users provide $USK, and the contract is permitted to mint $USK and then swap the total amount for the collateral asset.</p><p>A bug in the USK Margin contract meant it considered $ETH to be worth significantly more than the market rate when opening a new position, allowing the exploiter to place limit orders for their own $ETH at a little less than 10,000 $USK each. They then opened large margin positions, which minted $USK, and bought their own $ETH back from themselves, at nearly 6x the market rate.&nbsp;</p><p>This $USK was then sold for $USDC and extracted from the network. The attacker sold a total of 58 $ETH, and the USK Margin contract has a total debt of 335,000 $USK, equating to roughly $236,000 $USD.&nbsp;</p><p><br></p><p>In order to guarantee that $USK is fully collateralized - the Kujira Team has placed a single limit order on the USDC-USK pair for 245,000 $USDC at a price of 1.01. This meant absorbing any excess supply from the market, offsetting the effects of the attack.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>USK Margin contract:</p><p>https://finder.kujira.app/kaiyo-1/contract/kujira1m4ves3ymz5hyrj3war3t7uxu9ewt8rwpunja87960n0gre3a5pzspgry4g</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "USK",
+    "proof_archive_link": "https://archive.ph/ctumf",
+    "technical_issue": null,
+    "token_address": "https://finder.kujira.app/kaiyo-1/contract/kujira1m4ves3ymz5hyrj3war3t7uxu9ewt8rwpunja87960n0gre3a5pzspgry4g",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63f93bcf08e0a.jpg",
+    "date": "2023-2-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/teamkujira/status/1628008910312407040?s=46&t=E8wgajeu3hb1yrjKdowRVQ",
+    "website_link": "https://kujira.app",
+    "webarchive_link": "https://twitter.com/TeamKujira/status/1628008911931310081",
+    "twitter_link": "https://twitter.com/TeamKujira",
+    "telegram_link": "https://t.me/team_kujira",
+    "our_post_link": null,
+    "funds_lost": 260000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Team-Kujira",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/teamkujira",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3351,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
