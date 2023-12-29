@@ -1,0 +1,51 @@
+{
+    "id": 2866,
+    "project_name": "Chainlink",
+    "title": "Chainlink",
+    "description": "<p>Chainlink operates as a network of nodes that connect smart contracts to the inputs and outputs in the real world that they require in order to function. This creates a \"decentralized oracle network,\" which in principle protects a contract from the risks of relying on a single oracle, which may be hacked.<br><br>The attack specifically targeted certain nodes\u2014in this case, nine that provided pricing data for different other coins. In other words, it was a conventional spam attack in which the attacker allegedly issued a large number of price requests, causing node operators to suddenly pay exorbitant amounts for Ethereum's gas costs.<br><br>Hot wallets are kept by node operators to offset any gas expenses (to ensure their services work). In this example, the wallets' reserve funds were quickly depleted, with one operator reporting losing 20 ETH.<br><br>The attacker minted new Chi tokens (which provides a hedge against gas price volatility and users can mint new tokens at current prices, and trade them later, depending on whether the price is higher or lower than when the token contract was created) at the higher price, then sold them for regular ETH.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241da84e4cc0.jpeg",
+    "date": "2020-9-5",
+    "scam_updates": [],
+    "proof_link": "https://coingeek.com/chainlink-exploits-lead-to-eth-losses-again/",
+    "website_link": "https://chain.link/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/chainlink",
+    "telegram_link": "https://t.me/chainlinkofficial",
+    "our_post_link": null,
+    "funds_lost": 245000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/chainlink",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2866,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
