@@ -1,0 +1,60 @@
+{
+    "id": 3646,
+    "project_name": "RAIDEN GOD Thunder",
+    "title": "RAIDEN GOD Thunder Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>RAIDEN GOD Thunder project was rugpulled by the deployer after removing liquidity from UniSwap pool. The total funds lost is 37,977 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RAIDEN GOD Thunder (RAIDEN) is an ERC20 token trading on UniSwapV3. The token experienced a significant liquidity removal event when its deployer added 35.35 ETH as liquidity to the UniSwapV3 pool and then removed it within a short period. The attacker was able to remove 55.82 ETH, and the profit of the scammer reached 20.44 ETH which equates to roughly 37,977 USD at current market rates. Consequently, the scammer transferred stolen funds to another EOA address and then to TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xEBada7c9C0aa7f1934C5d01139EFa4e4F8247DD5</p><p><br></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x4Dcf852CC68F5529FD812316022f76b361d6DF0C</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x1f2759b030c31dc41b0d9f0f8f5b9cc03f6751981ba358027ef48710e3a38b45</p><p><br></p><p>TornadoCash Transfer Transaction:</p><p>https://etherscan.io/tx/0xc1105a94dcca259733738f1d05f18165ffe488496442177ca3afa0f9e4239f8a</p>",
+    "name_categories": "Token",
+    "token_name": "RAIDEN",
+    "proof_archive_link": "https://archive.ph/n7NVe",
+    "technical_issue": null,
+    "token_address": "0x13e9E6160B3E48cFC07B6B8c0aeED2EF3cc66bC9",
+    "token_addresses": [
+        {
+            "address": "0x13e9E6160B3E48cFC07B6B8c0aeED2EF3cc66bC9",
+            "url": "https://etherscan.io/token/0x13e9e6160b3e48cfc07b6b8c0aeed2ef3cc66bc9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ca269476322.png",
+    "date": "2023-7-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cyversalerts/status/1685973037164703744?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 37977,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3646,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
