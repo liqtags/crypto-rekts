@@ -1,0 +1,70 @@
+{
+    "id": 2684,
+    "project_name": "Cream Finance",
+    "title": "Cream Finance (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>The flash loan attack happened on CreamFinance for the second time. Funds were stolen for a total of 130,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong><br>The attacker:<br>- borrowed $500m DAI from Maker</p><p>- deposited to yDAI into yUSD Curve pool (yDAI/yUSDC/yUSDT/yTUSD)</p><p>- deposited $500m yUSD into yUSD Yean Vault<br>- minted $500m cryUSD by depositing minted yUSD Yearn Vault into Cream Finance</p><p>- flash borrowed $2b ETH using contract</p><p>- minted cETHER by depositing $2b ETH into Cream Finance</p><p>- borrowed $500m yUSD Yean Vault by using the $2b ETH as collateral</p><p>- minted $500m cryUSD by depositing the $500m yUSD Yean Vault back in Cream Finance</p><p>- transferred $500m cryUSD to his address, balance: $1b cryUSD</p><p>- borrowed $500m yUSD Yearn Vault by using the $2b ETH collateral</p><p>- minted $500m cryUSD by depositing the $500m yUSD Yearn Vault back in Cream Finance</p><p>- transferred $500m cryUSD to his address, balance: $1.5b cryUSD</p><p>- borrowed $500m yUSD Yearn Vault, debt $1.5b against a $2b collateral</p><p>- transferred $500m yUSD Yearn Vault to his address, balance: $1.5b cryUSD and $500m yUSD Yearn Vault</p><p>- bought $3m DUSD from Curve</p><p>- burnt $3m DUSD for the underlying yUSD Yearn Vault collateral, balance: $1.5b cryUSD and $503m yUSD Yearn Vault</p><p>- burnt $503m yUSD Yearn Vault shares for the underlying yUSD tokens, the total supply of yUSD Yearn Vault reduced to $8m</p><p>- transferred $8m yUSD to yUSD Yearn Vault. The yUSD balance becomes $16m while the total supply remains $8m. The price of yUSDVault share becomes $2</p><p>- contract's debt increased to $3b against $2b collateral<br>- using $3b of cryUSD collateral on his balance, borrowed $2b ETH</p><p>- balance: $2b ETH, $500m yUSD, and $1b in Cream collateral ($3b cryUSD collateral minus $2b ETH debt)</p><p>- ETH and yUSD were used to pay back the flash loans and utilize the remaining $1b collateral to drain tokens from Cream Finance<br><br>When retrieving the share price of the yUSD pool, Cream's lending pool uses its pricePerShare interface directly, and this interface is supplemented by the contract's collateral balance and the amount of collateral assets in the strategy pool. To calculate the price of a single share, divide the total number of shares by the number of shares outstanding. As a result, by simply moving the collateral to yUSD, the user can easily increase the price of a single share, allowing the collateral in the Cream loan pool to lend more funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's addresses:</p><p>https://etherscan.io/address/0x24354d31bc9d90f62fe5f2454709c32049cf866b</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/address/0x921760e71fb58dcc8de902ce81453e9e3d7fe253</span></p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Attacker contract address:</span><br>https://etherscan.io/address/0x961d2b694d9097f35cfffa363ef98823928a330d</p><p><br>The transaction under the attack:<br>https://etherscan.io/tx/0x0fe2542079644e107cbf13690eb9c2c65963ccb79089ff96bfaf8dced2331c92</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX)",
+    "token_name": "CREAM",
+    "proof_archive_link": "https://archive.vn/Z5Lev",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x2ba592F78dB6436527729929AAf6c908497cB200",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/617aaacf79160.jpeg",
+    "date": "2021-10-27",
+    "scam_updates": [
+        {
+            "date": "2023-03-23T00:00:00.000Z",
+            "description": "<p>The Cream Finance team tweeted about their thoughts and findings about the exploited funds. They firmly believe that TradeOgre DEX is actively complicit in laundering the exploited funds for the exploiter, said in the tweet.</p>"
+        },
+        {
+            "date": "2022-09-12T00:00:00.000Z",
+            "description": "<p>1000 $ETH was swapped for 80 $BTC and bridged using REN protocol from the attacker's second address</p>"
+        }
+    ],
+    "proof_link": "https://archive.vn/Z5Lev, https://archive.is/kZVAa",
+    "website_link": "https://cream.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/CreamdotFinance",
+    "telegram_link": "https://t.me/CreamdotFinance",
+    "our_post_link": null,
+    "funds_lost": 130000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2684,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/audeiCreamFinance.pdf",
+            "date": "2021-01-28T00:00:00.000Z",
+            "partner": {
+                "id": 18,
+                "name": "Trail of Bits",
+                "logo_link": "safe/files/partner/logo/60a7a1cccf039.jpeg"
+            }
+        }
+    ]
+}
