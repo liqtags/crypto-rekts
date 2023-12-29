@@ -1,0 +1,60 @@
+{
+    "id": 3789,
+    "project_name": "Jewels",
+    "title": "JWL Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>JWL token was rugpulled by scammer, depleting liquidity pool worth 63,794 USD worth 31.14 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>JWL is an ERC20 token trading on UniSwap. On Nov 24, 2023, the scammer performed a rugpull by swapping a significantly larger number of tokens, completely depleting the liquidity pool worth 31.14 WETH (63,794 USD). The stolen funds were then transferred to another EOA and withdrawn to Binance through several different addresses. After a couple of minutes, the deployer sent 2.13 ETH to the scammer's address after the token swap.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x537A494fF82d8DE428Cde9B9e5BD93bF47a90011</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x3d6b06939Ed5b1911C0f296029a1Be34DAbD6522</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xfaf6c9d4d7752c180f1255bc71fc41dbc2e2e0cdca1c83dbf08df01480092e3b</p><p><br></p><p>Funds Holder Address as of Nov 27, 2023:</p><p>https://etherscan.io/address/0x1607644EE87Fd3a63e5002d7AA8Fe3b788d4C29B</p><p><br></p><p>Binance Withdraw Transaction:</p><p>https://etherscan.io/tx/0xcc5ceda273a7e2dd27a4aa54769e8b250c1fb7101081086446ec08b383622db2</p>",
+    "name_categories": "Token",
+    "token_name": "JWL",
+    "proof_archive_link": "https://archive.ph/uF4jo",
+    "technical_issue": null,
+    "token_address": "0xA2E8B27500d3BaE6DAaD122bDd8f405b65752175",
+    "token_addresses": [
+        {
+            "address": "0xa2e8b27500d3bae6daad122bdd8f405b65752175",
+            "url": "https://etherscan.io/address/0xa2e8b27500d3bae6daad122bdd8f405b65752175",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656469ce0c9b0.png",
+    "date": "2023-11-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727874455219900427",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 63794,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3789,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
