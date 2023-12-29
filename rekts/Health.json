@@ -1,0 +1,60 @@
+{
+    "id": 3289,
+    "project_name": "Health",
+    "title": "Health",
+    "description": "<p><strong>Quick Summary</strong></p><p><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">Price of the HEALTH token in a Uniswap pool <span style=\"box-sizing: border-box; font-family: Arial; font-size: 11pt; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;\">was manipulated</span> allowing the attacker to take a 33 BNB profit.&nbsp;</span></p><p><br></p><p><strong><span style=\"font-size:11pt;font-family:Arial;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>Details of the Exploit</strong></span></strong></p><p>The exploit was possible due to a bug in the internal _tranfer() function of the token contract that was causing decrease of HEALTH in the pool.&nbsp;</p><p><br></p><p>The attack was performed in three transactions. Each transaction involved the following steps:&nbsp;</p><p>1. Taking a flash loan of 40 WBNB;</p><p>2. Exchanging the borrowed amount to HEALTH;</p><p>3. Calling 999 token transfers with 0 value. Due to the bug in _transfer(), the number of HEALTH in the pool decreased each time, hence the token price was increasing.</p><p>4. Exchanging the inflated HEALTH token to WBNB with profit.&nbsp;</p><p>5. Paying back the flashloan&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The attacker contract:</span></strong></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://bscscan.com/address/0x80e5fc0d72e4814cb52c16a18c2f2b87ef1ea2d4&nbsp;</span></strong></p><p><br></p><p><strong style='box-sizing: inherit; margin: 0px; padding: 0px; border: 0px; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: background 0.45s ease-in 0s, background-color 0.45s ease-in 0s, border 0.45s ease-in 0s; font-weight: 700; font-family: \"Avenir Next\", sans-serif; color: rgb(55, 63, 71); font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(245, 248, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The attack transactions:</span></strong></p><p>https://bscscan.com/tx/0xae8ca9dc8258ae32899fe641985739c3fa53ab1f603973ac74b424e165c66ccf&nbsp;</p><p>https://bscscan.com/tx/0x780f712866bc2ad2a32239b2702121856693476580ffee772f9a49148be0266a&nbsp;</p><p>https://bscscan.com/tx/0x0daad55e460d673a554fc9458032ce70d3d201b6506474b15b24f2f14aa3a462</p>",
+    "name_categories": "Token",
+    "token_name": "HEALTH",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x32B166e082993Af6598a89397E82e123ca44e74E",
+    "token_addresses": [
+        {
+            "address": "0x32B166e082993Af6598a89397E82e123ca44e74E",
+            "url": null,
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/639b274017b0c.png",
+    "date": "2022-10-20",
+    "scam_updates": [],
+    "proof_link": "https://blog.solidityscan.com/health-token-hack-analysis-dad822fbf0, https://twitter.com/BlockSecTeam/status/1583073442433495040",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/F8xpT, https://archive.ph/avQZM",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8800,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3289,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
