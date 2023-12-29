@@ -1,0 +1,51 @@
+{
+    "id": 2898,
+    "project_name": "CoinBene",
+    "title": "CoinBene",
+    "description": "<p><strong>Quick Summary</strong></p><p>CoinBene exchange was targeted by hackers, with an estimated loss of $45 million in Coinbene Coin and Maximine Coin.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>CoinBene, a cryptocurrency exchange, admitted to being targeted by hackers. Despite the platform's assurance that all funds are \"100% secure\", industry experts have contested this claim. According to cryptocurrency expert Nick Schteringard, the hacker appears to have stolen roughly $6 million in Coinbene Coin and $39 million in Maximine Coin, which were later dumped on the market.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's addresses:</p><p>- https://etherscan.io/address/0x6585329751de1140d68bd6cad1b46ebec1131f75</p><p>- https://etherscan.io/address/0xb3df999c5dc026dea265aeb02b8519844c9b6d5e</p><p><br></p><p>Stolen funds:</p><p>- Coinbene Coin ($6M)</p><p>- Maximine Coin ($39M)</p><p>The platform has promised to fully compensate any users who lost funds due to this incident.</p><p><br></p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624af60991b42.jpeg",
+    "date": "2019-3-26",
+    "scam_updates": [],
+    "proof_link": "https://www.zdnet.com/article/cryptocurrency-platforms-dragonex-and-coinbene-disclose-hacks/, https://twitter.com/zmxnbcvc/status/1110834180437336064",
+    "website_link": "https://www.coinbene.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/CoinBenex",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2898,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
