@@ -1,15 +1,15 @@
 {
-    "id": 506,
-    "project_name": "Enigma",
-    "title": "Enigma",
+    "id": 501,
+    "project_name": "Eristica token",
+    "title": "Eristica token",
     "description": null,
-    "name_categories": "Other",
-    "token_name": "ENG",
+    "name_categories": "Token",
+    "token_name": "ERT",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
+    "token_address": "0x92a5b04d0ed5d94d7a193d1d334d3d16996f4e13",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60ec1d153879f.png",
+    "logo_link": "safe/files/scamDatabase/logo/60ec1a6fe11d3.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 506,
+            "scam_database_id": 501,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",

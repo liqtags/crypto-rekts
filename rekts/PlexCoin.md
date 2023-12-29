@@ -1,8 +1,8 @@
-# Enigma
-![Enigma](/rektimages/Enigma.png)
+# PlexCoin
+![PlexCoin](/rektimages/PlexCoin.png)
 - Amount Lost: $0.00
 - Funds Returned: $0.00
-- Category: Other
+- Category: Exchange (DEX)
 - Date: None
 
 

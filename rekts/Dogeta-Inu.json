@@ -1,18 +1,18 @@
 {
-    "id": 506,
-    "project_name": "Enigma",
-    "title": "Enigma",
-    "description": null,
-    "name_categories": "Other",
-    "token_name": "ENG",
+    "id": 512,
+    "project_name": "Dogeta Inu",
+    "title": "Dogeta Inu",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
+    "name_categories": "Token",
+    "token_name": "DETA",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
+    "token_address": "0x03ef3753ebb3829bd417df77a624e029cba5eede",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60ec1d153879f.png",
+    "logo_link": "safe/files/scamDatabase/logo/60ec1ff126e17.png",
     "date": null,
     "scam_updates": [],
-    "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -32,14 +32,14 @@
     "is_verified_source_code": null,
     "is_public_team": null,
     "scam_type": {
-        "id": 10,
-        "type": "Rugpull"
+        "id": 7,
+        "type": "Honeypot"
     },
     "network": {},
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 506,
+            "scam_database_id": 512,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",

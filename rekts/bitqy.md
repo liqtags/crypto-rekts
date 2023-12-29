@@ -1,8 +1,8 @@
-# Enigma
-![Enigma](/rektimages/Enigma.png)
+# bitqy
+![bitqy](/rektimages/bitqy.png)
 - Amount Lost: $0.00
 - Funds Returned: $0.00
-- Category: Other
+- Category: Token
 - Date: None
 
 

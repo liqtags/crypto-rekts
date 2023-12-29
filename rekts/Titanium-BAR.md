@@ -1,8 +1,8 @@
-# Enigma
-![Enigma](/rektimages/Enigma.png)
+# Titanium BAR
+![Titanium BAR](/rektimages/Titanium-BAR.png)
 - Amount Lost: $0.00
 - Funds Returned: $0.00
-- Category: Other
+- Category: Token
 - Date: None
 
 

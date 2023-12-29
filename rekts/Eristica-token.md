@@ -1,8 +1,8 @@
-# Enigma
-![Enigma](/rektimages/Enigma.png)
+# Eristica token
+![Eristica token](/rektimages/Eristica-token.png)
 - Amount Lost: $0.00
 - Funds Returned: $0.00
-- Category: Other
+- Category: Token
 - Date: None
 
 

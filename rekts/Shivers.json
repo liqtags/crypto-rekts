@@ -1,15 +1,15 @@
 {
-    "id": 506,
-    "project_name": "Enigma",
-    "title": "Enigma",
+    "id": 503,
+    "project_name": "Shivers",
+    "title": "Shivers",
     "description": null,
-    "name_categories": "Other",
-    "token_name": "ENG",
+    "name_categories": "Token",
+    "token_name": "SHVR",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xf0ee6b27b759c9893ce4f094b49ad28fd15a23e4",
+    "token_address": "0xd5f788ca0de8f17cbde1d1e35aa8f005a87fa00b",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60ec1d153879f.png",
+    "logo_link": "safe/files/scamDatabase/logo/60ec1b26c080b.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 506,
+            "scam_database_id": 503,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
