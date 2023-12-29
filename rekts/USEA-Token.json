@@ -1,0 +1,68 @@
+{
+    "id": 3553,
+    "project_name": "USEA Token",
+    "title": "USEA Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>USEA Token project was rugpulled by the deployer who minted 867 million $USEA tokens, transferred them to an EOA address, and sold them for 1,114,468 $USD on PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>USEA Token is a BEP20 token trading on PancakeSwap. The project experienced a significant rugpull in which the token deployer minted 867 million $USEA tokens and transferred them to another EOA address. The scammer then sold off all the tokens for 1,114,468 $USD via PancakeSwapV3. Investigation revealed that all the stolen funds were distributed to other addresses as well.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xc88727cd59f2cB1A079B065c4b60b24e7a99144a</p><p><br></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x11eb8c55603b9720804db178b788f69f7b7a5dc7</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x3c3eAFa892605eCbA7b980cdeE6AFD61Dbe96CfB</p><p><br></p><p>Biggest Draining Transaction:</p><p>https://bscscan.com/tx/0x4cd009dd732ad543a7a4acb4fbdf5f447092aa8a782202b957dbf752dab2eb20</p><p><br></p><p>Mint Transaction:&nbsp;</p><p>https://bscscan.com/tx/0x4e889ed2083f1efbf6bd45723a7e1230a9ac0d7b6ae15c5588d470662e98e417&nbsp;</p><p><br></p><p>Tokens Transfer Transaction:</p><p>https://bscscan.com/tx/0x30a1ceb17e55fd396dc0499b38c63b56537260b684e2a101864236dc3e074d09</p>",
+    "name_categories": "Token",
+    "token_name": "USEA",
+    "proof_archive_link": "https://archive.ph/AkGDL",
+    "technical_issue": null,
+    "token_address": "0xdf7ff95aa3d855a6fb21399432166a92fdcf1b1a",
+    "token_addresses": [
+        {
+            "address": "0xdf7ff95aa3d855a6fb21399432166a92fdcf1b1a",
+            "url": "https://bscscan.com/address/0xdf7ff95aa3d855a6fb21399432166a92fdcf1b1a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x917bb06Ff553c6a9796BcF57B53d98D56dD54E0a",
+            "url": "https://bscscan.com/address/0x917bb06Ff553c6a9796BcF57B53d98D56dD54E0a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6480dd32b527d.png",
+    "date": "2023-6-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/NumenAlert/status/1666282860389761030?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1114468,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3553,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
