@@ -1,0 +1,51 @@
+{
+    "id": 2688,
+    "project_name": "Boy X Highspeed",
+    "title": "Boy X Highspeed",
+    "description": "<p><strong>Quick Summary</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>BXH protocol was attacked by a private key compromise, and more than 130,000,000 $USD worth of assets stolen</span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BXH DeFi lending protocol was attacked by private key disclosure, by gaining control over the target smart contract, the attacker withdrew all funds at the following transaction:<br>https://bscscan.com/tx/0x6466cad9ad300054f0d560db5619a299f67883ad51b6aeafad3061d09674ac84<br><br>Funds recipient (attacker's contract) transferred all funds directly into the attacker's EOA:<br>https://bscscan.com/address/0x13b81fa9c0873a74c49a85bd8149c1c20bf9d18c#tokentxns<br><br>Part of the stolen funds was bridged through Ren protocol into Bitcoin:<br>https://bscscan.com/tx/0xa54f7d9cad2922800692a5de9a85d7829a4993366dc751884babb2fdb553d820<br>https://bscscan.com/tx/0xa317f711eeeb2b3a6ed30e9ca0ed16e05495ada95548133af590d24ef8cd5331<br>https://bscscan.com/tx/0x15ea305dc2aab326e9cd1c6a4dda8ea35b361ea1e52f3cf808345111c47cfb46<br>https://bscscan.com/tx/0xbb585cb778e3b5f75b8592f2db5a39ee76e3a509077e60f25fc6e0ef7cd82c91<br>https://bscscan.com/tx/0xfa4b24b0b965c22ac6d2e8067e0c1aad39f7b6f4a2c0f769290d0fd942edcbb7<br><br>Part of the stolen funds was transferred to another EOA:<br>https://bscscan.com/tx/0x80636964e0ec33b44689e22aa7c5d47518751411475b5dd0975048342faf6099<br>https://bscscan.com/tx/0xce864913d488efbbd07916f9813d021839be264407f96367950d3138b600e6ff<br>https://bscscan.com/tx/0x5c0b2fd45f6274a23b19ea6362b226f2dcaea5e57209f8dc211e8746e9aab411<br><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:<br>https://bscscan.com/address/0x48c94305bddfd80c6f4076963866d968cac27d79<br><br>Attacker's contract, used for withdrawing assets:<br>https://bscscan.com/address/0x13b81fa9c0873a74c49a85bd8149c1c20bf9d18c</p><p><br></p><p>The funds' recipient bridged tokens through AnySwap into Ethereum:<br>https://bscscan.com/address/0x44cc771fbe10dea3836f37918cf89368589b6316#tokentxns<br><br>The address leads to the Ethereum blockchain, which has a connection with the Binance wallet:<br>https://etherscan.io/address/0x44cc771fbe10dea3836f37918cf89368589b6316</p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "BXH",
+    "proof_archive_link": "https://archive.vn/oUlU3, https://archive.is/GOQzr, https://archive.is/wip/TkMHL",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x6d1b7b59e3fab85b7d3a3d86e505dd8e349ea7f3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/617ffa87d90eb.png",
+    "date": "2021-10-30",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/bxh-defi-exploit-drains-estimated-130m-token-price-tanks/, https://www.coindesk.com/tech/2021/11/01/139m-bxh-exchange-hack-was-the-result-of-leaked-admin-key/",
+    "website_link": "https://www.bxh.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/BXH_Blockchain",
+    "telegram_link": "https://t.me/BXH_global",
+    "our_post_link": null,
+    "funds_lost": 139895140,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2688,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
