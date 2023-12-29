@@ -1,0 +1,51 @@
+{
+    "id": 2730,
+    "project_name": "NowSwap Protocol",
+    "title": "NowSwap Protocol",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x5676e585bf16387bc159fd4f82416434cda5f1a3<br><br>The transaction behind the exploit:<br>https://etherscan.io/tx/0xf3158a7ea59586c5570f5532c22e2582ee9adba2408eabe61622595197c50713<br><br>NowSwap hack was made possible by an error when updating the smart contract\u2019s code. &nbsp;The original code of the contract contained a value, K, of 1,000 in three different places. &nbsp;The update to the code changed this value in two places but not the third.<br><br>This third location was a check of the value of K, but it only checked for a value 1/10 of the actual value. &nbsp;This enabled the attacker to swap 1 wei for 98% of the value stored in the contract.<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0x5676e585bf16387bc159fd4f82416434cda5f1a3?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61ba0caff127b.jpeg",
+    "date": "2021-9-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/nowswap_org/status/1438329668042584069, https://halborn.com/explained-the-nowswap-protocol-hack-september-2021/, https://twitter.com/PuPuThrashing/status/1438058002817323009",
+    "website_link": "https://nowswap.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/nowswap_org",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1142357,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/Y6KMCnU63G",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2730,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
