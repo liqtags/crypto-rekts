@@ -1,0 +1,84 @@
+{
+    "id": 3232,
+    "project_name": "Mango Inu",
+    "title": "Mango Inu",
+    "description": "<p><strong>Quick Summary</strong></p><p>Mango Inu project was exit scammed which caused slippage of more than 80%. The scammer profited 40,388 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mango Inu is ERC20 token trading on UniSwap. $MNGO token dropped by more than 80% after rugpull. The token deployer drained liquidity for 40,388 $DAI. There are multiple pools of the token which has more than 1 million $USD in liquidity.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://etherscan.io/address/0xadbab4f38ff9dcd71886f43b148bcad4a3081fb9</p><p><br></p><p>Liquidity drain transaction:</p><p>https://etherscan.io/tx/0xf7129622e7ebede9fb876e0a392aaf0b1a3f4831adca6afc093519f8d65f5384</p>",
+    "name_categories": "Token",
+    "token_name": "MNGO",
+    "proof_archive_link": "https://archive.ph/tQ9Vi",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x335E14d18D8A903B782A39059Dc35d61b94e1c1B",
+    "token_addresses": [
+        {
+            "address": "0x335E14d18D8A903B782A39059Dc35d61b94e1c1B",
+            "url": "https://etherscan.io/address/0x335E14d18D8A903B782A39059Dc35d61b94e1c1B",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x3b80d2D51c1C95E393b26332839610bCE3D9Bd14",
+            "url": "https://etherscan.io/address/0x3b80d2D51c1C95E393b26332839610bCE3D9Bd14",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x057eDFb691216072B124FCa1d78A743A9da7a139",
+            "url": "https://etherscan.io/address/0x057eDFb691216072B124FCa1d78A743A9da7a139",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x083964DdfEc82202379a9D45FcE0bAb3aeE38c51",
+            "url": "https://etherscan.io/address/0x083964DdfEc82202379a9D45FcE0bAb3aeE38c51",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63512f5c16d16.png",
+    "date": "2022-10-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1582976826653126656",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40384,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3232,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
