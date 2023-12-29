@@ -62,9 +62,10 @@ def make_toc(items, filename):
     for item in items:
         project_name = item['project_name']
         formatted_funds_lost = "${:,.2f}".format(item['funds_lost'])
+        formatted_returned = "${:,.2f}".format(item['funds_returned'])
         slugged_name = project_name.replace(" ", "-")
         linkToMarkdownFile = f'/rekts/{slugged_name}.md'
-        tocsWithTitle += f"- [{project_name}]({linkToMarkdownFile}) - {formatted_funds_lost} \n"
+        tocsWithTitle += f"- [{project_name}]({linkToMarkdownFile}) - Lost: {formatted_funds_lost} Recovered: {formatted_returned} \n"
         # tocsWithTitleAndSumLost
     with open(filename, 'w') as readme:
         readme.write(tocsWithTitle + '\n')
