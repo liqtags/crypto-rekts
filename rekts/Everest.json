@@ -1,18 +1,18 @@
 {
-    "id": 1796,
+    "id": 838,
     "project_name": "Everest",
     "title": "Everest",
-    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "EVT",
+    "token_name": "Everest",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x3c709fda11140cbbeccf6073f123134efd47020c",
+    "token_address": "0xb3ba10bb9816035b4eb8f77220a3cdd8fd95c2e2",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5366321d15.png",
+    "logo_link": "safe/files/scamDatabase/logo/60ee054e05daf.png",
     "date": null,
     "scam_updates": [],
-    "proof_link": null,
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614 https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1796,
+            "scam_database_id": 838,
             "networks": {
                 "id": 56,
                 "name": "Binance",
