@@ -1,0 +1,76 @@
+{
+    "id": 3681,
+    "project_name": "SafeMoonX",
+    "title": "SafeMoonX Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SafeMoonX (SFMX) experienced a rugpull on Jul 26, 2023; deployer removed liquidity, resulting in a loss of 25,018 $USD (14.79 $ETH).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SafeMoonX (SFMX) is an ERC20 token trading on UniSwap. On Jul 26, 2023, the deployer removed liquidity from the LP pool via a privileged function using a malicious contract with verified source code. The stolen funds, amounting to 25,018 $USD worth 14.79 $ETH, were transferred through a couple of EOA addresses and currently remain at one of them.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://etherscan.io/address/0x892F10E35900d411872dF969881086E941A7fC93</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://etherscan.io/address/0x9aF4D799D432cDe13165ac84f215D511CbDaDFCf</p><p><br></p><p>- Funds Holder as of August 18, 2023:</p><p>&nbsp; https://etherscan.io/address/0xc1eff258977665d507e844458837e91d0abce480</p><p><br></p><p>- Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x566e0693a9b91da7dcb9a73df75692b9b34a03acd59904ed369aecee7004dbee</p>",
+    "name_categories": "Token",
+    "token_name": "SFMX",
+    "proof_archive_link": "https://archive.ph/bTKXL",
+    "technical_issue": null,
+    "token_address": "0x551cafa86bdfb81a455541c7a89bde989d39ca97",
+    "token_addresses": [
+        {
+            "address": "0x551cafa86bdfb81a455541c7a89bde989d39ca97",
+            "url": "https://etherscan.io/token/0x551cafa86bdfb81a455541c7a89bde989d39ca97",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xdc75bac86d5508c8cd55ce552221e9df746c64fe",
+            "url": "https://etherscan.io/address/0xdc75bac86d5508c8cd55ce552221e9df746c64fe",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xa90cf3ca7a110bef95fea549f2da7c4bda039114",
+            "url": "https://etherscan.io/address/0xa90cf3ca7a110bef95fea549f2da7c4bda039114",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64df392d687c8.png",
+    "date": "2023-7-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1684125287100067840?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 25018,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3681,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
