@@ -1,0 +1,68 @@
+{
+    "id": 3759,
+    "project_name": "fren",
+    "title": "FREN Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>FREN token was rugpulled by deployer, removing liquidity worth 33,768 USD from UniSwap pool in an exit scam.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>FREN is an ERC20 token trading on UniSwap. On Jul 10, 2023, the deployer of the FREN token removed liquidity from the UniSwap pool in a single transaction, executing a rugpull exit scam. The deployer removed 18.01 WETH, which is equivalent to approximately 33,768 USD, causing a significant loss for the token holders.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x2A6d72d2399834a45c5F86245BCeEfdb588D8Ac1</p><p>07e7af59cc2420545224f08762e9935b3c4</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x7a043300b0d554eb80843731e217e965d29f889b3f117f5d6b0409ef8324cc05</p>",
+    "name_categories": "Token",
+    "token_name": "FREN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x37941b3Fdb2bD332e667D452a58Be01bcacb923e",
+    "token_addresses": [
+        {
+            "address": "0x37941b3Fdb2bD332e667D452a58Be01bcacb923e",
+            "url": "https://etherscan.io/address/0x37941b3Fdb2bD332e667D452a58Be01bcacb923e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xc449907e7af59cc2420545224f08762e9935b3c4",
+            "url": "https://etherscan.io/address/0xc449907e7af59cc2420545224f08762e9935b3c4",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/65427d445c6b7.png",
+    "date": "2023-7-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 33768,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3759,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
