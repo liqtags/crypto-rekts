@@ -1,0 +1,51 @@
+{
+    "id": 2835,
+    "project_name": "DollarDoge",
+    "title": "DollarDoge",
+    "description": "<p>The contract deployer has minted and sold tokens:<br>https://bscscan.com/tx/0xcce6ee774f3465571179e48d078f8fc51aa75c7aa89f88c1784a119351c2e1cf<br><br>Stolen funds were transferred to the external address:<br>https://bscscan.com/tx/0x8ede198c36b8069992f380f9f2cd538267f48f457a6d5e96a0d41f4d44071d3f<br><br>The recipient deposited funds into Tornado Cash mixer:<br>https://bscscan.com/address/0x0a01490526e59c275ac8e58e2c2d9b1d41d13233</p>",
+    "name_categories": "Token",
+    "token_name": "DollarDoge",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x454876d97098528d83e661eD3ddf19b10e397352",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/621653e517abd.jpeg",
+    "date": "2022-2-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1496395973882437633",
+    "website_link": "https://www.usdtdoge.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dollardogebsc",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 193703,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2835,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
