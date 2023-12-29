@@ -1,0 +1,51 @@
+{
+    "id": 2784,
+    "project_name": "Umbrella Network",
+    "title": "Umbrella Network",
+    "description": "<p>The hackers attacked Chainswap\u2019s contracts and stole a little over 3 million $UMB tokens on ETH from the Chainswap vault, which was the entirety of the UMB tokens available there. The hackers also managed to mint an additional 20 million in UMB tokens on the BSC side but did not manage to sell them before all UMB tokens there were frozen.<br><br>The transactions the hackers have made:<br>https://docs.google.com/spreadsheets/d/1KxLpMvhypikrcNph7NAimeFdyPbRK1rrw-6yAcREqa4/edit?usp=sharing</p>",
+    "name_categories": "Other",
+    "token_name": "UMB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6fc13eace26590b80cccab1ba5d51890577d83b2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e708e04de5a.jpeg",
+    "date": "2021-7-11",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/umbrella-network/an-important-message-to-the-community-about-the-chainswap-hack-e2603de5f0e6, https://medium.com/umbrella-network/umbrella-network-update-on-chainswap-hack-628d1aaaa873",
+    "website_link": "https://umb.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/umbnetwork",
+    "telegram_link": "https://t.me/umbrellanet",
+    "our_post_link": null,
+    "funds_lost": 505060,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/umbrella-network",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2784,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
