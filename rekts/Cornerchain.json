@@ -1,0 +1,51 @@
+{
+    "id": 3178,
+    "project_name": "Cornerchain",
+    "title": "Cornerchain",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Cornerchain project has been rug pulled by the NeoFinance team. The team made profit of 196 $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The scammer deployed the token to the BSC network minting to his/her account 10M $CNR tokens and pair on PancakeSwap was created:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x76b97203b3b85982596bf9f045d56e4e6bafe6da87b6a5b223052bb2e799a9b1</p><p data-v-51e0c2ec=\"\">Scammer then added liquidity by depositing 300 $BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x2f8637644d32c7afc84e9099a58321185d1e867b43d490808fddf16d56fb5e8b</p><p data-v-51e0c2ec=\"\">When people started investing their funds in the token, scammers removed the liquidity taking profit of 196 $BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0xb17ce0d9b978069beebff22b151e02da6a5837ba61dd07e1786c6c3b0956ceaf</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Scammer address: https://bscscan.com/address/0x8f0d9acb433ca1c0f214990c4c908f2aa12387e4</p>",
+    "name_categories": "Token",
+    "token_name": "CNR",
+    "proof_archive_link": "https://web.archive.org/web/20220906141134/https://twitter.com/PeckShieldAlert/status/1567145660000108544",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0xcf030ef1e14a7719aebe2471319b5547b4f22887",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631855ef6d188.png",
+    "date": "2022-9-6",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 51411,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3178,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
