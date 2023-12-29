@@ -1,0 +1,51 @@
+{
+    "id": 2773,
+    "project_name": "PancakeSwap",
+    "title": "PancakeSwap (2)",
+    "description": "<p>Since April 12th, 2021 a person who had access to a Binance Smart Chain account 0x35f16a46d3cf19010d28578a8b02dfa3cb4095a1 (PancakeSwap admin account) has stolen from PancakeSwap lottery pool 59,765 Cakes (equivalent of about $1,800,000). He used the exploit a few times. Shortly after the last theft, the lottery game was suspended, and this account was banned by PancakeSwap.<br><br>The admin of PancakeSwap used his opportunity to manually call lottery contract methods such as:<br><br>- function drawing(uint256 _externalRandomNumber) external onlyAdmin<br><br>- function enterDrawingPhase() external onlyAdmin<br><br>He executed a few calls simultaneously (buy, enter drawing, draw) and put them all into the same block. That created for him an opportunity to predict jackpot numbers, since the random number generator, based on the previous block hash, was no longer random.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "CAKE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e589cc028ab.jpeg",
+    "date": "2021-4-12",
+    "scam_updates": [],
+    "proof_link": "https://cryptopwnage.medium.com/1-800-000-was-stolen-from-binance-smart-chain-pancakeswap-lottery-pool-ca2afb415f9, https://hacked.slowmist.io/",
+    "website_link": "https://pancakeswap.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PancakeSwap",
+    "telegram_link": "https://t.me/pancakeswap",
+    "our_post_link": null,
+    "funds_lost": 1800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/pancakeswap/",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/pancakeswap",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2773,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
