@@ -1,0 +1,51 @@
+{
+    "id": 2882,
+    "project_name": "CoinTiger",
+    "title": "CoinTiger",
+    "description": "<p>In July 2019, Singapore-based CoinTiger exchange admitted that cybercriminals had stolen a cold wallet, that contained over 400 million Proton Tokens (PTT). It was subsequently able to lock the wallet that contained the stolen PTT. &nbsp;Unfortunately, by the time it located the wallet, 120 million PTT had already been traded out.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6244852ae3d17.jpeg",
+    "date": "2019-8-17",
+    "scam_updates": [],
+    "proof_link": "https://www.enterprisetimes.co.uk/2020/09/01/us-doj-lays-claim-to-stolen-cryptocurrencies/, https://www.cryptoglobe.com/latest/2020/09/suspected-north-korean-hackers-move-140000-in-btc-after-u-s-doj-moves-to-seize-funds/",
+    "website_link": "https://www.cointiger.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/CoinTigerEX",
+    "telegram_link": "https://t.me/Cointiger_en",
+    "our_post_link": null,
+    "funds_lost": 1800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2882,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
