@@ -1,0 +1,85 @@
+{
+    "id": 2766,
+    "project_name": "SashimiSwap",
+    "title": "SashimiSwap",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0xa8189407a37001260975b9da61a81c3bd9f55908<br><br>The transactions behind the attack :<br>https://etherscan.io/tx/0x713c2ce2cb424eb746083c25b7e48c368bb64f587c2d77b5c474a307a79bf069<br>https://bscscan.com/tx/0xdf719d2535be32e302c1670a7453bdf648101a43b412e44d9e7e3e3754cc3387<br>https://hecoinfo.com/tx/0xecde0b3821a8d250810db91d7ef82acced1eaf28324807bdbdfd755537366438<br><br>The attacker used a bug in the calculations that are different from Uniswap. Due to fact that all tokens sit in one contract, he escalated it by:<br>- adding two fake tokens<br>- adding liquidity between both tokens and WETH/fake token<br>- swapping between UNI/WETH/fake tokens<br>- removing liquidity<br><br>Total funds were stolen:<br>- 80 ETH (Ethereum)<br>- 10,000 DAI (Ethereum)<br>- 45,000 USDT (HECO)<br><br>Stolen funds were deposited into Tornado Cash mixer:<br>https://bloxy.info/txs/calls_from/0xa8189407a37001260975b9da61a81c3bd9f55908?signature_id=994162&amp;smart_contract_address_bin=0x722122df12d4e14e13ac3b6895a86e84145b6967</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SASHIMI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xC28E27870558cF22ADD83540d2126da2e4b464c2",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e1b33b731b2.jpeg",
+    "date": "2021-12-30",
+    "scam_updates": [],
+    "proof_link": "https://sashimisashimi5.medium.com/statement-on-hackers-attack-322ab6a5c31d, https://twitter.com/BlockSecTeam/status/1476516736422019082",
+    "website_link": "https://sashimi.cool/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SASHIMISASHIMI5",
+    "telegram_link": "https://t.me/joinchat/KABj-Bz6CVzyi23HK2rjzA",
+    "our_post_link": null,
+    "funds_lost": 316800,
+    "funds_returned": 0,
+    "funds_by_chains": [
+        {
+            "network": {
+                "id": "128",
+                "name": "Heco"
+            },
+            "funds": {
+                "lost": {
+                    "value": "45000",
+                    "date": "2021-12-30"
+                }
+            }
+        },
+        {
+            "network": {
+                "id": "1",
+                "name": "Ethereum"
+            },
+            "funds": {
+                "lost": {
+                    "value": "271800",
+                    "date": "2021-12-30"
+                }
+            }
+        }
+    ],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/zTdmUkb",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2766,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 128,
+            "scam_database_id": 2766,
+            "networks": {
+                "id": 128,
+                "name": "Heco",
+                "icon_link": "safe/files/network/huobi.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
