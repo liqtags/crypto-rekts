@@ -1,0 +1,51 @@
+{
+    "id": 2727,
+    "project_name": "Vulcan Forged",
+    "title": "Vulcan Forged",
+    "description": "<p><strong>Quick Summary</strong></p><p>Vulcan Forged project was exploited, and the private keys of 96 wallets were stolen with the assets of total worth 140,000,000 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Vulcan Forged creates wallets on behalf of its users and stores private keys on their own side. As a result, the leak of access to the private keys has affected 96 wallets and based on the token price during the hack, victims suffered a $140m total loss. Assets including ETH and MATIC have also been taken out.<br><br>96 transactions, where the hacker steals PYR token:<br>https://explorer.bitquery.io/matic/txs/transfers?receiver=0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1&amp;currency=0x348e62131fce2f4e0d5ead3fe1719bc039b380a9<br><br>Transactions, where PYR token was exchanged for MATIC, which later was distributed between external wallets:<br>https://explorer.bitquery.io/matic/txs/transfers?receiver=0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1&amp;currency=MATIC<br><br>Selling on Ethereum:<br>https://bloxy.info/txs/calls_from/0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1?signature_id=1493863&amp;smart_contract_address_bin=0x1111111254fb6c44bac0bed2854e76f90643097d<br><br>https://bloxy.info/txs/calls_from/0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1?signature_id=1493862&amp;smart_contract_address_bin=0x1111111254fb6c44bac0bed2854e76f90643097d<br><br>Part of the stolen funds was distributed between different external wallets as well as the other one was sold on Uniswap and QuickSwap.</p><p><br></p><p><strong>Block Data Reference</strong></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Attacker address on Polygon:</span><br>https://polygonscan.com/address/0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1</p><p>Attacker address on Ethereum:<br>https://etherscan.io/address/0x48ad05a3b73c9e7fac5918857687d6a11d2c73b1</p><p><br></p><p>2,000,000 PYR tokens are still held on this wallet:<br>https://etherscan.io/address/0xe3cd90be37a79d9da86b5e14e2f6042cd0e53b66#tokentxns</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "PYR",
+    "proof_archive_link": "https://archive.is/GA4mw",
+    "technical_issue": null,
+    "token_address": "https://polygonscan.com/token/0x348e62131fce2f4e0d5ead3fe1719bc039b380a9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b76a4eeaea1.jpeg",
+    "date": "2021-12-12",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/business/2021/12/14/gaming-platform-vulcan-forged-refunds-users-after-140m-hack/",
+    "website_link": "https://auth.vulcanforged.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/VulcanForged",
+    "telegram_link": "https://t.me/VeriArti",
+    "our_post_link": null,
+    "funds_lost": 140000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/ZyjTvFM",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2727,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
