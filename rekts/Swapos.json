@@ -1,0 +1,76 @@
+{
+    "id": 3481,
+    "project_name": "Swapos",
+    "title": "Swapos",
+    "description": "<p><strong>Quick Summary</strong></p><p>Swapos DEX was exploited on the same day it launched, with 464,026 $USD worth of assets stolen. The exploit was possible due to a vulnerable 'swap' function that allowed anyone to perform malicious swaps and&nbsp;</p><p>fully drain the pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Swapos is a DEX running on the Ethereum chain. The project offered decentralized trading with low fees. On the day Swapos V2 Contracts were deployed, a vulnerability was discovered in their 'swap' function which allowed an attacker to execute malicious swaps and fully drain all three pools, including SWP/WETH, USDC/WETH, USDC/WBTC. In total, <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>464,026 $USD</span> worth of assets were stolen from these pools. Interestingly, the exploiter executed a transaction after a hack with a message reading \"safe\", suggesting they may be a whitehat hacker attempting to bring attention to this vulnerability rather than committing outright theft. Regardless of intent, funds are currently held within the attacker's contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x53fc4a4a638378b9b81393fbe0fa9a6de2323ebd</p><p><br></p><p>Malicious transactions:</p><p>https://etherscan.io/tx/0x78edc292af51a93f89ac201a742bce9fa9c5d9a7007f034aa30535e35082d50a</p><p>https://etherscan.io/tx/0x4c55ba0b403e63702a0358e66b5b20b79c3ff1d77804d4a887dc5c0d119f1966</p><p>https://etherscan.io/tx/0xbe643ccdcae57181b9fef554d63029e0605b2e860172d442c37eaabffdb44575</p><p><br></p><p>Attacker message:</p><p>https://etherscan.io/tx/0x4c37d83fa16994ce09fcb2425b9dcad36feb5cea48366880be0828b01843f624</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Malicious c</span>ontract:</p><p>https://etherscan.io/address/0x2df07c054138bf29348f35a12a22550230bd1405</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SWP",
+    "proof_archive_link": "https://archive.ph/HpVNo",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x09176f68003c06f190ecdf40890e3324a9589557",
+    "token_addresses": [
+        {
+            "address": "0x8ce2f9286f50fbe2464bfd881fab8effc8dc584f",
+            "url": "https://etherscan.io/address/0x8ce2f9286f50fbe2464bfd881fab8effc8dc584f#code",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x3c7bda028b4ef045b81f6145f5f660169a15268a",
+            "url": "https://etherscan.io/address/0x3c7bda028b4ef045b81f6145f5f660169a15268a#code",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xf40593a22398c277237266a81212f7d41023b630",
+            "url": "https://etherscan.io/address/0xf40593a22398c277237266a81212f7d41023b630",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643d42fca451d.jpg",
+    "date": "2023-4-16",
+    "scam_updates": [],
+    "proof_link": "twitter.com/certikalert/status/1647530789947469825",
+    "website_link": "https://swapos.org",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Swapos_org",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 464026,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": "https://swapos.gitbook.io/swapos/bug-bounty",
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3481,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
