@@ -1,0 +1,51 @@
+{
+    "id": 2943,
+    "project_name": "BitPay",
+    "title": "BitPay",
+    "description": "<p>The attack started with an email sent to BitPay's Chief Financial Officer (CFO), Bryan Krohn. According to court filings, the email's sender is David Bailey. David Bailey claimed to be from yBitcoin, a digital currency newspaper and asked for Mr. Krohn's opinion on a bitcoin industry whitepaper.<br><br>David Bailey's computer had apparently been hijacked as well, and the email forwarded to Mr. Krohn pointed him to a hacker-controlled website. Mr. Krohn was requested to give his login credentials for his workplace email account on the hacker's website. The hacker was subsequently able to transfer unlawful transactions using Mr. Krohn's work email account utilizing those credentials. This occurred on December 11th and 12th, 2014.<br><br>The hacker initially investigated how BitPay conducted business. He then used Mr. Krohn's email account to send emails to BitPay CEO Stephen Pair. Mr. Pair was instructed in the emails to send 1,000 bitcoins to a customer's wallet, which he did. Mr. Pair then received a second email requesting that he give another 1,000 bitcoins to the same buyer, which he did.<br><br>The hacker became more daring the next day. In his email, he requested that the BitPay CEO give an additional 3,000 bitcoins. Mr. Pair wrote an email to Mr. Krohn asking for confirmation this time, not realizing that Mr. Krohn's email had been hijacked. It was found because Mr. Pair duplicated the customer on the 3,000 bitcoin transfer. The consumer said that they had not bought any bitcoins.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f030814e57.jpeg",
+    "date": "2014-9-12",
+    "scam_updates": [],
+    "proof_link": "https://siliconangle.com/2015/09/17/bitpay-hacked-for-1-8-million-in-bitcoin-during-december-2014/, https://www.ccn.com/bitpay-hacked-5-000-bitcoins-stolen/",
+    "website_link": "https://bitpay.com/",
+    "webarchive_link": "https://bitpay.com/",
+    "twitter_link": "https://twitter.com/BitPay",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2370000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2943,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
