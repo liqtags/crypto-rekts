@@ -1,0 +1,51 @@
+{
+    "id": 48,
+    "project_name": "XYearn",
+    "title": "XYearn",
+    "description": "<p>The project was holding a fundraising event. The investors' funds were deposited in the external wallet, transaction list:<br>https://bloxy.info/txs/transfers_to/0x8ebd07ad578c537a76efe8a21e02ef2ea909f031?currency_id=1<br><br>The collected funds from the fundraising event were distributed between other wallets, example transaction:<br>https://etherscan.io/tx/0x77d8d0d525a031e468131c33e31b5ae413173b588007a5560d710d51ef23dcd9<br><br>In addition, this external wallet added a small amount into the liquidity at:<br>https://etherscan.io/tx/0x9cc7d5ce871704dd9c361eb6bb85051fa3b1282416f39ae6445adf51bf4be736</p><p>https://etherscan.io/tx/0x99c58000545cc024305117137258e4b79bc3f4fff52b4f1f61d20a5614c36966</p><p>https://etherscan.io/tx/0xfc07e125a985d51910353601acfcf746fd4ae953fced3fc63029ab4853682576</p><p>https://etherscan.io/tx/0x98156140aff3d130be7e87435a14204a6403669c56891d397d793f710c873a93</p><p>https://etherscan.io/tx/0xf4a807478a1250cbd2e63229b871c3b008404b25b20587aaca857dd0ba6dad43<br><br>The liquidity was removed by the same external wallet at:<br>https://etherscan.io/tx/0x56066e3ff5d879d1de962cf767ac9d2df35de55f17d84fd2b3c800bda2d21b94</p><p>https://etherscan.io/tx/0x61a7b03126b34694e7d2cbad596226976a5faae30547aab4f7d4b003be6ca8a5</p><p>https://etherscan.io/tx/0x762e2b38f04db48b28e5610c2d0a501eee60aee4ca230a991727b21b397ee542</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "XYFI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x738e0c78e759611956894edca8a41955f2701ac5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d4e08f7a36c.jpeg",
+    "date": "2020-10-19",
+    "scam_updates": [],
+    "proof_link": "https://crypto-corner.com/2020/09/24/xyfi-scam-project/",
+    "website_link": "https://xyearn.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/XYearnFinance",
+    "telegram_link": "https://t.me/xyearnfinance",
+    "our_post_link": "https://t.me/defiyield_ann/7",
+    "funds_lost": 129526,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 48,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
