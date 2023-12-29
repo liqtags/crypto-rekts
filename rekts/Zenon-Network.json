@@ -1,0 +1,51 @@
+{
+    "id": 2704,
+    "project_name": "Zenon Network",
+    "title": "Zenon Network",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0x53d4307d7cc1e1b728c0678618efe10a339c18fd<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0xc14ae484b49a346fca9bb414e302c6a9ad0e16fc085c8e197ac7ae85df5727fc<br><br>The Zenon Network hack was made possible by an unprotected burn function within the smart contract. Zenon Network left external access to the <u>burn</u>() function:<br>https://twitter.com/peckshield/status/1462165620506742784<br><br>The attacker deposited tokens in the protocol\u2019s pool for wrapped ZNN (wZNN) tokens and then called the burn function to destroy over 26k wZNN tokens. This decreased the supply of wZNN tokens, increasing their value dramatically. &nbsp;As a result, when the attacker redeemed his wZNN tokens, the pool believed that he was owed a massive number of WBNB tokens, enabling him to drain the pool. Stolen funds were deposited into the Tornado Cash mixer.</p>",
+    "name_categories": "Other",
+    "token_name": "wZNN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x8a7ca49f42e5196c26bb00fa014352e5d065db4d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a62dd4a340e.jpeg",
+    "date": "2021-11-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Zenon_Network/status/1462092022098059280, https://halborn.com/explained-the-zenon-network-hack-november-2021/",
+    "website_link": "https://zenon.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Zenon_Network",
+    "telegram_link": "https://t.me/joinchat/MLyPehLIbJj1nw1XOOOltg",
+    "our_post_link": null,
+    "funds_lost": 1209467,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/XDDjECy",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2704,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
