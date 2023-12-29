@@ -1,0 +1,51 @@
+{
+    "id": 2950,
+    "project_name": "PicoStocks",
+    "title": "PicoStocks",
+    "description": "<p><strong>Quick Summary</strong></p><p>PicoStocks suffered a significant loss due to unauthorized access to their keys, leading to the defunding of both hot and cold wallets&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An individual with prior access to PicoStocks' keys exploited this access to drain both the hot and cold wallets of the stock exchange. Despite the substantial loss, PicoStocks managed to cover the entire amount, ensuring that creditors were not affected by this incident</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f1a370fcfd.jpeg",
+    "date": "2013-11-29",
+    "scam_updates": [],
+    "proof_link": "https://bitcointalk.org/index.php?topic=576337#post_picostocks_hack",
+    "website_link": "https://picostocks.com/",
+    "webarchive_link": "https://web.archive.org/web/20130805160500/https://picostocks.com/",
+    "twitter_link": "https://twitter.com/picostocks",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6420000,
+    "funds_returned": 6420000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2950,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
