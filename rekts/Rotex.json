@@ -1,0 +1,51 @@
+{
+    "id": 223,
+    "project_name": "Rotex",
+    "title": "Rotex",
+    "description": "<p>The contract deployer invoked the hidden minting function under <u>renounceRole()</u> at:<br>https://etherscan.io/tx/0x23481a28e4091d8b189f71abcc3a2e72c0362e26c72947ba3590973159f03789<br><br>Tokens were sold at the following transactions:<br>https://etherscan.io/tx/0xf8b2ebe34ac9203be2572143d7a426aead6c6f62293dcdfcf23f78b2017e0da6<br>https://etherscan.io/tx/0x70bcce36bc91b0bd121b6a9c54c779804146a76592479a0f88ebeb8efeb92f84<br>https://etherscan.io/tx/0xe970d6716362be70499013423d431652ca7e9889b3a799225e2d599d49e56546<br>https://etherscan.io/tx/0x759ae1661f766171b55a534b93b559a1c697c8acc1322cc8a3ea3ef1cb646c32<br>https://etherscan.io/tx/0xe5a998566f50c66957771ef1fc6e7446ce981cd884e36d1e90edd759c91c0452</p>",
+    "name_categories": "Token",
+    "token_name": "RTX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x079de196d5e8babca45f7d621fe0127f4dc753d9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5e9e33a22e.jpeg",
+    "date": "2020-11-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1330174803307864072",
+    "website_link": "https://rotex.website/",
+    "webarchive_link": "https://web.archive.org/web/20201115003844/https://rotex.website/",
+    "twitter_link": "https://twitter.com/ROTEXfinancehttps://t.me/Rotex_RTX",
+    "telegram_link": "https://t.me/Rotex_RTX",
+    "our_post_link": null,
+    "funds_lost": 4804,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 223,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
