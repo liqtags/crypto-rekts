@@ -1,5 +1,5 @@
 {
-    "id": 1200,
+    "id": 593,
     "project_name": "MONKEY",
     "title": "MONKEY",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,12 +7,12 @@
     "token_name": "MONKEY",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x8806b076d0c7ded2efb7b520bc56ed4839b3fb0c",
+    "token_address": "0x13a0e919d439baff33141b7f8f8242899aaf074e",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60efe9ee3b704.png",
-    "date": "2021-6-6",
+    "logo_link": "safe/files/scamDatabase/logo/60ed718430df6.png",
+    "date": null,
     "scam_updates": [],
-    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
+    "proof_link": "https://tokensniffer.com/exploit/Reported%20by%20user(s)",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1200,
+            "scam_database_id": 593,
             "networks": {
                 "id": 56,
                 "name": "Binance",
