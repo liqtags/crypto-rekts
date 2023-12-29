@@ -1,0 +1,60 @@
+{
+    "id": 3457,
+    "project_name": "LPC Token",
+    "title": "LPC Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>LPC token experienced an exploit that resulted in the loss of 45,304 $USD of liquidity from its pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LPC is a BEP20 token trading on PancakeSwap. On 25 July 2022, the project was exploited by an attacker who took advantage of a contract vulnerability and drained 45,304 $USD from its liquidity pool. The malicious actor exploited token contract vulnerabilty that allowed the transfer transactions to multiply the token amount and gain new $LPC tokens for nothing. As a result, there was significant slippage on LPC with over 99% drop in price. All the stolen funds were transferred through TornadoCash.</p><p>&nbsp; &nbsp;&nbsp;</p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xd9936ea91a461aa4b727a7e3661bcd6cd257481c</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x0e970ed84424d8ea51f6460ce6105ab68441d4450a80bc8d749fdf01e504ed8c</p><p>https://bscscan.com/tx/0xbd7ecaf0ce2ea7755d16deb0658fe0570d7e6e45fe3ce5b34f49d1e5f50ddb8b</p>",
+    "name_categories": "Token",
+    "token_name": "LPC",
+    "proof_archive_link": "https://archive.ph/MB6wf",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x1e813fa05739bf145c1f182cb950da7af046778d",
+    "token_addresses": [
+        {
+            "address": "0x1e813fa05739bf145c1f182cb950da7af046778d",
+            "url": "https://bscscan.com/address/0x1e813fa05739bf145c1f182cb950da7af046778d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642f212998d2f.png",
+    "date": "2022-7-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1551488067378233345?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45304,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3457,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
