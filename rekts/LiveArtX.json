@@ -1,0 +1,51 @@
+{
+    "id": 3234,
+    "project_name": "LiveArtX",
+    "title": "LiveArtX",
+    "description": "<p><strong>Quick Summary</strong></p><p>LiveArtX NFT project's wallet was compromised. The value of the Seven Treasures NFT dropped by more than 80%.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LiveArtX is an NFT marketplace. The project experienced a private key compromise on one of the project wallets. The price of the Seven Treasures NFT collection dropped by more than 80% in 24 hours. 36,743 $USD worth of assets were stolen from the victim's wallet.</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/JbSQd, https://archive.ph/RxaVL, https://archive.ph/mnOoA",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63528dd5a6639.png",
+    "date": "2022-10-17",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/liveartx-nft-platform-compromised-wallet-seven-treasures-collection-slumps/, https://twitter.com/MistTrack_io/status/1581916015553699840, https://twitter.com/LiveArtX/status/1581736201111089152",
+    "website_link": "https://liveart.io/NFT",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LiveArtX",
+    "telegram_link": "https://t.me/LiveArtX",
+    "our_post_link": null,
+    "funds_lost": 36743,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/liveart",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3234,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
