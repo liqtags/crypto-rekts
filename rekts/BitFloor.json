@@ -1,0 +1,51 @@
+{
+    "id": 2970,
+    "project_name": "BitFloor",
+    "title": "BitFloor",
+    "description": "<p>Bitfloor stated that it had been hacked and that the service had suffered a loss of 24,000 BTC, which was worth around $250,000 at the time of the heist. As Bitfloor's creator, Roman Shtylman, put it, \"last night, a handful of our systems were hijacked.\" As a result, the attacker was able to obtain an unencrypted backup of the wallet keys (the actual keys live in an encrypted area). They were able to transfer the coins by using these keys. The vast bulk of the coins BitFloor had on hand was taken in this incident.\" As a result, BitFloor has temporarily halted all exchange activities.<br><br>The unencrypted backup that enabled the thief to carry out the attack was created when Shtylman performed a manual upgrade earlier in the day and saved the data to an unencrypted partition on his disk; Shtylman has so far declined to comment further on the details of the attack, saying that \"my current focus is on the future and not the past.\" Bitfloor made not one, but two errors that were both necessary to result in such a severe loss; the first, leaving data stored unencrypted, was an honest and perhaps unavoidable mistake, but it would not have had nearly the same impact if the second error of leaving so much money in an online-accessible \"hot wallet\" had not also occurred.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6250400a164d5.png",
+    "date": "2012-9-5",
+    "scam_updates": [],
+    "proof_link": "https://bitcoinmagazine.com/business/bitfloor-hacked-250000-missing-1346821046",
+    "website_link": "https://bitfloor.com/",
+    "webarchive_link": "https://web.archive.org/web/20120604121013/https://bitfloor.com/",
+    "twitter_link": "https://twitter.com/bitfloor",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 251000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2970,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
