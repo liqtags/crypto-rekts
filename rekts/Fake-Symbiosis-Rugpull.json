@@ -1,0 +1,68 @@
+{
+    "id": 3708,
+    "project_name": "Symbiosis",
+    "title": "Fake Symbiosis Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fake Symbiosis token exit scammed, with deployer removing liquidity worth 23,725 USD from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Symbiosis, a copycat ERC20 token trading on UniSwap, experienced a rugpull on Aug 29, 2023. <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;The token can't be confused with the original project.&nbsp;</span>The deployer removed liquidity from the LP pool and transferred the stolen funds to another EOA address. The funds were distributed between multiple addresses, contributing to a total loss of 23,725 USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x6be5a66afEFf35269D0F3440E5741d392480791f</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0x353561B307F41F0268EF3cc58F4B4F8376eE4420</p><p>https://etherscan.io/address/0xd77e38e7602CfAd72f607373728B681C9f06c1de</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xfbf20d439eb94d02e441b45a8427838b5fa17526135e7e080d8fd1049a3c0229</p>",
+    "name_categories": "Token",
+    "token_name": "Symbiosis",
+    "proof_archive_link": "https://archive.ph/vYiZb",
+    "technical_issue": null,
+    "token_address": "0xbe862864614FB652e663EA82FC3AdEAD65E73d29",
+    "token_addresses": [
+        {
+            "address": "0xbe862864614FB652e663EA82FC3AdEAD65E73d29",
+            "url": "https://etherscan.io/token/0xbe862864614FB652e663EA82FC3AdEAD65E73d29",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xed675ac7fb6dea70ff5a763a339c9b4ef520ff1c",
+            "url": "https://etherscan.io/address/0xed675ac7fb6dea70ff5a763a339c9b4ef520ff1c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6500796769ae8.png",
+    "date": "2023-8-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1696658676902228146?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 23725,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3708,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
