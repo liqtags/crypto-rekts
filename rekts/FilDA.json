@@ -1,0 +1,66 @@
+{
+    "id": 3507,
+    "project_name": "FilDA",
+    "title": "FilDA",
+    "description": "<p><strong>Quick Summary</strong></p><p>On April 12th, 2022, an exploit occurred on FilDA resulting in compromised funds of up to $2 million. The dev team has identified the root cause and suspended all deposits and borrowing on FilDA-ESC. FilDA contracts on other chains remain unaffected.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The compromised funds amount to around 1.6 million USD and were mainly in the form of USDC, HUSD, BUSD, BTC, and ETH. The root cause of the issue is due to the protocol's inability to handle flashloans of ERC677 tokens properly. The attacker used a flashloan to borrow the underlying token, which was then deposited into the protocol via a callback function controlled by the attacker. This resulted in lots of extra f tokens being minted. The borrowed token was then returned to the protocol via a flashloan callback, but lots of fTokens were left to the attacker, allowing them to redeem most of the cash in the lending pool. FilDA on other chains is not affected since the issue is only related to ERC677 tokens.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address: 0x4a9a0cC103199F67730bdC61337d192788858874</p><p>Money Laundering address: 0x93c3A8051b8ba814eB5FB22d655681720E6a4d74</p><p>Attacker contract: 0x00Ff915E663F4037D18B0C83575Ac8f3D4D05BC3</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "FILDA",
+    "proof_archive_link": "https://archive.ph/v1NNG, https://archive.ph/sTOLB",
+    "technical_issue": null,
+    "token_address": "0xe36ffd17b2661eb57144ceaef942d95295e637f0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64462f44420f5.jpg",
+    "date": "2023-4-12",
+    "scam_updates": [
+        {
+            "date": "2023-04-24T00:00:00.000Z",
+            "description": "<p>Filda Team announced about returning funds. 160,000 $ELO and 21,000 $DAI were returned which is worth 229,000 $USD in total at the moment.</p>"
+        }
+    ],
+    "proof_link": "https://fildafinance.medium.com/filda-incident-community-update-ii-e80b05cd0d2, https://twitter.com/FilDAFinance/status/1650440170699739141?s=20",
+    "website_link": "https://www.filda.io/bank",
+    "webarchive_link": "https://archive.ph/Z8ztN",
+    "twitter_link": "https://twitter.com/FilDAFinance",
+    "telegram_link": "https://t.me/FilDAcommunity",
+    "our_post_link": null,
+    "funds_lost": 2000000,
+    "funds_returned": 229000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/fildaio/FilDA",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 128,
+            "scam_database_id": 3507,
+            "networks": {
+                "id": 128,
+                "name": "Heco",
+                "icon_link": "safe/files/network/huobi.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Certik.pdf",
+            "date": "2021-06-01T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
