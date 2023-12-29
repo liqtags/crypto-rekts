@@ -1,0 +1,60 @@
+{
+    "id": 3674,
+    "project_name": "CIRCLE (fake)",
+    "title": "CIRCLE fake token rug pull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The CIRCLE fake token recently experienced a rug pull incident, leading to a significant loss of approximately $216.3k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The project team behind the <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;CIRCLE fake&nbsp;</span>token executed a rug pull by performing token dumping at the PancakeSwap V2 pool. As a result, they successfully withdrew and transferred a total of <span style='color: rgb(15, 20, 25); font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>900&nbsp;</span>&nbsp; BNB, equivalent to $216k USD, distributing the ill-gotten funds across four different wallets.</p><p><br></p><p>This sudden liquidity removal and token transfer event caught the community off guard, causing substantial financial losses to investors and holders of &nbsp;<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;CIRCLE fake&nbsp;</span>token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:&nbsp;</p><p>https://bscscan.com/address/0x88fd0d9379791e940cd0a0b3bc8688062a8f0c5a</p><p>Liquidity Removal tx:</p><p>https://bscscan.com/tx/0x951665fcc56c7071a73ce587650bd01816e35380a2f55dec46b493c688b45572</p><p>https://bscscan.com/tx/0xb8d65dbf6b37a4cd8890a99195b07b98bcc8ec76cea0f284e3d863b76eab29fe</p><p>https://bscscan.com/tx/0x13b759f92c539bf308ff8386a1448a0aef0b4c79222159950b153ef6e37df7d8</p><p>https://bscscan.com/tx/0x34549385d92afc2069d73cd4a1afca6d26c78097109e66a6794426291ab25def</p><p>https://bscscan.com/tx/0xa759acda425eac0bfacc4b6001a7801aad40bf165e043f43161cbfa27ddeddd5</p><p>https://bscscan.com/tx/0x7053a053f50162c78c1ee902aa7bbb2be0cd39e97c9e4a9dd6cd00abb01ac6d1</p>",
+    "name_categories": "Token",
+    "token_name": "CIRCLE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x84ef2e2e977062da3cfc12c038fa3ce2d42d01b1",
+    "token_addresses": [
+        {
+            "address": "0x84ef2e2e977062da3cfc12c038fa3ce2d42d01b1",
+            "url": "https://bscscan.com/address/0x84ef2e2e977062da3cfc12c038fa3ce2d42d01b1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64dbc66ca6d1c.png",
+    "date": "2023-8-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1691190203858276353?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 216000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3674,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
