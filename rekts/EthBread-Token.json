@@ -1,0 +1,68 @@
+{
+    "id": 3574,
+    "project_name": "EthBread Token",
+    "title": "EthBread Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>EthBread project was rugpulled by multiple addresses, who drained 786,574 $USD from PancakeSwap.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$ETB, a token on Binance Smart Chain, experienced a significant liquidity drain from PancakeSwap. After initially distributing $ETB tokens to multiple addresses on February 16, 2023, large-scale removal of liquidity took place on June 25, 2023. Multiple addresses, linked to the deployer, collectively removed approximately 786,574 $USD from the ETB/USDT pool. One of the directly associated addresses removed liquidity amounting to 135,291 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x9f73c549987bd122f21273c990c11ebba1903070</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x77f5a5c24fbf94510e80ecfc7b0958df2db28a93</p><p>https://bscscan.com/address/0xe4ce32ead1bf70c809e60466052832ad14478d5a</p><p>https://bscscan.com/address/0xba9ca72faba425caaa17e092b561c48531936c41</p><p>https://bscscan.com/address/0x28dd1a9c93bc6567e0108ef9c9e063219dada196</p><p><br></p><p>Funds Holder Addresses:</p><p>https://bscscan.com/address/0x92c58163912546204947dB0803A556214B0e8E08</p><p>https://bscscan.com/address/0x7772ffa03836a1d91d78a95a7fb71d6bc62999a4</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0xdeef572dda06671eca9479176261bbc6bf2c0dd77f4dfd54feb88c0ae2d40da8</p><p>https://bscscan.com/tx/0x4a2612b8a47e534151aec1109c59555504ebfdc2c98de065db0145752dfc336e</p><p>https://bscscan.com/tx/0xe6974fc08dc30103cb1f9e765e8afd92463b503d702b6b98527dc4ab6d9c06f0</p>",
+    "name_categories": "Token",
+    "token_name": "ETB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc84e1748376781c09703c1292d9dd659ebfc0c8b",
+    "token_addresses": [
+        {
+            "address": "0xc84e1748376781c09703c1292d9dd659ebfc0c8b",
+            "url": "https://bscscan.com/address/0xc84e1748376781c09703c1292d9dd659ebfc0c8b",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x21bf72f4b7bb8f3b229f8a2169c908db859db366",
+            "url": "https://bscscan.com/address/0x21bf72f4b7bb8f3b229f8a2169c908db859db366",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64997b428cab0.png",
+    "date": "2023-6-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1673015042755919872?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 786574,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3574,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
