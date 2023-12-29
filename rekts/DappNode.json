@@ -1,0 +1,60 @@
+{
+    "id": 3250,
+    "project_name": "DappNode",
+    "title": "DappNode",
+    "description": "<p><strong>Quick Summary</strong></p><p>DappNode project's team wallet's private keys were compromised. The hacker was able to withdraw 158343 $USD worth of assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DappNode is a decentralized network-creating tool. The project also has its DAO and ERC20 token $NODE. The project's team wallet's private keys were compromised. The team is announcing that the wallet was created using the Profanity tool. The hacker transferred 58 $ETH and 552 $GNO to an EOA address and then moved through TornadoCash. The total funds lost is 158,343 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x271d179bad0f356a66cee9adbde6cc63363a6951</p><p><br></p><p>Transfer transactions:</p><p>https://etherscan.io/tx/0xb4b0ccab5ebca7281df083d7491904a9b3451da0565bda293e6e98cf189a31ee</p><p>https://etherscan.io/tx/0xb49c0f606fe3c6ce4fbd1afd1b8b8f00434fcad7c73b0df9da51a570a72be63e</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "NODE",
+    "proof_archive_link": "https://archive.ph/N4bQ1, https://archive.ph/Ix9Jc",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0",
+    "token_addresses": [
+        {
+            "address": "0x3793a5ac0ee459ebe80e7df53f402d0a6c4d42b9",
+            "url": "https://etherscan.io/address/0x3793a5ac0ee459ebe80e7df53f402d0a6c4d42b9",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63612f5ed9d48.png",
+    "date": "2022-10-29",
+    "scam_updates": [],
+    "proof_link": "https://mobile.twitter.com/BlockSecTeam/status/1586671125735825408, https://twitter.com/DAppNode/status/1586769313872101376",
+    "website_link": "https://www.dappnode.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DAppNode",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 158343,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/dappnode",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/g9k6vkW",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3250,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
