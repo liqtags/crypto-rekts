@@ -1,16 +1,16 @@
 {
-    "id": 2246,
+    "id": 493,
     "project_name": "Bezop",
     "title": "Bezop",
     "description": null,
     "name_categories": "Token",
-    "token_name": "Bez",
+    "token_name": "BEZ",
     "proof_archive_link": null,
     "technical_issue": null,
     "token_address": "0x8a1e3930fde1f151471c368fdbb39f3f63a65b55",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/613b434ad566e.png",
-    "date": "2021-9-10",
+    "logo_link": "safe/files/scamDatabase/logo/60ec0e098d5e3.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://github.com/The-Blockchain-Association/sec-notice-list, https://www.sec.gov/spotlight/cybersecurity-enforcement-actions",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 2246,
+            "scam_database_id": 493,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
