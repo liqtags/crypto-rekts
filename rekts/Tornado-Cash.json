@@ -1,0 +1,78 @@
+{
+    "id": 3532,
+    "project_name": "Tornado Cash",
+    "title": "Tornado Cash",
+    "description": "<p><strong>Quick Summary</strong></p><p>Tornado Cash Governance was exploited through a malicious proposal, and the attacker gained control of the governance.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Tornado Cash is a service that provides non-custodial anonymous transactions on EVM chains. The project's Governance was exploited via malicious proposal. On May 20th, 2023 Tornado Cash governance ceased to exist as an attacker granted themselves over 1.2 million fake votes through a malicious proposal. With full control of governance, they could withdraw all locked votes and drain tokens from the contract or brick the router. The attack was sophisticatedly designed by using various tricks like combining CREATE/CREATE2 to create a contract with different bytecode and hiding intent behind emergencyStop() named function while updating proposal logic to grant themselves fake votes. Once gaining control, the attacker drained various contracts and users staking assets as $TRON tokens. The stolen tokens were swapped for $ETH and 360 $ETH was transferred through TornadoCash, while 120.4 $ETH remains at the attacker's address along with 177,340 $USD worth $TORN tokens. Consequently, over 500,000 $TORN tokens were used by the attacker to propose the 21st proposal, which seemingly may return the protocol control back to the users. The total stolen amount reached 1,049,513 $USD, and maybe even more cause of locked $TORN tokens in the next proposal from the attacker.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker's Funds Holder Address:</p><p>https://etherscan.io/address/0x092123663804f8801b9b086b03B98D706f77bD59</p><p><br></p><p>Malicious Proposal Executor Address:</p><p>https://etherscan.io/address/0x592340957eBC9e4Afb0E9Af221d06fDDDF789de9</p><p><br></p><p>Proposal Execution Transaction:</p><p>https://etherscan.io/tx/0x3274b6090685b842aca80b304a4dcee0f61ef8b6afee10b7c7533c32fb75486d</p><p><br></p><p>Selfdestruct Transaction:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/</span>0xd3a570af795405e141988c48527a595434665089117473bc0389e83091391adb</p><p><br></p><p>Vote Gain Transaction:</p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>https://etherscan.io/tx/</span>0xa7d20ccdbc2365578a106093e82cc9f6ec5d03043bb6a00114c0ad5d03620122</p><p><br></p><p>Malicious Proposal:</p><p>https://etherscan.io/address/0xC503893b3e3c0C6b909222b45f2a3a259a52752D</p><p><br></p><p>21st Proposal:</p><p>https://etherscan.io/address/0x1FAd009aD35689B5a9B91486148F2F32AFE31e23#code</p>",
+    "name_categories": "Other",
+    "token_name": "TORN",
+    "proof_archive_link": "https://archive.ph/IFsRc, https://archive.ph/USFVa",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x77777feddddffc19ff86db637967013e6c6a116c",
+    "token_addresses": [
+        {
+            "address": "0x77777feddddffc19ff86db637967013e6c6a116c",
+            "url": "https://etherscan.io/address/0x77777feddddffc19ff86db637967013e6c6a116c",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
+            "url": "https://etherscan.io/address/0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/646b9b38e367e.jpg",
+    "date": "2023-5-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/samczsun/status/1660012958787973121, https://twitter.com/BlockSecTeam/status/1660214665429876740",
+    "website_link": "https://tornado.ws/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TornadoCash",
+    "telegram_link": "https://t.me/TornadoCashOff",
+    "our_post_link": null,
+    "funds_lost": 1049513,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/tornadocash",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3532,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Tornado_Cash_Security_Analysis_by_Pessimistic.pdf",
+            "date": "2020-11-10T00:00:00.000Z",
+            "partner": {
+                "id": 38,
+                "name": "Pessimistic",
+                "logo_link": "safe/files/partner/logo/60de0ba6e3b36.png"
+            }
+        }
+    ]
+}
