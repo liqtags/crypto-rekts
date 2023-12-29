@@ -1,0 +1,51 @@
+{
+    "id": 267,
+    "project_name": "Reflect3 Finance",
+    "title": "Reflect3 Finance",
+    "description": "<p>The contract deployer transferred tokens to some external address at:<br>https://etherscan.io/tx/0x1c30d40e7d560cb241387293d6530b669b933072be590b9e3017f50dfdb29299<br><br>Tokens have been sold by the recipient at:<br>https://etherscan.io/tx/0x29848cd4835594fed12aad59f18b79476676965b31764c1d6785443badab38cc<br><br>Liquidity was removed.</p>",
+    "name_categories": "Token",
+    "token_name": "RFIII",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x79579a3c2a3bd4c4881017ae53af0f73c31f9af5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61acf10e3f.png",
+    "date": "2021-1-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1336522875197538312",
+    "website_link": "http://reflect3.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3294,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 267,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
