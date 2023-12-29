@@ -1,0 +1,68 @@
+{
+    "id": 3721,
+    "project_name": "BNBpay",
+    "title": "BNBpay Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BNBpay token project experienced a rugpull, with the deployer profiting for 53,973 USD on Sep 21, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BNBpay is a BEP20 token trading on PancakeSwap. The deployer performed an exit scam by removing liquidity from the LP pool. After the exploit, the stolen funds were transferred to another EOA address and then deposited into TornadoCash, making it difficult to trace the funds.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xcE389248Dc841AcF33a938cc620cFee712578D9d</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x9D323c34130b6aB5Ae0658fDf8bDD045477cCf15</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x8e99cb2f5033ce7bda1edb545e86319d55ed05baebc489302282ce83bb2a5b1f</p><p><br></p><p>Tornado Cash Deposit <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Transaction:</span> 0x5ffa17d29fd13c17e0d919a3cb18a8e4b7f1f9283202ced4816c125c37fb245e</p>",
+    "name_categories": "Token",
+    "token_name": "BNBpay",
+    "proof_archive_link": "https://archive.ph/grcpF",
+    "technical_issue": null,
+    "token_address": "0xaDD62696db2c2fb7DE8e0f07F422e03BF69646A2",
+    "token_addresses": [
+        {
+            "address": "0xaDD62696db2c2fb7DE8e0f07F422e03BF69646A2",
+            "url": "https://bscscan.com/address/0xaDD62696db2c2fb7DE8e0f07F422e03BF69646A2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xD56a56E28073E31eA9F83d024767290B39227291",
+            "url": "https://bscscan.com/address/0xd56a56e28073e31ea9f83d024767290b39227291",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/651c3f47859d4.png",
+    "date": "2023-9-21",
+    "scam_updates": [],
+    "proof_link": "https://hacked.slowmist.io/?c=BSC",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 53973,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3721,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
