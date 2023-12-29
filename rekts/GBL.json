@@ -1,0 +1,51 @@
+{
+    "id": 2953,
+    "project_name": "GBL",
+    "title": "GBL",
+    "description": "<p>Beijing-based \u201cGBL\u201d was advertised as a Hong Kong-based exchange and shut down after attracting significant investment. At the time, there was a Bitcoin craze in China, which lasted for much of the latter half of 2013 and was credited as the leading cause of the November 2013 bubble.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f23d9e2670.png",
+    "date": "2013-10-26",
+    "scam_updates": [],
+    "proof_link": "https://bitcointalk.org/index.php?topic=576337#post_gbl_scam, https://www.coindesk.com/markets/2013/11/11/41-million-goes-missing-as-chinese-bitcoin-trading-platform-gbl-vanishes/",
+    "website_link": "https://btc-glb.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 4000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2953,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
