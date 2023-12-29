@@ -1,0 +1,51 @@
+{
+    "id": 153,
+    "project_name": "DARK DEFI",
+    "title": "DARK DEFI",
+    "description": "<p><strong>Quick Summary</strong></p><p>Investors of the DARK DEFI project essentially got rekt by two mechanisms the contract deployer introduced which resulted in a centralization issue where one independent wallet was holding more than 5% of the total $DARK token supply.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>A look at &nbsp;DARK DEFI's source code would have pointed investors directly to the fact that the contract owner could disable the transfer function, which restricted users in selling their tokens. This fact also became known to the community later on when alerts surfaced that users were not able to sell their token. In short, the contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xc4bc0b94d780f5c33feef9d6adf0f2d77130d9a374987fe106431343564c29ea<br>The LP tokens were locked and transferred to the vesting smart contract:<br>https://etherscan.io/tx/0x69a6c3d991e8ce3e05097b4855d8f0673ed58f283101066b7e80ea829b3f5693<br>The contract deployer als used a hidden minting functionality under the <u>approveAndCall</u>() function to generate new tokens onto this external wallet at:<br>https://etherscan.io/tx/0x32243fbbece007f7d9a10f13ee2c47d5ddd1876781535af6de8fbb5b6df6fe47<br>https://etherscan.io/tx/0x7d6ccdbabe7f5a04998b20d10054658392d8dd8f09064b0c355275a6b6625b8e</p><p>Through this excessive minting, this external wallet became the top holder of the $DARK token and proceeded to dump the token in several transactions on the Uniswap exchange:<br>https://etherscan.io/tx/0x3e7fb02a83a7de08c0ba90500506c1689a3efb0300806738143deb018203d9a6<br>https://etherscan.io/tx/0x63987426312764999e209308e1c9881482ba60dfdf7248350f4ee7a77096139f<br>https://etherscan.io/tx/0xddb8bc288dc0704dca9897b446098d5f6e94511cf774303261d8889c55fa3d9c</p><p><br></p><p><strong>Block Data Reference</strong></p><p>DARK DEFI token deployer (scammer):</p><p>https://etherscan.io/address/0xfa5a97ce3badaeb5f7ca6e406e42e70319a67b4a</p><p><br></p><p>Scammer Address B:</p><p>https://etherscan.io/address/0x93ec7f43330585bb3c81f3cce2b7a9f3e6bad66f</p><p><br></p><p>More example Transaction:<br>https://etherscan.io/tx/0xef5c9b6d155193549fb417a4dc35f2d364501d91bfa0523d23e7b1017651e76f<br>https://etherscan.io/tx/0xc63eeb6f792e732e248ba0ba747956d485ae5bca6f89f70068b4615f3bbbfaa2</p>",
+    "name_categories": "Token",
+    "token_name": "DARK",
+    "proof_archive_link": "https://archive.ph/siHJY",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x2d98c5e92da2204bc2e9142373ed209a7ca9850a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ba6210905.png",
+    "date": "2021-2-20",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://darkdefi.org/",
+    "webarchive_link": "https://web.archive.org/web/20210219193442/https://darkdefi.org/",
+    "twitter_link": "https://twitter.com/dark_defi",
+    "telegram_link": "https://t.me/darkdefi",
+    "our_post_link": null,
+    "funds_lost": 26543,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 153,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
