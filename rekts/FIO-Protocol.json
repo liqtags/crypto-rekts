@@ -1,0 +1,51 @@
+{
+    "id": 3141,
+    "project_name": "FIO Protocol",
+    "title": "FIO Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $FIO token has been rug pulled by its team. The team made away with &nbsp;$57k in profits.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The token deployer added the liquidity pair USDT/FIO in this transaction: https://polygonscan.com/tx/0xc97c548bef521f880973fee4e24aec3fb291e6d63aa3cd19771d7dd5dcd4ddd1</p><p>Then the token deployer removed liquidity taking profit ~$60k: https://polygonscan.com/tx/0x4493eb21447584de3fa57a37dabbab9dff68d7805fbbe4e864da0936cbbb0a5e</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Involved addresses:</p><p>- Scammer address, token deployer: https://polygonscan.com/address/0x7bf7d0cf594f9628d4c09290675bc66137583ebc</p>",
+    "name_categories": "Token",
+    "token_name": "FIO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://polygonscan.com/address/0x4303d63aa85574c0eada2116791a8318d9a07f4d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63063557501c4.png",
+    "date": "2022-8-14",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/polygon/0xd2f65b18f2420a9cb3a096404fc586814bfe64d9",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 59082,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3141,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
