@@ -1,0 +1,60 @@
+{
+    "id": 3242,
+    "project_name": "Melody",
+    "title": "Melody",
+    "description": "<p><strong>Quick Summary</strong></p><p>Melody project was exploited for 2225 $BNB. The hacker was able to withdraw $SNS tokens using an off-chain vulnerability.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Melody is a GameFi and SocialFi project providing passive income opportunities to creative people. The project's signature check function was exploited by the attacker, which gained $SNS tokens and swapped them for 2225 $BNB. All the stolen amount was sent to another EOA address.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://bscscan.com/address/0xa3793ccb57fddaedd4edcbd4ca515876057e43a0</p><p>https://bscscan.com/address/0x7ce402b6753589965ae152971f7d7010bf25408a</p><p>https://bscscan.com/address/0x1e091ae02f932be50088cc2e6ac9ca841ecebdb7</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x7fd61155cc33cf52e107980f31c1e198766709d8fa75f6e48230af82ec9dea8f</p><p>https://bscscan.com/tx/0xe10c76cb5da111ea71a085cb08775d9b1824eeafa96fcf4a20aaa7c3c4b59e83</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "SGS",
+    "proof_archive_link": "https://archive.ph/FvCLD, https://archive.ph/dufgx",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xa6cba90f6246aad9b4f3dcd29918821921a5c1ff",
+    "token_addresses": [
+        {
+            "address": "0x8c9ae2eacee8cb2e1a7e44572d31968c6bf44c00",
+            "url": "https://bscscan.com/address/0x8c9ae2eacee8cb2e1a7e44572d31968c6bf44c00",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63594ba6e2101.png",
+    "date": "2022-10-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1584902481381044224, https://mobile.twitter.com/Melody_SGS/status/1584629847997190144",
+    "website_link": "https://www.ammelody.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Melody_SGS",
+    "telegram_link": "https://t.me/Melodyappchat",
+    "our_post_link": null,
+    "funds_lost": 644404,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/melodyapp",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3242,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
