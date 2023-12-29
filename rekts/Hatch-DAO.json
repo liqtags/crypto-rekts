@@ -1,0 +1,51 @@
+{
+    "id": 492,
+    "project_name": "Hatch DAO",
+    "title": "Hatch DAO",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x485f0a4706998b614210d7a56d75f915be5b0390d6a460eb68a8511de2931dce<br><br>The contract deployer minted new tokens onto his wallet at:<br>https://etherscan.io/tx/0x33c247cafa8a64659926a625b1b8b84774746203af745023cd3cf8d654d3fa1d<br><br>Minted tokens were sold by the contract deployer:<br>https://etherscan.io/tx/0xa67b70923abd8d75473569f0a26afcf765c7605a84ece7abbe1f161819249d15<br><br>The difference between the initial liquidity and the one that was removed is not large, losses cannot be calculated correctly.</p>",
+    "name_categories": "Other",
+    "token_name": "HATCH",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x6f3009663470475f0749a6b76195375f95495fcb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61ead35a09d16.png",
+    "date": "2020-10-11",
+    "scam_updates": [],
+    "proof_link": "https://hackernoon.com/crypto-exit-scams-are-nothing-new-lets-call-them-out-before-more-people-get-scammed-2q503z8g",
+    "website_link": "https://hatchdao.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/HatchDAO",
+    "telegram_link": "https://t.me/hatchdao",
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/HatchDAO/HatchDAO-Token",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/KEbktMy",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 492,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
