@@ -1,0 +1,60 @@
+{
+    "id": 3535,
+    "project_name": "POOPEPE token",
+    "title": "POOPEPE token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Meme token $POPE conducted a rug pull on May 26th, resulting in the theft of approximately $100,000 (~54 ETH) from holders.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team behind $POPE swapped 10,000,000,000,000,000,000 tokens for 54.4 Ether and proceeded to sell the ETH, leaving investors with no value. They then distributed the obtained funds to various wallets in an attempt to obfuscate their tracks and avoid accountability.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Tx:</p><p>https://etherscan.io/tx/0xe5c2dac1660e6df7a29bc31cd71ebd8b4259bd7fbdd1afe7d29e57003d879744</p><p><br></p><p>Address:</p><p>https://etherscan.io/address/0xc74d2fe1452a78c2c1312f87c9171c8b7bfc539c</p>",
+    "name_categories": "Token",
+    "token_name": "POPE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x36206debFAF4C686Be01e5e68fdea66d09B4319a",
+    "token_addresses": [
+        {
+            "address": "0x36206debFAF4C686Be01e5e68fdea66d09B4319a",
+            "url": "https://etherscan.io/token/0x36206debfaf4c686be01e5e68fdea66d09b4319a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/647efc9fba03d.png",
+    "date": "2023-5-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/artemDeDotFi/status/1662716843490934784?s=20,",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3535,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
