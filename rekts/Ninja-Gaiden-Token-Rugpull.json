@@ -1,0 +1,60 @@
+{
+    "id": 3726,
+    "project_name": "Ninja Gaiden",
+    "title": "Ninja Gaiden Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>GAIDEN token exit scammed via rugpull with deployer removing 133,171 USD worth of liquidity from UniSwap pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>GAIDEN is an ERC20 token trading on UniSwap. On Oct 02, 2023, the deployer removed 83,14 WETH, which equates to roughly 133,171 USD, from the liquidity pool. The stolen funds were transferred to another EOA address, partially withdrawn through Tornado Cash, and the remaining amount was distributed among multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x8d9ea28fff3352feF32B089D26dF514262EA0010</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0xB8B1387CB3fbEdd877283E51933C8438A2ee216B</p><p>https://etherscan.io/address/0x9fE7c1db7F0Db38bDCe0327ff50FA7EF73031250</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x76865cd33047f1ec943e47cf2027feddf7f9824ddf68da3f1078ba3d7e15d9b7</p>",
+    "name_categories": "Token",
+    "token_name": "GAIDEN",
+    "proof_archive_link": "https://archive.li/CT7lO",
+    "technical_issue": null,
+    "token_address": "0xF66853febb2562D9F0d1f2d76CEf4aeCb0af282E",
+    "token_addresses": [
+        {
+            "address": "0xf66853febb2562d9f0d1f2d76cef4aecb0af282e",
+            "url": "https://etherscan.io/address/0xf66853febb2562d9f0d1f2d76cef4aecb0af282e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6524267558c1c.png",
+    "date": "2023-10-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1709134563455209507",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 88794,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3726,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
