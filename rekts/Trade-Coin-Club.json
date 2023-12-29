@@ -1,0 +1,56 @@
+{
+    "id": 3260,
+    "project_name": "Trade Coin Club",
+    "title": "Trade Coin Club",
+    "description": "<p><strong>Quick Summary</strong></p><p>Trade Coin Club founders were running a Ponzi Scheme by conning investors for a fraudulent crypto trading bot. Roughly 295,000,000 $USD worth of $BTC was scammed.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Trade Coin Club is an investment company, which promises \"minimum returns of 0,35% daily\" by \"performing millions of microtransactions per second\". The company ran a Ponzi Scheme and actually had no trading bot. The funds from 100,000 worldwide investor's deposits were withdrawn directly by the four people to enrich themselves.&nbsp;</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/iH2mz, https://archive.ph/Mv0OH",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/636b76f530675.jpg",
+    "date": "2016-8-2",
+    "scam_updates": [
+        {
+            "date": "2022-11-04T00:00:00.000Z",
+            "description": "<p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>SEC charged Douver Torres Braga, Joff Paradise, Keleionalani Akana Taylor, and Jonathan Tetreault for raising over 80,000 $BTC from investors between 2016 and 2018.</span></p>"
+        }
+    ],
+    "proof_link": "https://www.sec.gov/news/press-release/2022-201, https://www.coindesk.com/policy/2022/11/04/sec-charges-trade-coin-club-founding-members-with-operating-a-295-million-ponzi-scheme/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 295000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3260,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
