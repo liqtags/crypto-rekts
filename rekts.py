@@ -81,7 +81,7 @@ def make_title(filename):
                 
 def download_project_images():
     # with open('1-small.json', 'r') as f:
-    with open('1-medium.json', 'r') as f:
+    with open('rektdb.json', 'r') as f:
         data = json.load(f)
         items = data['items']
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
