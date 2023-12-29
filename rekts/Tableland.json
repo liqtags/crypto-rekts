@@ -1,0 +1,51 @@
+{
+    "id": 3128,
+    "project_name": "Tableland",
+    "title": "Tableland",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Tableland Discord was compromised by a hacker posing as a moderator on the channel. The hacker published a link to the fake Tableland website inside Tableland's Discord group. During any interaction with the website, the assets of the users were withdrawn from their wallets to the addresses of the scammer.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The Tableland Network is a decentralized web3 protocol for structured relational data, focussing on Ethereum and EVM-compatible L2s.</p><p data-v-51e0c2ec=\"\">Community members that reached the phishing domain, triggered a function to witdraw funds from their browser-based wallets through clicking the mint button. The stolen assets were sent to two ETH wallets:&nbsp;</p><p data-v-51e0c2ec=\"\">- hacker address (A)</p><p data-v-51e0c2ec=\"\">- hacker address (B)</p><p data-v-51e0c2ec=\"\">Hacker address (A) &nbsp;began receiving stolen assets through a phishing domain. Eleven Tableland Rigs (Name of the NFT collection) were sent to this address, as well as NFT from other projects. The tokens were stored for a short period of time before they were sold on an open trading platform or transferred to the address of a hacker address (B).</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">- Hacker address (A): https://etherscan.io/address/0x288040312d39ce8fea20d85eb2d50cf31563b716</p><p style=\"margin:0cm;background:white;\">- Hacker address (B): https://etherscan.io/address/0xb3b79426b163a53ea0f07ec28f72b77b3d30e8e9</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": "https://web.archive.org/web/20220721064146/https://twitter.com/dylanshub_/status/1550007578981171201, https://web.archive.org/web/20220721061543/https://twitter.com/CertiKAlert/status/1550001438880944129, https://web.archive.org/web/20220725192702/https://docs.tableland.xyz/security/anatomy-of-a-fakemint",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62fcd75df29f0.jpeg",
+    "date": "2022-7-21",
+    "scam_updates": [],
+    "proof_link": "https://docs.tableland.xyz/security/anatomy-of-a-fakemint",
+    "website_link": "https://tableland.xyz/",
+    "webarchive_link": "https://web.archive.org/web/20220513051518/https://tableland.xyz/",
+    "twitter_link": "https://twitter.com/tableland__",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45819,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/dc8EBEhGbg",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 14,
+        "type": "Phishing"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3128,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
