@@ -59,7 +59,7 @@ def rekt_loop(items, start):
             rekt.write(markdownFullWithDescription + '\n')
         
         commandToRun = f"git add * && git commit -m 'add {project_name} to rekts'"
-        returned_value = subprocess.call(commandToRun, shell=False)
+        returned_value = subprocess.call(commandToRun, shell=True)
         # os.system(commandToRun)
 
 def convert_html_to_markdown(html):
@@ -109,7 +109,7 @@ def download_project_images():
         add_title = f"# Rekt Projects\n\n"
         # make_title(readme_file_name)
         make_toc(items, readme_file_name)
-        rekt_loop(items, 3199)
+        rekt_loop(items, 3247)
 
 download_project_images()
 
