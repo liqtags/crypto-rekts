@@ -1,0 +1,60 @@
+{
+    "id": 3411,
+    "project_name": "Satt King",
+    "title": "Satt King",
+    "description": "<p><strong>Quick Summary</strong></p><p>Satt King project rugpulled by the initial token holder which removed 52,769 $USD worth liquidity.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Satt King is a BEP20 token trading on PancakeSwap. The token experienced a significant slippage and its price to plummet by over 99%. Investigation revealed that the project was rugpulled by its initial token holder, which received 100,000,000,000 $SattKing tokens when the token contrac was created. Consequently, the scammer removed liquidity 52,769 $USD worth of $BNB. The funds were transferred to multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xd67903004a78df47d6c34b5589ff63961defd773</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x82aedda6d637fca7aee44a52d6016fec53ff5f33f4a36feba1936f868332bfb9</p><p><br></p><p>Transfer transaction examples:</p><p>https://bscscan.com/tx/0x900e6ac66dde033d943625cc3e869aee9299af6d14f63aaa326a293d20b92242</p><p>https://bscscan.com/tx/0x47eec68c0d080bdc979d2b7f35c3001e765ffcccad6f8c38829ba975902c1503</p>",
+    "name_categories": "Token",
+    "token_name": "SattKing",
+    "proof_archive_link": "https://archive.ph/qVoAt",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x26822d43f34224707e267e6496a3f22cf8478bdd",
+    "token_addresses": [
+        {
+            "address": "0x26822d43f34224707e267e6496a3f22cf8478bdd",
+            "url": "https://bscscan.com/address/0x26822d43f34224707e267e6496a3f22cf8478bdd",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6426cc11acb10.png",
+    "date": "2023-2-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1627210208958193664",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 52769,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 5,
+        "type": "Abandoned"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3411,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
