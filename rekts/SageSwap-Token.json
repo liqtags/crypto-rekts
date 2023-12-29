@@ -1,0 +1,51 @@
+{
+    "id": 2530,
+    "project_name": "SageSwap Token",
+    "title": "SageSwap Token",
+    "description": null,
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SAGE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x9e0bc04dad42429523fd375b9a0a2384d1738fa0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610d0cfb8115e.png",
+    "date": "2021-8-25",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x9e0bc04dad42429523fd375b9a0a2384d1738fa0",
+    "website_link": "https://sageswap.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2530,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
