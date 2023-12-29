@@ -1,0 +1,51 @@
+{
+    "id": 2378,
+    "project_name": "Hawk Finance",
+    "title": "Hawk Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "HAW",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x815F7f190a472618Be2c3dBC54523Bdb03fAa187",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612e05f2c6269.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x709792ad37107cd45f79873d7532216c14a36f33",
+    "website_link": "https://polyhawk.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2378,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
