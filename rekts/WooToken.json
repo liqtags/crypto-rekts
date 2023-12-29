@@ -1,5 +1,5 @@
 {
-    "id": 1322,
+    "id": 1321,
     "project_name": "WooToken",
     "title": "WooToken",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "WOO",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xa7d122518d4b809f78fc27d48f1875e1e56bac54",
+    "token_address": "0xb38e47348fd1073d2ad362272e49035c31efdf4a",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f021c067b73.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f0216dd048b.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1386163504470659074",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1322,
+            "scam_database_id": 1321,
             "networks": {
                 "id": 56,
                 "name": "Binance",
