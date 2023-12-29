@@ -1,0 +1,51 @@
+{
+    "id": 2779,
+    "project_name": "XDX Swap",
+    "title": "XDX Swap",
+    "description": "<p>The XDX Swap (DDEX) on the Heco chain\u2019s cross-chain decentralized exchange DDEX was attacked on July 2. The attacker received 85.17 ETH (about $176,000) and transferred it to the Ethereum network. There appeared to be a backdoor in the DDEX code. With the help and collaboration from DDEX, Star Labs, and the HECO White Hat Security Alliance, XDX Swap has recovered the majority of the funds involved in this incident, totaling more than $5M.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e7005a62210.png",
+    "date": "2021-7-2",
+    "scam_updates": [],
+    "proof_link": "https://www.quadrigainitiative.com/hackfraudscam/ddexxdxswapbackdoor.php, https://slowmist.medium.com/our-review-of-the-blockchain-security-industry-in-2021-with-global-losses-exceeding-9-8-billion-60d93efbfca3, https://hacked.slowmist.io/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 5000000,
+    "funds_returned": 5000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 128,
+            "scam_database_id": 2779,
+            "networks": {
+                "id": 128,
+                "name": "Heco",
+                "icon_link": "safe/files/network/huobi.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
