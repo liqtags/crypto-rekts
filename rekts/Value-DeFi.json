@@ -1,0 +1,51 @@
+{
+    "id": 931,
+    "project_name": "Value DeFi",
+    "title": "Value DeFi",
+    "description": "<p><strong>Quick Summary</strong></p><p>A Flash loan attack on ValueMultiVaultBank resulted in a loss of 5.4M DAI.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by flash loaning 80k ETH from Aave and flash swapping 166M DAI from Uniswap. They then swapped 80k for 31M USDT on Uniswap, deposited 25M DAI on ValueMultiVaultBank, and swapped 91M DAI to 90.2M USDC on Curve. The attacker then withdrew 33M 3CRV from ValueMultiVaultBank, swapped 17.3M USDC to 30.9M USDT on Curve, and removed liquidity with 33M 3CRV for 33.1M DAI on Curve. They then repaid the flash swap and flash loan, transferred 2M DAI to Value Deployer, and finally transferred 5.4M DAI to their EOA.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's transaction:</p><p>https://etherscan.io/tx/0x46a03488247425f845e444b9c10b52ba3c14927c687d38287c0faddc7471150a</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "VALUE",
+    "proof_archive_link": "https://web.archive.org/web/20201114043433/https://twitter.com/value_defi/status/1327469848348160000",
+    "technical_issue": null,
+    "token_address": "0x49e833337ece7afe375e44f4e3e8481029218e5c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60eed4159d6c7.jpeg",
+    "date": "2020-11-14",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/value-defi-rekt/, https://twitter.com/FrankResearcher/status/1327649421492957184?s=20",
+    "website_link": "https://valuedefi.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/value_defi",
+    "telegram_link": "https://t.me/ValueDeFi",
+    "our_post_link": null,
+    "funds_lost": 7000000,
+    "funds_returned": 2000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 931,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
