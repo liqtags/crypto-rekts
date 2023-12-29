@@ -1,0 +1,76 @@
+{
+    "id": 3229,
+    "project_name": "DDCX",
+    "title": "DDCX",
+    "description": "<p><strong>Quick Summary</strong></p><p>DDCX token was rugpulled for 148,019 $USD. The owner of the vault contract transferred $DDCX tokens to another EOA address that drained liquidity for the amount.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DDCX is BEP20 token trading on PancakeSwap and can't be confused with other tokens with the same token symbol. The owner of the vault contract moved roughly 10,000 $DDCX tokens to the EOA address which drained the liquidity. The token price dropped by more than 92% after the accident.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x5e6b68883e96017f8e5f31f7fdd195bb79dc785f</p><p>https://bscscan.com/address/0xe6f5f41674873bfa7f27ac74268d9e26098c6b30</p><p><br></p><p>Tokens move transactions:</p><p>https://bscscan.com/tx/0xb7ea8ca1f4e8cd3c8a2406275712827a5b1ed241b11f361e35163ec8ef241ecb</p><p>https://bscscan.com/tx/0xa2100e0471ed41de6d927be456fa5e129e7f5f046ee88b12c38108ab2731abd3</p>",
+    "name_categories": "Token",
+    "token_name": "DDCX",
+    "proof_archive_link": "https://archive.ph/QCzDm",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x2a895afaeb582b5c914daa3deecc08c9705c9fbc",
+    "token_addresses": [
+        {
+            "address": "0x2a895afaeb582b5c914daa3deecc08c9705c9fbc",
+            "url": "https://bscscan.com/address/0x2a895afaeb582b5c914daa3deecc08c9705c9fbc",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x98cbbf59c7ca99c309cdc62cd36249fe72be0887",
+            "url": "https://bscscan.com/address/0x98cbbf59c7ca99c309cdc62cd36249fe72be0887",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x4ccd35acee186bca815ec9bbe361b606ca77e22d",
+            "url": "https://bscscan.com/address/0x4ccd35acee186bca815ec9bbe361b606ca77e22d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634ff46e24826.png",
+    "date": "2022-10-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1582497306322026497",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 148019,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3229,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
