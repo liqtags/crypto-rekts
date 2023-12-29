@@ -1,0 +1,51 @@
+{
+    "id": 141,
+    "project_name": "Cake Lock",
+    "title": "Cake Lock",
+    "description": "<p>The project was holding a fundraising event using TokenSale smart contract:<br>https://bscscan.com/address/0x571e95084f68c3d8cca3613439c8bae2963f6846#code<br><br>The contract deployer was the final recipient of the funds from the presale:<br>https://bscscan.com/address/0xd580f1de796eed2b7728c690e5e570eda336a8ec#internaltx<br><br>After the presale, the initial liquidity was added by the contract deployer:<br>https://bscscan.com/tx/0x13297002df3d72ca11574cb2279cea59de8eff65eea6cfefb3896fdeeb1a9106<br><br>The contract deployer removed a bigger part of the liquidity at:<br>https://bscscan.com/tx/0xbaeca20d156068721f44305f9d72a30f705de275ccabc4fa878801f7a95c9321<br><br>The final part of the liquidity was removed by the contract deployer at:<br>https://bscscan.com/tx/0x614e9ea62a40688f63c4d860947923f36109b4e82bb0fa98cbce33542ccd2337</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "LOCK",
+    "proof_archive_link": "https://archive.ph/U31bp",
+    "technical_issue": null,
+    "token_address": "0x5f3bb338ae09a5a15ceb3d0e9e5194b404b95a1b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6128f3fd2663f.png",
+    "date": "2021-3-1",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://cakelock.tech/",
+    "webarchive_link": "https://web.archive.org/web/20210226164833/https://cakelock.tech/, https://web.archive.org/web/20210225223555/https://cakelock.tech/wp-content/uploads/2021/02/CakeLock-White-paper-2.pdf",
+    "twitter_link": "https://twitter.com/cakelockbsc",
+    "telegram_link": "https://t.me/CakelockBsc",
+    "our_post_link": null,
+    "funds_lost": 310654,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 141,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
