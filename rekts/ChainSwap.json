@@ -1,0 +1,51 @@
+{
+    "id": 2584,
+    "project_name": "ChainSwap",
+    "title": "ChainSwap",
+    "description": "<p>The attacker's wallet:<br>https://etherscan.io/address/0x941a9e3b91e1cc015702b897c512d265fae88a9c#tokentxns<br><br>For cross-chain transfers, each token has its own proxy contract, with the implementation pointing to the Factory contract. The hacker used the Factory contract's <u>receive</u>() method. The attacker was required to pay a fee of 0.005 ETH in <u>_chargeFee</u>. There are no real authentication checks, and just one signature is necessary. To get around this, the attacker simply signed signatures with new addresses each time. In the <u>_receive()</u> function, the volume argument is subsequently sent to the attacker's address.</p>",
+    "name_categories": "Bridge",
+    "token_name": "ASAP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3B73c1B2ea59835cbfcADade5462b6aB630D9890",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61265b416c39b.jpeg",
+    "date": "2021-7-2",
+    "scam_updates": [],
+    "proof_link": "https://chain-swap.medium.com/chainswap-post-mortem-and-compensation-plan-90cad50898ab, https://github.com/tinchoabbate/chainswap-exploit-poc",
+    "website_link": "https://chainswap.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/chain_swap",
+    "telegram_link": "https://t.me/chainswap",
+    "our_post_link": null,
+    "funds_lost": 800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2584,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
