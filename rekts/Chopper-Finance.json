@@ -1,0 +1,51 @@
+{
+    "id": 2461,
+    "project_name": "Chopper Finance",
+    "title": "Chopper Finance",
+    "description": null,
+    "name_categories": "Yield Aggregator",
+    "token_name": "CHOPPER",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2C082a245D472D9B4F396d11937FFacd5570A486",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610b9a009006e.png",
+    "date": "2021-8-27",
+    "scam_updates": [],
+    "proof_link": "https://etherscan.io/token/0xcd76a036dc1bde6a96decccb2226ac35e24b2bbb",
+    "website_link": "http://www.chopperfinance.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2461,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
