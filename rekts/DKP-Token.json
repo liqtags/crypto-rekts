@@ -1,0 +1,68 @@
+{
+    "id": 3372,
+    "project_name": "DKP Token",
+    "title": "DKP Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>DKP Token was exploited for 79,233 $USD. The token price dropped by more than 54% but then recovered.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DKP is a BEP20 token trading in PancakeSwap. The token-related contract was exploited, which allowed the attacker to receive 17,029 $DKP tokens. A malicious smart contract with unverified source code was used to hack the project's contract. The received amount was exchanged for 79,233 $USD and then transferred through TornadoCash. The token price dropped 54% at the moment of the incident, but after a short period of time was recovered, with the help of liquidity providers.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf38b677fa6e9e51338d0c32fd21afe43406e06df</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x0c850f54c1b497c077109b3d2ef13c042bb70f7f697201bcf2a4d0cb95e74271</p><p><br></p><p>Exchange transaction:</p><p>https://bscscan.com/tx/0x2d31e45dce58572a99c51357164dc5283ff0c02d609250df1e6f4248bd62ee01</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0xf34ad6cea329f62f4516ffe00317ab09d934fba3</p>",
+    "name_categories": "Token",
+    "token_name": "DKP",
+    "proof_archive_link": "https://archive.ph/NGLjq",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd06fa1BA7c80F8e113c2dc669A23A9524775cF19",
+    "token_addresses": [
+        {
+            "address": "0xd06fa1BA7c80F8e113c2dc669A23A9524775cF19",
+            "url": "https://bscscan.com/address/0xd06fa1BA7c80F8e113c2dc669A23A9524775cF19",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xBE654FA75bAD4Fd82D3611391fDa6628bB000CC7",
+            "url": "https://bscscan.com/address/0xBE654FA75bAD4Fd82D3611391fDa6628bB000CC7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/640e538043f3a.png",
+    "date": "2023-3-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1633421908996763648",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 79233,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3372,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
