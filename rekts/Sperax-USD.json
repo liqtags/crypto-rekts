@@ -1,0 +1,79 @@
+{
+    "id": 3354,
+    "project_name": "Sperax USD",
+    "title": "Sperax USD",
+    "description": "<p><strong>Quick Summary</strong></p><p>On Feb. 4, 2023 Sperax USD (USDs) token rebase mechanism was exploited, losing $250,000.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On February 4th, an attacker exploited the SperaxUSD protocol on Arbitrum, allowing them to increase their token balance to 9.7 billion tokens without providing matching collateral. The attacker was able to liquidate around $300k USDs before being stopped by joint actions of the Sperax team and Arbitrum ecosystem partners. The team identified the attacker's accounts on CEXs and took action against them. All USDs transactions and the smart contract were blocked. The liquidated amount will be recapitalized by the Sperax team before relaunching the protocol. The governance token $SPA was not affected by the exploit, and USDs maintained its peg with slight fluctuations between 0.97 and 1.02 USDs/USD. The issue has been resolved with a smart contract upgrade and recapitalization, with transactions set to restart soon.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter:&nbsp;</p><p>https://arbiscan.io/address/0x4AfcD19bB978Eaf4F993814298504eD285df1181</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "USDs",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/address/0xd74f5255d557944cf7dd0e45ff521520002d5748",
+    "token_addresses": [
+        {
+            "address": "0xd74f5255d557944cf7dd0e45ff521520002d5748",
+            "url": "https://arbiscan.io/address/0xd74f5255d557944cf7dd0e45ff521520002d5748",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fcaafe1f8f5.jpg",
+    "date": "2023-2-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/SperaxUSD/status/1622719484598386711, https://twitter.com/SperaxUSD/status/1622003045776195587, https://crypto.news/sperax-usd-stablecoin-reportedly-hacked-for-250000/",
+    "website_link": "https://sperax.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SperaxUSD",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 250000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3354,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/SPA_Certik_2.pdf",
+            "date": "2021-11-18T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/USDs_Slowmist_1.pdf",
+            "date": "2021-12-01T00:00:00.000Z",
+            "partner": {
+                "id": 24,
+                "name": "SlowMist",
+                "logo_link": "safe/files/partner/logo/60af9beadb58e.jpeg"
+            }
+        }
+    ]
+}
