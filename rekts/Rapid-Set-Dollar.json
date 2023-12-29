@@ -1,0 +1,51 @@
+{
+    "id": 105,
+    "project_name": "Rapid Set Dollar",
+    "title": "Rapid Set Dollar",
+    "description": "<p>The contract deployer invoked new implementation to the token contract that caused mint onto 5 separate addresses at:<br>https://etherscan.io/tx/0x4a437898c476f8a2b7f0e499e05136753c6f779707cb5348412cd8cabb2326f0<br><br>Token recipients:<br>1. 0xe11b473534a14716957FE1B8B8ae3e1899fE3Dd5 (contract deployer himself)<br>2. 0x3d107BEd3CAd678650915103B5C29b79C2452263<br>3. 0xBb43A07316158799176C3ed54610942DbcaA8369<br>4. 0xF2EE8af24B05b84980B5E8Fc889C20Cc0Fcc5349<br>5. 0x228552b03bC47B7fF215BB00C74E6E321E6F51b3<br><br>1:<br>- sold tokens at ($6,133):<br>https://etherscan.io/tx/0xec5689a9661690e97b1d5499dfcb620421e38da89f2b679b2d25f7fd8557ac77<br><br>- distributed tokens between other external wallets, which sold them on $40,440<br><br>2:<br>- added liquidity at:<br>https://etherscan.io/tx/0x178d5ceeae5970d47d89ac68c5a2f1c2d328987604d011462b999cb744e635e2<br><br>- removed liquidity with $932 profit:<br>https://etherscan.io/tx/0x536e814ad48110ec10c0d3007566acd24aa9735987fc14cec906de2bb7fcd055<br><br>3:<br>- transferred tokens to the token smart contract:<br>https://etherscan.io/address/0xbb43a07316158799176c3ed54610942dbcaa8369#tokentxns<br><br>4:<br>- transferred tokens to the token smart contract:<br>https://etherscan.io/tx/0xdafa5031ba64df254320f115841bc4ee1d2733672e3ef06165fe114c364ea9eb<br><br>5:<br>- transferred tokens to the token smart contract:<br>https://etherscan.io/tx/0xc0b59e27850c1a35b94c10d71eb426f2fb5e4d0a18d08ab1614ae9b7d4ea90a9</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "RSD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x8e1D3Ab094c1EE517B34cb2DEfD0Ee9fE7658cea",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5a62ddc86d.jpeg",
+    "date": "2020-12-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1342772372756021249",
+    "website_link": "https://www.reservedollar.com/",
+    "webarchive_link": "https://archive.ph/iJyCT",
+    "twitter_link": "https://twitter.com/ReserveDollar",
+    "telegram_link": "https://t.me/reserve_dollar",
+    "our_post_link": "https://t.me/defiyield_app/24683",
+    "funds_lost": 47505,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 105,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
