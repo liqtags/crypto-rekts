@@ -1,0 +1,68 @@
+{
+    "id": 3498,
+    "project_name": "ANT Token",
+    "title": "ANT Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>ANT token rugpulled by a deployer-related EOA address, which drained 36,496 $USD from the pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ANT is a BEP20 token trading on PancakeSwap. The project experienced significant slippage and its price plummeted over 95%. The project was rugpulled by a deployer-related EOA address who transferred all stolen funds worth 36,496 $BUSD to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xb0b5ce4f4874d23aec515f5a5983483368cea4ad</p><p><br></p><p>Malicious transaction example:</p><p>https://bscscan.com/tx/0xa2fe7b49e06e97b71edbaa6780a677c4890c878bed032b1d60364e62b775c372</p><p><br></p><p>Funds transferred to:</p><p>https://bscscan.com/address/0x2c15a4d6ca2325763e88b3114d71eefbffd1a7b6</p>",
+    "name_categories": "Token",
+    "token_name": "ANT",
+    "proof_archive_link": "https://archive.ph/snF0i",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd029fdbf7b826c97982f3dabe4f930d9148363fe",
+    "token_addresses": [
+        {
+            "address": "0xd029fdbf7b826c97982f3dabe4f930d9148363fe",
+            "url": "https://bscscan.com/address/0xd029fdbf7b826c97982f3dabe4f930d9148363fe",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xee7481bf75dcecc2046cdcef382a112df714b31a",
+            "url": "https://bscscan.com/address/0xee7481bf75dcecc2046cdcef382a112df714b31a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64403b23cf403.png",
+    "date": "2023-4-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1648064523092348931?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 36496,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3498,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
