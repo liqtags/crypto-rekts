@@ -1,0 +1,60 @@
+{
+    "id": 3785,
+    "project_name": "SAI Pro",
+    "title": "SAI Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>SAI token was rugpulled by the deployer, removing liquidity worth 1,753,202 USD from the PancakeSwap pool, causing a total loss of 751,627 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SAI is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer performed an exit scam by dumping liquidity from the LP pool in two large transactions, selling a significant number of tokens worth <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>1,753,202</span> USD. On November 9, 2023, the deployer added 999,962 USDT as liquidity, so the user loss is 751,627 USDT. The stolen funds were transferred to another EOA address and remain in the scammer's possession as USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x7dFeBF01aA57F48B78721E24A72182e18BcEBA2A</p><p><br></p><p>Funds Holder as of Nov 23, 2023:</p><p>https://bscscan.com/address/0x23f8c805306Bf27AB8bf3cEbEce4B778acfFd896</p><p><br></p><p>Token Swap Transactions:</p><p>https://bscscan.com/tx/0xd8dc1d9532244c06198f4078918a2e3d1ad6d65d035eb2d04d122aa630061ea5</p><p>https://bscscan.com/tx/0x141e16b686c38af42cc0f2ccc0860be3ff9e90488c170fce8b1b361d7dbbef0b</p>",
+    "name_categories": "Token",
+    "token_name": "SAI",
+    "proof_archive_link": "https://archive.ph/ZMLI9",
+    "technical_issue": null,
+    "token_address": "0xBa4cA4A9E1ca603310dF7a171D2291af9f3AfFaA",
+    "token_addresses": [
+        {
+            "address": "0xBa4cA4A9E1ca603310dF7a171D2291af9f3AfFaA",
+            "url": "https://bscscan.com/address/0xBa4cA4A9E1ca603310dF7a171D2291af9f3AfFaA",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/655f89295d393.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1727665296335421871",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 751627,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3785,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
