@@ -1,0 +1,60 @@
+{
+    "id": 3271,
+    "project_name": "Abracadabra Money",
+    "title": "Abracadabra Money",
+    "description": "<p><strong>Quick Summary</strong></p><p>Abracadabra Money was exploited via the oracle issue. The attacker used temporarily $MIM depegging and profited for 110,911 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Abracadabra.Money is a decentralized protocol providing staking, lending, and borrowing opportunities. The protocol's lending pool was exploited via the oracle issue. Temporarily depegging of $MIM stablecoin allowed the attacker to withdraw 110,911 $MIM tokens at nearly zero cost using a deployed smart contract with unverified source code. All the stolen funds were transferred through Tornado Cash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xb7ea0f0f8c6df7a61bf024db21bbe85ac5688005</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0x3d163bfbec5686d428a6d43e45e2626a220cc4fcfac7620c620b82c1f2537c78</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0x8c761066bc6c20e9c65ece9972a9eb6ed511fd4d</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX),Stablecoin",
+    "token_name": "MIM",
+    "proof_archive_link": "https://archive.ph/CwD5h, https://archive.ph/AUioY",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3",
+    "token_addresses": [
+        {
+            "address": "0xf5bce5077908a1b7370b9ae04adc565ebd643966",
+            "url": "https://etherscan.io/address/0xf5bce5077908a1b7370b9ae04adc565ebd643966",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6375d2740c595.png",
+    "date": "2022-11-8",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2022/11/08/abracadabras-mim-stablecoin-briefly-lost-dollar-peg-as-ftxs-ftt-token-tanked/, https://twitter.com/spreekaway/status/1590118020319354880?utm_source=substack&utm_medium=email",
+    "website_link": "https://abracadabra.money/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MIM_Spell",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 110911,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/mim",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3271,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
