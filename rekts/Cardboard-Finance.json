@@ -1,0 +1,51 @@
+{
+    "id": 2441,
+    "project_name": "Cardboard Finance",
+    "title": "Cardboard Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "CARDBOARD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x731812990C96e96060d782A9F1fD1f68650EF1Eb",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cbb28837ad.jpeg",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x89eed20d19d0b09c140301073d6cc1b4d4bead49?a=0x75c1befdaba1098bdab4aa2c4bbb60a382dd3877",
+    "website_link": "https://cardboard.finance/#top",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2441,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
