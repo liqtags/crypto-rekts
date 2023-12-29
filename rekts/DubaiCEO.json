@@ -1,0 +1,68 @@
+{
+    "id": 3598,
+    "project_name": "DubaiCEO",
+    "title": "DubaiCEO",
+    "description": "<p><strong>Quick Summary</strong></p><p>DubaiCEO project was rugpulled by the deployer with a total loss of 237,272 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DubaiCEO, an ERC20 token, fell victim to a rugpull. The deployer sold tokens in four transactions for approximately 124 $ETH and then transferred the funds to two EOA addresses as 70 and 54 $ETH. The total loss due to this scam reached 237,272 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xEE8f6c2259Fa993b6809A74B82DA9c9FB4a4Ac48</p><p><br></p><p>Liquidity Drain Transactions:</p><p>https://etherscan.io/tx/0x66873bf74ab83eca9bff88d02ebbce09ea52524380a92c033f74d216dbb77877</p><p>https://etherscan.io/tx/0x05a0e88c64def1753adde4f787dddcccb7834a1bd5d1661fa4ee68aa1a366c0e</p><p>https://etherscan.io/tx/0xfc989ff4f57a622cbe4c5a6eeb4fa01df211cc6dfa07cebb2e75e119eb732948</p><p>https://etherscan.io/tx/0x04ba9ffc254b00fdab3533dc3ae4052d741c9a87e99357f9b4958ff7d99ed559</p><p><br></p><p>Funds Transfer Transactions:</p><p>https://etherscan.io/tx/0xce061f62badd63f2563f61311511df443ba637918cb62ddfce987603eb60ed5d</p><p>https://etherscan.io/tx/0x82f38ce27558032a413c255d42c55d287d8b0f33543d283fba77770f5ca39a02</p>",
+    "name_categories": "Token",
+    "token_name": "DubaiCEO",
+    "proof_archive_link": "https://archive.ph/XOka5",
+    "technical_issue": null,
+    "token_address": "0x4876c5892d975780405f1b73802221b2850feb8e",
+    "token_addresses": [
+        {
+            "address": "0x4876c5892d975780405f1b73802221b2850feb8e",
+            "url": "https://etherscan.io/token/0x4876c5892d975780405f1b73802221b2850feb8e",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x6090cFc8a6E1471853eAB76bd9B90a04ffDFaC08",
+            "url": "https://etherscan.io/address/0x6090cFc8a6E1471853eAB76bd9B90a04ffDFaC08",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64adbb9526f13.png",
+    "date": "2023-7-2",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1676094746475864065",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 237272,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3598,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
