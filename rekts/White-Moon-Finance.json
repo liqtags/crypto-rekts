@@ -1,5 +1,5 @@
 {
-    "id": 2621,
+    "id": 2611,
     "project_name": "White Moon Finance",
     "title": "White Moon Finance",
     "description": null,
@@ -9,8 +9,8 @@
     "technical_issue": null,
     "token_address": "0xe62ae6Bf3817196d1122683df1aE4019014dD0b5",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/613770116c4a9.png",
-    "date": "2021-9-7",
+    "logo_link": "safe/files/scamDatabase/logo/6135d590de311.png",
+    "date": "2021-9-6",
     "scam_updates": [],
     "proof_link": "https://bscscan.com/token/0xe62ae6Bf3817196d1122683df1aE4019014dD0b5?a=0x0ecdc7f21908ec9f7e593d09bc2b8df3f504a3e0",
     "website_link": "https://whitemoon.finance",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 2621,
+            "scam_database_id": 2611,
             "networks": {
                 "id": 56,
                 "name": "Binance",
