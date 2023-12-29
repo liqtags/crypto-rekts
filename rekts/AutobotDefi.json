@@ -1,0 +1,51 @@
+{
+    "id": 2722,
+    "project_name": "AutobotDefi",
+    "title": "AutobotDefi",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://ftmscan.com/tx/0xd3bafb04c550c393cf982e2c51741091bc56a718f36519222b30b1ad6c29b83a<br>https://ftmscan.com/tx/0x532d327e5193f448aae544a74458b0e5adf5ab16b63931bd1fd9d0d4bec303b2<br>https://ftmscan.com/tx/0x5f0b0ff0c5df46e6752b09fbcd2320f9e0b29f402c72a02c2c622d119bb5ea68<br><br>The liquidity was removed by the contract deployer at:<br>https://ftmscan.com/tx/0xca77f2d18807ade26892121d584c4a7a7ac946088228b167fd576e95a2ca3dc6<br>https://ftmscan.com/tx/0x809820e2148e43f72cf24561665573a87d690dcaf00805e786c327179a28b8bd<br>https://ftmscan.com/tx/0x64a6911965b1d3f44acf1148878aacf5b16b72a6c11f2c4722ed917931ceda02</p>",
+    "name_categories": "Token",
+    "token_name": "ABOT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x27c828e9f972dc907bcea3d87f194c6b533d808d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b0e25c7dc1f.png",
+    "date": "2021-12-5",
+    "scam_updates": [],
+    "proof_link": "https://t.me/rugsteemer/834",
+    "website_link": "https://fantom.autobotdefi.com/",
+    "webarchive_link": "https://web.archive.org/web/20211202234234/https://fantom.autobotdefi.com/?ref=9J4i31g3l6630J3H9gK5l04HG08JjLG21Gil2k19",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 797,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2722,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
