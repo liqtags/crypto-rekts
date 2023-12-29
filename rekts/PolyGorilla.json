@@ -1,0 +1,51 @@
+{
+    "id": 2410,
+    "project_name": "PolyGorilla",
+    "title": "PolyGorilla",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "JUNGLE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf0168d40aAFaa078DeB86B321941CE35AE5661E9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cd63205628.jpeg",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://polygonscan.com/token/0x78a22c2aea6721f503e97d9b5542cf89687c7900",
+    "website_link": "https://polygorilla.finance/?ref=0xE589570F38c319e557bD1360f6be52F0d59d6685",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2410,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
