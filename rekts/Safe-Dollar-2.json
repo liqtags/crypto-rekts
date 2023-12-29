@@ -1,0 +1,51 @@
+{
+    "id": 2357,
+    "project_name": "Safe Dollar",
+    "title": "Safe Dollar (2)",
+    "description": "<p>The attacker's address:<br>https://polygonscan.com/address/0xfedc2487ed4bb740a268c565dacdd39c17be7ebd<br><br>The attack transaction:<br>https://polygonscan.com/tx/0x1360315a16aec1c7403d369bd139f0fd55a99578d117cb5637b234a0a0ee5c14<br><br>The attack took the use of a flaw in Safe Dollar reward structure to alter the <u>accSdoPerShare</u> value, allowing it to claim a big number of SDO for each token deposited token.<br><br>In preparation, an initial deposit was placed into one of the protocol's Safe Farms:<br>https://polygonscan.com/tx/0x55dad44a7ed31d1637e70879af66e02290d39aea54554f8411e6ec19c03a074b<br><br>Transfer fees are charged by PLX, the currency that SafeDollar was incentivizing. These fees are meant to be borne by the user, however, they were taken from the rewarder balance instead during withdrawal transactions.<br><br>The hacker used a deposit/withdraw loop to progressively drain the pool's PLX balance over the course of 101 transactions, resulting in a hugely inflated <u>accSdoPerShare</u> of 1,142,913,215,739,484,400 SDO being awarded for each PLX contributed.<br><br>Claiming rewards on the initial deposit produced a total of 831,309,277,244,108,000 SDO which were sold by the attacker.</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "SDO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x86bc05a6f65efdada08528ec66603aef175d967f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610026498ab60.jpeg",
+    "date": "2021-6-28",
+    "scam_updates": [],
+    "proof_link": "https://safedollar.medium.com/safedollar-post-mortem-analysis-cb2769fe059, https://rekt.news/safedollar-rekt/",
+    "website_link": "https://www.safedollar.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/safedollarfi",
+    "telegram_link": "https://t.me/SafeDollarfi",
+    "our_post_link": null,
+    "funds_lost": 248000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2357,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
