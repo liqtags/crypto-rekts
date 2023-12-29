@@ -1,0 +1,60 @@
+{
+    "id": 3641,
+    "project_name": "Elon Pepe",
+    "title": "Elon Pepe Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Elon Pepe suffered an exit scam in the form of a honeypot on July 28, 2023. The total losses amounted to 205,796 $USD or 850 BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Elon Pepe, a BEP20 token trading on PancakeSwap, was exploited in a series of liquidity withdrawals spanning from July 13 to July 28, 2023. The deployer removed liquidity from the LP pool in six transactions, with the largest single withdrawal accounting for 190,000 $USD, or 792 WBNB. The stolen funds were transferred to another EOA, and the majority of the funds remain there as of July 29, 2023. The total estimated losses are 205,796 $USD, or 850 BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer's Address:</p><p>https://bscscan.com/address/0xd70e37f3c090bb088a67285ff6ebb55a437b888e</p><p><br></p><p>Funds Holder as on July 29, 2023:</p><p>https://bscscan.com/address/0xdf9a9cfb4f26389329d5d7744094ddf7285b9d92</p><p><br></p><p>Biggest Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xaf3dcbcfd98dd2f067129a5d06af6ef04ee86036f728100c7954204b3f74243d</p>",
+    "name_categories": "Token",
+    "token_name": "ElonPepe",
+    "proof_archive_link": "https://archive.ph/v0FGr",
+    "technical_issue": null,
+    "token_address": "0xe0796f447d28d99ec893721e32f84ad1bf9f60da",
+    "token_addresses": [
+        {
+            "address": "0xe0796f447d28d99ec893721e32f84ad1bf9f60da",
+            "url": "https://bscscan.com/token/0xe0796f447d28d99ec893721e32f84ad1bf9f60da",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c5599107b12.png",
+    "date": "2023-7-28",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1684850865708871680",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 205796,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3641,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
