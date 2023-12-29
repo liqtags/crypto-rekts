@@ -1,0 +1,51 @@
+{
+    "id": 3302,
+    "project_name": "BTC.com",
+    "title": "BTC.com",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Quick Summary</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">BTC.com - one of the biggest mining pools - &nbsp;has been attacked. Although the hack happened on December 3d,&nbsp;</span><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">BIT Mining Limited, the parent company, officially&nbsp;</span><a href=\"https://www.prnewswire.com/news-releases/bit-mining-limited-subsidiary-experiences-cyberattack-301709947.html\" style=\"text-decoration:none;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">announced</span></a><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;the attack on December 26th.</span><span style=\"font-size:12pt;font-family:Georgia;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">&nbsp;</span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\">&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:10.5pt;font-family:Arial;color:#373f47;background-color:#f5f8ff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\"><strong>Details of the Exploit</strong></span></p><p dir=\"ltr\" style=\"line-height:1.38;background-color:#ffffff;margin-top:0pt;margin-bottom:0pt;\"><span style=\"font-size:12pt;font-family:Roboto,sans-serif;color:#292929;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;\">The cyberattack is reported to law enforcement authorities in China. They started an investigation, which already helped to recover some of the stolen assets.</span></p>",
+    "name_categories": "CeFi",
+    "token_name": "-",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "-",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63ad62f93627a.png",
+    "date": "2022-12-3",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/bitcoin-mining-pool-btc-com-reports-3m-cyberattack, https://twitter.com/Forkast_News/status/1607599200224817154",
+    "website_link": "https://btc.com/",
+    "webarchive_link": "https://archive.ph/lAZt4, https://archive.ph/pLDwQ",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 3000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3302,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
