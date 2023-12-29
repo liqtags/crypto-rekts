@@ -1,61 +1,42 @@
 # yearn.finance
 ![yearn.finance](/rektimages/yearn.finance.png)
-- Amount Lost: $11,512,509.00
-- Funds Returned: $0.00
-- Category: Borrowing and Lending,Yield Aggregator
-- Date: 2023-4-13
+- Amount Lost: $11,000,000.00
+- Funds Returned: $1,700,000.00
+- Category: Yield Aggregator
+- Date: 2021-2-5
 
 **Quick Summary**
 
-Yearn Finance and Aave Protocol were exploited via a flash loan attack, resulting in the loss of 11,512,509 $USD worth of $ETH and $DAI. 
+An attacker exploited dYdX, Aave v2, Compound, and Curve in a complex flash loan attack, resulting in a significant manipulation of funds.
 
   
 
 
  **Details of the Exploit**
 
-Yearn Finance is a Yield Aggregator, and Aave Protocol is a Lending and Borrowing platform. The hacker performed an attack using two malicious smart contracts. The attack started with the exploiter taking a flash loan for 2,000,000 $USDT, 5,000,000 $USDC, and 5,000,000 $DAI from Balancer. Borrowed assets are used to exploit Yearn Finance’s USDT pool vulnerability and mint a big amount of ycUSDT (~204 billion) and yUSDT (~33 trillion) tokens then swap them for various stablecoins worth 11,512,509 $USD. Another smaller attack took place during the exploit which affected Aave’s LendingPoolCoreV1 contract. Worth noticing that the exploiter repaid all users USDT positions in the Aave V1 protocol. During multiple transactions stolen assets were transferred to destination wallets part of which as 1,000 $ETH was bridged through TornadoCash.
+The attacker initiated the exploit by flash loaning 116k ETH from dYdX and 99k ETH from Aave v2. They then borrowed 134M USDC and 129M DAI using the loaned ETH as collateral on Compound. The attacker added these funds to the 3crv Curve pool and withdrew 165M USDT. 
+
+  
+
+
+This process was repeated five times, each time depositing less DAI to the yDAI vault and withdrawing less DAI from it. In the final iteration, the attacker withdrew 39M DAI and 134M USDC instead of USDT. The attacker then repaid the debts on Compound and the flash loans on dYdX and Aave v2.
 
   
 
 
  **Block Data Reference**
 
-Attacker address:
+The attacker's transactions:
 
-https://etherscan.io/address/0x5bac20beef31d0eccb369a33514831ed8e9cdfe0
+https://etherscan.io/tx/0x59faab5a1911618064f1ffa1e4649d85c99cfd9f0d64dcebbc1af7d7630da98b
 
-  
-
-
-Attacker wallets with funds:
-
-https://etherscan.io/address/0x16af29b7efbf019ef30aae9023a5140c012374a5 
-
-https://etherscan.io/address/0x6f4a6262d06272c8b2e00ce75e76d84b9d6f6ab8
-
-  
-
-
-Malicious transaction examples:
-
-https://etherscan.io/tx/0x8db0ef33024c47200d47d8e97b0fcfc4b51de1820dfb4e911f0e3fb0a4053138
-
-https://etherscan.io/tx/0xd55e43c1602b28d4fd4667ee445d570c8f298f5401cf04e62ec329759ecda95d
-
-  
-
-
-Malicious Contracts:
-
-https://etherscan.io/address/0x8102ae88c617deb2a5471cac90418da4ccd0579e
-
-https://etherscan.io/address/0x9fcc1409b56cf235d9cdbbb86b6ad5089fa0eb0f
+https://etherscan.io/tx/0xf6022012b73770e7e2177129e648980a82aab555f9ac88b8a9cda3ec44b30779
 
 
 Proof Links:
-- [https://www.theblock.co/post/226134/exploit-involving-aave-v1-and-yearn-estimated-to-be-around-10-million-peckshield](https://www.theblock.co/post/226134/exploit-involving-aave-v1-and-yearn-estimated-to-be-around-10-million-peckshield)
-- [ https://blog.solidityscan.com/yearn-finance-hack-analysis-misconfigured-yusdt-mint-5196761b70ac]( https://blog.solidityscan.com/yearn-finance-hack-analysis-misconfigured-yusdt-mint-5196761b70ac)
-- [ https://twitter.com/beosinalert/status/1646413885409476608]( https://twitter.com/beosinalert/status/1646413885409476608)
+- [https://rekt.news/yearn-rekt/](https://rekt.news/yearn-rekt/)
+- [ https://github.com/yearn/yearn-security/blob/master/disclosures/2021-02-04.md#References]( https://github.com/yearn/yearn-security/blob/master/disclosures/2021-02-04.md#References)
+- [ https://twitter.com/FrankResearcher/status/1357464851531116544]( https://twitter.com/FrankResearcher/status/1357464851531116544)
+- [ https://blog.defiyield.app/yearn-finance-exploit-explained-a10b07c280c8]( https://blog.defiyield.app/yearn-finance-exploit-explained-a10b07c280c8)
 
 

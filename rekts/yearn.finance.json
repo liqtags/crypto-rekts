@@ -1,61 +1,36 @@
 {
-    "id": 3476,
+    "id": 796,
     "project_name": "yearn.finance",
-    "title": "yearn.finance (2)",
-    "description": "<p><strong>Quick Summary</strong></p><p>Yearn Finance and <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Aave Protocol</span> were exploited via a flash loan attack, resulting in the loss of 11,512,509 $USD worth of $ETH and $DAI.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Yearn Finance is a Yield Aggregator, and Aave Protocol is a Lending and Borrowing platform. The hacker performed an attack using two malicious smart contracts. The attack started with the exploiter taking a flash loan for 2,000,000 $USDT, 5,000,000 $USDC, and 5,000,000 $DAI from Balancer. Borrowed assets are used to exploit Yearn Finance\u2019s USDT pool vulnerability and mint a big amount of ycUSDT (~204 billion) and yUSDT (~33 trillion) tokens then swap them for various stablecoins worth 11,512,509 $USD. Another smaller attack took place during the exploit which affected Aave\u2019s LendingPoolCoreV1 contract. Worth noticing that the exploiter repaid all users USDT positions in the Aave V1 protocol. During multiple transactions stolen assets were transferred to destination wallets part of which as 1,000 $ETH was bridged through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x5bac20beef31d0eccb369a33514831ed8e9cdfe0</p><p><br></p><p>Attacker wallets with funds:</p><p>https://etherscan.io/address/0x16af29b7efbf019ef30aae9023a5140c012374a5&nbsp;</p><p>https://etherscan.io/address/0x6f4a6262d06272c8b2e00ce75e76d84b9d6f6ab8</p><p><br></p><p>Malicious transaction examples:</p><p>https://etherscan.io/tx/0x8db0ef33024c47200d47d8e97b0fcfc4b51de1820dfb4e911f0e3fb0a4053138</p><p>https://etherscan.io/tx/0xd55e43c1602b28d4fd4667ee445d570c8f298f5401cf04e62ec329759ecda95d</p><p><br></p><p>Malicious Contracts:</p><p>https://etherscan.io/address/0x8102ae88c617deb2a5471cac90418da4ccd0579e</p><p>https://etherscan.io/address/0x9fcc1409b56cf235d9cdbbb86b6ad5089fa0eb0f</p>",
-    "name_categories": "Borrowing and Lending,Yield Aggregator",
+    "title": "yearn.finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>An attacker exploited dYdX, Aave v2, Compound, and Curve in a complex flash loan attack, resulting in a significant manipulation of funds.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker initiated the exploit by flash loaning 116k ETH from dYdX and 99k ETH from Aave v2. They then borrowed 134M USDC and 129M DAI using the loaned ETH as collateral on Compound. The attacker added these funds to the 3crv Curve pool and withdrew 165M USDT.&nbsp;</p><p><br></p><p>This process was repeated five times, each time depositing less DAI to the yDAI vault and withdrawing less DAI from it. In the final iteration, the attacker withdrew 39M DAI and 134M USDC instead of USDT. The attacker then repaid the debts on Compound and the flash loans on dYdX and Aave v2.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's transactions:</p><p>https://etherscan.io/tx/0x59faab5a1911618064f1ffa1e4649d85c99cfd9f0d64dcebbc1af7d7630da98b</p><p>https://etherscan.io/tx/0xf6022012b73770e7e2177129e648980a82aab555f9ac88b8a9cda3ec44b30779</p>",
+    "name_categories": "Yield Aggregator",
     "token_name": "YFI",
-    "proof_archive_link": "https://archive.ph/Svmar, https://archive.ph/TF9qU, https://archive.ph/7H4sR",
+    "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
-    "token_addresses": [
-        {
-            "address": "0xe6354ed5bc4b393a5aad09f21c46e101e692d447",
-            "url": "https://etherscan.io/address/0xe6354ed5bc4b393a5aad09f21c46e101e692d447",
-            "network": {
-                "id": 1,
-                "icon_link": "safe/files/network/involved/ethereum.svg"
-            }
-        },
-        {
-            "address": "0x1be5d71f2da660bfdee8012ddc58d024448a0a59",
-            "url": "https://etherscan.io/address/0x1be5d71f2da660bfdee8012ddc58d024448a0a59",
-            "network": {
-                "id": 1,
-                "icon_link": "safe/files/network/involved/ethereum.svg"
-            }
-        },
-        {
-            "address": "0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3",
-            "url": "https://etherscan.io/address/0x3dfd23a6c5e8bbcfc9581d2e864a68feb6a076d3",
-            "network": {
-                "id": 1,
-                "icon_link": "safe/files/network/involved/ethereum.svg"
-            }
-        }
-    ],
-    "logo_link": "safe/files/scamDatabase/logo/64388449e5bb2.jpg",
-    "date": "2023-4-13",
+    "token_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6438836ebc77e.jpg",
+    "date": "2021-2-5",
     "scam_updates": [],
-    "proof_link": "https://www.theblock.co/post/226134/exploit-involving-aave-v1-and-yearn-estimated-to-be-around-10-million-peckshield, https://blog.solidityscan.com/yearn-finance-hack-analysis-misconfigured-yusdt-mint-5196761b70ac, https://twitter.com/beosinalert/status/1646413885409476608",
+    "proof_link": "https://rekt.news/yearn-rekt/, https://github.com/yearn/yearn-security/blob/master/disclosures/2021-02-04.md#References, https://twitter.com/FrankResearcher/status/1357464851531116544, https://blog.defiyield.app/yearn-finance-exploit-explained-a10b07c280c8",
     "website_link": "https://yearn.finance/",
     "webarchive_link": null,
     "twitter_link": "https://twitter.com/iearnfinance",
-    "telegram_link": "https://t.me/yearnfinance/",
+    "telegram_link": "https://t.me/yearnfinance",
     "our_post_link": null,
-    "funds_lost": 11512509,
-    "funds_returned": 0,
+    "funds_lost": 11000000,
+    "funds_returned": 1700000,
     "funds_by_chains": [],
     "funds_recovered": null,
     "active": 1,
-    "git_hub": "https://github.com/yearn",
+    "git_hub": null,
     "git_hub_contract_link": null,
-    "discord": "https://discord.com/invite/b8ENPNqG5c",
+    "discord": null,
     "bug_bounty_program_link": null,
     "bug_bounty_program_company": null,
     "audit_code_conf": 0,
-    "is_verified_source_code": 1,
-    "is_public_team": 1,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
     "scam_type": {
         "id": 15,
         "type": "Flash Loan Attack"
@@ -64,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 3476,
+            "scam_database_id": 796,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
@@ -72,24 +47,5 @@
             }
         }
     ],
-    "auditedBy": [
-        {
-            "audit_link": "safe/files/audit/pdf/ToB_Yearn_Vault_v_2_Smart_Contracts_Audit_Report.pdf",
-            "date": "2021-04-30T00:00:00.000Z",
-            "partner": {
-                "id": 18,
-                "name": "Trail of Bits",
-                "logo_link": "safe/files/partner/logo/60a7a1cccf039.jpeg"
-            }
-        },
-        {
-            "audit_link": "safe/files/audit/pdf/MixBytes_Yearn_Vault_v_2_Smart_Contract_Audit_Report_Solidity_part.pdf",
-            "date": "2020-12-03T00:00:00.000Z",
-            "partner": {
-                "id": 31,
-                "name": "MixBytes",
-                "logo_link": "safe/files/partner/logo/60d1e1087c66c.jpeg"
-            }
-        }
-    ]
+    "auditedBy": []
 }
