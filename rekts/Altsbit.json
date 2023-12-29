@@ -1,0 +1,51 @@
+{
+    "id": 2876,
+    "project_name": "Altsbit",
+    "title": "Altsbit",
+    "description": "<p>Altsbit announced the breach, stating on Twitter: \"Unfortunately we have to notify you with the fact that our exchange was hacked during the night and almost all funds from BTC, ETH, ARRR and VRSC were stolen. A small part of the funds are safe on cold wallets.\"<br><br>An update on the company's website indicated that \"fortunately a good part of the coins were kept on cold storage\" and that it will issue partial refunds, not having the wherewithal to fully compensate users.<br><br>The cryptocurrencies which have taken in the hack:<br>Bitcoin (BTC): 6,929 lost out of 14,782 held<br>Ether (ETH): 23,210 lost out of 32,262<br>Pirate Chain (ARRR): 3,924,082 lost out of 9,619,754<br>Verus Coin (VRSC): 414,154 lost out of 852,726<br>Komodo (KMD): 1,066 lost out of 48,015</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62432262377e6.png",
+    "date": "2020-2-5",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2020/02/10/new-crypto-exchange-altsbit-says-it-will-close-following-hack/",
+    "website_link": "https://altsbit.com/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 303000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2876,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
