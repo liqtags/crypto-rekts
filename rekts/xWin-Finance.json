@@ -1,0 +1,51 @@
+{
+    "id": 2695,
+    "project_name": "xWin Finance",
+    "title": "xWin Finance",
+    "description": "<p>The attacker's address:<br>https://bscscan.com/address/0xb63f0d8b9aa0c4e68d5630f54bfefc6cf2c2ad19<br><br>The transaction behind the attack:<br>https://bscscan.com/tx/0xba0fa8c150b2408eec9bbbbfe63f9ca63e99f3ff53ac46ee08d691883ac05c1d<br><br>The attacker:<br>- flash loaned 76,000 BNB from Fortube Bank<br><br>- swapped 37999.99 BNB for 95.409 xWin tokens via PancakeSwap V1 BNB+xWin Pool due to an invalid slippage control in the <u>xWinFundP::_swapBNBToTokens</u>() function<br><br>- deposited 37999.99 BNB and 0.003 xWin tokens into PancakeSwap V1 BNB+xWin Pool as liquidity and minted in return 11.28 PancakeSwap LP tokens. Got an extra amount of xWin tokens as a reward from xWin Finance<br><br>- swapped 95.406 xWin tokens for 75995.77 BNB via the above PancakeSwap V1 BNB+xWin Pool and burnt 11.28 PancakeSwap V1 LP tokens to get 4.19 BNB<br><br>- repeated one to four twenty times, the attacker got about an extra 303,998.86 xWin tokens reward from xWin Finance for this attack<br><br>- swapped 303,998.86 xWin tokens for 903.92 BNB via PancakeSwap V2 BNB+xWin Pool and returned the flash loan in the first step<br><br>607,998 xWin tokens were transferred to the attacker, and then it was used to swap for BNB. This incident was due to a bug in the internal <u>_swapBNBToTokens</u>() function of the <u>xWinFund</u> contract which implements a price slippage control.</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "XWIN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd88ca08d8eec1e9e09562213ae83a7853ebb5d28",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/619e2de036637.jpeg",
+    "date": "2021-6-25",
+    "scam_updates": [],
+    "proof_link": "https://xwin.medium.com/summary-of-the-misuse-of-flash-loan-against-xwin-protocol-a04f7719a0ee, https://peckshield.medium.com/xwin-finance-incident-root-cause-analysis-71d0820e6bc1",
+    "website_link": "https://xwin.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/xwinfinance",
+    "telegram_link": "https://www.t.me/xwinfinance",
+    "our_post_link": null,
+    "funds_lost": 270000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2695,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
