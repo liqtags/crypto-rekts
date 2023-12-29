@@ -1,0 +1,60 @@
+{
+    "id": 3576,
+    "project_name": "Baby Pepe Token",
+    "title": "Baby Pepe Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>The BabyPepe project on Binance Smart Chain was hit by a rugpull, resulting in a loss of 130,752 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The deployer of a fake token named BabyPepe removed the liquidity from the PancakeSwap pool, profiting roughly 534 $BNB which equated to 130,752 $USD at the time. The stolen funds were then transferred through a couple of EOA addresses and currently reside in one of them. Please note, this token is a copycat and should not be confused with any other projects that share the same name or token symbol.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x05b44e3836a3f7f1a9091590a1c8056d00b0c9db</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xd70e37f3c090bb088a67285ff6ebb55a437b888e</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xafb549a0c06cdf5216a83cdb1ccdf7cccbf0e2714ae081e1937e6693fb2b2a67</p>",
+    "name_categories": "Token",
+    "token_name": "BabyPepe",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x80884c6cc5b8cbca56da2561c528a3b8f389d674",
+    "token_addresses": [
+        {
+            "address": "0x80884c6cc5b8cbca56da2561c528a3b8f389d674",
+            "url": "https://bscscan.com/address/0x80884c6cc5b8cbca56da2561c528a3b8f389d674",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6499ae7e42aab.png",
+    "date": "2023-6-24",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1672546986505977856?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 130752,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3576,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
