@@ -1,0 +1,60 @@
+{
+    "id": 3752,
+    "project_name": "Memecoin",
+    "title": "Memecoin Fake Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>MEME token rugpull by scammer on Oct 30, 2023, depleting liquidity pool and causing a loss of 79,157 USD worth 43.67 WETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MEME is an ERC20 token trading on UniSwap. On Oct 30, 2023, the scammer (0xBd72D445893aaD1Cf9dbCEc7c186f06F9D2B5871) performed an exit scam by selling 4,854,740,126,240,000 MEME tokens, completely depleting the liquidity pool. As of the same date, the stolen funds, worth 79,157 USD (43.67 WETH), are still in the scammer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xBC0DD7FB34765C418c2A07706606b6A37D911288</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xBd72D445893aaD1Cf9dbCEc7c186f06F9D2B5871</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x0bbbe26caa001d4cb6ade649cb490f16a175107a075b59ac537ae0fe15c3aa25</p>",
+    "name_categories": "Token",
+    "token_name": "MEME",
+    "proof_archive_link": "https://archive.ph/oRsvg",
+    "technical_issue": null,
+    "token_address": "0x3417D4Fa067806f8F70C2A692548048962B7aC45",
+    "token_addresses": [
+        {
+            "address": "0x3417d4fa067806f8f70c2a692548048962b7ac45",
+            "url": "https://etherscan.io/address/0x3417d4fa067806f8f70c2a692548048962b7ac45",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/653f86a8ae19c.png",
+    "date": "2023-10-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1718887498892636294?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 79157,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3752,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
