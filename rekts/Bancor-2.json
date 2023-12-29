@@ -1,0 +1,51 @@
+{
+    "id": 2550,
+    "project_name": "Bancor",
+    "title": "Bancor (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bancor smart contracts were compromised due to a security breach in a wallet used for upgrades, leading to a loss of approximately 24,984 ETH and other tokens worth around $23.5M.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>The attacker compromised a wallet used for upgrading smart contracts and withdrew 24,984 ETH (~$12.5M) from the BNT smart contract. The same wallet was also used to steal 229,356,645 NPXS (~$1M) and 3,200,000 BNT (~$10M). The stolen funds were transferred to multiple wallets before being deposited into the Huobi exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The transactions related to the attack can be traced through the following links:</p><p>- Initial withdrawal of Bancor's ETH: [Transaction Link](https://etherscan.io/tx/0xf9fe97d642705fa016c4f8d11ea13ce581ba75c57ac455586254e15d915e9bde)</p><p>- Additional ETH received by Phishing1701: [Transaction Link](https://etherscan.io/tx/0xfdb8d337b4b96d186375355bc0231ad4ee04ab2556fb9628bbf382343cb2c833)</p><p>- Conversion of Bancor's ETH into Ether: [Transaction Link](https://etherscan.io/tx/0x43a964e635f31b0cc329db6f980f09096054e4e3a627c85654852fd026b92ba0)</p><p>- Transfer of ETH to Phishing1702: [Transaction Link](https://etherscan.io/tx/0x4a47e32d4e1f90457b65b73bff0770caa6810880ad50a2f03a62d8a525b62b9f)</p><p>- Transfer of ETH to Phishing1703: [Transaction Link](https://etherscan.io/tx/0x2c281aa4ee30d4d0a5dcd77bb80bc66f13d027bb828f5e4b3be7ff8bd47999a2)</p><p>- Transfer of ETH to the hacker's wallet: [Transaction Link](https://etherscan.io/tx/0x1890d018b54fc773ca153701f64b0668d278e15ee9f99abad11635d24ec0babe)</p><p>- Transfer of ETH to an external wallet: [Transaction Link](https://etherscan.io/tx/0x492650541da5a2839e3314885fae541e68932a5410eb708f843a250e2863d57d)</p><p>- Deposit of ETH into the Huobi exchange: [Wallet Address](https://etherscan.io/address/0xd294ac18b524ff59ab7fffcbd459f11128220550)</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "BNT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61150d94794e6.png",
+    "date": "2020-6-18",
+    "scam_updates": [],
+    "proof_link": "https://blog.1inch.io/bancor-network-hack-2020-3c71444fd59d",
+    "website_link": "https://bancor.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Bancor",
+    "telegram_link": "https://t.me/bancor",
+    "our_post_link": null,
+    "funds_lost": 135229,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2550,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
