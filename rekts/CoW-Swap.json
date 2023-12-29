@@ -1,0 +1,60 @@
+{
+    "id": 3355,
+    "project_name": "CoW Swap",
+    "title": "CoW Swap",
+    "description": "<p><strong>Quick Summary</strong></p><p>On Feb. 7, the CoW Swap fee manager contract was drained of worth 160k $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The CoW Swap uses external resolvers for swap routing to find the best exchange way. The solver also receives a protocol fee. &nbsp;granted approval for the malicious contract. 27 Feb the malicious contract was approved by the whitelisted solver. After that, the hacker received an opportunity to drain the fee collector contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit TX:&nbsp;</p><p>https://etherscan.io/tx/0x90b468608fbcc7faef46502b198471311baca3baab49242a4a85b73d4924379b</p><p><br></p><p>Malicious call:</p><p>https://etherscan.io/tx/0x92f906bce94bab417cccc87ae046448d7fb8c2c0350b7ed911545577acb3bfc1</p><p><br></p><p>Exploiter:&nbsp;</p><p>https://etherscan.io/address/0xc0e82c1ed4786f8b7f806d1b8a6335ec485266ff</p><p>https://etherscan.io/address/0x94b6f400df694d0de29f600b15baeed83e95658c</p><p><br></p><p><br></p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xcD07a7695E3372aCD2B2077557DE93e667B92bd8",
+            "url": "https://etherscan.io/address/0xcD07a7695E3372aCD2B2077557DE93e667B92bd8#code",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63fcca1e46698.jpg",
+    "date": "2023-2-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CoWSwap/status/1622885842858508290?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1622885842858508290%7Ctwgr%5Eca0c83eee6765e1bb987662a5abf1de0872d621d%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fforklog.com%2Fnews%2Fdetsentralizovannaya-birzha-cow-swap-poteryala-iz-za-vzloma-166-000, https://twitter.com/MevRefund/status/1622793836291407873",
+    "website_link": "https://cow.fi/",
+    "webarchive_link": "https://archive.ph/CMEH7",
+    "twitter_link": "https://twitter.com/CoWSwap",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 160000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/cowprotocol",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3355,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
