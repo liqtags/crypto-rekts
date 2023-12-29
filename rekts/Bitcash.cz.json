@@ -1,0 +1,51 @@
+{
+    "id": 2952,
+    "project_name": "Bitcash.cz",
+    "title": "Bitcash.cz",
+    "description": "<p>Czech Republic-based bitcoin exchange Bitcash.cz has been hacked and up to 4,000 customers\u2019 wallets have been emptied.<br><br>According to Czech news site E15.cz, some 4,000 bitcoin wallets had been opened with Bitcash.cz, with a total value of over 2 million Czech koruna (roughly equivalent to $100,000).<br><br>A post on the company's Facebook page reads:</p><p>\"Unfortunately, as we have already announced on our website Bitcash.cz, our server was attacked and compromised \u2013 including the wallets.<br><br>We are trying to resolve the situation, but we want to warn our users about fraudulent emails and scams [claiming to be from Bitcash].<br><br>We never ask anyone for access to his or her accounts or wallets nor ask for money.<br><br>We will inform you of any developments as soon as possible.<br><br>Thanks.\"</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f21aaab1fc.jpeg",
+    "date": "2013-11-11",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2013/11/12/czech-bitcoin-exchange-bitcashcz-hacked-and-up-to-4000-user-wallets-emptied/",
+    "website_link": "http://bitcash.cz/",
+    "webarchive_link": "https://web.archive.org/web/20130302013138/http://bitcash.cz/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 161000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2952,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
