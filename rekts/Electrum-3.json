@@ -1,0 +1,51 @@
+{
+    "id": 2867,
+    "project_name": "Electrum",
+    "title": "Electrum (3)",
+    "description": "<p><strong>Quick Summary</strong></p><p>Two Electrum wallet users reported Bitcoin theft, one user lost 1,400 BTC due to a malicious update.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Two users of the Electrum wallet have reported their Bitcoin holdings stolen. One of the users suffered a significant loss of 1,400 BTC. The user installed an old version of the Electrum wallet and when attempting to transfer about 1 BTC, a pop-up appeared stating a security update was required before proceeding. After installing the prompted update, the entire balance of the user was immediately transferred to a scammer's address.</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241de72aa127.jpeg",
+    "date": "2020-8-30",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/electrum-bitcoin-wallet-still-plagued-by-known-crypto-phishing-attack",
+    "website_link": "https://electrum.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ElectrumWallet",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 15000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/spesmilo/electrum",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2867,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
