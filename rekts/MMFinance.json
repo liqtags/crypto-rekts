@@ -1,0 +1,51 @@
+{
+    "id": 3139,
+    "project_name": "MMFinance",
+    "title": "MMFinance",
+    "description": "<p><strong>Quick Summary</strong></p><p>The MMF project has been rug pulled by its project deployer. The team made away with $BNB 726 &nbsp;in profits. This project should not be confused with the popular MMFinance farm on Cronos.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Project Deployer</p><p>https://bscscan.com/address/0x648361c2cd349568743c1537ba2c5d3fbe089fbe</p>",
+    "name_categories": "Token",
+    "token_name": "MMF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xdcd79870bb0ef828d2c4c057d22ed006aac1f19f",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6306234b5b6b6.png",
+    "date": "2022-8-13",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x1288392e264715a179f7d91a47522e61bf1a8185",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 215000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3139,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
