@@ -1,0 +1,68 @@
+{
+    "id": 3227,
+    "project_name": "MetaverseToken",
+    "title": "MetaverseToken",
+    "description": "<p><strong>Quick Summary</strong></p><p>MetaverseToken was exploited by a flash loan attack. The attacker profited 487,042 $USD and sent the stolen funds to other EOA addresses.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MetaverseToken is BEP20 token trading on PancakeSwap and can't be confused with other tokens with the same MT symbol. The attacker took a flash loan for 406,405 $BUSD and used the funds to exploit $MT token. The attacker was able to withdraw 893,447 $BUSD after some operations and paid back the flash loan. The total profit of the hacker reached 487,042 $USD. The stolen funds were distributed between other EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xd0665538e599b02cdb565edb0a38813a88b31d9e</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x561d38206dd390e173b6236e6a2316687dfc31a9</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xb1db9743efbc306d9ba7b5b892e5b5d7cc2319d85ba6569fed01892bb49ea499</p>",
+    "name_categories": "Token",
+    "token_name": "MT",
+    "proof_archive_link": "https://archive.ph/vAa8t",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+    "token_addresses": [
+        {
+            "address": "0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+            "url": "https://bscscan.com/address/0x2f3f25046Ea518d1E524B8fB6147c656D6722CeD",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xbf4707b7f9f53e3aae29bf2558cb373419ef4d45",
+            "url": "https://bscscan.com/address/0xbf4707b7f9f53e3aae29bf2558cb373419ef4d45",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634eb13076f82.png",
+    "date": "2022-10-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1581966260686188547",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 487042,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3227,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
