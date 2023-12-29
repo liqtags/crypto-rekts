@@ -1,0 +1,60 @@
+{
+    "id": 3723,
+    "project_name": "Stanley the Bugman",
+    "title": "Stanley the Bugman Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BUGMAN token rugpulled by deployer, removing 159,039 USD worth of liquidity from UniSwap pool, funds partially laundered through TornadoCash.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BUGMAN, an ERC20 token trading on UniSwap, experienced an exit scam on Oct 03, 2023. The deployer removed 96,83 WETH, equivalent to 159,039 USD, from the liquidity pool. Approximately 18 hours passed between adding and removing liquidity. Half of the stolen funds were transferred to another EOA and then deposited into TornadoCash. The remaining half of the funds, still worth 49,67 ETH, are held in the scammer's wallet.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x0acc2e479FdD507430c8D277dBcAa20AE926cE79</p><p><br></p><p>Scammer Address:</p><p>https://etherscan.io/address/0xe697EAb7Dd26e5d528F7bf73a24A102339d4Ac8a</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x8fc1a4745fb633a8270353d8469036ca52368a16f0bd94fe77baeb64688b0a8f</p><p><br></p><p>Funds Holder as of Oct 3, 2023:</p><p>https://etherscan.io/address/0x1ca57014c2b2217D0D13943cfe3e55CC56A06538</p>",
+    "name_categories": "Token",
+    "token_name": "BUGMAN",
+    "proof_archive_link": "https://archive.ph/CT7lO",
+    "technical_issue": null,
+    "token_address": "0x59C2aC218522EC689686F46EAE1c6c998652Cf80",
+    "token_addresses": [
+        {
+            "address": "0x59c2ac218522ec689686f46eae1c6c998652cf80",
+            "url": "https://etherscan.io/address/0x59c2ac218522ec689686f46eae1c6c998652cf80",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/651f180423987.png",
+    "date": "2023-10-3",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1709134563455209507",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 113758,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3723,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
