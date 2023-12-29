@@ -1,0 +1,60 @@
+{
+    "id": 3473,
+    "project_name": "EDAO",
+    "title": "EDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>On March 25, 2023, the team behind the EDAO &nbsp;token executed a rug pull, resulting in a loss of funds worth $39.3k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The EDAO token was dumped by the project team. Initial mint was dispersed between different addresses and on the 25th of March the massive sale event happened.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Swaps:</p><p>https://bscscan.com/tx/0x2a446751547b0b6d22209aec4e6944f81daab2a770c72203e789a8de3ed40https://bscscan.com/token/0x900882be74c5cb53ef02d603fcf006cdef0495c9?a=0x6fb985e3563e7ba2dbe36ff96d1191d118c51cda</p><p>Initial mint:</p><p>https://bscscan.com/tx/0x1ccfde1770970c87fcb96f63dff24e44851ec08a7f0ddb95dbca02d6a0b5cb81</p>",
+    "name_categories": "Token",
+    "token_name": "EDAO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x900882Be74c5Cb53eF02D603fCF006CDEf0495c9",
+    "token_addresses": [
+        {
+            "address": "0x900882Be74c5Cb53eF02D603fCF006CDEf0495c9",
+            "url": "https://bscscan.com/address/0x900882Be74c5Cb53eF02D603fCF006CDEf0495c9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64380796638b6.png",
+    "date": "2023-3-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1639624450059669506?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 39300,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3473,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
