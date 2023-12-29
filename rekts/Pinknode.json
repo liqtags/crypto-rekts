@@ -1,15 +1,15 @@
 {
-    "id": 1207,
+    "id": 918,
     "project_name": "Pinknode",
     "title": "Pinknode",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "PNODE",
+    "token_name": "pnode",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x165f95674a3ba592db7c98131c8164a8c140f692",
+    "token_address": "0xe54fd9724c772121a0fb91b46e4b84b491116d0a",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60efeb3e97e4c.png",
+    "logo_link": "safe/files/scamDatabase/logo/60eecf6695650.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1207,
+            "scam_database_id": 918,
             "networks": {
                 "id": 56,
                 "name": "Binance",
