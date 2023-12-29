@@ -1,0 +1,60 @@
+{
+    "id": 3567,
+    "project_name": "Vip Panda Community",
+    "title": "Vip Panda Community",
+    "description": "<p><strong>Quick Summary</strong></p><p>Vip Panda Community ($VPC) was rugpulled by the initial holder, resulting in a loss of 265,865 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$VPC, a token for the VPANDA project trading on the Binance Smart Chain, experienced a significant drain of funds from its PancakePool. The initial token holder carried out this action through multiple transactions, resulting in a loss of approximately 265,865 $USD. The drained funds were subsequently transferred to another EOA address, which was previously implicated in the VPANDA rugpull incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xA9f2c4d5529807c5d3B8D9d678558ACbbB7eb5d6</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x33D2a493CEa00918b02239604b94AD906d6eaF65</p><p><br></p><p>Example Liquidity Drain Transaction:</p><p>https://bscscan.com/tx/0xa48da7a6b82ead33f06c3ec51756735d15b79190351d42a509bae85902ef19f6</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x85d7b2fbe576e5497eb276f1dcd06c357d3d46624e56c060102c7568c7d84926</p>",
+    "name_categories": "Token",
+    "token_name": "VPC",
+    "proof_archive_link": "https://archive.ph/JTWdB",
+    "technical_issue": null,
+    "token_address": "0x42269ac712372ac89a158ad5a32806c6b6782d66",
+    "token_addresses": [
+        {
+            "address": "0x42269ac712372ac89a158ad5a32806c6b6782d66",
+            "url": "https://bscscan.com/address/0x42269ac712372ac89a158ad5a32806c6b6782d66",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64918c4fb46b1.jpg",
+    "date": "2023-6-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1670740066484797440?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/VPandaCommunity",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 265865,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3567,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
