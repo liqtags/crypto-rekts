@@ -1,0 +1,78 @@
+{
+    "id": 3378,
+    "project_name": "Cryptoger Club",
+    "title": "Cryptoger Club",
+    "description": "<p><strong>Quick Summary</strong></p><p>Cryptoger Club was rugpulled for 35,364 $USD worth of $BNB by the token deployer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Cryptoger Club is a BEP20 token trading on PancakeSwap. The token deployer and another EOA address removed liquidity for 105.2 $BNB from the pool and then transferred the stolen funds to several EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x4ec683b0b34a774c6d72583116b0accbaad63408</p><p>https://bscscan.com/address/0xbcd9343f85ff8b4efd91a424342fc2fbe76cbed0</p><p><br></p><p>Liquidity removal transactions:</p><p>https://bscscan.com/tx/0x52a9de0b24a3834810160bc5a1e7de276c5edd6138356718a11662c2fb494c47</p><p>https://bscscan.com/tx/0x8855dc34a908eff403931cf529f38528e581f5107688f359ec660b6461ce133c</p><p><br></p><p>Transfer transaction:</p><p>https://bscscan.com/tx/0x8d6d55dca3e86bccbfb6aff75c7046663b4bcd5c1bb3f025c21413429c6ad4f0</p>",
+    "name_categories": "NFT",
+    "token_name": "CToger",
+    "proof_archive_link": "https://archive.ph/ZGjdu",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x910b0Cb55121190d9E4176D449E26EE3BBbBff1F",
+    "token_addresses": [
+        {
+            "address": "0x910b0Cb55121190d9E4176D449E26EE3BBbBff1F",
+            "url": "https://bscscan.com/token/0x910b0Cb55121190d9E4176D449E26EE3BBbBff1F",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x3f27f5306ccbae5e089c5c9b3d8313358ef39230",
+            "url": "https://bscscan.com/address/0x3f27f5306ccbae5e089c5c9b3d8313358ef39230",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6418be5023a63.jpg",
+    "date": "2023-3-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1633654937606569985?s=20",
+    "website_link": "https://cryptoger-club.gitbook.io/about/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/CryptogerClub",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 35364,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3378,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/SmartContract_Audit_Solidproof_CryptogerClub.pdf",
+            "date": "2022-03-02T00:00:00.000Z",
+            "partner": {
+                "id": 79,
+                "name": "Solidproof",
+                "logo_link": "safe/files/partner/logo/612e3d5120440.jpeg"
+            }
+        }
+    ]
+}
