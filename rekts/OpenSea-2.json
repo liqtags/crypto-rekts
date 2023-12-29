@@ -1,0 +1,51 @@
+{
+    "id": 2833,
+    "project_name": "OpenSea",
+    "title": "OpenSea (2)",
+    "description": "<p>The malicious actor sent emails to OpenSea users, which contained information about fake migration to the new contract. In total, 17 users became victims of email fishing.<br><br>The malicious actor's address:<br>https://etherscan.io/address/0x3E0DeFb880cd8e163baD68ABe66437f99A7A8A74<br><br>Stolen NFTs list:<br>https://docs.google.com/spreadsheets/d/1XQNIXuAl2E1XO_cP8pm_vbzskI_Pka4E5sizfcrLITM/edit#gid=0<br><br>Stolen NFTs were sold out on LooksRare marketplace, the example transactions:<br>https://etherscan.io/tx/0xd910c67a55618e0db6fdbcd9647b7eedebed0bbb098bdffc2a3276856f989221<br>https://etherscan.io/tx/0x9a9bb48a9a9b6c3bbd98f4786b85ec15e4fe78acf946c8ff09201c1a8371e8ee<br>https://etherscan.io/tx/0x70c8622cea709c551de8135b71ce9ec0cb15a3cb835957d42937edf44ee360f9<br><br>Stolen funds were deposited into the Tornado Cash mixer:<br>https://bloxy.info/txs/transfers_from/0x3e0defb880cd8e163bad68abe66437f99a7a8a74?currency_id=1</p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6213ad9509911.png",
+    "date": "2022-2-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/opensea/status/1495211277097996290, https://coincodecap.com/opensea-investigating-exploit-rumors-as-users-complain-of-missing-nfts, https://twitter.com/charliemktplace/status/1495214437904654346",
+    "website_link": "https://opensea.io/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/opensea",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1700000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/opensea",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2833,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
