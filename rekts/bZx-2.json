@@ -1,0 +1,79 @@
+{
+    "id": 2361,
+    "project_name": "bZx",
+    "title": "bZx (2)",
+    "description": "<p>The transaction behind the attack:<br>https://etherscan.io/tx/0x762881b07feb63c436dee38edd4ff1f7a74c33091e534af56c9f7d49b5ecac15<br><br>The attacker's address:<br>https://etherscan.io/address/0xb8c6ad5fe7cb6cc72f2c4196dca11fbb272a8cbf<br><br>The attacker:<br>- flash loaned 7,500 WETH from the bZx protocol<br><br>- with the flash loan, the attacker swapped 900 ETH in two batches for sUSD through Kyber. The first batch was sold for 540 ETH in KyberSwap that, after internal consulting of reserves, was routed the swap order to the KyberUniswap reserve (0x31e085afd48a1d6e51cc193153d625e8f0514c7f) and got 92,419 sUSD in return. The second batch was sold 18 times for 20 ETH each, also in Kyber that, after internal consulting of reserves, routed the swap orders to the Kyber-sUSD reserve (0x4cb01bd05e4652cbb9f312ae604f4549d2bf2c99) and got 63,584 sUSD in return. The sell-off of these two batches effectively drove the price of sUSD up to 0.00899 ETH (or 1ETH=111 sUSD). The manipulated price is around 2.5x higher when compared to the average ETH/sUSD market price. After the swap, the attacker acquired 92,419+63,584=156,003 sUSD tokens at his disposal<br><br>- turned to Synthetic Depot contract to acquire substantially more sUSD at market price. Note Synthetic Depot contract allows for depositing Ether for sUSD at a fair rate. The attacker sent 6,000 ETH and bought 943,837 sUSD back (with 2,482 ETH refunded back as there\u2019s no enough sUSD to buy). Note this step is typically launched before the previous step. For whatever reason, this is not the case in this particular hack (and the ordering does not affect the final result as the pricing in Synthetic Depot is not affected by KyberSwap)<br><br>- the sUSD/ETH price was driven up and the attacker has &gt;1M sUSD at his disposal. Note that the attacker takes the approach by capitalizing on the spiked price in a profitable Compound position in the first hack. Considering the possibly low liquidity of sUSD, the attacker this time takes the approach of first collateralizing the collected &gt;1M sUSD back into bZx and then borrowing from it 6,796 ETH. As bZx relies on Kyber for the price feed, with the spiked sUSD/ETH price, the collection of &gt;1M sUSD allows for the borrow of 6796 ETH. With the normal conversion rate of 1ETH=111 sUSD, the same amount of sUSD tokens can only buy 4,000 ETH, which indicates that this loan is now underwater with insufficient collateralization<br><br>- the attacker repaid the 7,500 ETH flash loan back to bZx with a profit of 2,378 ETH</p>",
+    "name_categories": "Other",
+    "token_name": "BZRX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x56d811088235F11C8920698a204A5010a788f4b3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6103daac10064.png",
+    "date": "2020-2-18",
+    "scam_updates": [],
+    "proof_link": "https://peckshield.medium.com/bzx-hack-ii-full-disclosure-with-detailed-profit-analysis-8126eecc1360, https://www.coindesk.com/defi-project-bzx-exploited-for-second-time-in-a-week-loses-630k-in-ether",
+    "website_link": "https://bzx.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/bZxHQ",
+    "telegram_link": "https://t.me/b0xNet",
+    "our_post_link": null,
+    "funds_lost": 665840,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2361,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Bzx_04_09_2020.pdf",
+            "date": "2020-09-04T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/bZx_V2_PQ_Review_PQ_Reviews.pdf",
+            "date": "2020-10-06T00:00:00.000Z",
+            "partner": {
+                "id": 23,
+                "name": "DeFi Safety",
+                "logo_link": "safe/files/partner/logo/6154df0c5cbef.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/bzx_audit_2.pdf",
+            "date": "2018-09-01T00:00:00.000Z",
+            "partner": {
+                "id": 34,
+                "name": "ZK Labs",
+                "logo_link": "safe/files/partner/logo/60dcb0383c77c.jpeg"
+            }
+        }
+    ]
+}
