@@ -1,0 +1,68 @@
+{
+    "id": 3377,
+    "project_name": "Mars Meta Space",
+    "title": "Mars Meta Space",
+    "description": "<p><strong>Quick Summary</strong></p><p>Mars Meta Space was exploited via Access Control which resulted in a loss of 102,310 $USD</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Mars Meta Space is a Gaming Metaverse running on the BNB chain. MarsMinerToken with the token symbol $MMT is a project asset, trading on PancakeSwap. The project was exploited via signature compromise, which allowed the attacker to take 301.8 $BNB from the pool, which is worth 102,310 at the moment. All the stolen funds were transferred through TornadoCash. The token price dropped by more than 80% after the incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x2a45a576beecc945527a1b106c6d41d3ea52f9f7</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xeac428cfa69db88f45d9df6ac13f8cc24c452e611d98d90e38ec89345c99167f</p><p><br></p><p>Funds transfer transaction example:</p><p>https://bscscan.com/tx/0xd1dbbf1cdfbad1bd77ff539ea810f750fe56c9cf197ea3964377603798ada317</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "MMT",
+    "proof_archive_link": "https://web.archive.org/web/20230320195206/https://twitter.com/CertiKAlert/status/1624496268843134980",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xc91f7096FF24b8CaEe44F7c0C94b00B70Cec682A",
+    "token_addresses": [
+        {
+            "address": "0xc91f7096FF24b8CaEe44F7c0C94b00B70Cec682A",
+            "url": "https://bscscan.com/token/0xc91f7096FF24b8CaEe44F7c0C94b00B70Cec682A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xABAa6408B56D0Ce303a48b85Ff1A277A61bfFBC9",
+            "url": "https://bscscan.com/address/0xABAa6408B56D0Ce303a48b85Ff1A277A61bfFBC9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6418b52c7263d.jpg",
+    "date": "2023-2-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1624496268843134980?s=20",
+    "website_link": "https://marsminer.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MmtMiner",
+    "telegram_link": "https://t.me/marsmetaspace",
+    "our_post_link": null,
+    "funds_lost": 102310,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3377,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
