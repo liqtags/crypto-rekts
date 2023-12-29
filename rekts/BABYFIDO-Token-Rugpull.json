@@ -1,0 +1,60 @@
+{
+    "id": 3776,
+    "project_name": "BABYFIDO",
+    "title": "BABYFIDO Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BABYFIDO token was rugpulled, the scammer removed liquidity worth 79,306 USD from UniSwap pool, resulting in a 39.42 WETH loss.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BABYFIDO is an ERC20 token trading on UniSwap. On Nov 14, 2023.The scammer swapped a significantly larger number of tokens, completely depleting the liquidity pool worth 39.42 WETH or approximately 79,306 USD. The stolen funds were transferred to another EOA and then added to the liquidity pool of another token through a another scammer's address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x841DB64396d451b4461918c30c3D18D076cC8c7b</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0x45aF15b299De5e77b3DadCA429DD4ba466d7a448</p><p>https://etherscan.io/address/0x7ccbeB782ccA8A33522DFac9b435341040Ae0Ab8</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x1d4924053b7056fa5ab52ed9f82d9a8f62d6e8b3356e6f0fdb99cea197c0504a</p>",
+    "name_categories": "Token",
+    "token_name": "BABYFIDO",
+    "proof_archive_link": "https://archive.ph/XvMp4",
+    "technical_issue": null,
+    "token_address": "0x1c5Ee1FFeBeC5F3E1686e8E59d43F96A3c702B7f",
+    "token_addresses": [
+        {
+            "address": "0x1c5ee1ffebec5f3e1686e8e59d43f96a3c702b7f66d7a448",
+            "url": "https://etherscan.io/address/0x1c5ee1ffebec5f3e1686e8e59d43f96a3c702b7f66d7a448",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/655510b097117.png",
+    "date": "2023-11-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1724312180714099079?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 79306,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3776,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
