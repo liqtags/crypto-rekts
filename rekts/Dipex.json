@@ -1,0 +1,51 @@
+{
+    "id": 117,
+    "project_name": "Dipex",
+    "title": "Dipex",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x0277b502aa52ce719a8eb259b443d1118a492913025f3da125e5ce5d61b74edc<br><br>The contract deployer locked liquidity at:<br>https://etherscan.io/tx/0x6eead116e0ceccea3f1cf2ccaf29bc0e15487d4fa8055dfb77415a6440365254<br><br>The contract deployer invoked <u>approveAndCall</u>() function, which included an external wallet and <u>addedValue&nbsp;</u>amount as the input data:<br>https://etherscan.io/tx/0x5b6f330b2180b53cc6655babf018d8ddceba6b8fba81c6c6471ec60add2462ff<br><br>This external wallet got an increase in token balance. The external wallet has sold tokens at:<br>https://etherscan.io/tx/0x954e5fbc0fc96bd83773b11e4005761a4e347a4734a75467163d83f31ce0b4d4</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "DPX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xbce67604c08c4839980c32485657f63211c73e14",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b0cf9b11d.jpeg",
+    "date": "2021-1-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1347915049495498754",
+    "website_link": "https://dipex.site/",
+    "webarchive_link": "https://web.archive.org/web/20210108120920/https://dipex.site/",
+    "twitter_link": "https://twitter.com/DIPEXdex",
+    "telegram_link": "https://t.me/DIPEX_DEX",
+    "our_post_link": null,
+    "funds_lost": 16957,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 117,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
