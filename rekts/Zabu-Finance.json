@@ -1,0 +1,51 @@
+{
+    "id": 2626,
+    "project_name": "Zabu Finance",
+    "title": "Zabu Finance",
+    "description": "<p>The attacker:<br>https://cchain.explorer.avax.network/address/0x9ed2D048e90CfFa5e4A778678CBc3acb8A3Abf86/transactions<br><br>The transaction behind the attack:<br>https://cchain.explorer.avax.network/tx/0x8b3042e55a63f39bb388240a089cf4d51e59abe7cb0bff303c6dbb19eaeb75ac/token-transfers<br><br>The hack was due to the lack of deflationary token support in the MasterChef contract. By repeated deposits and withdrawals with the MasterChef, the attacker frequently triggers the tax collection, which led to the exploit.<br><br>The attacker deployed the contract with the malicious logic at:<br>https://cchain.explorer.avax.network/tx/0x771c4454e2681f46bfb04e20acde021127e912b8a345baa98e3502761665c319/internal-transactions<br><br>Further, he interacted with that contract to successfully pulled out 4.5 billion ZABU tokens in Zabu Farm Contract.<br><br>The list of stolen assets:<br>- WETH: 402.9<br>- WAVAX: 23,157<br>- PNG: 21,501<br>- AVE: 106,848<br>- USDT: 361,267<br>- JOE: 23,958.93&nbsp;</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "ZABU",
+    "proof_archive_link": "https://archive.is/N2UZL",
+    "technical_issue": null,
+    "token_address": "0xDd453dBD253fA4E5e745047d93667Ce9DA93bbCF",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/613f4894450ee.png",
+    "date": "2021-9-12",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/zabu-finance-exploited-on-avalanche-3-2m/, https://cointelegraph.com/news/zabu-token-price-flatlines-after-3-2m-attack-on-avalanche-blockchain",
+    "website_link": "https://zabu.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/zabufinance",
+    "telegram_link": "https://t.me/ZabuFinance",
+    "our_post_link": null,
+    "funds_lost": 3200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 2626,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
