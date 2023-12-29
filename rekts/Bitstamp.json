@@ -1,0 +1,51 @@
+{
+    "id": 2812,
+    "project_name": "Bitstamp",
+    "title": "Bitstamp",
+    "description": "<p>The attacked contacted with Bitstamp team and sent a number of attachments via email. One of these, UPE_application_form.doc, contained obfuscated malicious VBA script. When opened, this script ran automatically and pulled down a malicious file from IP address 185.31.209.145, thereby compromising the machine. Ultimately, the attackers were able to access two servers containing the wallet.dat file for Bitstamp\u2019s hot wallet and the passphrase for that file.<br><br>On 4th January, the attacker drained the Bitstamp wallet.<br><br>Bitstamp lost 18,866 BTC from its hot wallet, worth approximately $5,263,614 at a time when the price of bitcoin averaged $279.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61f9278f574a1.jpeg",
+    "date": "2015-1-4",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2015/07/01/details-of-5-million-bitstamp-hack-revealed/, https://money.cnn.com/2015/01/06/technology/security/bitcoin-bitstamp-hacked/",
+    "website_link": "https://www.bitstamp.net/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Bitstamp",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 5263614,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2812,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
