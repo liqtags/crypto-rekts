@@ -1,0 +1,68 @@
+{
+    "id": 3233,
+    "project_name": "LGT",
+    "title": "LGT",
+    "description": "<p><strong>Quick Summary</strong></p><p>LGT project was rugpulled for 35,320 $USD. An EOA address drained liquidity from the pool using $LGT tokens received from the initial token holder.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>LGT is a BEP20 token trading on PancakeSwap. The initial token holder sent 500,000,000 $LGT tokens to an EOA address, which drained liquidity from the Pancake pool for 35,320 $USD. The funds were transferred to another EOA address after an incident.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xe36f1501aef1de01655775b99bc2fa39babe2ef9</p><p><br></p><p>Token holder:</p><p>https://bscscan.com/address/0xf975b22de5b2ee27043729f3cdd35fbb51eede0d</p><p><br></p><p>Transfer token transaction:</p><p>https://bscscan.com/tx/0x63bb6386d928c42bda87e3b4e97d0f691511ef0e7eec01b899133c6a7f2cf3d5</p><p><br></p><p>Liquidity drain transactions:</p><p>https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955?a=0xe36f1501aef1de01655775b99bc2fa39babe2ef9</p>",
+    "name_categories": "Token",
+    "token_name": "LGT",
+    "proof_archive_link": "https://archive.ph/r4rkZ",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xd21d53fa113dd5769aA1B603C296d6ae15D0044A",
+    "token_addresses": [
+        {
+            "address": "0xd21d53fa113dd5769aA1B603C296d6ae15D0044A",
+            "url": "https://bscscan.com/address/0xd21d53fa113dd5769aA1B603C296d6ae15D0044A",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x9637e2CA841f7Ed95f994bC4358d300184C42E99",
+            "url": "https://bscscan.com/address/0x9637e2CA841f7Ed95f994bC4358d300184C42E99",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63527e37b3608.png",
+    "date": "2022-10-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1580310351886704641",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 35230,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3233,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
