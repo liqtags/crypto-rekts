@@ -1,0 +1,79 @@
+{
+    "id": 3054,
+    "project_name": "Equalizer Finance",
+    "title": "Equalizer Finance",
+    "description": "<p>On June 7-th Equalizer Finance suffered from a flash loan attack. The EqualizerFinance has FlashLoanProvider contract that providers flash loans, and the Vault contract used for borrowing funds by calling <em>flashLoan()&nbsp;</em>function.</p><p><br></p><p>Flash loan attack explanation:</p><p>The attacker first borrows 165.3 WBNB from PancakeSwap using flash loan.&nbsp;</p><p>Event 15: https://bscscan.com/tx/0xdc4ea764632bb264bf820e1942c20cda4c9564c1255f78a6b8aa62c31d5035f0#eventlog</p><p>The FlashLoanProvider provider first transfers the WBNB liquidity to the attacker in the WBNB storage contract, which is then followed by the flash loan callback.<br>The attacker then provides liquidity to the WBNB repository in a second instant callback.<br>The attacker then returns the secondary flash loan and removes the liquidity from the WBNB vault.<br>By targeting the storage contracts in each chain, the attacker was able to withdraw liquidity from Equalizer Finance.</p><p><br></p><p>Attack transactions:</p><p>ETH - https://etherscan.io/tx/0x9b17f61d2c7fc4463ff94c5edfea6695d131584a6e07fed5b9ed298c16c17f41</p><p>BSC - https://bscscan.com/tx/0xdc4ea764632bb264bf820e1942c20cda4c9564c1255f78a6b8aa62c31d5035f0</p><p><br></p><p>Attacker address:&nbsp;</p><p>BSC - https://bscscan.com/address/0x0000003502aa61a5f1b1fdadff2cf947dfda526e</p><p>ETH - https://etherscan.io/address/0x0000003502aa61a5f1b1fdadff2cf947dfda526e</p><p><br></p><p>Attacker contract address:</p><p>ETH - https://etherscan.io/address/0xf667e04a8d5910328ae92750c0459d2e9e29a67f</p><p>BSC - https://bscscan.com/address/0xf667e04a8d5910328ae92750c0459d2e9e29a67f</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "EQZ",
+    "proof_archive_link": "https://twitter.com/SlowMist_Team/status/1534324108405637121, https://twitter.com/EqualizerFlash/status/1534161931547836417",
+    "technical_issue": null,
+    "token_address": "0x1Da87b114f35E1DC91F72bF57fc07A768Ad40Bb0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62ac46c2b494e.png",
+    "date": "2022-6-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/EqualizerFlash/status/1534161931547836417",
+    "website_link": "https://equalizer.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/EqualizerFlash",
+    "telegram_link": "https://t.me/EqualizerFlash",
+    "our_post_link": null,
+    "funds_lost": 72000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/equalizer-finance",
+    "git_hub_contract_link": "https://github.com/Equalizer-Finance/equalizer-smart-contracts-v1/tree/main/contracts",
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3054,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Equalizer_V1_2021_08_14.pdf",
+            "date": "2021-08-14T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/REP_Equalizer_Yieldfarming_2021_10_18.pdf",
+            "date": "2021-10-18T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Cinta_Infinita_Equalizer_Finance_External_Network_Security_Assessment_Executive_Report_November_2021_1.pdf",
+            "date": "2021-11-01T00:00:00.000Z",
+            "partner": {
+                "id": 108,
+                "name": "Cinta Infinita",
+                "logo_link": "safe/files/partner/logo/62ac47c4d6f38.png"
+            }
+        }
+    ]
+}
