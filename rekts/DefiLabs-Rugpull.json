@@ -1,0 +1,60 @@
+{
+    "id": 3638,
+    "project_name": "DefiLabs",
+    "title": "DefiLabs Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>DefiLabs Farm was rugpulled via a deployer-related address, draining multiple assets worth 1,634,351 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DefiLabs Farm, a staking platform on the Binance Smart Chain, experienced an exitscam. The deployer of the vPoolv6 contract set a new privileged address 'funder'. This address then withdrew funds from the contract using the 'withdrawFunds' function and transferred them to another EOA. The exploited assets included USDT, BTC, ETH, and CAKE tokens, with a total loss estimated at 1,634,351 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xfd2f26dc8789c598e86e7641a74cc60a77b34115</p><p><br></p><p>Scammer's Address:</p><p>https://bscscan.com/address/0xee08d6c3a983eb22d7137022f0e9f5e7d4cf0be2</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0xfd2f26dc8789c598e86e7641a74cc60a77b34115</p><p><br></p><p>Setting Privileged Address Transaction:</p><p>https://bscscan.com/tx/0x0f029cc8daf082613648a26274f09e47b9124b052d9f903c5eb7996af29b57c4</p><p><br></p><p>Draining Transaction:</p><p>https://bscscan.com/tx/0xcd255e0d507d59ac4a357b64a8e0649fc16995f7950fd0421f2010e27cc01e99</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/LGx6Q",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xdedbd1804569f369e33e453ee311f0f97dcd0bde",
+            "url": "https://bscscan.com/address/0xdedbd1804569f369e33e453ee311f0f97dcd0bde",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c2ecf41cfb5.jpg",
+    "date": "2023-7-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/HashDit/status/1684579783261458434",
+    "website_link": "https://defilabs.farm/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/defilabs_farm",
+    "telegram_link": "https://t.me/defilabs_farm",
+    "our_post_link": null,
+    "funds_lost": 1634351,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3638,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
