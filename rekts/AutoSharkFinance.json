@@ -1,0 +1,51 @@
+{
+    "id": 2587,
+    "project_name": "AutoSharkFinance",
+    "title": "AutoSharkFinance",
+    "description": "<p>The transaction behind the attack:<br>https://bscscan.com/tx/0xfbe65ad3eed6b28d59bf6043debf1166d3420d214020ef54f12d2e0583a66f13<br><br>The attacker's address:<br>https://bscscan.com/address/0xd9c7efe29f3e90ce3630ea1c665217c7ab298a3b<br><br>The attacker:<br>- added a small sum of deposit to the SHARK-BNB Vault:<br>https://bscscan.com/tx/0x2a2003fb4c57c0e03dfbdda8eb695ef8f39022df30da977942d930fffbb8e125<br><br>- borrowed 100K BNB of flash loan from PancakeSwap<br><br>- swapped 50K BNB into SHARK token and sent them alongside the rest 50K BNB to the SharkMinter contract<br><br>- called <u>getReward</u>() with the deposit of SHARK-BNB Vault from the first step<br><br>- with the huge amount of SHARK token and WBNB in the wallet balance of the minter contract, it returned an extremely large amount of profit. As a result, the system minted 100M SHARK as a reward to the hacker<br><br>- sold SHARK token for 102K WBNB, repaid flash loans, taken out 2.2K WBNB<br><br>- exchanged BNB on ETH at:<br>https://bscscan.com/tx/0xa6e265b96d92a24b1b3307f14367ac18031c33062fa6c195331db50417011df7<br><br>- bridged ETH into Ethereum network:<br>https://bscscan.com/tx/0x33c01cf4885553542a8b820ef57f079ea8fe165e41b57d30b5492cfe47b0ba3b</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "SHARK",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf7321385a461c4490d5526d83e63c366b149cb15",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61278161a8815.jpeg",
+    "date": "2021-5-24",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/autosharkfin/how-autoshark-got-economically-exploited-3c644de5073a, https://watchpug.medium.com/sharkfinance-performance-fee-minting-incident-analysis-4b2e3bd03923, https://rekt.news/autoshark-rekt/",
+    "website_link": "https://autoshark.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/AutoSharkFin",
+    "telegram_link": "https://t.me/autosharkfinance",
+    "our_post_link": null,
+    "funds_lost": 759046,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2587,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
