@@ -1,0 +1,51 @@
+{
+    "id": 2874,
+    "project_name": "Ledger",
+    "title": "Ledger",
+    "description": "<p>The attacker created a malicious Ledger Chrome extension and tricked users into downloading it through Google search ad serving and other methods to steal users' cryptocurrency. So far, it is known that at least 1.4 million XRP are stolen.</p>",
+    "name_categories": "Other",
+    "token_name": "XRP",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62431bd55dd46.jpeg",
+    "date": "2020-3-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/xrpforensics/status/1242513076026556417, https://cointelegraph.com/news/fake-ledger-live-chrome-extension-stole-14m-xrp-researchers-claim",
+    "website_link": "https://www.ledger.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Ledger",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 224000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2874,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
