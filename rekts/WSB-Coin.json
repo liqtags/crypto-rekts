@@ -1,0 +1,60 @@
+{
+    "id": 3517,
+    "project_name": "WSB Coin",
+    "title": "WSB Coin",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 4th of May WSB Coin (WSB) on the Ethereum main net was rugged for approx 635k USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The team was responsible for managing tokens in the WSB protocol executed a token dumping scam, causing the project significant losses. One of the team addresses received a substantial amount of tokens by calling the claimWSBModeratorsAllocation() function and sold off the tokens, leading to a sharp drop of around 90% in its initial price.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>claimWSBModeratorsAllocation call:</p><p>https://etherscan.io/tx/0xef1b6db5e161ce1b515aa58fb34c44dbb2ec24f9724b1b29ec94cc7dc5f615b3</p><p>Sale example txs:</p><p>https://etherscan.io/tx/0x0075880ceb782aac43d55155756455c45699ae55f3b46c202df1a9edbba4d7eb</p><p>https://etherscan.io/tx/0x5f79dbd07073870c4b14cb4da5415c6f5c68765d1220db255d15cca1182c56b8</p><p>https://etherscan.io/tx/0xe6d7f1e7e082ecd107b4d921923f8d017af73bdff264c1c8c2993fc65c057a7e</p><p>https://etherscan.io/tx/0x1289072f8c6d3d7a1a4585f9848a834de6d42ec5bb47848b78ef2723c53648ec</p><p>Scammer address:</p><p>https://etherscan.io/address/0x0ae042d2e5826bfbde038163366f2ae372fe7894</p>",
+    "name_categories": "Token",
+    "token_name": "WSB",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/address/0x0414d8c87b271266a5864329fb4932bbe19c0c49",
+    "token_addresses": [
+        {
+            "address": "0x0414d8c87b271266a5864329fb4932bbe19c0c49",
+            "url": "https://etherscan.io/address/0x0414d8c87b271266a5864329fb4932bbe19c0c49",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64536b2030279.jpg",
+    "date": "2023-5-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1653950338926522370?s=20, https://twitter.com/zachxbt/status/1653937194388664322?s=20",
+    "website_link": "https://wsbcoin.org/",
+    "webarchive_link": "https://archive.ph/Wdcco",
+    "twitter_link": "https://twitter.com/WSBCoinOfficial",
+    "telegram_link": "https://t.me/wsbofficialcoin",
+    "our_post_link": null,
+    "funds_lost": 635000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3517,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
