@@ -1,0 +1,51 @@
+{
+    "id": 3079,
+    "project_name": "Automated Assassins",
+    "title": "Automated Assassins",
+    "description": "<p><strong>Quick Summary</strong></p><p>The Automated Assassins has been rugpulled by the project team. The team that was involved in the project created a collection on OpenSea, then to make the collection look more attractive, they raised the price of the token. When people minted the NFT by investing their funds in the contract, the team called function withdraw() to get all the funds from it in the amount of $202K.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Automated Assassins was supposed to be a P2E game.</p><p>The team of the project created the NFT contract with this transaction (https://etherscan.io/tx/0x026b705a99af7ff24b1e70e02fc1d432025b4a669320f8d8c6e254204b07d7a4).</p><p><br></p><p>The project team used funds that were raised in the initial minting phase in order to sweep the floor price of the collection on OpenSea, making the collection appear successful to investors (https://etherscan.io/tx/0x7200806a75448f6fb4f3dcf741195a4479cd3e23bd6674eaad4df338964bb79e).</p><p>In this transaction, the <em>withdraw()</em> function is called, where all the $ETH from the contract are withdrawn<br>(https://etherscan.io/tx/0x03987fdd2ae42a01b201b4abeab462c8302ab457ff7021b466f5e92ef6c24b40).</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Token contract address: https://etherscan.io/address/0x8abfc9689827db7b00f67b7ebc90ee707bc07437</p><p><br></p><p>Address that deployed the contract: https://etherscan.io/address/0xff45874e2bde87e773551b7eb086533df02f022f</p><p><br></p><p>Scammer addresses:&nbsp;</p><p>1) https://etherscan.io/address/0x3c1e66d6fe004b581ace44612726164ad34dbd7f&nbsp;</p><p>2) https://etherscan.io/address/0xb7c8d69703289bdaf21d7a419b7af95b32d8ca40&nbsp;</p><p>3) https://etherscan.io/address/0x67ef43a7b0fdc38db0990413a86f7b0dc0220f7f&nbsp;</p><p>4) https://etherscan.io/address/0x1f07957e1e5f3585c762736a83a2ce3140fccfa9&nbsp;</p><p>5) https://etherscan.io/address/0xd40999c2b045f6a175acc0b478bbf0bed6e918fc&nbsp;</p><p>6) https://etherscan.io/address/0x5609b9338ec0351dd0f31d29c9a5105b0c22371a</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "AA",
+    "proof_archive_link": "https://web.archive.org/web/20220706150802/https://twitter.com/zachxbt/status/1544699508789051392",
+    "technical_issue": null,
+    "token_address": "0x8aBFc9689827DB7B00f67b7ebc90ee707bC07437",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62cbe4225fbf7.jpeg",
+    "date": "2022-6-3",
+    "scam_updates": [],
+    "proof_link": "https://www.breadcrumbs.app/reports/2247, https://www.chainabuse.com/report/e61fda1b-6791-47b7-8572-3eb5f7435bb6",
+    "website_link": "https://automatedassassins.com/",
+    "webarchive_link": "https://web.archive.org/web/20220525193819/https://automatedassassins.com/",
+    "twitter_link": "https://twitter.com/AutoAssassinNFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 202000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3079,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
