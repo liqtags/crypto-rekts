@@ -1,0 +1,51 @@
+{
+    "id": 3116,
+    "project_name": "Freedom Protocol | Raccoon Network",
+    "title": "Freedom Protocol | Raccoon Network",
+    "description": "<p><strong>Quick Summary</strong><br>Raccoon Network and Freedom Protocol projects have withdrawn $20M in $BUSD tokens to a common address, having scamming their investors and the community.<br><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The Raccoon network is an open world that is an all-new metaverse where players can build, own and monetise their data. Freedom Protocol, is a financial protocol, makes pledges easier and more efficient, providing the highest stable return of cryptocurrency.</p><p data-v-51e0c2ec=\"\">The Freedom Protocol platform offered users to buy a $FREE token and automatically receive a refund of the cost of tokens every 15 minutes. Thus, they promised a yield of more than 183k%. At the end of June 2022, Freedom Protocol invested in the Raccoon Network crypto project and announced the beginning of cooperation. Freedom launched its IDO, and people began to buy more and more $FREE tokens, and this was just the beginning of the scam. After the IDO, users noticed that they could no longer sell their tokens, and all funds invested in the project were sent to a third-party address: https://bscscan.com/address/0xf800f2744fde6bda11e80b7de0954ac3dc469336</p><p data-v-51e0c2ec=\"\">Examining the transaction chain of one of the involved addresses, it is seen that tokens were withdrawn through Binance Hot Wallets:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/address/0xdcf495911dfb4266a9e3dfe906c3f6214c843762#tokentxns</p><p><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Involved addresses:</p><p style=\"margin:0cm;background:white;\">Scammer address (A): https://bscscan.com/address/0xf800f2744fde6bda11e80b7de0954ac3dc469336</p><p style=\"margin:0cm;background:white;\">Scammer address (B): https://bscscan.com/address/0x56bb6513ab4dddbba9c0708b3beed8e2ef54502f</p><p style=\"margin:0cm;background:white;\">Scammer address (C): https://bscscan.com/address/0x088f4818098028d8c77b7701934374c1117f5b70</p><p style=\"margin:0cm;background:white;\">Scammer address (D): https://bscscan.com/address/0x4411e7aaca131684c33d297622f747369fbe1214</p>",
+    "name_categories": "Gaming / Metaverse,Yield Aggregator",
+    "token_name": "FREE | RAC",
+    "proof_archive_link": "https://web.archive.org/web/20220720212723/https://twitter.com/PeckShieldAlert/status/1549586789459197954",
+    "technical_issue": null,
+    "token_address": "0x880BCe9321c79cAc1D290De6d31DDE722C606165, 0x371cF78dbA846e253ea3e714e4a749Ea722A6258",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62ed0be92930c.png",
+    "date": "2022-7-19",
+    "scam_updates": [],
+    "proof_link": "https://www.worldstockmarket.net/raccoon-network-and-freedom-protocol-projects-turned-out-to-be-a-scam-and-stole-20-million/, https://bt-crow.com/2022/07/20/scam-projects-raccoon-network-and-freedom-protocol-withdrew-20-million/, https://coingape.com/experts-reveal-two-major-protocols-as-scams-how-to-protect-your-crypto/",
+    "website_link": "https://www.freedomprot.com/w, https://www.rac.network/",
+    "webarchive_link": "https://web.archive.org/web/20220727111756/https://www.freedomprot.com/, https://web.archive.org/web/20220627065454/https://www.rac.network/",
+    "twitter_link": "https://twitter.com/freedomprot, https://twitter.com/RACNETWORK",
+    "telegram_link": "https://t.me/FreedomProt_Group, https://t.me/racbsc",
+    "our_post_link": null,
+    "funds_lost": 20800000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Freedomprot",
+    "git_hub_contract_link": "https://github.com/Freedomprot/Freedomprot",
+    "discord": "https://discord.com/invite/jd8AXDrhVx, https://discord.com/invite/gTAxjNxUCq",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3116,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
