@@ -9,7 +9,9 @@ import urllib.request
 import consts
 
 def rekt_loop(items):
-    for item in items:
+    for index, item in enumerate(items):
+    # for item in items:
+        print(f"index: {index}")
         # download image
         markdownLogo = consts.imageBaseUrl + item['logo_link']
         # Bitrue (2)
