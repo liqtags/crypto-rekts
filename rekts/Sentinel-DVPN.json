@@ -1,0 +1,51 @@
+{
+    "id": 2788,
+    "project_name": "Sentinel DVPN",
+    "title": "Sentinel DVPN",
+    "description": "<p>Sentinel, a Cosmos ecological dVPN project, stated on Twitter that the $40 million DVPN tokens were stolen due to the leak of the mnemonic phrase on the HitBTC exchange. Sentinel stated that the user's own DVPN was safe, and HitBTC had the problem. They reported the hacking incident to Sentinel one hour after the incident. So Sentinel hopes that HitBTC will take action to return DVPN to users. HitBTC responded that Sentinel was trying to shirk responsibility for its technical defects and deceive everyone. HitBTC believes that Sentinel\u2019s technology has vulnerabilities that can easily cause user mnemonics to be publicly disclosed. Such vulnerabilities are common in the Sentinel network, and the blockchain and software have not been thoroughly tested, and the company has not invested enough time and resources to protect users. Therefore, HitBTC recommended that Sentinel fix the security vulnerabilities in the software, conduct more tests, and restart the current centralized system.</p>",
+    "name_categories": "Other",
+    "token_name": "DVPN",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "IBC/9712DBB13B9631EDFA9BF61B55F1B2D290B2ADB67E3A4EB3A875F3B6081B3B84",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61e70f874e92a.jpeg",
+    "date": "2021-8-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Sentinel_co/status/1428802575625826308, https://twitter.com/hitbtc/status/1429047764772655104, https://www.coindesk.com/markets/2021/08/20/sentinel-network-reports-theft-of-40m-dvpn-coins-in-hitbtc-breach/",
+    "website_link": "https://sentinel.co/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Sentinel_co",
+    "telegram_link": "https://t.me/sentinel_co",
+    "our_post_link": null,
+    "funds_lost": 1000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/sentinel-official",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/mmAA8qF",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2788,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
