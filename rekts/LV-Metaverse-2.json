@@ -1,0 +1,51 @@
+{
+    "id": 3067,
+    "project_name": "LV Metaverse",
+    "title": "LV Metaverse (2)",
+    "description": "<p><strong>Quick Summary</strong></p><p><span data-complaint-target=\"true\" data-complaint-type=\"fullTextTranslation\">The <span data-align=\"0:3\">LVP</span> <span data-align=\"4:9\">token</span> has <span data-align=\"10:13\">been</span> <span data-align=\"14:21\">r</span>ugpulled for a second time as scammers make use of remaining liquidity in the project<span data-align=\"24:37\">. The scammers managed to sell $LVP for ~$50k.<br></span></span></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The scammer address (A) sent ~96.534t $LVP tokens to scammer address (B) in the following two transactions:&nbsp;</p><p><br></p><p>https://bscscan.com/tx/0xf5e95a1e074c2e005bc322dacbafa13ba96f0f9a1a1e8019bbeebfa5506fa1c https://bscscan.com/tx/0x6bd27154df4d9b9a78639d91dcd82abd58f61fb7c881051a87dad044315cf831</p><p><br></p><p>Then scammer address (B) started dumping the token price by exchanging $LVP through PancakeSwap.</p><p>ExampleTransactions:</p><p><br></p><p>https://bscscan.com/tx/0x0217ddf8e974bed819339ff74fbe4d9a3863042ba727338da9e324f5eccb4e9e https://bscscan.com/tx/0x3b39c03c4e93d2116e9ff354c8c398c6df53dcdeed514b73624e6bcf2d719d81</p><p>&nbsp;https://bscscan.com/tx/0x3d891b3d0cc5c0ca4c226c445009291908cbefaa5abe2d9118a09140ed69d412</p><p><br></p><p>The funds were transferred to a new address where they are currently located, at the time of writing.</p><p><br></p><p>https://bscscan.com/tx/0xb9d61ff29405d50c5e510550fcdedec71ecd5585ce3ec6cdff2fa9a9b9f43967</p><p><br></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>As the time of this writing information on this case is scarce<strong>. More sources will be added if the case should develop.</strong></span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address A: https://bscscan.com/address/0x190d744ba9d3a0ca9d86b47064182b5954c1001e</p><p>Scammer address B: https://bscscan.com/address/0xff869ecd6dcef75a59dd76cbb2469309666e39e6</p><p>Scammer address C: https://bscscan.com/address/0x1f47353f9930ce18657fa4498e0d9c417b5873fe#tokentxns</p>",
+    "name_categories": "Exchange (DEX),NFT",
+    "token_name": "LVP",
+    "proof_archive_link": "https://web.archive.org/web/20220701113803/https://twitter.com/CertiKAlert/status/1541858014839377920, https://web.archive.org/web/20220701113916/https://twitter.com/safetin/status/1542189538902171648",
+    "technical_issue": null,
+    "token_address": "0x5927b72440D8A8b8c6ca5A8be60e88975F9063fc",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62bedc7bbe5c0.jpeg",
+    "date": "2022-6-28",
+    "scam_updates": [],
+    "proof_link": "https://dexscreener.com/bsc/0x89bd57276b68c361ad3928dab08381b3e7ea02f4",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/LV__Metaverse",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 50625,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3067,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
