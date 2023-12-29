@@ -1,0 +1,51 @@
+{
+    "id": 250,
+    "project_name": "K.O.N.G Token",
+    "title": "K.O.N.G Token",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xd20c10174c5b9d2c5ba4c7c15335bf3de4d7d1dbe74c4f76f413b566b23f0f00<br><br>The contract deployer invoked <u>mint</u>() function to generate 2.5 million tokens at:<br>https://etherscan.io/tx/0x42cbf5eaedf465cdd5776d8d41eed62491d43cf9456bc8e844cf08395d149212<br><br>Minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0xf6cd379992ff141f0e4bd528edd87e2a679fa7a376bf414e338f75dece1b004c</p>",
+    "name_categories": "Token",
+    "token_name": "KONG",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x4fbde74e9e89d31e1772fd51b068b1cc5e192ba8",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d612cb84248.png",
+    "date": "2020-12-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CryptoExpert101/status/1333796134309953536, https://twitter.com/CaptainJackAPE/status/1333727225145815040",
+    "website_link": "https://kongfinance.works/",
+    "webarchive_link": "https://web.archive.org/web/20201201105852/https://kongfinance.works/",
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 7451,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 250,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
