@@ -1,5 +1,5 @@
 {
-    "id": 1875,
+    "id": 1874,
     "project_name": "INFINITE SPACE",
     "title": "INFINITE SPACE",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.<br><br></p>",
@@ -9,8 +9,8 @@
     "technical_issue": null,
     "token_address": "0x7075865f12076f3ac1e3899e647c4b17614fd1d5",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f54ec435f82.png",
-    "date": "2021-5-3",
+    "logo_link": "safe/files/scamDatabase/logo/60f54ec37f435.png",
+    "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
     "website_link": null,
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1875,
+            "scam_database_id": 1874,
             "networks": {
                 "id": 56,
                 "name": "Binance",
