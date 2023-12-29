@@ -1,0 +1,51 @@
+{
+    "id": 3052,
+    "project_name": "Celsius Network",
+    "title": "Celsius Network",
+    "description": "<p><strong>Quick Summary</strong></p><p>Celcius Network filed Chapter 11 bankruptcy after a month of halting the services. The approximate budget hole reached 1,190,000,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Celsius is a centralized exchange and borrowing and earning protocol. Celsius Network filed for Chapter 11 bankruptcy on 13 July. The day after, it listed a 1,190,000,000 $USD deficit on its balance sheet. The liabilities of the Celcius reached 5,500,000,000 $USD when their assets were valued at 4,300,000,000 $USD. The project halted operations on the platform a month before an announcement, citing \"extreme market conditions\".</p>",
+    "name_categories": "Borrowing and Lending,CeFi",
+    "token_name": "CEL",
+    "proof_archive_link": "https://archive.ph/EF6CY, https://archive.ph/9uYCH, https://archive.ph/eIhGa",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62aa00749e36d.jpeg",
+    "date": "2022-6-13",
+    "scam_updates": [],
+    "proof_link": "https://phemex.com/blogs/celsius-bankruptcy-breakdown, https://rekt.news/en/celsius-rekt/, https://mobile.twitter.com/CelsiusNetwork/status/1536169010877739009?cxt=HHwWgsClhfLkyNEqAAAA",
+    "website_link": "https://celsius.network/",
+    "webarchive_link": null,
+    "twitter_link": "https://mobile.twitter.com/CelsiusNetwork",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1190000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/CelsiusNetwork",
+    "git_hub_contract_link": "https://github.com/CelsiusNetwork/celsius-token",
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 3052,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
