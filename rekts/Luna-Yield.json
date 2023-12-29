@@ -1,0 +1,51 @@
+{
+    "id": 2600,
+    "project_name": "Luna Yield",
+    "title": "Luna Yield",
+    "description": "<p><strong>Quick Summary</strong></p><p>During the Luna Yield IDO event on SolPAD platform, funds were stolen from Luna Yield's address with a loss amounting to around $6.7M in different tokens including SOL, ETH, USDT, and YFI.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>After the fundraising event for Luna Yield on SolPAD, the Luna Yield's website was taken down. The funds were stored at an address and were stolen. The stolen Wrapped Ether was distributed between different wallets. Solpad Finance has announced that they have refunded 60% of the stolen funds to the investors.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p>Luna Yield's address:</p><p>https://solscan.io/account/EiySftqENviEh339R1UhXN2Yxg9wi4ZpVHiRd99SXap7</p><p><br></p><p>Distribution of the stolen Wrapped Ether:</p><p>https://solscan.io/account/EiySftqENviEh339R1UhXN2Yxg9wi4ZpVHiRd99SXap7#splTokenTxs</p><p><br></p><p><br></p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "LUNY",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/613104b6908bd.png",
+    "date": "2021-8-20",
+    "scam_updates": [],
+    "proof_link": "https://decrypt.co/79098/solana-defi-protocol-luna-yield-goes-dark-with-6-7-million-in-crypto, https://finance.yahoo.com/news/solana-luna-yield-goes-dark-013219855.html, https://www.coindesk.com/markets/2021/08/20/solanas-luna-yield-goes-dark-with-some-fearing-a-rug-pull-involving-67m/",
+    "website_link": "https://www.lunayield.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Luna_Yield",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6709834,
+    "funds_returned": 4025900,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 2600,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
