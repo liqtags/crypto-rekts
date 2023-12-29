@@ -1,0 +1,51 @@
+{
+    "id": 2886,
+    "project_name": "Bitcoin Norway",
+    "title": "Bitcoin Norway",
+    "description": "<p>A small Norwegian cryptocurrency exchange has refunded its users after falling victim to a SIM swap and phishing hack, reportedly losing $1m worth of digital assets.<br><br>A judge at a S\u00f8r-Rogaland District Court hearing ruled that Bitcoins Norway CEO Ole-Andr\u00e9 Torjussen distributed an appropriate refund amount.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6245cfcc65d50.jpeg",
+    "date": "2019-7-4",
+    "scam_updates": [],
+    "proof_link": "https://www.crowdfundinsider.com/2019/07/149439-bitcoin-norway-shuts-down-due-to-theft-via-sim-swap-hack-and-sophisticated-spear-phishing-techniques/, https://twitter.com/Bitcoinsnorgeno/status/1146393817022529536",
+    "website_link": "https://bitcoinsnorway.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Bitcoinsnorgeno",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1000000,
+    "funds_returned": 1000000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2886,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
