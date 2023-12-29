@@ -1,0 +1,60 @@
+{
+    "id": 3738,
+    "project_name": "The Honest Ventures",
+    "title": "TheHonestVentures Exit Scam",
+    "description": "<p><strong>Quick Summary</strong></p><p>TheHonestVentures exit scammed, stealing users' deposits worth 57,765 USD on Sep 20, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TheHonestVentures was an investment project that claimed to offer daily rewards of 0.5% on BNB deposits with a minimum deposit of 100 USD. On Sep 20, 2023, the owner of the project called the fundsWithdraw() function 5 times, which resulted in the theft of user deposits. The scammer withdrew the stolen funds through the MEXC Crypto Exchange. Following the exit scam, HonestVentures deleted their social media accounts on X, Telegram, and Instagram.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x0192DB2e88A67A3E4dE561D4B4B2cbC3B656e7B3</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xec09b1F4427167F936B21792795243A982b6047A</p><p><br></p><p>Malicious Contract:</p><p>https://bscscan.com/address/0x693dBad5af3AFf43A1fa8d8154fAa527e1765DA4</p><p><br></p><p>Withdraw Transaction:</p><p>https://bscscan.com/tx/0xc61ba46d0aab912f7b4c7895d55ba71d03dc8c18755b8f32076f180dcee1df28</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/AQ9c7",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x693dBad5af3AFf43A1fa8d8154fAa527e1765DA4",
+            "url": "https://bscscan.com/address/0x693dBad5af3AFf43A1fa8d8154fAa527e1765DA4",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6532bd0573dd4.png",
+    "date": "2023-9-20",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1714610297510470110",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 57765,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3738,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
