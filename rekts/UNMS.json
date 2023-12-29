@@ -1,0 +1,60 @@
+{
+    "id": 3474,
+    "project_name": "UNMS",
+    "title": "UNMS",
+    "description": "<p><strong>Quick Summary</strong></p><p>UNMS protocol on BSC chain was attacked resulting with losses worth of &nbsp;$100k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>- The attacker used a&nbsp;<span style=\"color: rgb(18, 22, 28); font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">191,375</span> <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>$USDT&nbsp;</span>token flash loan to break protocol math logic.</p><p>- Created an opportunity for withdrawing 189452864815631476477918587 UNMS from the contract and sold for 100k $USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0x5feb28c35ddda566cf224714f7f721d093ab1de964ea0420f025dd44d953a344</p><p>Exploiter:</p><p>https://bscscan.com/address/0xca357e19078356376a8a0235d8ac885f6c620354</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "UNMS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5a90e0e890b26edab7d25b6fa20f788c0f5ec986",
+    "token_addresses": [
+        {
+            "address": "0x5a90e0e890b26edab7d25b6fa20f788c0f5ec986",
+            "url": "https://bscscan.com/token/0x5a90e0e890b26edab7d25b6fa20f788c0f5ec986",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6438098266390.png",
+    "date": "2023-3-29",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1641021372175466499, https://twitter.com/BeosinAlert/status/1641018602878042113?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 100000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3474,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
