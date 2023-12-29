@@ -1,0 +1,51 @@
+{
+    "id": 1953,
+    "project_name": "Echelon DAO",
+    "title": "Echelon DAO",
+    "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens:<br>https://honeypot.is/index.html?address=0x087cf908a2c87c9bfc8135db5f08ab5db00cfa8a<br><br>The project was holding a fundraising event. After its end, the contract deployer withdrew raised BNB at:<br>https://bscscan.com/tx/0x030d5f533c86162d2ca8c01baeac98de33bf17a8743fb51d1f233d26908fb156<br>https://bscscan.com/tx/0xcbc9ba78289762f8bf21dbe442b08e2e2b320d851e1c198e8bb60163c88b920e<br>https://bscscan.com/tx/0x1ced363afde47ee9870aea144d8e5bb664931f026575597bb0d36d7bdae0809b</p>",
+    "name_categories": "Token",
+    "token_name": "ECHO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x087cf908a2c87c9bfc8135db5f08ab5db00cfa8a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f59a05747bc.png",
+    "date": "2021-4-10",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 63188,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 1953,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
