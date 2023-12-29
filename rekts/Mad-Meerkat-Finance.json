@@ -1,0 +1,70 @@
+{
+    "id": 2998,
+    "project_name": "Mad Meerkat Finance",
+    "title": "Mad Meerkat Finance",
+    "description": "<p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">On May 4, 2022, the front-end of the MM Finance protocol was hacked, which allowed the hacker to change the router address and redirect all the funds of users who somehow interacted with the protocol through the front-end to their wallet.&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">The exploit lasted approximately three hours, then the team turned off the front-end.&nbsp;</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">Team members advised users on Discord not to interact with the site.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">Attacker address: https://cronoscan.com/address/0xb3065fe2125c413e973829108f23e872e1db9a6b</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">Attacker fundings address: https://cronoscan.com/address/0x3fbaf5eeb4850af492a66807ff7fd7210deee7e3. Then they were mapped to: https://crypto.org/explorer/account/cro1ukvuw3qzjtt8wg5hsze4f2c3c8xqvtwgcnxah2. Actual fundings transaction: https://crypto.org/explorer/tx/0C7193F9E2D8FAE789A4B21DBC554D942329A5DA8734541563F339867740527B. This fundings were mapped the 0x address to the underlying address: https://crypto-org-chain.github.io/cronos-address-webtool/</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">600+ transactions were redirected, and the profits were exchanged for USDT and transferred through the bridge back to ETH before being deposited (743 ETH so far) in Tornado Cash.</p><p dir=\"ltr\" style=\"line-height:1.38;margin-top:12pt;margin-bottom:12pt;\">Total number of losses: $2M</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "MMF",
+    "proof_archive_link": "https://rekt.news/madmeerkat-finance-rekt/, https://twitter.com/MMFcrypto/status/1522094396342104065, https://www.coindesk.com/tech/2022/05/05/decentralized-exchange-mmfinance-suffers-2m-exploit/#:~:text=Finance%2C%20has%20suffered%20a%20front,to%20their%20own%20private%20wallet.",
+    "technical_issue": null,
+    "token_address": "0x97749c9B61F878a880DfE312d2594AE07AEd7656",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6283d82baada4.png",
+    "date": "2022-5-4",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/MMFcrypto/status/1522094396342104065",
+    "website_link": "https://mm.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/MMFcrypto",
+    "telegram_link": "https://t.me/MMFCrypto",
+    "our_post_link": null,
+    "funds_lost": 2000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/madmeerkatburrow",
+    "git_hub_contract_link": "https://github.com/madmeerkatburrow/core-contracts/tree/main/contracts",
+    "discord": null,
+    "bug_bounty_program_link": "https://immunefi.com/bounty/mmfinance/",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 25,
+            "scam_database_id": 2998,
+            "networks": {
+                "id": 25,
+                "name": "Cronos",
+                "icon_link": "safe/files/network/cronos.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/CertiK_Audit_for_MM_Finance.pdf",
+            "date": "2021-12-10T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/20220130_Paladin_MadMeerkat_Final_Report.pdf",
+            "date": "2022-01-30T00:00:00.000Z",
+            "partner": {
+                "id": 65,
+                "name": "Paladin",
+                "logo_link": "safe/files/partner/logo/60fec8d2d5d50.jpeg"
+            }
+        }
+    ]
+}
