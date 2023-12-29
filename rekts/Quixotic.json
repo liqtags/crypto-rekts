@@ -1,0 +1,51 @@
+{
+    "id": 3398,
+    "project_name": "Quixotic",
+    "title": "Quixotic",
+    "description": "<p><strong>Quick Summary</strong></p><p>Quixotic, the largest NFT marketplace on Optimism, experienced an exploit on July 1 that resulted in the loss of ERC-20 tokens. The hacker was able to transfer offers made on NFTs to their own wallet, resulting in a loss of at least $100,000.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Quixotic NFT marketplace was exploited due to a vulnerability in its offer feature. The hacker was able to transfer offers made on NFTs to their own wallet by deploying their smart contract to overrun the existing logic of the offer function. The team at NFT project Apetimism first noted the exploit and recommended canceling all open offers to protect users. The Quixotic team paused all marketplace activity to investigate the incident and assured users that lost funds would be returned. The hacker was able to steal at least $200,000 in ERC-20 tokens, with several large outflows noted from their wallet, including 110,756 USDC and 170,882 Optimism (OP), valued at $90,500.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Transaction details on etherscan: https://etherscan.io/tx/0x2a822968daedf13af8bcb7d499523df2f34c23a2046f810a3c180a6a1417647f</p><p><br></p>",
+    "name_categories": "NFT",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6425250015ffa.jpg",
+    "date": "2022-7-1",
+    "scam_updates": [],
+    "proof_link": "https://cryptoslate.com/optimism-nft-marketplace-quixotic-suffers-exploit-following-contract-update/, https://twitter.com/Apetimism/status/1542743841735749632",
+    "website_link": "https://qx.app/",
+    "webarchive_link": "https://archive.ph/EwRZM",
+    "twitter_link": "https://twitter.com/qx_app",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/EXksHxP4Re",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3398,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
