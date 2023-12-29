@@ -1,0 +1,51 @@
+{
+    "id": 2451,
+    "project_name": "Popit Finance",
+    "title": "Popit Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "POPIT",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xa356097644cB4e0bCF939aCE69A719849521Cd8B",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/612cb5faadfc2.png",
+    "date": "2021-8-30",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x307e77693a4eeb883bf69425f36dc472c93f6d7d",
+    "website_link": "https://popit.farm/farms",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2451,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
