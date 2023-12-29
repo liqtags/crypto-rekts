@@ -1,0 +1,51 @@
+{
+    "id": 2948,
+    "project_name": "Crypto Rush",
+    "title": "Crypto Rush",
+    "description": "<p>About 1.5 million coins were stolen after hackers tampered with a glitch at currency exchange company Crypto Rush.<br><br>The hack involved temporarily inflating the amount of coins available in accounts by about 22 million, then withdrawing the coins from the exchange.<br><br>\u201cOnce again we apologize for our own issues with both downtime and late upgrades of the client,\u201d a representative of Crypto Rush said in a forum post. \u201cWe\u2019ll post more when we know how we can pay back affected users or get some compensation for this massive, massive loss. 100 BTC doesn\u2019t just come out of thin air, so please be patient while we make this right.\u201d</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624f14cc2a50b.png",
+    "date": "2014-3-15",
+    "scam_updates": [],
+    "proof_link": "https://www.blackenterprise.com/currency-heist-steals-70000-bitcoin/",
+    "website_link": "http://cryptorush.in/",
+    "webarchive_link": "https://web.archive.org/web/20140317062335/http://cryptorush.in/",
+    "twitter_link": "https://twitter.com/thecryptorush",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 659000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2948,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
