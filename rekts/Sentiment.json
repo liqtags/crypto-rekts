@@ -1,0 +1,56 @@
+{
+    "id": 3460,
+    "project_name": "Sentiment",
+    "title": "Sentiment",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sentiment was exploited through a view re-entrancy Balancer bug, resulting in the loss of 968,279 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sentiment is a Borrowing and Lending protocol running on the Arbitrum chain. The attacker used a view re-entrancy Balancer bug to execute malicious code before pool balances were updated and steal money using overpriced collateral. The attack involved several steps:</p><p>1. Attacker took a flashloan.</p><p>2. Attacker significantly changed rates.</p><p>3. Attacker called \"exitPool\" function and executed hack when balancer sent assets to its contract.</p><p>4. Sentiment contracts were called before PoolBalancesChanged emitted by balancer smart contract.</p><p>5. Hacker could manipulate these values to overprice their collateral and then borrow and withdraw sentiment pool assets.</p><p><br></p><p>The exact amount lost due to this exploit reached 968,279 $USD in total, including 538,399 $USDC, 360,000 $USDT, 0.51 $WBTC and 29.97 $WETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0xdd0cDb4c3b887bc533957BC32463977E432e49C3</p><p><br></p><p>Malicious transaction:</p><p>https://etherscan.io/tx/0xa9ff2b587e2741575daf893864710a5cbb44bb64ccdc487a100fa20741e0f74d</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/ayEmE, https://archive.ph/caZ2X, https://archive.ph/WceNf",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/64301f57694b3.png",
+    "date": "2023-4-4",
+    "scam_updates": [
+        {
+            "date": "2023-04-05T00:00:00.000Z",
+            "description": "<p>The Sentiment Team sent on-chain message, declaring 95,000 $USD bug bounty and 'asking' to return the rest of the funds. The attacker followed the statement, and returned roughly 90% of the stolen amount as 465.75 $ETH. The rest of the funds were transferred through TornadoCash.</p><p><br></p><p>Returning transactions:</p><p>https://etherscan.io/tx/0xe1d23500645cc42503235d9f5480c7a1e8b5667248d091df1883c053c7ab7580</p><p>https://etherscan.io/tx/0xa9ccdbd14ae7708248f0719d7e985bef7a9fa1084ab38b08a7870c5abec9b6ca</p><p>https://etherscan.io/tx/0xc84e526fa5f90ee723bc7db2c1c975b7cedc1262f42f4806346f308b6c623e56</p><p><br></p><p>On-chain message:</p><p>https://etherscan.io/tx/0x464c4d204a63c251033791ae631a435be3133301a9675fcd9cc0f6a383d432a1</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/spreekaway/status/1643313592559706113, https://twitter.com/0xmikko_eth/status/1643345158451208192, https://twitter.com/sentimentxyz/status/1643779654141251584?cxt=HHwWgMDU4dy48M8tAAAA",
+    "website_link": "https://www.sentiment.xyz",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/sentimentxyz",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 968279,
+    "funds_returned": 862569,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/sentimentxyz",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/sentimentxyz",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 16,
+        "type": "Reentrancy"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3460,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
