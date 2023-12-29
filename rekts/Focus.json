@@ -1,0 +1,51 @@
+{
+    "id": 171,
+    "project_name": "Focus",
+    "title": "Focus",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x7a2a205e54483808a83d57a69ce3392bf194ee1da908d76349e85c28ef256347<br><br>The part of tokens was transferred to some external wallet by the contract deployer:<br>https://etherscan.io/tx/0xb0f55eaab14f27bd1ecae139b5cf2c54b346dc73efd801da475355e9940f0134<br><br>The tokens were sold by the recipient in the following transactions:<br>https://bloxy.info/txs/transfers_from/0x2933df4f2ea6aaf8bb7f59617c4ac72806a41750?currency_id=643498<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xd0359495f7be6f492ef711980969e294175cade49b2b58f59db9be75202011a9</p>",
+    "name_categories": "Token",
+    "token_name": "FCS",
+    "proof_archive_link": "https://archive.ph/phMAh",
+    "technical_issue": null,
+    "token_address": "0xe8b4d012605363e142cb63355dbf67d6f795c65c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5bf9c1d79f.jpeg",
+    "date": "2021-2-28",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://focus-defi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/vaultzdefi",
+    "telegram_link": "https://t.me/focusdefi",
+    "our_post_link": null,
+    "funds_lost": 9555,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 171,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
