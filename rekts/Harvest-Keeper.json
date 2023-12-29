@@ -1,0 +1,70 @@
+{
+    "id": 3383,
+    "project_name": "Harvest Keeper",
+    "title": "Harvest Keeper",
+    "description": "<p><strong>Quick Summary</strong></p><p>Harvest Keeper was rugpulled via privileged function. 929,595 $USD were stolen in total across three chains.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Harvest Keeper claimed to be an AI-powered trading platform running on Binance, Ethereum, and Polygon chains. The platform was rugpulled by the contract owner via the privileged function getAmount(). The function allowed the contract owner to drain all remaining $USDT from the project's contract. 710,595 $USDT was siphoned out in a single transaction this way. 219,000 $USD worth of assets were stolen via ice phishing and then exploiting user approvals across Binance, Ethereum, and Polygon chains in addition. All the stolen funds were transferred through multiple EOA addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://bscscan.com/address/0x027c83d22ae5390367b34b94dcbf0443e495ade8</p><p>https://bscscan.com/address/0x250ce5a8d8a8f0345fb8708e0575c8ede7710c14</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x3c9e53a91cde4a366d02692a94128e28e71e86a51d2cb546b70142add4a8809b</p><p><br></p><p>Approval exploits transaction example:</p><p>https://bscscan.com/tx/0x12f1def80ec4593c4e303fd8b3d8a7d95da9e3fdaacb41f2ad5a7a1ac9896f7a</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/ns4Ga, https://archive.ph/Cm3Ue",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0x28120471E1e42e15a71Af5E39cA9f93099F34d2d",
+            "url": "https://bscscan.com/address/0x28120471E1e42e15a71Af5E39cA9f93099F34d2d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/641f5d626dc62.png",
+    "date": "2023-3-17",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/ai-harvest-keeper-dapp-rugpulls-draining-1m-users-funds/, https://twitter.com/CertiKAlert/status/1637470777355165696",
+    "website_link": "https://harvest-keeper.app/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/harvest_keeper",
+    "telegram_link": "https://t.me/HarvestKeeperAI",
+    "our_post_link": null,
+    "funds_lost": 929595,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.gg/hhpd93u4",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3383,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/ContractWolf_Audit_HarvestKeeper.pdf",
+            "date": "2023-02-01T00:00:00.000Z",
+            "partner": {
+                "id": 110,
+                "name": "ContractWolf",
+                "logo_link": "safe/files/partner/logo/62e6b67e4eb53.png"
+            }
+        }
+    ]
+}
