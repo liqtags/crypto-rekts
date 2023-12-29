@@ -1,0 +1,51 @@
+{
+    "id": 2561,
+    "project_name": "0xNinja",
+    "title": "0xNinja",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "0xNinja",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2D4EFFc84fABB4AbA0bc16582Cd9931498Af10e4",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/611a3d434be32.png",
+    "date": "2021-8-14",
+    "scam_updates": [],
+    "proof_link": "https://polygonscan.com/address/0x2d4effc84fabb4aba0bc16582cd9931498af10e4#code",
+    "website_link": "https://0xpolygon.ninja/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2561,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
