@@ -1,0 +1,51 @@
+{
+    "id": 244,
+    "project_name": "RUL3R Token",
+    "title": "RUL3R Token",
+    "description": "<p>The contract deployer generated new tokens by invoking <u>mint</u>() function in the following transactions:<br>https://etherscan.io/tx/0xaca0d6b40fc0f70174ed25589f5bfc011db5dc960ed85db9ce0243ac49c4bcfb<br>https://etherscan.io/tx/0x8907c650920f6ca26d1d8fb91cd1e01dbe638508afde0c8d9e2e726c495f81c9<br><br>After, tokens were dumped by the contract deployer on the Uniswap exchange:<br>https://etherscan.io/tx/0xda5a1f59685df4fd9f433952e1a3ea739ae703644ceec59aef5c3aba05b0ddd0<br>https://etherscan.io/tx/0x33ee696d5ec48f8bb271d49e045cfb45476ed5d8d3529fa93672af063bb948ff</p>",
+    "name_categories": "Token",
+    "token_name": "RUL3R",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5bE1e6469703a2D7302B8dfD09865A0b25f3efa0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d61005e7e5c.png",
+    "date": "2020-11-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1332322291556839426",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 24792,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 244,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
