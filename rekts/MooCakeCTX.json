@@ -1,0 +1,60 @@
+{
+    "id": 3261,
+    "project_name": "MooCakeCTX",
+    "title": "MooCakeCTX",
+    "description": "<p><strong>Quick Summary</strong></p><p>MooCakeCTX was exploited via a flash loan attack. The attacker's profit reached 122,960 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>MooCakeCTX is a yield protocol on the Binance Chain. The protocol supports $CAKE deposits for $mooCakeCTX. The attacker took 400,000 $BUSD as a flash loan and exploited the protocol's smart contract for 424 $BNB. The attacker's malicious smart contract bypassed isContract() function check by performing actions on the constructor and got rewards as $mooCakeCTX tokens after depositing $CAKE tokens. The flash loan was paid back after repeating previous actions multiple times and the exploiter took a profit of 424 $BNB. All the stolen funds were transferred to several EOA addresses in 4 transactions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x35700c4a7bd65048f01d6675f09d15771c0facd5</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x71ac864f9388ebd8e55a3cdbc501d79c3810467c</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0x03d363462519029cf9a544d44046cad0c7e64c5fb1f2adf5dd5438a9a0d2ec8e</p><p><br></p><p>Funds transfer transactions:</p><p>https://bscscan.com/tx/0x963d1ff2fbb277376fb8a878e0275b63d861c0479a83ed2a3cf57573439cad6a</p><p>https://bscscan.com/tx/0x602c2220e4fa84cae5db564e08569327eeeb5de46d51f8033d2315f62787ba45</p><p>https://bscscan.com/tx/0x44922e9682f461cc669e3e72e4b9ff6202a49016920566625af15519f39ec913</p><p>https://bscscan.com/tx/0x58096e41e89f795bb409eebf9c28a2ee8b7025b6f6823a448421bbab74cca119</p>",
+    "name_categories": "Other,Token",
+    "token_name": "MooCakeCTX",
+    "proof_archive_link": "https://archive.ph/LFJPv",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x489afbaed0ea796712c9a6d366c16ca3876d8184",
+    "token_addresses": [
+        {
+            "address": "0x489afbaed0ea796712c9a6d366c16ca3876d8184",
+            "url": "https://bscscan.com/address/0x489afbaed0ea796712c9a6d366c16ca3876d8184",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/636bdcc6b6f71.png",
+    "date": "2022-11-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/beosinalert/status/1589501207181393920?s=46&t=g2I2FsjQ-Zz0DYHhJL009A",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 122960,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3261,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
