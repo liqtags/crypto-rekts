@@ -1,0 +1,60 @@
+{
+    "id": 3622,
+    "project_name": "Scooby Pepe",
+    "title": "Scooby Pepe Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Scooby Pepe project was rugpulled by its deployer who stole funds worth 237,583 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Scooby Pepe (SCO) is a token trading on the Ethereum chain. The token deployer removed liquidity from the UniSwapV3 pool and transferred the stolen funds across a couple of EOA addresses. These addresses further distributed the stolen funds, leading to a total estimated loss of around 237,583 $USD.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.io/address/0x8865aFfC732B35084139D8cfc4705c451E5Ee7a1</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x758208aa6dafd3d1b6f2b1e1e457c99a4b2af791699b431975dc5e90eb8ad6e2</p><p><br></p><p>Funds Transfer Transactions:</p><p>https://etherscan.io/tx/0x3ce109e236c2c06c83ca8d4973a1e8dd73af2697604a109730c03272d0746be7</p><p>https://etherscan.io/tx/0xa693bb5395ed1d92069132cf75b42b8a99c485068e9d59cefc75078caa39df2c</p><p><br></p><p>Funds Distribution Transaction:</p><p>https://etherscan.io/tx/0x6ddd6a6fb0625e5131ef0f6808562e1a5e457d897f1af16b9ef8f304cab13b52</p>",
+    "name_categories": "Token",
+    "token_name": "SCO",
+    "proof_archive_link": "https://archive.ph/gViyU",
+    "technical_issue": null,
+    "token_address": "0x8e2aada8069c2fce1139de697870e83f4145a8ab",
+    "token_addresses": [
+        {
+            "address": "0x8e2aada8069c2fce1139de697870e83f4145a8ab",
+            "url": "https://etherscan.io/token/0x8e2aada8069c2fce1139de697870e83f4145a8ab",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64be83c90f78e.png",
+    "date": "2023-7-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1682273155702747137",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 237583,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3622,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
