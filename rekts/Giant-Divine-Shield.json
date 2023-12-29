@@ -1,0 +1,51 @@
+{
+    "id": 3185,
+    "project_name": "Giant Divine Shield",
+    "title": "Giant Divine Shield",
+    "description": "<p><strong>Quick Summary</strong></p><p>Giant Divine Shield token price dropped by more than 97%. The initial token distributor sent 1,000,000,000 $GIDS to EOA address, which dumped the token price.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Giant Divine Shield is a BEP20 token that trades on PancakeSwap. The token distributor address sent 1,000,000,000 $GIDS to another EOA address on the 15th of September. The address started selling aggressively and drained liquidity from the GIDS/WBNB pair. The attacker used several addresses to distribute $GIDS and drain liquidity as well. The total profit of the attacker reached 140,869 $USD which was transferred to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xde01a5203ff577ba951447aa90e90bff8780fced</p><p><br></p><p>Distributor address:</p><p>https://bscscan.com/address/0x9111f320c05915b0820430bd8169bfa7d4888888</p><p><br></p><p>Team-related transactions:</p><p>https://bscscan.com/tx/0x5c071e9e201fcb8e39b01f29f20395585bdeb330e2f39f9c31697dbf3ca39c2a</p><p>https://bscscan.com/tx/0xfc2f601416338728526af0a6a40ddb374164a5307978f623cb976746c94454c5</p><p><br></p><p>Involved EOA addresses:</p><p>https://bscscan.com/address/0x8c106fff8e75505cb0482bb6726b68d02df148d0</p><p>https://bscscan.com/address/0xf81631073542bc263d8be0bcde00fc43eba8c7e8</p><p>https://bscscan.com/address/0x49245ce740625ffd2c00cb3d6a76d9b97d33d4f6</p><p>https://bscscan.com/address/0x8df7df0bb86367382124627b49f45e205ff6cbcc</p><p>https://bscscan.com/address/0x710b220cf4622f1b56228aebcc068aeda72935d2</p><p><br></p><p>Address the total profit transferred to:</p><p>https://bscscan.com/address/0xb8fd055830e08999cd7a4c2669035327bef5d42e</p><p><br></p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "GIDS",
+    "proof_archive_link": "https://archive.is/RgNRJ",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x878595B05620B1c38898597c93AD19bB165f6Fa7",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6325c57af18e3.png",
+    "date": "2022-9-15",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1570291662219522048",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 140869,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3185,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
