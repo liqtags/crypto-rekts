@@ -1,0 +1,88 @@
+# Poly Network
+![Poly Network](/rektimages/Poly-Network.png)
+- Amount Lost: $602,189,570.00
+- Funds Returned: $602,189,570.00
+- Category: Other
+- Date: 2021-8-10
+
+**Quick Summary**
+
+Polynetwork was hacked for $602M. The attacker used Proxy smart contracts on 3 chains.
+
+ **  
+Details of the Exploit**
+
+Polynetwork is a DeFi platform. The project was hacked for 602,189,570 $USD in various assets. The attacker used unverified Proxy smart contracts on 3 chains. After the hack, the attacker who is called "Mr. White Hat", connected to the PolyNetwork team, and returned all stolen funds. 
+
+Security experts said it was likely the attacker realized it would be difficult for them to launder the money and cash out since all transactions are recorded on the blockchain.
+
+  
+
+
+ **Block Data Reference**
+
+ Malicious smart contracts:
+
+1\. https://bscscan.com/address/0x7cea671dabfba880af6723bddd6b9f4caa15c87b#code 
+
+2\. https://polygonscan.com/address/0xabd7f7b89c5fd5d0aef06165f8173b1b83d7d5c9#code 
+
+3\. https://etherscan.io/address/0x838bf9e95cb12dd76a54c9f9d2e3082eaf928270#code  
+  
+The owner of the Proxy contract on ETH (which was used in the attack) is another bytecoded contract (https://etherscan.io/address/0x5a51E2ebF8D136926b9cA7b59B60464E7C44d2Eb) with the EOA ownership.  
+  
+EOA was previously funded by OKEX exchange's Hot Wallet:  
+https://etherscan.io/tx/0xe864536abe5440b56c9d0e600472519ed2eb84801507e24f8a6661f2c371be02  
+  
+Attacker’s addresses:  
+  
+Polygon:  
+https://polygonscan.com/address/0x5dc3603c9d42ff184153a8a9094a73d461663214  
+  
+Binance Smart Chain:  
+https://bscscan.com/address/0x0d6e286a7cfd25e0c01fee9756765d8033b32c71  
+  
+Ethereum:  
+https://etherscan.io/address/0xc8a65fadf0e0ddaf421f28feab69bf6e2e589963  
+  
+The attacker started to approve USDC and BUSD tokens in order to deposit them into Ellipsis stablecoin pool:  
+https://bscscan.com/tx/0x5fe51028a73821777c2dcaa575d73add58cac79b9f68504b85c4281bf691fce8  
+https://bscscan.com/tx/0x4c6eaf4b0c5e080f3547160c39dca23fdd0533e1db849b1c096bf6df2cab1ba4  
+  
+Deposited into Ellipsis stablecoin pool ($32,107,136.29 BUSD and $87,602,010.73 USDC):  
+https://bscscan.com/tx/0x6768b4848b6713347195330a1a31326d3c060a9a828d5b5ec51bc6653bcc9b4e  
+  
+The attacker started to approve USDC and DAI tokens in order to deposit them into Curve stablecoin pool:  
+https://etherscan.io/tx/0x6c0b80ddb2d706a1e4bfcdb1815e6d5999443f863a7e96b37460bde75b99683d  
+https://etherscan.io/tx/0xa51979f54f6c9a2883712f5e694d9c23cf11394982cce4119b70c254624b52ea  
+  
+Deposited into Curve stablecoin pool ($671,156.42 DAI and $96,299,898.44 USDC):  
+https://etherscan.io/tx/0xbc54deb446c8daa623611c062e2e49f374ef3a04ddb2a8f4b788c9e54eb14485  
+  
+ _remove_liquidity_one_coin_ () - $96,643,770.34 DAI was removed backed to the exploiter’s address:  
+https://etherscan.io/tx/0x2465d4cf19d3bf557ea5eec8d57b1ad75c8378e68ba242139e7e186bf463c1a1  
+  
+Stolen funds:  
+  
+ETH chain:  
+616,082.58 Fei USD ($614,628)  
+26,109.06 WETH ($82,374,869)  
+33,431,197.73 USDT ($33,239,073)  
+14.47 renBTC ($656,638)  
+259,737,345,149.51 SHIB ($1,999,977)  
+43,023.75 UNI ($1,247,688)  
+673,227.94 DAI  ($673,201)  
+1,032.12 WBTC ($46,946,198)  
+96,389,444.22 USDC ($96,375,567)  
+  
+BSC chain:  
+32,107,854.11 BUSD ($32,105,564)  
+1,023.88 BTCB ($46,574,710)  
+26,629.15 ETH ($83,821,409)  
+87,603,373.77 USDC ($87,600,346)  
+  
+Polygon chain:  
+85,089,610.911 USDC ($85,057,567)
+
+
+
