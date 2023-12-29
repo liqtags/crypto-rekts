@@ -1,0 +1,68 @@
+{
+    "id": 3211,
+    "project_name": "Jumpn Finance",
+    "title": "Jumpn Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Jumpn Finance was rugpulled and 4158 $BNB was stolen using a privileged function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Jumpn Finance's $JST and $JAC staking pools were rugpulled. The scammer used 0x6b1d9018() privileged function on two pools and drained assets for a total 4138 $BNB. Consequently, 4100 $BNB was transferred through TornadoCash, the remaining 58 $BNB stays at the scammer's address.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xd3de02b1af100217a4bc9b45d70ff2a5c1816982</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x43e77e6e0f52c51832fabc5c32a584aaed096e82391b5d07fba84adcc965d218</p><p>https://bscscan.com/tx/0x48333962e6e946748a26d6222db95ce97e76c9ed3917123a7c9f2731f896b72c</p><p><br></p><p>Withdraw transactions:</p><p>https://bscscan.com/txs?toaddress=0x0D5550d52428E7e3175bfc9550207e4ad3859b17&amp;address=0xd3de02b1af100217a4bc9b45d70ff2a5c1816982</p>",
+    "name_categories": "Token",
+    "token_name": "JST",
+    "proof_archive_link": "https://archive.ph/Q0rEb",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xee6cacddd3a9370d87db581ee6728226883578e5",
+    "token_addresses": [
+        {
+            "address": "0xf46baa81b92a417addc991ce99a0bbc7a34d7733",
+            "url": "https://bscscan.com/address/0xf46baa81b92a417addc991ce99a0bbc7a34d7733#tokentxns",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x25f3afac055276252d8d53cb22a1327cbc2d3f03",
+            "url": "https://bscscan.com/address/0x25f3afac055276252d8d53cb22a1327cbc2d3f03#tokentxns",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634422da5d5c6.png",
+    "date": "2022-10-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1579058826774343680",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1143446,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3211,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
