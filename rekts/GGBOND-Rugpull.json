@@ -1,0 +1,68 @@
+{
+    "id": 3673,
+    "project_name": "GGBOND",
+    "title": "GGBOND Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>GGBOND, an ERC20 token trading on UniSwap, fell victim to a rug pull on August 11, 2023. The deployer removed liquidity from the LP pool, amounting to a loss of 82.02 ETH or 150,971 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The deployer initiated the attack by removing liquidity from the UniSwap pool. The stolen funds were then transferred to another EOA, followed by distribution across multiple addresses. Eventually, the majority of these funds found their way to the FixedFloat exchange. The transaction flow indicates a deliberate and organized effort to obscure the trail of stolen assets.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xb5c8662f2b46181a8ad36f4bd9e1306d36e80d82</p><p><br></p><p>Scammer Addresses:</p><p>https://etherscan.io/address/0x7c7493260ff585a5e983bca092304be57a0633ac</p><p>https://etherscan.io/address/0x034f755eacda98b1d3d7a8eda3739ef401386a39</p><p>https://etherscan.io/address/0xe36a28780b15c4f3592f1486d6472bc2c6049455</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xb224709f0aa41c0fa03121dc222e76e19d9b621670d0d724a36fbe630220d5d1</p><p><br></p><p>Deposit to FixedFloat Transactions:</p><p>https://etherscan.io/tx/0x8e585378391e498980d6202e1868335672bdd4121c11c168c50b6b733f8c7412</p><p>https://etherscan.io/tx/0xaab2a56761713ff545a5fe50e6883f2119d546b2ed1ae559633cb9fc1feb2219</p>",
+    "name_categories": "Token",
+    "token_name": "GGBOND",
+    "proof_archive_link": "https://archive.ph/2eBXP",
+    "technical_issue": null,
+    "token_address": "0xf6af193b542ce3fd00f120a49e1a5c343f74cf4a",
+    "token_addresses": [
+        {
+            "address": "0xf6af193b542ce3fd00f120a49e1a5c343f74cf4a",
+            "url": "https://etherscan.io/token/0xf6af193b542ce3fd00f120a49e1a5c343f74cf4a",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xd870b0a1cacd164a20f04408ef43581c67c5bce6",
+            "url": "https://etherscan.io/address/0xd870b0a1cacd164a20f04408ef43581c67c5bce6",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64db637683f71.png",
+    "date": "2023-8-11",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/certikalert/status/1690044420182224896?s=46",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 150971,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3673,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
