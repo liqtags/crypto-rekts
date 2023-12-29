@@ -1,0 +1,51 @@
+{
+    "id": 3036,
+    "project_name": "Bubbleworld",
+    "title": "Bubbleworld",
+    "description": "<p>Bubbleworld has been exploited for 194.78 ETH. The scammer has taken 250 NFTs and exchanged them on &nbsp;LooksRare.</p><p><br></p><p>Exploiter address: https://etherscan.io/address/0x1588afd4da044a607f3085C0844510a79E3Ab0c2</p><p><br></p><p>Transaction example: https://etherscan.io/tx/0x3816210275de4e36715e7a23177aed23cd589736ac449219f4ba0941a3361532</p><p><br></p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": null,
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1533756527663845376, https://twitter.com/CertiKAlert/status/1534060680038449152, https://twitter.com/CertiKAlert/status/1534147722063888384",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62a06421e2e78.jpeg",
+    "date": "2022-6-6",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://linktr.ee/thebubbleworld",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TheBubblewrld",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 343697,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/bubbleworld",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3036,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
