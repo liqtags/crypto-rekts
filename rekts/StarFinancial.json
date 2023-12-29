@@ -1,0 +1,51 @@
+{
+    "id": 3031,
+    "project_name": "StarFinancial",
+    "title": "StarFinancial",
+    "description": "<p>StarFinancial swapped contracts to a contract containing hard rug code. Changes are in function governanceRecoverUnsuported().</p><p><br></p><p>New contract address: https://snowtrace.io/address/0xe09e8c839e89deef3046a77fc9611f502e555788</p><p><br></p><p>Total rugged: $40,264</p>",
+    "name_categories": "Token",
+    "token_name": null,
+    "proof_archive_link": "https://twitter.com/cryptolurker777/status/1531686599049846784",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6299f4f76690c.png",
+    "date": "2022-5-31",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40264,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3031,
+            "networks": {
+                "id": 43114,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
