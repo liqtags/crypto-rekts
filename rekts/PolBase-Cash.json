@@ -1,0 +1,51 @@
+{
+    "id": 111,
+    "project_name": "PolBase Cash",
+    "title": "PolBase Cash",
+    "description": "<p><strong>Quick Summary</strong></p><p>PolBase Cash was an algorithmic stable coin project that contained unverified smart contracts which empowered the contract deployer to withdraw funds from the operation. Investors were deprived of $350k.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>PolBase Cash an algorithmic stable coin project that boasted three coins. $PBC (PolBase Cash) was the dollar pegged stable coin. In order to enable stabilization mechanisms $PBB (PolBase Bonds) and $PBS (PolBase Share) were introduced, similar to the popular Tomb Finance protocol on the Fantom network.</p><p>The contract deployer created four smart contracts for staking $USDT, $USDC, DAI and LP tokens separately. The staking contracts were unverified, meaning the code was not visible on the block explorer for everyone to review.</p><p>The contract deployer interacted with these 4 smart contracts using function <u>setOperation</u>() with the below address as input data:<br>0x5C0D86B9c5de0b2b88895a6Cb0441a0Cdd5d52eA.<br>This address received permission to withdraw funds from the staking smart contracts. The stolen funds were then transferred to a variety of external wallets. In addition, the liquidity from the pair was removed by this address as well:<br>https://etherscan.io/tx/0xbf17223dc8c0aba097a79ec1e63b40fee758dd62ece339384de20a15a51d62fc</p><p><br></p><p><strong>Block Data Reference</strong></p><p>USDT staking contract:</p><p>https://etherscan.io/address/0x4f2582fe5e50b5c77cb5f57e6bc958b49fe3381b</p><p>USDC staking contract:</p><p>https://etherscan.io/address/0x2b3e2fe7c8718353fc6cebaa79451c7193025bc3</p><p>DAI staking contract:</p><p>https://etherscan.io/address/0xa72180b8ce83f5717228d87bed3ef520093faf2c</p><p>LP contract:</p><p>https://etherscan.io/address/0x386e747afbd6cf412a055816820fa0d4948b63a9</p><p><br></p><p>Outgoing transactions could be found at:<br>https://bloxy.info/address/0x5c0d86b9c5de0b2b88895a6cb0441a0cdd5d52ea</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "PBC",
+    "proof_archive_link": "https://web.archive.org/web/20210105074700/https://polbase-cash.medium.com/introducing-the-polbase-cash-protocol-7472ac71b9d9",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x2d1fc83ae747022f3ffe192f1b1d18501796b3aa",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5ae1fc1d09.png",
+    "date": "2021-1-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CaptainJackAPE/status/1347043179976003585",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 353807,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 111,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
