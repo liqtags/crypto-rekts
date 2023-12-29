@@ -1,0 +1,51 @@
+{
+    "id": 3180,
+    "project_name": "New Free DAO",
+    "title": "New Free DAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>The New Free DAO project was subjected to a flash loan attack, suffering losses of $1.25M.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>New Free DAO is a DAO project that give participants the opportunity to coordinate activities and manage resources in accordance with a pre-agreed and formalized set of rules.</p><p>The attackers took 250 $WBNB via flash loan and swapped the loaned funds for $NFD tokens via the $WBNB -&gt; $USDT -&gt; $NFD path.&nbsp;</p><p>The attackers contract then created multiple contracts to claim airdrop rewards from the targeted victim contracts.&nbsp;</p><p>The attacker returned the flash loan and swapped all the $NFD for $WBNB. Then the malicious actor swapped 2k $BNB for $USDT.</p><p>Step by step the transaction occurred as follows:<br>- The scammer took a flash loan for $250 $BNB<br>- The $BNB tokens were then exchanged for the $NFD tokens<br>- The scammer contract had the ability to create malicious contracts that also created contracts and transferred them all tokens received from airdrop.<br>- In the end, the last contract exchanges the entire balance of $NFD tokens for $BNB, transfers them to the main contract, restores the flash loan, and then the main contract transfers the funds to the scammer.<br><br>All the stolen funds have been transferred through tornado.cash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address: https://bscscan.com/address/0x22c9736d4fc73a8fa0eb436d2ce919f5849d6fd2</p><p>Attacker contract address: https://bscscan.com/address/0xa35ef9fa2f5e0527cb9fbb6f9d3a24cfed948863</p><p>Flash Loan attack transactions:</p><p>1) https://bscscan.com/tx/0xb6f9b5ef1feeadb379a2de8f79bb04dd6920bfb214136d057eed4ce23a0003f8</p><p>2) https://bscscan.com/tx/0x8b77d75efa185295b09bdf2edcb509541fdde40ed5484212331ceac41b2f4ac0</p><p>Swap NFD to BNB transactions:</p><p>1) https://bscscan.com/tx/0x8c035fc9c3d944b3dd4a0ea721c119240cb624e79b7625a16173ad6682410599</p><p>2) https://bscscan.com/tx/0xda4b4de6ecacfe9b8b60167a2010630aeec103ab51920eb2e1b94ba1fef6c95b</p><p><br></p><p>Pair address: https://bscscan.com/address/0x26c0623847637095655b2868c3182b2285bdaeaf</p>",
+    "name_categories": "Other",
+    "token_name": "NFD",
+    "proof_archive_link": "https://web.archive.org/web/20220908105316/https://twitter.com/PeckShieldAlert/status/1567710440029048834,",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x38C63A5D3f206314107A7a9FE8cBBa29D629D4F9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6319bf0b2d431.png",
+    "date": "2022-9-8",
+    "scam_updates": [],
+    "proof_link": "https://beincrypto.com/new-free-dao-crashes-99-reported-flash-loan-attack/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1250372,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3180,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
