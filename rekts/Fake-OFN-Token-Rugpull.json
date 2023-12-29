@@ -1,0 +1,60 @@
+{
+    "id": 3736,
+    "project_name": "Openfabric AI",
+    "title": "Fake OFN Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>OFN token project experienced a rugpull exit scam, resulting in a loss of 58,644 USD worth 278.40 WBNB on Oct 19, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>OFN is a BEP20 token trading on PancakeSwap. The deployer and scammer addresses had previously sent funds from Binance to themselves. The deployer then renounced ownership of the token contract, possibly to facilitate the later hack. The scammer mint 1.Q OFN tokens and sell them. The stolen funds, amounting to 58,644 USD worth 278.40 WBNB, were transferred to another EOA and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x975bf151c66b6CA25637199C208FF3d74F8a463C</p><p><br></p><p>Scammer Addresses:</p><p>https://bscscan.com/address/0x76fA0caE01135Bd6F9b99CE38F8d0e7334d841C5</p><p>https://bscscan.com/address/0xFcCe0c3Bb275e06557a99dDF1c312a6BDB8FD2d4</p><p>https://bscscan.com/address/0x17F06EC1D6D066769Bc3beEbe5B1Dab710a47831</p><p><br></p><p>Draining Transaction:</p><p>https://bscscan.com/tx/0x310ef4d1ba1b286055759f4f0395086863d5d51a5dca9b468dbd2903b091db07</p>",
+    "name_categories": "Token",
+    "token_name": "OFN",
+    "proof_archive_link": "https://archive.ph/6xmzq",
+    "technical_issue": null,
+    "token_address": "0x91f8a9975604110c27630Efaa069d3F6A4B844E7",
+    "token_addresses": [
+        {
+            "address": "0x91f8a9975604110c27630efaa069d3f6a4b844e7",
+            "url": "https://bscscan.com/address/0x91f8a9975604110c27630efaa069d3f6a4b844e7",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6532b34f5d95d.png",
+    "date": "2023-10-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1714816644483354940",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 58644,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3736,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
