@@ -1,0 +1,60 @@
+{
+    "id": 3692,
+    "project_name": "Star Token",
+    "title": "Star Token Price Manipulation Attack",
+    "description": "<p><strong>Quick Summary</strong></p><p>Star Token was exploited via price manipulation, resulting in a loss of 517,684 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Star Token (STV) is a BEP20 token traded on PancakeSwap. On August 26, 2023, an attacker exploited a vulnerability in STV's unverified smart contract by manipulating the price, ultimately profiting by a total of 517,684 USD. The attacker took most of the stolen funds and deposited them into TornadoCash, while the remaining 119,902 USDT was transferred to another externally owned account (EOA) and remains at that address as of August 29, 2023.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attackers Addresses:</p><p>https://bscscan.com/address/0x4b44B52EF15f7Aab9A0A6cFDfa8D2c5Eeeb6d8C3</p><p>https://bscscan.com/address/0xF037A9F7e7eE68A011AB3E4FA8667DD350370B04</p><p><br></p><p>Funds Holder as of August 29, 2023:</p><p>https://bscscan.com/address/0x011c1a981d16a3670441b0334a74e39313a25c75</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0xf2a0c957fef493af44f55b201fbc6d82db2e4a045c5c856bfe3d8cb80fa30c12</p><p><br></p><p>TornadoCash Deposit Transaction:</p><p>https://bscscan.com/tx/0x3ca50ae3792b14f91cc71256f7d9d496725783215fba2888ac7a60e371f4a553</p>",
+    "name_categories": "Token",
+    "token_name": "STV",
+    "proof_archive_link": "https://archive.ph/Y7n4p",
+    "technical_issue": null,
+    "token_address": "0x657334b4ff7bdc4143941b1f94301f37659c6281",
+    "token_addresses": [
+        {
+            "address": "0x2120f8f305347b6aa5e5dbb347230a8234eb3379",
+            "url": "https://bscscan.com/address/0x2120f8f305347b6aa5e5dbb347230a8234eb3379",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ee1de45fec0.png",
+    "date": "2023-8-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/Phalcon_xyz/status/1695285435671392504",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 517684,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3692,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
