@@ -1,0 +1,51 @@
+{
+    "id": 2853,
+    "project_name": "OneRing",
+    "title": "OneRing",
+    "description": "<p>The attacker's wallet:<br>https://ftmscan.com/address/0x12efed3512ea7b76f79bcde4a387216c7bce905e<br><br>The exploit contract:<br>https://ftmscan.com/address/0x6a6d593ed7458b8213fa71f1adc4a9e5fd0b5a58<br><br>The transaction behind the attack:<br>https://ftmscan.com/tx/0xca8dd33850e29cf138c8382e17a19e77d7331b57c7a8451648788bbb26a70145<br><br>The attack was enabled via a flash loan-assisted price manipulation of the LP tokens, which resulted in a greater quantity of OShare tokens being removed from the protocol.<br><br>After the contract deployment, the hacker borrowed $80m USDC utilizing Solidly flash loans to boost the price of our underlying LP tokens in a single block, changing the price of OShare and driving a huge number of OShare tokens out of the protocol.<br><br>Stolen funds were bridged to Ethereum and deposited into Tornado Cash mixer:<br>https://etherscan.io/address/0x12efed3512ea7b76f79bcde4a387216c7bce905e</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "RING",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x582423C10c9e83387a96d00A69bA3D11ee47B7b5",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6239c2c9c816a.jpeg",
+    "date": "2022-3-21",
+    "scam_updates": [],
+    "proof_link": "https://medium.com/oneringfinance/onering-finance-exploit-post-mortem-after-oshare-hack-602a529db99b, https://twitter.com/peckshield/status/1506090607059431427",
+    "website_link": "https://www.onering.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Onering_Finance",
+    "telegram_link": "https://t.me/OneRingNews",
+    "our_post_link": null,
+    "funds_lost": 1508300,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/OneRingUSD/OneRing-Contracts",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/bcCaJE2N",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 250,
+            "scam_database_id": 2853,
+            "networks": {
+                "id": 250,
+                "name": "Fantom",
+                "icon_link": "safe/files/network/fantom.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
