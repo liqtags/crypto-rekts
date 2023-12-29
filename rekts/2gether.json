@@ -1,0 +1,51 @@
+{
+    "id": 2868,
+    "project_name": "2gether",
+    "title": "2gether",
+    "description": "<p>2gether CEO Ram\u00f3n Ferraz Estrada has reported security a breach in a series of tweets. He explained that on July 31st, they experienced a cyberattack on their servers, which led unknown hackers to steal cryptocurrencies worth $1.4 million from 2gether investment accounts.<br><br>While the funds were stolen and an investigation was under progress, Ram\u00f3n assured that no sensitive data like customers' payment information that card data used for buying cryptocurrencies, or banking details were stolen, but the passwords were breached by the hackers anyway. Thus, it\u2019s advised to change them as logical security practices.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241e117bded7.jpeg",
+    "date": "2020-7-31",
+    "scam_updates": [],
+    "proof_link": "https://www.zdnet.com/article/2gether-crypto-market-platform-hacked-eur1-3m-in-cryptocurrency-stolen/, https://www.coindesk.com/markets/2020/08/03/crypto-firm-hacked-for-14m-admits-it-will-struggle-to-reimburse-users/",
+    "website_link": "https://www.2gether.global/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/2gether_global",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://twitter.com/2gether_global",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2868,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
