@@ -1,0 +1,51 @@
+{
+    "id": 3181,
+    "project_name": "Ragnarok Online Invasion",
+    "title": "Ragnarok Online Invasion",
+    "description": "<p><strong>Quick Summary</strong></p><p>Ragnarok Online Invasion was exploited due to ownership issues of the token contract</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>$ROI is a BEP20 token of the Ragnarok Online Invasion project. The smart contract had a security vulnerability, that allowed any user or contract to take ownership of the token. The attacker used several smart contracts with unverified source code to utilize transferOwnership function and stole 162.56 $WBNB from the PancakeSwap liquidity pool. Consequently, the $ROI token price dropped &gt;98%. The total amount of 45,261 $USD worth of assets is currently located at the attacker's address.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Address of the attacker:</p><p>https://bscscan.com/address/0x91b7f203ed71c5eccf83b40563e409d2f3531114</p><p>Transaction:</p><p>https://bscscan.com/tx/0x0e14cb7eabeeb2a819c52f313c986a877c1fa19824e899d1b91875c11ba053b0</p><p>Contracts involved in the attack:</p><p>https://bscscan.com/address/0x107527089a382da40786b975957c7c209981bad7</p><p>https://bscscan.com/address/0x8e8c892af7f17365dfbb3073ec2a7f0b0fa0fc0e</p><p>https://bscscan.com/address/0x158af3d23d96e3104bcc65b76d1a6f53d0f74ed0</p><p>https://bscscan.com/address/0x12d64a15b9d6a14ba4bb6a435875d3bdbeff2bf3</p><p><br></p>",
+    "name_categories": "Token",
+    "token_name": "ROI",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xe48b75dc1b131fd3a8364b0580f76efd04cf6e9c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631a098466029.png",
+    "date": "2022-9-8",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/lBEHm",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 45262,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3181,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
