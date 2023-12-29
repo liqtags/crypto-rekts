@@ -1,0 +1,60 @@
+{
+    "id": 3522,
+    "project_name": "Venus Token",
+    "title": "Venus Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Venus Token vault was exploited, resulting in a loss of 16,937 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Venus Token is a BEP20 token trading on PancakeSwap. The vault contract VenusDevide was exploited. Worth mentioning that the affected contract has no relationship with the original token, and the token has over 600,000 $USD in liquidity after the exploit. An EOA address could call an unprotected function on an unverified contract named VenusDevide which held more than 8 million $VUS tokens. The attacker deployed multiple malicious contracts and withdrew $VUS tokens from the vulnerable contract. They then swapped them for 54.7 $BNB (worth 16,937 $USD at the time) before self-destructing their malicious contracts. All stolen funds remain in possession of the attacker's original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0x4C1F90281421CA00207F7890342EAA808C322E5A</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x90ee7abd5d6ec0f0f3eb61e1e8a559393aa879b90ad2da4fa2739ab6233c249f</p><p><br></p><p>Swap Transaction:</p><p>https://bscscan.com/tx/0x457a20d140b63485c1edd53b76842be3521b723f5f8256a5b8d8227bfd606eb1</p><p><br></p><p>Main Malicious Contract:</p><p>https://bscscan.com/address/0x78C6FA5F00B8968F5279EE3ECB5F95B3AD232759</p>",
+    "name_categories": "Token",
+    "token_name": "VUS",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x9fe22d981f2c9f3563d044c43e14feeecde8fc54",
+    "token_addresses": [
+        {
+            "address": "0x9b01d612d7f847fd669c2c326f9e3b2066e56a9c",
+            "url": "https://bscscan.com/address/0x9b01d612d7f847fd669c2c326f9e3b2066e56a9c",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/645fbb97aaa35.png",
+    "date": "2023-5-11",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 16937,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3522,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
