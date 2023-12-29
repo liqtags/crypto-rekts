@@ -1,0 +1,60 @@
+{
+    "id": 3635,
+    "project_name": "AORcoin",
+    "title": "AORcoin Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>AORCoin project experienced a rugpull, with the deployer removing liquidity causing a loss of 51,693 $USD.</p><p><strong><br></strong></p><p><strong>Details of the Exploit</strong></p><p>AORCoin, a BEP20 token trading on PancakeSwap, was the victim of a rugpull perpetrated by its deployer. The liquidity was removed from the LP pool in a single transaction. As a result of this illicit action, a total financial loss of approximately 51,693 $USD was recorded.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer's Address:</p><p>https://bscscan.com/address/0xf600d4d9845fe50fdc8ff04304de846a0c69eb87</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x867e4d198260ede023e919f07ba0ccf51ee3b89c5f2688b60073a2b3a1fc834d</p>",
+    "name_categories": "Token",
+    "token_name": "AOR",
+    "proof_archive_link": "https://archive.ph/loZRV",
+    "technical_issue": null,
+    "token_address": "0x8e404e8cace57ddb2e18978fdcc44753338f363a",
+    "token_addresses": [
+        {
+            "address": "0x8e404e8cace57ddb2e18978fdcc44753338f363a",
+            "url": "https://bscscan.com/address/0x8e404e8cace57ddb2e18978fdcc44753338f363a",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c19da382417.png",
+    "date": "2023-7-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1682783712755212288?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 51693,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3635,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
