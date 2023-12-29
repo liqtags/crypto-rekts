@@ -1,0 +1,51 @@
+{
+    "id": 3045,
+    "project_name": "Wintermute",
+    "title": "Wintermute",
+    "description": "<p><strong>Quick Summary</strong></p><p>Wintermute was exploited for approximately $27.6M due to an address error.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The funds were supposed to be sent to Wintermute by the Optimism Foundation as part of an agreement to perform Wintermute functions as a market maker on the eve of the launch of the OP token. However, Wintermute provided the address of their multisig on Ethereum as the destination address for Optimism - it was an address that they did not control. The exploiter was able to recreate the multisig address on Optimism and send himself 1M tokens. Then 1M OP was sent to Vitalic's address. The exploiter returned 17M OP on Jun 10th.</p><p><br></p><p>Stolen funds:</p><p>- 1M OP tokens</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploiter address: https://optimistic.etherscan.io/address/0x60b28637879b5a09d21b68040020ffbf7dba5107</p><p>Transaction behind the attack: https://optimistic.etherscan.io/tx/0xe9491bfb9a1ad13a47f3c1f61197b097416cbed2e32e038dd3de97172ddee303</p><p>Transaction of returning funds: https://optimistic.etherscan.io/address/0x4f3a120e72c76c22ae802d129f599bfdbc31cb81#tokentxns</p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": "https://twitter.com/scott_lew_is/status/1535249116095295488, https://rekt.news/wintermute-rekt/, https://twitter.com/CertiKAlert/status/1534698835796180993, https://twitter.com/optimismPBC/status/1534631771421253638",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/632a1a1163550.png",
+    "date": "2022-6-9",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://www.wintermute.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/wintermute_t",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 27600000,
+    "funds_returned": 23460000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600015,
+            "scam_database_id": 3045,
+            "networks": {
+                "id": 1666600015,
+                "name": "Optimism",
+                "icon_link": "safe/files/network/optimism.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
