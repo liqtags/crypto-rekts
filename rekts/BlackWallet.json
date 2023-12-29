@@ -1,0 +1,51 @@
+{
+    "id": 2916,
+    "project_name": "BlackWallet",
+    "title": "BlackWallet",
+    "description": "<p>A DNS hijack has led to hackers withdrawing $400,000 worth of Stellar Lumen (XLM) coins from wallets hosted by Blackwallet.co without users\u2019 permission.<br><br>As multiple sources reported, attackers took control of BlackWallet\u2019s hosting server, changing settings to allow code to run which automatically sent customer balances over 20XLM to an address under the hackers\u2019 control.<br><br>The hacker's wallet:<br>https://stellarchain.io/address/GBH4TZYZ4IRCPO44CBOLFUHULU2WGALXTAVESQA6432MBJMABBB4GIYI</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c73694bdc0.png",
+    "date": "2018-1-13",
+    "scam_updates": [],
+    "proof_link": "https://cointelegraph.com/news/blackwallet-hack-400k-in-stellar-stolen-hosting-provider-possibly-at-fault, https://www.reddit.com/r/Stellar/comments/7q9g31/statement_blackwallet_hacks_update/",
+    "website_link": "https://blackwallet.co/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 400000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 2916,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
