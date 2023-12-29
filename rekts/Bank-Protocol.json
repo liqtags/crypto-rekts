@@ -1,0 +1,51 @@
+{
+    "id": 162,
+    "project_name": "Bank Protocol",
+    "title": "Bank Protocol",
+    "description": "<p>The project was represented by a fake team, whose members impersonated other people. The project was holding a fundraising event, using BKP_Sales smart contract. 28.63 ETH was gathered from the investors at the following transactions:<br>https://bloxy.info/txs/transfers_to/0xafde309b21922dc45f20adfb659ef36ac984a454?currency_id=1<br><br>The liquidity wasn't added. The website and socials are down. Stolen funds were distributed between some regular wallets.</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "BKP",
+    "proof_archive_link": "https://archive.ph/jVZJb",
+    "technical_issue": null,
+    "token_address": "0xe1b3ecdf26af3c631715b6a49a74470e306d455b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60f6bc3fab802.png",
+    "date": "2020-12-23",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "http://bankprotocol.net/",
+    "webarchive_link": "https://web.archive.org/web/20201210111517/http://bankprotocol.net/",
+    "twitter_link": "https://twitter.com/BK_Protocol",
+    "telegram_link": "https://t.me/BankProtocol",
+    "our_post_link": null,
+    "funds_lost": 16867,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 162,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
