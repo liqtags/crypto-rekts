@@ -1,0 +1,78 @@
+{
+    "id": 3376,
+    "project_name": "ParaSpace",
+    "title": "ParaSpace",
+    "description": "<p><strong>Quick Summary</strong></p><p>ParaSpace was attacked, which might cause a loss of 5,058,751 $USD. The funds were rescued after the protocol halted transactions.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ParaSpace is a Lending and Borrowing protocol that offers to borrow NFT assets as well as ERC20 tokens. The protocol was attacked, but malicious transactions were reverted. After several crypto security firms detected suspicious transactions, the protocol was informed and halted the service after a brief period of time. The potential loss might reach 2,909 $ETH which is worth 5,058,751 $USD at the moment. ParaSpace announced on Twitter, the funds were rescued and none of the NFT assets were affected. The protocol suffered nearly 100 $ETH due to slippage on the attacker's malicious actions.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://etherscan.io/address/0x21B7A2c0F7C0C29c0Bbc55f5620Dc797c29c46B3</p><p><br></p><p>Malicious transactions:</p><p>https://etherscan.io/tx/0xe92b91f4dd13218a24e7328298e4a015cdbe74f3f10ccf60666300a508186e18</p><p>https://etherscan.io/tx/0xc7c8bf8ebacaf72d4cba3f7c69c770060bd32b3892697226f9bb9a871a1c1f62</p><p>https://etherscan.io/tx/0x161427ac3bfa8047fefaf505f50dc792840c4824d4773760939aa7eaa270e3d9</p><p><br></p><p>Malicious contract:</p><p>https://etherscan.io/address/0xc1810fb104681d0fba5ddc454ff7f2fd4eb19233</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "pcApe",
+    "proof_archive_link": "https://archive.ph/KTntX, https://archive.ph/5L1C4, https://archive.ph/aZkGx",
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xddde38696fbe5d11497d72d8801f651642d62353",
+    "token_addresses": [
+        {
+            "address": "0xddde38696fbe5d11497d72d8801f651642d62353",
+            "url": "https://etherscan.io/address/0xddde38696fbe5d11497d72d8801f651642d62353",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x5d100f31ef054d43ec33ae9cd55dee2586fef4da",
+            "url": "https://etherscan.io/address/0x5d100f31ef054d43ec33ae9cd55dee2586fef4da",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6414b94131aea.jpg",
+    "date": "2023-3-17",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/ParaSpace_NFT/status/1636679472605982722, https://medium.com/@Ancilia/thunderstorm-come-to-para-space-68f1dd6995b9, https://twitter.com/BlockSecTeam/status/1636650252844294144",
+    "website_link": "https://app.para.space/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ParaSpace_NFT",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 173100,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/para-space/paraspace-core",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/paraspacenft",
+    "bug_bounty_program_link": "https://docs.para.space/para-space/bug-bounty/immunefi",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3376,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/REP_final_20221223T070404Z_1.pdf",
+            "date": "2022-12-23T00:00:00.000Z",
+            "partner": {
+                "id": 8,
+                "name": "Certik",
+                "logo_link": "safe/files/partner/logo/609520cbb1bba.png"
+            }
+        }
+    ]
+}
