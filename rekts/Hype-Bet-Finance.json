@@ -1,0 +1,51 @@
+{
+    "id": 134,
+    "project_name": "Hype Bet Finance",
+    "title": "Hype Bet Finance",
+    "description": "<p>The project was holding a fundraising event using a Proxy smart contract:<br>https://etherscan.io/txs?a=0x3f9560721d4a613d3a0f528fe871f0537a8e990c&amp;p=31<br><br>The contract deployer minted tokens and transferred them to the Proxy smart contract:<br>https://etherscan.io/tx/0xd29090c06a2da8db658781994c822f266509bd3d04cc6ae34d340def85cbcef5<br>https://etherscan.io/tx/0xe7606055f5149e207362c8eda80f90123d4b0182c825ed5bb94a00170b7367f6<br><br>The initial liquidity was added through the Proxy smart contract using 721.78 ETH at:<br>https://etherscan.io/tx/0x9e49739d2f97081722395ffe14183fc6c00633ed7bccd8ea879ede41f12c3917<br><br>The rest of ETH, raised on the presale was distributed between different external addresses:<br>https://etherscan.io/tx/0x33db0e0174ca25cf4580740247be2be845107bef9e7e55edbaa8cfb809653339<br>https://etherscan.io/tx/0x65dbf80b76336f08449cfb0511ac77cd03dcf349796a9621fe9546e3fd62b2f7<br>https://etherscan.io/tx/0x98fdb11f7e8f467f1e1dfc298517e4afaa35206b747a2a72d390bd5699cd2bfc</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": "HYPE",
+    "proof_archive_link": "https://archive.ph/U31bp",
+    "technical_issue": null,
+    "token_address": "0x610c67be018A5C5bdC70ACd8DC19688A11421073",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5b7293a7f6.png",
+    "date": "2020-11-30",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://hype-finance.com/",
+    "webarchive_link": "https://web.archive.org/web/20201101002537/http://hype-finance.com/",
+    "twitter_link": "https://twitter.com/HypeDefi",
+    "telegram_link": "https://t.me/HypeFinanceofficial",
+    "our_post_link": null,
+    "funds_lost": 363854,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 134,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
