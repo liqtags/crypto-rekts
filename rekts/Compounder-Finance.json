@@ -1,0 +1,51 @@
+{
+    "id": 249,
+    "project_name": "Compounder Finance",
+    "title": "Compounder Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Contract deployer exploited StrategyController smart contract, transferring funds to his wallet and hiding traces using Tornado Cash mixer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The contract deployer exploited the StrategyController smart contract by invoking the inCaseTokensGetStuck() function. This allowed him to transfer funds directly into his wallet. The exploit was carried out in several transactions. After acquiring the funds, the attacker used the Tornado Cash mixer to hide the traces of the stolen funds. This method of obscuring the origin of funds makes it difficult to track the attacker.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Malicious Transactions:</p><p>https://etherscan.io/tx/0x57c61df91e46b191424bfdd9223f277457a07999b58420e3b540059aad3fc7fe</p><p>https://etherscan.io/tx/0x10d245e61e76c7bf44257985789463ed89f624a0d5ffc45cfa671b16a7113d77</p><p>https://etherscan.io/tx/0x0763afe207015ed7c1aa8858d2c092cf7b6a20397f2408bff20b044ef1901822</p><p>https://etherscan.io/tx/0xf94de5a083f16700f4d26ec8ca3e03dc01889a54f472bf630079c54a77f033e6</p><p>https://etherscan.io/tx/0x18e0efcaabe64299666fd78bb33dae2a4b25c6f11b469fc0498db714970cacfa</p><p>https://etherscan.io/tx/0x744c51b4544c76be384197a8c089271dfcbd207d67bad6d2f8907dd7d4d852e5</p><p>https://etherscan.io/tx/0x9c75f70670d94e6d37f60a585f9b57d13193998d64866f720489efbea4809056</p><p><br></p><p>Tornado Cash Mixer Transaction:</p><p>https://bloxy.info/txs/calls_from/0x079667f4f7a0b440ad35ebd780efd216751f0758?signature_id=11062&amp;smart_contract_address_bin=0xa160cdab225685da1d56aa342ad8841c3b53f291</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "CP3R",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x7Ef1081Ecc8b5B5B130656a41d4cE4f89dBBCC8c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e5a688dba8f.png",
+    "date": "2020-12-1",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CryptoCatVC/status/1333690462402732034, https://twitter.com/defiyield_app/status/1333731633393004545, https://rekt.news/deathbed-confessions-c3pr/",
+    "website_link": "https://compounder.finance/",
+    "webarchive_link": "https://web.archive.org/web/20201124115606/https://compounder.finance/",
+    "twitter_link": "https://twitter.com/gocompounder",
+    "telegram_link": "http://t.me/gocompounder",
+    "our_post_link": null,
+    "funds_lost": 12326985,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 249,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
