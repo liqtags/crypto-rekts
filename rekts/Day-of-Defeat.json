@@ -1,0 +1,51 @@
+{
+    "id": 3002,
+    "project_name": "Day of Defeat",
+    "title": "Day of Defeat",
+    "description": "<p>On may 6th marketing wallet of DayOfDefeat protocol was compromised by an outside hacker. Approximately $1.35M in assets was sent to EOA addresses in DOD tokens.</p><p>The two addresses below contain a large number of DOG tokens, they received tokens or exchanged them from addresses that were somehow associated with the contract.</p><p><br></p><p>Transfer transaction of big amount of DOD: https://bscscan.com/tx/0x08e987bf8453982c5422688d3877d681058c1c8584ef941d328ee6accf00f115</p><p>Swap on PancakeSwap:&nbsp;</p><p>https://bscscan.com/tx/0x1b7233aeaf6b0dc6f69c76bbdb379c51c2a87980a0e9ac5f45e7e34a5a36a398</p><p>https://bscscan.com/tx/0xa744516d171c41ae3384e5d5cbae1488a8f9f97e62110ab7f32ef1f636fc264f</p><p><br></p><p>Involved addresses are:<br>https://bscscan.com/address/0x2cbfda0600f26514b5715875aa4b273bf5edc775<br>https://bscscan.com/address/0x404bc3bb20cfbea9ec7345f6e8b9321b67ed14d0</p>",
+    "name_categories": "Token",
+    "token_name": "DOD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc709878167ed069aea15fd0bd4e9758ceb4da193",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6284c668365d1.png",
+    "date": "2022-5-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/dayofdefeatBSC/status/1522346185977176065?cxt=HHwWgoC5hcvyuqAqAAAA",
+    "website_link": "https://dayofdefeat.app/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dayofdefeatBSC",
+    "telegram_link": "https://t.me/DayOfDefeatBSC",
+    "our_post_link": null,
+    "funds_lost": 1350000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://titanservice.cn/DayOfDefeatBSC",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3002,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
