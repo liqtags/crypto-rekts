@@ -1,0 +1,51 @@
+{
+    "id": 2364,
+    "project_name": "TheDAO",
+    "title": "TheDAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>The DAO ecosystem's smart contract was hacked, and 3,600,000 $ETH was stolen, which leads to the division of the blockchain into Ethereum Classic ($ETC) and Ethereum ($ETH)</p><p><br></p><p><strong>Details of the Exploit</strong><br>1. Propose a split and wait until the voting period expires. (DAO.sol, <u>createProposal</u>).</p><p>2. Execute the split. (DAO.sol, <u>splitDAO</u>).</p><p>3. Let the DAO send your new DAO its share of tokens. (<u>splitDAO</u> -&gt; TokenCreation.sol, <u>createTokenProxy</u>).</p><p>4. Make sure the DAO tries to send you a reward before it updates your balance but after doing (3). (<u>splitDAO</u> -&gt; <u>withdrawRewardFor&nbsp;</u>-&gt; ManagedAccount.sol, <u>payOut</u>).</p><p>5. While the DAO is doing (4), have it run splitDAO again with the same parameters as in (2) (<u>payOut</u> -&gt; <u>_recipient.call.value</u> -&gt; <u>_recipient()</u>).</p><p>6. The DAO will now send you more child tokens and go to withdraw your reward before updating your balance. (DAO.sol, <u>splitDAO</u>).</p><p>7. Back to (5)!</p><p>8. Let the DAO update your balance. Because (7) goes back to (5), it never actually will.</p><p><br></p><p>Deconstructing the constructor arguments that created that child DAO leads us to a curator.<br>That smart contract is just a regular multi-signature wallet, with most of its past transactions being adding/removing owners and other wallet management tasks.<br>The true total funds lost cannot be calculated properly. The mentioned amount is taken from different sources.</p><p><br></p><p><strong>Block Data Reference</strong><br>The malicious DAO creator:<br>https://etherscan.io/address/0x4a574510c7014e4ae985403536074abe582adfc8<br>Start of the drain:<br>https://etherscan.io/tx/0x0ec3f2488a93839524add10ea229e773f6bc891b4eb4794c3337d4495263790b<br>The malicious child DAO \"The Dark DAO\":<br>https://etherscan.io/address/0x304a554a310c7e546dfe434669c62820b7d83490<br>The account that executed the transactions behind the split is:<br>https://etherscan.io/address/0xf35e2cc8e6523d683ed44870f5b7cc785051a77d<br>The proposal was created and initiated by account:<br>https://etherscan.io/address/0xb656b2a9c3b2416437a811e07466ca712f5a5b5a at transaction:<br>https://etherscan.io/tx/0x5798fbc45e3b63832abc4984b0f3574a13545f415dd672cd8540cd71f735db56</p><p>Curator address:</p><p>https://etherscan.io/address/0xda4a4626d3e16e094de3225a751aab7128e96526</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "TheDAO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0xbb9bc244d798123fde783fcc1c72d3bb8c189413",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61040df4a619b.png",
+    "date": "2016-6-17",
+    "scam_updates": [],
+    "proof_link": "https://hackingdistributed.com/2016/06/18/analysis-of-the-dao-exploit/, https://medium.com/@oaeee/the-rise-of-the-dark-dao-72b21a2212e3#.rnb1n01h8",
+    "website_link": "https://blog.daohub.org/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 50000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2364,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
