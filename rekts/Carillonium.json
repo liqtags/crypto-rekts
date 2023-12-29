@@ -1,0 +1,51 @@
+{
+    "id": 3175,
+    "project_name": "Carillonium",
+    "title": "Carillonium",
+    "description": "<p><strong>Quick Summary</strong></p><p>The $CAROM project has been rug pulled by the token creator who previously created the rug pull project NeotericFinance.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The scammer deployed a token where 10^15 tokens were minted to his/her address, then scammer created a liquidity pair between CAROM/BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0xd9c9e6a3570c44d91368695cb502405b2ad9b150f8be5ad5fb93c991c84d6272</p><p data-v-51e0c2ec=\"\">After a short period of time, scammer removed some of the liquidity, made swap and then removed the liquidity again, gaining a profit of 213.27 $BNB:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/token/0x2d1e3be4dfd27d8d6c8f9568af27e3d8ec44d4a1?a=0x8f0d9acb433ca1c0f214990c4c908f2aa12387e4</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Scammer address: https://bscscan.com/address/0x8f0d9acb433ca1c0f214990c4c908f2aa12387e4</p><p data-v-51e0c2ec=\"\">Dumping transaction: https://bscscan.com/tx/0xf56fd7fefdc0007720b1040b104859b0f5247aa2e73c9cd8e0e2450b2392a969</p>",
+    "name_categories": "Token",
+    "token_name": "CAROM",
+    "proof_archive_link": "https://web.archive.org/web/20220901221851/https://twitter.com/PeckShieldAlert/status/1565336312218955776",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x2d1e3be4dfd27d8d6c8f9568af27e3d8ec44d4a1",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631721b5ce4cb.png",
+    "date": "2022-9-1",
+    "scam_updates": [],
+    "proof_link": "https://alert.peckshield.com/detail?id=43ec5945-7d7f-53b0-2e29-14176a6d3ab0",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 59172,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3175,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
