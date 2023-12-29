@@ -1,0 +1,51 @@
+{
+    "id": 2724,
+    "project_name": "Pizza",
+    "title": "Pizza",
+    "description": "<p><strong>Quick Summary</strong></p><p>Exploitation of eCurve Tripool resulted in abnormal issuance of LP tokens and significant asset loss.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attacker cyclically deposited stablecoins into eCurve Tripool using a malicious contract, leading to abnormal issuing of eCurve Tripool LP tokens. The attacker then transferred 12,000,000 TRIPOOL into their EOA address (itsspiderman1). The attacker deposited these tokens into lend.pizza as collateral and drained all assets from lending, transferring them into the itsspiderman contract address. The total assets lost include EOS, DFS, BOX, YFC, TAG, USDT, TPT, KEY, DAPP, PBTC, CHEX, OGX, ETH, USN, USDC, IQ, BTC, USDB, OUSD, BOXAI, and PETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The attacker's address:</p><p>https://bloks.io/account/itsspiderma1</p><p><br></p><p>The transaction behind the attack:</p><p>https://bloks.io/transaction/a7392b4e2b3ebc68345c91f538114eeb51cea48584783f2b162b7d4e94f725df</p><p><br></p><p>The contract used within the attack:</p><p>https://bloks.io/account/itsspiderman</p><p><br></p><p>The transaction of depositing TRIPOOL into lend.pizza:</p><p>https://bloks.io/transaction/a7392b4e2b3ebc68345c91f538114eeb51cea48584783f2b162b7d4e94f725df&nbsp;</p><hr><p><br></p>",
+    "name_categories": "Other",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61b35beaf2c09.jpeg",
+    "date": "2021-12-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PizzaProFi/status/1468869822389768192",
+    "website_link": "https://pizza.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/PizzaProFi",
+    "telegram_link": "https://t.me/PizzaUSDE",
+    "our_post_link": null,
+    "funds_lost": 9863088,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 95,
+            "scam_database_id": 2724,
+            "networks": {
+                "id": 95,
+                "name": "EOS",
+                "icon_link": "safe/files/network/eos.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
