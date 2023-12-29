@@ -1,0 +1,60 @@
+{
+    "id": 3702,
+    "project_name": "Boost Coin",
+    "title": "Boost Coin Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Boost Coin project rugpulled, deployer removed liquidity worth 593,267 USD directly from the token contract on Sep 06, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Boost Coin is an ERC20 token that experienced an exit scam on Sep 06, 2023. The deployer of the token used a privileged function, withdrawETH, to remove liquidity directly from the token's contract. The attacker removed 363.4 ETH, which is approximately 593,267 USD at current market rates. The stolen funds were transferred through various EOA addresses before being deposited into KuCoin.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x413217Acfa382a8b0a728AcC6D2cfe296C6552eA</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x68ee5c57c1468680615b035f9e752a2e055448291bb063c4facf81908c43d991</p>",
+    "name_categories": "Token",
+    "token_name": "Boost",
+    "proof_archive_link": "https://archive.ph/h7EpP",
+    "technical_issue": null,
+    "token_address": "0x302cae5dcf8f051d0177043c3438020b89b33218",
+    "token_addresses": [
+        {
+            "address": "0x302cae5dcf8f051d0177043c3438020b89b33218",
+            "url": "https://etherscan.io/token/0x302cae5dcf8f051d0177043c3438020b89b33218",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64fb333728990.png",
+    "date": "2023-9-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1699323334318538880?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 593267,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3702,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
