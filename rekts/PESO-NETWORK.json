@@ -1,5 +1,5 @@
 {
-    "id": 1402,
+    "id": 1401,
     "project_name": "PESO NETWORK",
     "title": "PESO NETWORK",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "PESO",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x9f3beb6b28540b910cff63952c5f9cb929cf6b36",
+    "token_address": "0x147308d8f292a580f35c25105cb73039d6d68beb",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f0573a562b3.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f0570c61c22.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1373698524961906691",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 56,
-            "scam_database_id": 1402,
+            "scam_database_id": 1401,
             "networks": {
                 "id": 56,
                 "name": "Binance",
