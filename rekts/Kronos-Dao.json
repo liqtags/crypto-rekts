@@ -1,0 +1,51 @@
+{
+    "id": 3152,
+    "project_name": "Kronos Dao",
+    "title": "Kronos Dao",
+    "description": "<p><strong>Quick Summary</strong></p><p>Kronos DAO misappropriated users funds locked into their vaults without informing the investors beforehand. Investors suffered a combined loss of $DAI 6 million.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Kronos Dao was the first decentralized reserve currency protocol on the Klaytn network. The platform offered vaults with investment strategies for specific coins such as the $DAI stablecoin. The team used $DAI 6 million pledged to their vault in order to invest into a Kronos chain based stablecoin called Kairos Cash in the pursuit of higher yields for its investors. This change in investment strategy was not communicated beforehand and the various transactions to the Binance central exchange made the redirection of investment strategies even less transparent. Cheated investors have filed charges against the Kronos management team.</p><p><br></p>",
+    "name_categories": "Stablecoin,Yield Aggregator",
+    "token_name": "KRNO",
+    "proof_archive_link": "https://web.archive.org/web/20220821182441/https://www.lockmeta.com/news/defi-project-kronos-dao-goes-bankrupt-after-being-accused-of-misappropriating-client-funds-investors-sue-it/",
+    "technical_issue": null,
+    "token_address": "https://scope.klaytn.com/account/0xD676e57Ca65b827fEb112AD81Ff738E7B6c1048d?tabId=txList",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63089c123ed3d.png",
+    "date": "2022-5-19",
+    "scam_updates": [],
+    "proof_link": "https://tokeninsight.com/en/news/klaytn-based-defi-project-kronos-dao-allegedly-misappropriated-6-million-dai-staked-by-users",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 6000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 18,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 8217,
+            "scam_database_id": 3152,
+            "networks": {
+                "id": 8217,
+                "name": "Klaytn",
+                "icon_link": "safe/files/network/klaytn.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
