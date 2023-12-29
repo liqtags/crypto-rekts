@@ -1,0 +1,51 @@
+{
+    "id": 3172,
+    "project_name": "DAO_Officials",
+    "title": "DAO_Officials",
+    "description": "<p><strong>Quick Summary</strong></p><p>A flash loan attack was made on the project, DAO_Officials. The hacker managed to get a profit of $581k.</p><p><strong><br>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">The DAO_Officials is a project that aims to create an aggregated DAO community that will cover many areas.</p><p data-v-51e0c2ec=\"\">The hacker who is marked on the BSC as (SpaceGodzilla Exploiter) committed a flash loan attack on the young DAO_Officials project. The attacker created a contract (https://bscscan.com/tx/0x439d77a2b6d0ebf326ff9a11dd790c3f17a48776edb412a0dc3af38303abe2c1) in which the mock function was called, a script that executed a flash loan for a large amount in $USDT tokens:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x414462f2aa63f371fbcf3c8df46b9a64ab64085ac0ab48900f675acd63931f23</p><p data-v-51e0c2ec=\"\">In the same transaction, the hacker exchanged $DAO for $USDT, then repeated this process in order to receive a reward from the contract (0xea41...34D0). Upon completion of the transaction, the flash loan was paid back and the profit had been exchanged for $USDT, which is currently stored at the hacker's address.</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Involved addresses:</p><p data-v-51e0c2ec=\"\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>- Attacker address, (SpaceGodzilla Exploiter) :</span></p><p data-v-51e0c2ec=\"\">https://bscscan.com/address/0x00a62eb08868ec6feb23465f61aa963b89e57e57</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Attacker contracts:</span></p><p data-v-51e0c2ec=\"\">- https://bscscan.com/address/0xb2d7d06b67e67b8a3acb281d1f9aaa2716f28bbb</p><p data-v-51e0c2ec=\"\"><br></p><p data-v-51e0c2ec=\"\"><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Transaction:</span></p><p data-v-51e0c2ec=\"\">https://bscscan.com/tx/0x414462f2aa63f371fbcf3c8df46b9a64ab64085ac0ab48900f675acd63931f23</p>",
+    "name_categories": "Other",
+    "token_name": "DAO",
+    "proof_archive_link": "https://web.archive.org/web/20220905143647/https://twitter.com/BeosinAlert/status/1566647875617968128, https://web.archive.org/web/20220905143723/https://twitter.com/CertiKAlert/status/1566614948230340609",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x037b202Ca88D2028d82936d5615eE5088cb9fD78",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/631609c88a61f.jpeg",
+    "date": "2022-9-4",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/dao_officials",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 581250,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3172,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
