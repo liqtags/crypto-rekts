@@ -1,0 +1,51 @@
+{
+    "id": 2759,
+    "project_name": "Arbix Finance",
+    "title": "Arbix Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Arbitrum (ARBX) contract exploited due to onlyOwner function, leading to the minting and dumping of 10M ARBX tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The ARBX contract contained a mint() function with onlyOwner, which was exploited to mint 10M ARBX tokens to 8 different addresses. Approximately 4.5M ARBX were minted in a single transaction and subsequently dumped by the recipient. The users' assets were drained from several pools, with the stolen funds being bridged to Ethereum.</p><p><strong><br></strong></p><p><strong>Block Data Reference</strong></p><p><br></p><p>The addresses involved in the exploit:</p><p>https://bscscan.com/address/0x4714a26e4e2e1334c80575332ec9eb043b61a2c4</p><p>https://bscscan.com/address/0x161262d172699cf0a5e09b6cdfa5fee7f32c183d</p><p><br></p><p>The transaction of 4.5M ARBX minting:</p><p>https://bscscan.com/tx/0x4707d30a8d8152eebad1cdcae1d93af24cb9a344b447412ee1d65638b5c3db6f</p><p><br></p><p>The transaction of asset draining:</p><p>https://bscscan.com/tx/0xfbba507c8e90a264d5e77e5db854f5697572da1681f3647d4fa4381f7ef825b9</p><p><br></p><p>The Ethereum address where stolen funds were bridged:</p><p>https://etherscan.io/address/0xdc85c1eb22b0ece7be559a83fd788fe57f5a7a9f</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "ARBX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xd20ef93050c0943f74f5f8ff0cc97c74139d6437",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61dc64a04d6fb.png",
+    "date": "2022-1-4",
+    "scam_updates": [],
+    "proof_link": "https://rekt.news/arbix-rekt/, https://twitter.com/certikorg/status/1478243729244839938",
+    "website_link": "http://www.arbix.finance/",
+    "webarchive_link": "https://web.archive.org/web/20211212112622/https://www.arbix.finance/",
+    "twitter_link": "https://twitter.com/ArbixFinance",
+    "telegram_link": "https://t.me/ArbixFinance",
+    "our_post_link": null,
+    "funds_lost": 10000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2759,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
