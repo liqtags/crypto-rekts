@@ -1,0 +1,51 @@
+{
+    "id": 191,
+    "project_name": "Star Swap",
+    "title": "Star Swap",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x062cb2e577769ddf531e60d660dbc87bd8ec7201811b73312310ab6e0bebec1c<br><br>The contract deployer used hidden minting functionality under the <u>starCheck</u>() function to generate new tokens onto his wallet:<br>https://etherscan.io/tx/0x786c863757c156fe689d9d134063353e6c18bf5387c7fa4b51830264eb932dbc<br><br>The minted tokens were sold by the contract deployer at:<br>https://etherscan.io/tx/0xe621d4aa21f10df1df33ef269643c4765b652770012f07f8c3a99a1fa5078c47</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "STRSW",
+    "proof_archive_link": "https://archive.ph/uhjqP",
+    "technical_issue": null,
+    "token_address": "0x9867a6c0847829e93fb6fbb19667083cb5d1af93",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5d69bc77a2.png",
+    "date": "2020-11-6",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 76654,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 191,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
