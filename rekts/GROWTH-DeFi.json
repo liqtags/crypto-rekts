@@ -1,0 +1,51 @@
+{
+    "id": 2548,
+    "project_name": "GROWTH DeFi",
+    "title": "GROWTH DeFi",
+    "description": "<p>The attacker's address:<br>https://etherscan.io/address/0x5e05bc89ae5f21b48500d9685526e0dab421a04b<br><br>The attacker created a fake token called AXZ and supplied rAXZZ/GRO liquidity. He then staked it in the contract and pulled out the other pair.<br><br>The attacker:<br>- swapped 0.001 WETH for ~0.0148 GRO:<br>https://etherscan.io/tx/0x97373e454e0d5bc7b552de8075c33ea257f570bea519dc2c6220658257b304b5<br><br>- added ~0.0148 GRO and 100,000,000,000 AXXZ into Uniswap liquidity pair:<br>https://etherscan.io/tx/0xa94c42b8d290369910e33c8e317bd996d8a774367fc2ba69b985a00a3dea6247<br><br>- removed ~27,516 GRO and ~1,218 rAAVE liquidity from Uniswap:<br>https://etherscan.io/tx/0x2152214a6be27a904af5a25e77fdca92ae60c6a9d7d298a41f88558649a41a23<br><br>- swapped ~27,516 GRO for ~597 WETH and ~1,218 rAAVE on ~203 WETH:<br>https://etherscan.io/tx/0xffef18b38096c96c1f6be784ea0ebb07964137858e38f3d65858a79e6a96797f<br>https://etherscan.io/tx/0xce020fabb3c56c75b23ac7d53d5259959a2b3ffe0b1a0d69aecaae9cd7757998<br><br>Stolen funds were distributed between 4 external wallets at:<br>https://etherscan.io/tx/0x0a6b5c92abcfbf07fb31d9e6c402b82c8756a80823c309d063a9a735d3f817eb<br>https://etherscan.io/tx/0xac4407bf2fa52003960449cecc92d3a9e0175f40d9bf11b9d808c3282f2ec2b4<br>https://etherscan.io/tx/0x0391fa91f18873566a31f5a6dd73b6ae5c4aa48146b64edf615eaacf0fece735<br>https://etherscan.io/tx/0xb80894d79ba238b1867ea17beb821f58084d42b52b7db24f04ca9cf1ae9b680c</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "GRO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x09e64c2B61a5f1690Ee6fbeD9baf5D6990F8dFd0",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6113e9c56db66.jpeg",
+    "date": "2021-2-8",
+    "scam_updates": [],
+    "proof_link": "https://growthdefi.medium.com/raave-farming-contract-exploit-explained-f3b6f0b3c1b3, https://www.rekt.news/the-big-combo/",
+    "website_link": "https://growthdefi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/GrowthDefi",
+    "telegram_link": "https://t.me/growthdefi",
+    "our_post_link": null,
+    "funds_lost": 1401772,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2548,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
