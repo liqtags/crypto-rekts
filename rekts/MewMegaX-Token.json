@@ -1,0 +1,51 @@
+{
+    "id": 2387,
+    "project_name": "MewMegaX Token",
+    "title": "MewMegaX Token",
+    "description": null,
+    "name_categories": "Other",
+    "token_name": "MewX",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x0b667aEe8Afe91D30E21E44B11fb737426Bc3D9A",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610a6d116918e.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x72d5e1f21166b0380f8d0096a6df47185b42a16f?a=0x000000000000000000000000000000000000dead",
+    "website_link": "https://mewx.mew.farm/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2387,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
