@@ -1,0 +1,60 @@
+{
+    "id": 3790,
+    "project_name": "TrustPad",
+    "title": "TPAD Fake Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>TPAD token was rugpulled by the deployer, removing liquidity worth 240,006 USD from PancakeSwap pool, causing a total loss of 56,329 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TPAD is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer removed liquidity from the LP pool, amounting to 240,006 USD. The stolen funds were then transferred to another EOA address and subsequently distributed among multiple addresses. The total funds lost in this exit scam are 56,329 USD, equivalent to 390.58 WBNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x2Ca8Ec9dd0AE45CB890bdc1a7d08c69D5bA3b4fd</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0xcf321926d9f66c1e34afa2dde17ccee82e079fcd767b7fd5d3ebc377d26260cf</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x0ccb4b81b587a0d81e0575020d857449c67c3ab0aeed0d732e2c5c3c6dc32fa0</p>",
+    "name_categories": "Token",
+    "token_name": "TPAD",
+    "proof_archive_link": "https://archive.ph/HUoPx",
+    "technical_issue": null,
+    "token_address": "0xf9333D7A78f00bA4AEA964043D577c34AF2497f8",
+    "token_addresses": [
+        {
+            "address": "0xf9333d7a78f00ba4aea964043d577c34af2497f8",
+            "url": "https://bscscan.com/address/0xf9333d7a78f00ba4aea964043d577c34af2497f8",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/656590dd6dc37.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727899299089179063",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 56329,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3790,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
