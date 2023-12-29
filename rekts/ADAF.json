@@ -1,0 +1,51 @@
+{
+    "id": 3032,
+    "project_name": "ADAF",
+    "title": "ADAF",
+    "description": "<p>ADAF token has been rugpulled by contract deployer for ~$156K.</p><p><br></p><p>Contract address: https://bscscan.com/address/0xDC1dCd09A17c23eE77568b4EABa16edD3D0503a3</p><p>Deployer address: https://bscscan.com/address/0x37a66BeD12095785EDd17EeE2f9B72183ea3A1A1</p><p><br></p><p>First rug pull tx: https://bscscan.com/tx/0x6c5ca5ad58eb7143b6f73d9426d2ccdc474a8cf301819d8764ed4c5271cb35a8 From address: https://bscscan.com/address/0xf85768C0d3654BA60448eD73A5cc69B78AC1D1e4</p><p>which traces tokens back to the ADAF contract deployer.</p><p><br></p><p>Second rug pull tx: https://bscscan.com/tx/0x55070d327fb452900306ba2955be97b6f5da5597696fa2907aca22f3b23b1a9e</p><p>From address: https://bscscan.com/address/ 0x473Fb5526C71c798D513E7555e5dB5e36749F049 which also traces tokens back to the ADAF contract deployer.</p>",
+    "name_categories": "Token",
+    "token_name": "ADAF",
+    "proof_archive_link": "https://twitter.com/CertiKAlert/status/1532546438474907662",
+    "technical_issue": null,
+    "token_address": "0xDC1dCd09A17c23eE77568b4EABa16edD3D0503a3",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/629e34e7e9664.png",
+    "date": "2022-6-3",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 156000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3032,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
