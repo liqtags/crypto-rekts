@@ -1,0 +1,68 @@
+{
+    "id": 3382,
+    "project_name": "Cezar Hard Fork",
+    "title": "Cezar Hard Fork",
+    "description": "<p><strong>Quick Summary</strong></p><p>Cesar Hard Fork was rugpulled by the token deployer for over 398,748 $USD. The scammers used the privileged mint function.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Cesar Hard Fork is a BEP20 token trading on PancakeSwap. There are two copycat tokens with related deployers. Both $Cesar tokens were rugpulled by the deployers. rewardHolders() privileged function allowed to mint an unlimited amount of $Cesar tokens to the contract owner. Consequently, pools were drained. The stolen funds accumulated in a single EOA address, and reached 1,212 $BNB in total which is worth 398,748 $USD at the moment. The accumulated amount was transferred through TornadoCash. Cesar Hard Fork is not a single project of the scammers.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xdb783c187d251e47543d8b37050432f7f4a83b83</p><p>https://bscscan.com/address/0x4925b8e1215a3135508053d5713767b578da8726</p><p><br></p><p>Funds accumulated address:</p><p>https://bscscan.com/address/0x2bb4edcf2619e958dcf6827b28b2f54c8cf7c119</p><p><br></p><p>Drain transaction example:</p><p>https://bscscan.com/tx/0x4818130976ba4bcea3fb93e884fac000aca5764d35cd7d84baaba9b3bfe7381f</p>",
+    "name_categories": "Token",
+    "token_name": "Cezar",
+    "proof_archive_link": "https://archive.ph/ZszOe",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x71C349EEcc025F1B618f7674aD5Efcb9Dda135e9",
+    "token_addresses": [
+        {
+            "address": "0x71C349EEcc025F1B618f7674aD5Efcb9Dda135e9",
+            "url": "https://bscscan.com/address/0x71C349EEcc025F1B618f7674aD5Efcb9Dda135e9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x33951cd588d386c4b5cfd23aee0960c0438cd315",
+            "url": "https://bscscan.com/address/0x33951cd588d386c4b5cfd23aee0960c0438cd315",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/641c28679023d.png",
+    "date": "2022-11-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1592708485724372992?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 398748,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3382,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
