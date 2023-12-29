@@ -1,0 +1,68 @@
+{
+    "id": 3397,
+    "project_name": "GOAT",
+    "title": "GOAT",
+    "description": "<p><strong>Quick Summary</strong></p><p>The GOAT token was rugged with a profit of about 250k $USD by dumping the token.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The significant amount of GOAT was preminted by the team and distributed between a few addresses. May-09-2022 these tokens were sold at the uniswap dex in multiple transactions which lead to the LP draining. &nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Mint tx:&nbsp;</p><p>https://etherscan.io/tx/0x5072b5378c43dda4d5c7fb73950135a03a5a378fa1e9c14e31f8996d2f898bb7</p><p><br></p><p>Example of sell tx:</p><p>https://etherscan.io/tx/0x0b4821ed2093deb1af865b519c70898dfbba542cf5d619cbc92eab3c86b7c18b</p><p><br></p><p>Scammer:</p><p>https://etherscan.io/address/0x8756234a7ec4e17aecac81f9f125589f33fc14f2</p><p><br></p><p>Second address of the scammer:</p><p>https://etherscan.io/address/0x5a6d2e01492838b0570666740dd85be7583c0e24</p>",
+    "name_categories": "Token",
+    "token_name": "G.O.A.T",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x74EDAf28fc4b9E6A1618D613839Daaf6A9D075dB",
+    "token_addresses": [
+        {
+            "address": "0x74edaf28fc4b9e6a1618d613839daaf6a9d075db",
+            "url": "https://etherscan.io/token/0x74edaf28fc4b9e6a1618d613839daaf6a9d075db",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x4cedf45d496e5bc36beda9197b0edc4957d98080",
+            "url": "https://etherscan.io/address/0x4cedf45d496e5bc36beda9197b0edc4957d98080",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6425233158415.jpg",
+    "date": "2022-5-9",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1523550360140664832?s=20",
+    "website_link": "https://www.goat-erc20.com/",
+    "webarchive_link": "https://archive.ph/Kc9ok",
+    "twitter_link": "https://twitter.com/GOAT_ERC20",
+    "telegram_link": "https://t.me/GOAT_ERC20",
+    "our_post_link": null,
+    "funds_lost": 250000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3397,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
