@@ -1,0 +1,68 @@
+{
+    "id": 3495,
+    "project_name": "ArbTomb",
+    "title": "ArbTomb",
+    "description": "<p><strong>Quick Summary</strong></p><p>ArbTomb project was rugged by the $xToken deployer, resulting in the loss of 114,646 $USD worth of ETH.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On the day of its genesis launch, ArbTomb project experienced a rugpull on the Arbitrum layer-two chain. The attack affected ParbRewardPool contract which had $xToken as one of its assets. The attacker exploited their privilege over contracts by minting 1,000,000,000,000,000 $xTokens and transferring them into the pool since they were also deployers for this token's contract.</p><p>The exploit involved unverified source code for $xToken which allowed malicious actors to drain funds from the pool such as $WETH, $USDC, $ARB, and $SUSHI tokens. After gaining access to these funds the scammer swapped all stolen assets for 54.75 $ETH before bridging it onto Ethereum mainnet.</p><p>After that point, they used TornadoCash mixer service to move around some part (52 $ETH)of stolen funds before sending the rest (2.43$ ETH) directly to Binance hot wallet address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://arbiscan.io/address/0x2b899942c124964044f0590cfc16320238ec81ef</p><p><br></p><p>Stolen funds holder address:</p><p>https://arbiscan.io/address/0x2781d1006dFD62A62D72Bc928d65592DD9A212E6</p><p><br></p><p>Malicious transaction:</p><p>https://arbiscan.io/tx/0xa54485cf3fde83b79148168c1c61fb4e6c6b047fec202d3ca6def61c59258f26</p><p><br></p><p>Bridging transaction:</p><p>https://arbiscan.io/tx/0x3809350bc893ad17eb7807e4b5e68193130181e47044b12e6f08243bfef2782b</p><p><br></p><p>Malicious contract:</p><p>https://arbiscan.io/address/0x38f26758b3ac159b4fd4505464d3acd2848c5c8b</p>",
+    "name_categories": "Token",
+    "token_name": "PARB",
+    "proof_archive_link": "https://archive.ph/rw5S3",
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xaf391eaa53fb34ae2e83e975f03461a936991245",
+    "token_addresses": [
+        {
+            "address": "0x6348e6840dff880b6c7ba287cb98a1905e6da513",
+            "url": "https://arbiscan.io/address/0x6348e6840dff880b6c7ba287cb98a1905e6da513",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xe9c40062bbbd0a3be191442d9bbc11f0c01b5eb6",
+            "url": "https://arbiscan.io/address/0xe9c40062bbbd0a3be191442d9bbc11f0c01b5eb6",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/643eb4dc1c11b.jpg",
+    "date": "2023-4-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1648243679130439682?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Arb_tomb",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 114646,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/buuTdW9Ne3",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3495,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
