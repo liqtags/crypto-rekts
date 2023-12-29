@@ -1,0 +1,51 @@
+{
+    "id": 2911,
+    "project_name": "Coinrail",
+    "title": "Coinrail",
+    "description": "<p><strong>Quick Summary</strong></p><p>Coinrail, a South Korean cryptocurrency exchange, was hacked resulting in a loss of up to $40 million in various ERC-20-based tokens.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Coinrail experienced a \"cyber intrusion\" which led to the theft of a variety of ERC-20-based tokens from the platform. The exchange has suspended operations following the incident. The exact amount lost is not specified but reports suggest it could be up to $40 million.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>The hacker's address:</p><p>https://etherscan.io/address/0xf6884686a999f5ae6c1af03db92bab9c6d7dc8de</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624c5b0c6424b.jpeg",
+    "date": "2018-6-10",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2018/06/11/coinrail-exchange-hacked-loses-possibly-40-million-in-cryptos/, https://medium.com/pundix/pundi-x-assists-coinrail-to-investigate-the-breach-incident-960c6a0e2c76",
+    "website_link": "http://coinrail.co.kr/",
+    "webarchive_link": "https://web.archive.org/web/20170920015142/http://coinrail.co.kr/",
+    "twitter_link": "https://twitter.com/coinrail_korea",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 40000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2911,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
