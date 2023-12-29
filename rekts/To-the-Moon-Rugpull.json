@@ -1,0 +1,68 @@
+{
+    "id": 3770,
+    "project_name": "To the Moon",
+    "title": "To the Moon Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>To the Moon token experienced a rugpull exit scam on Nov 08, 2023, resulting in a loss of 107,464 USD for investors.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>To the Moon (TTM) is a BEP20 token trading on PancakeSwap. The scammer, who was also the initial liquidity provider, drained the liquidity from the PancakeSwap pool in four separate transactions. The total drained amount equaled 291,504 USDT, with the scammer profiting 107,464 USDT. The scammer had initially added 184,040 USDT and 500,000,000 TTM tokens to the pool. The stolen funds were transferred to the SwapTreasury contract, which was deployed by the same deployer as the TTM token contract.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x03331Ef614B8e206E3616BeE5C39bAa65deE582b</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0x2a0711c272daAEd74593b60Dc39bC64965743de0</p><p><br></p><p>Swap Treasury Contract:</p><p>https://bscscan.com/address/0x5c1f8486fd2a19f6e13bc2ef8d391025992f2cce</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0x50d336f27bdcb09e3616dc25feb2bb45a9fec16adfaa76fcf18a0799e430f972</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://bscscan.com/tx/0x3f60dd18151c3198b9a6a13cbd0a9796777091ff76a62bc9ff35cc2c78c979e5</p><p>https://bscscan.com/tx/0x4fd7cb4acb0d3a96316e8aa94f494d0e8918a5f89cb67f11f90cf91b26619270</p><p>https://bscscan.com/tx/0x78ea3f8eaf2757b2a85ae7bbc2d23ca5ea2afaa74dbc94e92b5d9e4892039187</p><p>https://bscscan.com/tx/0x2c6163f07d2acef3631ab47663e3adbb8cb921d69ee864f02bd032a97594a966</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x29e0c0a386312209fec338628c42d1706bc9cc6bc2d50a36e2ee4a7c8a2d2610</p>",
+    "name_categories": "Token",
+    "token_name": "TTM",
+    "proof_archive_link": "https://archive.ph/Hnxq6",
+    "technical_issue": null,
+    "token_address": "0x2728c49f42f4ac5A38dA0080B27DEd5EC04b05CC",
+    "token_addresses": [
+        {
+            "address": "0x2728c49f42f4ac5A38dA0080B27DEd5EC04b05CC",
+            "url": "https://bscscan.com/token/0x2728c49f42f4ac5A38dA0080B27DEd5EC04b05CC",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xa774D6b70a367b41C6321A18751481bc9bA0d4ff",
+            "url": "https://bscscan.com/address/0xa774D6b70a367b41C6321A18751481bc9bA0d4ff",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/654dde7fc5d68.png",
+    "date": "2023-11-8",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1722233200968359961?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 107464,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3770,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
