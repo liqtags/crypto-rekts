@@ -1,0 +1,110 @@
+{
+    "id": 3581,
+    "project_name": "Themis Protocol",
+    "title": "Themis Protocol",
+    "description": "<p><strong>Quick Summary</strong></p><p>Themis Protocol suffered a flashloan exploit which leads to a $367,748 USD loss in various assets.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Themis Protocol, an Arbitrum-based lending protocol, fell victim to a flash loan attack. The attacker deployed a malicious contract with unverified source code which allowed them to exploit multiple pools of the Themis Protocol, including tArbWETH, tArbUSDC, tArbARB, tArbWBTC, tArbDAI, and tArbUSDT. The stolen assets were swapped to ETH, USDT, and USDC within the same transaction. The attacker manipulated prices and gained 94.32 ETH ($178,453), 130,471 USDC, and 58,824 USDT, amassing a total of $367,748. The stolen funds were then bridged to the Ethereum Mainnet and subsequently transferred through TornadoCash.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://arbiscan.io/address/0xdb73eb484e7dea3785520d750eabef50a9b9ab33</p><p><br></p><p>Malicious contract:&nbsp;</p><p>https://arbiscan.io/address/0x05a1b877330c168451f081bfaf32d690ea964fca</p><p><br></p><p>Malicious transaction:</p><p>https://arbiscan.io/tx/0xff368294ccb3cd6e7e263526b5c820b22dea2b2fd8617119ba5c3ab8417403d8</p><p><br></p><p>TornadoCash transfer transaction:</p><p>https://etherscan.io/tx/0x6555191198bca4df0789772a35bd1112144234f55a870a9add5b5bfcd198ab3a</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/xpRDh",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "0xe611e633c1e88d4f026fec5bc1e40e8a477f41ad",
+            "url": "https://arbiscan.io/address/0xe611e633c1e88d4f026fec5bc1e40e8a477f41ad",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x349ac9f74dcf2bdf6a39f0df57f5c8c9840a5367",
+            "url": "https://arbiscan.io/address/0x349ac9f74dcf2bdf6a39f0df57f5c8c9840a5367",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x1467b18945135c6866b7f9d64729bcdad60c9295",
+            "url": "https://arbiscan.io/address/0x1467b18945135c6866b7f9d64729bcdad60c9295",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x1762a96724ab7ae072abd7db7a43ffc66261669e",
+            "url": "https://arbiscan.io/address/0x1762a96724ab7ae072abd7db7a43ffc66261669e",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x10c73b8e7e5dc0d25a1a717f4bf9026d955382de",
+            "url": "https://arbiscan.io/address/0x10c73b8e7e5dc0d25a1a717f4bf9026d955382de",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xe67f804192c92674639ce46d059823976c24e925",
+            "url": "https://arbiscan.io/address/0xe67f804192c92674639ce46d059823976c24e925",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649eba4d044ec.png",
+    "date": "2023-6-27",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1673778002373509121?s=20",
+    "website_link": "https://themis.exchange/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ThemisProtocol",
+    "telegram_link": "https://t.me/ThemisCommunity",
+    "our_post_link": null,
+    "funds_lost": 367748,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/Themis-protocol",
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/ThemisProtocol",
+    "bug_bounty_program_link": "https://docs.themis.exchange/security",
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3581,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/PeckShield_Audit_Report_ThemisV3_v1_0.pdf",
+            "date": "2022-01-11T00:00:00.000Z",
+            "partner": {
+                "id": 12,
+                "name": "PeckShield Inc.",
+                "logo_link": "safe/files/partner/logo/6095235554623.jpeg"
+            }
+        }
+    ]
+}
