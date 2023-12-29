@@ -1,0 +1,60 @@
+{
+    "id": 3596,
+    "project_name": "Boring Nakas",
+    "title": "Boring Nakas",
+    "description": "<p><strong>Quick Summary</strong></p><p>Boring Nakas project faced a rugpull, causing a loss of 108,439 $USD by the token deployer.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Boring Nakas is an ERC20 token that fell victim to a rugpull. The deployer of the project used a privileged function to withdraw 58.207 $ETH, equivalent to 108,439 $USD from the token contract. All the stolen funds were then transferred to another address and subsequently deposited into the Coinbase Exchange.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer Address:</p><p>https://etherscan.com/address/0x57220b0f5335A054014808Be12457CD049B3867E</p><p><br></p><p>Withdrawal Transaction:</p><p>https://etherscan.com/tx/0xbf655779a642be399584953921dc3d3f43fa3435191c287f3ab5fc1df458c7fd</p><p><br></p><p>Funds Transfer Transactions:</p><p>https://etherscan.com/tx/0x9c7afadc70ce2458c37c283e5508e8b6d7ab4a752ea6d56643f8582f4931cd15</p><p>https://etherscan.com/tx/0xd624ac1587b1c89f94b7161dd916a5489745fe4b34250042df0062c8c581191a</p>",
+    "name_categories": "Token",
+    "token_name": "BNAKA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf30a9cd4cd1fd9ea3270afcecde5fece34bc4aca",
+    "token_addresses": [
+        {
+            "address": "0xf30a9cd4cd1fd9ea3270afcecde5fece34bc4aca",
+            "url": "https://etherscan.io/token/0xf30a9cd4cd1fd9ea3270afcecde5fece34bc4aca",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64abef6cf2794.png",
+    "date": "2023-6-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cyversalerts/status/1675769161673318400",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 108439,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3596,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
