@@ -1,0 +1,51 @@
+{
+    "id": 3326,
+    "project_name": "Doglands",
+    "title": "Doglands",
+    "description": "<p><strong>Quick Summary</strong></p><p>Dogland the GamiFi project on Dogechain was rug pulled with losses of about $200k USD.</p><p><br></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The Doglands rug pull refers to a fraudulent scheme that took place in the Dogechain ecosystem in 2021. The scheme involved a decentralized application (dApp) called Doglands, which promised high returns to users who invested in it. However, the creators of Doglands quietly drained the platform's funds and \"rug pulled\" the investors, leaving them with worthless tokens.</p><p><br></p><p>The Doglands rug pull resulted in significant financial losses for many investors and raised concerns about the security of decentralized finance (DeFi) platforms and the need for better safeguards against rug pulls and other types of fraud. It also led to increased scrutiny of the Dogechain ecosystem and the role of regulators in protecting investors from scams and fraud in the cryptocurrency world.</p>",
+    "name_categories": "Gaming / Metaverse",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63d7e25ae0360.jpg",
+    "date": "2023-1-21",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/QuillAudits/status/1618235186214473728",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/DoglandsDC",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 200000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3326,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
