@@ -1,0 +1,76 @@
+{
+    "id": 3299,
+    "project_name": "BlackGold",
+    "title": "BlackGold",
+    "description": "<p><strong>Quick Summary</strong></p><p>&nbsp;$BGLD was exploited while the token migration process.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack was possible in the reason of the price difference between the two versions of the BGLD token while the migration process.</p><p>The attacker took a 125 BNB flashloan and bought almost all the balance of the WBNB/BGLD pair in BGLD token. Then complete the migrating process via migratory contract and swapped out the new version on BGLD to DEBT and then to WBNB token.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0xf4fd2ebe7196c8e99e88bcc4aef69dda0e493b8f</p><p><br></p><p>Exploit tx:</p><p>https://bscscan.com/tx/0xea108fe94bfc9a71bb3e4dee4a1b0fd47572e6ad6aba8b2155ac44861be628ae</p>",
+    "name_categories": "Token",
+    "token_name": "BGLD",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x169f715CaE1F94C203366a6890053E817C767B7C",
+    "token_addresses": [
+        {
+            "address": "0x169f715CaE1F94C203366a6890053E817C767B7C",
+            "url": "https://bscscan.com/address/0x169f715cae1f94c203366a6890053e817c767b7c#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xC2319E87280c64e2557a51Cb324713Dd8d1410a3",
+            "url": "https://bscscan.com/token/0xc2319e87280c64e2557a51cb324713dd8d1410a3",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xE445654F3797c5Ee36406dBe88FBAA0DfbdDB2Bb",
+            "url": "https://bscscan.com/address/0xe445654f3797c5ee36406dbe88fbaa0dfbddb2bb",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63aaf8d16733b.png",
+    "date": "2022-12-12",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BlockSecTeam/status/1602335214356660225",
+    "website_link": "https://www.blackgoldrewards.com/bgld-token",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 18476,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3299,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
