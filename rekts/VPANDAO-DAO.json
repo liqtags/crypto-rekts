@@ -1,0 +1,60 @@
+{
+    "id": 3564,
+    "project_name": "VPANDAO DAO",
+    "title": "VPANDAO DAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>VPANDA DAO project was rugpulled by team-related EOA, leading to a loss of 869,463 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>VPANDA DAO, a BEP20 token project on Binance Smart Chain, underwent an exit scam by a mysterious exploiter. The scam began when the deployer of the token moved a large number of VPANDA tokens to a special contract named VpandaBank. The owner of this contract was then changed to another EOA, the alleged scammer.</p><p><br></p><p>VpandaBank had a privileged function that allowed the owner to withdraw any number of VPANDA tokens. This function, named 'withdraw', was exploited by the scammer to transfer a significant amount of VPANDA tokens to themselves. They then drained the liquidity from the PancakePool. In the end, the drained funds were transferred to yet another EOA address.</p><p><br></p><p>The total funds lost resulted in 869,463 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0xa5307fc87d0d31d9C0be9c89c9E94f5C2B20EE2A</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xea7ba48a2b2690d19e54df12a56ccd73ffe821bf</p><p><br></p><p>Funds Holder Address:</p><p>https://bscscan.com/address/0x33D2a493CEa00918b02239604b94AD906d6eaF65</p><p><br></p><p>Liquidity Drain Transaction:</p><p>https://bscscan.com/tx/0xe0b89f37a4215cce25af24dc23cdccecd84f55698179c59b29e34e2da523a2da</p><p><br></p><p>Funds Transfer Transaction:</p><p>https://bscscan.com/tx/0x839bc7a9132be6a8f369366361d7c9fa43df363fa2bc19dcc0860a955d18539a</p>",
+    "name_categories": "Token",
+    "token_name": "VPANDA",
+    "proof_archive_link": "https://archive.ph/sisFT",
+    "technical_issue": null,
+    "token_address": "0x2A8DBa970BA9750Fa1c81b1be4C0E19C1AaCca9D",
+    "token_addresses": [
+        {
+            "address": "0x2a8dba970ba9750fa1c81b1be4c0e19c1aacca9d",
+            "url": "https://bscscan.com/address/0x2a8dba970ba9750fa1c81b1be4c0e19c1aacca9d",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/649055128c59a.jpg",
+    "date": "2023-6-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1669818410446868481?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/VPandaCommunity",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 869463,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3564,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
