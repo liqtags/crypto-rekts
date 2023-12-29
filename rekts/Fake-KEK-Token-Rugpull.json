@@ -1,0 +1,60 @@
+{
+    "id": 3815,
+    "project_name": "EI Risitas",
+    "title": "Fake KEK Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>The KEK token was rugpulled by the scammer from the PancakeSwap liquidity pool worth 227.01 WBNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>KEK is a BEP20 token trading on PancakeSwap. On Dec 6, 2023, the scammer swapped a significantly larger number of tokens, which completely depleted the liquidity pool. The stolen funds, totaling 52,351 USD were distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x9518Fa6a4a8bbDF91f65C8067443b6890a04ad4C</p><p><br></p><p>Scammer Address:</p><p>https://bscscan.com/address/0xFb4298Bed32ef51984b9Bd84320D88a8D145769D</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0x8b86e657dac93ddacaff7779829ff8905606a54ad7bc2d95529b94cd8b378271</p>",
+    "name_categories": "Token",
+    "token_name": "KEK",
+    "proof_archive_link": "https://archive.ph/kRzcw",
+    "technical_issue": null,
+    "token_address": "0x86931EeB468b35840AfbC65B94B565717d06DB95",
+    "token_addresses": [
+        {
+            "address": "0x86931eeb468b35840afbc65b94b565717d06db95",
+            "url": "https://bscscan.com/address/0x86931eeb468b35840afbc65b94b565717d06db95",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6578c331e1804.png",
+    "date": "2023-12-6",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1732253424790749574?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 52351,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3815,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
