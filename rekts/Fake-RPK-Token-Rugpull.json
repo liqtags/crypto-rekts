@@ -1,0 +1,60 @@
+{
+    "id": 3797,
+    "project_name": "RepubliK",
+    "title": "Fake RPK Token Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>RPK token was rugpulled by deployer, removing liquidity of 235,995 USD from PancakeSwap pool and transferring funds to multiple addresses.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>RPK is a BEP20 token trading on PancakeSwap. On Nov 23, 2023, the deployer performed an exit scam by removing liquidity from the LP pool. The stolen funds, worth 121,445 USD (513.77 WBNB), were transferred to another EOA address and then distributed between multiple addresses.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://bscscan.com/address/0x4ba48590a2b52a45a8b9b3B7c0ADf88F9c3AA571</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://bscscan.com/tx/0x414f0b26f0e82dac23b289f53b66c9e0682b1268d7f9a79259d528bf39d45c5a</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://bscscan.com/tx/0xeb9ff8403dbcbadeb9805a26738783e967e4e8e55e9bb1c9e3df753ce0253df7</p>",
+    "name_categories": "Token",
+    "token_name": "RPK",
+    "proof_archive_link": "https://archive.ph/mrh5u",
+    "technical_issue": null,
+    "token_address": "0xA024FcEAF429ca78b0B2a18fd274fBe229b1eD0E",
+    "token_addresses": [
+        {
+            "address": "0xa024fceaf429ca78b0b2a18fd274fbe229b1ed0e",
+            "url": "https://bscscan.com/address/0xa024fceaf429ca78b0b2a18fd274fbe229b1ed0e",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6568f17db6911.png",
+    "date": "2023-11-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/PeckShieldAlert/status/1727924511633551606",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 121445,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3797,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
