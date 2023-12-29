@@ -1,0 +1,56 @@
+{
+    "id": 2861,
+    "project_name": "Thodex",
+    "title": "Thodex",
+    "description": "<p><strong>Quick Summary</strong></p><p>Thodex a turkish crypto exchange went down with other $2 billion of user funds entangled in massive fraud and mismanagement.<strong><br></strong></p><p><br></p><p><strong>Details of the Exploit</strong></p><p>According to a translated statement on the website, Thodex, a crypto exchange that is located in Turkey, stated its platform has been \"temporarily stopped\" to handle an \"abnormal fluctuation in the company accounts.\"<br><br>According to local media, Thodex's founder, Faruk Fatih \u00d6zer, has gone to Albania with $2 billion of investors' funds. The Demiroren News Agency published a photo of Ozer departing Istanbul Airport:<br>https://www.dha.com.tr/gundem/thodexin-kurucusu-faruk-fatih-ozerin-havalimanindan-ayrilirken-fotografi-1822744</p><p>The CEO has since declared that he has been close to committing suicide but decided against it. According to his own words, Faruk Fatih \u00d6zer, plans to repay all investors before handing himself in to authorities.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/TxFaD",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6241c6cb5dadc.jpeg",
+    "date": "2021-4-22",
+    "scam_updates": [
+        {
+            "date": "2022-08-01T00:00:00.000Z",
+            "description": "<p>The founder of Thodex Fatih Ozer was arrested in Albania and is about to be extradited to Turkey.</p>"
+        }
+    ],
+    "proof_link": "https://www.cnbc.com/2021/04/23/bitcoin-btc-ceo-of-turkish-cryptocurrency-exchange-thodex-missing.html, https://www.dw.com/en/turkish-cryptocurrency-platform-founder-vanishes-fraud-suspected/a-57302955",
+    "website_link": "https://www.thodex.com/",
+    "webarchive_link": "https://web.archive.org/web/20220405133149/, https://coingeek.com/missing-thodex-ceo-may-face-40000-years-behind-bars-in-new-indictment/, https://www.coindesk.com/policy/2022/08/30/founder-of-turkish-crypto-exchange-thodex-arrested-in-albania/",
+    "twitter_link": "https://twitter.com/thodexofficial",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 2000000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2861,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
