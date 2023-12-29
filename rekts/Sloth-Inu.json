@@ -1,0 +1,51 @@
+{
+    "id": 2708,
+    "project_name": "Sloth Inu",
+    "title": "Sloth Inu",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0xe34fe75527bb9ba10eb440fca520542f110761bf0ac98ccb153b83dc335089af<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0xd5174a5bf0b05d91d4f1f8ad378cf68585685d2ec42c9d083ddf48e9bcaa082d<br>https://etherscan.io/tx/0x092c83c7db95ef5be8b3f8268894ec18a1583aad4529f3817cf5199210bc9043</p>",
+    "name_categories": "Token",
+    "token_name": "SLOTH INU",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x85bcaee8befa419becb90e8b405d131ee9e31877",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61a646a9058a0.png",
+    "date": "2021-11-25",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://slothinu.com/",
+    "webarchive_link": "http://web.archive.org/web/20211122065336/https://slothinu.com/",
+    "twitter_link": "https://twitter.com/slothinu",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 8228,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 2708,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
