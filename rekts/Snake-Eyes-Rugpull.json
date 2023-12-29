@@ -1,0 +1,68 @@
+{
+    "id": 3686,
+    "project_name": "Snake Eyes",
+    "title": "Snake Eyes Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Snake Eyes suffered a rugpull on Aug 16, 2023, causing a loss of 117,292 $USD (72.1 $ETH).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Snake Eyes (SNAKE), an ERC20 token trading on UniSwap, was exploited through an exitscam on Aug 16, 2023. The deployer removed the liquidity from the LP pool and transferred the stolen funds through several EOA addresses. A significant portion of the funds was deposited into TornadoCash, while a small portion (17 $ETH) remains at one of the scammer's EOAs.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://etherscan.io/address/0x95c9bB9C4f3fC90709d494B3cB2fF2Fe4C33797f</p><p><br></p><p>- Scammer Address:</p><p>&nbsp; https://etherscan.io/address/0xc93a7d0f30fcbb98a1f5604c576f4d78c02a3c72</p><p><br></p><p>- Funds Holder as of August 22, 2023:</p><p>&nbsp; https://etherscan.io/address/0x504467348a7f7a7245d53329f6bc65368c3b8172</p><p><br></p><p>- Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0xf7842852fe63981f8a7af631a7bc36458fa9b793295eb1f9e872eb3de754ecdd</p><p><br></p><p>- Tornado Cash Transaction:</p><p>https://etherscan.io/tx/0xafc031a2711df8ccfe756c2238f7bde1b71ed24f4d7ec6c110ef72e5792b77d4</p>",
+    "name_categories": "Token",
+    "token_name": "SNAKE",
+    "proof_archive_link": "https://archive.ph/9MxxS",
+    "technical_issue": null,
+    "token_address": "0x56d7e6a12f56dfca75fbb3f62b6f647f56f63445",
+    "token_addresses": [
+        {
+            "address": "0x56d7e6a12f56dfca75fbb3f62b6f647f56f63445",
+            "url": "https://etherscan.io/address/0x56d7e6a12f56dfca75fbb3f62b6f647f56f63445",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0xa819def9e2fdb3cd77729a51c93b1483cec03ce3",
+            "url": "https://etherscan.io/address/0xa819def9e2fdb3cd77729a51c93b1483cec03ce3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64e500b2b577d.png",
+    "date": "2023-8-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1693323464311226468?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 117292,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3686,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
