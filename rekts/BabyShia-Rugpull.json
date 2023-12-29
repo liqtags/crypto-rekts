@@ -1,0 +1,68 @@
+{
+    "id": 3694,
+    "project_name": "BabyShia",
+    "title": "BabyShia Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>BabyShia token deployer executed a rugpull, removing liquidity worth 67,569 USD (39.63 ETH) from UniSwap pool on Aug 30, 2023.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BabyShia (BABYSHIA) is an ERC20 token trading on UniSwap. The token's deployer performed an exit scam by removing liquidity from the LP pool. Initially, the deployer added 93.65 ETH as liquidity, and after several selling transactions, they managed to make a profit of 39.63 ETH. The stolen funds, worth 67,569 USD, currently remain at the scammer's original address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0xCbcd8226f9aB67600A32364005BB216e97A8a944</p><p><br></p><p>Liquidity Adding Transaction:</p><p>https://etherscan.io/tx/0xba71322542863deec72b78bfbb238c3f213578aa30a5b5ba19fe09920961c496</p><p><br></p><p>Liquidity Drain Transactions:</p><p>https://etherscan.io/tx/0x84e75502af9224b00dc7780fb07b8c2f2e34f2115b14646cc3921a2d4e603a07</p><p>https://etherscan.io/tx/0xa069969419e277dca727502fced5c4662f03658fdcce12dc59fc35f1d8c1f8ff</p>",
+    "name_categories": "Token",
+    "token_name": "BABYSHIA",
+    "proof_archive_link": "https://archive.ph/fVzaw",
+    "technical_issue": null,
+    "token_address": "0x846422103b109efbe7dd15f541c3dfc838fc1848",
+    "token_addresses": [
+        {
+            "address": "0x846422103b109efbe7dd15f541c3dfc838fc1848",
+            "url": "https://etherscan.io/address/0x846422103b109efbe7dd15f541c3dfc838fc1848",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x1635d18f20c9a6e302931faf61643fed57fbcce3",
+            "url": "https://etherscan.io/address/0x1635d18f20c9a6e302931faf61643fed57fbcce3",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64f09bbfd8c2f.png",
+    "date": "2023-8-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1697023832886837303?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 67569,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3694,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
