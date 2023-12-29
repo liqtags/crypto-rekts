@@ -1,0 +1,68 @@
+{
+    "id": 3273,
+    "project_name": "DeFi Safe",
+    "title": "DeFi Safe",
+    "description": "<p><strong>Quick Summary</strong></p><p>DeFi Safe token was rugpulled by the token owner a week after the deployment. The scammer removed 127,421 $BUSD from the liquidity pool.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>DeFi Safe token is a BEP20 token trading on PancakeSwap. The token deployer removed liquidity in the single transaction and gained 127,421 $BUSD. The $dSafe token was created on November 1 and scammed after seven days. All the stolen funds were distributed among several EOA addresses.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xdd20cfffb480c9c3709fcce070ce8da6024645e1</p><p><br></p><p>Liquidity removal transaction:</p><p>https://bscscan.com/tx/0x7e2654c9424086f327fc6f6a90d1194cd3f14b5b7efb35e0450ef5ff206db17f</p>",
+    "name_categories": "Token",
+    "token_name": "dSafe",
+    "proof_archive_link": "https://archive.ph/X8V6w",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x761776f726168c9dF6dC63d5864880801E21F403",
+    "token_addresses": [
+        {
+            "address": "0x761776f726168c9dF6dC63d5864880801E21F403",
+            "url": "https://bscscan.com/address/0x761776f726168c9dF6dC63d5864880801E21F403",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xDd7eC39E17060EE5CfD00cC0f47F2a0799fda777",
+            "url": "https://bscscan.com/address/0xDd7eC39E17060EE5CfD00cC0f47F2a0799fda777",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63764b05152de.png",
+    "date": "2022-11-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1589650367507271680",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 127426,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3273,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
