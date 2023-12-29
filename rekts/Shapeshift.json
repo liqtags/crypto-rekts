@@ -1,0 +1,51 @@
+{
+    "id": 2933,
+    "project_name": "Shapeshift",
+    "title": "Shapeshift",
+    "description": "<p>Digital currency exchange ShapeShift lost as much as $230,000 in three separate thefts over the course of a month.<br><br>According to the report, the first incident took place on 14th March, the company said, resulting in the loss of 315 BTC. It was soon established that a ShapeShift employee was behind the incident.<br><br>The employee was fired the next day. Work was then begun on moving the service onto safer hardware.<br><br>Yet according to ShapeShift\u2019s report, the thefts continued. On 7th April, 97 BTC, 3,600 ETH, and 1,900 LTC in funds were stolen. Within two days of that theft, after the site was taken offline and steps were taken to beef up security, an additional 57 BTC and 2,200 ETH were taken.</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/624dc8959af87.jpeg",
+    "date": "2016-4-1",
+    "scam_updates": [],
+    "proof_link": "https://www.coindesk.com/markets/2016/04/18/shapeshift-lost-230k-in-string-of-thefts-report-finds/, https://www.reddit.com/r/shapeshiftio/comments/4eolhy/update_on_last_weeks_hack_apr_13/",
+    "website_link": "https://shapeshift.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ShapeShift_io",
+    "telegram_link": "https://t.me/shapeshiftofficial",
+    "our_post_link": null,
+    "funds_lost": 269000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/shapeshift",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2933,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
