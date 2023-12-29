@@ -1,0 +1,70 @@
+{
+    "id": 3176,
+    "project_name": "ShadowFi",
+    "title": "ShadowFi",
+    "description": "<p><strong>Quick Summary</strong></p><p>The ShadowFi project was exploited by a hacker who took advantage of a vulnerability in the $SDF token, making a profit of 1078 $BNB.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p data-v-51e0c2ec=\"\">ShadowFi is a BEP20 token focused on anonymous payments, NFT, and passive income. The hack proceeds in two parts.</p><p data-v-51e0c2ec=\"\">In the first part, the hacker used a scanner to track new token pairs, and stole $WBNB on PancakePair contract.&nbsp;</p><p data-v-51e0c2ec=\"\">In the second part, another attacker used the burn function, which mistakenly allows any user to burn $SDF tokens from any address. The attacker burns almost all $SDF tokens on the liquidity pool, so the token price was unfairly high. He deployed an exploit smart contract to use the situation to swap 9 $SDF tokens for 1078 $WBNB and made a profit of 302,817 $USD. Consequently, he swapped all the stolen funds and transferred them to Tornado Cash.</p><p data-v-51e0c2ec=\"\"><br></p><p><strong>Block Data Reference</strong></p><p data-v-51e0c2ec=\"\">Affected address of token pair:</p><p data-v-51e0c2ec=\"\">https://www.bscscan.com/address/0xf9e3151e813cd6729d52d9a0c3ee69f22cce650a</p><p data-v-51e0c2ec=\"\">Address of attacker:</p><p data-v-51e0c2ec=\"\">https://bscscan.com/address/0x6478576716666758401168757460978685492205</p><p data-v-51e0c2ec=\"\">Swap transaction:</p><p data-v-51e0c2ec=\"\">https://www.bscscan.com/tx/0xe30dc75253eecec3377e03c532aa41bae1c26909bc8618f21fb83d4330a01018</p><p data-v-51e0c2ec=\"\"><br></p>",
+    "name_categories": "Token",
+    "token_name": "SDF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://www.bscscan.com/token/0x10bc28d2810dd462e16facff18f78783e859351b",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6317686923faf.jpeg",
+    "date": "2022-9-2",
+    "scam_updates": [],
+    "proof_link": "https://archive.is/TjFOQ",
+    "website_link": "https://shadowfi.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/ShadowFi_",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 302817,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3176,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": null,
+            "date": null,
+            "partner": {
+                "id": 77,
+                "name": "Ether Authority",
+                "logo_link": "safe/files/partner/logo/6120ba3de51ee.jpeg"
+            }
+        },
+        {
+            "audit_link": null,
+            "date": null,
+            "partner": {
+                "id": 84,
+                "name": "InterFi",
+                "logo_link": "safe/files/partner/logo/613f6d566522e.png"
+            }
+        }
+    ]
+}
