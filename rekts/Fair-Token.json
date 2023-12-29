@@ -1,0 +1,68 @@
+{
+    "id": 3269,
+    "project_name": "Fair Token",
+    "title": "Fair Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Fair Token was rugpulled by the deployer-related address. 428,872 $USD was drained from the liquidity pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Fair is a BEP20 token trading on PancakeSwap. The token deployer sent 180,000,000 $Fair tokens to an EOA address. Which received additional 52,000,000 $Fair tokens from other addresses and drained the liquidity from the pool. The scammer was able to siphon 428,872 $USD in total. All the stolen funds remain at the scammer's address at the moment.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0x224bc6579c62d003a3353dc4a41a5d79b039be6c</p><p>https://bscscan.com/address/0x7972aba9f0236ded31b193729b636bac5581b6d6</p><p>https://bscscan.com/address/0x79203eaf041b39327bb7f06e7380cba7ac4647a3</p><p><br></p><p>Token transfer transaction:</p><p>https://bscscan.com/tx/0x659eddc54f8e74b383aa58bf6b6d5c7ab8cf49320c62c104d0b9d6e5b4067f60</p>",
+    "name_categories": "Token",
+    "token_name": "Fair",
+    "proof_archive_link": "https://archive.ph/Z6vPN",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xC5C24Cb9177A130128Fb15b0B0a74a502974F379",
+    "token_addresses": [
+        {
+            "address": "0xC5C24Cb9177A130128Fb15b0B0a74a502974F379",
+            "url": "https://bscscan.com/address/0xC5C24Cb9177A130128Fb15b0B0a74a502974F379",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x2Ef3d5FAf2bb625F0a6a44BF7d6A422fc43202F9",
+            "url": "https://bscscan.com/address/0x2Ef3d5FAf2bb625F0a6a44BF7d6A422fc43202F9",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6373e4e83085f.png",
+    "date": "2022-11-10",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1590744595524382720",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 428872,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3269,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
