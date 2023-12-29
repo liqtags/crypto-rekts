@@ -1,0 +1,79 @@
+{
+    "id": 3369,
+    "project_name": "TenderFi",
+    "title": "TenderFi",
+    "description": "<p><strong>Quick Summary</strong></p><p>TenderFi was exploited by a WhiteHat hacker via the Oracle issue. The hacker was able to borrow 1,583,432 $USD worth of assets and returned almost the full amount.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TenderFi is a Lending and Borrowing protocol running on the layer-2 Arbitrum chain. The protocol was exploited via Oracle issue, which allowed the hacker to take 1,583,432 $USD worth of assets for 1 $GMX (~70 $USD). The project's Unitroller contract has oracle misconfiguration, which allowed malicious actions on DistributedBorrowerComp() function. The WhiteHat hacker left an on-chain message, to contact him to return the funds. Within 24 hours after the incident, the TenderFi Team was able to recover the funds, while paying the Bug Bounty for 62.15 $ETH. The received funds were transferred to another EOA address. The TenderFi Team claimed they will compensate the remaining funds, so the protocol's users will not be affected and there will be no bad debt.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://arbiscan.io/address/0x896df3759205c141c97640b2b7345fa479feb1ab</p><p><br></p><p>Malicious transaction example:</p><p>https://arbiscan.io/tx/0x0a637e3260c7b5f23e93e89c5f5cc2c0ca05ebccdfd0403fb8d7d97f8dba4c4a</p><p><br></p><p>Recovering transaction example:</p><p>https://arbiscan.io/tx/0x0281ff6e307cec5a74068824b9e86839c0f14633b7b0926ffca6db11ea806bd1</p><p><br></p><p>Attacker's on-chain message:</p><p>https://arbiscan.io/tx/0x38ae60739af0726831957546d9d16c92ed75164a1581d4e4e6f270917913ab9c</p><p><br></p><p>Recovering message from the TenderFi:</p><p>https://arbiscan.io/tx/0xdeb31360e395dcba28ec360f61c619f5ebd0db170a189b796631b2c6796e0b72</p><p><br></p><p>Address holding the Bug Bounty:</p><p>https://arbiscan.io/address/0xd724a36b813a6e3592e6c03dde906da711203769</p>",
+    "name_categories": "Borrowing and Lending",
+    "token_name": "TND",
+    "proof_archive_link": "https://archive.ph/XZ2rS, https://archive.ph/FFk7n, https://archive.ph/0PipB",
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xC47D9753F3b32aA9548a7C3F30b6aEc3B2d2798C",
+    "token_addresses": [
+        {
+            "address": "0xeed247ba513a8d6f78be9318399f5ed1a4808f8e",
+            "url": "https://arbiscan.io/address/0xeed247ba513a8d6f78be9318399f5ed1a4808f8e",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64079498e9b32.jpg",
+    "date": "2023-3-7",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/tender_fi/status/1633170112718188549, https://twitter.com/lookonchain/status/1633063188735614976, https://cointelegraph.com/news/defi-lender-tender-fi-suffers-exploit-white-hat-hacker-suspected",
+    "website_link": "https://www.tender.fi/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/tender_fi",
+    "telegram_link": "https://t.me/TenderFi",
+    "our_post_link": null,
+    "funds_lost": 1583432,
+    "funds_returned": 1486726,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/tender-finance",
+    "git_hub_contract_link": "https://github.com/tender-finance/tender-fi-contracts",
+    "discord": "https://discord.com/invite/tenderfi",
+    "bug_bounty_program_link": "https://immunefi.com/bounty/tenderfi/",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 1,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 17,
+        "type": "Oracle Issue"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3369,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/PeckShield_Audit_Report_Tender_v1_0.pdf",
+            "date": "2023-02-14T00:00:00.000Z",
+            "partner": {
+                "id": 12,
+                "name": "PeckShield Inc.",
+                "logo_link": "safe/files/partner/logo/6095235554623.jpeg"
+            }
+        },
+        {
+            "audit_link": "safe/files/audit/pdf/Tender_fi_audit.pdf",
+            "date": "2022-09-30T00:00:00.000Z",
+            "partner": {
+                "id": 97,
+                "name": "Armors Labs",
+                "logo_link": "safe/files/partner/logo/617474928bda7.jpeg"
+            }
+        }
+    ]
+}
