@@ -1,6 +1,6 @@
 # A Knowledgebase About Crypto Rekts
 
-Credit to De.fi, Defilarma, Onchain Data and the [Web3 News Bot](https://github.com/0xlino/web3-news-daily)
+Each rekt has it's own page, you can click the click to see more info. 
 
 # Total Funds Lost:
 - $77,789,516,447.00
@@ -3653,4 +3653,7 @@ Credit to De.fi, Defilarma, Onchain Data and the [Web3 News Bot](https://github.
 - [Generate Finance](/rekts/Generate-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [Pill Finance](/rekts/Pill-Finance.md) - Lost: $0.00 Recovered: $0.00 
 - [SoftdrinkSwap](/rekts/SoftdrinkSwap.md) - Lost: $0.00 Recovered: $0.00 
+
+# Credits
+Credit to De.fi, Defilarma, Discord Servers, Onchain Data and the [Web3 News Bot](https://github.com/0xlino/web3-news-daily)
 
