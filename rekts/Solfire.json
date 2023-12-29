@@ -1,0 +1,51 @@
+{
+    "id": 2798,
+    "project_name": "Solfire",
+    "title": "Solfire",
+    "description": "<p>Solfire executed rug pull by withdrawing assets from the Solfire hot wallet.<br><br>Addresses behind the rug pull:<br>https://solscan.io/account/D6RBPLyUYhUE98rWZrewSkpmSDLypGRoGV4EqvGKkvym<br>https://solscan.io/account/8XnyGsVNGFWQ2UYAzwj8gqJsCETMzmbY6ZFTqHpRWfy<br><br>Funds were stolen from Solfire hot wallet:<br>https://solscan.io/account/4QSQiBquEZXhLJNHNR6CjKEFWkgmtfcbTjdqHZgZErLn<br><br>The list of stolen funds:<br>- 6.3848 BTC<br>https://solscan.io/tx/4cdwKrEqcv1EB8oXhJw2Udmww8ySkPh7m3RMLFciWSbSE84oDZmRxeDBCR32XeVYWmF8zodpw4sNxrmJbkCwPTc2<br><br>- 104.86 soETH<br>https://solscan.io/tx/26AnPkNQ6VQaPJ4qyf1AwumEiSnQkXJpM3dhJe5cSqdcPFTkJjMgfojGXxME8QG6CkwAbFCMWLQMscbcDnNHSs4D<br><br>- 4,414.47 SOL<br>https://solscan.io/tx/2vEBhU4F5zZjL65JWkc7CFUZamU9rqpEBbPjugEoSLJ8WJGKBWvYWYUUtRapUtS5kFaF6YR3amCqPJhDBB7VaCrt<br><br>- 1,537,822.99 USDT<br>https://solscan.io/tx/2wcJUbWc4XiCcwrX3sm92XVCxmNEJH27Jo1idJ8N59313BXfqzT8QJj6szeRTekmns9JXjQzbpTKmeR6UFCCky4r<br><br>- 299,702.9 USDC<br>https://solscan.io/tx/5Q2xciZggPc9Ycmrs7XM33AbtAvTEiCHfBDS2MeSgV3ihYKKAc9nXhJ9r5NX3xnmb7pV8Y6hy6xkgx1SPCipa6bp<br><br>- 4,030.4 mSOL<br>https://solscan.io/tx/48r9KhG6N7jbK1wjPR2DnSAGjrKkEfXLRwtX5Q7af3jyQ5BKq7K5Y4BaHLMCtWQTwKgi65V9wx3AMZY2fYhkL9Ln<br><br>- 1,457.89 LUNA<br>https://solscan.io/tx/2roQu6zjy6wCuJK72eQeDHw1ojaA5WwtreYMcSq4okjfsrebXtngsxd5ub3ZZphEy5XFMg8SPjMsGrqU3hJSvSJv<br><br>- 26,347.69 RAY<br>https://solscan.io/tx/QauQooTafdiW2TqoWA4an7owW3fzCDTzWfuDXxDNz2t5eQAVtf2R1QKxBJ1fwB4SFwSme4zNakNzoaRpmSgc5e9<br><br>- 46,110.45 SRM<br>https://solscan.io/tx/zLHjtcwZnGRZfUYqsXF55npe6ebpju2hYfZyPejT8j1dFMuJBu5Q39BPfRgb74z1xtu7wbx6m4EMwZFGLShS8fm<br><br>- 830,270.48 SBR<br>https://solscan.io/tx/3dVq6Z5kddj51LhPesBz8Un4KD6i7e7MVDDvbLqbnnw93mNwzU1Uh34kS8v38g5MCp9MqmaU33yMyXwKD1Er6D2g<br><br>Initial gas funding was performed through the following wallet and then funds were bridged to Solana:<br>https://etherscan.io/address/0xe8032c0270164819bbee809324e09d899cc97f18<br><br>Stolen funds have arrived in the next wallets:<br>https://etherscan.io/address/0xc5afc6c1d4002dc9bc765542a17bb0fc49044ec5<br>https://etherscan.io/address/0x1e669254badd2866b217983d6a2fcbbf07d66ff7<br><br>Part of stolen funds was deposited into Curve pool:<br>https://etherscan.io/tx/0x6719f05a0c62fa06f513b56fb9276b7b7ac38253960ac5d692c3476bfcadf292<br><br>FIRE tokens circulation supply was sent to this address:<br>https://solscan.io/account/3SfihoLDctTc7fna3akRMkVuSFrhBkCzVv6scBJnjQSF#splTransfers<br><br>The liquidity from the pair was removed at:<br>https://solscan.io/tx/5X8BeUDax4s2k4YywMrp8Dj2EJCiH3RcBw99X51kqfw2yJL3ECqGveuvCyDzaR6a9xGBdShKMaUXdSJKVQgpz57i<br>https://solscan.io/tx/5QeajKs6shGXXPqUB5xxGXhjEXaK9pUvpvwzBBda48bMPzDcdW1UD8a1hhTSkMkQht71Go7hKGP521egKCSMvLo9<br>https://solscan.io/tx/36GYywPbYSxZcMigk9Ysdoz32kXqUywfJMP8qHgkDt271qhUSkdZWQPr7jWKUpDwwh3jEfH8MARdY7JAARHp7iNf<br>https://solscan.io/tx/39TKL9PyJ7A9FBrgeJZjbYtNGth85vWYpEuNPJ7BLuoNzDMz2aMjSbVHVf8SKcXQe24EyzithHPwKU38DV27951x<br>https://solscan.io/tx/3ugpapQE7JT8U7yrKpidTFW4YhqZ2f9Gpr7QvRFeXmvWC9MLasdy1K7mU8x86VE7LNtx7ZU4daA1NdHXgxjtGczn</p>",
+    "name_categories": "Other",
+    "token_name": "FIRE",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "AfXLBfMZd32pN6QauazHCd7diEWoBgw1GNUALDw3suVZ",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61eef5ac94f77.png",
+    "date": "2022-1-23",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/cryptobro888/status/1485302234669891586, https://www.reddit.com/r/solana/comments/sbq3pl/rugpull_solfire/?utm_source=share&utm_medium=ios_app&utm_name=iossmf",
+    "website_link": "https://www.solfire.finance/",
+    "webarchive_link": "https://web.archive.org/web/20211124210521/https://www.solfire.finance/",
+    "twitter_link": "https://twitter.com/Solfirefinance",
+    "telegram_link": "https://t.me/solfirefinance",
+    "our_post_link": null,
+    "funds_lost": 4055803,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/SolfireFinance",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1002,
+            "scam_database_id": 2798,
+            "networks": {
+                "id": 1002,
+                "name": "Solana",
+                "icon_link": "safe/files/network/solana.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
