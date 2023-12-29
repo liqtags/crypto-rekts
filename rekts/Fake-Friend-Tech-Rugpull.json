@@ -1,0 +1,73 @@
+{
+    "id": 3684,
+    "project_name": "Friend Tech",
+    "title": "Fake Friend Tech Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Friend Tech (FT) suffered a rugpull on Aug 19, 2023, causing a loss of 225,852 $USD (135.16 $ETH).</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Friend Tech (FT), an ERC20 token trading on UniSwap, fell victim to an exitscam on Aug 19, 2023. The deployer added liquidity for 100 $ETH and removed it on the same day for 235.16 $ETH, resulting in a profit of 135.16 $ETH for the scammer. The stolen funds were transferred to another EOA and then bridged to the Base chain. A portion of the stolen tokens remains at the scammer's EOA.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>- Deployer Address:</p><p>&nbsp; https://etherscan.io/address/0x8522a1106B0e26584AF2658bd099005FDC33cCeD</p><p><br></p><p>- Scammer Addresses:</p><p>&nbsp; https://etherscan.io/address/0x0d540fc97b188c6ce439fe3590ed10c6943734b8</p><p>&nbsp; https://etherscan.io/address/0x5b33f657d623b38f03cee83f6c6c88da3e35d7c6</p><p>&nbsp; https://etherscan.io/address/0xe6c471ac9c06b4622e30755f3f98ecdebebb0a7c</p><p><br></p><p>- Funds Holder as of August 21, 2023:</p><p>&nbsp; https://etherscan.io/address/0x67f6EDaacE7C060165697b12b900429a71aBeaFf</p><p><br></p><p>- Liquidity Adding Transaction:</p><p>https://etherscan.io/tx/0xfc032b294c236a81ff8741b536136541158739c93892a8fef49a93b495a0f820</p><p><br></p><p>- Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x48e826fe05fa46d789ac81b091d004ab40c0467fbb7e8f74965fecc471751056</p><p><br></p><p>- Bridging Transactions:</p><p>https://etherscan.io/tx/0xec1b344f4a2799384e4ae5cbf6a4dd7e329b5bbb92baa7e89a4debc75e89b954</p><p>https://etherscan.io/tx/0x32e8ce4c52e41ca3822a1206cddf133060f30f9abe48fefa5544da02d61d2127</p>",
+    "name_categories": "Token",
+    "token_name": "FT",
+    "proof_archive_link": "https://archive.ph/vKicE, https://archive.ph/M1wg3",
+    "technical_issue": null,
+    "token_address": "0x2cf82a3ad32aa580110278022a6493b631044bef",
+    "token_addresses": [
+        {
+            "address": "0x2cf82a3ad32aa580110278022a6493b631044bef",
+            "url": "https://etherscan.io/token/0x2cf82a3ad32aa580110278022a6493b631044bef",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        },
+        {
+            "address": "0x9fc456727d2b39a64769741e59127748a2e32b91",
+            "url": "https://basescan.org/token/0x9fc456727d2b39a64769741e59127748a2e32b91",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64ef3ce7ad36f.png",
+    "date": "2023-8-19",
+    "scam_updates": [
+        {
+            "date": "2023-08-29T00:00:00.000Z",
+            "description": "<p>On August 29, 2023, the project was rugpulled on the Base chain for an additional 134 ETH. The stolen funds were distributed between multiple EOA addresses.<br><br>Scammer Addresses:<br>https://basescan.org/address/0xda238153e1ec9beafafd2bffeacb27cb29a63bcb<br>https://basescan.org/address/0x8281b589ea0c0b126af00df3fae781140920500a</p><p><br></p><p>Funds Draining Transaction:<br>https://basescan.org/tx/0x87aeeaccf47eeaea17f637a0ab1b916e47bd9e4b7d7afb9a5a31f3b94c08f1fd</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1692932345249038650, https://twitter.com/AnciliaInc/status/1696569985605267954",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 456230,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3684,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
