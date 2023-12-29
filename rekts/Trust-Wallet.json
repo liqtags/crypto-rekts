@@ -1,0 +1,51 @@
+{
+    "id": 3512,
+    "project_name": "Trust Wallet",
+    "title": "Trust Wallet",
+    "description": "<p><strong>Quick Summary</strong></p><p>TrustWallet's Web Extension suffered an exploit, which resulted in a loss of 170,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>TrustWallet is a cross-chain wallet. The wallet suffered an exploit on WASM vulnerability. TrustWallet announced a vulnerability affecting new addresses created between November 14-23, 2022 using their Browser Extension. The majority of funds at risk had already been secured by users. However, there were still approximately 88,000 $USD left on affected addresses. TrustWallet urged affected users to move their funds as soon as possible and avoid using addresses provided by others.</p><p>The team identified two likely exploits with a total loss of 170,000 $USD. To do right by its users, the project created a reimbursement process for affected individuals to make them whole again.</p>",
+    "name_categories": "Other",
+    "token_name": "TWT",
+    "proof_archive_link": "https://archive.ph/1Nm2V",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/address/0x4b0f1812e5df2a09796481ff14017e6005508003",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6447e5cc90adf.png",
+    "date": "2023-4-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/TrustWallet/status/1649699452729585664?s=20",
+    "website_link": "https://trustwallet.com/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/TrustWallet",
+    "telegram_link": "https://t.me/trustwallet",
+    "our_post_link": null,
+    "funds_lost": 170000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": "https://github.com/trustwallet",
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3512,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
