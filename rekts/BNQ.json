@@ -1,0 +1,60 @@
+{
+    "id": 3475,
+    "project_name": "BNQ",
+    "title": "BNQ",
+    "description": "<p><strong>Quick Summary</strong></p><p>On the 26th of March BNQ on the BSC chain was rugged for ~$72K USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>- The BNQ deployer previously was funded by the tornado.cash, so we can claim it was a rug pull.</p><p>- The contract owner initiated a function safePull() call to receive a significant amount of BNQ</p><p>- The scammer received <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>190,000,000 BNQ&nbsp;</span>and swapped the largest part for $72,652USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Tornado cash funding:</p><p>https://bscscan.com/tx/0x7094b0a391c38401c32b73ca0023657a500776cd66bea671f37107e1ebb1710c</p><p>Transfer:</p><p>https://bscscan.com/tx/0x97824224c549a5a5158d72c34166ae88f538fecb491dfb4bff548efabb624b28</p><p>Example of swap:</p><p>https://bscscan.com/tx/0x11914bba68c3545b35c1ca3999e79c758604c0bf5a8cd1b1bcc0401f9ab957dd</p><p>safePull calls:</p><p>https://bscscan.com/token/0x5c530131700b8dd88e4faefea616d04f6f13fc96?a=0x49fe5c4db984963244dcdcb78e32e5b008a11896</p>",
+    "name_categories": "Token",
+    "token_name": "BNQ",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x5c530131700B8dd88e4FAEFEa616D04f6f13Fc96",
+    "token_addresses": [
+        {
+            "address": "0x5c530131700B8dd88e4FAEFEa616D04f6f13Fc96",
+            "url": "https://bscscan.com/address/0x5c530131700B8dd88e4FAEFEa616D04f6f13Fc96",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64380cf21ff09.png",
+    "date": "2023-3-26",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1638005783882510337,https://twitter.com/CertiKAlert/status/1637857730621743104?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 72000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3475,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
