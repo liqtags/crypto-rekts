@@ -1,0 +1,51 @@
+{
+    "id": 2381,
+    "project_name": "LayerFarm",
+    "title": "LayerFarm",
+    "description": null,
+    "name_categories": "Other",
+    "token_name": "LYR",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x3A58AA4A8899FD437E87D21b87832e1b743e891c",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/610966881bcfa.png",
+    "date": "2021-8-31",
+    "scam_updates": [],
+    "proof_link": "https://polygonscan.com/token/0x044b1d3374eaf3bc31ef8970dd0220ab3a5958ff?a=0x74f9233a19fe5486d350807f18a0e923b36ee359",
+    "website_link": "https://layer.farm/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 2381,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
