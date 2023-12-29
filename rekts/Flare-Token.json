@@ -1,0 +1,73 @@
+{
+    "id": 3285,
+    "project_name": "Flare Token",
+    "title": "Flare Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>Flare Token was possibly rugpulled. An EOA address was able to remove funds from the PancakeSwap pool for a total of 17,010,503 $USD after claiming roughly 4,000,000,000 $FLARE tokens from a vault contract.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Flare Token is a BEP20 token trading on PancakeSwap and can't be confused with Flare Network with the $FLR token symbol. An EOA address called a withdrawProfit() function on a contract with an unverified source code and received 3,973,277,600 $FLARE tokens. The part of the claimed tokens was used to perform a swap and drain of liquidity. The exploiter profited 17,010,503 $USD and transferred funds to another EOA address.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://bscscan.com/address/0xa0a613ca05daa8e8f43130a53be09bbd1a53d898</p><p>https://bscscan.com/address/0xE55D77F74Ea9335d3a83A673f83f38527a68Eb20</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xa09135020bb1271ff684db407783a52163c31c7255955cec1e83fc68a751c027</p><p><br></p><p>Liquidity drain transaction:</p><p>https://bscscan.com/tx/0x2af9b1c4f4b063a31babe75d0a7ef711e063d7ecb10cb0ecd6f572c8971c1d51</p>",
+    "name_categories": "Token",
+    "token_name": "FLARE",
+    "proof_archive_link": "https://archive.ph/DuhuE, https://archive.ph/wCRhM, https://archive.ph/zKQjR",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x85aa3f04e539e426cbb55c0d584ea99cfe1d96a1",
+    "token_addresses": [
+        {
+            "address": "0x85aa3f04e539e426cbb55c0d584ea99cfe1d96a1",
+            "url": "https://bscscan.com/token/0x85aa3f04e539e426cbb55c0d584ea99cfe1d96a1",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xeBf5d39Ffa10cdB637f8078faDa533fc0F7AE974",
+            "url": "https://bscscan.com/address/0xeBf5d39Ffa10cdB637f8078faDa533fc0F7AE974",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6387d65054680.png",
+    "date": "2022-11-13",
+    "scam_updates": [
+        {
+            "date": "2022-11-17T00:00:00.000Z",
+            "description": "<p>On 17 November, an EOA address that received the funds transferred all the stolen amount through TornadoCash.</p>"
+        }
+    ],
+    "proof_link": "https://unchainedpodcast.com/rug-pull-or-exploit-17m-drained-from-flare-token/, https://twitter.com/peckshield/status/1591855088724852737, https://mobile.twitter.com/BeosinAlert/status/1593089012503547906",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 17010503,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3285,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
