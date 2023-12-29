@@ -1,0 +1,92 @@
+{
+    "id": 3563,
+    "project_name": "Hashflow",
+    "title": "Hashflow",
+    "description": "<p><strong>Quick Summary</strong></p><p>Hashflow, a DEX on Ethereum, was exploited leading to losses of approximately 600,000 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>On June 14, 2023, Hashflow, a crypto trading platform, encountered an approve-related exploit. This exploit led to the loss of around 600,000 $USD worth of digital assets including $USDT, $USDC, and $DAI.</p><p>The attacker who carried out the exploit provided a recovery function contract, suggesting they may be a white hat hacker, preventing further losses. Users were instructed to revoke approvals before recovering funds. Two options were given for fund recovery, one for total funds and the second to donate 10% to the white hat hacker.</p><p>In the aftermath of the incident, Hashflow's native token, HFT, fell by 7% within 12 hours.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://etherscan.io/address/0xBDf38B7475Ff810325AA39e988fb80E0aA007E84</p><p><br></p><p>Malicious Contracts:<br>https://etherscan.io/address/0xddb19a1bd22c53dac894ee4e2fbfdb0a06769216<br>https://arbiscan.io/address/0x04699818bf27f27262c0b466f91499fbafca249f<br>https://bscscan.com/address/0x91d087186c87e1c269be89c74f61423675727065</p><p>https://polygonscan.com/address/0xbcb8eb2e24dde3af5dc9f69c814896c76c4b8072</p><p>https://snowtrace.io/address/0x91d087186c87e1c269be89c74f61423675727065</p><p><br></p><p>Malicious Transaction Examples:</p><p>https://etherscan.io/tx/0xdedda493272b6b35660b9cc9070d2ea32ee61279b821184ff837e0a5752f4042</p><p>https://etherscan.io/tx/0x08b5f35076beb363a7206b8f9b4a6460f42aa9f998b561582fb4e4cdd6f05dce</p><p><br></p><p>Example of Recovery Transaction:</p><p>https://etherscan.io/tx/0xf6e6a0eeed71afa046f45652d5616829e6a33e5969b0234744556be3dd6ed79a</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "HFT",
+    "proof_archive_link": "https://archive.ph/XWuLT, https://archive.ph/OfOBi, https://archive.ph/ZLsnk",
+    "technical_issue": null,
+    "token_address": "0xb3999F658C0391d94A37f7FF328F3feC942BcADC",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/648b0e592bf42.jpg",
+    "date": "2023-6-14",
+    "scam_updates": [
+        {
+            "date": "2023-06-30T00:00:00.000Z",
+            "description": "<p>The protocol faced another exploit via an approval-related bug. $40,000 worth of $USDT and $USDC was stolen as a result of the exploit on the Arbitrum chain</p>"
+        }
+    ],
+    "proof_link": "https://twitter.com/hashflow/status/1669066811562766338, https://twitter.com/YannickCrypto/status/1669009989631868928, https://twitter.com/DeDotFiSecurity/status/1674754209919508482",
+    "website_link": "https://hashflow.com",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/hashflow",
+    "telegram_link": "https://t.me/hashflownetwork",
+    "our_post_link": null,
+    "funds_lost": 640000,
+    "funds_returned": 600000,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/hashflow-732328052104757311",
+    "bug_bounty_program_link": "https://immunefi.com/bounty/hashflow/",
+    "bug_bounty_program_company": "Immunefi",
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3563,
+            "networks": {
+                "id": 1,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        },
+        {
+            "networks_id": 56,
+            "scam_database_id": 3563,
+            "networks": {
+                "id": 56,
+                "name": "Avax",
+                "icon_link": "safe/files/network/avax.png"
+            }
+        },
+        {
+            "networks_id": 137,
+            "scam_database_id": 3563,
+            "networks": {
+                "id": 137,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        },
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3563,
+            "networks": {
+                "id": 42161,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        },
+        {
+            "networks_id": 43114,
+            "scam_database_id": 3563,
+            "networks": {
+                "id": 43114,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
