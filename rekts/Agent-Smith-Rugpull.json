@@ -1,0 +1,60 @@
+{
+    "id": 3636,
+    "project_name": "Agent Smith",
+    "title": "Agent Smith Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Agent Smith project was exploited in a rugpull incident, resulting in a loss of 226,545 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Agent Smith (SMITH), an ERC20 token trading on UniSwap, fell victim to a rugpull operation by its deployer who removed liquidity from the LP pool. After the liquidity removal, the stolen funds were transferred to another EOA address, and then further distributed among multiple other addresses. The total financial loss from this event is calculated to be 226,545 $USD, equivalent to 120 ETH.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://etherscan.io/address/0x1b8d1feD670BB53B4E0934Df5C5609448CDfb07B</p><p><br></p><p>Scammer's Address:</p><p>https://etherscan.io/address/0x0c46deb26275db82fe3564a1f18de954cd8fe918</p><p><br></p><p>Liquidity Removal Transaction:</p><p>https://etherscan.io/tx/0x9b88f32f82b7f43fee1b8e430cbe8ce8374ba460fc3a6c45447124634d5ae4c6</p>",
+    "name_categories": "Token",
+    "token_name": "SMITH",
+    "proof_archive_link": "https://archive.ph/LKuKw",
+    "technical_issue": null,
+    "token_address": "0xe9be1172e2a12deada42fd397ff8d4d9ed227a30",
+    "token_addresses": [
+        {
+            "address": "0xe9be1172e2a12deada42fd397ff8d4d9ed227a30",
+            "url": "https://etherscan.io/address/0xe9be1172e2a12deada42fd397ff8d4d9ed227a30",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c19f26294f4.png",
+    "date": "2023-7-13",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CyversAlerts/status/1679450311944019975?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 226545,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 3636,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
