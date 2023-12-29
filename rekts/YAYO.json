@@ -1,0 +1,60 @@
+{
+    "id": 3426,
+    "project_name": "YAYO",
+    "title": "YAYO",
+    "description": "<p><strong>Quick Summary</strong></p><p>On Feb 5, 2023, the team behind the YAYO Token token executed a rug pull, resulting in a loss of funds worth $80k&nbsp; USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The attack on the YAYO <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Token</span> token involved the token contract deployer manipulating the liquidity pool by removing liquidity from the pair contract and selling a large quantity of tokens on the market. This resulted in a rapid drop in the token's price by approximately 90%. The deployer took advantage of their ability to manipulate the liquidity pool and market to execute a rug pull, effectively stealing funds from investors. The exploit highlights the importance of careful token contract design and the need for investors to perform due diligence before investing in new projects.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer:</p><p>https://polygonscan.com/address/0x9d49d27c88332c9e006564811a77a180408115cf</p><p>Remove liquidity:</p><p>https://polygonscan.com/tx/0x6209de9a4e7d67708e5e726698872584ca4f86ad840aa10005ec3f318afb67a4</p>",
+    "name_categories": "Token",
+    "token_name": "YAYO",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xf7058856f405542cd660e8ce4751248F2d037f2B",
+    "token_addresses": [
+        {
+            "address": "0xf7058856f405542cd660e8ce4751248F2d037f2B",
+            "url": "https://polygonscan.com/address/0xf7058856f405542cd660e8ce4751248F2d037f2B",
+            "network": {
+                "id": 137,
+                "icon_link": "safe/files/network/involved/polygon.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/642bf71432e73.png",
+    "date": "2023-2-5",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1622035321847435265?s=20",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/YayoCorp",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 80000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 137,
+            "scam_database_id": 3426,
+            "networks": {
+                "id": 137,
+                "name": "Polygon",
+                "icon_link": "safe/files/network/polygon.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
