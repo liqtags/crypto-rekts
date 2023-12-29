@@ -1,0 +1,51 @@
+{
+    "id": 55,
+    "project_name": "SoftdrinkSwap",
+    "title": "SoftdrinkSwap",
+    "description": "<p>The team abandoned the project. The team stopped interacting with the community by deleting the project's group and Telegram account. The project did not meet the expectations of the team.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "COLA SODA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x740426e58a10ac3b6724f753c8468288248137f9",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60df352021e17.png",
+    "date": "2020-11-12",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": "https://www.softdrinkswap.org/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SoftdrinkSwap",
+    "telegram_link": "https://t.me/softdrinkswap",
+    "our_post_link": "https://t.me/defiyield_ann/222",
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 5,
+        "type": "Abandoned"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 55,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
