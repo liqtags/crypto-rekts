@@ -1,0 +1,51 @@
+{
+    "id": 2464,
+    "project_name": "Oilrig Finance",
+    "title": "Oilrig Finance",
+    "description": null,
+    "name_categories": "Token",
+    "token_name": "OIL",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x2DA04E42D171a720382917Cb35966ED45c7039da",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/6129038e3d987.png",
+    "date": "2021-8-27",
+    "scam_updates": [],
+    "proof_link": "https://bscscan.com/token/0x395666c5caf5468289542b52b2acefa2d534045a?a=0xe415089e0cb0efd099c246aad318399c81cd7229",
+    "website_link": "https://oilrig.finance/",
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 0,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 2464,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
