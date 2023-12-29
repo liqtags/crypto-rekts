@@ -1,0 +1,73 @@
+{
+    "id": 3642,
+    "project_name": "Bald",
+    "title": "Bald Rugpull",
+    "description": "<p><strong>Quick Summary</strong></p><p>Bald token project rugpulled, removing liquidity worth 22,458,422 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Bald is an ERC20 token running on Coinbase's Base chain and trading on LeetSwap. The token faced an exit scam by its deployer who removed liquidity from the LP pool in multiple transactions. Specifically, the last four removals included 10,804 $ETH, worth roughly 19,930,848 $USD at current rates. As of July 31, 2023, the stolen funds remain at the scammer's initial address, and the scammer now controls 12,059 $ETH, equating to 22,458,422 $USD. The official tweet of the project claims that no tokens were sold, and only liquidity was added and removed.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Deployer Address:</p><p>https://basescan.org/address/0xccfa0530b9d52f970d1a2daea670ce58e4176389</p><p><br></p><p>Liquidity Removal Transactions:</p><p>https://basescan.org/tx/0xd4fce790ac42a5a801bebb220adc2a6f9d9bf99985de6a824638a269c3e52ade</p><p>https://basescan.org/tx/0xb594b77f8d610fd6d333bb03c7b5cd5aa0a741c944155c442b1b7bd7114463e8</p><p>https://basescan.org/tx/0xf885a5862e8b75a8ab7c5dd66cf7c17692efd9dc784936e44d6feed4cafc5239</p><p>https://basescan.org/tx/0xbfb94d969b82a7a4b8d681d5c18d5b0c7960ef45f503c3a522a709575abac3ee</p><p><br></p><p>Tweet:<br>https://archive.ph/4eV8F</p>",
+    "name_categories": "Token",
+    "token_name": "Bald",
+    "proof_archive_link": "https://archive.ph/3M2aY, https://archive.ph/4eV8F",
+    "technical_issue": null,
+    "token_address": "0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8",
+    "token_addresses": [
+        {
+            "address": "0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8",
+            "url": "https://basescan.org/address/0x27d2decb4bfc9c76f0309b8e88dec3a601fe25a8#code",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        },
+        {
+            "address": "0xe96df8f5ef1a8790415068c798765b07d57643bd",
+            "url": "https://basescan.org/token/0xe96df8f5ef1a8790415068c798765b07d57643bd",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64c7d25d5365c.jpg",
+    "date": "2023-7-31",
+    "scam_updates": [
+        {
+            "date": "2023-07-31T00:00:00.000Z",
+            "description": "<p>The deployer removed liquidity for additional 374 ETH, and the total stolen amount reached 23,129,572 USD<br><br>Liquidity Removal Transaction:<br>https://basescan.org/tx/0x3684fb97025db177676e0d9d8598fb97e8578224c29b2917dd24dab3818bb94e</p>"
+        }
+    ],
+    "proof_link": "https://www.coindesk.com/markets/2023/07/31/bald-token-plunges-90-as-developer-pulls-liquidity/, https://twitter.com/BaldBaseBald/status/1685998514839470081",
+    "website_link": null,
+    "webarchive_link": "https://archive.ph/A2pPf",
+    "twitter_link": "https://twitter.com/BaldBaseBald",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 23129572,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600016,
+            "scam_database_id": 3642,
+            "networks": {
+                "id": 1666600016,
+                "name": "Other",
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
