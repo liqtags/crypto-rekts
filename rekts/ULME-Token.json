@@ -1,0 +1,68 @@
+{
+    "id": 3248,
+    "project_name": "ULME Token",
+    "title": "ULME Token",
+    "description": "<p><strong>Quick Summary</strong></p><p>ULME Token was exploited using a flash loan attack. The attacker profited for 50,646 $USD by price manipulation.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>ULME Token is a BEP20 token trading on PancakeSwap. The project was exploited using a flash loan attack. The attacker took 1,225,000 $BUSD as a flash loan from several contracts to manipulate the price of the $ULME token. The profit of the attacker reached 50,646 $USD after paying back a flash loan.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x056c20ab7e25e4dd7e49568f964d98e415da63d3</p><p><br></p><p>Malicious contract:</p><p>https://bscscan.com/address/0x8523c7661850d0da4d86587ce9674da23369ff26</p><p><br></p><p>Malicious transaction:</p><p>https://bscscan.com/tx/0xdb9a13bc970b97824e082782e838bdff0b76b30d268f1d66aac507f1d43ff4ed</p>",
+    "name_categories": "Token",
+    "token_name": "ULME",
+    "proof_archive_link": "https://archive.ph/Msobs, https://archive.ph/7CltG",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xae975a25646e6eb859615d0a147b909c13d31fed",
+    "token_addresses": [
+        {
+            "address": "0xae975a25646e6eb859615d0a147b909c13d31fed",
+            "url": "https://bscscan.com/address/0xae975a25646e6eb859615d0a147b909c13d31fed",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xf18e5ec98541d073daa0864232b9398fa183e0d4",
+            "url": "https://bscscan.com/address/0xf18e5ec98541d073daa0864232b9398fa183e0d4",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/635bc0c20a735.png",
+    "date": "2022-10-25",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1584888021299916801, https://twitter.com/BlockSecTeam/status/1584839309781135361",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 50646,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3248,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
