@@ -1,0 +1,68 @@
+{
+    "id": 3541,
+    "project_name": "BlockGPT",
+    "title": "BlockGPT",
+    "description": "<p><strong>Quick Summary</strong></p><p>BlockGPT token experienced a rugpull, the scammer was able to withdraw 816 $BNB from the presale pool.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BlockGPT is a BEP20 token trading on PancakeSwap. The project creators deployed a presale contract that had malicious functionality to withdraw liquidity from the contract. The malicious contract had unverified source code. The scammer withdrew 816 $BNB from the contract which is worth 254,592 $USD at the moment. 800 $BNB was transferred through TornadoCash at the end.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:<br>https://bscscan.com/address/0x650c6ba120c1275bf3a9252d8c2aec3a25461954</p><p><br></p><p>Funds holder address:</p><p>https://bscscan.com/address/0x45da92f71d94e2a2b54c32fab7534540814a5e04</p><p><br></p><p>Draining transaction:</p><p>https://bscscan.com/tx/0x32e5950668b507a95d6ee75ea269a0478dc21abb0e3d37ffdeee17bdc4360fe2</p><p><br></p><p>TornadoCash transfer example:</p><p>https://bscscan.com/tx/0x72829d55bc3d158821832799fea86cd3e9925f5c068005e8e333a45bc4a3c128</p>",
+    "name_categories": "Token",
+    "token_name": "BGP",
+    "proof_archive_link": "https://archive.ph/XNCJq, https://archive.ph/QcgAd",
+    "technical_issue": null,
+    "token_address": "0xE6f12E0fb5366fe34a06845EAfcac4667F210A4E",
+    "token_addresses": [
+        {
+            "address": "0xE6f12E0fb5366fe34a06845EAfcac4667F210A4E",
+            "url": "https://bscscan.com/address/0xE6f12E0fb5366fe34a06845EAfcac4667F210A4E",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x8819942ad2414b3d6d02791c703af46fcc50bfde",
+            "url": "https://bscscan.com/address/0x8819942ad2414b3d6d02791c703af46fcc50bfde",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6476115dd2d96.png",
+    "date": "2023-5-30",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1663473765097807876?s=20, https://twitter.com/PeckShieldAlert/status/1663462452233908229",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 254592,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3541,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
