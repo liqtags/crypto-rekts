@@ -1,0 +1,76 @@
+{
+    "id": 3295,
+    "project_name": "Nimbus DAO",
+    "title": "Nimbus DAO",
+    "description": "<p><strong>Quick Summary</strong></p><p>Nimbus DAO protocol was exploited via FlashLoan attack. The attacker stole worth around $76,000 USD.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The flashloan was used for the price oracle manipulation and the NIMB/NBU_WBNB pool was affected. Exploit led to the unfair reward distribution in getReward() function.</p><p>In case, of computation of the token reward is proportional to the ratio of $NIMB and $GNIMB in the pool, the ratio of Nimbus Utility tokens to Nimbus Governance tokens was broken. To repay the flash loan, the exploiter exchanged $GNIMB for $BNB.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://bscscan.com/address/0x86aa1c46f2ae35ba1b228dc69fb726813d95b597</p><p><br></p><p>Malicious transactions:</p><p>https://bscscan.com/tx/0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1</p><p>https://phalcon.blocksec.com/tx/bsc/0x42f56d3e86fb47e1edffa59222b33b73e7407d4b5bb05e23b83cb1771790f6c1</p><p><br></p>",
+    "name_categories": "Other",
+    "token_name": "NBU",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xeb58343b36c7528f23caae63a150240241310049",
+    "token_addresses": [
+        {
+            "address": "0x3aA2B9de4ce397d93E11699C3f07B769b210bBD5",
+            "url": "https://bscscan.com/address/0x3aa2b9de4ce397d93e11699c3f07b769b210bbd5#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x706065716569f20971F9CF8c66D092824c284584",
+            "url": "https://bscscan.com/address/0x706065716569f20971f9cf8c66d092824c284584#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xCb492C701F7fe71bC9C4B703b84B0Da933fF26bB",
+            "url": "https://bscscan.com/address/0xcb492c701f7fe71bc9c4b703b84b0da933ff26bb",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63aaca77651f9.png",
+    "date": "2022-12-14",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/BeosinAlert/status/1602907558532231169",
+    "website_link": "https://nimbusplatform.io/",
+    "webarchive_link": "https://archive.ph/oINkp",
+    "twitter_link": "https://twitter.com/nmbplatform",
+    "telegram_link": "https://t.me/Nimbus_Platform_ENG",
+    "our_post_link": null,
+    "funds_lost": 76000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/zvVjU78f85",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 15,
+        "type": "Flash Loan Attack"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3295,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
