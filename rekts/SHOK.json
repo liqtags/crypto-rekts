@@ -1,0 +1,76 @@
+{
+    "id": 3230,
+    "project_name": "SHOK",
+    "title": "SHOK",
+    "description": "<p><strong>Quick Summary</strong></p><p>SHOK token was rugpulled for 71,488 $USD. The token price dropped by more than 83%.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>SHOK is BEP20 token trading on PancakeSwap and can't be confused with tokens with the same symbol. $SHOK tokens were withdrawn from the contract with an unverified source code to the EOA address. Consequently, the scammer drained the liquidity from the pool which caused to the token price to drop by more than 83%.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0xf42c8f115c34f15b47c4c4cb5b2d68fc60b0e3cd</p><p><br></p><p>Tokens move transaction:</p><p>https://bscscan.com/tx/0x80f9cba3b305c8aa70a4b0db6c77d8c7a4bb719b7cab1927cfa101b324c5c2b2</p><p><br></p><p>Liquidity draining transactions:</p><p>https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955?a=0xf42c8f115c34f15b47c4c4cb5b2d68fc60b0e3cd</p>",
+    "name_categories": "Token",
+    "token_name": "SHOK",
+    "proof_archive_link": "https://archive.ph/XhDyy",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0xE1f41f5f11e89c674d6C6c23899f7773322756F2",
+    "token_addresses": [
+        {
+            "address": "0xE1f41f5f11e89c674d6C6c23899f7773322756F2",
+            "url": "https://bscscan.com/address/0xE1f41f5f11e89c674d6C6c23899f7773322756F2",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x1d8d44a31babfd3437ed0b60cd54eb06be6bb213",
+            "url": "https://bscscan.com/address/0x1d8d44a31babfd3437ed0b60cd54eb06be6bb213",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x8b588be91184b8f056af6790df0b27e300500bf1",
+            "url": "https://bscscan.com/address/0x8b588be91184b8f056af6790df0b27e300500bf1",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/634ffe6375bba.png",
+    "date": "2022-10-16",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1581696148196073472",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 71488,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3230,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
