@@ -1,5 +1,5 @@
 {
-    "id": 1977,
+    "id": 1341,
     "project_name": "Tidal Finance",
     "title": "Tidal Finance",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
@@ -7,9 +7,9 @@
     "token_name": "TIDAL",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0xc61cdaa8a989521205ef0d9b332b00aaf571a7ab",
+    "token_address": "0x350876094f2f6745a8be46e479fba609b45ce950",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60f5cc4b3c591.png",
+    "logo_link": "safe/files/scamDatabase/logo/60f0308155734.png",
     "date": null,
     "scam_updates": [],
     "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
@@ -39,7 +39,7 @@
     "scamNetworks": [
         {
             "networks_id": 1,
-            "scam_database_id": 1977,
+            "scam_database_id": 1341,
             "networks": {
                 "id": 1,
                 "name": "Ethereum",
