@@ -1,0 +1,51 @@
+{
+    "id": 168,
+    "project_name": "Static",
+    "title": "Static",
+    "description": "<p>The contract deployer added initial liquidity at:<br>https://etherscan.io/tx/0x34d65e026056cc5b74fc5c74f8806cff429e431eb25ad1a4757daa01085ecc95<br><br>The liquidity was locked by the contract deployer at:<br>https://etherscan.io/tx/0x6315496970d0e751109c7fd56c6af1c0ea78aea5b94aea167da2e7883d873f68<br><br>LP tokens were transferred back to the contract deployer's address by calling <u>withdraw</u>() function at:<br>https://etherscan.io/tx/0x4376c8f9200c84384a8a868f67e23976dfdb8aa8aaf294c9d8b8d84699949c52<br><br>The liquidity was removed by the contract deployer at:<br>https://etherscan.io/tx/0x70ca09fd6fde7de568a3ad085b1677d45a09ba23f7fee7d895a771a4476067dc<br><br>The tokens were sold by the contract deployer multiple times:<br>https://bloxy.info/txs/references_address/0xf443d4df8bc1361ec1f37dd34fd1debe10f3e345?argument=to&amp;signature_id=1137755<br>https://bloxy.info/txs/references_address/0xf443d4df8bc1361ec1f37dd34fd1debe10f3e345?argument=to&amp;signature_id=1102188</p>",
+    "name_categories": "Yield Aggregator",
+    "token_name": "STC",
+    "proof_archive_link": "https://archive.ph/bhYzh",
+    "technical_issue": null,
+    "token_address": "0xf006e192878146ecc5f1fdee02af19713076f862",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60d5bf254a9e7.png",
+    "date": "2021-4-30",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 24143,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": null,
+    "is_public_team": null,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 168,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
