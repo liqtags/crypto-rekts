@@ -1,0 +1,76 @@
+{
+    "id": 3341,
+    "project_name": "Hope Finance",
+    "title": "Hope Finance",
+    "description": "<p><strong>Quick Summary</strong></p><p>Hope Finance was rugpulled, with the scammer making off with approximately 1,860,000 $USD worth of $ETH&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Hope Finance is DeFi protocol on the Arbitrum layer-2 chain. The protocol launched an algorithmic token $HOPE pegged to $ETH. The Hope ecosystem contains $HOPE, $DREAM, and $WISH tokens. The protocol was rugpulled by an EOA address that used a multisig wallet to modify the TradingHelper contract's router, so when SwapWETH sends the funds directly to the attacker's address instead of performing a normal swap. <span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>The attacker drained 1,095 $ETH which is worth approximately 1,860,000 $USD. All the stolen funds were transferred to the Ethereum chain through Celer and UniSwap and then to Tornado Cash using three addresses.</span></p><p><span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>According to the project's official Twitter, the possible scammer was identified as Ugwoke Pascal Chukwuebuka, also the photo with the ID of the scammer was published in the same tweet.</span></p><p>Web3 Security company Cognitos had audited Hope Finance's smart contracts. Cognitos reported that audited smart contracts and deployed ones are not the same.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker addresses:</p><p>https://arbiscan.io/address/0x4481a3539be6c2dedf7a71b77e93bf44b64a9113</p><p>https://arbiscan.io/address/0xdfcb9a03fbe9f616ee6827cd1b753238d53c6145</p><p><br></p><p>Malicious transaction:</p><p>https://arbiscan.io/tx/0xc9ee5ed274a788f68a1e19852ccaadda7caa06e2070f80efd656a2882d6b77eb</p><p><br></p><p>Addresses used for TornadoCash transfer:</p><p>https://etherscan.io/address/0x957D354d853a1FF03dDa608F3577d24eA18fCecE</p><p>https://etherscan.io/address/0xB83dD80d040C0AB2cd9495E748915275713120a5</p><p>https://etherscan.io/address/0x43B89dE77189b53f93BfF1c6DF8d3d6Fb97BA688</p>",
+    "name_categories": "Stablecoin",
+    "token_name": "HOPE",
+    "proof_archive_link": "https://archive.ph/4uopK, https://archive.ph/wlwD7, https://archive.ph/JT7M8, https://archive.ph/LnZFO",
+    "technical_issue": null,
+    "token_address": "https://arbiscan.io/token/0xb43f563956FDFdB948CD76A55DA267042Fa6c805",
+    "token_addresses": [
+        {
+            "address": "0xb43f563956FDFdB948CD76A55DA267042Fa6c805",
+            "url": "https://arbiscan.io/token/0xb43f563956FDFdB948CD76A55DA267042Fa6c805",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x1fc2ac2651e1959d9ae86c6b2270aaf3d799e56c",
+            "url": "https://arbiscan.io/address/0x1fc2ac2651e1959d9ae86c6b2270aaf3d799e56c",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0x56d3b49e934905a1946b31dbd756714cd844ec5e",
+            "url": "https://arbiscan.io/address/0x56d3b49e934905a1946b31dbd756714cd844ec5e",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/63f531cde3529.jpg",
+    "date": "2023-2-20",
+    "scam_updates": [],
+    "proof_link": "https://cryptopotato.com/largest-exit-scam-on-arbitrum-hope-finance-drained-for-2m/, https://blockchainreporter.net/defi-protocol-hope-finance-loses-2m-in-hack-as-scammer-claims-ownership-of-entire-genesis-protocol/, https://twitter.com/BeosinAlert/status/1627931397695614977, https://twitter.com/Hope_fin/status/1627798681121333249?cxt=HHwWgoCxodWRjZctAAAA",
+    "website_link": "http://hopefinance.xyz/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/Hope_fin",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1860000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3341,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
