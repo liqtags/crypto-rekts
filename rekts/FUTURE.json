@@ -1,18 +1,18 @@
 {
-    "id": 920,
+    "id": 540,
     "project_name": "FUTURE",
     "title": "FUTURE",
     "description": "<p>The contract owner could disable the transfer function, which restricted users in selling their tokens.</p>",
     "name_categories": "Token",
-    "token_name": "FUTURE",
+    "token_name": "FTR",
     "proof_archive_link": null,
     "technical_issue": null,
-    "token_address": "0x6115a3f21199a302c14d4a3fd5185d98dfc18085",
+    "token_address": "0x772260b8b04f4278e0b972f77ef37055d7f7ccca",
     "token_addresses": [],
-    "logo_link": "safe/files/scamDatabase/logo/60eecffa02afe.png",
-    "date": "2021-5-26",
+    "logo_link": "safe/files/scamDatabase/logo/60eca1df3e31c.png",
+    "date": null,
     "scam_updates": [],
-    "proof_link": "https://twitter.com/Token_Sniffer/status/1381346761566916614, https://cryptot3ddybear.gitlab.io/blog/posts/scam-explained-bsc-stealthy-lp-block/",
+    "proof_link": "https://twitter.com/Token_Sniffer/status/1374999601485291522",
     "website_link": null,
     "webarchive_link": null,
     "twitter_link": null,
@@ -38,12 +38,12 @@
     "network": {},
     "scamNetworks": [
         {
-            "networks_id": 56,
-            "scam_database_id": 920,
+            "networks_id": 1,
+            "scam_database_id": 540,
             "networks": {
-                "id": 56,
-                "name": "Binance",
-                "icon_link": "safe/files/network/bsc.png"
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
             }
         }
     ],
