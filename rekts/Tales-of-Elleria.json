@@ -1,0 +1,68 @@
+{
+    "id": 3504,
+    "project_name": "Tales of Elleria",
+    "title": "Tales of Elleria",
+    "description": "<p><strong>Quick Summary</strong></p><p>19th of the April 2023 TalesofElleria was exploited for about &nbsp;$280,000 USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The exploiter minted 5,000,000,000 $ELM and drained the LP, looks like the private key or signing method was compromised. The attacker bridged 140 $ETH to Ethereum and transferred them to FixedFloat. He made 4 transactions to withdraw $ELM from the bridge. Findings suspect that Ecrecover Function allowed the attacker to generate authorization signatures without TalesofElleria private keys.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Exploited contract:</p><p>https://arbiscan.io/address/0xfcd201954072545e2d12b90785e0e912ed7cc2b9</p><p><br></p>",
+    "name_categories": "Gaming / Metaverse,Token",
+    "token_name": "ELM",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0x45d55eadf0ed5495b369e040af0717eafae3b731",
+    "token_addresses": [
+        {
+            "address": "0x45d55eadf0ed5495b369e040af0717eafae3b731",
+            "url": "https://arbiscan.io/address/0x45d55eadf0ed5495b369e040af0717eafae3b731",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        },
+        {
+            "address": "0xfcd201954072545e2d12b90785e0e912ed7cc2b9",
+            "url": "https://arbiscan.io/address/0xfcd201954072545e2d12b90785e0e912ed7cc2b9",
+            "network": {
+                "id": 42161,
+                "icon_link": "safe/files/network/involved/arbitrum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64428a62111cf.jpg",
+    "date": "2023-4-19",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/DeDotFiSecurity/status/1648907724879478784",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 280000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 9,
+        "type": "Access Control"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3504,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": []
+}
