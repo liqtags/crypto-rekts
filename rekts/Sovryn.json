@@ -1,0 +1,60 @@
+{
+    "id": 3209,
+    "project_name": "Sovryn",
+    "title": "Sovryn",
+    "description": "<p><strong>Quick Summary</strong></p><p>Sovryn Protocol's RBTC and USDT lending pools have been exploited by price manipulation. The attacker profited for 1,078,000 $USDT worth of assets as $RBTC and $USDT.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>Sovryn is the protocol that provides trading and lending opportunities on the Layer 2 Bitcoin-based RSK chain. The protocol's $RBTC and $USDT lending pools were exploited and the attacker took away 44,93 $RBTC and 211,045 $USDT. The attacker exploited price calculation logic to withdraw more $RBTC than usual. Devs managed to recover roughly half of the stolen assets through a combined effort at the moment.&nbsp;</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker address:</p><p>https://explorer.rsk.co/address/0xc92ebecda030234c10e149beead6bba61197531a</p><p><br></p><p>Malicious contract:</p><p>https://blockscout.com/rsk/mainnet/address/0xA893cdcb731aE8F91cb50f51f28980cDba96b0A6</p><p><br></p><p>Malicious transaction example:</p><p>https://explorer.rsk.co/tx/0xf5ea6266a56f4e0135b73f63050afca7146bc940ac73da8b5fade9d8031582e2</p>",
+    "name_categories": "Borrowing and Lending,Exchange (DEX)",
+    "token_name": "SOV",
+    "proof_archive_link": "https://archive.is/uH7wC",
+    "technical_issue": null,
+    "token_address": "https://explorer.rsk.co/address/0xefc78fc7d48b64958315949279ba181c2114abbd",
+    "token_addresses": [
+        {
+            "address": "0x5a0D867E0D70FCc6ADe25c3f1B89d618b5B4EaA7",
+            "url": "https://blockscout.com/rsk/mainnet/address/0x5a0D867E0D70FCc6ADe25c3f1B89d618b5B4EaA7",
+            "network": {
+                "id": 1,
+                "icon_link": "safe/files/network/involved/ethereum.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6343f95a91283.png",
+    "date": "2022-10-4",
+    "scam_updates": [],
+    "proof_link": "https://www.sovryn.app/blog/interim-exploit-update, https://twitter.com/BeosinAlert/status/1578375809001091074",
+    "website_link": "https://live.sovryn.app/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/SovrynBTC",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1078194,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": 539097,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600017,
+            "scam_database_id": 3209,
+            "networks": {
+                "id": 1666600017,
+                "name": "RSK",
+                "icon_link": "safe/files/network/rsk.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
