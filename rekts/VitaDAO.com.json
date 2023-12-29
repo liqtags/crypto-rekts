@@ -1,0 +1,51 @@
+{
+    "id": 346,
+    "project_name": "VitaDAO.com",
+    "title": "VitaDAO.com",
+    "description": "<p><strong>Quick Summary</strong></p><p>The VitaDAO.com project was a honeypot on the Ethereum network that caused investors approx. 626k. The project has taken down all of its online presence.&nbsp;</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The VitaDAO.com project was a honeypot, which meant that the contract owner could disable the transfer function, which restricted users in selling their tokens. The embedded function in the contract implies that this project was solely launched for the purpose of exploiting investors.<br>The contract deployer added initial liquidity, hereby investing $ETH 99 at:<br>https://etherscan.io/tx/0x4254f2a1f8137f3303a743ca9db97e255171af53f2178bcefe2a135f1c60e0eb</p><p>The marketing for this project must had been top notch since only 8 hours after adding initial liquidity, the project deployer started the exploit.</p><p>The contract deployer invoked the <u>_mint()</u> function twice in order to obtain additional tokens on his address:<br>https://etherscan.io/tx/0xd08d956fae5187e5aacf3593217dd2fb889b2d9be2ec461b9a5920ccb7f9b560<br>https://etherscan.io/tx/0x72995725cb876dbb89b566ae53b1cd4d7bca7cb265cf43c3888ef2b8725df037</p><p>In order to ensure that the community would not be able to react quickly to the dump that was planned ahead, the contract deployer locked the liquidity in the pool.</p><p><br></p><p>The contract deployer proceeded to dump the newly minted tokens for $ETH 389 in total:<br>https://etherscan.io/tx/0xaa4682560159362d1f804c8dbe55a83e4783d19af125d39c6b87048c1f137b25<br>https://etherscan.io/tx/0xdb275fd6696d164288c599842c11a40fdd81a6dc849a57cff2e4ccce3d4439ef</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Contract Deployer (Scammer) address:</p><p>https://etherscan.io/address/0x5c55d01c716fed96834806e8f7688767fc019c6d</p><p>Locked liquidity transaction:</p><p>https://etherscan.io/tx/0x0652ed44e3f9fbf00f90b6b4d708969055ef939dbc59b65fb68ff1a80bb6384d</p>",
+    "name_categories": "Token",
+    "token_name": "VITA",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "https://etherscan.io/token/0x3acca56d95961e6100b0f264794bb1e18ec25824",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/60e6ccfcbf5da.png",
+    "date": "2021-6-19",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 626595,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 7,
+        "type": "Honeypot"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1,
+            "scam_database_id": 346,
+            "networks": {
+                "id": 1,
+                "name": "Ethereum",
+                "icon_link": "safe/files/network/ethereum.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
