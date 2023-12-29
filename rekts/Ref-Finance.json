@@ -1,0 +1,51 @@
+{
+    "id": 2741,
+    "project_name": "Ref Finance",
+    "title": "Ref Finance",
+    "description": "<p>On August 14 at around 11 am UTC, the Ref Finance dev team deployed a hotfix to an issue surrounding the Ref Finance contracts. Prior to the fix, users that unstaked all of their tokens from the farm contract were unable to remove the deposited liquidity from the pool. This occurred due to the users\u2019 NEAR account being unregistered from the LP token contract, a feature unique to NEAR tokens that generally aids the user experience.<br><br>While the hotfix solved that issue, it contained a new issue that did not debit users\u2019 LP token balances when they removed liquidity. This allowed a small number of users to continuously remove tokens, receiving far more tokens than they should have.<br><br>In total, 507,000 NEAR and ~1 million REF tokens were withdrawn using this exploit. Over 400,000 of the NEAR were sent to Binance and Huobi.</p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "REF",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/61bcba19a30bc.jpeg",
+    "date": "2021-8-15",
+    "scam_updates": [],
+    "proof_link": "https://ref-finance.medium.com/a-post-mortem-on-the-ref-finance-exploit-what-happened-9f6140bafde6",
+    "website_link": "https://app.ref.finance/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/finance_ref",
+    "telegram_link": "https://t.me/ref_finance",
+    "our_post_link": null,
+    "funds_lost": 3202539,
+    "funds_returned": 3202539,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": "https://discord.com/invite/RefFinance",
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600004,
+            "scam_database_id": 2741,
+            "networks": {
+                "id": 1666600004,
+                "name": "Near",
+                "icon_link": "safe/files/network/near.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
