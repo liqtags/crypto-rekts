@@ -1,0 +1,68 @@
+{
+    "id": 2792,
+    "project_name": "Finiko",
+    "title": "Finiko",
+    "description": "<p><strong>Quick Summary</strong></p><p>Finiko company which offers Bitcoin investment opportunities and huge return fees turns out to be a Ponzi scheme. The founders of the company were arrested. Finiko accumulated funds close to 1,500,000,000 $USD due to an investigation from Chainalysis.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The company, named Finiko, offered lucrative investment options using a network of promoters who pulled in new users for referral fees. Investors were supposed to put in bitcoin and get the native token of Finiko in return.</p><p>About 100 people reported Finiko to the police, officials said, and the amount of claims totaled around 70 million Russian rubles, or slightly less than $1 million. The project<span style='color: rgb(65, 65, 65); font-family: \"Open Sans\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>&nbsp;accumulated 59,645 $BTC which is valued at more than 1,500,000,000 $USD due to an investigation from Chainalysis.</span></p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer addresses:</p><p>https://www.blockchain.com/btc/address/328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk</p><p>https://www.blockchain.com/btc/address/1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5</p><p><br></p><p>Full list of the involved addresses:</p><p>https://archive.ph/8m2yG</p>",
+    "name_categories": "CeFi",
+    "token_name": null,
+    "proof_archive_link": "https://archive.ph/8m2yG, https://archive.ph/4Wksf",
+    "technical_issue": null,
+    "token_address": null,
+    "token_addresses": [
+        {
+            "address": "328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk",
+            "url": "https://www.blockchain.com/btc/address/328zFd28B4WpdGwuDSnYw7BAEtZQc41Lrk",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        },
+        {
+            "address": "1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5",
+            "url": "https://www.blockchain.com/btc/address/1KDqdout1md6fJBDo3LqRdAuiqjw8Twxn5",
+            "network": {
+                "id": 1666600016,
+                "icon_link": "safe/files/network/other.png"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/61e84eb609242.jpeg",
+    "date": "2021-7-5",
+    "scam_updates": [],
+    "proof_link": "https://blog.chainalysis.com/reports/eastern-europe-cryptocurrency-geography-report-2021-preview/",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/finiko_ru",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 1500000000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 0,
+    "is_public_team": 1,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 1666600003,
+            "scam_database_id": 2792,
+            "networks": {
+                "id": 1666600003,
+                "name": "Centralized",
+                "icon_link": "safe/files/network/cex.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
