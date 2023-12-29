@@ -1,0 +1,76 @@
+{
+    "id": 3241,
+    "project_name": "BTDOG",
+    "title": "BTDOG",
+    "description": "<p><strong>Quick Summary</strong></p><p>BTDOG token was rugpulled. The admin of the project's staking contract sends 9,000,000 $BTDOG tokens to an EOA address which drained the liquidity.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>BTDOG is a BEP20 token trading on PancakeSwap. The project's staking contract was used to transfer 9,000,000 $BTDOG tokens to an EOA address which drained liquidity for the total amount of 156,844 $USD.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Scammer address:</p><p>https://bscscan.com/address/0x152bdb3145a5b9c60d9f46babce165aff65c5be8</p><p><br></p><p>Privileged address:</p><p>https://bscscan.com/address/0xb7c207e72867cf1107c42aeacb540c9e5f195dea</p><p><br></p><p>Staking contract:</p><p>https://bscscan.com/address/0x4f4504bdaf1efabaf957c9f7366bb977c85986d9</p><p><br></p><p>Transfer transactions:</p><p>https://bscscan.com/tx/0x2c9dac9660fff1d37573bd54275f7c5679a4caafbd1d61b721566882908d0de8</p><p>https://bscscan.com/tx/0x7989d1173566fca784d19da4d0829ad4f9f3c2e485e79a98927543ef7baf66b3</p>",
+    "name_categories": "Token",
+    "token_name": "BTDOG",
+    "proof_archive_link": "https://archive.ph/6sI92",
+    "technical_issue": null,
+    "token_address": "https://bscscan.com/token/0x3e7960A0Cd30Dfde3C57E071936b98c7E98c8303",
+    "token_addresses": [
+        {
+            "address": "0x3e7960A0Cd30Dfde3C57E071936b98c7E98c8303",
+            "url": "https://bscscan.com/address/0x3e7960A0Cd30Dfde3C57E071936b98c7E98c8303",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0xE072e0B239Ffb0b22EA258b6ca4BFCAFa9ed4752",
+            "url": "https://bscscan.com/address/0xE072e0B239Ffb0b22EA258b6ca4BFCAFa9ed4752",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        },
+        {
+            "address": "0x4f4504bdaf1efabaf957c9f7366bb977c85986d9",
+            "url": "https://bscscan.com/address/0x4f4504bdaf1efabaf957c9f7366bb977c85986d9#code",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/6357faededb2c.png",
+    "date": "2022-10-22",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/CertiKAlert/status/1583905456300269568",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 156844,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3241,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
