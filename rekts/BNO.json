@@ -1,0 +1,60 @@
+{
+    "id": 3605,
+    "project_name": "BNO",
+    "title": "BNO",
+    "description": "<p><strong>Quick Summary</strong></p><p>BNO Pool was exploited due to incorrect reward calculation, resulting in a loss of 504,217 $USD.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>The BNO pool, which supports both ERC20 and NFT staking, fell victim to an exploit. The attacker exploited an incorrect reward calculation issue and was able to drain the pool for 504,217 $USD. The exploit was executed in two transactions. In the first transaction, the attacker drained over 700,000 $BNO tokens from the pool. The second transaction drained an additional 700,000 $BNO tokens, which were subsequently sold on PancakeSwap for $USDT.</p><p><br></p><p><strong>Block Data Reference</strong></p><p>Attacker Address:</p><p>https://bscscan.com/address/0xA6566574eDC60D7B2AdbacEdB71D5142cf2677fB</p><p><br></p><p>Funds Holder Address: https://bscscan.com/address/0xdc109426972ae14d5b3d7e91b47d42ff1fd3c8cc</p><p><br></p><p>Malicious Transaction:</p><p>https://bscscan.com/tx/0x33fed54de490797b99b2fc7a159e43af57e9e6bdefc2c2d052dc814cfe0096b9</p><p>https://bscscan.com/tx/0x16d75e421ebf7a21737b6c5d7cea1c5274d315b95a1d5db5841fd7194876cc31</p><p><br></p><p>Malicious Contract Address:</p><p>https://bscscan.com/address/0xd138b9a58d3e5f4be1cd5ec90b66310e241c13cd</p>",
+    "name_categories": "Token",
+    "token_name": "BNO",
+    "proof_archive_link": "https://archive.ph/MUfXG",
+    "technical_issue": null,
+    "token_address": "0xa4dbc813f7e1bf5827859e278594b1e0ec1f710f",
+    "token_addresses": [
+        {
+            "address": "0xdca503449899d5649d32175a255a8835a03e4006",
+            "url": "https://bscscan.com/address/0xdca503449899d5649d32175a255a8835a03e4006",
+            "network": {
+                "id": 56,
+                "icon_link": "safe/files/network/involved/bsc.svg"
+            }
+        }
+    ],
+    "logo_link": "safe/files/scamDatabase/logo/64b837b35a1fa.png",
+    "date": "2023-7-18",
+    "scam_updates": [],
+    "proof_link": "https://twitter.com/peckshield/status/1681107527956860929",
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 504217,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3605,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
