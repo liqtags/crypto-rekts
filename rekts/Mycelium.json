@@ -1,0 +1,61 @@
+{
+    "id": 3337,
+    "project_name": "Mycelium",
+    "title": "Mycelium",
+    "description": "<p><strong>Quick Summary</strong></p><p>Mycelium ETH/USDT pool suffered a loss of ~300K due to an arbitrage bot attack.</p><p><br></p><p><strong>Details of the Exploit</strong></p><p>An attack by arbitrage bots caused a loss of around $300,000 to the Mycelium ETH/USDT pool. The bots identified a significant price difference in the ETH prices on the platform and took advantage of the liquidity. This price discrepancy was due to the highly volatile ETH/USDT trading pair price, which was broadcasted by the Bitfinex API at approximately 02:45 AM AEST time. Meanwhile, Binance disrupted the system by blocking the US-related IP used by Mycelium, which prevented the system from rebalancing the price independently.</p><p><br></p>",
+    "name_categories": "Exchange (DEX)",
+    "token_name": "MYC",
+    "proof_archive_link": null,
+    "technical_issue": null,
+    "token_address": "0xc74fe4c715510ec2f8c61d70d397b32043f55abe",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/63ee0ca326a23.jpg",
+    "date": "2023-1-7",
+    "scam_updates": [],
+    "proof_link": "https://quillaudits.medium.com/mycelium-eth-usdt-pool-suffered-a-loss-of-300k-b8db68be980b, https://thenewscrypto.com/mycelium-liquidity-pool-suffers-loss-due-to-issues-with-price-feed/",
+    "website_link": "https://mycelium.xyz/",
+    "webarchive_link": null,
+    "twitter_link": "https://twitter.com/mycelium_xyz?",
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 300000,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": 0,
+    "is_verified_source_code": 0,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 19,
+        "type": "Other"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 42161,
+            "scam_database_id": 3337,
+            "networks": {
+                "id": 42161,
+                "name": "Arbitrum",
+                "icon_link": "safe/files/network/arbitrum.jpg"
+            }
+        }
+    ],
+    "auditedBy": [
+        {
+            "audit_link": "safe/files/audit/pdf/Sigma_Prime_PoolsV2_Audit.pdf",
+            "date": "2022-05-01T00:00:00.000Z",
+            "partner": {
+                "id": 45,
+                "name": "Sigma Prime",
+                "logo_link": "safe/files/partner/logo/60df24d4caec7.png"
+            }
+        }
+    ]
+}
