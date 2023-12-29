@@ -1,0 +1,51 @@
+{
+    "id": 3104,
+    "project_name": "GST Token",
+    "title": "GST Token",
+    "description": "<p style=\"margin:0cm;background:white;\"><strong>Quick Summary</strong></p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\">The token creator of the GST token rugpulled the project and made off with a profit of 507 $BNB.</p><p style=\"margin:0cm;background:white;box-sizing: border-box;font-variant-ligatures: normal;  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;  text-decoration-thickness: initial;text-decoration-style: initial;text-decoration-color: initial;  word-spacing:0px;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Details of the Exploit</strong></p><p style=\"margin:0cm;background:white;\"><a href=\"https://www.youtube.com/watch?v=U4xMcd_1mKY\" rel=\"noreferrer noopener\" target=\"_blank\"></a></p><p style=\"margin:0cm;background:white;\">Assumedly in an attempt to make the project look legit the token creator send 222m $GST token to the FTX exchange in time of deploying token:</p><p style=\"margin:0cm;background:white;\">https://www.bscscan.com/tx/0x4ec845228e72222c35ab2580e7b7efb3fb6ef70273343f29e7c17a85b37a699c </p><p style=\"margin:0cm;background:white;\">The token creator proceeded to establish a liquidity pool on PancakeSwap, bootstrapped with 100 $BNB and 666m $GST token:</p><p style=\"margin:0cm;background:white;\">https://www.bscscan.com/tx/0x557d4b8812a73ac7875f3aaea73fd8558ae5ce02bf5826e37d4e8caca06db6d8</p><p style=\"margin:0cm;background:white;\">After an acceptable price appreciation the token creator dumped the $GST token against $WBNB through various self-destructible smart contracts;</p><p style=\"margin:0cm;background:white;\">1) https://bscscan.com/tx/0x57c002996cb14377c6c77903b90f725a7a12e9fba0d7ffd46b8e2772e0a7b557</p><p style=\"margin:0cm;background:white;\">2) https://bscscan.com/tx/0xb4378d63c50c9145e35353f6dead5cf8c08291326beadbe65610dae92c21977b</p><p style=\"margin:0cm;background:white;\">3) https://bscscan.com/tx/0x962bf971be65df81c4af98cff1f2b97a2926c4301937c06252f158becaa3287e</p><p style=\"margin:0cm;background:white;\">The token creator received 607 $BNB in total from these transactions. The funds have since been funneled through a plethora of wallets seemingly to finance new scam projects.</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\"><strong>Block Data Reference</strong></p><p style=\"margin:0cm;background:white;\">Token creator wallet address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0x1155d95a8c38e94a2204f3e8a311a47b05c9fee1</p><p style=\"margin:0cm;background:white;\"><br></p><p style=\"margin:0cm;background:white;\">Subset of associated wallet address:</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0xe9b887d3b00b755e93b6e9c4de88093d6031fffe</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0x3df944e56d0ac6ffa882bbf69174398d7d2de4f3</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0x2d9bb24814399cb8b16006dcd538304cb9a3312a</p><p style=\"margin:0cm;background:white;\">https://bscscan.com/address/0x48cdad96c9b802e2dae7aa162727aa208cb2fb65</p>",
+    "name_categories": "Token",
+    "token_name": "GST",
+    "proof_archive_link": "https://web.archive.org/web/20220726151610/https://twitter.com/CertiKAlert/status/1549725218356297731",
+    "technical_issue": null,
+    "token_address": "0xfce07A79058a7817449193be2e5031c96f98f10a",
+    "token_addresses": [],
+    "logo_link": "safe/files/scamDatabase/logo/62dfdd123d0b4.png",
+    "date": "2022-7-20",
+    "scam_updates": [],
+    "proof_link": null,
+    "website_link": null,
+    "webarchive_link": null,
+    "twitter_link": null,
+    "telegram_link": null,
+    "our_post_link": null,
+    "funds_lost": 130943,
+    "funds_returned": 0,
+    "funds_by_chains": [],
+    "funds_recovered": null,
+    "active": 1,
+    "git_hub": null,
+    "git_hub_contract_link": null,
+    "discord": null,
+    "bug_bounty_program_link": null,
+    "bug_bounty_program_company": null,
+    "audit_code_conf": null,
+    "is_verified_source_code": 1,
+    "is_public_team": 0,
+    "scam_type": {
+        "id": 10,
+        "type": "Rugpull"
+    },
+    "network": {},
+    "scamNetworks": [
+        {
+            "networks_id": 56,
+            "scam_database_id": 3104,
+            "networks": {
+                "id": 56,
+                "name": "Binance",
+                "icon_link": "safe/files/network/bsc.png"
+            }
+        }
+    ],
+    "auditedBy": []
+}
